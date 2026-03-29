@@ -176,7 +176,11 @@ function galleryCardHtml(post) {
   } else if (post.twitter_url) {
     imgBlock = `<div class="gallery-img-wrap gallery-twitter-placeholder"><span class="twitter-placeholder-icon">𝕏</span></div>`;
   }
-  return `<a class="gallery-card" href="${BASE_PATH}/gallery/${post.slug}.html">
+  // 纯推特条目（无本地图片+有推特链接）直接跳转到推特，不绕详情页
+  const isTwitterOnly = !post.image && post.twitter_url;
+  const cardHref = isTwitterOnly ? post.twitter_url : `${BASE_PATH}/gallery/${post.slug}.html`;
+  const targetAttr = isTwitterOnly ? ' target="_blank" rel="noopener noreferrer"' : '';
+  return `<a class="gallery-card" href="${cardHref}"${targetAttr}>
   ${imgBlock}
   <div class="gallery-info">
     <div class="post-title">${post.title || '无标题'}</div>
