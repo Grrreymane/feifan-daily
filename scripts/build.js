@@ -256,7 +256,11 @@ function postDetailPageHtml(post, category) {
   const tags = (post.tags || []).map(t => `<span class="post-tag">${t}</span>`).join('');
   // Remove the first h1 heading from content (already shown in article header)
   const contentWithoutTitle = post.content.replace(/^#\s+.+\n*/m, '');
-  const htmlContent = renderMarkdown(contentWithoutTitle);
+  let htmlContent = renderMarkdown(contentWithoutTitle);
+  // Add BASE_PATH prefix to relative image src paths (e.g. /images/...)
+  if (BASE_PATH) {
+    htmlContent = htmlContent.replace(/(<img[^>]+src=")\/(?!\/)/g, `$1${BASE_PATH}/`);
+  }
   const body = `
     <a class="back-link" href="${BASE_PATH}/${category}/">← ${catInfo.name}</a>
     <article>
