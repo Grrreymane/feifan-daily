@@ -1,0 +1,19 @@
+{
+  "name": "feifan-daily",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "node scripts/build.js",
+    "serve": "node scripts/serve.js",
+    "dev": "node scripts/build.js && node scripts/serve.js",
+    "import": "node scripts/import.js"
+  },
+  "keywords": ["daily-briefing", "static-site"],
+  "author": "非凡",
+  "license": "ISC",
+  "description": "非凡像素 - 每日简报 & 深度文章静态网站",
+  "dependencies": {
+    "gray-matter": "^4.0.3",
+    "marked": "^17.0.5"
+  }
+}
