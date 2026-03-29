@@ -135,6 +135,7 @@ function htmlShell(title, body, activeNav = '') {
   <footer class="site-footer">
     非凡像素 © ${new Date().getFullYear()} · 用理解代替恐惧
   </footer>
+  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </body>
 </html>`;
 }
@@ -168,8 +169,9 @@ function postListPageHtml(cat, posts) {
 function galleryCardHtml(post) {
   const tags = (post.tags || []).map(t => `<span class="post-tag">${t}</span>`).join('');
   const imgSrc = post.image ? `${BASE_PATH}/images/gallery/${post.image}` : '';
+  const twitterBadge = post.twitter_url ? '<span class="twitter-badge">𝕏</span>' : '';
   return `<a class="gallery-card" href="${BASE_PATH}/gallery/${post.slug}.html">
-  ${imgSrc ? `<div class="gallery-img-wrap"><img src="${imgSrc}" alt="${post.title || ''}" loading="lazy"></div>` : ''}
+  ${imgSrc ? `<div class="gallery-img-wrap"><img src="${imgSrc}" alt="${post.title || ''}" loading="lazy">${twitterBadge}</div>` : ''}
   <div class="gallery-info">
     <div class="post-title">${post.title || '无标题'}</div>
     <div class="post-meta">
@@ -195,10 +197,19 @@ function galleryListPageHtml(posts) {
   return htmlShell(catInfo.name, body, 'gallery');
 }
 
+function twitterEmbedHtml(twitterUrl) {
+  if (!twitterUrl) return '';
+  return `
+    <div class="twitter-embed">
+      <blockquote class="twitter-tweet" data-theme="dark"><a href="${twitterUrl}"></a></blockquote>
+    </div>`;
+}
+
 function galleryDetailPageHtml(post) {
   const catInfo = CATEGORIES.gallery;
   const tags = (post.tags || []).map(t => `<span class="post-tag">${t}</span>`).join('');
   const imgSrc = post.image ? `${BASE_PATH}/images/gallery/${post.image}` : '';
+  const twitterSection = post.twitter_url ? twitterEmbedHtml(post.twitter_url) : '';
   const body = `
     <a class="back-link" href="${BASE_PATH}/gallery/">← ${catInfo.name}</a>
     <article class="gallery-detail">
@@ -212,6 +223,7 @@ function galleryDetailPageHtml(post) {
         ${post.description ? `<p class="article-desc">${post.description}</p>` : ''}
         ${post.artist ? `<p class="gallery-artist-detail">🎨 ${post.artist}</p>` : ''}
       </div>
+      ${twitterSection}
     </article>`;
   return htmlShell(post.title || '无标题', body, 'gallery');
 }
