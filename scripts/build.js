@@ -39,6 +39,7 @@ const CATEGORIES = {
   briefings: { name: '每日简报', emoji: '📡', slug: 'briefings', description: '科技 · 游戏 · AI 每日精选' },
   articles:  { name: '深度文章', emoji: '📝', slug: 'articles',  description: '原创观察与编译精选' },
   summaries: { name: '视频笔记', emoji: '🎬', slug: 'summaries', description: '播客 · 视频内容总结' },
+  gallery:   { name: '福瑞画廊', emoji: '🐾', slug: 'gallery',   description: '每日精选兽人艺术' },
 };
 
 // ===== Helpers =====
@@ -125,6 +126,7 @@ function htmlShell(title, body, activeNav = '') {
       <a href="${B}/briefings/"${activeNav === 'briefings' ? ' class="active"' : ''}>每日简报</a>
       <a href="${B}/articles/"${activeNav === 'articles' ? ' class="active"' : ''}>深度文章</a>
       <a href="${B}/summaries/"${activeNav === 'summaries' ? ' class="active"' : ''}>视频笔记</a>
+      <a href="${B}/gallery/"${activeNav === 'gallery' ? ' class="active"' : ''}>福瑞画廊</a>
     </nav>
   </header>
   <main class="container">
@@ -163,6 +165,57 @@ function postListPageHtml(cat, posts) {
   return htmlShell(catInfo.name, body, cat);
 }
 
+function galleryCardHtml(post) {
+  const tags = (post.tags || []).map(t => `<span class="post-tag">${t}</span>`).join('');
+  const imgSrc = post.image ? `${BASE_PATH}/images/gallery/${post.image}` : '';
+  return `<a class="gallery-card" href="${BASE_PATH}/gallery/${post.slug}.html">
+  ${imgSrc ? `<div class="gallery-img-wrap"><img src="${imgSrc}" alt="${post.title || ''}" loading="lazy"></div>` : ''}
+  <div class="gallery-info">
+    <div class="post-title">${post.title || '无标题'}</div>
+    <div class="post-meta">
+      <span class="post-date">${formatDate(post.date)}</span>
+      ${tags}
+    </div>
+    ${post.artist ? `<div class="gallery-artist">🎨 ${post.artist}</div>` : ''}
+  </div>
+</a>`;
+}
+
+function galleryListPageHtml(posts) {
+  const catInfo = CATEGORIES.gallery;
+  const cards = posts.map(p => galleryCardHtml(p)).join('\n');
+  const body = `
+    <div class="page-header">
+      <h1>${catInfo.emoji} ${catInfo.name}</h1>
+      <p>${catInfo.description}</p>
+    </div>
+    <div class="gallery-grid">
+      ${cards || '<p style="color:var(--text-dim)">暂无内容，敬请期待 ✨</p>'}
+    </div>`;
+  return htmlShell(catInfo.name, body, 'gallery');
+}
+
+function galleryDetailPageHtml(post) {
+  const catInfo = CATEGORIES.gallery;
+  const tags = (post.tags || []).map(t => `<span class="post-tag">${t}</span>`).join('');
+  const imgSrc = post.image ? `${BASE_PATH}/images/gallery/${post.image}` : '';
+  const body = `
+    <a class="back-link" href="${BASE_PATH}/gallery/">← ${catInfo.name}</a>
+    <article class="gallery-detail">
+      ${imgSrc ? `<div class="gallery-detail-img"><img src="${imgSrc}" alt="${post.title || ''}"></div>` : ''}
+      <div class="article-header">
+        <div class="post-meta">
+          <span class="post-date">${formatDate(post.date)}</span>
+          ${tags}
+        </div>
+        <h1 class="article-title">${post.title || '无标题'}</h1>
+        ${post.description ? `<p class="article-desc">${post.description}</p>` : ''}
+        ${post.artist ? `<p class="gallery-artist-detail">🎨 ${post.artist}</p>` : ''}
+      </div>
+    </article>`;
+  return htmlShell(post.title || '无标题', body, 'gallery');
+}
+
 function postDetailPageHtml(post, category) {
   const catInfo = CATEGORIES[category];
   const tags = (post.tags || []).map(t => `<span class="post-tag">${t}</span>`).join('');
@@ -188,12 +241,30 @@ function postDetailPageHtml(post, category) {
 }
 
 function homePageHtml(allPosts) {
-  // Show latest posts across all categories
+  // Show latest posts across all categories (except gallery)
   const latest = allPosts
+    .filter(p => p._category !== 'gallery')
     .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
     .slice(0, 15);
   
   const cards = latest.map(p => postCardHtml(p, p._category)).join('\n');
+  
+  // Show latest gallery items
+  const galleryPosts = allPosts
+    .filter(p => p._category === 'gallery')
+    .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+    .slice(0, 6);
+  
+  const galleryCards = galleryPosts.map(p => galleryCardHtml(p)).join('\n');
+  const gallerySection = galleryPosts.length > 0 ? `
+    <div class="section-divider"></div>
+    <div class="page-header">
+      <h1>🐾 福瑞画廊</h1>
+      <p>每日精选兽人艺术 · <a href="${BASE_PATH}/gallery/" style="color:var(--accent)">查看全部 →</a></p>
+    </div>
+    <div class="gallery-grid">
+      ${galleryCards}
+    </div>` : '';
   
   const body = `
     <div class="page-header">
@@ -202,7 +273,8 @@ function homePageHtml(allPosts) {
     </div>
     <div class="post-list">
       ${cards || '<p style="color:var(--text-dim)">暂无内容，敬请期待 ✨</p>'}
-    </div>`;
+    </div>
+    ${gallerySection}`;
   return htmlShell('首页', body, 'home');
 }
 
@@ -232,17 +304,31 @@ function build() {
     // Generate list page
     const listDir = path.join(DIST_DIR, cat);
     ensureDir(listDir);
-    fs.writeFileSync(
-      path.join(listDir, 'index.html'),
-      postListPageHtml(cat, posts)
-    );
     
-    // Generate detail pages
-    for (const post of posts) {
+    if (cat === 'gallery') {
+      // Gallery uses its own grid layout
       fs.writeFileSync(
-        path.join(listDir, `${post.slug}.html`),
-        postDetailPageHtml(post, cat)
+        path.join(listDir, 'index.html'),
+        galleryListPageHtml(posts)
       );
+      for (const post of posts) {
+        fs.writeFileSync(
+          path.join(listDir, `${post.slug}.html`),
+          galleryDetailPageHtml(post)
+        );
+      }
+    } else {
+      fs.writeFileSync(
+        path.join(listDir, 'index.html'),
+        postListPageHtml(cat, posts)
+      );
+      // Generate detail pages
+      for (const post of posts) {
+        fs.writeFileSync(
+          path.join(listDir, `${post.slug}.html`),
+          postDetailPageHtml(post, cat)
+        );
+      }
     }
     
     console.log(`  ✅ ${info.name}：${posts.length} 篇`);
