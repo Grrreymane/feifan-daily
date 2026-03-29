@@ -170,8 +170,14 @@ function galleryCardHtml(post) {
   const tags = (post.tags || []).map(t => `<span class="post-tag">${t}</span>`).join('');
   const imgSrc = post.image ? `${BASE_PATH}/images/gallery/${post.image}` : '';
   const twitterBadge = post.twitter_url ? '<span class="twitter-badge">𝕏</span>' : '';
+  let imgBlock = '';
+  if (imgSrc) {
+    imgBlock = `<div class="gallery-img-wrap"><img src="${imgSrc}" alt="${post.title || ''}" loading="lazy">${twitterBadge}</div>`;
+  } else if (post.twitter_url) {
+    imgBlock = `<div class="gallery-img-wrap gallery-twitter-placeholder"><span class="twitter-placeholder-icon">𝕏</span></div>`;
+  }
   return `<a class="gallery-card" href="${BASE_PATH}/gallery/${post.slug}.html">
-  ${imgSrc ? `<div class="gallery-img-wrap"><img src="${imgSrc}" alt="${post.title || ''}" loading="lazy">${twitterBadge}</div>` : ''}
+  ${imgBlock}
   <div class="gallery-info">
     <div class="post-title">${post.title || '无标题'}</div>
     <div class="post-meta">
