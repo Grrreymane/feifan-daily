@@ -477,15 +477,60 @@ body {
   }
 }
 
-/* Twitter Embed */
-.twitter-embed {
+/* Twitter Link Card */
+.twitter-link-card {
   margin-top: 2rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--border);
 }
-.twitter-embed blockquote {
-  margin: 0 auto;
-  max-width: 550px;
+.twitter-card-inner {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.2rem 1.5rem;
+  background: linear-gradient(135deg, #0a0a1a 0%, #111827 100%);
+  border: 1px solid #2a2a4a;
+  border-radius: 12px;
+  text-decoration: none;
+  color: inherit;
+  transition: all 0.25s ease;
+}
+.twitter-card-inner:hover {
+  border-color: #6366f1;
+  background: linear-gradient(135deg, #0f0f2a 0%, #1a1f3a 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15);
+}
+.twitter-card-icon {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #fff;
+  background: #000;
+  border: 1px solid #333;
+  border-radius: 10px;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+.twitter-card-username {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #e2e8f0;
+}
+.twitter-card-action {
+  font-size: 0.85rem;
+  color: #8b8fa3;
+  margin-top: 2px;
+}
+.twitter-card-arrow {
+  margin-left: auto;
+  font-size: 1.5rem;
+  color: #6366f1;
+  font-weight: 600;
+  flex-shrink: 0;
 }
 .twitter-badge {
   position: absolute;

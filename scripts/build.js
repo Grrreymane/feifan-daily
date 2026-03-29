@@ -135,7 +135,7 @@ function htmlShell(title, body, activeNav = '') {
   <footer class="site-footer">
     非凡像素 © ${new Date().getFullYear()} · 用理解代替恐惧
   </footer>
-  <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 </body>
 </html>`;
 }
@@ -205,9 +205,22 @@ function galleryListPageHtml(posts) {
 
 function twitterEmbedHtml(twitterUrl) {
   if (!twitterUrl) return '';
+  // 从URL中提取用户名
+  const match = twitterUrl.match(/x\.com\/([^\/]+)/);
+  const username = match ? `@${match[1]}` : 'X/Twitter';
+  // 判断是否是具体帖子还是主页
+  const isPost = /\/status\/\d+/.test(twitterUrl);
+  const linkText = isPost ? '查看推文 →' : '访问主页 →';
   return `
-    <div class="twitter-embed">
-      <blockquote class="twitter-tweet" data-theme="dark"><a href="${twitterUrl}"></a></blockquote>
+    <div class="twitter-link-card">
+      <a href="${twitterUrl}" target="_blank" rel="noopener noreferrer" class="twitter-card-inner">
+        <div class="twitter-card-icon">𝕏</div>
+        <div class="twitter-card-info">
+          <div class="twitter-card-username">${username}</div>
+          <div class="twitter-card-action">${linkText}</div>
+        </div>
+        <div class="twitter-card-arrow">↗</div>
+      </a>
     </div>`;
 }
 
