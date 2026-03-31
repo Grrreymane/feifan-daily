@@ -4,7 +4,7 @@ date: "2026-03-30"
 tags: ["熊", "武士", "赛璐珞", "AI生成"]
 description: "肌肉健硕的棕熊武士，身着敞开道服手握太刀，竹林夕阳背景，竹本岚式粗线条赛璐珞着色"
 image: "2026-03-30_bear-samurai.jpg"
-artist: "AI Generated (AI Engine)"
+artist: "AI Generated"
 twitter_url: ""
 ---
 
