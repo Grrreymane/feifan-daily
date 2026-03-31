@@ -283,7 +283,7 @@ function homePageHtml(allPosts) {
   // Show latest posts across all categories (except gallery)
   const latest = allPosts
     .filter(p => p._category !== 'gallery')
-    .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+    .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
     .slice(0, 15);
   
   const cards = latest.map(p => postCardHtml(p, p._category)).join('\n');
@@ -291,7 +291,7 @@ function homePageHtml(allPosts) {
   // Show latest gallery items
   const galleryPosts = allPosts
     .filter(p => p._category === 'gallery')
-    .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
+    .sort((a, b) => new Date(b.date || 0) - new Date(a.date || 0))
     .slice(0, 6);
   
   const galleryCards = galleryPosts.map(p => galleryCardHtml(p)).join('\n');
