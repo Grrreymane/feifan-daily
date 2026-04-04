@@ -3,308 +3,212 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🐭 鼠鼠修仙 v0.3</title>
+  <title>🐭 鼠鼠修仙 v0.4</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
     * { margin: 0; padding: 0; box-sizing: border-box; }
     body {
-      background: #0a0a1a;
-      color: #e0e0e0;
+      background: #0a0a1a; color: #e0e0e0;
       font-family: 'Microsoft YaHei', 'PingFang SC', sans-serif;
-      min-height: 100vh;
-      overflow-x: hidden;
+      min-height: 100vh; overflow-x: hidden;
     }
-
-    /* === 顶部 === */
     .header {
       background: linear-gradient(180deg, #1a1a3e 0%, #0d0d2b 100%);
-      border-bottom: 3px solid #4a4a8a;
-      padding: 8px 16px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      border-bottom: 3px solid #4a4a8a; padding: 6px 16px;
+      display: flex; align-items: center; justify-content: space-between;
     }
-    .header h1 {
-      font-family: 'Press Start 2P', monospace;
-      font-size: 13px;
-      color: #ffdd57;
-      text-shadow: 2px 2px 0 #8a6d00;
+    .header h1 { font-family: 'Press Start 2P', monospace; font-size: 12px; color: #ffdd57; text-shadow: 2px 2px 0 #8a6d00; }
+    .header-right { display: flex; align-items: center; gap: 8px; }
+    .realm-badge { padding: 2px 8px; font-size: 11px; font-weight: bold; border: 2px solid; }
+    .speed-btn {
+      background: #2a2a5a; border: 1px solid #4a4a8a; color: #aaa;
+      padding: 2px 8px; font-size: 10px; cursor: pointer; min-width: 34px; text-align: center;
     }
-    .header-right { display: flex; align-items: center; gap: 10px; }
-    .realm-badge {
-      padding: 3px 10px; font-size: 12px; font-weight: bold;
-      border: 2px solid; color: #8B7355; border-color: #8B7355;
-    }
-    .btn-reset {
-      background: none; border: 1px solid #555; color: #666;
-      padding: 2px 6px; font-size: 10px; cursor: pointer;
-    }
+    .speed-btn.active { color: #ffdd57; border-color: #ffdd57; background: #3a3a5a; }
+    .speed-btn:hover { color: #fff; }
+    .btn-reset { background: none; border: 1px solid #555; color: #666; padding: 2px 6px; font-size: 10px; cursor: pointer; }
     .btn-reset:hover { color: #ff6b6b; border-color: #ff6b6b; }
-
-    /* === 主布局 === */
-    .main-container {
-      display: grid;
-      grid-template-columns: 280px 1fr 260px;
-      gap: 0;
-      height: calc(100vh - 42px);
-    }
-
-    /* === 左侧面板 + 标签页 === */
-    .left-panel {
-      background: #111128;
-      border-right: 3px solid #2a2a5a;
-      display: flex;
-      flex-direction: column;
-      overflow: hidden;
-    }
-    .tab-bar {
-      display: flex;
-      border-bottom: 2px solid #2a2a5a;
-      background: #0d0d25;
-      flex-shrink: 0;
-      flex-wrap: wrap;
-    }
+    .main-container { display: grid; grid-template-columns: 280px 1fr 260px; gap: 0; height: calc(100vh - 38px); }
+    .left-panel { background: #111128; border-right: 3px solid #2a2a5a; display: flex; flex-direction: column; overflow: hidden; }
+    .tab-bar { display: flex; border-bottom: 2px solid #2a2a5a; background: #0d0d25; flex-shrink: 0; flex-wrap: wrap; }
     .tab-btn {
-      flex: 1;
-      min-width: 42px;
-      padding: 6px 2px;
-      font-size: 13px;
-      text-align: center;
-      cursor: pointer;
-      color: #666;
-      background: none;
-      border: none;
-      border-bottom: 2px solid transparent;
-      transition: all 0.15s;
+      flex: 1; min-width: 34px; padding: 5px 1px; font-size: 12px; text-align: center;
+      cursor: pointer; color: #666; background: none; border: none;
+      border-bottom: 2px solid transparent; transition: all 0.15s;
     }
     .tab-btn:hover { color: #aaa; background: #1a1a3e; }
     .tab-btn.active { color: #ffdd57; border-bottom-color: #ffdd57; background: #1a1a3e; }
-    .tab-btn .tab-badge {
-      display: inline-block; background: #ff4444; color: #fff;
-      font-size: 9px; padding: 0 3px; border-radius: 3px; margin-left: 2px;
-    }
-    .tab-content {
-      flex: 1;
-      overflow-y: auto;
-      padding: 10px 12px;
-    }
+    .tab-content { flex: 1; overflow-y: auto; padding: 8px 10px; }
     .tab-page { display: none; }
     .tab-page.active { display: block; }
-
-    /* === 通用样式 === */
-    .stat-group { margin-bottom: 12px; }
-    .stat-group-title {
-      font-size: 11px; color: #888; letter-spacing: 2px;
-      margin-bottom: 5px; padding-bottom: 3px; border-bottom: 1px solid #2a2a5a;
-    }
-    .stat-row {
-      display: flex; justify-content: space-between; align-items: center;
-      padding: 2px 0; font-size: 12px;
-    }
+    .stat-group { margin-bottom: 10px; }
+    .stat-group-title { font-size: 10px; color: #888; letter-spacing: 2px; margin-bottom: 4px; padding-bottom: 2px; border-bottom: 1px solid #2a2a5a; }
+    .stat-row { display: flex; justify-content: space-between; align-items: center; padding: 1px 0; font-size: 11px; }
     .stat-label { color: #999; }
     .stat-value { color: #fff; font-weight: bold; }
     .stat-value.gold { color: #ffdd57; }
     .stat-value.attack { color: #ff6b6b; }
     .stat-value.defense { color: #4ecdc4; }
     .stat-value.hp-val { color: #95e86e; }
-
-    .exp-bar-bg {
-      background: #1a1a3e; border: 2px solid #3a3a6a;
-      height: 12px; position: relative; margin: 4px 0;
-    }
-    .exp-bar-fill {
-      height: 100%; background: linear-gradient(90deg, #4a9eff, #8ef);
-      transition: width 0.5s ease;
-    }
-    .exp-bar-text {
-      position: absolute; top: 0; left: 50%; transform: translateX(-50%);
-      font-size: 8px; line-height: 8px; color: #fff;
-      text-shadow: 1px 1px 0 #000; font-family: 'Press Start 2P', monospace;
-    }
-
+    .exp-bar-bg { background: #1a1a3e; border: 2px solid #3a3a6a; height: 12px; position: relative; margin: 3px 0; }
+    .exp-bar-fill { height: 100%; background: linear-gradient(90deg, #4a9eff, #8ef); transition: width 0.5s ease; }
+    .exp-bar-text { position: absolute; top: 0; left: 50%; transform: translateX(-50%); font-size: 8px; line-height: 8px; color: #fff; text-shadow: 1px 1px 0 #000; font-family: 'Press Start 2P', monospace; }
     .upgrade-btns { display: flex; flex-wrap: wrap; gap: 3px; }
     .upgrade-btn, .action-btn {
       background: #2a2a5a; border: 2px solid #4a4a8a; color: #aaa;
-      padding: 4px 8px; font-size: 11px; cursor: pointer;
-      transition: all 0.15s; text-align: center;
+      padding: 3px 6px; font-size: 10px; cursor: pointer; transition: all 0.15s; text-align: center;
     }
-    .upgrade-btn:hover, .action-btn:hover {
-      background: #3a3a7a; color: #fff; border-color: #6a6aba;
-    }
+    .upgrade-btn:hover, .action-btn:hover { background: #3a3a7a; color: #fff; border-color: #6a6aba; }
     .upgrade-btn.has-points { background: #2a4a2a; border-color: #4a8a4a; color: #95e86e; animation: pulse 1.5s infinite; }
-    .action-btn { flex: 1; min-width: 60px; }
+    .action-btn { flex: 1; min-width: 50px; }
     .action-btn.gold { border-color: #8a8a2a; color: #ffdd57; }
     .action-btn.gold:hover { background: #3a3a2a; }
     .action-btn.red { border-color: #8a2a2a; color: #ff6b6b; }
     .action-btn.danger { border-color: #ff4444; color: #ff4444; }
-    .action-btn.danger:hover { background: #441111; }
     .action-btn:disabled { opacity: 0.4; cursor: not-allowed; }
-    @keyframes pulse {
-      0%, 100% { box-shadow: 0 0 0 0 rgba(149,232,110,0.3); }
-      50% { box-shadow: 0 0 8px 2px rgba(149,232,110,0.3); }
-    }
-
-    /* 装备槽 */
+    @keyframes pulse { 0%,100% { box-shadow: 0 0 0 0 rgba(149,232,110,0.3); } 50% { box-shadow: 0 0 8px 2px rgba(149,232,110,0.3); } }
     .equip-slot-panel {
-      background: #1a1a3e; border: 1px solid #2a2a5a;
-      padding: 5px 8px; margin: 3px 0; font-size: 11px;
-      display: flex; align-items: center; gap: 6px;
-      cursor: pointer; transition: border-color 0.15s;
+      background: #1a1a3e; border: 1px solid #2a2a5a; padding: 4px 6px; margin: 2px 0; font-size: 10px;
+      display: flex; align-items: center; gap: 5px; cursor: pointer; transition: border-color 0.15s;
     }
     .equip-slot-panel:hover { border-color: #4a4a8a; }
-    .equip-slot-panel .slot-label { color: #666; min-width: 32px; }
+    .equip-slot-panel .slot-label { color: #666; min-width: 28px; }
     .equip-slot-panel .equip-name { flex: 1; }
-    .equip-slot-panel .enhance { color: #88ff88; font-size: 10px; }
-
-    /* 背包物品 */
+    .equip-slot-panel .enhance { color: #88ff88; font-size: 9px; }
     .inv-item {
-      background: #1a1a3e; border: 1px solid #2a2a5a;
-      padding: 4px 6px; margin: 2px 0; font-size: 11px;
-      display: flex; align-items: center; gap: 4px;
+      background: #1a1a3e; border: 1px solid #2a2a5a; padding: 3px 5px; margin: 2px 0; font-size: 10px;
+      display: flex; align-items: center; gap: 3px;
     }
     .inv-item .inv-name { flex: 1; }
-    .inv-item .inv-score { color: #888; font-size: 10px; margin-right: 4px; }
-    .inv-item button {
-      background: #2a2a5a; border: 1px solid #3a3a6a; color: #aaa;
-      padding: 1px 6px; font-size: 10px; cursor: pointer;
-    }
+    .inv-item .inv-score { color: #888; font-size: 9px; margin-right: 3px; }
+    .inv-item .inv-diff { font-size: 9px; margin-right: 3px; }
+    .inv-item .inv-diff.up { color: #88ff88; }
+    .inv-item .inv-diff.down { color: #ff8888; }
+    .inv-item button { background: #2a2a5a; border: 1px solid #3a3a6a; color: #aaa; padding: 1px 5px; font-size: 9px; cursor: pointer; }
     .inv-item button:hover { color: #fff; background: #3a3a7a; }
-    .inv-item button.sell-btn:hover { color: #ffdd57; }
-
-    /* 丹药/功法/灵兽卡片 */
-    .card {
-      background: #1a1a3e; border: 1px solid #2a2a5a;
-      padding: 6px 8px; margin: 4px 0; font-size: 11px;
-    }
-    .card-title { font-weight: bold; color: #ddd; margin-bottom: 3px; }
-    .card-desc { color: #888; font-size: 10px; margin-bottom: 4px; }
-    .card-info { color: #aaa; font-size: 10px; }
-    .card-actions { display: flex; gap: 3px; margin-top: 4px; }
-
-    /* 材料 */
-    .mat-row { display: inline-flex; align-items: center; gap: 4px; margin-right: 10px; font-size: 12px; }
-    .mat-icon { font-size: 14px; }
+    .card { background: #1a1a3e; border: 1px solid #2a2a5a; padding: 5px 7px; margin: 3px 0; font-size: 10px; }
+    .card-title { font-weight: bold; color: #ddd; margin-bottom: 2px; }
+    .card-desc { color: #888; font-size: 9px; margin-bottom: 3px; }
+    .card-info { color: #aaa; font-size: 9px; }
+    .card-actions { display: flex; gap: 3px; margin-top: 3px; }
+    .mat-row { display: inline-flex; align-items: center; gap: 3px; margin-right: 8px; font-size: 11px; }
+    .mat-icon { font-size: 13px; }
     .mat-val { color: #88eeff; font-weight: bold; }
-
-    /* 秘境/塔 */
     .realm-card {
-      background: #1a1a3e; border: 2px solid #2a2a5a;
-      padding: 8px; margin: 4px 0; cursor: pointer;
-      transition: all 0.15s;
+      background: #1a1a3e; border: 2px solid #2a2a5a; padding: 6px; margin: 3px 0;
+      cursor: pointer; transition: all 0.15s;
     }
     .realm-card:hover { border-color: #4a4a8a; background: #222244; }
     .realm-card.locked { opacity: 0.4; cursor: not-allowed; }
-    .realm-card .rc-name { font-weight: bold; font-size: 13px; color: #ffdd57; }
-    .realm-card .rc-desc { color: #888; font-size: 10px; margin-top: 2px; }
-
-    /* 渡劫横幅 */
+    .realm-card .rc-name { font-weight: bold; font-size: 12px; color: #ffdd57; }
+    .realm-card .rc-desc { color: #888; font-size: 9px; margin-top: 1px; }
     .trib-banner {
-      display: none;
-      background: linear-gradient(90deg, #330033, #440044, #330033);
-      border: 2px solid #ff44ff;
-      padding: 8px 12px;
-      margin-bottom: 8px;
-      text-align: center;
+      display: none; background: linear-gradient(90deg, #330033, #440044, #330033);
+      border: 2px solid #ff44ff; padding: 6px 10px; margin-bottom: 6px; text-align: center;
       animation: tribPulse 2s infinite;
     }
     .trib-banner.active { display: block; }
-    .trib-banner .trib-title { color: #ff88ff; font-weight: bold; font-size: 13px; }
-    .trib-banner .trib-info { color: #cc88cc; font-size: 11px; margin: 4px 0; }
-    @keyframes tribPulse {
-      0%,100% { box-shadow: 0 0 5px #ff44ff; }
-      50% { box-shadow: 0 0 15px #ff44ff; }
+    .trib-banner .trib-title { color: #ff88ff; font-weight: bold; font-size: 12px; }
+    .trib-banner .trib-info { color: #cc88cc; font-size: 10px; margin: 3px 0; }
+    @keyframes tribPulse { 0%,100% { box-shadow: 0 0 5px #ff44ff; } 50% { box-shadow: 0 0 15px #ff44ff; } }
+    /* 死亡横幅 */
+    .death-banner {
+      display: none; background: linear-gradient(90deg, #330000, #440000, #330000);
+      border: 2px solid #ff4444; padding: 8px 12px; margin-bottom: 6px; text-align: center;
+      animation: deathPulse 1.5s infinite;
     }
-
-    /* Buff指示器 */
-    .buff-bar { display: flex; gap: 4px; flex-wrap: wrap; margin: 4px 0; }
-    .buff-tag {
-      background: #2a4a2a; border: 1px solid #4a8a4a; color: #95e86e;
-      padding: 1px 6px; font-size: 10px; border-radius: 2px;
+    .death-banner.active { display: block; }
+    .death-banner .death-title { color: #ff8888; font-weight: bold; font-size: 13px; }
+    .death-banner .death-info { color: #cc8888; font-size: 11px; margin-top: 3px; }
+    @keyframes deathPulse { 0%,100% { box-shadow: 0 0 5px #ff4444; } 50% { box-shadow: 0 0 12px #ff4444; } }
+    /* 连杀计数 */
+    .streak-indicator {
+      display: none; position: absolute; top: 5px; left: 50%; transform: translateX(-50%);
+      font-family: 'Press Start 2P', monospace; font-size: 10px; color: #ffdd57;
+      text-shadow: 1px 1px 2px #000; z-index: 10; pointer-events: none;
     }
+    .streak-indicator.active { display: block; }
+    /* DPS指示器 */
+    .dps-indicator {
+      position: absolute; bottom: 8px; left: 50%; transform: translateX(-50%);
+      font-size: 10px; color: #aaa; z-index: 10; pointer-events: none;
+      font-family: 'Press Start 2P', monospace;
+    }
+    .buff-bar { display: flex; gap: 3px; flex-wrap: wrap; margin: 3px 0; }
+    .buff-tag { background: #2a4a2a; border: 1px solid #4a8a4a; color: #95e86e; padding: 1px 5px; font-size: 9px; border-radius: 2px; }
     .buff-tag.atk { background: #4a2a2a; border-color: #8a4a4a; color: #ff8888; }
     .buff-tag.crit { background: #4a4a2a; border-color: #8a8a4a; color: #ffff88; }
-
-    /* === 中央战斗区 === */
+    .buff-tag.auto-heal { background: #2a3a2a; border-color: #4a6a4a; color: #88cc88; }
+    .buff-tag.dot { background: #3a2a3a; border-color: #6a4a6a; color: #cc88cc; }
     .battle-area { position: relative; background: #0d0d2b; overflow: hidden; }
-    #battleCanvas {
-      display: block; width: 100%; height: 100%;
-      image-rendering: pixelated; image-rendering: -moz-crisp-edges; image-rendering: crisp-edges;
-    }
-
-    /* === 右侧日志 === */
+    #battleCanvas { display: block; width: 100%; height: 100%; image-rendering: pixelated; image-rendering: -moz-crisp-edges; }
     .right-panel {
       background: #111128; border-left: 3px solid #2a2a5a;
-      padding: 10px; display: flex; flex-direction: column;
+      padding: 8px; display: flex; flex-direction: column;
     }
-    .log-title {
-      font-size: 11px; color: #888; letter-spacing: 2px;
-      margin-bottom: 5px; padding-bottom: 3px; border-bottom: 1px solid #2a2a5a;
-    }
-    .battle-log { flex: 1; overflow-y: auto; font-size: 11px; line-height: 1.6; }
-    .battle-log p { padding: 2px 0; border-bottom: 1px solid #1a1a2e; color: #aaa; }
-    .stats-summary {
-      margin-top: 8px; padding-top: 6px;
-      border-top: 1px solid #2a2a5a; font-size: 11px; color: #666; line-height: 1.8;
-    }
-
-    /* 弹窗 */
+    .log-title { font-size: 10px; color: #888; letter-spacing: 2px; margin-bottom: 4px; padding-bottom: 2px; border-bottom: 1px solid #2a2a5a; }
+    .battle-log { flex: 1; overflow-y: auto; font-size: 10px; line-height: 1.5; }
+    .battle-log p { padding: 1px 0; border-bottom: 1px solid #1a1a2e; color: #aaa; }
+    .stats-summary { margin-top: 6px; padding-top: 4px; border-top: 1px solid #2a2a5a; font-size: 10px; color: #666; line-height: 1.6; }
     .overlay { display:none; position:fixed; inset:0; background:rgba(0,0,0,0.7); z-index:99; }
     .popup {
       display:none; position:fixed; top:50%; left:50%; transform:translate(-50%,-50%);
-      background:#1a1a3e; border:3px solid #ffdd57; padding:20px 28px;
-      z-index:100; text-align:center; min-width:300px; max-width:420px;
+      background:#1a1a3e; border:3px solid #ffdd57; padding:16px 24px;
+      z-index:100; text-align:center; min-width:280px; max-width:400px;
     }
-    .popup h2 {
-      color:#ffdd57; font-family:'Press Start 2P',monospace;
-      font-size:12px; margin-bottom:10px;
-    }
-    .popup .gains { font-size:13px; line-height:1.9; color:#ccc; }
+    .popup h2 { color:#ffdd57; font-family:'Press Start 2P',monospace; font-size:11px; margin-bottom:8px; }
+    .popup .gains { font-size:12px; line-height:1.8; color:#ccc; }
     .popup .gains span { color:#ffdd57; font-weight:bold; }
-    .popup button {
-      margin-top:10px; padding:6px 20px; background:#ffdd57; color:#1a1a3e;
-      border:none; font-weight:bold; cursor:pointer; font-size:13px;
-    }
+    .popup button { margin-top:8px; padding:5px 16px; background:#ffdd57; color:#1a1a3e; border:none; font-weight:bold; cursor:pointer; font-size:12px; }
     .popup button:hover { background: #ffee88; }
-
-    /* 突破特效 */
-    .breakthrough-flash {
-      position:fixed; inset:0; background:white; z-index:200;
-      pointer-events:none; opacity:0; transition:opacity 0.1s;
-    }
+    .breakthrough-flash { position:fixed; inset:0; background:white; z-index:200; pointer-events:none; opacity:0; transition:opacity 0.1s; }
     .breakthrough-flash.active { opacity:0.6; }
-
-    /* 滚动条 */
+    /* 成就卡片 */
+    .ach-card { background: #1a1a3e; border: 1px solid #2a2a5a; padding: 4px 6px; margin: 2px 0; font-size: 10px; display: flex; align-items: center; gap: 6px; }
+    .ach-card.unlocked { border-color: #ffdd57; background: #2a2a3e; }
+    .ach-card .ach-icon { font-size: 16px; }
+    .ach-card .ach-info { flex: 1; }
+    .ach-card .ach-name { font-weight: bold; }
+    .ach-card .ach-desc { color: #888; font-size: 9px; }
+    .ach-card .ach-reward { color: #88ff88; font-size: 9px; }
+    .ach-card.locked { opacity: 0.5; }
+    /* 洞府 */
+    .cave-card {
+      background: #1a1a3e; border: 1px solid #2a2a5a; padding: 6px 8px; margin: 3px 0;
+      display: flex; align-items: center; gap: 8px; font-size: 10px;
+    }
+    .cave-card .cave-icon { font-size: 20px; }
+    .cave-card .cave-info { flex: 1; }
+    .cave-card .cave-name { font-weight: bold; color: #ddd; }
+    .cave-card .cave-desc { color: #888; font-size: 9px; }
+    .cave-card .cave-level { color: #88eeff; font-size: 9px; }
+    .cave-card .cave-effect { color: #88ff88; font-size: 9px; }
     ::-webkit-scrollbar { width: 4px; }
     ::-webkit-scrollbar-track { background: #0d0d2b; }
     ::-webkit-scrollbar-thumb { background: #3a3a6a; border-radius: 3px; }
-
-    /* === 响应式 === */
     @media (max-width: 900px) {
-      .main-container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 220px auto auto;
-        height: auto; min-height: calc(100vh - 42px);
-      }
-      .battle-area { order: -1; min-height: 220px; height: 220px; border-bottom: 3px solid #2a2a5a; }
+      .main-container { grid-template-columns: 1fr; grid-template-rows: 200px auto auto; height: auto; min-height: calc(100vh - 38px); }
+      .battle-area { order: -1; min-height: 200px; height: 200px; border-bottom: 3px solid #2a2a5a; }
       .left-panel { border-right: none; border-bottom: 3px solid #2a2a5a; max-height: 55vh; }
-      .right-panel { border-left: none; max-height: 260px; }
+      .right-panel { border-left: none; max-height: 240px; }
     }
   </style>
 </head>
 <body>
-
 <div class="breakthrough-flash" id="breakthroughFlash"></div>
-
 <div class="header">
   <h1>🐭 鼠鼠修仙</h1>
   <div class="header-right">
+    <div style="display:flex;gap:2px;">
+      <button class="speed-btn active" data-speed="1" onclick="setSpeed(1)">1x</button>
+      <button class="speed-btn" data-speed="2" onclick="setSpeed(2)">2x</button>
+      <button class="speed-btn" data-speed="4" onclick="setSpeed(4)">4x</button>
+    </div>
     <div id="realmBadge" class="realm-badge">炼气期</div>
     <button class="btn-reset" onclick="resetGame()">重置</button>
   </div>
 </div>
-
 <div class="main-container">
-  <!-- 左侧面板 -->
   <div class="left-panel">
     <div class="tab-bar">
       <button class="tab-btn active" data-tab="status" title="状态">📊</button>
@@ -313,38 +217,29 @@
       <button class="tab-btn" data-tab="skills" title="功法">📜</button>
       <button class="tab-btn" data-tab="beasts" title="灵兽">🐾</button>
       <button class="tab-btn" data-tab="realm" title="秘境/塔">🏔️</button>
+      <button class="tab-btn" data-tab="cave" title="洞府">🏠</button>
+      <button class="tab-btn" data-tab="achieve" title="成就">🏆</button>
     </div>
     <div class="tab-content">
-
-      <!-- ===== 状态页 ===== -->
+      <!-- 状态页 -->
       <div class="tab-page active" id="tab-status">
-        <!-- 渡劫横幅 -->
+        <div class="death-banner" id="deathBanner">
+          <div class="death-title">💀 鼠鼠阵亡</div>
+          <div class="death-info">复活倒计时: <span id="reviveCountdown">5</span>秒</div>
+        </div>
         <div class="trib-banner" id="tribBanner">
           <div class="trib-title">⛈️ 天劫将至</div>
           <div class="trib-info">成功率：<span id="tribChance">60%</span></div>
-          <button class="action-btn danger" onclick="doTribulation()" style="margin-top:4px;display:inline-block;border-color:#ff44ff;color:#ff44ff">
-            ⚡ 渡劫！
-          </button>
+          <button class="action-btn danger" onclick="doTribulation()" style="margin-top:3px;display:inline-block;border-color:#ff44ff;color:#ff44ff">⚡ 渡劫！</button>
         </div>
-
         <div class="stat-group">
           <div class="stat-group-title">🐭 境界</div>
-          <div class="stat-row">
-            <span class="stat-label">等级</span>
-            <span class="stat-value" id="level">Lv.1</span>
-          </div>
-          <div class="stat-row">
-            <span class="stat-label">境界</span>
-            <span class="stat-value" id="realm">炼气期</span>
-          </div>
-          <div class="exp-bar-bg">
-            <div class="exp-bar-fill" id="expBar" style="width:0%"></div>
-            <span class="exp-bar-text" id="expText">0%</span>
-          </div>
+          <div class="stat-row"><span class="stat-label">等级</span><span class="stat-value" id="level">Lv.1</span></div>
+          <div class="stat-row"><span class="stat-label">境界</span><span class="stat-value" id="realm">炼气期</span></div>
+          <div class="exp-bar-bg"><div class="exp-bar-fill" id="expBar" style="width:0%"></div><span class="exp-bar-text" id="expText">0%</span></div>
         </div>
-
         <div class="stat-group">
-          <div class="stat-group-title">⚔️ 属性（基础+加成）</div>
+          <div class="stat-group-title">⚔️ 属性</div>
           <div class="stat-row"><span class="stat-label">攻击</span><span class="stat-value attack" id="attack">5</span></div>
           <div class="stat-row"><span class="stat-label">防御</span><span class="stat-value defense" id="defense">1</span></div>
           <div class="stat-row"><span class="stat-label">生命</span><span class="stat-value hp-val" id="hp">100/100</span></div>
@@ -352,122 +247,120 @@
           <div class="stat-row"><span class="stat-label">暴击伤害</span><span class="stat-value" id="critDamage">150%</span></div>
           <div class="stat-row"><span class="stat-label">吸血</span><span class="stat-value" id="lifesteal">0%</span></div>
           <div class="stat-row"><span class="stat-label">闪避</span><span class="stat-value" id="dodge">0%</span></div>
+          <div class="stat-row"><span class="stat-label">DPS</span><span class="stat-value attack" id="dpsValue">0</span></div>
         </div>
-
-        <!-- Buff -->
         <div class="buff-bar" id="buffBar"></div>
-
         <div class="stat-group">
           <div class="stat-group-title">📦 修炼点 (<span id="statPoints">0</span>)</div>
           <div class="upgrade-btns">
-            <button class="upgrade-btn" onclick="doUpgrade('attack')">⚔️攻击</button>
-            <button class="upgrade-btn" onclick="doUpgrade('defense')">🛡️防御</button>
-            <button class="upgrade-btn" onclick="doUpgrade('hp')">❤️生命</button>
-            <button class="upgrade-btn" onclick="doUpgrade('crit')">💥暴击</button>
+            <button class="upgrade-btn" onclick="doUpgrade('attack')">⚔️攻</button>
+            <button class="upgrade-btn" onclick="doUpgrade('defense')">🛡️防</button>
+            <button class="upgrade-btn" onclick="doUpgrade('hp')">❤️命</button>
+            <button class="upgrade-btn" onclick="doUpgrade('crit')">💥暴</button>
           </div>
         </div>
-
         <div class="stat-group">
           <div class="stat-group-title">💰 资源</div>
-          <div class="stat-row">
-            <span class="stat-label">灵石</span>
-            <span class="stat-value gold" id="gold">0</span>
-          </div>
-          <div style="margin-top:4px;">
+          <div class="stat-row"><span class="stat-label">灵石</span><span class="stat-value gold" id="gold">0</span></div>
+          <div style="margin-top:3px;">
             <span class="mat-row"><span class="mat-icon">🌿</span><span class="mat-val" id="matHerb">0</span></span>
             <span class="mat-row"><span class="mat-icon">⛏️</span><span class="mat-val" id="matOre">0</span></span>
             <span class="mat-row"><span class="mat-icon">💎</span><span class="mat-val" id="matEssence">0</span></span>
           </div>
         </div>
-      </div>
-
-      <!-- ===== 装备页 ===== -->
-      <div class="tab-page" id="tab-equip">
         <div class="stat-group">
-          <div class="stat-group-title">🎒 已装备</div>
-          <div id="equippedSlots"></div>
+          <div class="stat-group-title">🩹 自动吃药</div>
+          <div style="display:flex;align-items:center;gap:6px;font-size:11px;">
+            <button class="action-btn" id="autoHealBtn" onclick="toggleAutoHeal()" style="flex:0;padding:2px 8px;">OFF</button>
+            <span style="color:#888;">血量低于</span>
+            <select id="autoHealThreshold" onchange="setAutoHealThreshold()" style="background:#2a2a5a;border:1px solid #4a4a8a;color:#aaa;padding:1px 3px;font-size:10px;">
+              <option value="20">20%</option>
+              <option value="30" selected>30%</option>
+              <option value="40">40%</option>
+              <option value="50">50%</option>
+              <option value="60">60%</option>
+            </select>
+            <span style="color:#888;">自动吃回春丹</span>
+          </div>
         </div>
+      </div>
+      <!-- 装备页 -->
+      <div class="tab-page" id="tab-equip">
+        <div class="stat-group"><div class="stat-group-title">🎒 已装备</div><div id="equippedSlots"></div></div>
         <div class="stat-group">
           <div class="stat-group-title">📦 背包 (<span id="invCount">0</span>/<span id="invMax">30</span>)
-            <button class="action-btn red" style="float:right;padding:1px 6px;font-size:9px" onclick="sellAllWhite()">一键卖白装</button>
+            <button class="action-btn red" style="float:right;padding:1px 5px;font-size:8px" onclick="sellAllWhite()">卖白装</button>
           </div>
           <div id="inventoryList"></div>
         </div>
       </div>
-
-      <!-- ===== 丹药页 ===== -->
+      <!-- 丹药页 -->
       <div class="tab-page" id="tab-pills">
-        <div class="stat-group">
-          <div class="stat-group-title">🧪 丹药炼制</div>
-          <div id="pillRecipes"></div>
-        </div>
-        <div class="stat-group">
-          <div class="stat-group-title">💊 丹药背包</div>
-          <div id="pillInventory"></div>
-        </div>
+        <div class="stat-group"><div class="stat-group-title">🧪 炼制</div><div id="pillRecipes"></div></div>
+        <div class="stat-group"><div class="stat-group-title">💊 背包</div><div id="pillInventory"></div></div>
       </div>
-
-      <!-- ===== 功法页 ===== -->
+      <!-- 功法页 -->
       <div class="tab-page" id="tab-skills">
-        <div class="stat-group">
-          <div class="stat-group-title">📜 功法修炼（消耗修炼点）</div>
-          <div id="skillTree"></div>
-        </div>
+        <div class="stat-group"><div class="stat-group-title">📜 功法修炼（消耗修炼点）</div><div id="skillTree"></div></div>
       </div>
-
-      <!-- ===== 灵兽页 ===== -->
+      <!-- 灵兽页 -->
       <div class="tab-page" id="tab-beasts">
         <div class="stat-group">
-          <div class="stat-group-title">🐾 灵兽（击杀怪物有概率捕获）</div>
+          <div class="stat-group-title">🐾 灵兽</div>
           <div id="beastList"></div>
-          <div id="noBeast" style="color:#555;font-size:11px;padding:8px;">尚未捕获灵兽，继续战斗吧...</div>
+          <div id="noBeast" style="color:#555;font-size:10px;padding:6px;">尚未捕获灵兽，继续战斗吧...</div>
         </div>
       </div>
-
-      <!-- ===== 秘境/塔页 ===== -->
+      <!-- 秘境/塔页 -->
       <div class="tab-page" id="tab-realm">
         <div class="stat-group">
-          <div class="stat-group-title">🏔️ 秘境探索 (次数: <span id="realmCharges">3</span>/<span id="realmMaxCharges">3</span>)</div>
+          <div class="stat-group-title">🏔️ 秘境 (<span id="realmCharges">3</span>/<span id="realmMaxCharges">3</span>)</div>
           <div id="secretRealmList"></div>
         </div>
         <div class="stat-group">
           <div class="stat-group-title">🗼 镇妖塔</div>
-          <div class="stat-row">
-            <span class="stat-label">当前层</span>
-            <span class="stat-value" id="towerFloor">1</span>
-          </div>
-          <div class="stat-row">
-            <span class="stat-label">最高记录</span>
-            <span class="stat-value gold" id="towerBest">0</span>
-          </div>
-          <div class="upgrade-btns" style="margin-top:6px;">
+          <div class="stat-row"><span class="stat-label">当前层</span><span class="stat-value" id="towerFloor">1</span></div>
+          <div class="stat-row"><span class="stat-label">最高</span><span class="stat-value gold" id="towerBest">0</span></div>
+          <div class="upgrade-btns" style="margin-top:4px;">
             <button class="action-btn gold" onclick="doTowerChallenge()">⚔️ 挑战</button>
-            <button class="action-btn" onclick="doTowerReward()">🎁 领取奖励</button>
+            <button class="action-btn" onclick="doTowerReward()">🎁 领取</button>
           </div>
+        </div>
+      </div>
+      <!-- 洞府页 -->
+      <div class="tab-page" id="tab-cave">
+        <div class="stat-group">
+          <div class="stat-group-title">🏠 洞府建设（消耗灵石）</div>
+          <div id="caveList"></div>
+        </div>
+      </div>
+      <!-- 成就页 -->
+      <div class="tab-page" id="tab-achieve">
+        <div class="stat-group">
+          <div class="stat-group-title">🏆 成就（永久加成）<span id="achCount" style="color:#ffdd57;"></span></div>
+          <div id="achieveList"></div>
         </div>
       </div>
     </div>
   </div>
-
   <!-- 中央战斗区 -->
   <div class="battle-area">
+    <div class="streak-indicator" id="streakIndicator">🔥 连杀 x0</div>
+    <div class="dps-indicator" id="dpsIndicator">DPS: 0</div>
     <canvas id="battleCanvas"></canvas>
   </div>
-
   <!-- 右侧日志 -->
   <div class="right-panel">
     <div class="log-title">📜 战斗日志</div>
-    <div class="battle-log" id="battleLog">
-      <p>🐭 鼠鼠踏上修仙之路...</p>
-    </div>
+    <div class="battle-log" id="battleLog"><p>🐭 鼠鼠踏上修仙之路...</p></div>
     <div class="stats-summary">
-      <div>击杀: <span id="killCount">0</span></div>
+      <div>击杀: <span id="killCount">0</span> | 死亡: <span id="deathCount">0</span></div>
+      <div>精英: <span id="eliteKillCount">0</span> | 连杀: <span id="consecutiveKills">0</span></div>
       <div>总经验: <span id="totalExp">0</span></div>
       <div>总灵石: <span id="totalGold">0</span></div>
     </div>
   </div>
 </div>
-
 <!-- 弹窗 -->
 <div class="overlay" id="overlay"></div>
 <div class="popup" id="offlinePopup">
@@ -484,7 +377,7 @@
 <script src="sprites.js"></script>
 <script src="engine.js"></script>
 <script>
-// ========== 标签页系统 ==========
+// ========== 标签页 ==========
 document.querySelectorAll('.tab-btn').forEach(btn => {
   btn.addEventListener('click', () => {
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
@@ -494,121 +387,76 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
     refreshCurrentTab();
   });
 });
-
 function refreshCurrentTab() {
-  const activeTab = document.querySelector('.tab-btn.active')?.dataset.tab;
-  if (activeTab === 'equip') renderEquipTab();
-  else if (activeTab === 'pills') renderPillsTab();
-  else if (activeTab === 'skills') renderSkillsTab();
-  else if (activeTab === 'beasts') renderBeastsTab();
-  else if (activeTab === 'realm') renderRealmTab();
+  const t = document.querySelector('.tab-btn.active')?.dataset.tab;
+  if (t === 'equip') renderEquipTab();
+  else if (t === 'pills') renderPillsTab();
+  else if (t === 'skills') renderSkillsTab();
+  else if (t === 'beasts') renderBeastsTab();
+  else if (t === 'realm') renderRealmTab();
+  else if (t === 'cave') renderCaveTab();
+  else if (t === 'achieve') renderAchieveTab();
 }
 
-// ========== 渲染系统 ==========
+// ========== Canvas ==========
 const canvas = document.getElementById('battleCanvas');
 const ctx = canvas.getContext('2d');
-
-let animFrame = 0;
-let particles = [];
-let damageTexts = [];
-let mouseAttackAnim = 0;
-let monsterHitAnim = 0;
-let monsterDeathAnim = 0;
-let monsterWalkIn = 0;
+let animFrame = 0, particles = [], damageTexts = [];
+let mouseAttackAnim = 0, monsterHitAnim = 0, monsterDeathAnim = 0, monsterWalkIn = 0;
 const PIXEL_SCALE = 3;
 
-function resizeCanvas() {
-  const r = canvas.parentElement.getBoundingClientRect();
-  canvas.width = r.width;
-  canvas.height = r.height;
-}
+function resizeCanvas() { const r = canvas.parentElement.getBoundingClientRect(); canvas.width = r.width; canvas.height = r.height; }
 window.addEventListener('resize', resizeCanvas);
 resizeCanvas();
 
 function drawBackground() {
   const w = canvas.width, h = canvas.height;
   const grad = ctx.createLinearGradient(0, 0, 0, h);
-  grad.addColorStop(0, '#0a0a2e');
-  grad.addColorStop(0.5, '#1a1a4e');
-  grad.addColorStop(0.8, '#1a2a3a');
-  grad.addColorStop(1, '#0d1a0d');
-  ctx.fillStyle = grad;
-  ctx.fillRect(0, 0, w, h);
+  grad.addColorStop(0, '#0a0a2e'); grad.addColorStop(0.5, '#1a1a4e');
+  grad.addColorStop(0.8, '#1a2a3a'); grad.addColorStop(1, '#0d1a0d');
+  ctx.fillStyle = grad; ctx.fillRect(0, 0, w, h);
   ctx.fillStyle = '#fff';
   for (let i = 0; i < 40; i++) {
-    const sx = (i * 137.3) % w;
-    const sy = (i * 89.7) % (h * 0.45);
-    const size = (i % 4 === 0) ? 2 : 1;
+    const sx = (i * 137.3) % w, sy = (i * 89.7) % (h * 0.45);
     ctx.globalAlpha = 0.2 + Math.sin(animFrame * 0.015 + i * 0.7) * 0.25;
-    ctx.fillRect(sx, sy, size, size);
+    ctx.fillRect(sx, sy, (i % 4 === 0) ? 2 : 1, (i % 4 === 0) ? 2 : 1);
   }
   ctx.globalAlpha = 1;
-  ctx.fillStyle = '#0d1a2a';
-  ctx.beginPath();
-  ctx.moveTo(0, h * 0.6);
-  for (let x = 0; x <= w; x += 40) {
-    ctx.lineTo(x, h * 0.55 + Math.sin(x * 0.008) * 30 + Math.sin(x * 0.015) * 15);
-  }
+  ctx.fillStyle = '#0d1a2a'; ctx.beginPath(); ctx.moveTo(0, h * 0.6);
+  for (let x = 0; x <= w; x += 40) ctx.lineTo(x, h * 0.55 + Math.sin(x * 0.008) * 30 + Math.sin(x * 0.015) * 15);
   ctx.lineTo(w, h); ctx.lineTo(0, h); ctx.fill();
   const groundY = h * 0.73;
-  ctx.fillStyle = '#1a2a1a';
-  ctx.fillRect(0, groundY, w, h - groundY);
+  ctx.fillStyle = '#1a2a1a'; ctx.fillRect(0, groundY, w, h - groundY);
   ctx.fillStyle = '#223322';
-  for (let x = 0; x < w; x += 12) {
-    const gh = 2 + (x * 7 % 5);
-    ctx.fillRect(x, groundY - gh, 6, gh);
-  }
+  for (let x = 0; x < w; x += 12) { const gh = 2 + (x * 7 % 5); ctx.fillRect(x, groundY - gh, 6, gh); }
   ctx.fillStyle = '#334433';
-  for (let x = 30; x < w; x += 80) {
-    ctx.fillRect(x, groundY - 2, 8, 4);
-    ctx.fillRect(x + 2, groundY - 4, 4, 2);
-  }
+  for (let x = 30; x < w; x += 80) { ctx.fillRect(x, groundY - 2, 8, 4); ctx.fillRect(x + 2, groundY - 4, 4, 2); }
   return groundY;
 }
 
-function addDamageText(x, y, text, color, big) {
-  damageTexts.push({ x: x + (Math.random()-0.5)*30, y, text, color, life: 50, vy: -2.5, big: big||false });
-}
-
+function addDamageText(x, y, text, color, big) { damageTexts.push({ x: x + (Math.random()-0.5)*30, y, text, color, life: 50, vy: -2.5, big }); }
 function addParticles(x, y, color, count, spread) {
   spread = spread || 4;
-  for (let i = 0; i < count; i++) {
-    particles.push({
-      x, y, vx: (Math.random()-0.5)*spread, vy: (Math.random()-0.5)*spread-2,
-      life: 25+Math.random()*25, color, size: 2+Math.random()*3,
-    });
-  }
+  for (let i = 0; i < count; i++)
+    particles.push({ x, y, vx: (Math.random()-0.5)*spread, vy: (Math.random()-0.5)*spread-2, life: 25+Math.random()*25, color, size: 2+Math.random()*3 });
 }
-
 function addDeathExplosion(x, y) {
   const colors = ['#FF4444','#FF8844','#FFCC44','#FFFFFF','#FF6666'];
   for (let i = 0; i < 25; i++) {
-    const angle = Math.random()*Math.PI*2;
-    const speed = 2+Math.random()*5;
-    particles.push({
-      x, y, vx: Math.cos(angle)*speed, vy: Math.sin(angle)*speed-1,
-      life: 30+Math.random()*30, color: colors[Math.floor(Math.random()*colors.length)],
-      size: 2+Math.random()*4,
-    });
+    const angle = Math.random()*Math.PI*2, speed = 2+Math.random()*5;
+    particles.push({ x, y, vx: Math.cos(angle)*speed, vy: Math.sin(angle)*speed-1, life: 30+Math.random()*30, color: colors[Math.floor(Math.random()*colors.length)], size: 2+Math.random()*4 });
   }
 }
-
 function addBreakthroughEffect(x, y) {
   const colors = ['#FFD700','#FFEE88','#FFFFFF','#FFA500'];
   for (let i = 0; i < 50; i++) {
-    const angle = Math.random()*Math.PI*2;
-    const speed = 3+Math.random()*8;
-    particles.push({
-      x, y, vx: Math.cos(angle)*speed, vy: Math.sin(angle)*speed,
-      life: 50+Math.random()*50, color: colors[Math.floor(Math.random()*colors.length)],
-      size: 3+Math.random()*5,
-    });
+    const angle = Math.random()*Math.PI*2, speed = 3+Math.random()*8;
+    particles.push({ x, y, vx: Math.cos(angle)*speed, vy: Math.sin(angle)*speed, life: 50+Math.random()*50, color: colors[Math.floor(Math.random()*colors.length)], size: 3+Math.random()*5 });
   }
   const flash = document.getElementById('breakthroughFlash');
   flash.classList.add('active');
   setTimeout(() => flash.classList.remove('active'), 200);
 }
-
 function easeOutQuad(t) { return t*(2-t); }
 
 function render() {
@@ -616,49 +464,116 @@ function render() {
   const groundY = drawBackground();
   const gs = GameEngine.getState();
   if (gs) {
-    const mouseX = canvas.width * 0.25;
-    const mouseY = groundY - 10;
+    const mouseX = canvas.width * 0.25, mouseY = groundY - 10;
     const monsterTargetX = canvas.width * 0.7;
-    const monsterStartX = canvas.width + 50;
-    const monsterX = monsterWalkIn < 1
-      ? monsterStartX + (monsterTargetX - monsterStartX) * easeOutQuad(monsterWalkIn)
-      : monsterTargetX;
+    const monsterX = monsterWalkIn < 1 ? (canvas.width + 50) + (monsterTargetX - canvas.width - 50) * easeOutQuad(monsterWalkIn) : monsterTargetX;
     const monsterY = groundY - 10;
 
+    // 鼠鼠阴影+绘制
     ctx.globalAlpha = 0.15; ctx.fillStyle = '#000';
     ctx.beginPath(); ctx.ellipse(mouseX, groundY+2, 25, 5, 0, 0, Math.PI*2); ctx.fill();
+    ctx.globalAlpha = gs.isDead ? 0.3 : 1;
+    Sprites.drawMouseByRealm(ctx, mouseX, mouseY, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0);
     ctx.globalAlpha = 1;
 
-    Sprites.drawMouseByRealm(ctx, mouseX, mouseY, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0);
-
-    if (gs.currentMonster && monsterDeathAnim <= 0) {
+    // 怪物
+    if (gs.currentMonster && monsterDeathAnim <= 0 && !gs.isDead) {
       ctx.globalAlpha = 0.15; ctx.fillStyle = '#000';
       ctx.beginPath(); ctx.ellipse(monsterX, groundY+2, 20, 4, 0, 0, Math.PI*2); ctx.fill();
       ctx.globalAlpha = 1;
+
+      // 精英怪光环
+      if (gs.currentMonster.isElite) {
+        ctx.globalAlpha = 0.3 + Math.sin(animFrame * 0.05) * 0.15;
+        ctx.fillStyle = '#FFD700';
+        ctx.beginPath(); ctx.ellipse(monsterX, monsterY, 30, 30, 0, 0, Math.PI*2); ctx.fill();
+        ctx.globalAlpha = 1;
+      }
+
       Sprites.drawMonsterByName(ctx, gs.currentMonster.name, monsterX, monsterY, PIXEL_SCALE, animFrame, monsterHitAnim);
-      const hpPct = gs.currentMonster.hp / gs.currentMonster.maxHp;
-      Sprites.drawMonsterHPBar(ctx, monsterX, monsterY - 55, PIXEL_SCALE, hpPct, gs.currentMonster.name);
+
+      // 多管血条
+      const m = gs.currentMonster;
+      const barW = 56, barH = 5;
+      const barX = monsterX - barW/2, barY = monsterY - 55;
+
+      // 背景
+      ctx.fillStyle = '#222'; ctx.fillRect(barX - 1, barY - 1, barW + 2, barH + 2);
+
+      if (m.hpBars > 1) {
+        // 多管血条：不同颜色表示不同管
+        const barColors = ['#ff4444', '#ff8844', '#ffcc44', '#44cc44', '#4488ff'];
+        const colorIdx = Math.min(m.currentBar - 1, barColors.length - 1);
+        ctx.fillStyle = '#333'; ctx.fillRect(barX, barY, barW, barH);
+        const hpPct = Math.max(0, m.hp / m.maxHp);
+        ctx.fillStyle = barColors[colorIdx];
+        ctx.fillRect(barX, barY, barW * hpPct, barH);
+        // 管数文字
+        ctx.font = '8px "Press Start 2P", monospace';
+        ctx.fillStyle = '#fff'; ctx.textAlign = 'center';
+        ctx.fillText(`x${m.currentBar}`, monsterX, barY - 2);
+      } else {
+        // 单管血条（带颜色渐变）
+        ctx.fillStyle = '#333'; ctx.fillRect(barX, barY, barW, barH);
+        const hpPct = Math.max(0, m.hp / m.maxHp);
+        ctx.fillStyle = hpPct > 0.5 ? '#44CC44' : hpPct > 0.2 ? '#DDAA44' : '#DD4444';
+        ctx.fillRect(barX, barY, barW * hpPct, barH);
+      }
+      ctx.strokeStyle = '#555'; ctx.strokeRect(barX - 1, barY - 1, barW + 2, barH + 2);
+
+      // HP数值文字
+      ctx.font = '8px sans-serif'; ctx.fillStyle = '#fff'; ctx.textAlign = 'center';
+      const hpText = GameEngine.formatNumber(Math.max(0, m.hp));
+      ctx.fillText(hpText, monsterX, barY + barH + 9);
+
+      // 精英标签
+      if (m.isElite) {
+        ctx.font = 'bold 10px sans-serif'; ctx.fillStyle = '#FFD700'; ctx.textAlign = 'center';
+        ctx.fillText('⭐ 精英', monsterX, barY - (m.hpBars > 1 ? 10 : 3));
+      }
 
       // 怪物特性标签
-      if (gs.currentMonster.trait) {
-        const traitNames = {poison:'毒',dodge:'闪避',thorns:'荆棘',berserk:'狂暴',slow:'减速',burn:'灼烧',critBoost:'会心',lifesteal:'吸血',charm:'魅惑'};
-        const traitLabel = traitNames[gs.currentMonster.trait] || '';
+      if (m.trait) {
+        const traitNames = {poison:'🟢毒',dodge:'💨闪避',thorns:'🌿荆棘',berserk:'🔴狂暴',slow:'❄️减速',burn:'🔥灼烧',critBoost:'💥会心',lifesteal:'🩸吸血',charm:'💜魅惑'};
+        const traitLabel = traitNames[m.trait] || '';
         if (traitLabel) {
-          ctx.font = '10px sans-serif'; ctx.fillStyle = '#FF8888'; ctx.textAlign = 'center';
-          ctx.fillText(`[${traitLabel}]`, monsterX, monsterY - 68);
+          ctx.font = '9px sans-serif'; ctx.fillStyle = '#FF8888'; ctx.textAlign = 'center';
+          const traitY = barY - (m.hpBars > 1 ? 18 : (m.isElite ? 13 : 3));
+          ctx.fillText(traitLabel, monsterX, traitY);
         }
       }
     }
     if (monsterWalkIn < 1) monsterWalkIn = Math.min(1, monsterWalkIn + 0.04);
 
-    // HP条（鼠鼠）
-    if (gs.computed) {
+    // 鼠鼠HP条（改进版：数值+百分比+颜色渐变）
+    if (gs.computed && !gs.isDead) {
       const hpPct = gs.hp / gs.computed.maxHp;
-      const barW = 50, barH = 4, barX = mouseX - barW/2, barY = mouseY - 65;
+      const barW = 56, barH = 5, barX = mouseX - barW/2, barY = mouseY - 65;
+      ctx.fillStyle = '#222'; ctx.fillRect(barX - 1, barY - 1, barW + 2, barH + 2);
       ctx.fillStyle = '#333'; ctx.fillRect(barX, barY, barW, barH);
-      ctx.fillStyle = hpPct > 0.5 ? '#44AA44' : hpPct > 0.2 ? '#DDAA44' : '#DD4444';
-      ctx.fillRect(barX, barY, barW * Math.max(0, hpPct), barH);
-      ctx.strokeStyle = '#555'; ctx.strokeRect(barX, barY, barW, barH);
+      // 渐变色HP条
+      if (hpPct > 0) {
+        const grad = ctx.createLinearGradient(barX, barY, barX + barW * hpPct, barY);
+        if (hpPct > 0.5) { grad.addColorStop(0, '#44AA44'); grad.addColorStop(1, '#66CC66'); }
+        else if (hpPct > 0.2) { grad.addColorStop(0, '#CC8800'); grad.addColorStop(1, '#DDAA44'); }
+        else { grad.addColorStop(0, '#CC2222'); grad.addColorStop(1, '#DD4444'); }
+        ctx.fillStyle = grad;
+        ctx.fillRect(barX, barY, barW * Math.max(0, hpPct), barH);
+      }
+      ctx.strokeStyle = '#555'; ctx.strokeRect(barX - 1, barY - 1, barW + 2, barH + 2);
+      // HP数值
+      ctx.font = '8px sans-serif'; ctx.fillStyle = '#fff'; ctx.textAlign = 'center';
+      ctx.fillText(`${Math.floor(hpPct * 100)}%`, mouseX, barY - 2);
+    }
+
+    // 死亡状态显示
+    if (gs.isDead) {
+      ctx.font = 'bold 16px "Press Start 2P", monospace';
+      ctx.fillStyle = '#FF4444'; ctx.textAlign = 'center';
+      ctx.strokeStyle = '#000'; ctx.lineWidth = 3;
+      const deathText = gs.reviveCountdown > 0 ? `复活 ${gs.reviveCountdown}s` : '复活中...';
+      ctx.strokeText(deathText, canvas.width / 2, canvas.height * 0.4);
+      ctx.fillText(deathText, canvas.width / 2, canvas.height * 0.4);
     }
   }
 
@@ -668,25 +583,19 @@ function render() {
 
   particles = particles.filter(p => {
     p.x += p.vx; p.y += p.vy; p.vy += 0.08; p.life--;
-    ctx.globalAlpha = Math.max(0, p.life/50);
-    ctx.fillStyle = p.color;
-    ctx.fillRect(Math.floor(p.x), Math.floor(p.y), p.size, p.size);
-    ctx.globalAlpha = 1;
+    ctx.globalAlpha = Math.max(0, p.life/50); ctx.fillStyle = p.color;
+    ctx.fillRect(Math.floor(p.x), Math.floor(p.y), p.size, p.size); ctx.globalAlpha = 1;
     return p.life > 0;
   });
-
   damageTexts = damageTexts.filter(d => {
     d.y += d.vy; d.vy *= 0.97; d.life--;
     ctx.globalAlpha = Math.max(0, d.life/50);
-    ctx.font = d.big ? 'bold 20px "Press Start 2P",monospace' : 'bold 13px "Press Start 2P",monospace';
+    ctx.font = d.big ? 'bold 18px "Press Start 2P",monospace' : 'bold 12px "Press Start 2P",monospace';
     ctx.fillStyle = d.color; ctx.textAlign = 'center';
     ctx.strokeStyle = '#000'; ctx.lineWidth = 3;
-    ctx.strokeText(d.text, d.x, d.y);
-    ctx.fillText(d.text, d.x, d.y);
-    ctx.globalAlpha = 1;
+    ctx.strokeText(d.text, d.x, d.y); ctx.fillText(d.text, d.x, d.y); ctx.globalAlpha = 1;
     return d.life > 0;
   });
-
   requestAnimationFrame(render);
 }
 
@@ -696,7 +605,6 @@ function updateUI() {
   if (!s) return;
   const fmt = GameEngine.formatNumber;
   const c = s.computed;
-
   document.getElementById('level').textContent = `Lv.${s.level}`;
   document.getElementById('realm').textContent = s.realm;
   document.getElementById('realm').style.color = s.realmColor;
@@ -709,372 +617,323 @@ function updateUI() {
   document.getElementById('critDamage').textContent = c.critDamage + '%';
   document.getElementById('lifesteal').textContent = c.lifesteal + '%';
   document.getElementById('dodge').textContent = c.dodge + '%';
+  document.getElementById('dpsValue').textContent = fmt(s.dps);
   document.getElementById('gold').textContent = fmt(s.gold);
   document.getElementById('statPoints').textContent = s.statPoints;
   document.getElementById('killCount').textContent = fmt(s.killCount);
+  document.getElementById('deathCount').textContent = s.deathCount;
+  document.getElementById('eliteKillCount').textContent = s.eliteKillCount;
+  document.getElementById('consecutiveKills').textContent = s.consecutiveKills;
   document.getElementById('totalExp').textContent = fmt(s.totalExp);
   document.getElementById('totalGold').textContent = fmt(s.totalGold);
   document.getElementById('matHerb').textContent = s.materials.herb || 0;
   document.getElementById('matOre').textContent = s.materials.ore || 0;
   document.getElementById('matEssence').textContent = s.materials.essence || 0;
-
-  // 境界徽章
   const badge = document.getElementById('realmBadge');
-  badge.textContent = s.realm;
-  badge.style.borderColor = s.realmColor;
-  badge.style.color = s.realmColor;
-
-  // 加点按钮
-  document.querySelectorAll('.upgrade-btn').forEach(btn => {
-    btn.classList.toggle('has-points', s.statPoints > 0);
-  });
-
+  badge.textContent = s.realm; badge.style.borderColor = s.realmColor; badge.style.color = s.realmColor;
+  document.querySelectorAll('.upgrade-btn').forEach(btn => btn.classList.toggle('has-points', s.statPoints > 0));
+  // 死亡横幅
+  const deathBanner = document.getElementById('deathBanner');
+  if (s.isDead) { deathBanner.classList.add('active'); document.getElementById('reviveCountdown').textContent = s.reviveCountdown; }
+  else { deathBanner.classList.remove('active'); }
   // 渡劫横幅
   const tribBanner = document.getElementById('tribBanner');
-  if (s.needTribulation) {
-    tribBanner.classList.add('active');
-    document.getElementById('tribChance').textContent = Math.floor(s.tribChance * 100) + '%';
-  } else {
-    tribBanner.classList.remove('active');
-  }
-
+  if (s.needTribulation && !s.isDead) { tribBanner.classList.add('active'); document.getElementById('tribChance').textContent = Math.floor(s.tribChance * 100) + '%'; }
+  else { tribBanner.classList.remove('active'); }
+  // 连杀
+  const streak = document.getElementById('streakIndicator');
+  if (s.consecutiveKills >= 5) { streak.classList.add('active'); streak.textContent = `🔥 连杀 x${s.consecutiveKills}`; }
+  else { streak.classList.remove('active'); }
+  // DPS
+  document.getElementById('dpsIndicator').textContent = `DPS: ${fmt(s.dps)}`;
+  // 自动吃药
+  document.getElementById('autoHealBtn').textContent = s.autoHealEnabled ? '✅ ON' : 'OFF';
+  document.getElementById('autoHealBtn').style.color = s.autoHealEnabled ? '#88ff88' : '#aaa';
   // Buff
   const buffBar = document.getElementById('buffBar');
-  buffBar.innerHTML = '';
+  let buffHtml = '';
   const now = Date.now();
   if (s.buffs.expBoost && now < s.buffs.expBoost.until) {
     const sec = Math.ceil((s.buffs.expBoost.until - now)/1000);
-    buffBar.innerHTML += `<span class="buff-tag">EXP x${s.buffs.expBoost.mult} (${sec}s)</span>`;
+    buffHtml += `<span class="buff-tag">EXP x${s.buffs.expBoost.mult} (${sec}s)</span>`;
   }
   if (s.buffs.atkBoost && now < s.buffs.atkBoost.until) {
     const sec = Math.ceil((s.buffs.atkBoost.until - now)/1000);
-    buffBar.innerHTML += `<span class="buff-tag atk">ATK x${s.buffs.atkBoost.mult} (${sec}s)</span>`;
+    buffHtml += `<span class="buff-tag atk">ATK x${s.buffs.atkBoost.mult} (${sec}s)</span>`;
   }
   if (s.buffs.critBoost && now < s.buffs.critBoost.until) {
     const sec = Math.ceil((s.buffs.critBoost.until - now)/1000);
-    buffBar.innerHTML += `<span class="buff-tag crit">CRIT +${s.buffs.critBoost.value*100}% (${sec}s)</span>`;
+    buffHtml += `<span class="buff-tag crit">CRIT +${s.buffs.critBoost.value*100}% (${sec}s)</span>`;
   }
-
+  if (s.autoHealEnabled) buffHtml += `<span class="buff-tag auto-heal">🩹自动(${s.pills?.heal_pill||0})</span>`;
+  if (s.playerDoTs && s.playerDoTs.length > 0) {
+    for (const dot of s.playerDoTs) buffHtml += `<span class="buff-tag dot">${dot.type==='poison'?'🟢毒':'🔥烧'} ${dot.ticksLeft}回合</span>`;
+  }
+  buffBar.innerHTML = buffHtml;
   // 日志
   const logEl = document.getElementById('battleLog');
   if (s.battleLog && s.battleLog.length > 0) {
     logEl.innerHTML = s.battleLog.map(l => `<p>${l}</p>`).join('');
     logEl.scrollTop = logEl.scrollHeight;
   }
-
-  // 刷新当前tab
   refreshCurrentTab();
 }
 
-// ========== 装备页渲染 ==========
+// ========== 装备页 ==========
 function renderEquipTab() {
-  const s = GameEngine.getState();
-  if (!s) return;
+  const s = GameEngine.getState(); if (!s) return;
   const fmt = GameEngine.formatNumber;
   const slotNames = GameEngine.EQUIP_SLOT_NAMES;
-
-  // 已装备
-  let equippedHtml = '';
+  let html = '';
   for (const slot of ['weapon','armor','accessory','boots']) {
     const eq = s.equipment[slot];
     if (eq) {
       const cost = GameEngine.getEquipEnhanceCost(eq);
-      equippedHtml += `<div class="equip-slot-panel" onclick="doEnhance('${slot}')">
+      html += `<div class="equip-slot-panel" onclick="doEnhance('${slot}')">
         <span class="slot-label">${slotNames[slot]}</span>
         <span class="equip-name" style="color:${eq.qualityColor}">${eq.name}</span>
-        <span class="enhance">${eq.enhanceLevel > 0 ? '+'+eq.enhanceLevel : ''}</span>
-        <span style="color:#666;font-size:9px">[强化:${fmt(cost)}💎]</span>
+        <span class="enhance">${eq.enhanceLevel>0?'+'+eq.enhanceLevel:''}</span>
+        <span style="color:#666;font-size:8px">[${fmt(cost)}💎]</span>
       </div>`;
     } else {
-      equippedHtml += `<div class="equip-slot-panel">
-        <span class="slot-label">${slotNames[slot]}</span>
-        <span class="equip-name" style="color:#555">空</span>
-      </div>`;
+      html += `<div class="equip-slot-panel"><span class="slot-label">${slotNames[slot]}</span><span style="color:#555">空</span></div>`;
     }
   }
-  document.getElementById('equippedSlots').innerHTML = equippedHtml;
-
-  // 背包
+  document.getElementById('equippedSlots').innerHTML = html;
   document.getElementById('invCount').textContent = s.inventory.length;
-  document.getElementById('invMax').textContent = s.inventoryMax;
   let invHtml = '';
   s.inventory.forEach((eq, i) => {
     const score = GameEngine.getEquipScore(eq);
+    const cmp = GameEngine.compareEquip(i);
+    let diffHtml = '';
+    if (cmp) {
+      if (cmp.diff > 0) diffHtml = `<span class="inv-diff up">▲${cmp.diff}</span>`;
+      else if (cmp.diff < 0) diffHtml = `<span class="inv-diff down">▼${Math.abs(cmp.diff)}</span>`;
+      else diffHtml = `<span class="inv-diff" style="color:#888">=</span>`;
+    }
     invHtml += `<div class="inv-item">
-      <span class="inv-name" style="color:${eq.qualityColor}" title="${getEquipTooltip(eq)}">${eq.name} [${slotNames[eq.slot]}]</span>
-      <span class="inv-score">战力${score}</span>
-      <button onclick="doEquip(${i})">装备</button>
-      <button class="sell-btn" onclick="doSell(${i})">卖</button>
+      <span class="inv-name" style="color:${eq.qualityColor}">${eq.name}[${slotNames[eq.slot]}]</span>
+      ${diffHtml}<span class="inv-score">${score}</span>
+      <button onclick="doEquip(${i})">装</button><button onclick="doSell(${i})">卖</button>
     </div>`;
   });
-  if (s.inventory.length === 0) invHtml = '<div style="color:#555;font-size:11px;padding:4px;">空空如也...</div>';
+  if (!s.inventory.length) invHtml = '<div style="color:#555;font-size:10px;padding:3px;">空空如也...</div>';
   document.getElementById('inventoryList').innerHTML = invHtml;
 }
 
-function getEquipTooltip(eq) {
-  let tip = `[${eq.quality}] ${eq.name}`;
-  for (const [k,v] of Object.entries(eq.baseAttr)) {
-    tip += `\n${k}: +${v}`;
-  }
-  for (const a of eq.affixes) {
-    tip += `\n${a.name}: +${a.value}${a.type==='percent'?'%':''}`;
-  }
-  return tip;
-}
-
-// ========== 丹药页渲染 ==========
+// ========== 丹药页 ==========
 function renderPillsTab() {
-  const s = GameEngine.getState();
-  if (!s) return;
+  const s = GameEngine.getState(); if (!s) return;
   const fmt = GameEngine.formatNumber;
-  const realmIdx = s.realmIndex;
-
-  let recipesHtml = '';
+  let html = '';
   for (const r of GameEngine.PILL_RECIPES) {
-    const locked = realmIdx < r.minRealm;
+    const locked = s.realmIndex < r.minRealm;
     const matStr = Object.entries(r.materials).map(([k,v]) => {
-      const names = {herb:'🌿灵草',ore:'⛏️矿石',essence:'💎精华'};
-      const have = s.materials[k] || 0;
-      const color = have >= v ? '#88eeff' : '#ff6b6b';
-      return `<span style="color:${color}">${names[k]}${have}/${v}</span>`;
+      const names = {herb:'🌿',ore:'⛏️',essence:'💎'}; const have = s.materials[k]||0;
+      return `<span style="color:${have>=v?'#88eeff':'#ff6b6b'}">${names[k]}${have}/${v}</span>`;
     }).join(' ');
-    recipesHtml += `<div class="card" ${locked?'style="opacity:0.4"':''}>
-      <div class="card-title">${r.icon} ${r.name} ${locked?'(境界不足)':''}</div>
-      <div class="card-desc">${r.desc}</div>
-      <div class="card-info">${matStr} + ${fmt(r.gold)}灵石</div>
-      <div class="card-actions">
-        <button class="action-btn" onclick="doCraftPill('${r.id}')" ${locked?'disabled':''}>炼制</button>
-      </div>
+    html += `<div class="card" ${locked?'style="opacity:0.4"':''}>
+      <div class="card-title">${r.icon} ${r.name}</div><div class="card-desc">${r.desc}</div>
+      <div class="card-info">${matStr} +${fmt(r.gold)}💎</div>
+      <div class="card-actions"><button class="action-btn" onclick="doCraftPill('${r.id}')" ${locked?'disabled':''}>炼制</button></div>
     </div>`;
   }
-  document.getElementById('pillRecipes').innerHTML = recipesHtml;
-
-  let pillsHtml = '';
-  let hasPills = false;
+  document.getElementById('pillRecipes').innerHTML = html;
+  let pillsHtml = ''; let hasPills = false;
   for (const r of GameEngine.PILL_RECIPES) {
-    const count = s.pills[r.id] || 0;
-    if (count > 0) {
-      hasPills = true;
-      pillsHtml += `<div class="card">
-        <div class="card-title">${r.icon} ${r.name} x${count}</div>
-        <div class="card-desc">${r.desc}</div>
-        <div class="card-actions">
-          <button class="action-btn gold" onclick="doUsePill('${r.id}')">使用</button>
-        </div>
-      </div>`;
+    const count = s.pills[r.id]||0;
+    if (count > 0) { hasPills = true;
+      pillsHtml += `<div class="card"><div class="card-title">${r.icon} ${r.name} x${count}</div>
+      <div class="card-actions"><button class="action-btn gold" onclick="doUsePill('${r.id}')">使用</button></div></div>`;
     }
   }
-  if (!hasPills) pillsHtml = '<div style="color:#555;font-size:11px;padding:4px;">暂无丹药</div>';
+  if (!hasPills) pillsHtml = '<div style="color:#555;font-size:10px;">暂无</div>';
   document.getElementById('pillInventory').innerHTML = pillsHtml;
 }
 
-// ========== 功法页渲染 ==========
+// ========== 功法/灵兽/秘境页（保持与v0.3类似） ==========
 function renderSkillsTab() {
-  const s = GameEngine.getState();
-  if (!s) return;
-  const realmIdx = s.realmIndex;
-
+  const s = GameEngine.getState(); if (!s) return;
   let html = '';
   for (const sk of GameEngine.SKILL_TREE) {
-    const lv = s.skills[sk.id] || 0;
-    const locked = realmIdx < sk.realm;
-    const maxed = lv >= sk.maxLevel;
-    const canUp = !locked && !maxed && s.statPoints >= sk.cost;
+    const lv = s.skills[sk.id]||0; const locked = s.realmIndex < sk.realm;
+    const maxed = lv >= sk.maxLevel; const canUp = !locked && !maxed && s.statPoints >= sk.cost;
     html += `<div class="card" ${locked?'style="opacity:0.4"':''}>
       <div class="card-title">${sk.icon} ${sk.name} ${locked?'(需'+GameEngine.REALMS[sk.realm].name+')':''}</div>
       <div class="card-desc">${sk.desc}</div>
-      <div class="card-info">等级: ${lv}/${sk.maxLevel} | 消耗: ${sk.cost}修炼点</div>
-      <div class="card-actions">
-        <button class="action-btn ${canUp?'gold':''}" onclick="doSkillUp('${sk.id}')" ${canUp?'':'disabled'}>
-          ${maxed?'满级':'升级'}
-        </button>
-      </div>
+      <div class="card-info">Lv.${lv}/${sk.maxLevel} | 费用:${sk.cost}点</div>
+      <div class="card-actions"><button class="action-btn ${canUp?'gold':''}" onclick="doSkillUp('${sk.id}')" ${canUp?'':'disabled'}>${maxed?'满级':'升级'}</button></div>
     </div>`;
   }
   document.getElementById('skillTree').innerHTML = html;
 }
-
-// ========== 灵兽页渲染 ==========
 function renderBeastsTab() {
-  const s = GameEngine.getState();
-  if (!s) return;
+  const s = GameEngine.getState(); if (!s) return;
   const fmt = GameEngine.formatNumber;
-
-  if (!s.beasts || s.beasts.length === 0) {
-    document.getElementById('beastList').innerHTML = '';
-    document.getElementById('noBeast').style.display = 'block';
-    return;
-  }
+  if (!s.beasts || !s.beasts.length) { document.getElementById('beastList').innerHTML = ''; document.getElementById('noBeast').style.display = 'block'; return; }
   document.getElementById('noBeast').style.display = 'none';
-
   let html = '';
   for (const b of s.beasts) {
     const isActive = b.id === s.activeBeastId;
     const feedCost = Math.floor(50 * Math.pow(1.5, b.level));
     html += `<div class="card" style="${isActive?'border-color:#ffdd57':''}">
-      <div class="card-title">${b.icon} ${b.name} Lv.${b.level} ${isActive?'⭐出战':''}</div>
+      <div class="card-title">${b.icon} ${b.name} Lv.${b.level} ${isActive?'⭐':''}</div>
       <div class="card-desc">${b.skill}</div>
-      <div class="card-info">攻击+${b.baseAtk} 防御+${b.baseDef} | 喂养(${b.feedCount}/${b.level*3})</div>
+      <div class="card-info">攻+${b.baseAtk} 防+${b.baseDef} | (${b.feedCount}/${b.level*3})</div>
       <div class="card-actions">
-        <button class="action-btn gold" onclick="doFeedBeast('${b.id}')">喂养(${fmt(feedCost)}💎)</button>
+        <button class="action-btn gold" onclick="doFeedBeast('${b.id}')">喂(${fmt(feedCost)}💎)</button>
         ${isActive?'':`<button class="action-btn" onclick="doSetBeast('${b.id}')">出战</button>`}
       </div>
     </div>`;
   }
   document.getElementById('beastList').innerHTML = html;
 }
-
-// ========== 秘境页渲染 ==========
 function renderRealmTab() {
-  const s = GameEngine.getState();
-  if (!s) return;
-
+  const s = GameEngine.getState(); if (!s) return;
   document.getElementById('realmCharges').textContent = s.secretRealmCharges;
-  document.getElementById('realmMaxCharges').textContent = s.secretRealmMaxCharges;
   document.getElementById('towerFloor').textContent = s.towerFloor;
   document.getElementById('towerBest').textContent = s.towerBestFloor;
-
   let html = '';
   GameEngine.SECRET_REALMS.forEach((r, i) => {
     const locked = s.realmIndex < r.minRealm;
     html += `<div class="realm-card ${locked?'locked':''}" onclick="${locked?'':'doEnterRealm('+i+')'}">
       <div class="rc-name">${r.name} ${locked?'🔒':''}</div>
-      <div class="rc-desc">${r.desc} ${locked?'(需'+GameEngine.REALMS[r.minRealm].name+')':''}</div>
+      <div class="rc-desc">${r.desc}</div>
     </div>`;
   });
   document.getElementById('secretRealmList').innerHTML = html;
 }
 
+// ========== 洞府页 ==========
+function renderCaveTab() {
+  const s = GameEngine.getState(); if (!s) return;
+  const fmt = GameEngine.formatNumber;
+  let html = '';
+  for (const b of GameEngine.CAVE_BUILDINGS) {
+    const lv = s.cave[b.id] || 0;
+    const maxed = lv >= b.maxLevel;
+    const cost = GameEngine.getCaveBuildingCost(b.id);
+    const canUp = !maxed && s.gold >= cost;
+    const eff = b.effect(lv);
+    const effStr = Object.entries(eff).map(([k,v]) => {
+      const names = {herb_per_min:'灵草/分',ore_per_min:'矿石/分',exp_bonus_pct:'经验+%',pill_mat_reduce_pct:'材料-%',stat_point_bonus_pct:'加点+%'};
+      return `${names[k]||k}: ${v}`;
+    }).join(' | ');
+    html += `<div class="cave-card">
+      <div class="cave-icon">${b.icon}</div>
+      <div class="cave-info">
+        <div class="cave-name">${b.name} Lv.${lv}/${b.maxLevel}</div>
+        <div class="cave-desc">${b.desc}</div>
+        <div class="cave-effect">${lv > 0 ? effStr : '未建造'}</div>
+      </div>
+      <button class="action-btn ${canUp?'gold':''}" onclick="doCaveUpgrade('${b.id}')" ${maxed||!canUp?'disabled':''}>
+        ${maxed ? '满级' : fmt(cost)+'💎'}
+      </button>
+    </div>`;
+  }
+  document.getElementById('caveList').innerHTML = html;
+}
+
+// ========== 成就页 ==========
+function renderAchieveTab() {
+  const s = GameEngine.getState(); if (!s) return;
+  const unlocked = Object.keys(s.achievements).length;
+  document.getElementById('achCount').textContent = ` (${unlocked}/${GameEngine.ACHIEVEMENTS.length})`;
+  let html = '';
+  for (const ach of GameEngine.ACHIEVEMENTS) {
+    const done = s.achievements[ach.id];
+    const rewardStr = Object.entries(ach.reward).map(([k,v]) => `${k}+${v}`).join(' ');
+    html += `<div class="ach-card ${done?'unlocked':'locked'}">
+      <div class="ach-icon">${ach.icon}</div>
+      <div class="ach-info">
+        <div class="ach-name">${ach.name} ${done?'✅':''}</div>
+        <div class="ach-desc">${ach.desc}</div>
+        <div class="ach-reward">${done?'已获得: ':''} ${rewardStr}</div>
+      </div>
+    </div>`;
+  }
+  document.getElementById('achieveList').innerHTML = html;
+}
+
 // ========== 操作函数 ==========
 function doUpgrade(stat) { GameEngine.upgrade(stat); updateUI(); }
 function doEquip(idx) { GameEngine.equipItem(idx); updateUI(); }
-function doSell(idx) {
-  const gold = GameEngine.sellItem(idx);
-  if (gold > 0) updateUI();
-}
+function doSell(idx) { if (GameEngine.sellItem(idx) > 0) updateUI(); }
 function sellAllWhite() {
-  const s = GameEngine.getState();
-  if (!s) return;
-  let sold = 0;
-  for (let i = s.inventory.length - 1; i >= 0; i--) {
-    if (s.inventory[i].qualityIdx === 0) {
-      GameEngine.sellItem(i);
-      sold++;
-    }
-  }
-  if (sold > 0) updateUI();
-}
-function doEnhance(slot) {
-  const result = GameEngine.enhanceEquip(slot);
-  if (!result.success) showResult('强化', result.msg);
+  const s = GameEngine.getState(); if (!s) return;
+  for (let i = s.inventory.length - 1; i >= 0; i--) if (s.inventory[i].qualityIdx === 0) GameEngine.sellItem(i);
   updateUI();
 }
-function doCraftPill(id) {
-  const result = GameEngine.craftPill(id);
-  if (!result.success) showResult('炼丹', result.msg);
-  updateUI();
+function doEnhance(slot) { const r = GameEngine.enhanceEquip(slot); if (!r.success) showResult('强化', r.msg); updateUI(); }
+function doCraftPill(id) { const r = GameEngine.craftPill(id); if (!r.success) showResult('炼丹', r.msg); updateUI(); }
+function doUsePill(id) { GameEngine.usePill(id); updateUI(); }
+function doSkillUp(id) { const r = GameEngine.upgradeSkill(id); if (!r.success) showResult('功法', r.msg); updateUI(); }
+function doFeedBeast(id) { const r = GameEngine.feedBeast(id); if (!r.success) showResult('灵兽', r.msg); updateUI(); }
+function doSetBeast(id) { GameEngine.setActiveBeast(id); updateUI(); }
+function doEnterRealm(idx) { showResult('秘境', GameEngine.enterSecretRealm(idx).msg); updateUI(); }
+function doTowerChallenge() { showResult('镇妖塔', GameEngine.challengeTower().msg); updateUI(); }
+function doTowerReward() { showResult('镇妖塔', GameEngine.claimTowerReward().msg); updateUI(); }
+function doTribulation() { const r = GameEngine.attemptTribulation(); showResult('⛈️ 渡劫', r.msg); updateUI(); }
+function doCaveUpgrade(id) { const r = GameEngine.upgradeCaveBuilding(id); if (!r.success) showResult('洞府', r.msg); updateUI(); }
+function setSpeed(speed) {
+  GameEngine.setBattleSpeed(speed);
+  document.querySelectorAll('.speed-btn').forEach(b => b.classList.toggle('active', parseInt(b.dataset.speed) === speed));
 }
-function doUsePill(id) {
-  const result = GameEngine.usePill(id);
-  updateUI();
+function toggleAutoHeal() { GameEngine.toggleAutoHeal(); updateUI(); }
+function setAutoHealThreshold() {
+  const val = parseInt(document.getElementById('autoHealThreshold').value);
+  GameEngine.setAutoHealThreshold(val);
 }
-function doSkillUp(id) {
-  const result = GameEngine.upgradeSkill(id);
-  if (!result.success) showResult('功法', result.msg);
-  updateUI();
-}
-function doFeedBeast(id) {
-  const result = GameEngine.feedBeast(id);
-  if (!result.success) showResult('灵兽', result.msg);
-  updateUI();
-}
-function doSetBeast(id) {
-  GameEngine.setActiveBeast(id);
-  updateUI();
-}
-function doEnterRealm(idx) {
-  const result = GameEngine.enterSecretRealm(idx);
-  showResult('秘境', result.msg);
-  updateUI();
-}
-function doTowerChallenge() {
-  const result = GameEngine.challengeTower();
-  showResult('镇妖塔', result.msg);
-  updateUI();
-}
-function doTowerReward() {
-  const result = GameEngine.claimTowerReward();
-  showResult('镇妖塔', result.msg);
-  updateUI();
-}
-function doTribulation() {
-  const result = GameEngine.attemptTribulation();
-  if (result.success) {
-    showResult('⛈️ 渡劫', result.msg);
-  } else {
-    showResult('⛈️ 渡劫', result.msg);
-  }
-  updateUI();
-}
-
 function showResult(title, msg) {
   document.getElementById('resultTitle').textContent = title;
   document.getElementById('resultMsg').innerHTML = msg;
   document.getElementById('resultPopup').style.display = 'block';
   document.getElementById('overlay').style.display = 'block';
 }
-
 function closePopup() {
   document.getElementById('offlinePopup').style.display = 'none';
   document.getElementById('resultPopup').style.display = 'none';
   document.getElementById('overlay').style.display = 'none';
 }
-
 function resetGame() {
-  if (confirm('确定要重置存档吗？鼠鼠将从头开始修仙...')) {
-    GameEngine.stop();
-    GameEngine.resetState();
-    GameEngine.start(onBattleEvent);
-    updateUI();
+  if (confirm('确定重置？鼠鼠将从头修仙...')) {
+    GameEngine.stop(); GameEngine.resetState(); GameEngine.start(onBattleEvent); updateUI();
   }
 }
 
 // ========== 战斗事件 ==========
 function onBattleEvent(eventType, data) {
   const gs = GameEngine.getState();
-  const monsterX = canvas.width * 0.7;
-  const monsterY = canvas.height * 0.73 - 10;
-  const mouseX = canvas.width * 0.25;
-  const mouseY = canvas.height * 0.73 - 10;
-
+  const monsterX = canvas.width * 0.7, monsterY = canvas.height * 0.73 - 10;
+  const mouseX = canvas.width * 0.25, mouseY = canvas.height * 0.73 - 10;
   switch (eventType) {
     case 'attack':
-      mouseAttackAnim = 10;
-      monsterHitAnim = 8;
+      mouseAttackAnim = 10; monsterHitAnim = 8;
       const dmgColor = data.isCrit ? '#FFD700' : '#ff6b6b';
-      addDamageText(monsterX, monsterY-50,
-        (data.isCrit ? '暴击!' : '-') + GameEngine.formatNumber(data.damage), dmgColor, data.isCrit);
+      addDamageText(monsterX, monsterY-50, (data.isCrit?'暴击!':'-')+GameEngine.formatNumber(data.damage), dmgColor, data.isCrit);
       addParticles(monsterX, monsterY, dmgColor, data.isCrit ? 10 : 4);
       break;
     case 'monsterAttack':
       addDamageText(mouseX, mouseY-50, '-'+GameEngine.formatNumber(data.damage), '#FF4444', false);
       addParticles(mouseX, mouseY, '#FF4444', 3);
       break;
-    case 'dodge':
-      addDamageText(mouseX, mouseY-50, 'DODGE!', '#88EEFF', false);
+    case 'dotDamage':
+      const dotColor = data.type === 'poison' ? '#44FF44' : '#FF8844';
+      addDamageText(mouseX + 30, mouseY-40, data.type === 'poison' ? '毒!' : '烧!', dotColor, false);
+      addParticles(mouseX, mouseY, dotColor, 3, 2);
       break;
-    case 'monsterDodge':
-      addDamageText(monsterX, monsterY-50, 'MISS', '#888888', false);
+    case 'traitTrigger':
+      addDamageText(monsterX, monsterY - 80, data.msg, '#FF88FF', false);
       break;
+    case 'dodge': addDamageText(mouseX, mouseY-50, 'DODGE!', '#88EEFF', false); break;
+    case 'monsterDodge': addDamageText(monsterX, monsterY-50, 'MISS', '#888888', false); break;
     case 'kill':
-      monsterDeathAnim = 10;
-      addDeathExplosion(monsterX, monsterY);
+      monsterDeathAnim = 10; addDeathExplosion(monsterX, monsterY);
       addDamageText(monsterX, monsterY-70, '+'+GameEngine.formatNumber(data.expGain)+'EXP', '#88EEFF', false);
       addDamageText(monsterX, monsterY-90, '+'+GameEngine.formatNumber(data.goldGain)+'💎', '#FFD700', false);
+      if (data.monster.isElite) addDamageText(monsterX, monsterY-110, '精英击杀!', '#FFD700', true);
       break;
-    case 'spawn':
-      monsterWalkIn = 0;
-      break;
+    case 'spawn': monsterWalkIn = 0; break;
     case 'levelup':
       addParticles(mouseX, mouseY, '#88EEFF', 15, 6);
       addDamageText(mouseX, mouseY-70, 'LEVEL UP!', '#88EEFF', true);
@@ -1088,12 +947,24 @@ function onBattleEvent(eventType, data) {
       addParticles(mouseX, mouseY, '#FF0000', 20, 8);
       addDamageText(mouseX, mouseY-80, '渡劫失败!', '#FF4444', true);
       break;
-    case 'equipDrop':
-      addDamageText(monsterX+30, monsterY-50, '装备!', data.equip.qualityColor, true);
+    case 'death':
+      addParticles(mouseX, mouseY, '#FF0000', 30, 10);
+      addDamageText(mouseX, mouseY-80, '阵亡!', '#FF0000', true);
+      addDamageText(mouseX, mouseY-100, '-'+GameEngine.formatNumber(data.goldLoss)+'💎', '#FF4444', false);
       break;
-    case 'drop':
-      addParticles(monsterX, monsterY-20, '#88EEFF', 5);
+    case 'revive':
+      addParticles(mouseX, mouseY, '#88FF88', 20, 6);
+      addDamageText(mouseX, mouseY-80, '重生!', '#88FF88', true);
       break;
+    case 'hpBarBreak':
+      addParticles(monsterX, monsterY, '#FFD700', 15, 8);
+      addDamageText(monsterX, monsterY-90, `破防! 还有${data.barsLeft}管`, '#FFD700', true);
+      break;
+    case 'autoHeal':
+      addParticles(mouseX, mouseY, '#44FF44', 10, 4);
+      addDamageText(mouseX, mouseY-90, '自动吃药!', '#44FF44', false);
+      break;
+    case 'equipDrop': addDamageText(monsterX+30, monsterY-50, '装备!', data.equip.qualityColor, true); break;
     case 'encounter':
       addParticles(mouseX, mouseY-20, '#FFD700', 15, 6);
       addDamageText(mouseX, mouseY-90, '奇遇!', '#FFD700', true);
@@ -1102,15 +973,27 @@ function onBattleEvent(eventType, data) {
       addParticles(mouseX, mouseY, '#FF88FF', 20, 8);
       addDamageText(mouseX, mouseY-80, '灵兽!', '#FF88FF', true);
       break;
-    case 'tribulationReady':
-      addParticles(mouseX, mouseY, '#FF44FF', 15, 6);
+    case 'achievement':
+      addParticles(mouseX, mouseY, '#FFD700', 25, 8);
+      addDamageText(mouseX, mouseY-110, '🏆成就!', '#FFD700', true);
       break;
+    case 'tribulationReady': addParticles(mouseX, mouseY, '#FF44FF', 15, 6); break;
   }
   updateUI();
 }
 
 // ========== 启动 ==========
 GameEngine.start(onBattleEvent);
+
+// 恢复战斗速度
+const initState = GameEngine.getState();
+if (initState && initState.battleSpeed > 1) {
+  document.querySelectorAll('.speed-btn').forEach(b => b.classList.toggle('active', parseInt(b.dataset.speed) === initState.battleSpeed));
+}
+// 恢复自动吃药阈值
+if (initState && initState.autoHealThreshold) {
+  document.getElementById('autoHealThreshold').value = initState.autoHealThreshold;
+}
 
 const offlineGains = GameEngine.processOfflineGains();
 if (offlineGains && offlineGains.offlineSeconds > 60) {
@@ -1121,23 +1004,22 @@ if (offlineGains && offlineGains.offlineSeconds > 60) {
   let extraInfo = '';
   if (offlineGains.offlineHerbs > 0) extraInfo += `灵草 +<span>${offlineGains.offlineHerbs}</span><br>`;
   if (offlineGains.offlineOre > 0) extraInfo += `矿石 +<span>${offlineGains.offlineOre}</span><br>`;
-  if (offlineGains.equipsGained > 0) extraInfo += `获得装备 <span>${offlineGains.equipsGained}</span> 件<br>`;
+  if (offlineGains.caveHerbs > 0) extraInfo += `(洞府药园 +<span>${offlineGains.caveHerbs}</span>)<br>`;
+  if (offlineGains.caveOre > 0) extraInfo += `(洞府矿井 +<span>${offlineGains.caveOre}</span>)<br>`;
+  if (offlineGains.equipsGained > 0) extraInfo += `装备 <span>${offlineGains.equipsGained}</span> 件<br>`;
   if (offlineGains.note) extraInfo += `⚠️ ${offlineGains.note}<br>`;
   document.getElementById('offlineGains').innerHTML = `
     鼠鼠离线修炼了 <span>${timeStr}</span><br>
-    击杀怪物 <span>${fmt(offlineGains.totalKills)}</span> 只<br>
-    获得经验 <span>${fmt(offlineGains.totalExp)}</span><br>
-    获得灵石 <span>${fmt(offlineGains.totalGold)}</span><br>
+    击杀 <span>${fmt(offlineGains.totalKills)}</span> 只<br>
+    经验 +<span>${fmt(offlineGains.totalExp)}</span><br>
+    灵石 +<span>${fmt(offlineGains.totalGold)}</span><br>
     ${extraInfo}
     ${offlineGains.levelUps > 0 ? `升了 <span>${offlineGains.levelUps}</span> 级！` : ''}
   `;
   document.getElementById('offlinePopup').style.display = 'block';
   document.getElementById('overlay').style.display = 'block';
 }
-
-updateUI();
-render();
-setInterval(updateUI, 1000);
+updateUI(); render(); setInterval(updateUI, 1000);
 </script>
 </body>
 </html>

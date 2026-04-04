@@ -1,13 +1,14 @@
 // ============================================================
-// engine.js — 鼠鼠修仙 v0.3 全系统游戏引擎
-// 装备掉落 / 丹药炼制 / 功法技能 / 灵兽养成
-// 秘境探索 / 镇妖塔 / 渡劫 / 奇遇事件
+// engine.js — 鼠鼠修仙 v0.4 系统性优化版
+// 血条重做 / 死亡复活 / 战斗速度 / 精英怪 / 自动吃药
+// 装备对比 / DPS统计 / 洞府系统 / 成就系统
 // ============================================================
 
 const GameEngine = (() => {
 
-  const SAVE_KEY = 'mouse_cultivation_save_v3';
-  const TICK_INTERVAL = 2000;
+  const SAVE_KEY = 'mouse_cultivation_save_v4';
+  const OLD_SAVE_KEY = 'mouse_cultivation_save_v3';
+  let TICK_INTERVAL = 2000;
   const MAX_LOG = 50;
 
   // ========== 修仙境界体系 ==========
@@ -66,7 +67,6 @@ const GameEngine = (() => {
     { name: '攻速', stat: 'atkSpeed', type: 'flat', range: [3, 10] },
   ];
 
-  // 装备名称池
   const EQUIP_NAMES = {
     weapon: ['木剑', '铁剑', '飞剑', '灵剑', '神剑', '天剑', '青锋', '赤霄', '墨渊', '星辰'],
     armor: ['布衣', '道袍', '法袍', '灵甲', '仙袍', '天衣', '玄铁甲', '龙鳞袍', '紫金铠'],
@@ -74,7 +74,6 @@ const GameEngine = (() => {
     boots: ['草鞋', '布靴', '云步靴', '踏风靴', '追风靴', '天行靴', '凌霄靴', '虚空步'],
   };
 
-  // 视觉装备（境界对应坐骑/宠物展示用）
   const VISUAL_EQUIP = {
     weapon: ['木剑', '铁剑', '飞剑', '灵剑', '神剑', '天剑'],
     armor:  ['布衣', '道袍', '法袍', '华服', '仙袍', '天衣'],
@@ -85,34 +84,27 @@ const GameEngine = (() => {
   function generateEquipment(level, forcedQuality) {
     const realmIdx = getRealmIndex(level);
     const slot = EQUIP_SLOTS[Math.floor(Math.random() * EQUIP_SLOTS.length)];
-
-    // 品质概率（越高级越稀有）
     let qualityIdx;
     if (forcedQuality !== undefined) {
       qualityIdx = forcedQuality;
     } else {
       const roll = Math.random();
-      if (roll < 0.40) qualityIdx = 0;       // 白 40%
-      else if (roll < 0.70) qualityIdx = 1;   // 绿 30%
-      else if (roll < 0.88) qualityIdx = 2;   // 蓝 18%
-      else if (roll < 0.96) qualityIdx = 3;   // 紫 8%
-      else if (roll < 0.993) qualityIdx = 4;  // 橙 3.3%
-      else qualityIdx = 5;                     // 红 0.7%
+      if (roll < 0.40) qualityIdx = 0;
+      else if (roll < 0.70) qualityIdx = 1;
+      else if (roll < 0.88) qualityIdx = 2;
+      else if (roll < 0.96) qualityIdx = 3;
+      else if (roll < 0.993) qualityIdx = 4;
+      else qualityIdx = 5;
     }
-
     const quality = EQUIP_QUALITIES[qualityIdx];
     const names = EQUIP_NAMES[slot];
     const name = names[Math.min(realmIdx, names.length - 1)];
-
-    // 基础属性
     const baseStat = Math.floor((5 + level * 3) * quality.statMult);
     const baseAttr = {};
     if (slot === 'weapon') baseAttr.attack = baseStat;
     else if (slot === 'armor') baseAttr.defense = Math.floor(baseStat * 0.6);
     else if (slot === 'accessory') baseAttr.maxHp = Math.floor(baseStat * 3);
     else if (slot === 'boots') { baseAttr.dodge = Math.floor(baseStat * 0.1); baseAttr.atkSpeed = Math.floor(baseStat * 0.15); }
-
-    // 随机词条
     const affixes = [];
     const usedStats = new Set();
     for (let i = 0; i < quality.affixCount; i++) {
@@ -122,25 +114,17 @@ const GameEngine = (() => {
         tries++;
       } while (usedStats.has(affix.stat + affix.type) && tries < 20);
       usedStats.add(affix.stat + affix.type);
-
       const levelScale = 1 + level * 0.12;
       const value = Math.floor(
         (affix.range[0] + Math.random() * (affix.range[1] - affix.range[0])) * levelScale
       );
       affixes.push({ ...affix, value });
     }
-
     return {
       id: Date.now() + '_' + Math.random().toString(36).substr(2, 6),
       name: quality.name === '白' ? name : `${name}(${quality.name})`,
-      slot,
-      qualityIdx,
-      quality: quality.name,
-      qualityColor: quality.color,
-      level,
-      baseAttr,
-      affixes,
-      enhanceLevel: 0,
+      slot, qualityIdx, quality: quality.name, qualityColor: quality.color,
+      level, baseAttr, affixes, enhanceLevel: 0,
     };
   }
 
@@ -148,12 +132,8 @@ const GameEngine = (() => {
     if (!equip) return 0;
     let score = 0;
     const mult = 1 + equip.enhanceLevel * 0.1;
-    for (const [k, v] of Object.entries(equip.baseAttr)) {
-      score += v * mult;
-    }
-    for (const a of equip.affixes) {
-      score += a.value * (a.type === 'percent' ? 5 : 1) * mult;
-    }
+    for (const [k, v] of Object.entries(equip.baseAttr)) { score += v * mult; }
+    for (const a of equip.affixes) { score += a.value * (a.type === 'percent' ? 5 : 1) * mult; }
     return Math.floor(score);
   }
 
@@ -232,6 +212,65 @@ const GameEngine = (() => {
       rewards: { essence: [3, 8], gold: [2000, 5000], equipChance: 0.9, equipQualityMin: 3 } },
   ];
 
+  // ========== 洞府系统 ==========
+  const CAVE_BUILDINGS = [
+    { id: 'herb_garden', name: '药园', icon: '🌿', desc: '每分钟自动产出灵草',
+      maxLevel: 10, baseCost: 200, costMult: 2.5,
+      effect: (lv) => ({ herb_per_min: lv * 0.5 }) },
+    { id: 'spirit_array', name: '聚灵阵', icon: '✨', desc: '增加挂机经验速度',
+      maxLevel: 10, baseCost: 500, costMult: 3,
+      effect: (lv) => ({ exp_bonus_pct: lv * 5 }) },
+    { id: 'forge_room', name: '炼丹房', icon: '🔥', desc: '炼丹材料消耗减少',
+      maxLevel: 5, baseCost: 800, costMult: 3.5,
+      effect: (lv) => ({ pill_mat_reduce_pct: lv * 10 }) },
+    { id: 'mine_shaft', name: '矿井', icon: '⛏️', desc: '每分钟自动产出矿石',
+      maxLevel: 10, baseCost: 300, costMult: 2.5,
+      effect: (lv) => ({ ore_per_min: lv * 0.3 }) },
+    { id: 'training_ground', name: '练功场', icon: '🏋️', desc: '加点效果提升',
+      maxLevel: 5, baseCost: 1000, costMult: 4,
+      effect: (lv) => ({ stat_point_bonus_pct: lv * 15 }) },
+  ];
+
+  // ========== 成就系统 ==========
+  const ACHIEVEMENTS = [
+    { id: 'kill_10', name: '初出茅庐', desc: '击杀10只怪物', icon: '🏅',
+      check: (s) => s.killCount >= 10, reward: { attack: 2 } },
+    { id: 'kill_100', name: '小有名气', desc: '击杀100只怪物', icon: '🏅',
+      check: (s) => s.killCount >= 100, reward: { attack: 5, defense: 3 } },
+    { id: 'kill_1000', name: '修仙新星', desc: '击杀1000只怪物', icon: '🎖️',
+      check: (s) => s.killCount >= 1000, reward: { attack: 15, maxHp: 100 } },
+    { id: 'kill_10000', name: '妖魔克星', desc: '击杀1万只怪物', icon: '🏆',
+      check: (s) => s.killCount >= 10000, reward: { attack: 50, critRate: 2 } },
+    { id: 'gold_1000', name: '小康之家', desc: '累计获得1000灵石', icon: '💰',
+      check: (s) => s.totalGold >= 1000, reward: { goldBonus: 5 } },
+    { id: 'gold_100000', name: '灵石大亨', desc: '累计获得10万灵石', icon: '💰',
+      check: (s) => s.totalGold >= 100000, reward: { goldBonus: 10 } },
+    { id: 'level_10', name: '筑基有成', desc: '达到10级', icon: '⬆️',
+      check: (s) => s.level >= 10, reward: { attack: 5, defense: 3, maxHp: 50 } },
+    { id: 'level_20', name: '金丹初成', desc: '达到20级', icon: '⬆️',
+      check: (s) => s.level >= 20, reward: { attack: 15, defense: 8, maxHp: 150 } },
+    { id: 'level_30', name: '元婴显化', desc: '达到30级', icon: '⬆️',
+      check: (s) => s.level >= 30, reward: { attack: 40, defense: 20, maxHp: 400 } },
+    { id: 'level_50', name: '大乘之境', desc: '达到50级', icon: '👑',
+      check: (s) => s.level >= 50, reward: { attack: 100, defense: 50, maxHp: 1000, critRate: 5 } },
+    { id: 'tower_10', name: '镇妖勇士', desc: '镇妖塔通过10层', icon: '🗼',
+      check: (s) => s.towerBestFloor >= 10, reward: { attack: 10, defense: 5 } },
+    { id: 'tower_50', name: '镇妖豪杰', desc: '镇妖塔通过50层', icon: '🗼',
+      check: (s) => s.towerBestFloor >= 50, reward: { attack: 30, critDamage: 15 } },
+    { id: 'first_beast', name: '灵兽缘分', desc: '捕获第一只灵兽', icon: '🐾',
+      check: (s) => s.beasts && s.beasts.length >= 1, reward: { attack: 3, defense: 2 } },
+    { id: 'beast_3', name: '万兽之友', desc: '捕获3只灵兽', icon: '🐾',
+      check: (s) => s.beasts && s.beasts.length >= 3, reward: { attack: 10, maxHp: 80 } },
+    { id: 'first_death', name: '死而复生', desc: '第一次死亡', icon: '💀',
+      check: (s) => s.deathCount >= 1, reward: { maxHp: 30 } },
+    { id: 'death_10', name: '百折不挠', desc: '死亡10次', icon: '💀',
+      check: (s) => s.deathCount >= 10, reward: { defense: 10, maxHp: 100 } },
+    { id: 'elite_kill', name: '精英猎手', desc: '击杀10只精英怪', icon: '⭐',
+      check: (s) => s.eliteKillCount >= 10, reward: { attack: 8, critRate: 1 } },
+    { id: 'elite_50', name: '精英克星', desc: '击杀50只精英怪', icon: '⭐',
+      check: (s) => s.eliteKillCount >= 50, reward: { attack: 25, critDamage: 10 } },
+  ];
+
   // ========== 镇妖塔 ==========
   function getTowerMonster(floor) {
     const tier = Math.min(5, Math.floor(floor / 10));
@@ -269,78 +308,92 @@ const GameEngine = (() => {
 
   // ========== 渡劫系统 ==========
   function getTribulationChance(state) {
-    let base = 0.6; // 基础60%
-    // 装备分加成
+    let base = 0.6;
     const totalScore = EQUIP_SLOTS.reduce((s, slot) => s + getEquipScore(state.equipment[slot]), 0);
     base += Math.min(0.15, totalScore * 0.00005);
-    // 丹药加成
-    if (state.buffs && state.buffs.tribBoost) {
-      base += state.buffs.tribBoost.value;
-    }
-    // 灵兽加成
-    if (state.activeBeast) base += 0.03;
+    if (state.buffs && state.buffs.tribBoost) base += state.buffs.tribBoost.value;
+    if (state.activeBeastId) base += 0.03;
+    // 成就加成
+    base += (state.achievementBonuses?.tribChance || 0);
     return Math.min(0.95, base);
   }
 
   // ========== 状态管理 ==========
   function getDefaultState() {
     return {
-      level: 1,
-      exp: 0,
-      gold: 0,
-      baseAttack: 5,
-      baseDefense: 1,
-      baseMaxHp: 100,
-      hp: 100,
-      baseCritRate: 5, // 百分比整数
-      baseCritDamage: 150,
-      killCount: 0,
-      totalGold: 0,
-      totalExp: 0,
-      createdAt: Date.now(),
-      lastTickTime: Date.now(),
-      currentMonster: null,
-      battleLog: [],
-      statPoints: 0,
+      level: 1, exp: 0, gold: 0,
+      baseAttack: 5, baseDefense: 1, baseMaxHp: 100, hp: 100,
+      baseCritRate: 5, baseCritDamage: 150,
+      killCount: 0, totalGold: 0, totalExp: 0,
+      createdAt: Date.now(), lastTickTime: Date.now(),
+      currentMonster: null, battleLog: [], statPoints: 0,
 
       // 装备
       equipment: { weapon: null, armor: null, accessory: null, boots: null },
-      inventory: [], // 装备背包（最多30件）
-      inventoryMax: 30,
+      inventory: [], inventoryMax: 30,
 
       // 材料
       materials: { herb: 0, ore: 0, essence: 0 },
 
-      // 丹药背包
-      pills: {},
-
-      // 功法等级
-      skills: {},
-
-      // 灵兽
-      beasts: [],
-      activeBeastId: null,
+      // 丹药/功法/灵兽
+      pills: {}, skills: {},
+      beasts: [], activeBeastId: null,
 
       // Buff
       buffs: {},
 
       // 秘境
-      secretRealmCharges: 3,
-      secretRealmMaxCharges: 3,
-      lastRealmRefresh: Date.now(),
+      secretRealmCharges: 3, secretRealmMaxCharges: 3, lastRealmRefresh: Date.now(),
 
       // 镇妖塔
-      towerFloor: 1,
-      towerBestFloor: 0,
-      towerDailyRewardClaimed: false,
-      lastTowerReset: Date.now(),
+      towerFloor: 1, towerBestFloor: 0,
+      towerDailyRewardClaimed: false, lastTowerReset: Date.now(),
 
       // 渡劫
-      needTribulation: false,
-      tribulationCooldown: 0,
+      needTribulation: false, tribulationCooldown: 0,
 
       // 奇遇
       lastEncounterTime: 0,
+
+      // === v0.4 新增 ===
+      // 死亡/复活
+      isDead: false,
+      deathCount: 0,
+      reviveTime: 0, // 复活时间戳
+      consecutiveKills: 0, // 连杀计数（触发精英怪）
+      eliteKillCount: 0,
+
+      // 战斗速度
+      battleSpeed: 1, // 1x/2x/4x
+
+      // 自动吃药
+      autoHealEnabled: false,
+      autoHealThreshold: 30, // 百分比
+
+      // DPS统计
+      dpsHistory: [], // 最近的伤害记录
+      totalDamageDealt: 0,
+      combatStartTime: 0,
+
+      // 洞府
+      cave: {
+        herb_garden: 0,
+        spirit_array: 0,
+        forge_room: 0,
+        mine_shaft: 0,
+        training_ground: 0,
+      },
+      lastCaveProduction: Date.now(),
+
+      // 成就
+      achievements: {}, // id -> true
+      achievementBonuses: {},
+
+      // 怪物击杀次数（图鉴）
+      monsterKills: {},
+
+      // 毒/灼烧DoT
+      playerDoTs: [], // { type, damage, ticksLeft }
     };
   }
 
@@ -356,7 +409,16 @@ const GameEngine = (() => {
         migrateState();
         return;
       }
-      // 尝试旧存档迁移
+      // v0.3存档迁移
+      const v3Save = localStorage.getItem(OLD_SAVE_KEY);
+      if (v3Save) {
+        state = JSON.parse(v3Save);
+        migrateState();
+        addLog('💫 v0.3存档迁移至v0.4成功！新增死亡复活/洞府/成就系统！');
+        saveState();
+        return;
+      }
+      // 更旧的存档
       const oldSave = localStorage.getItem('mouse_cultivation_save');
       if (oldSave) {
         const old = JSON.parse(oldSave);
@@ -376,7 +438,7 @@ const GameEngine = (() => {
         state.statPoints = old.statPoints || 0;
         state.lastTickTime = old.lastTickTime || Date.now();
         state.battleLog = old.battleLog || [];
-        addLog('💫 存档迁移成功！欢迎来到v0.3大版本！');
+        addLog('💫 旧存档迁移成功！欢迎来到v0.4大版本！');
         saveState();
         return;
       }
@@ -400,36 +462,47 @@ const GameEngine = (() => {
       state.equipment = { weapon: null, armor: null, accessory: null, boots: null };
     }
     if (!state.inventory) state.inventory = [];
+    // v0.4迁移
+    if (state.isDead === undefined) state.isDead = false;
+    if (state.deathCount === undefined) state.deathCount = 0;
+    if (state.reviveTime === undefined) state.reviveTime = 0;
+    if (state.consecutiveKills === undefined) state.consecutiveKills = 0;
+    if (state.eliteKillCount === undefined) state.eliteKillCount = 0;
+    if (state.battleSpeed === undefined) state.battleSpeed = 1;
+    if (state.autoHealEnabled === undefined) state.autoHealEnabled = false;
+    if (state.autoHealThreshold === undefined) state.autoHealThreshold = 30;
+    if (!state.cave) state.cave = def.cave;
+    if (state.lastCaveProduction === undefined) state.lastCaveProduction = Date.now();
+    if (!state.achievements) state.achievements = {};
+    if (!state.achievementBonuses) state.achievementBonuses = {};
+    if (!state.monsterKills) state.monsterKills = {};
+    if (!state.playerDoTs) state.playerDoTs = [];
+    if (!state.dpsHistory) state.dpsHistory = [];
+    if (state.totalDamageDealt === undefined) state.totalDamageDealt = 0;
+    if (state.combatStartTime === undefined) state.combatStartTime = Date.now();
   }
 
   function saveState() {
-    try {
-      localStorage.setItem(SAVE_KEY, JSON.stringify(state));
-    } catch (e) {
-      console.error('存档保存失败:', e);
-    }
+    try { localStorage.setItem(SAVE_KEY, JSON.stringify(state)); } catch (e) { console.error('保存失败:', e); }
   }
 
   function resetState() {
     state = getDefaultState();
     localStorage.removeItem('mouse_cultivation_save');
+    localStorage.removeItem(OLD_SAVE_KEY);
     saveState();
   }
 
-  // ========== 计算属性（装备+功法+灵兽+buff） ==========
+  // ========== 计算属性 ==========
   function getComputedStats() {
     let attack = state.baseAttack;
     let defense = state.baseDefense;
     let maxHp = state.baseMaxHp;
     let critRate = state.baseCritRate;
     let critDamage = state.baseCritDamage;
-    let lifesteal = 0;
-    let dodge = 0;
-    let atkSpeed = 0;
-    let goldBonus = 0;
-    let expBonus = 0;
+    let lifesteal = 0, dodge = 0, atkSpeed = 0, goldBonus = 0, expBonus = 0;
 
-    // 装备加成
+    // 装备
     for (const slot of EQUIP_SLOTS) {
       const eq = state.equipment[slot];
       if (!eq) continue;
@@ -463,7 +536,7 @@ const GameEngine = (() => {
       }
     }
 
-    // 功法加成
+    // 功法
     for (const sk of SKILL_TREE) {
       const lv = state.skills[sk.id] || 0;
       if (lv <= 0) continue;
@@ -487,7 +560,7 @@ const GameEngine = (() => {
       }
     }
 
-    // 灵兽加成
+    // 灵兽
     const beast = getActiveBeast();
     if (beast) {
       const beastMult = 1 + beast.level * 0.15;
@@ -495,13 +568,31 @@ const GameEngine = (() => {
       defense += Math.floor(beast.baseDef * beastMult);
     }
 
-    // Buff加成
+    // 成就永久加成
+    const ab = state.achievementBonuses || {};
+    attack += (ab.attack || 0);
+    defense += (ab.defense || 0);
+    maxHp += (ab.maxHp || 0);
+    critRate += (ab.critRate || 0);
+    critDamage += (ab.critDamage || 0);
+    goldBonus += (ab.goldBonus || 0);
+
+    // 洞府: 聚灵阵经验加成
+    const spiritArray = state.cave?.spirit_array || 0;
+    if (spiritArray > 0) expBonus += spiritArray * 5;
+
+    // 洞府: 练功场加点加成 (已在upgrade函数里处理)
+
+    // Buff
     const now = Date.now();
     if (state.buffs.atkBoost && now < state.buffs.atkBoost.until) {
       attack = Math.floor(attack * state.buffs.atkBoost.mult);
     }
     if (state.buffs.critBoost && now < state.buffs.critBoost.until) {
       critRate += state.buffs.critBoost.value * 100;
+    }
+    if (state.buffs.expBoost && now < state.buffs.expBoost.until) {
+      expBonus += (state.buffs.expBoost.mult - 1) * 100;
     }
 
     return {
@@ -512,7 +603,7 @@ const GameEngine = (() => {
       dodge: Math.min(50, dodge),
       atkSpeed: Math.min(50, atkSpeed),
       goldBonus,
-      expBonus: state.buffs.expBoost && now < state.buffs.expBoost.until ? (state.buffs.expBoost.mult - 1) * 100 : 0,
+      expBonus,
     };
   }
 
@@ -529,9 +620,7 @@ const GameEngine = (() => {
     return 0;
   }
 
-  function getRealm(level) {
-    return REALMS[getRealmIndex(level)];
-  }
+  function getRealm(level) { return REALMS[getRealmIndex(level)]; }
 
   function getExpToNextLevel(level) {
     return Math.floor(50 * Math.pow(1.35, level - 1));
@@ -542,19 +631,71 @@ const GameEngine = (() => {
     const monsters = MONSTER_TEMPLATES[realmIdx];
     const template = monsters[Math.floor(Math.random() * monsters.length)];
     const levelScale = 1 + (level - REALMS[realmIdx].minLevel) * 0.15;
-    return {
+
+    // 精英怪机制：每15次连杀生成一只精英
+    let isElite = false;
+    let eliteMult = 1;
+    if (state.consecutiveKills > 0 && state.consecutiveKills % 15 === 0) {
+      isElite = true;
+      eliteMult = 2.5;
+    }
+    // 5%概率出现随机精英（不依赖连杀）
+    if (!isElite && Math.random() < 0.05) {
+      isElite = true;
+      eliteMult = 2;
+    }
+
+    const monster = {
       name: template.name,
-      hp: Math.floor(template.hp * levelScale),
-      maxHp: Math.floor(template.hp * levelScale),
-      atk: Math.floor((template.atk || 5) * levelScale),
-      exp: Math.floor(template.exp * levelScale),
-      gold: Math.floor(template.gold * levelScale),
+      hp: Math.floor(template.hp * levelScale * eliteMult),
+      maxHp: Math.floor(template.hp * levelScale * eliteMult),
+      atk: Math.floor((template.atk || 5) * levelScale * (isElite ? 1.5 : 1)),
+      exp: Math.floor(template.exp * levelScale * (isElite ? 3 : 1)),
+      gold: Math.floor(template.gold * levelScale * (isElite ? 3 : 1)),
       trait: template.trait,
+      isElite,
+      hpBars: 1, // 多管血条
+      currentBar: 1,
     };
+
+    // 精英怪多管血条（每管为maxHp的血量）
+    if (isElite) {
+      monster.hpBars = 2 + Math.floor(realmIdx * 0.5);
+      monster.currentBar = monster.hpBars;
+      monster.hp = monster.maxHp; // 当前血管的HP
+      monster.totalHp = monster.maxHp * monster.hpBars;
+      monster.totalMaxHp = monster.totalHp;
+    } else {
+      monster.totalHp = monster.maxHp;
+      monster.totalMaxHp = monster.maxHp;
+    }
+
+    return monster;
   }
 
   function processCombatTick() {
     if (!state) return;
+
+    // 死亡中 - 等待复活
+    if (state.isDead) {
+      const now = Date.now();
+      if (now >= state.reviveTime) {
+        state.isDead = false;
+        const stats = getComputedStats();
+        state.hp = Math.floor(stats.maxHp * 0.5); // 半血复活
+        state.consecutiveKills = 0;
+        state.playerDoTs = [];
+        addLog('🔄 鼠鼠重生！（半血状态）');
+        emit('revive', {});
+        // 刷新怪物
+        state.currentMonster = spawnMonster(state.level);
+        addLog(`🐾 ${state.currentMonster.name}${state.currentMonster.isElite ? ' ⭐精英' : ''} 出现了！`);
+        emit('spawn', { monster: state.currentMonster });
+      }
+      state.lastTickTime = Date.now();
+      saveState();
+      return;
+    }
 
     // 渡劫阻挡
     if (state.needTribulation) {
@@ -567,44 +708,103 @@ const GameEngine = (() => {
       return;
     }
 
-    // 刷新buff
     cleanExpiredBuffs();
-
-    // 刷新秘境次数
     refreshRealmCharges();
+    processCaveProduction();
 
     // 刷怪
-    if (!state.currentMonster || state.currentMonster.hp <= 0) {
+    if (!state.currentMonster || (state.currentMonster.hp <= 0 && state.currentMonster.currentBar <= 1)) {
       state.currentMonster = spawnMonster(state.level);
-      addLog(`🐾 ${state.currentMonster.name} 出现了！`);
+      const eliteTag = state.currentMonster.isElite ? ' ⭐精英' : '';
+      addLog(`🐾 ${state.currentMonster.name}${eliteTag} 出现了！`);
       emit('spawn', { monster: state.currentMonster });
     }
 
     const stats = getComputedStats();
 
-    // 闪避检测（怪物攻击鼠鼠）
+    // === 自动吃药 ===
+    if (state.autoHealEnabled) {
+      const hpPct = state.hp / stats.maxHp * 100;
+      if (hpPct <= state.autoHealThreshold && (state.pills['heal_pill'] || 0) > 0) {
+        state.pills['heal_pill']--;
+        state.hp = stats.maxHp;
+        addLog('💚 自动使用回春丹！');
+        emit('autoHeal', {});
+      }
+    }
+
+    // === 处理DoT（毒/灼烧） ===
+    let dotDamage = 0;
+    state.playerDoTs = state.playerDoTs.filter(dot => {
+      if (dot.ticksLeft > 0) {
+        const dmg = Math.floor(dot.damage);
+        dotDamage += dmg;
+        dot.ticksLeft--;
+        return dot.ticksLeft > 0;
+      }
+      return false;
+    });
+    if (dotDamage > 0) {
+      state.hp = Math.max(0, state.hp - dotDamage);
+      emit('dotDamage', { damage: dotDamage, type: state.playerDoTs[0]?.type || 'poison' });
+    }
+
+    // === 检查鼠鼠死亡（在怪物攻击前先检查DoT死亡） ===
+    if (state.hp <= 0) {
+      handlePlayerDeath();
+      return;
+    }
+
+    // === 怪物攻击鼠鼠 ===
     const monsterAtk = state.currentMonster.atk || 0;
     if (monsterAtk > 0) {
       const dodgeRoll = Math.random() * 100;
       if (dodgeRoll >= stats.dodge) {
         let monsterDmg = Math.max(1, monsterAtk - stats.defense * 0.3);
         monsterDmg = Math.floor(monsterDmg * (0.8 + Math.random() * 0.4));
-        // 怪物特性
+
+        // 怪物特性影响
         if (state.currentMonster.trait === 'berserk') monsterDmg = Math.floor(monsterDmg * 1.5);
         if (state.currentMonster.trait === 'burn') monsterDmg = Math.floor(monsterDmg * 1.2);
-        state.hp = Math.max(1, state.hp - monsterDmg);
+
+        state.hp = Math.max(0, state.hp - monsterDmg);
         emit('monsterAttack', { damage: monsterDmg });
+
+        // 特性附加效果
+        if (state.currentMonster.trait === 'poison' && Math.random() < 0.3) {
+          state.playerDoTs.push({ type: 'poison', damage: monsterDmg * 0.2, ticksLeft: 3 });
+          emit('traitTrigger', { trait: 'poison', msg: '中毒！' });
+        }
+        if (state.currentMonster.trait === 'burn' && Math.random() < 0.25) {
+          state.playerDoTs.push({ type: 'burn', damage: monsterDmg * 0.15, ticksLeft: 3 });
+          emit('traitTrigger', { trait: 'burn', msg: '灼烧！' });
+        }
+        if (state.currentMonster.trait === 'slow') {
+          emit('traitTrigger', { trait: 'slow', msg: '减速！' });
+        }
+        if (state.currentMonster.trait === 'charm' && Math.random() < 0.1) {
+          emit('traitTrigger', { trait: 'charm', msg: '魅惑！跳过一回合' });
+          state.lastTickTime = Date.now();
+          saveState();
+          return; // 跳过攻击回合
+        }
       } else {
         emit('dodge', {});
       }
     }
 
-    // 鼠鼠攻击
+    // === 检查死亡 ===
+    if (state.hp <= 0) {
+      handlePlayerDeath();
+      return;
+    }
+
+    // === 鼠鼠攻击 ===
     const isCrit = Math.random() * 100 < stats.critRate;
     let damage = stats.attack * (isCrit ? stats.critDamage / 100 : 1);
     damage = Math.floor(damage * (0.9 + Math.random() * 0.2));
 
-    // 怪物闪避（野狐、魔修）
+    // 怪物闪避
     if (state.currentMonster.trait === 'dodge' && Math.random() < 0.15) {
       addLog(`💨 ${state.currentMonster.name} 闪避了攻击！`);
       emit('monsterDodge', {});
@@ -612,10 +812,19 @@ const GameEngine = (() => {
       // 荆棘反伤
       if (state.currentMonster.trait === 'thorns') {
         const thornDmg = Math.floor(damage * 0.1);
-        state.hp = Math.max(1, state.hp - thornDmg);
+        state.hp = Math.max(0, state.hp - thornDmg);
+        emit('traitTrigger', { trait: 'thorns', msg: `荆棘反伤${formatNumber(thornDmg)}！` });
       }
 
       state.currentMonster.hp = Math.max(0, state.currentMonster.hp - damage);
+      state.currentMonster.totalHp = Math.max(0, state.currentMonster.totalHp - damage);
+
+      // DPS统计
+      state.totalDamageDealt += damage;
+      state.dpsHistory.push({ damage, time: Date.now() });
+      // 只保留最近10秒的记录
+      const cutoff = Date.now() - 10000;
+      state.dpsHistory = state.dpsHistory.filter(d => d.time > cutoff);
 
       // 吸血
       if (stats.lifesteal > 0) {
@@ -623,16 +832,29 @@ const GameEngine = (() => {
         state.hp = Math.min(stats.maxHp, state.hp + heal);
       }
 
+      // 怪物特性: 吸血怪
+      if (state.currentMonster.trait === 'lifesteal') {
+        const mHeal = Math.floor(damage * 0.15);
+        state.currentMonster.hp = Math.min(state.currentMonster.maxHp, state.currentMonster.hp + mHeal);
+        state.currentMonster.totalHp = Math.min(state.currentMonster.totalMaxHp, state.currentMonster.totalHp + mHeal);
+      }
+
       if (isCrit) {
         addLog(`⚔️ 暴击！鼠鼠对 ${state.currentMonster.name} 造成 ${formatNumber(damage)} 伤害！`);
-      } else {
-        addLog(`⚔️ 鼠鼠对 ${state.currentMonster.name} 造成 ${formatNumber(damage)} 伤害`);
       }
       emit('attack', { damage, isCrit, monsterName: state.currentMonster.name });
     }
 
-    // 怪物死亡
-    if (state.currentMonster.hp <= 0) {
+    // === 多管血条切换 ===
+    if (state.currentMonster.hp <= 0 && state.currentMonster.currentBar > 1) {
+      state.currentMonster.currentBar--;
+      state.currentMonster.hp = state.currentMonster.maxHp;
+      addLog(`💔 ${state.currentMonster.name} 还有 ${state.currentMonster.currentBar} 管血！`);
+      emit('hpBarBreak', { barsLeft: state.currentMonster.currentBar });
+    }
+
+    // === 怪物死亡 ===
+    if (state.currentMonster.hp <= 0 && state.currentMonster.currentBar <= 1) {
       const goldMult = 1 + stats.goldBonus / 100;
       const expMult = 1 + stats.expBonus / 100;
       let expGain = Math.floor(state.currentMonster.exp * expMult);
@@ -643,37 +865,70 @@ const GameEngine = (() => {
       state.totalExp += expGain;
       state.totalGold += goldGain;
       state.killCount++;
+      state.consecutiveKills++;
 
-      addLog(`💀 ${state.currentMonster.name} 被击败！+${formatNumber(expGain)}经验 +${formatNumber(goldGain)}灵石`);
+      // 怪物击杀统计
+      const mName = state.currentMonster.name;
+      state.monsterKills[mName] = (state.monsterKills[mName] || 0) + 1;
+      if (state.currentMonster.isElite) state.eliteKillCount++;
+
+      const eliteTag = state.currentMonster.isElite ? '⭐' : '';
+      addLog(`💀 ${eliteTag}${mName} 被击败！+${formatNumber(expGain)}经验 +${formatNumber(goldGain)}灵石`);
       emit('kill', { monster: state.currentMonster, expGain, goldGain });
 
-      // === 掉落 ===
       processDrops(state.currentMonster);
-
-      // === 奇遇 ===
       tryEncounter();
-
-      // === 灵兽捕获 ===
       tryCaptureBeast();
-
-      // === 升级 ===
       checkLevelUp();
+      checkAchievements();
 
-      // 刷新下一只
       state.currentMonster = spawnMonster(state.level);
-      addLog(`🐾 ${state.currentMonster.name} 出现了！`);
+      const nextEliteTag = state.currentMonster.isElite ? ' ⭐精英' : '';
+      addLog(`🐾 ${state.currentMonster.name}${nextEliteTag} 出现了！`);
       emit('spawn', { monster: state.currentMonster });
     }
 
-    // 生命回复
-    if (state.hp < stats.maxHp) {
-      state.hp = Math.min(stats.maxHp, state.hp + Math.floor(stats.maxHp * 0.02));
+    // === 生命回复 ===
+    if (state.hp < stats.maxHp && state.hp > 0) {
+      const regenRate = 0.02 + (state.consecutiveKills > 0 ? 0.005 : 0);
+      state.hp = Math.min(stats.maxHp, state.hp + Math.floor(stats.maxHp * regenRate));
+    }
+
+    // === 死亡检查 (荆棘等) ===
+    if (state.hp <= 0) {
+      handlePlayerDeath();
+      return;
     }
 
     state.lastTickTime = Date.now();
     saveState();
   }
 
+  // ========== 死亡/复活系统 ==========
+  function handlePlayerDeath() {
+    state.isDead = true;
+    state.deathCount++;
+    state.consecutiveKills = 0;
+    state.playerDoTs = [];
+
+    // 死亡惩罚: 掉落10%灵石（最少不低于0）
+    const goldLoss = Math.floor(state.gold * 0.1);
+    state.gold = Math.max(0, state.gold - goldLoss);
+
+    // 复活时间: 基础5秒，每次死亡增加0.5秒（上限15秒）
+    const reviveDelay = Math.min(15000, 5000 + (state.deathCount - 1) * 500);
+    state.reviveTime = Date.now() + reviveDelay;
+
+    const delaySec = Math.ceil(reviveDelay / 1000);
+    addLog(`💀 鼠鼠被击败！损失 ${formatNumber(goldLoss)} 灵石，${delaySec}秒后复活...`);
+    emit('death', { goldLoss, reviveDelay: delaySec });
+
+    state.lastTickTime = Date.now();
+    saveState();
+    checkAchievements();
+  }
+
+  // ========== 掉落处理 ==========
   function processDrops(monster) {
     // 材料掉落
     if (Math.random() < 0.35) {
@@ -681,32 +936,31 @@ const GameEngine = (() => {
       const amount = matType === 'essence' ? 1 : Math.floor(1 + Math.random() * 3);
       state.materials[matType] = (state.materials[matType] || 0) + amount;
       const matNames = { herb: '灵草', ore: '矿石', essence: '精华' };
-      addLog(`🎁 掉落 ${matNames[matType]} x${amount}`);
       emit('drop', { type: matType, amount });
     }
 
-    // 装备掉落（5%基础概率）
-    const dropRate = 0.05 + getRealmIndex(state.level) * 0.01;
+    // 装备掉落
+    let dropRate = 0.05 + getRealmIndex(state.level) * 0.01;
+    if (monster.isElite) dropRate += 0.25; // 精英怪+25%掉落
     if (Math.random() < dropRate) {
-      const equip = generateEquipment(state.level);
+      const minQ = monster.isElite ? 1 : 0; // 精英怪至少绿装
+      const equip = generateEquipment(state.level, Math.min(5, minQ + Math.floor(Math.random() * 3)));
       if (state.inventory.length < state.inventoryMax) {
         state.inventory.push(equip);
         addLog(`📦 获得装备 <span style="color:${equip.qualityColor}">[${equip.name}]</span>！`);
         emit('equipDrop', { equip });
       } else {
-        // 背包满了自动转化为灵石
         const sellGold = getEquipScore(equip) * 2;
         state.gold += sellGold;
-        addLog(`📦 背包已满，装备自动转化为 ${formatNumber(sellGold)} 灵石`);
+        addLog(`📦 背包已满，装备自动卖出 ${formatNumber(sellGold)} 灵石`);
       }
     }
   }
 
   function tryEncounter() {
     const now = Date.now();
-    if (now - state.lastEncounterTime < 30000) return; // 30秒冷却
-    if (Math.random() > 0.08) return; // 8%触发率
-
+    if (now - state.lastEncounterTime < 30000) return;
+    if (Math.random() > 0.08) return;
     state.lastEncounterTime = now;
     const totalWeight = ENCOUNTER_EVENTS.reduce((s, e) => s + e.weight, 0);
     let roll = Math.random() * totalWeight;
@@ -715,24 +969,21 @@ const GameEngine = (() => {
       roll -= e.weight;
       if (roll <= 0) { event = e; break; }
     }
-
     addLog(`🎲 奇遇！${event.desc}`);
     const r = event.rewards;
     if (r.herb) state.materials.herb += randRange(r.herb);
     if (r.ore) state.materials.ore += randRange(r.ore);
     if (r.essence) state.materials.essence += randRange(r.essence);
-    if (r.gold) { const g = randRange(r.gold); state.gold += g; addLog(`  → +${formatNumber(g)} 灵石`); }
+    if (r.gold) { const g = randRange(r.gold); state.gold += g; }
     if (r.expPercent) {
       const pct = randRange(r.expPercent);
       const exp = Math.floor(getExpToNextLevel(state.level) * pct / 100);
       state.exp += exp;
-      addLog(`  → +${formatNumber(exp)} 经验(${pct}%)`);
     }
     if (r.equip) {
       const equip = generateEquipment(state.level, Math.min(5, 1 + Math.floor(Math.random() * 3)));
       if (state.inventory.length < state.inventoryMax) {
         state.inventory.push(equip);
-        addLog(`  → 获得 <span style="color:${equip.qualityColor}">[${equip.name}]</span>！`);
       }
     }
     emit('encounter', { event });
@@ -742,18 +993,13 @@ const GameEngine = (() => {
     const realmIdx = getRealmIndex(state.level);
     for (const tmpl of BEAST_TEMPLATES) {
       if (realmIdx < tmpl.minRealm) continue;
-      if (state.beasts.find(b => b.templateId === tmpl.id)) continue; // 已有
+      if (state.beasts.find(b => b.templateId === tmpl.id)) continue;
       if (Math.random() < tmpl.captureChance) {
         const beast = {
-          id: Date.now().toString(36),
-          templateId: tmpl.id,
-          name: tmpl.name,
-          icon: tmpl.icon,
-          baseAtk: tmpl.baseAtk,
-          baseDef: tmpl.baseDef,
-          skill: tmpl.skill,
-          level: 1,
-          feedCount: 0,
+          id: Date.now().toString(36), templateId: tmpl.id,
+          name: tmpl.name, icon: tmpl.icon,
+          baseAtk: tmpl.baseAtk, baseDef: tmpl.baseDef,
+          skill: tmpl.skill, level: 1, feedCount: 0,
         };
         state.beasts.push(beast);
         if (!state.activeBeastId) state.activeBeastId = beast.id;
@@ -773,16 +1019,13 @@ const GameEngine = (() => {
       state.baseMaxHp = Math.floor(state.baseMaxHp * 1.1 + 10);
       state.hp = getComputedStats().maxHp;
       state.statPoints += 3;
-
       const realm = getRealm(state.level);
       const prevRealm = getRealm(state.level - 1);
-
       if (realm.name !== prevRealm.name) {
-        // 境界突破 -> 需要渡劫
         state.needTribulation = true;
         state._tribWarnShown = false;
-        state.level--; // 回退等级，等渡劫成功再升
-        state.exp += getExpToNextLevel(state.level); // 把经验还回去
+        state.level--;
+        state.exp += getExpToNextLevel(state.level);
         addLog(`⛈️ 即将突破【${realm.name}】！需要渡劫！`);
         emit('tribulationReady', { realm: realm.name });
         break;
@@ -793,6 +1036,71 @@ const GameEngine = (() => {
     }
   }
 
+  // ========== 成就检查 ==========
+  function checkAchievements() {
+    let newAchievement = false;
+    for (const ach of ACHIEVEMENTS) {
+      if (state.achievements[ach.id]) continue;
+      if (ach.check(state)) {
+        state.achievements[ach.id] = true;
+        // 应用永久加成
+        for (const [stat, val] of Object.entries(ach.reward)) {
+          state.achievementBonuses[stat] = (state.achievementBonuses[stat] || 0) + val;
+        }
+        const rewardStr = Object.entries(ach.reward).map(([k,v]) => `${k}+${v}`).join(' ');
+        addLog(`🏆 成就达成【${ach.name}】！永久加成：${rewardStr}`);
+        emit('achievement', { achievement: ach });
+        newAchievement = true;
+      }
+    }
+    return newAchievement;
+  }
+
+  // ========== 洞府系统 ==========
+  function processCaveProduction() {
+    const now = Date.now();
+    const msPassed = now - state.lastCaveProduction;
+    if (msPassed < 60000) return; // 最小单位1分钟
+    const mins = Math.floor(msPassed / 60000);
+    if (mins <= 0) return;
+
+    const herbGarden = state.cave.herb_garden || 0;
+    const mineShaft = state.cave.mine_shaft || 0;
+
+    if (herbGarden > 0) {
+      const herbs = Math.floor(herbGarden * 0.5 * mins);
+      if (herbs > 0) state.materials.herb += herbs;
+    }
+    if (mineShaft > 0) {
+      const ores = Math.floor(mineShaft * 0.3 * mins);
+      if (ores > 0) state.materials.ore += ores;
+    }
+
+    state.lastCaveProduction = now;
+  }
+
+  function upgradeCaveBuilding(buildingId) {
+    const building = CAVE_BUILDINGS.find(b => b.id === buildingId);
+    if (!building) return { success: false, msg: '建筑不存在' };
+    const curLevel = state.cave[buildingId] || 0;
+    if (curLevel >= building.maxLevel) return { success: false, msg: '已满级' };
+    const cost = Math.floor(building.baseCost * Math.pow(building.costMult, curLevel));
+    if (state.gold < cost) return { success: false, msg: `灵石不足（需要${formatNumber(cost)}）` };
+
+    state.gold -= cost;
+    state.cave[buildingId] = curLevel + 1;
+    addLog(`🏠 ${building.icon} ${building.name} 升至${curLevel + 1}级！`);
+    saveState();
+    return { success: true, msg: `${building.name} 升至${curLevel + 1}级！` };
+  }
+
+  function getCaveBuildingCost(buildingId) {
+    const building = CAVE_BUILDINGS.find(b => b.id === buildingId);
+    if (!building) return Infinity;
+    const curLevel = state.cave[buildingId] || 0;
+    return Math.floor(building.baseCost * Math.pow(building.costMult, curLevel));
+  }
+
   // ========== 渡劫 ==========
   function attemptTribulation() {
     if (!state.needTribulation) return { success: false, msg: '当前无需渡劫' };
@@ -800,11 +1108,9 @@ const GameEngine = (() => {
       const secs = Math.ceil((state.tribulationCooldown - Date.now()) / 1000);
       return { success: false, msg: `渡劫冷却中（${secs}秒）` };
     }
-
     const chance = getTribulationChance(state);
     const roll = Math.random();
     const success = roll < chance;
-
     if (success) {
       state.needTribulation = false;
       state.level++;
@@ -818,10 +1124,11 @@ const GameEngine = (() => {
       state.statPoints += 10;
       addLog(`🌟🌟🌟 渡劫成功！鼠鼠晋升【${realm.name}】！🌟🌟🌟`);
       emit('breakthrough', { realm: realm.name, level: state.level });
+      checkAchievements();
       saveState();
       return { success: true, msg: `渡劫成功！晋升${realm.name}！`, chance };
     } else {
-      state.tribulationCooldown = Date.now() + 15000; // 15秒冷却
+      state.tribulationCooldown = Date.now() + 15000;
       addLog(`💥 渡劫失败！天劫反噬！15秒后可重试`);
       state.hp = Math.max(1, Math.floor(state.hp * 0.3));
       emit('tribulationFail', {});
@@ -836,8 +1143,7 @@ const GameEngine = (() => {
     const hoursPassed = (now - state.lastRealmRefresh) / 3600000;
     if (hoursPassed >= 1) {
       const charges = Math.floor(hoursPassed);
-      state.secretRealmCharges = Math.min(state.secretRealmMaxCharges,
-        state.secretRealmCharges + charges);
+      state.secretRealmCharges = Math.min(state.secretRealmMaxCharges, state.secretRealmCharges + charges);
       state.lastRealmRefresh = now;
     }
   }
@@ -847,29 +1153,21 @@ const GameEngine = (() => {
     const realm = SECRET_REALMS[realmIndex];
     if (!realm) return { success: false, msg: '秘境不存在' };
     if (getRealmIndex(state.level) < realm.minRealm) return { success: false, msg: '境界不足' };
-
     state.secretRealmCharges--;
     const rewards = [];
-
-    // BOSS战（简化：直接判定胜负）
     const stats = getComputedStats();
     const bossHp = MONSTER_TEMPLATES[realm.bossTier]?.[0]?.hp * 3 || 500;
-    const win = stats.attack * 15 > bossHp; // 简化：15回合能打死就算赢
-
+    const win = stats.attack * 15 > bossHp;
     if (!win) {
       addLog(`🏔️ 秘境【${realm.name}】挑战失败！BOSS太强了！`);
       saveState();
       return { success: false, msg: '挑战失败！BOSS太强了' };
     }
-
-    // 材料奖励
     const r = realm.rewards;
     if (r.herb) { const n = randRange(r.herb); state.materials.herb += n; rewards.push(`灵草x${n}`); }
     if (r.ore) { const n = randRange(r.ore); state.materials.ore += n; rewards.push(`矿石x${n}`); }
     if (r.essence) { const n = randRange(r.essence); state.materials.essence += n; rewards.push(`精华x${n}`); }
     if (r.gold) { const g = randRange(r.gold); state.gold += g; rewards.push(`灵石${formatNumber(g)}`); }
-
-    // 装备奖励
     if (Math.random() < (r.equipChance || 0)) {
       const minQ = r.equipQualityMin || 0;
       const equip = generateEquipment(state.level, Math.min(5, minQ + Math.floor(Math.random() * 3)));
@@ -878,12 +1176,7 @@ const GameEngine = (() => {
         rewards.push(`[${equip.name}]`);
       }
     }
-
-    // 灵兽
-    if (r.beastChance && Math.random() < r.beastChance) {
-      tryCaptureBeast();
-    }
-
+    if (r.beastChance && Math.random() < r.beastChance) tryCaptureBeast();
     addLog(`🏔️ 秘境【${realm.name}】通关！获得：${rewards.join('、')}`);
     emit('secretRealmClear', { realm: realm.name, rewards });
     saveState();
@@ -895,43 +1188,33 @@ const GameEngine = (() => {
     const floor = state.towerFloor;
     const monster = getTowerMonster(floor);
     const stats = getComputedStats();
-
-    // 简化战斗：模拟回合制
     let mouseHp = stats.maxHp;
     let monsterHp = monster.maxHp;
     let rounds = 0;
     const maxRounds = 30;
-
     while (mouseHp > 0 && monsterHp > 0 && rounds < maxRounds) {
       rounds++;
-      // 鼠鼠攻击
       const isCrit = Math.random() * 100 < stats.critRate;
       let dmg = stats.attack * (isCrit ? stats.critDamage / 100 : 1);
       dmg = Math.floor(dmg * (0.9 + Math.random() * 0.2));
       monsterHp -= dmg;
       if (stats.lifesteal > 0) mouseHp = Math.min(stats.maxHp, mouseHp + Math.floor(dmg * stats.lifesteal / 100));
-
       if (monsterHp <= 0) break;
-
-      // 怪物攻击
       if (Math.random() * 100 >= stats.dodge) {
         let mDmg = Math.max(1, monster.atk - stats.defense * 0.3);
         mDmg = Math.floor(mDmg * (0.8 + Math.random() * 0.4));
         mouseHp -= mDmg;
       }
     }
-
     if (monsterHp <= 0) {
-      // 胜利
       const goldReward = Math.floor(50 * Math.pow(1.5, floor));
       const expReward = Math.floor(100 * Math.pow(1.4, floor));
       state.gold += goldReward;
       state.exp += expReward;
       state.towerFloor++;
-      if (state.towerFloor - 1 > state.towerBestFloor) {
-        state.towerBestFloor = state.towerFloor - 1;
-      }
+      if (state.towerFloor - 1 > state.towerBestFloor) state.towerBestFloor = state.towerFloor - 1;
       checkLevelUp();
+      checkAchievements();
       addLog(`🗼 镇妖塔第${floor}层通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石`);
       emit('towerClear', { floor, goldReward, expReward });
       saveState();
@@ -946,7 +1229,6 @@ const GameEngine = (() => {
   function claimTowerReward() {
     if (state.towerDailyRewardClaimed) return { success: false, msg: '今日已领取' };
     if (state.towerBestFloor <= 0) return { success: false, msg: '尚未通关任何层' };
-
     const gold = state.towerBestFloor * 100;
     const herbs = Math.floor(state.towerBestFloor / 3) + 1;
     state.gold += gold;
@@ -961,12 +1243,8 @@ const GameEngine = (() => {
   function equipItem(inventoryIndex) {
     const item = state.inventory[inventoryIndex];
     if (!item) return false;
-
-    // 卸下旧装备
     const old = state.equipment[item.slot];
-    if (old) {
-      state.inventory.push(old);
-    }
+    if (old) state.inventory.push(old);
     state.equipment[item.slot] = item;
     state.inventory.splice(inventoryIndex, 1);
     state.hp = Math.min(state.hp, getComputedStats().maxHp);
@@ -1001,7 +1279,6 @@ const GameEngine = (() => {
     const cost = getEquipEnhanceCost(item);
     if (state.gold < cost) return { success: false, msg: `灵石不足（需要${formatNumber(cost)}）` };
     if (item.enhanceLevel >= 15) return { success: false, msg: '已满级' };
-
     state.gold -= cost;
     item.enhanceLevel++;
     addLog(`✨ ${item.name} 强化到+${item.enhanceLevel}！`);
@@ -1009,19 +1286,41 @@ const GameEngine = (() => {
     return { success: true, msg: `强化成功！+${item.enhanceLevel}` };
   }
 
-  // ========== 丹药操作 ==========
+  // 装备对比：返回与当前装备的属性差异
+  function compareEquip(inventoryIndex) {
+    const newEquip = state.inventory[inventoryIndex];
+    if (!newEquip) return null;
+    const curEquip = state.equipment[newEquip.slot];
+    const newScore = getEquipScore(newEquip);
+    const curScore = curEquip ? getEquipScore(curEquip) : 0;
+    return {
+      newScore, curScore,
+      diff: newScore - curScore,
+      isUpgrade: newScore > curScore,
+      slot: newEquip.slot,
+    };
+  }
+
+  // ========== 丹药 ==========
   function craftPill(recipeId) {
     const recipe = PILL_RECIPES.find(r => r.id === recipeId);
     if (!recipe) return { success: false, msg: '配方不存在' };
     if (getRealmIndex(state.level) < recipe.minRealm) return { success: false, msg: '境界不足' };
     if (state.gold < recipe.gold) return { success: false, msg: '灵石不足' };
+
+    // 洞府炼丹房减少材料消耗
+    const forgeRoom = state.cave?.forge_room || 0;
+    const matReduce = forgeRoom * 0.1; // 每级减10%
+
     for (const [mat, need] of Object.entries(recipe.materials)) {
-      if ((state.materials[mat] || 0) < need) return { success: false, msg: `材料不足（${mat}）` };
+      const actualNeed = Math.max(1, Math.floor(need * (1 - matReduce)));
+      if ((state.materials[mat] || 0) < actualNeed) return { success: false, msg: `材料不足（${mat}）` };
     }
 
     state.gold -= recipe.gold;
     for (const [mat, need] of Object.entries(recipe.materials)) {
-      state.materials[mat] -= need;
+      const actualNeed = Math.max(1, Math.floor(need * (1 - matReduce)));
+      state.materials[mat] -= actualNeed;
     }
     state.pills[recipeId] = (state.pills[recipeId] || 0) + 1;
     addLog(`🧪 炼制成功：${recipe.icon} ${recipe.name}`);
@@ -1033,11 +1332,9 @@ const GameEngine = (() => {
     if ((state.pills[recipeId] || 0) <= 0) return { success: false, msg: '数量不足' };
     const recipe = PILL_RECIPES.find(r => r.id === recipeId);
     if (!recipe) return { success: false, msg: '配方不存在' };
-
     state.pills[recipeId]--;
     const eff = recipe.effect;
     const now = Date.now();
-
     if (eff.type === 'heal') {
       const stats = getComputedStats();
       state.hp = stats.maxHp;
@@ -1055,13 +1352,12 @@ const GameEngine = (() => {
       state.buffs.critBoost = { value: eff.value, until: now + eff.duration * 1000 };
       addLog(`💥 使用${recipe.name}，暴击+${eff.value * 100}% ${eff.duration}秒！`);
     }
-
     emit('pillUse', { recipe });
     saveState();
     return { success: true, msg: `使用成功！` };
   }
 
-  // ========== 功法操作 ==========
+  // ========== 功法 ==========
   function upgradeSkill(skillId) {
     const sk = SKILL_TREE.find(s => s.id === skillId);
     if (!sk) return { success: false, msg: '功法不存在' };
@@ -1069,7 +1365,6 @@ const GameEngine = (() => {
     const curLv = state.skills[skillId] || 0;
     if (curLv >= sk.maxLevel) return { success: false, msg: '已满级' };
     if (state.statPoints < sk.cost) return { success: false, msg: '修炼点不足' };
-
     state.statPoints -= sk.cost;
     state.skills[skillId] = curLv + 1;
     addLog(`📜 功法【${sk.name}】升至${curLv + 1}级！`);
@@ -1077,13 +1372,12 @@ const GameEngine = (() => {
     return { success: true, msg: `${sk.name} 升至${curLv + 1}级！` };
   }
 
-  // ========== 灵兽操作 ==========
+  // ========== 灵兽 ==========
   function feedBeast(beastId) {
     const beast = state.beasts.find(b => b.id === beastId);
     if (!beast) return { success: false, msg: '灵兽不存在' };
     const cost = Math.floor(50 * Math.pow(1.5, beast.level));
     if (state.gold < cost) return { success: false, msg: `灵石不足（需要${formatNumber(cost)}）` };
-
     state.gold -= cost;
     beast.feedCount++;
     if (beast.feedCount >= beast.level * 3) {
@@ -1109,15 +1403,18 @@ const GameEngine = (() => {
   // ========== 加点 ==========
   function upgrade(stat) {
     if (!state || state.statPoints <= 0) return false;
+    const trainingGround = state.cave?.training_ground || 0;
+    const bonusMult = 1 + trainingGround * 0.15; // 练功场加成
+
     switch (stat) {
       case 'attack':
-        state.baseAttack += Math.floor(state.baseAttack * 0.05 + 3);
+        state.baseAttack += Math.floor((state.baseAttack * 0.05 + 3) * bonusMult);
         break;
       case 'defense':
-        state.baseDefense += Math.floor(state.baseDefense * 0.05 + 2);
+        state.baseDefense += Math.floor((state.baseDefense * 0.05 + 2) * bonusMult);
         break;
       case 'hp':
-        state.baseMaxHp += Math.floor(state.baseMaxHp * 0.05 + 10);
+        state.baseMaxHp += Math.floor((state.baseMaxHp * 0.05 + 10) * bonusMult);
         state.hp = getComputedStats().maxHp;
         break;
       case 'crit':
@@ -1132,6 +1429,43 @@ const GameEngine = (() => {
     return true;
   }
 
+  // ========== 战斗速度 ==========
+  function setBattleSpeed(speed) {
+    if (![1, 2, 4].includes(speed)) return;
+    state.battleSpeed = speed;
+    TICK_INTERVAL = 2000 / speed;
+    // 重启tick
+    if (tickTimer) {
+      clearInterval(tickTimer);
+      tickTimer = setInterval(processCombatTick, TICK_INTERVAL);
+    }
+    saveState();
+  }
+
+  // ========== 自动吃药 ==========
+  function toggleAutoHeal() {
+    state.autoHealEnabled = !state.autoHealEnabled;
+    saveState();
+    return state.autoHealEnabled;
+  }
+
+  function setAutoHealThreshold(pct) {
+    state.autoHealThreshold = Math.max(10, Math.min(80, pct));
+    saveState();
+  }
+
+  // ========== DPS计算 ==========
+  function getCurrentDPS() {
+    if (!state.dpsHistory || state.dpsHistory.length === 0) return 0;
+    const now = Date.now();
+    const cutoff = now - 10000;
+    const recent = state.dpsHistory.filter(d => d.time > cutoff);
+    if (recent.length === 0) return 0;
+    const totalDmg = recent.reduce((s, d) => s + d.damage, 0);
+    const timeSpan = (now - recent[0].time) / 1000;
+    return timeSpan > 0 ? Math.floor(totalDmg / timeSpan) : 0;
+  }
+
   // ========== 离线补算 ==========
   function processOfflineGains() {
     if (!state) return null;
@@ -1140,14 +1474,13 @@ const GameEngine = (() => {
     const offlineSeconds = Math.floor(offlineMs / 1000);
     if (offlineSeconds < 30) return null;
 
-    // 渡劫中不产出
     if (state.needTribulation) {
       state.lastTickTime = now;
       saveState();
       return { offlineSeconds, totalKills: 0, totalExp: 0, totalGold: 0, levelUps: 0, note: '渡劫中' };
     }
 
-    const tickCount = Math.floor(offlineSeconds / (TICK_INTERVAL / 1000));
+    const tickCount = Math.floor(offlineSeconds / (2000 / (state.battleSpeed || 1) / 1000));
     const realmIdx = getRealmIndex(state.level);
     const monsters = MONSTER_TEMPLATES[realmIdx];
     const avgExp = monsters.reduce((sum, m) => sum + m.exp, 0) / monsters.length;
@@ -1155,18 +1488,22 @@ const GameEngine = (() => {
     const avgHp = monsters.reduce((sum, m) => sum + m.hp, 0) / monsters.length;
     const levelScale = 1 + (state.level - REALMS[realmIdx].minLevel) * 0.15;
     const stats = getComputedStats();
-
     const killsPerTick = Math.max(0.1, stats.attack / (avgHp * levelScale));
     const totalKills = Math.floor(killsPerTick * tickCount);
     const totalExp = Math.floor(totalKills * avgExp * levelScale);
     const totalGold = Math.floor(totalKills * avgGold * levelScale);
-
-    // 离线材料
     const offlineHerbs = Math.floor(totalKills * 0.15);
     const offlineOre = Math.floor(totalKills * 0.1);
-    state.materials.herb += offlineHerbs;
-    state.materials.ore += offlineOre;
 
+    // 洞府离线产出
+    const offlineMins = Math.floor(offlineSeconds / 60);
+    const herbGarden = state.cave?.herb_garden || 0;
+    const mineShaft = state.cave?.mine_shaft || 0;
+    const caveHerbs = Math.floor(herbGarden * 0.5 * offlineMins);
+    const caveOre = Math.floor(mineShaft * 0.3 * offlineMins);
+
+    state.materials.herb += offlineHerbs + caveHerbs;
+    state.materials.ore += offlineOre + caveOre;
     state.exp += totalExp;
     state.gold += totalGold;
     state.totalExp += totalExp;
@@ -1192,7 +1529,6 @@ const GameEngine = (() => {
       levelUps++;
     }
 
-    // 离线装备掉落
     const offlineEquips = Math.floor(totalKills * 0.02);
     let equipsGained = 0;
     for (let i = 0; i < Math.min(offlineEquips, 5); i++) {
@@ -1202,11 +1538,27 @@ const GameEngine = (() => {
       }
     }
 
+    // 死亡状态重置
+    if (state.isDead) {
+      state.isDead = false;
+      const cStats = getComputedStats();
+      state.hp = cStats.maxHp;
+    }
+
     state.lastTickTime = now;
+    state.lastCaveProduction = now;
     state.currentMonster = spawnMonster(state.level);
+    state.combatStartTime = now;
+    checkAchievements();
     saveState();
 
-    return { offlineSeconds, totalKills, totalExp, totalGold, levelUps, offlineHerbs, offlineOre, equipsGained };
+    return {
+      offlineSeconds, totalKills, totalExp, totalGold, levelUps,
+      offlineHerbs: offlineHerbs + caveHerbs,
+      offlineOre: offlineOre + caveOre,
+      equipsGained,
+      caveHerbs, caveOre,
+    };
   }
 
   // ========== 辅助 ==========
@@ -1219,21 +1571,15 @@ const GameEngine = (() => {
     }
   }
 
-  function randRange(arr) {
-    return Math.floor(arr[0] + Math.random() * (arr[1] - arr[0] + 1));
-  }
+  function randRange(arr) { return Math.floor(arr[0] + Math.random() * (arr[1] - arr[0] + 1)); }
 
   function addLog(msg) {
     if (!state) return;
     state.battleLog.push(msg);
-    if (state.battleLog.length > MAX_LOG) {
-      state.battleLog = state.battleLog.slice(-MAX_LOG);
-    }
+    if (state.battleLog.length > MAX_LOG) state.battleLog = state.battleLog.slice(-MAX_LOG);
   }
 
-  function emit(eventType, data) {
-    if (onBattleEvent) onBattleEvent(eventType, data);
-  }
+  function emit(eventType, data) { if (onBattleEvent) onBattleEvent(eventType, data); }
 
   function formatNumber(num) {
     if (num >= 1e12) return (num / 1e12).toFixed(1) + '兆';
@@ -1246,9 +1592,9 @@ const GameEngine = (() => {
   function start(eventCallback) {
     onBattleEvent = eventCallback;
     loadState();
-    if (!state.currentMonster) {
-      state.currentMonster = spawnMonster(state.level);
-    }
+    TICK_INTERVAL = 2000 / (state.battleSpeed || 1);
+    if (!state.currentMonster) state.currentMonster = spawnMonster(state.level);
+    if (!state.combatStartTime) state.combatStartTime = Date.now();
     saveState();
     tickTimer = setInterval(processCombatTick, TICK_INTERVAL);
   }
@@ -1282,26 +1628,24 @@ const GameEngine = (() => {
       },
       activeBeast: getActiveBeast(),
       tribChance: state.needTribulation ? getTribulationChance(state) : null,
+      dps: getCurrentDPS(),
+      reviveCountdown: state.isDead ? Math.max(0, Math.ceil((state.reviveTime - Date.now()) / 1000)) : 0,
     };
   }
 
   return {
     start, stop, getState, upgrade, resetState, processOfflineGains, formatNumber,
-    // 装备
-    equipItem, unequipItem, sellItem, enhanceEquip, getEquipScore, getEquipEnhanceCost,
-    // 丹药
+    equipItem, unequipItem, sellItem, enhanceEquip, getEquipScore, getEquipEnhanceCost, compareEquip,
     craftPill, usePill, PILL_RECIPES,
-    // 功法
     upgradeSkill, SKILL_TREE,
-    // 灵兽
     feedBeast, setActiveBeast, BEAST_TEMPLATES,
-    // 秘境
     enterSecretRealm, SECRET_REALMS,
-    // 镇妖塔
     challengeTower, claimTowerReward,
-    // 渡劫
     attemptTribulation,
-    // 常量
+    setBattleSpeed,
+    toggleAutoHeal, setAutoHealThreshold,
+    upgradeCaveBuilding, getCaveBuildingCost, CAVE_BUILDINGS,
+    ACHIEVEMENTS,
     REALMS, EQUIP_QUALITIES, EQUIP_SLOT_NAMES,
   };
 
