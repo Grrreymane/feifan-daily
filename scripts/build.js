@@ -127,6 +127,7 @@ function htmlShell(title, body, activeNav = '') {
       <a href="${B}/articles/"${activeNav === 'articles' ? ' class="active"' : ''}>深度文章</a>
       <a href="${B}/summaries/"${activeNav === 'summaries' ? ' class="active"' : ''}>视频笔记</a>
       <a href="${B}/gallery/"${activeNav === 'gallery' ? ' class="active"' : ''}>福瑞画廊</a>
+      <a href="${B}/game/"${activeNav === 'game' ? ' class="active"' : ''}>🐭 鼠鼠修仙</a>
     </nav>
   </header>
   <main class="container">
