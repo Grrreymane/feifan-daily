@@ -693,6 +693,252 @@ const Sprites = (() => {
     ctx.restore();
   }
 
+  // 火灵猫
+  function drawPetFireCat(ctx, x, y, s, frame) {
+    ctx.save();
+    ctx.translate(x, y);
+    const bob = Math.sin(frame * 0.08) * s;
+    ctx.translate(0, bob);
+    // 身体
+    rect(ctx, -3*s, -2*s, 6*s, 4*s, '#FF6633');
+    rect(ctx, -2*s, -3*s, 4*s, s, '#FF6633');
+    // 头
+    rect(ctx, -4*s, -5*s, 5*s, 4*s, '#FF8844');
+    // 耳朵
+    rect(ctx, -4*s, -7*s, 2*s, 2*s, '#FF6633');
+    rect(ctx, -1*s, -7*s, 2*s, 2*s, '#FF6633');
+    rect(ctx, -3*s, -6*s, s, s, '#FF9966'); // 内耳
+    rect(ctx, 0, -6*s, s, s, '#FF9966');
+    // 眼睛
+    rect(ctx, -3*s, -4*s, s, s, '#FFFF00');
+    rect(ctx, -1*s, -4*s, s, s, '#FFFF00');
+    // 鼻子
+    rect(ctx, -2*s, -3*s, s, s, '#FF3300');
+    // 尾巴（火焰效果）
+    ctx.strokeStyle = '#FF4400'; ctx.lineWidth = s * 1.5; ctx.lineCap = 'round';
+    ctx.beginPath();
+    ctx.moveTo(3*s, 0);
+    ctx.quadraticCurveTo(6*s, -2*s + Math.sin(frame*0.1)*2*s, 8*s, -4*s);
+    ctx.stroke();
+    // 火焰尖端
+    const flicker = Math.sin(frame * 0.15) * s;
+    rect(ctx, 7*s, -6*s + flicker, 2*s, 2*s, '#FF8800');
+    rect(ctx, 8*s, -7*s + flicker, s, s, '#FFCC00');
+    // 脚
+    rect(ctx, -3*s, 2*s, 2*s, s, '#CC5522');
+    rect(ctx, 1*s, 2*s, 2*s, s, '#CC5522');
+    // 火焰光效
+    ctx.globalAlpha = 0.15 + Math.sin(frame * 0.12) * 0.1;
+    ctx.shadowColor = '#FF4400'; ctx.shadowBlur = 8;
+    rect(ctx, -3*s, -2*s, 6*s, 4*s, '#FF6633');
+    ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    ctx.restore();
+  }
+
+  // 冰狼
+  function drawPetIceWolf(ctx, x, y, s, frame) {
+    ctx.save();
+    ctx.translate(x, y);
+    const bob = Math.sin(frame * 0.06) * s * 0.5;
+    ctx.translate(0, bob);
+    // 身体
+    rect(ctx, -4*s, -2*s, 8*s, 5*s, '#99CCEE');
+    rect(ctx, -3*s, -3*s, 6*s, s, '#AADDFF');
+    // 头
+    rect(ctx, -6*s, -5*s, 5*s, 5*s, '#BBDDFF');
+    // 嘴
+    rect(ctx, -8*s, -3*s, 3*s, 2*s, '#AACCDD');
+    rect(ctx, -8*s, -2*s, 2*s, s, '#FFFFFF');
+    // 耳朵
+    rect(ctx, -6*s, -7*s, 2*s, 2*s, '#99CCEE');
+    rect(ctx, -3*s, -7*s, 2*s, 2*s, '#99CCEE');
+    // 眼睛
+    rect(ctx, -5*s, -4*s, s, s, '#00CCFF');
+    rect(ctx, -3*s, -4*s, s, s, '#00CCFF');
+    // 尾巴
+    ctx.strokeStyle = '#BBDDFF'; ctx.lineWidth = s * 2; ctx.lineCap = 'round';
+    ctx.beginPath();
+    ctx.moveTo(4*s, -s);
+    ctx.quadraticCurveTo(7*s, -3*s + Math.sin(frame*0.07)*2*s, 9*s, -2*s);
+    ctx.stroke();
+    // 脚
+    rect(ctx, -3*s, 3*s, 2*s, s, '#88BBDD');
+    rect(ctx, 1*s, 3*s, 2*s, s, '#88BBDD');
+    // 冰晶粒子
+    ctx.globalAlpha = 0.3;
+    for (let i = 0; i < 3; i++) {
+      const px = -2*s + Math.sin(frame*0.03 + i*2) * 6*s;
+      const py = -4*s + Math.cos(frame*0.04 + i*3) * 3*s;
+      rect(ctx, px, py, s, s, '#FFFFFF');
+    }
+    ctx.globalAlpha = 1;
+    ctx.restore();
+  }
+
+  // 雷鹰
+  function drawPetThunderEagle(ctx, x, y, s, frame) {
+    ctx.save();
+    ctx.translate(x, y);
+    const fly = Math.sin(frame * 0.08) * 2 * s;
+    ctx.translate(0, fly);
+    // 身体
+    rect(ctx, -2*s, -s, 4*s, 3*s, '#DDAA33');
+    // 头
+    rect(ctx, -3*s, -4*s, 3*s, 3*s, '#EEBB44');
+    rect(ctx, -5*s, -3*s, 2*s, s, '#FF8800'); // 喙
+    // 眼
+    rect(ctx, -3*s, -3*s, s, s, '#FFFFFF');
+    // 翅膀（扇动动画）
+    const wingUp = Math.sin(frame * 0.12) * 3 * s;
+    rect(ctx, -6*s, -2*s + wingUp, 4*s, 2*s, '#CCAA22');
+    rect(ctx, -7*s, -s + wingUp * 0.5, 2*s, s, '#BBAA11');
+    rect(ctx, 2*s, -2*s + wingUp, 4*s, 2*s, '#CCAA22');
+    rect(ctx, 5*s, -s + wingUp * 0.5, 2*s, s, '#BBAA11');
+    // 尾巴
+    rect(ctx, 0, 2*s, 2*s, 2*s, '#DDAA33');
+    rect(ctx, 0, 4*s, s, s, '#CCAA22');
+    // 脚爪
+    rect(ctx, -s, 2*s, s, 2*s, '#886622');
+    rect(ctx, s, 2*s, s, 2*s, '#886622');
+    // 雷电效果
+    if (Math.floor(frame / 8) % 3 === 0) {
+      ctx.strokeStyle = '#FFFF44'; ctx.lineWidth = s * 0.8; ctx.lineCap = 'round';
+      ctx.beginPath();
+      ctx.moveTo(-3*s, -5*s); ctx.lineTo(-4*s, -7*s);
+      ctx.lineTo(-3*s, -6*s); ctx.lineTo(-5*s, -8*s);
+      ctx.stroke();
+      ctx.beginPath();
+      ctx.moveTo(2*s, -5*s); ctx.lineTo(3*s, -7*s);
+      ctx.lineTo(2*s, -6*s); ctx.lineTo(4*s, -8*s);
+      ctx.stroke();
+    }
+    ctx.restore();
+  }
+
+  // 暗影蛇
+  function drawPetShadowSerpent(ctx, x, y, s, frame) {
+    ctx.save();
+    ctx.translate(x, y);
+    const slither = Math.sin(frame * 0.08);
+    // 暗色蛇身
+    ctx.strokeStyle = '#553388';
+    ctx.lineWidth = s * 2.5;
+    ctx.lineCap = 'round';
+    ctx.beginPath();
+    ctx.moveTo(0, 0);
+    ctx.quadraticCurveTo(3*s, -3*s + slither*1.5*s, 7*s, -s);
+    ctx.quadraticCurveTo(11*s, s - slither*1.5*s, 15*s, 0);
+    ctx.quadraticCurveTo(18*s, -2*s + slither*s, 20*s, -s);
+    ctx.stroke();
+    // 高光
+    ctx.globalAlpha = 0.3;
+    ctx.strokeStyle = '#8855CC';
+    ctx.lineWidth = s;
+    ctx.stroke();
+    ctx.globalAlpha = 1;
+    // 头
+    rect(ctx, -3*s, -2*s, 4*s, 3*s, '#553388');
+    rect(ctx, -2*s, -s, 2*s, 2*s, '#6644AA');
+    // 眼（紫色发光）
+    rect(ctx, -3*s, -2*s, s, s, '#FF00FF');
+    ctx.globalAlpha = 0.3;
+    ctx.shadowColor = '#FF00FF'; ctx.shadowBlur = 6;
+    rect(ctx, -3*s, -2*s, s, s, '#FF00FF');
+    ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    // 舌头
+    if (Math.floor(frame/12) % 2 === 0) {
+      ctx.strokeStyle = '#CC44CC'; ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(-3*s, -s);
+      ctx.lineTo(-5*s, -2*s); ctx.moveTo(-3*s, -s); ctx.lineTo(-5*s, 0);
+      ctx.stroke();
+    }
+    // 暗影粒子
+    ctx.globalAlpha = 0.25;
+    for (let i = 0; i < 4; i++) {
+      const px = 3*s + Math.sin(frame*0.04 + i) * 8*s;
+      const py = -s + Math.cos(frame*0.05 + i*2) * 2*s;
+      rect(ctx, px, py, s, s, '#9944DD');
+    }
+    ctx.globalAlpha = 1;
+    ctx.restore();
+  }
+
+  // 凤凰
+  function drawPetPhoenix(ctx, x, y, s, frame) {
+    ctx.save();
+    ctx.translate(x, y);
+    const fly = Math.sin(frame * 0.05) * 2 * s;
+    ctx.translate(0, fly);
+    // 身体
+    rect(ctx, -3*s, -2*s, 6*s, 4*s, '#FF4422');
+    rect(ctx, -2*s, -3*s, 4*s, s, '#FF6644');
+    // 头
+    rect(ctx, -4*s, -6*s, 4*s, 4*s, '#FF6644');
+    // 冠
+    rect(ctx, -3*s, -8*s, s, 2*s, '#FFD700');
+    rect(ctx, -1*s, -9*s, s, 3*s, '#FFD700');
+    rect(ctx, -2*s, -9*s, s, s, '#FFEE44');
+    // 眼
+    rect(ctx, -3*s, -5*s, s, s, '#FFFFFF');
+    rect(ctx, -3*s, -5*s, s/2, s/2, '#000000');
+    // 喙
+    rect(ctx, -6*s, -5*s, 2*s, s, '#FFAA00');
+    // 翅膀（华丽展翅）
+    const wingSpread = Math.sin(frame * 0.1) * 2 * s;
+    // 左翼
+    rect(ctx, -8*s, -4*s + wingSpread, 5*s, 2*s, '#FF3311');
+    rect(ctx, -10*s, -3*s + wingSpread*0.7, 3*s, 2*s, '#FF6600');
+    rect(ctx, -11*s, -2*s + wingSpread*0.5, 2*s, s, '#FFAA00');
+    // 右翼
+    rect(ctx, 3*s, -4*s + wingSpread, 5*s, 2*s, '#FF3311');
+    rect(ctx, 7*s, -3*s + wingSpread*0.7, 3*s, 2*s, '#FF6600');
+    rect(ctx, 9*s, -2*s + wingSpread*0.5, 2*s, s, '#FFAA00');
+    // 尾羽（长长的彩色尾巴）
+    const tailWave = Math.sin(frame * 0.06);
+    ctx.strokeStyle = '#FF4400'; ctx.lineWidth = s * 1.5; ctx.lineCap = 'round';
+    ctx.beginPath(); ctx.moveTo(s, 2*s);
+    ctx.quadraticCurveTo(5*s, 6*s + tailWave*3*s, 3*s, 12*s);
+    ctx.stroke();
+    ctx.strokeStyle = '#FFD700'; ctx.lineWidth = s;
+    ctx.beginPath(); ctx.moveTo(0, 2*s);
+    ctx.quadraticCurveTo(4*s, 5*s + tailWave*2*s, 1*s, 11*s);
+    ctx.stroke();
+    ctx.strokeStyle = '#FF8800';
+    ctx.beginPath(); ctx.moveTo(2*s, 2*s);
+    ctx.quadraticCurveTo(6*s, 7*s + tailWave*4*s, 5*s, 13*s);
+    ctx.stroke();
+    // 火焰光效
+    ctx.globalAlpha = 0.2 + Math.sin(frame * 0.1) * 0.1;
+    ctx.shadowColor = '#FF4400'; ctx.shadowBlur = 12;
+    rect(ctx, -3*s, -2*s, 6*s, 4*s, '#FF6644');
+    ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    // 涅槃粒子
+    for (let i = 0; i < 3; i++) {
+      const px = -4*s + Math.sin(frame*0.03 + i*2.5) * 10*s;
+      const py = -5*s + Math.cos(frame*0.04 + i*1.7) * 5*s;
+      ctx.globalAlpha = 0.4 + Math.sin(frame*0.08 + i) * 0.3;
+      rect(ctx, px, py, s, s, i%2===0 ? '#FFD700' : '#FF4400');
+    }
+    ctx.globalAlpha = 1;
+    ctx.restore();
+  }
+
+  // ================================================================
+  // 灵兽独立绘制接口 —— 根据灵兽模板ID绘制对应视觉
+  // ================================================================
+  function drawActiveBeast(ctx, x, y, s, beastTemplateId, frame) {
+    switch (beastTemplateId) {
+      case 'fire_cat':       drawPetFireCat(ctx, x, y, s, frame); break;
+      case 'ice_wolf':       drawPetIceWolf(ctx, x, y, s, frame); break;
+      case 'thunder_eagle':  drawPetThunderEagle(ctx, x, y, s, frame); break;
+      case 'shadow_serpent':  drawPetShadowSerpent(ctx, x, y, s, frame); break;
+      case 'jade_dragon':    drawPetDragon(ctx, x, y, s, frame); break;
+      case 'phoenix':        drawPetPhoenix(ctx, x, y, s, frame); break;
+      default: break;
+    }
+  }
+
   // ================================================================
   // 坐骑绘制
   // ================================================================
@@ -1352,6 +1598,7 @@ const Sprites = (() => {
     drawMouseByRealm,
     drawMonsterByName,
     drawMonsterHPBar,
+    drawActiveBeast,
     rect,
     px,
   };

@@ -826,17 +826,10 @@ const GameEngine = (() => {
       const cutoff = Date.now() - 10000;
       state.dpsHistory = state.dpsHistory.filter(d => d.time > cutoff);
 
-      // 吸血
+      // 玩家吸血
       if (stats.lifesteal > 0) {
         const heal = Math.floor(damage * stats.lifesteal / 100);
         state.hp = Math.min(stats.maxHp, state.hp + heal);
-      }
-
-      // 怪物特性: 吸血怪
-      if (state.currentMonster.trait === 'lifesteal') {
-        const mHeal = Math.floor(damage * 0.15);
-        state.currentMonster.hp = Math.min(state.currentMonster.maxHp, state.currentMonster.hp + mHeal);
-        state.currentMonster.totalHp = Math.min(state.currentMonster.totalMaxHp, state.currentMonster.totalHp + mHeal);
       }
 
       if (isCrit) {
@@ -851,6 +844,15 @@ const GameEngine = (() => {
       state.currentMonster.hp = state.currentMonster.maxHp;
       addLog(`💔 ${state.currentMonster.name} 还有 ${state.currentMonster.currentBar} 管血！`);
       emit('hpBarBreak', { barsLeft: state.currentMonster.currentBar });
+    }
+
+    // === 怪物特性: 吸血怪（只在怪物还活着时回血） ===
+    if (state.currentMonster.hp > 0 && state.currentMonster.trait === 'lifesteal') {
+      const isCritAtk = Math.random() * 100 < stats.critRate;
+      const baseDmg = stats.attack * (isCritAtk ? stats.critDamage / 100 : 1);
+      const mHeal = Math.floor(baseDmg * 0.08);
+      state.currentMonster.hp = Math.min(state.currentMonster.maxHp, state.currentMonster.hp + mHeal);
+      state.currentMonster.totalHp = Math.min(state.currentMonster.totalMaxHp, state.currentMonster.totalHp + mHeal);
     }
 
     // === 怪物死亡 ===

@@ -476,6 +476,13 @@ function render() {
     Sprites.drawMouseByRealm(ctx, mouseX, mouseY, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0);
     ctx.globalAlpha = 1;
 
+    // 出战灵兽绘制
+    if (gs.activeBeast && !gs.isDead) {
+      const petX = mouseX - 40;
+      const petY = mouseY - 5;
+      Sprites.drawActiveBeast(ctx, petX, petY, PIXEL_SCALE, gs.activeBeast.templateId, animFrame);
+    }
+
     // 怪物
     if (gs.currentMonster && monsterDeathAnim <= 0 && !gs.isDead) {
       ctx.globalAlpha = 0.15; ctx.fillStyle = '#000';
