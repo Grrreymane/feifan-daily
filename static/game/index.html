@@ -4,76 +4,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>🐭 鼠鼠修仙 v1.2</title>
-  <link rel="icon" id="dynamic-favicon" type="image/png">
-  <script>
-  // 动态生成像素鼠鼠favicon — 蓝紫霓虹风格
-  (function() {
-    const c = document.createElement('canvas');
-    c.width = 32; c.height = 32;
-    const x = c.getContext('2d');
-    const p = (px, py, color) => { x.fillStyle = color; x.fillRect(px, py, 1, 1); };
-    // 背景
-    x.fillStyle = '#0d0b1e'; x.fillRect(0, 0, 32, 32);
-    // 发光底座光晕
-    x.fillStyle = 'rgba(80,200,255,0.12)';
-    x.beginPath(); x.ellipse(16, 28, 10, 3, 0, 0, Math.PI*2); x.fill();
-    // 身体 - 浅蓝紫毛
-    const fur = '#9BB0D4', furL = '#B8CCE8', belly = '#C8D8F0';
-    const earPink = '#C88AAE', earInner = '#E0A0C4';
-    const robe = '#4488CC', robeD = '#2A5A8A', robeTrim = '#66CCFF';
-    // 耳朵
-    [9,10].forEach(i => { p(i, 5, earPink); p(i, 6, earPink); });
-    p(10, 6, earInner);
-    [20,21].forEach(i => { p(i, 5, earPink); p(i, 6, earPink); });
-    p(20, 6, earInner);
-    // 头部
-    for(let i=9;i<=21;i++) for(let j=7;j<=13;j++) p(i, j, fur);
-    for(let i=10;i<=20;i++) for(let j=8;j<=12;j++) p(i, j, furL);
-    // 眼睛
-    [11,12].forEach(i => [9,10].forEach(j => p(i, j, '#111')));
-    p(11, 9, '#fff');
-    [18,19].forEach(i => [9,10].forEach(j => p(i, j, '#111')));
-    p(18, 9, '#fff');
-    // 鼻子
-    p(15, 12, '#FF99AA');
-    // 胡须
-    x.strokeStyle = 'rgba(200,220,255,0.5)'; x.lineWidth = 0.5;
-    x.beginPath();
-    x.moveTo(8, 10); x.lineTo(5, 9);
-    x.moveTo(8, 11); x.lineTo(5, 11);
-    x.moveTo(22, 10); x.lineTo(25, 9);
-    x.moveTo(22, 11); x.lineTo(25, 11);
-    x.stroke();
-    // 道袍身体
-    for(let i=10;i<=20;i++) for(let j=14;j<=22;j++) p(i, j, robe);
-    for(let i=11;i<=19;i++) for(let j=15;j<=21;j++) p(i, j, robeD);
-    // 领子
-    [14,15,16].forEach(i => p(i, 14, robeTrim));
-    // 腰带
-    for(let i=10;i<=20;i++) p(i, 19, robeTrim);
-    // 肚子
-    for(let i=13;i<=17;i++) for(let j=15;j<=18;j++) p(i, j, belly);
-    // 腿脚
-    [11,12].forEach(i => [23,24].forEach(j => p(i, j, fur)));
-    [18,19].forEach(i => [23,24].forEach(j => p(i, j, fur)));
-    // 尾巴
-    x.strokeStyle = '#8090B0'; x.lineWidth = 1.5; x.lineCap = 'round';
-    x.beginPath(); x.moveTo(10, 20); x.quadraticCurveTo(4, 16, 6, 10); x.stroke();
-    // 发光效果
-    x.shadowBlur = 6; x.shadowColor = '#44CCFF';
-    x.fillStyle = 'rgba(68,204,255,0.15)';
-    x.beginPath(); x.ellipse(16, 16, 12, 12, 0, 0, Math.PI*2); x.fill();
-    x.shadowBlur = 0;
-    // 底座
-    for(let i=8;i<=22;i++) p(i, 26, '#2288AA');
-    for(let i=9;i<=21;i++) p(i, 27, '#44CCEE');
-    for(let i=10;i<=20;i++) p(i, 28, '#2288AA');
-    // 底座发光点
-    p(13, 27, '#88EEFF'); p(17, 27, '#88EEFF');
-    // 设置favicon
-    document.getElementById('dynamic-favicon').href = c.toDataURL('image/png');
-  })();
-  </script>
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="shortcut icon" href="favicon.ico">
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
     * { margin: 0; padding: 0; box-sizing: border-box; }
