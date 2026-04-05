@@ -1,6 +1,6 @@
 // ============================================================
-// engine.js — 鼠鼠修仙 v0.9 每日签到+悬赏任务
-// 天机阁抽卡 / 日夜循环 / 伤害弹跳 / Mini-HUD / 连杀特效
+// engine.js — 鼠鼠修仙 v1.0 系统重构+转生天赋
+// 升仙令抽卡 / 外观生效 / 自动加点 / 转生天赋 / 日夜循环
 // ============================================================
 
 const GameEngine = (() => {
@@ -271,8 +271,8 @@ const GameEngine = (() => {
   ];
 
   // ========== 天机阁·抽卡系统 ==========
-  const GACHA_COST_SINGLE = 10;  // 单抽10天机令
-  const GACHA_COST_TEN = 90;     // 十连90天机令（9折）
+  const GACHA_COST_SINGLE = 1;   // 单抽1升仙令
+  const GACHA_COST_TEN = 9;      // 十连9升仙令（9折）
 
   // 品质概率：白30%→绿35%→蓝20%→紫10%→橙4%→红1%
   const GACHA_QUALITY_RATES = [0.30, 0.35, 0.20, 0.10, 0.04, 0.01];
@@ -333,7 +333,7 @@ const GameEngine = (() => {
   const SIGN_IN_REWARDS = [
     { day: 1, icon: '💎', name: '灵石x100', rewards: { gold: 100 } },
     { day: 2, icon: '🌿', name: '灵草x10', rewards: { herb: 10 } },
-    { day: 3, icon: '🎫', name: '天机令x5', rewards: { tianjiTokens: 5 } },
+    { day: 3, icon: '🎫', name: '升仙令x5', rewards: { tianjiTokens: 5 } },
     { day: 4, icon: '⛏️', name: '矿石x10', rewards: { ore: 10 } },
     { day: 5, icon: '💊', name: '回春丹x3', rewards: { pill_heal: 3 } },
     { day: 6, icon: '💎', name: '精华x3', rewards: { essence: 3 } },
@@ -472,7 +472,7 @@ const GameEngine = (() => {
     applyDailyRewards(quest.rewards);
 
     const rewardStr = Object.entries(quest.rewards).map(([k, v]) => {
-      const names = { gold: '灵石', herb: '灵草', ore: '矿石', essence: '精华', tianjiTokens: '天机令' };
+      const names = { gold: '灵石', herb: '灵草', ore: '矿石', essence: '精华', tianjiTokens: '升仙令' };
       return `${names[k] || k}×${v}`;
     }).join(' ');
 
@@ -498,7 +498,7 @@ const GameEngine = (() => {
     // count: 1=单抽, 10=十连
     const cost = count === 10 ? GACHA_COST_TEN : GACHA_COST_SINGLE * count;
     if ((state.tianjiTokens || 0) < cost) {
-      return { success: false, msg: `天机令不足！需要${cost}枚，当前${state.tianjiTokens || 0}枚` };
+      return { success: false, msg: `升仙令不足！需要${cost}枚，当前${state.tianjiTokens || 0}枚` };
     }
 
     state.tianjiTokens -= cost;
@@ -520,7 +520,7 @@ const GameEngine = (() => {
       const owned = (state.ownedSkins || []).includes(chosen.id);
 
       if (owned) {
-        // 重复：转换为天机令（品质越高返还越多）
+        // 重复：转换为升仙令（品质越高返还越多）
         const refund = [1, 2, 5, 10, 25, 50][quality] || 1;
         state.tianjiTokens += refund;
         results.push({ ...chosen, duplicate: true, refund });
@@ -535,12 +535,12 @@ const GameEngine = (() => {
     // 统计
     state.totalGachaPulls = (state.totalGachaPulls || 0) + count;
 
-    addLog(`🎰 天机阁${count === 10 ? '十连' : '单抽'}！消耗${cost}天机令`);
+    addLog(`🎰 天机阁${count === 10 ? '十连' : '单抽'}！消耗${cost}升仙令`);
     for (const r of results) {
       if (r.isNew) {
         addLog(`✨ <span style="color:${GACHA_QUALITY_COLORS[r.quality]}">[${GACHA_QUALITY_NAMES[r.quality]}]${r.name}</span> —— 新获得！`);
       } else if (r.duplicate) {
-        addLog(`🔄 ${r.name}（重复→+${r.refund}天机令）`);
+        addLog(`🔄 ${r.name}（重复→+${r.refund}升仙令）`);
       }
     }
 
@@ -709,9 +709,11 @@ const GameEngine = (() => {
         startLevel: 0, // 起始等级加成
       },
       totalAscensionPointsEarned: 0,
+      pastLifeTalents: [],       // 所有历代前世天赋ID列表
+      currentTalent: null,       // 当前生效的前世天赋ID
 
       // === v0.8 天机阁抽卡系统 ===
-      tianjiTokens: 0,       // 天机令（抽卡代币）
+      tianjiTokens: 0,       // 升仙令（抽卡代币）
       ownedSkins: [],        // 已拥有的外观ID列表
       equippedWeaponSkin: null, // 当前装备的武器外观ID
       equippedArmorSkin: null,  // 当前装备的衣服外观ID
@@ -814,6 +816,9 @@ const GameEngine = (() => {
     if (state.ascensionPoints === undefined) state.ascensionPoints = 0;
     if (!state.ascensionBonuses) state.ascensionBonuses = { atkMult:0, defMult:0, hpMult:0, expMult:0, goldMult:0, startLevel:0 };
     if (state.totalAscensionPointsEarned === undefined) state.totalAscensionPointsEarned = 0;
+    // v1.0 migration
+    if (!state.pastLifeTalents) state.pastLifeTalents = [];
+    if (state.currentTalent === undefined) state.currentTalent = null;
     // v0.8 gacha migration
     if (state.tianjiTokens === undefined) state.tianjiTokens = 0;
     if (!state.ownedSkins) state.ownedSkins = [];
@@ -949,6 +954,23 @@ const GameEngine = (() => {
       expBonus += (state.buffs.expBoost.mult - 1) * 100;
     }
 
+    // 前世天赋加成
+    const talent = getCurrentTalent();
+    if (talent) {
+      const e = talent.effect;
+      if (e.atkMult) attack = Math.floor(attack * e.atkMult);
+      if (e.defMult) defense = Math.floor(defense * e.defMult);
+      if (e.hpMult) maxHp = Math.floor(maxHp * e.hpMult);
+      if (e.critRateBonus) critRate += e.critRateBonus;
+      if (e.critDmgBonus) critDamage += e.critDmgBonus;
+      if (e.lifestealBonus) lifesteal += e.lifestealBonus;
+      if (e.atkSpeedBonus) atkSpeed += e.atkSpeedBonus;
+      if (e.dodgeBonus) dodge += e.dodgeBonus;
+      if (e.zeroDodge) dodge = 0;
+      if (e.expMult) expBonus += (e.expMult - 1) * 100;
+      if (e.goldMult) goldBonus += (e.goldMult - 1) * 100;
+    }
+
     return {
       attack, defense, maxHp,
       critRate: Math.min(80, critRate),
@@ -964,6 +986,11 @@ const GameEngine = (() => {
   function getActiveBeast() {
     if (!state.activeBeastId || !state.beasts) return null;
     return state.beasts.find(b => b.id === state.activeBeastId) || null;
+  }
+
+  function getCurrentTalent() {
+    if (!state.currentTalent) return null;
+    return PAST_LIFE_TALENTS.find(t => t.id === state.currentTalent) || null;
   }
 
   // ========== 游戏逻辑 ==========
@@ -1204,7 +1231,9 @@ const GameEngine = (() => {
     // === 灵兽攻击 ===
     const activeBeast = getActiveBeast();
     if (activeBeast && state.currentMonster.hp > 0 && Math.random() < 0.4) {
-      let beastDmg = Math.floor((activeBeast.baseAtk + activeBeast.level * 2) * (0.8 + Math.random() * 0.4));
+      const beastTalent = getCurrentTalent();
+      const beastAtkMult = (beastTalent && beastTalent.effect.beastAtkMult) || 1;
+      let beastDmg = Math.floor((activeBeast.baseAtk + activeBeast.level * 2) * (0.8 + Math.random() * 0.4) * beastAtkMult);
       if (beastDmg > 0) {
         state.currentMonster.hp = Math.max(0, state.currentMonster.hp - beastDmg);
         state.currentMonster.totalHp = Math.max(0, state.currentMonster.totalHp - beastDmg);
@@ -1254,11 +1283,11 @@ const GameEngine = (() => {
       updateBountyProgress('kill', 1);
       if (state.currentMonster.isElite) updateBountyProgress('elite_kill', 1);
 
-      // 精英怪掉落天机令（50%概率，1-3枚）
+      // 精英怪掉落升仙令（50%概率，1-3枚）
       if (state.currentMonster.isElite && Math.random() < 0.5) {
         const tokens = 1 + Math.floor(Math.random() * 3);
         state.tianjiTokens = (state.tianjiTokens || 0) + tokens;
-        addLog(`🎫 精英怪掉落 ${tokens} 枚天机令！`);
+        addLog(`🎫 精英怪掉落 ${tokens} 枚升仙令！`);
         emit('tokenDrop', { amount: tokens });
       }
 
@@ -1279,7 +1308,9 @@ const GameEngine = (() => {
     }
 
     // === 生命回复 ===
-    if (state.hp < stats.maxHp && state.hp > 0) {
+    const vampTalent = getCurrentTalent();
+    const noRegen = vampTalent && vampTalent.effect.noNaturalRegen;
+    if (state.hp < stats.maxHp && state.hp > 0 && !noRegen) {
       const regenRate = 0.02 + (state.consecutiveKills > 0 ? 0.005 : 0);
       state.hp = Math.min(stats.maxHp, state.hp + Math.floor(stats.maxHp * regenRate));
     }
@@ -1301,12 +1332,16 @@ const GameEngine = (() => {
     state.consecutiveKills = 0;
     state.playerDoTs = [];
 
-    // 死亡惩罚: 掉落10%灵石（最少不低于0）
-    const goldLoss = Math.floor(state.gold * 0.1);
+    const talent = getCurrentTalent();
+    const isPhoenix = talent && talent.effect.quickRevive;
+    const noPenalty = talent && talent.effect.noDeathPenalty;
+
+    // 死亡惩罚: 掉落10%灵石（凤凰天赋免除）
+    const goldLoss = noPenalty ? 0 : Math.floor(state.gold * 0.1);
     state.gold = Math.max(0, state.gold - goldLoss);
 
-    // 复活时间: 基础5秒，每次死亡增加0.5秒（上限15秒）
-    const reviveDelay = Math.min(15000, 5000 + (state.deathCount - 1) * 500);
+    // 复活时间: 凤凰1秒，正常5秒+递增
+    const reviveDelay = isPhoenix ? 1000 : Math.min(15000, 5000 + (state.deathCount - 1) * 500);
     state.reviveTime = Date.now() + reviveDelay;
 
     const delaySec = Math.ceil(reviveDelay / 1000);
@@ -1350,7 +1385,9 @@ const GameEngine = (() => {
   function tryEncounter() {
     const now = Date.now();
     if (now - state.lastEncounterTime < 30000) return;
-    if (Math.random() > 0.08) return;
+    const talent = getCurrentTalent();
+    const encounterMult = (talent && talent.effect.encounterRateMult) || 1;
+    if (Math.random() > 0.08 * encounterMult) return;
     state.lastEncounterTime = now;
     const totalWeight = ENCOUNTER_EVENTS.reduce((s, e) => s + e.weight, 0);
     let roll = Math.random() * totalWeight;
@@ -1376,21 +1413,23 @@ const GameEngine = (() => {
         state.inventory.push(equip);
       }
     }
-    // 奇遇额外掉落天机令（30%概率）
+    // 奇遇额外掉落升仙令（30%概率）
     if (Math.random() < 0.3) {
       const tokens = 1 + Math.floor(Math.random() * 2);
       state.tianjiTokens = (state.tianjiTokens || 0) + tokens;
-      addLog(`🎫 奇遇获得 ${tokens} 天机令！`);
+      addLog(`🎫 奇遇获得 ${tokens} 升仙令！`);
     }
     emit('encounter', { event });
   }
 
   function tryCaptureBeast() {
     const realmIdx = getRealmIndex(state.level);
+    const talent = getCurrentTalent();
+    const captureMult = (talent && talent.effect.beastCaptureRate) || 1;
     for (const tmpl of BEAST_TEMPLATES) {
       if (realmIdx < tmpl.minRealm) continue;
       if (state.beasts.find(b => b.templateId === tmpl.id)) continue;
-      if (Math.random() < tmpl.captureChance) {
+      if (Math.random() < tmpl.captureChance * captureMult) {
         const beast = {
           id: Date.now().toString(36), templateId: tmpl.id,
           name: tmpl.name, icon: tmpl.icon,
@@ -1414,7 +1453,13 @@ const GameEngine = (() => {
       state.baseDefense = Math.floor(state.baseDefense * 1.08 + 1);
       state.baseMaxHp = Math.floor(state.baseMaxHp * 1.1 + 10);
       state.hp = getComputedStats().maxHp;
-      state.statPoints += 3;
+      // v1.0: 升级自动强化，不再手动加点
+      // 额外随机强化一个维度
+      const autoBonus = Math.random();
+      if (autoBonus < 0.3) state.baseAttack += Math.floor(state.baseAttack * 0.02 + 1);
+      else if (autoBonus < 0.55) state.baseDefense += Math.floor(state.baseDefense * 0.02 + 1);
+      else if (autoBonus < 0.8) state.baseMaxHp += Math.floor(state.baseMaxHp * 0.02 + 5);
+      else { state.baseCritRate = Math.min(80, state.baseCritRate + 0.5); state.baseCritDamage += 2; }
       const realm = getRealm(state.level);
       const prevRealm = getRealm(state.level - 1);
       if (realm.name !== prevRealm.name) {
@@ -1517,7 +1562,6 @@ const GameEngine = (() => {
       state.hp = getComputedStats().maxHp;
       state.baseCritRate = Math.min(80, state.baseCritRate + 3);
       state.baseCritDamage += 20;
-      state.statPoints += 10;
       addLog(`🌟🌟🌟 渡劫成功！鼠鼠晋升【${realm.name}】！🌟🌟🌟`);
       emit('breakthrough', { realm: realm.name, level: state.level });
       checkAchievements();
@@ -1536,10 +1580,13 @@ const GameEngine = (() => {
   // ========== 秘境 ==========
   function refreshRealmCharges() {
     const now = Date.now();
+    const talent = getCurrentTalent();
+    const chargeBonus = (talent && talent.effect.realmChargeBonus) || 0;
+    const maxCharges = state.secretRealmMaxCharges + chargeBonus;
     const hoursPassed = (now - state.lastRealmRefresh) / 3600000;
     if (hoursPassed >= 1) {
       const charges = Math.floor(hoursPassed);
-      state.secretRealmCharges = Math.min(state.secretRealmMaxCharges, state.secretRealmCharges + charges);
+      state.secretRealmCharges = Math.min(maxCharges, state.secretRealmCharges + charges);
       state.lastRealmRefresh = now;
     }
   }
@@ -1573,10 +1620,10 @@ const GameEngine = (() => {
       }
     }
     if (r.beastChance && Math.random() < r.beastChance) tryCaptureBeast();
-    // 秘境通关奖励天机令（2-5枚，看秘境等级）
+    // 秘境通关奖励升仙令（2-5枚，看秘境等级）
     const realmTokens = realmIndex + 2;
     state.tianjiTokens = (state.tianjiTokens || 0) + realmTokens;
-    rewards.push(`天机令x${realmTokens}`);
+    rewards.push(`升仙令x${realmTokens}`);
     addLog(`🏔️ 秘境【${realm.name}】通关！获得：${rewards.join('、')}`);
     emit('secretRealmClear', { realm: realm.name, rewards });
     updateBountyProgress('realm_clear', 1);
@@ -1614,7 +1661,7 @@ const GameEngine = (() => {
       state.exp += expReward;
       state.towerFloor++;
       if (state.towerFloor - 1 > state.towerBestFloor) state.towerBestFloor = state.towerFloor - 1;
-      // 每5层奖励天机令
+      // 每5层奖励升仙令
       let towerTokens = 0;
       if (floor % 5 === 0) {
         towerTokens = Math.floor(floor / 5);
@@ -1622,7 +1669,7 @@ const GameEngine = (() => {
       }
       checkLevelUp();
       checkAchievements();
-      addLog(`🗼 镇妖塔第${floor}层通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石${towerTokens > 0 ? ` +${towerTokens}天机令` : ''}`);
+      addLog(`🗼 镇妖塔第${floor}层通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石${towerTokens > 0 ? ` +${towerTokens}升仙令` : ''}`);
       emit('towerClear', { floor, goldReward, expReward, towerTokens });
       updateBountyProgress('tower_clear', 1);
       saveState();
@@ -1655,6 +1702,35 @@ const GameEngine = (() => {
     { id: 'expMult', name: '悟道天赋', desc: '经验+15%/级', icon: '📖', cost: 2, maxLevel: 10, perLevel: 15 },
     { id: 'goldMult', name: '点石成金', desc: '灵石+15%/级', icon: '💰', cost: 2, maxLevel: 10, perLevel: 15 },
     { id: 'startLevel', name: '根骨深厚', desc: '转生起始等级+2/级', icon: '⬆️', cost: 3, maxLevel: 5, perLevel: 2 },
+  ];
+
+  // ========== 转生天赋系统 ==========
+  // 每次转生随机获得1个前世天赋，提供独特玩法机制
+  const PAST_LIFE_TALENTS = [
+    { id: 'berserker', name: '狂战之魂', icon: '🔥', desc: '攻击+40%，但防御-20%',
+      effect: { atkMult: 1.4, defMult: 0.8 }, flavor: '前世是一位嗜血的修罗' },
+    { id: 'ironwall', name: '铁壁金身', icon: '🛡️', desc: '防御+50%，生命+20%，攻击-15%',
+      effect: { defMult: 1.5, hpMult: 1.2, atkMult: 0.85 }, flavor: '前世苦修金刚不坏体' },
+    { id: 'assassin', name: '暗影刺客', icon: '🗡️', desc: '暴击率+15%，暴伤+50%，生命-20%',
+      effect: { critRateBonus: 15, critDmgBonus: 50, hpMult: 0.8 }, flavor: '前世是暗影中的杀手' },
+    { id: 'scholar', name: '博学鸿儒', icon: '📚', desc: '经验获取+60%，灵石+30%',
+      effect: { expMult: 1.6, goldMult: 1.3 }, flavor: '前世饱读万卷修仙典籍' },
+    { id: 'merchant', name: '灵石商贾', icon: '💰', desc: '灵石获取+80%，装备掉率+5%',
+      effect: { goldMult: 1.8, dropBonus: 5 }, flavor: '前世是修仙界的首富' },
+    { id: 'beastmaster', name: '万兽之主', icon: '🐲', desc: '灵兽攻击x2，灵兽捕获率翻倍',
+      effect: { beastAtkMult: 2, beastCaptureRate: 2 }, flavor: '前世与万兽为伴' },
+    { id: 'alchemist', name: '丹道宗师', icon: '⚗️', desc: '丹药持续时间x2，炼丹免材料50%',
+      effect: { pillDurationMult: 2, pillMatReduce: 50 }, flavor: '前世是药王谷主' },
+    { id: 'lucky', name: '天命之子', icon: '🍀', desc: '奇遇触发率翻倍，秘境+1次',
+      effect: { encounterRateMult: 2, realmChargeBonus: 1 }, flavor: '前世集天地气运于一身' },
+    { id: 'phoenix', name: '不死凤凰', icon: '🔥', desc: '死亡后1秒瞬间复活，灵石不掉落',
+      effect: { quickRevive: true, noDeathPenalty: true }, flavor: '前世是涅槃凤凰转世' },
+    { id: 'vampiric', name: '嗜血魔尊', icon: '🩸', desc: '天生15%吸血，但不能自然回血',
+      effect: { lifestealBonus: 15, noNaturalRegen: true }, flavor: '前世是以血为食的大魔头' },
+    { id: 'speedster', name: '迅雷疾风', icon: '⚡', desc: '攻速+30%，闪避+10%，攻击-10%',
+      effect: { atkSpeedBonus: 30, dodgeBonus: 10, atkMult: 0.9 }, flavor: '前世修习天罗无影身法' },
+    { id: 'titan', name: '远古巨人', icon: '🏔️', desc: '生命x2，攻击+20%，闪避=0',
+      effect: { hpMult: 2, atkMult: 1.2, zeroDodge: true }, flavor: '前世是开天辟地的巨灵神' },
   ];
 
   function getAscensionPointsEarned() {
@@ -1695,6 +1771,8 @@ const GameEngine = (() => {
       totalExp: state.totalExp,
       killCount: state.killCount,
       eliteKillCount: state.eliteKillCount,
+      pastLifeTalents: [...(state.pastLifeTalents || [])],
+      // Note: currentTalent will be set after selecting new talent
     };
 
     // 重置为默认状态
@@ -1726,10 +1804,23 @@ const GameEngine = (() => {
 
     addLog(`🌟🌟🌟 飞升转生！第${state.ascensionCount}次 🌟🌟🌟`);
     addLog(`✨ 获得 ${pointsGained} 仙缘点！`);
-    // 飞升奖励天机令
+
+    // 随机获得前世天赋（不与已有的重复，如果全有了则随机选一个）
+    const availableTalents = PAST_LIFE_TALENTS.filter(t => !state.pastLifeTalents.includes(t.id));
+    const selectedTalent = availableTalents.length > 0
+      ? availableTalents[Math.floor(Math.random() * availableTalents.length)]
+      : PAST_LIFE_TALENTS[Math.floor(Math.random() * PAST_LIFE_TALENTS.length)];
+    state.currentTalent = selectedTalent.id;
+    if (!state.pastLifeTalents.includes(selectedTalent.id)) {
+      state.pastLifeTalents.push(selectedTalent.id);
+    }
+    addLog(`🎭 觉醒前世天赋【${selectedTalent.icon} ${selectedTalent.name}】—— ${selectedTalent.flavor}`);
+    addLog(`💡 天赋效果：${selectedTalent.desc}`);
+
+    // 飞升奖励升仙令
     const ascTokens = 10 + state.ascensionCount * 5;
     state.tianjiTokens = (state.tianjiTokens || 0) + ascTokens;
-    addLog(`🎫 飞升奖励 ${ascTokens} 天机令！`);
+    addLog(`🎫 飞升奖励 ${ascTokens} 升仙令！`);
     addLog(`💫 从Lv.${startLevel}开始新的修仙之旅...`);
 
     emit('ascension', { pointsGained, ascensionCount: state.ascensionCount });
@@ -1910,7 +2001,9 @@ const GameEngine = (() => {
 
     // 洞府炼丹房减少材料消耗
     const forgeRoom = state.cave?.forge_room || 0;
-    const matReduce = forgeRoom * 0.1; // 每级减10%
+    const talent = getCurrentTalent();
+    const talentMatReduce = (talent && talent.effect.pillMatReduce) ? talent.effect.pillMatReduce / 100 : 0;
+    const matReduce = forgeRoom * 0.1 + talentMatReduce; // 每级减10% + 天赋减
 
     for (const [mat, need] of Object.entries(recipe.materials)) {
       const actualNeed = Math.max(1, Math.floor(need * (1 - matReduce)));
@@ -1936,22 +2029,24 @@ const GameEngine = (() => {
     state.pills[recipeId]--;
     const eff = recipe.effect;
     const now = Date.now();
+    const talent = getCurrentTalent();
+    const pillDurMult = (talent && talent.effect.pillDurationMult) || 1;
     if (eff.type === 'heal') {
       const stats = getComputedStats();
       state.hp = stats.maxHp;
       addLog(`💚 使用${recipe.name}，生命恢复满！`);
     } else if (eff.type === 'tribBoost') {
-      state.buffs.tribBoost = { value: eff.value, until: now + 60000 };
+      state.buffs.tribBoost = { value: eff.value, until: now + 60000 * pillDurMult };
       addLog(`⚡ 使用${recipe.name}，渡劫成功率+${eff.value * 100}%！`);
     } else if (eff.type === 'expBoost') {
-      state.buffs.expBoost = { mult: eff.mult, until: now + eff.duration * 1000 };
-      addLog(`💊 使用${recipe.name}，经验x${eff.mult} ${eff.duration}秒！`);
+      state.buffs.expBoost = { mult: eff.mult, until: now + eff.duration * 1000 * pillDurMult };
+      addLog(`💊 使用${recipe.name}，经验x${eff.mult} ${eff.duration * pillDurMult}秒！`);
     } else if (eff.type === 'atkBoost') {
-      state.buffs.atkBoost = { mult: eff.mult, until: now + eff.duration * 1000 };
-      addLog(`🔴 使用${recipe.name}，攻击x${eff.mult} ${eff.duration}秒！`);
+      state.buffs.atkBoost = { mult: eff.mult, until: now + eff.duration * 1000 * pillDurMult };
+      addLog(`🔴 使用${recipe.name}，攻击x${eff.mult} ${eff.duration * pillDurMult}秒！`);
     } else if (eff.type === 'critBoost') {
-      state.buffs.critBoost = { value: eff.value, until: now + eff.duration * 1000 };
-      addLog(`💥 使用${recipe.name}，暴击+${eff.value * 100}% ${eff.duration}秒！`);
+      state.buffs.critBoost = { value: eff.value, until: now + eff.duration * 1000 * pillDurMult };
+      addLog(`💥 使用${recipe.name}，暴击+${eff.value * 100}% ${eff.duration * pillDurMult}秒！`);
     }
     emit('pillUse', { recipe });
     saveState();
@@ -1965,12 +2060,14 @@ const GameEngine = (() => {
     if (getRealmIndex(state.level) < sk.realm) return { success: false, msg: '境界不足' };
     const curLv = state.skills[skillId] || 0;
     if (curLv >= sk.maxLevel) return { success: false, msg: '已满级' };
-    if (state.statPoints < sk.cost) return { success: false, msg: '修炼点不足' };
-    state.statPoints -= sk.cost;
+    // v1.0: 功法升级消耗灵石而非修炼点
+    const goldCost = sk.cost * 100 * (1 + curLv);
+    if (state.gold < goldCost) return { success: false, msg: `灵石不足（需要${formatNumber(goldCost)}）` };
+    state.gold -= goldCost;
     state.skills[skillId] = curLv + 1;
     addLog(`📜 功法【${sk.name}】升至${curLv + 1}级！`);
     saveState();
-    return { success: true, msg: `${sk.name} 升至${curLv + 1}级！` };
+    return { success: true, msg: `${sk.name} 升至${curLv + 1}级！`, goldCost };
   }
 
   // ========== 灵兽 ==========
@@ -2126,7 +2223,6 @@ const GameEngine = (() => {
       state.baseDefense = Math.floor(state.baseDefense * 1.08 + 1);
       state.baseMaxHp = Math.floor(state.baseMaxHp * 1.1 + 10);
       state.hp = getComputedStats().maxHp;
-      state.statPoints += 3;
       levelUps++;
     }
 
@@ -2247,6 +2343,10 @@ const GameEngine = (() => {
       canSignIn: (state.lastSignDate || '') !== getDayKey(),
       bountyQuests: state.bountyQuests || [],
       todayKey: getDayKey(),
+      // talents
+      currentTalent: getCurrentTalent(),
+      currentTalentId: state.currentTalent,
+      pastLifeTalents: state.pastLifeTalents || [],
     };
   }
 
@@ -2274,6 +2374,8 @@ const GameEngine = (() => {
     WEAPON_SKINS, ARMOR_SKINS,
     // v0.9 daily
     performSignIn, claimBountyReward, SIGN_IN_REWARDS, BOUNTY_MAX_DAILY,
+    // v1.0 talents
+    PAST_LIFE_TALENTS,
   };
 
 })();

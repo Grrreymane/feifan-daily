@@ -1850,12 +1850,81 @@ const Sprites = (() => {
     }
   }
 
+  // ================================================================
+  // 衣服外观颜色映射
+  // ================================================================
+  const armorSkinColors = {
+    'as_patched':      { main: '#8B8B6B', accent: '#6B6B4B', trim: '#A0A080' },
+    'as_farmer':       { main: '#A09060', accent: '#807040', trim: '#C0B080' },
+    'as_scholar':      { main: '#F0F0F0', accent: '#D8D8D8', trim: '#FFFFFF' },
+    'as_bamboo':       { main: '#4A8B4A', accent: '#367836', trim: '#6BAF6B' },
+    'as_cloud':        { main: '#B0C4DE', accent: '#8AAABE', trim: '#D0E4FE' },
+    'as_fire_robe':    { main: '#CC3300', accent: '#AA2200', trim: '#FF6644' },
+    'as_ice_silk':     { main: '#88CCEE', accent: '#66AACC', trim: '#AAEEFF' },
+    'as_night':        { main: '#1A1A2E', accent: '#0D0D1A', trim: '#333366' },
+    'as_dragon_scale': { main: '#228877', accent: '#116655', trim: '#44CCAA' },
+    'as_flower':       { main: '#DD66AA', accent: '#BB4488', trim: '#FF88CC' },
+    'as_star_robe':    { main: '#1A237E', accent: '#0D1557', trim: '#3F51B5' },
+    'as_blood_armor':  { main: '#8B0000', accent: '#660000', trim: '#CC2222' },
+    'as_jade_emperor': { main: '#FFD700', accent: '#DAA520', trim: '#FFEE88' },
+    'as_ghost':        { main: '#228B4588', accent: '#1A6B3588', trim: '#44FF8888' },
+    'as_thunder_armor':{ main: '#DAA520', accent: '#B8860B', trim: '#FFEB3B' },
+    'as_phoenix_robe': { main: '#FF4500', accent: '#CC3700', trim: '#FFD700' },
+    'as_void_cloak':   { main: '#0A0A1A', accent: '#050510', trim: '#4A148C' },
+    'as_celestial':    { main: '#FFD700', accent: '#FFC107', trim: '#FFFFF0' },
+    'as_primordial_robe': { main: '#4A148C', accent: '#311B92', trim: '#FFD700' },
+    'as_universe':     { main: '#0D47A1', accent: '#1A237E', trim: '#00BCD4' },
+  };
+
+  // 绘制衣服外观覆盖层（在鼠鼠身上叠一层带颜色的衣服）
+  function drawArmorSkinOverlay(ctx, x, y, s, realmIndex, frame, attacking, skinId) {
+    const colors = armorSkinColors[skinId];
+    if (!colors) return;
+
+    const bounce = realmIndex <= 1 ? Math.sin(frame * 0.08) * 1.5 * s : (realmIndex <= 3 ? Math.sin(frame * 0.04) * 2 * s : Math.sin(frame * 0.03) * (3+realmIndex) * s);
+    const atkX = attacking > 0 ? Math.sin(attacking * 0.4) * (6+realmIndex*2) * s : 0;
+    const floatExtra = realmIndex >= 3 ? -(realmIndex-2)*3*s : 0;
+
+    ctx.save();
+    ctx.translate(x + atkX, y + bounce + floatExtra);
+    ctx.globalAlpha = 0.75;
+
+    // 衣服主体 - 根据境界大小调整
+    const bodyW = realmIndex >= 2 ? 13 : (realmIndex >= 1 ? 11 : 9);
+    const bodyH = realmIndex >= 2 ? 10 : (realmIndex >= 1 ? 9 : 8);
+    const bx = -Math.floor(bodyW/2);
+
+    // 主体
+    rect(ctx, bx*s, -5*s, bodyW*s, bodyH*s, colors.main);
+    rect(ctx, (bx+1)*s, -4*s, (bodyW-2)*s, (bodyH-2)*s, colors.accent);
+
+    // 领口
+    rect(ctx, -s, -5*s, 3*s, 3*s, colors.trim);
+
+    // 腰带
+    rect(ctx, bx*s, (realmIndex >= 2 ? 1 : 0)*s, bodyW*s, s, colors.trim);
+
+    // 高品质特效
+    if (skinId.includes('phoenix') || skinId.includes('celestial') || skinId.includes('primordial') || skinId.includes('universe')) {
+      ctx.globalAlpha = 0.25 + Math.sin(frame * 0.04) * 0.15;
+      ctx.shadowColor = colors.trim;
+      ctx.shadowBlur = 12;
+      rect(ctx, bx*s, -5*s, bodyW*s, bodyH*s, colors.trim);
+      ctx.shadowBlur = 0;
+    }
+
+    ctx.globalAlpha = 1;
+    ctx.restore();
+  }
+
   return {
     drawMouseByRealm,
     drawMonsterByName,
     drawMonsterHPBar,
     drawActiveBeast,
     drawWeaponWithSkin,
+    drawArmorSkinOverlay,
+    armorSkinColors,
     rect,
     px,
   };

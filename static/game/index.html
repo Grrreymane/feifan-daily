@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🐭 鼠鼠修仙 v0.9</title>
+  <title>🐭 鼠鼠修仙 v1.0</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -336,19 +336,14 @@
           <div class="stat-row"><span class="stat-label">DPS</span><span class="stat-value attack" id="dpsValue">0</span></div>
         </div>
         <div class="buff-bar" id="buffBar"></div>
-        <div class="stat-group">
-          <div class="stat-group-title">📦 修炼点 (<span id="statPoints">0</span>)</div>
-          <div class="upgrade-btns">
-            <button class="upgrade-btn" onclick="doUpgrade('attack')">⚔️攻</button>
-            <button class="upgrade-btn" onclick="doUpgrade('defense')">🛡️防</button>
-            <button class="upgrade-btn" onclick="doUpgrade('hp')">❤️命</button>
-            <button class="upgrade-btn" onclick="doUpgrade('crit')">💥暴</button>
-          </div>
+        <div class="stat-group" id="talentGroup" style="display:none;">
+          <div class="stat-group-title">🎭 前世天赋</div>
+          <div id="talentDisplay" style="padding:3px 0;"></div>
         </div>
         <div class="stat-group">
           <div class="stat-group-title">💰 资源</div>
           <div class="stat-row"><span class="stat-label">灵石</span><span class="stat-value gold" id="gold">0</span></div>
-          <div class="stat-row"><span class="stat-label">天机令</span><span class="stat-value" id="tianjiDisplay" style="color:#FF8800;">0 🎫</span></div>
+          <div class="stat-row"><span class="stat-label">升仙令</span><span class="stat-value" id="tianjiDisplay" style="color:#FF8800;">0 🎫</span></div>
           <div style="margin-top:3px;">
             <span class="mat-row"><span class="mat-icon">🌿</span><span class="mat-val" id="matHerb">0</span></span>
             <span class="mat-row"><span class="mat-icon">⛏️</span><span class="mat-val" id="matOre">0</span></span>
@@ -455,22 +450,26 @@
           <div class="stat-group-title">🌟 仙缘升级（消耗仙缘点）</div>
           <div id="ascUpgradeList"></div>
         </div>
+        <div class="stat-group">
+          <div class="stat-group-title">🎭 前世天赋图鉴 (<span id="talentOwnedCount">0</span>/12)</div>
+          <div id="talentHistory"></div>
+        </div>
       </div>
       <!-- 天机阁抽卡页 -->
       <div class="tab-page" id="tab-gacha">
         <div class="stat-group">
           <div class="stat-group-title">🎰 天机阁</div>
           <div class="card" style="border-color:#FF8800;background:linear-gradient(135deg,#1a1a3e,#2a1a2e);">
-            <div class="card-title" style="color:#FFD700;font-size:13px;">🎫 天机令: <span id="gachaTokens" style="color:#FF8800;">0</span></div>
+            <div class="card-title" style="color:#FFD700;font-size:13px;">🎫 升仙令: <span id="gachaTokens" style="color:#FF8800;">0</span></div>
             <div class="card-desc" style="color:#888;">外观抽取·武器&衣服（纯视觉，不影响战力）</div>
             <div class="card-info" style="margin-top:4px;">
               <span style="color:#CCCCCC;">凡30%</span> <span style="color:#44CC44;">良35%</span> <span style="color:#4488FF;">稀20%</span> <span style="color:#AA55FF;">珍10%</span> <span style="color:#FF8800;">极4%</span> <span style="color:#FF2222;">传1%</span>
             </div>
             <div class="card-desc" style="color:#ffdd57;margin-top:4px;">🔟 十连保底：至少获得一个珍品(紫)以上！</div>
-            <div class="card-desc" style="color:#888;margin-top:2px;">重复外观自动转换为天机令</div>
+            <div class="card-desc" style="color:#888;margin-top:2px;">重复外观自动转换为升仙令</div>
             <div class="card-actions" style="margin-top:6px;gap:6px;">
-              <button class="action-btn gold" onclick="doGachaSingle()" style="flex:1;font-size:11px;padding:6px;">🎲 单抽 (10令)</button>
-              <button class="action-btn" onclick="doGachaTen()" style="flex:2;font-size:11px;padding:6px;border-color:#FF8800;color:#FF8800;background:linear-gradient(135deg,#2a1a1a,#3a2a1a);">🎰 十连抽！(90令)</button>
+              <button class="action-btn gold" onclick="doGachaSingle()" style="flex:1;font-size:11px;padding:6px;">🎲 单抽 (1令)</button>
+              <button class="action-btn" onclick="doGachaTen()" style="flex:2;font-size:11px;padding:6px;border-color:#FF8800;color:#FF8800;background:linear-gradient(135deg,#2a1a1a,#3a2a1a);">🎰 十连抽！(9令)</button>
             </div>
           </div>
         </div>
@@ -1121,6 +1120,11 @@ function render() {
     Sprites.drawMouseByRealm(ctx, mouseX + swayOffset, mouseY + breathOffset, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0);
     ctx.globalAlpha = 1;
 
+    // 衣服外观覆盖
+    if (gs.equippedArmorSkin && !gs.isDead) {
+      Sprites.drawArmorSkinOverlay(ctx, mouseX + swayOffset, mouseY + breathOffset, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0, gs.equippedArmorSkin);
+    }
+
     // 如果有武器皮肤，在鼠鼠右手位置覆盖绘制
     if (gs.equippedWeaponSkin && !gs.isDead) {
       const skinBreath = Math.sin(animFrame * 0.04) * 1.5;
@@ -1371,7 +1375,19 @@ function updateUI() {
   document.getElementById('dodge').textContent = c.dodge + '%';
   document.getElementById('dpsValue').textContent = fmt(s.dps);
   document.getElementById('gold').textContent = fmt(s.gold);
-  document.getElementById('statPoints').textContent = s.statPoints;
+  // 前世天赋显示
+  const talentGroup = document.getElementById('talentGroup');
+  if (s.currentTalent) {
+    talentGroup.style.display = 'block';
+    const t = s.currentTalent;
+    document.getElementById('talentDisplay').innerHTML = `
+      <div style="font-size:11px;color:#FFD700;font-weight:bold;">${t.icon} ${t.name}</div>
+      <div style="font-size:9px;color:#aaa;margin:1px 0;">${t.desc}</div>
+      <div style="font-size:8px;color:#666;font-style:italic;">"${t.flavor}"</div>
+    `;
+  } else {
+    talentGroup.style.display = 'none';
+  }
   document.getElementById('killCount').textContent = fmt(s.killCount);
   document.getElementById('deathCount').textContent = s.deathCount;
   document.getElementById('eliteKillCount').textContent = s.eliteKillCount;
@@ -1386,7 +1402,6 @@ function updateUI() {
   document.getElementById('tianjiDisplay').textContent = (s.tianjiTokens || 0) + ' 🎫';
   const badge = document.getElementById('realmBadge');
   badge.textContent = s.realm; badge.style.borderColor = s.realmColor; badge.style.color = s.realmColor;
-  document.querySelectorAll('.upgrade-btn').forEach(btn => btn.classList.toggle('has-points', s.statPoints > 0));
   // 死亡横幅
   const deathBanner = document.getElementById('deathBanner');
   if (s.isDead) { deathBanner.classList.add('active'); document.getElementById('reviveCountdown').textContent = s.reviveCountdown; }
@@ -1516,14 +1531,17 @@ function renderPillsTab() {
 // ========== 功法/灵兽/秘境页（保持与v0.3类似） ==========
 function renderSkillsTab() {
   const s = GameEngine.getState(); if (!s) return;
+  const fmt = GameEngine.formatNumber;
   let html = '';
   for (const sk of GameEngine.SKILL_TREE) {
     const lv = s.skills[sk.id]||0; const locked = s.realmIndex < sk.realm;
-    const maxed = lv >= sk.maxLevel; const canUp = !locked && !maxed && s.statPoints >= sk.cost;
+    const maxed = lv >= sk.maxLevel;
+    const goldCost = sk.cost * 100 * (1 + lv);
+    const canUp = !locked && !maxed && s.gold >= goldCost;
     html += `<div class="card" ${locked?'style="opacity:0.4"':''}>
       <div class="card-title">${sk.icon} ${sk.name} ${locked?'(需'+GameEngine.REALMS[sk.realm].name+')':''}</div>
       <div class="card-desc">${sk.desc}</div>
-      <div class="card-info">Lv.${lv}/${sk.maxLevel} | 费用:${sk.cost}点</div>
+      <div class="card-info">Lv.${lv}/${sk.maxLevel} | 费用:${fmt(goldCost)}💎</div>
       <div class="card-actions"><button class="action-btn ${canUp?'gold':''}" onclick="doSkillUp('${sk.id}')" ${canUp?'':'disabled'}>${maxed?'满级':'升级'}</button></div>
     </div>`;
   }
@@ -1682,6 +1700,31 @@ function renderAscensionTab() {
     </div>`;
   }
   document.getElementById('ascUpgradeList').innerHTML = html;
+
+  // 前世天赋历史
+  let talentHtml = '';
+  const allTalents = GameEngine.PAST_LIFE_TALENTS;
+  const currentId = s.currentTalentId;
+  const owned = s.pastLifeTalents || [];
+  document.getElementById('talentOwnedCount').textContent = owned.length;
+  if (owned.length > 0 || s.currentTalent) {
+    for (const t of allTalents) {
+      const isOwned = owned.includes(t.id);
+      const isCurrent = t.id === currentId;
+      const cls = isCurrent ? 'border-color:#FFD700;background:#2a2a3e;' : isOwned ? 'border-color:#4a8a4a;opacity:0.7;' : 'opacity:0.2;';
+      talentHtml += `<div class="asc-card" style="${cls}">
+        <div class="asc-icon" style="font-size:16px;">${t.icon}</div>
+        <div class="asc-info">
+          <div class="asc-name" style="color:${isCurrent?'#FFD700':'#aaa'};">${t.name}${isCurrent?' ⭐当前':''}</div>
+          <div class="asc-desc">${t.desc}</div>
+          <div style="font-size:8px;color:#666;font-style:italic;">${isOwned ? `"${t.flavor}"` : '???'}</div>
+        </div>
+      </div>`;
+    }
+  } else {
+    talentHtml = '<div style="color:#555;font-size:10px;padding:4px;">飞升后将随机觉醒前世天赋</div>';
+  }
+  document.getElementById('talentHistory').innerHTML = talentHtml;
 }
 
 // ========== 天机阁（抽卡）页 ==========
@@ -1857,7 +1900,7 @@ function renderDailyTab() {
       const cls = isClaimed ? 'bounty-card claimed' : (isDone ? 'bounty-card completed' : 'bounty-card');
       const rewardStr = Object.entries(q.rewards).map(([k, v]) => {
         const icons = { gold: '💎', herb: '🌿', ore: '⛏️', essence: '💎', tianjiTokens: '🎫' };
-        const names = { gold: '灵石', herb: '灵草', ore: '矿石', essence: '精华', tianjiTokens: '天机令' };
+        const names = { gold: '灵石', herb: '灵草', ore: '矿石', essence: '精华', tianjiTokens: '升仙令' };
         return `${icons[k] || ''}${names[k] || k}×${v}`;
       }).join(' ');
 
