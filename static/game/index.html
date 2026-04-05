@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🐭 鼠鼠修仙 v0.7</title>
+  <title>🐭 鼠鼠修仙 v0.8</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -200,6 +200,30 @@
     .cave-card .cave-desc { color: #888; font-size: 9px; }
     .cave-card .cave-level { color: #88eeff; font-size: 9px; }
     .cave-card .cave-effect { color: #88ff88; font-size: 9px; }
+    /* 抽卡结果 */
+    .gacha-result-card {
+      background: #1a1a3e; border: 2px solid #2a2a5a; padding: 5px 7px; margin: 2px 0;
+      font-size: 10px; display: flex; align-items: center; gap: 6px;
+      transition: all 0.3s; position: relative; overflow: hidden;
+    }
+    .gacha-result-card.new { animation: gachaNew 0.5s ease-out; }
+    .gacha-result-card .gacha-quality { font-size: 9px; padding: 1px 4px; border-radius: 2px; color: #fff; min-width: 28px; text-align: center; }
+    .gacha-result-card .gacha-name { flex: 1; font-weight: bold; }
+    .gacha-result-card .gacha-desc { color: #888; font-size: 9px; }
+    .gacha-result-card .gacha-tag { font-size: 8px; color: #888; }
+    .gacha-result-card.duplicate { opacity: 0.6; }
+    @keyframes gachaNew { 0% { transform: translateX(-20px); opacity: 0; } 100% { transform: translateX(0); opacity: 1; } }
+    /* 外观卡片 */
+    .skin-card {
+      background: #1a1a3e; border: 1px solid #2a2a5a; padding: 4px 6px; margin: 2px 0;
+      font-size: 10px; display: flex; align-items: center; gap: 6px;
+    }
+    .skin-card.equipped { border-color: #FFD700; background: #2a2a3e; }
+    .skin-card.locked { opacity: 0.3; }
+    .skin-card .skin-quality { font-size: 9px; padding: 1px 4px; border-radius: 2px; color: #fff; min-width: 28px; text-align: center; }
+    .skin-card .skin-info { flex: 1; }
+    .skin-card .skin-name { font-weight: bold; }
+    .skin-card .skin-desc { color: #888; font-size: 9px; }
     ::-webkit-scrollbar { width: 4px; }
     ::-webkit-scrollbar-track { background: #0d0d2b; }
     ::-webkit-scrollbar-thumb { background: #3a3a6a; border-radius: 3px; }
@@ -238,6 +262,7 @@
       <button class="tab-btn" data-tab="achieve" title="成就">🏆</button>
       <button class="tab-btn" data-tab="bestiary" title="图鉴">📖</button>
       <button class="tab-btn" data-tab="ascension" title="转生">🌟</button>
+      <button class="tab-btn" data-tab="gacha" title="天机阁">🎰</button>
     </div>
     <div class="tab-content">
       <!-- 状态页 -->
@@ -281,6 +306,7 @@
         <div class="stat-group">
           <div class="stat-group-title">💰 资源</div>
           <div class="stat-row"><span class="stat-label">灵石</span><span class="stat-value gold" id="gold">0</span></div>
+          <div class="stat-row"><span class="stat-label">天机令</span><span class="stat-value" id="tianjiDisplay" style="color:#FF8800;">0 🎫</span></div>
           <div style="margin-top:3px;">
             <span class="mat-row"><span class="mat-icon">🌿</span><span class="mat-val" id="matHerb">0</span></span>
             <span class="mat-row"><span class="mat-icon">⛏️</span><span class="mat-val" id="matOre">0</span></span>
@@ -385,6 +411,46 @@
           <div id="ascUpgradeList"></div>
         </div>
       </div>
+      <!-- 天机阁抽卡页 -->
+      <div class="tab-page" id="tab-gacha">
+        <div class="stat-group">
+          <div class="stat-group-title">🎰 天机阁</div>
+          <div class="card" style="border-color:#FF8800;background:linear-gradient(135deg,#1a1a3e,#2a1a2e);">
+            <div class="card-title" style="color:#FFD700;font-size:13px;">🎫 天机令: <span id="gachaTokens" style="color:#FF8800;">0</span></div>
+            <div class="card-desc" style="color:#888;">外观抽取·武器&衣服（纯视觉，不影响战力）</div>
+            <div class="card-info" style="margin-top:4px;">
+              <span style="color:#CCCCCC;">凡30%</span> <span style="color:#44CC44;">良35%</span> <span style="color:#4488FF;">稀20%</span> <span style="color:#AA55FF;">珍10%</span> <span style="color:#FF8800;">极4%</span> <span style="color:#FF2222;">传1%</span>
+            </div>
+            <div class="card-desc" style="color:#ffdd57;margin-top:4px;">🔟 十连保底：至少获得一个珍品(紫)以上！</div>
+            <div class="card-desc" style="color:#888;margin-top:2px;">重复外观自动转换为天机令</div>
+            <div class="card-actions" style="margin-top:6px;gap:6px;">
+              <button class="action-btn gold" onclick="doGachaSingle()" style="flex:1;font-size:11px;padding:6px;">🎲 单抽 (10令)</button>
+              <button class="action-btn" onclick="doGachaTen()" style="flex:2;font-size:11px;padding:6px;border-color:#FF8800;color:#FF8800;background:linear-gradient(135deg,#2a1a1a,#3a2a1a);">🎰 十连抽！(90令)</button>
+            </div>
+          </div>
+        </div>
+        <div id="gachaResultArea" style="display:none;margin:6px 0;">
+          <div class="stat-group-title">✨ 抽卡结果</div>
+          <div id="gachaResults"></div>
+        </div>
+        <div class="stat-group">
+          <div class="stat-group-title">👗 当前外观</div>
+          <div id="equippedSkins"></div>
+        </div>
+        <div class="stat-group">
+          <div class="stat-group-title">📦 外观收藏 (<span id="skinCount">0</span>/<span id="skinTotal">40</span>)</div>
+          <div id="skinTabs" style="display:flex;gap:3px;margin-bottom:4px;">
+            <button class="action-btn" onclick="filterSkins('all')" style="flex:1;font-size:9px;" id="skinFilterAll">全部</button>
+            <button class="action-btn" onclick="filterSkins('weapon')" style="flex:1;font-size:9px;" id="skinFilterWeapon">⚔️武器</button>
+            <button class="action-btn" onclick="filterSkins('armor')" style="flex:1;font-size:9px;" id="skinFilterArmor">👘衣服</button>
+          </div>
+          <div id="skinCollection"></div>
+        </div>
+        <div class="stat-group">
+          <div class="stat-group-title">📊 统计</div>
+          <div class="card"><div class="card-info">总抽卡次数: <span id="totalPulls">0</span></div></div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- 中央战斗区 -->
@@ -443,6 +509,7 @@ function refreshCurrentTab() {
   else if (t === 'achieve') renderAchieveTab();
   else if (t === 'bestiary') renderBestiaryTab();
   else if (t === 'ascension') renderAscensionTab();
+  else if (t === 'gacha') renderGachaTab();
 }
 
 // ========== Canvas ==========
@@ -997,6 +1064,18 @@ function render() {
     Sprites.drawMouseByRealm(ctx, mouseX + swayOffset, mouseY + breathOffset, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0);
     ctx.globalAlpha = 1;
 
+    // 如果有武器皮肤，在鼠鼠右手位置覆盖绘制
+    if (gs.equippedWeaponSkin && !gs.isDead) {
+      const skinBreath = Math.sin(animFrame * 0.04) * 1.5;
+      const skinSway = Math.sin(animFrame * 0.025) * 0.5;
+      const wpnX = mouseX + skinSway;
+      const wpnY = mouseY + skinBreath;
+      // 武器在鼠鼠右手（各境界武器位置略不同）
+      const wpnOffsets = [{x:5,y:-4},{x:6,y:-4},{x:7,y:-4},{x:7,y:-4},{x:8,y:-4},{x:8,y:-4}];
+      const off = wpnOffsets[gs.realmIndex] || wpnOffsets[0];
+      Sprites.drawWeaponWithSkin(ctx, wpnX + off.x * PIXEL_SCALE, wpnY + off.y * PIXEL_SCALE, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0, gs.equippedWeaponSkin);
+    }
+
     // 出战灵兽绘制（带攻击动画）
     if (gs.activeBeast && !gs.isDead) {
       let petX = mouseX - 40;
@@ -1247,6 +1326,7 @@ function updateUI() {
   document.getElementById('matHerb').textContent = s.materials.herb || 0;
   document.getElementById('matOre').textContent = s.materials.ore || 0;
   document.getElementById('matEssence').textContent = s.materials.essence || 0;
+  document.getElementById('tianjiDisplay').textContent = (s.tianjiTokens || 0) + ' 🎫';
   const badge = document.getElementById('realmBadge');
   badge.textContent = s.realm; badge.style.borderColor = s.realmColor; badge.style.color = s.realmColor;
   document.querySelectorAll('.upgrade-btn').forEach(btn => btn.classList.toggle('has-points', s.statPoints > 0));
@@ -1547,6 +1627,130 @@ function renderAscensionTab() {
   document.getElementById('ascUpgradeList').innerHTML = html;
 }
 
+// ========== 天机阁（抽卡）页 ==========
+let currentSkinFilter = 'all';
+let lastGachaResults = null;
+
+function renderGachaTab() {
+  const s = GameEngine.getState(); if (!s) return;
+  document.getElementById('gachaTokens').textContent = s.tianjiTokens;
+  document.getElementById('totalPulls').textContent = s.totalGachaPulls;
+  document.getElementById('skinCount').textContent = s.ownedSkins.length;
+  document.getElementById('skinTotal').textContent = GameEngine.GACHA_POOL.length;
+
+  // 当前装备的外观
+  let equippedHtml = '';
+  const wSkin = s.equippedWeaponSkin ? GameEngine.GACHA_POOL.find(p => p.id === s.equippedWeaponSkin) : null;
+  const aSkin = s.equippedArmorSkin ? GameEngine.GACHA_POOL.find(p => p.id === s.equippedArmorSkin) : null;
+  equippedHtml += `<div class="skin-card equipped">
+    <span style="color:#888;min-width:32px;">⚔️武器</span>
+    <span style="flex:1;${wSkin ? 'color:'+GameEngine.GACHA_QUALITY_COLORS[wSkin.quality] : 'color:#555'}">${wSkin ? wSkin.name : '默认外观'}</span>
+    ${wSkin ? `<button class="action-btn" onclick="doUnequipSkin('weapon')" style="padding:1px 5px;font-size:8px;">卸下</button>` : ''}
+  </div>`;
+  equippedHtml += `<div class="skin-card equipped">
+    <span style="color:#888;min-width:32px;">👘衣服</span>
+    <span style="flex:1;${aSkin ? 'color:'+GameEngine.GACHA_QUALITY_COLORS[aSkin.quality] : 'color:#555'}">${aSkin ? aSkin.name : '默认外观'}</span>
+    ${aSkin ? `<button class="action-btn" onclick="doUnequipSkin('armor')" style="padding:1px 5px;font-size:8px;">卸下</button>` : ''}
+  </div>`;
+  document.getElementById('equippedSkins').innerHTML = equippedHtml;
+
+  // 显示上次抽卡结果
+  if (lastGachaResults) {
+    document.getElementById('gachaResultArea').style.display = 'block';
+    let rHtml = '';
+    for (const r of lastGachaResults) {
+      const qColor = GameEngine.GACHA_QUALITY_COLORS[r.quality];
+      const qName = GameEngine.GACHA_QUALITY_NAMES[r.quality];
+      const cls = r.duplicate ? 'gacha-result-card duplicate' : 'gacha-result-card new';
+      rHtml += `<div class="${cls}" style="border-color:${qColor}20;">
+        <span class="gacha-quality" style="background:${qColor};">${qName}</span>
+        <span class="gacha-tag">${r.type === 'weapon' ? '⚔️' : '👘'}</span>
+        <div style="flex:1;">
+          <span class="gacha-name" style="color:${qColor};">${r.name}</span>
+          ${r.isNew ? '<span style="color:#FFD700;font-size:8px;"> ✨NEW!</span>' : ''}
+          ${r.duplicate ? `<span style="color:#888;font-size:8px;"> 🔄+${r.refund}令</span>` : ''}
+        </div>
+      </div>`;
+    }
+    document.getElementById('gachaResults').innerHTML = rHtml;
+  } else {
+    document.getElementById('gachaResultArea').style.display = 'none';
+  }
+
+  // 外观收藏
+  renderSkinCollection(s);
+}
+
+function filterSkins(type) {
+  currentSkinFilter = type;
+  document.getElementById('skinFilterAll').style.borderColor = type === 'all' ? '#ffdd57' : '#4a4a8a';
+  document.getElementById('skinFilterWeapon').style.borderColor = type === 'weapon' ? '#ffdd57' : '#4a4a8a';
+  document.getElementById('skinFilterArmor').style.borderColor = type === 'armor' ? '#ffdd57' : '#4a4a8a';
+  const s = GameEngine.getState();
+  if (s) renderSkinCollection(s);
+}
+
+function renderSkinCollection(s) {
+  const pool = GameEngine.GACHA_POOL.filter(item =>
+    currentSkinFilter === 'all' || item.type === currentSkinFilter
+  );
+  // 按品质降序 + 已拥有优先
+  pool.sort((a, b) => {
+    const aOwned = s.ownedSkins.includes(a.id) ? 1 : 0;
+    const bOwned = s.ownedSkins.includes(b.id) ? 1 : 0;
+    if (aOwned !== bOwned) return bOwned - aOwned;
+    return b.quality - a.quality;
+  });
+
+  let html = '';
+  for (const item of pool) {
+    const owned = s.ownedSkins.includes(item.id);
+    const equipped = (item.type === 'weapon' && s.equippedWeaponSkin === item.id) ||
+                     (item.type === 'armor' && s.equippedArmorSkin === item.id);
+    const qColor = GameEngine.GACHA_QUALITY_COLORS[item.quality];
+    const qName = GameEngine.GACHA_QUALITY_NAMES[item.quality];
+    const cls = equipped ? 'skin-card equipped' : (owned ? 'skin-card' : 'skin-card locked');
+
+    html += `<div class="${cls}">
+      <span class="skin-quality" style="background:${qColor};">${qName}</span>
+      <span style="color:#888;font-size:9px;">${item.type === 'weapon' ? '⚔️' : '👘'}</span>
+      <div class="skin-info">
+        <span class="skin-name" style="color:${owned ? qColor : '#555'};">${owned ? item.name : '???'}</span>
+        <div class="skin-desc">${owned ? item.desc : '未获得'}</div>
+      </div>
+      ${owned && !equipped ? `<button class="action-btn" onclick="doEquipSkin('${item.id}')" style="padding:1px 5px;font-size:8px;border-color:${qColor};color:${qColor};">装备</button>` : ''}
+      ${equipped ? '<span style="color:#FFD700;font-size:9px;">✅</span>' : ''}
+    </div>`;
+  }
+  if (!html) html = '<div style="color:#555;font-size:10px;">暂无外观</div>';
+  document.getElementById('skinCollection').innerHTML = html;
+}
+
+function doGachaSingle() {
+  const result = GameEngine.doGachaPull(1);
+  if (!result.success) { showResult('天机阁', result.msg); return; }
+  lastGachaResults = result.results;
+  updateUI();
+}
+
+function doGachaTen() {
+  const result = GameEngine.doGachaPull(10);
+  if (!result.success) { showResult('天机阁', result.msg); return; }
+  lastGachaResults = result.results;
+  updateUI();
+}
+
+function doEquipSkin(skinId) {
+  const r = GameEngine.equipSkin(skinId);
+  if (!r.success) showResult('外观', r.msg);
+  updateUI();
+}
+
+function doUnequipSkin(type) {
+  GameEngine.unequipSkin(type);
+  updateUI();
+}
+
 // ========== 操作函数 ==========
 function doUpgrade(stat) { GameEngine.upgrade(stat); updateUI(); }
 function doEquip(idx) { GameEngine.equipItem(idx); updateUI(); }
@@ -1717,6 +1921,39 @@ function onBattleEvent(eventType, data) {
       addParticles(mouseX, mouseY, '#FFD700', 50, 12);
       addDamageText(mouseX, mouseY-80, '飞升转生!', '#FFD700', true);
       addDamageText(mouseX, mouseY-100, `+${data.pointsGained}仙缘`, '#FFD700', true);
+      break;
+    case 'tokenDrop':
+      addDamageText(monsterX + 30, monsterY-70, `+${data.amount}🎫`, '#FF8800', false);
+      addParticles(monsterX, monsterY - 40, '#FF8800', 5, 3);
+      break;
+    case 'gacha':
+      // 抽卡视觉特效：彩虹粒子爆炸
+      const cx = canvas.width / 2, cy = canvas.height * 0.4;
+      const hasLegendary = data.results.some(r => r.quality >= 4 && r.isNew);
+      const hasRare = data.results.some(r => r.quality >= 3 && r.isNew);
+      const gachaColors = hasLegendary ? ['#FFD700','#FF4400','#FF00FF','#FFFFFF'] :
+                          hasRare ? ['#AA55FF','#FF88FF','#4488FF','#FFFFFF'] :
+                          ['#88CCFF','#88FF88','#FFDD57','#AAAAAA'];
+      for (let i = 0; i < (hasLegendary ? 60 : hasRare ? 40 : 20); i++) {
+        const angle = Math.random() * Math.PI * 2;
+        const speed = 2 + Math.random() * (hasLegendary ? 8 : 5);
+        particles.push({
+          x: cx, y: cy,
+          vx: Math.cos(angle) * speed, vy: Math.sin(angle) * speed - 2,
+          life: 30 + Math.random() * 30,
+          color: gachaColors[Math.floor(Math.random() * gachaColors.length)],
+          size: 2 + Math.random() * 3
+        });
+      }
+      if (hasLegendary) {
+        addDamageText(cx, cy - 30, '🌟 传说级!', '#FFD700', true);
+        addBreakthroughEffect(cx, cy);
+      } else if (hasRare) {
+        addDamageText(cx, cy - 30, '✨ 珍品!', '#AA55FF', true);
+      }
+      if (data.count === 10) {
+        addDamageText(cx, cy, '🎰 十连抽!', '#FF8800', true);
+      }
       break;
   }
   updateUI();

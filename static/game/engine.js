@@ -1,5 +1,5 @@
 // ============================================================
-// engine.js — 鼠鼠修仙 v0.7 战斗体验重塑
+// engine.js — 鼠鼠修仙 v0.8 天机阁抽卡系统
 // 日夜循环 / 场景小景 / 伤害弹跳 / Mini-HUD / 连杀特效
 // ============================================================
 
@@ -270,6 +270,157 @@ const GameEngine = (() => {
       check: (s) => s.eliteKillCount >= 50, reward: { attack: 25, critDamage: 10 } },
   ];
 
+  // ========== 天机阁·抽卡系统 ==========
+  const GACHA_COST_SINGLE = 10;  // 单抽10天机令
+  const GACHA_COST_TEN = 90;     // 十连90天机令（9折）
+
+  // 品质概率：白30%→绿35%→蓝20%→紫10%→橙4%→红1%
+  const GACHA_QUALITY_RATES = [0.30, 0.35, 0.20, 0.10, 0.04, 0.01];
+  const GACHA_QUALITY_NAMES = ['凡品','良品','稀有','珍品','极品','传说'];
+  const GACHA_QUALITY_COLORS = ['#CCCCCC','#44CC44','#4488FF','#AA55FF','#FF8800','#FF2222'];
+
+  // 武器外观池（20款）
+  const WEAPON_SKINS = [
+    { id: 'ws_bamboo', name: '翠竹剑', quality: 0, desc: '竹节剑身，清雅脱俗' },
+    { id: 'ws_rusty', name: '锈铁剑', quality: 0, desc: '虽锈迹斑斑，却暗含杀机' },
+    { id: 'ws_bone', name: '白骨剑', quality: 0, desc: '妖兽骨骼打磨而成' },
+    { id: 'ws_jade', name: '碧玉剑', quality: 1, desc: '通体碧绿，灵气流转' },
+    { id: 'ws_flame', name: '烈焰刀', quality: 1, desc: '刀身缠绕火焰纹' },
+    { id: 'ws_frost', name: '寒霜剑', quality: 1, desc: '剑气凝霜，寒意逼人' },
+    { id: 'ws_wind', name: '疾风匕', quality: 1, desc: '小巧轻灵，快如闪电' },
+    { id: 'ws_thunder', name: '雷霆锤', quality: 2, desc: '雷光闪烁的战锤' },
+    { id: 'ws_blood', name: '嗜血刃', quality: 2, desc: '暗红色刀刃，渗出血光' },
+    { id: 'ws_shadow', name: '暗影匕首', quality: 2, desc: '漆黑如墨，隐于虚空' },
+    { id: 'ws_starfall', name: '星陨剑', quality: 2, desc: '剑身嵌满星辰碎片' },
+    { id: 'ws_dragon', name: '龙牙剑', quality: 3, desc: '龙族之牙铸成的神兵' },
+    { id: 'ws_phoenix', name: '凤翎刃', quality: 3, desc: '凤凰羽翎化作的利刃' },
+    { id: 'ws_void', name: '虚空裂隙', quality: 3, desc: '撕裂空间的黑色大剑' },
+    { id: 'ws_moonlight', name: '月华剑', quality: 3, desc: '银色月光凝成剑身' },
+    { id: 'ws_golden_lotus', name: '金莲法杖', quality: 4, desc: '顶端盛开金色莲花' },
+    { id: 'ws_chaos', name: '混沌之刃', quality: 4, desc: '混沌之力凝结的异形武器' },
+    { id: 'ws_heavenly', name: '天罚雷剑', quality: 4, desc: '引天雷而降的审判之剑' },
+    { id: 'ws_primordial', name: '太初神剑', quality: 5, desc: '开天辟地时留存的神器' },
+    { id: 'ws_cosmic', name: '寰宇星辰剑', quality: 5, desc: '蕴含整个星河的终极之剑' },
+  ];
+
+  // 衣服外观池（20款）
+  const ARMOR_SKINS = [
+    { id: 'as_patched', name: '补丁布衣', quality: 0, desc: '缝缝补补的粗布衣裳' },
+    { id: 'as_farmer', name: '农夫麻衣', quality: 0, desc: '朴实无华的麻布衣' },
+    { id: 'as_scholar', name: '书生白袍', quality: 0, desc: '洁白的读书人长袍' },
+    { id: 'as_bamboo', name: '竹纹道袍', quality: 1, desc: '绣着竹叶纹的道袍' },
+    { id: 'as_cloud', name: '云纹法袍', quality: 1, desc: '飘渺云纹若隐若现' },
+    { id: 'as_fire_robe', name: '赤焰袍', quality: 1, desc: '火红色法袍，袖口有火焰' },
+    { id: 'as_ice_silk', name: '冰蚕丝甲', quality: 1, desc: '冰蚕丝编织的轻甲' },
+    { id: 'as_night', name: '夜行衣', quality: 2, desc: '漆黑夜行者的紧身衣' },
+    { id: 'as_dragon_scale', name: '龙鳞战甲', quality: 2, desc: '泛着青色光芒的龙鳞甲' },
+    { id: 'as_flower', name: '百花锦袍', quality: 2, desc: '绣满百花的华丽锦袍' },
+    { id: 'as_star_robe', name: '星辰法袍', quality: 2, desc: '深蓝底色点缀星光' },
+    { id: 'as_blood_armor', name: '血战铠甲', quality: 3, desc: '暗红色重甲，浸满战意' },
+    { id: 'as_jade_emperor', name: '玉帝仙袍', quality: 3, desc: '金丝玉线交织的帝王之袍' },
+    { id: 'as_ghost', name: '幽冥鬼衣', quality: 3, desc: '半透明的幽绿鬼衣' },
+    { id: 'as_thunder_armor', name: '雷霆战甲', quality: 3, desc: '电弧缠绕的金色战甲' },
+    { id: 'as_phoenix_robe', name: '凤凰涅槃袍', quality: 4, desc: '浴火凤凰纹的赤金法袍' },
+    { id: 'as_void_cloak', name: '虚空披风', quality: 4, desc: '吞噬光线的漆黑披风' },
+    { id: 'as_celestial', name: '天神金甲', quality: 4, desc: '天界铸造的纯金神甲' },
+    { id: 'as_primordial_robe', name: '鸿蒙道袍', quality: 5, desc: '混沌初开时的至高道袍' },
+    { id: 'as_universe', name: '万象天衣', quality: 5, desc: '包罗万象的宇宙级法衣' },
+  ];
+
+  const GACHA_POOL = [...WEAPON_SKINS.map(s => ({ ...s, type: 'weapon' })), ...ARMOR_SKINS.map(s => ({ ...s, type: 'armor' }))];
+
+  function rollGachaQuality(guaranteed) {
+    // guaranteed: 保底最低品质（十连保底用）
+    const roll = Math.random();
+    let cumulative = 0;
+    for (let i = 0; i < GACHA_QUALITY_RATES.length; i++) {
+      cumulative += GACHA_QUALITY_RATES[i];
+      if (roll < cumulative) {
+        return Math.max(i, guaranteed || 0);
+      }
+    }
+    return Math.max(GACHA_QUALITY_RATES.length - 1, guaranteed || 0);
+  }
+
+  function doGachaPull(count) {
+    // count: 1=单抽, 10=十连
+    const cost = count === 10 ? GACHA_COST_TEN : GACHA_COST_SINGLE * count;
+    if ((state.tianjiTokens || 0) < cost) {
+      return { success: false, msg: `天机令不足！需要${cost}枚，当前${state.tianjiTokens || 0}枚` };
+    }
+
+    state.tianjiTokens -= cost;
+    const results = [];
+    let hasPurpleOrAbove = false;
+
+    for (let i = 0; i < count; i++) {
+      // 十连：第10抽保底紫色(quality>=3)
+      const isGuaranteed = (count === 10 && i === 9 && !hasPurpleOrAbove);
+      const quality = rollGachaQuality(isGuaranteed ? 3 : 0);
+      if (quality >= 3) hasPurpleOrAbove = true;
+
+      // 从对应品质的池子中随机选
+      const poolByQuality = GACHA_POOL.filter(item => item.quality === quality);
+      if (poolByQuality.length === 0) continue;
+      const chosen = poolByQuality[Math.floor(Math.random() * poolByQuality.length)];
+
+      // 检查是否已拥有
+      const owned = (state.ownedSkins || []).includes(chosen.id);
+
+      if (owned) {
+        // 重复：转换为天机令（品质越高返还越多）
+        const refund = [1, 2, 5, 10, 25, 50][quality] || 1;
+        state.tianjiTokens += refund;
+        results.push({ ...chosen, duplicate: true, refund });
+      } else {
+        // 新获得
+        if (!state.ownedSkins) state.ownedSkins = [];
+        state.ownedSkins.push(chosen.id);
+        results.push({ ...chosen, duplicate: false, isNew: true });
+      }
+    }
+
+    // 统计
+    state.totalGachaPulls = (state.totalGachaPulls || 0) + count;
+
+    addLog(`🎰 天机阁${count === 10 ? '十连' : '单抽'}！消耗${cost}天机令`);
+    for (const r of results) {
+      if (r.isNew) {
+        addLog(`✨ <span style="color:${GACHA_QUALITY_COLORS[r.quality]}">[${GACHA_QUALITY_NAMES[r.quality]}]${r.name}</span> —— 新获得！`);
+      } else if (r.duplicate) {
+        addLog(`🔄 ${r.name}（重复→+${r.refund}天机令）`);
+      }
+    }
+
+    emit('gacha', { results, count });
+    saveState();
+    return { success: true, results, cost };
+  }
+
+  function equipSkin(skinId) {
+    if (!state.ownedSkins || !state.ownedSkins.includes(skinId)) {
+      return { success: false, msg: '未拥有此外观' };
+    }
+    const skin = GACHA_POOL.find(s => s.id === skinId);
+    if (!skin) return { success: false, msg: '外观不存在' };
+
+    if (skin.type === 'weapon') {
+      state.equippedWeaponSkin = skinId;
+    } else {
+      state.equippedArmorSkin = skinId;
+    }
+    addLog(`👗 装备外观：${skin.name}`);
+    saveState();
+    return { success: true, msg: `已装备${skin.name}` };
+  }
+
+  function unequipSkin(type) {
+    if (type === 'weapon') state.equippedWeaponSkin = null;
+    else state.equippedArmorSkin = null;
+    saveState();
+    return { success: true };
+  }
+
   // ========== 镇妖塔 ==========
   function getTowerMonster(floor) {
     const tier = Math.min(5, Math.floor(floor / 10));
@@ -406,6 +557,13 @@ const GameEngine = (() => {
         startLevel: 0, // 起始等级加成
       },
       totalAscensionPointsEarned: 0,
+
+      // === v0.8 天机阁抽卡系统 ===
+      tianjiTokens: 0,       // 天机令（抽卡代币）
+      ownedSkins: [],        // 已拥有的外观ID列表
+      equippedWeaponSkin: null, // 当前装备的武器外观ID
+      equippedArmorSkin: null,  // 当前装备的衣服外观ID
+      totalGachaPulls: 0,    // 总抽卡次数
     };
   }
 
@@ -497,6 +655,12 @@ const GameEngine = (() => {
     if (state.ascensionPoints === undefined) state.ascensionPoints = 0;
     if (!state.ascensionBonuses) state.ascensionBonuses = { atkMult:0, defMult:0, hpMult:0, expMult:0, goldMult:0, startLevel:0 };
     if (state.totalAscensionPointsEarned === undefined) state.totalAscensionPointsEarned = 0;
+    // v0.8 gacha migration
+    if (state.tianjiTokens === undefined) state.tianjiTokens = 0;
+    if (!state.ownedSkins) state.ownedSkins = [];
+    if (state.equippedWeaponSkin === undefined) state.equippedWeaponSkin = null;
+    if (state.equippedArmorSkin === undefined) state.equippedArmorSkin = null;
+    if (state.totalGachaPulls === undefined) state.totalGachaPulls = 0;
   }
 
   function saveState() {
@@ -918,6 +1082,14 @@ const GameEngine = (() => {
       state.monsterKills[mName] = (state.monsterKills[mName] || 0) + 1;
       if (state.currentMonster.isElite) state.eliteKillCount++;
 
+      // 精英怪掉落天机令（50%概率，1-3枚）
+      if (state.currentMonster.isElite && Math.random() < 0.5) {
+        const tokens = 1 + Math.floor(Math.random() * 3);
+        state.tianjiTokens = (state.tianjiTokens || 0) + tokens;
+        addLog(`🎫 精英怪掉落 ${tokens} 枚天机令！`);
+        emit('tokenDrop', { amount: tokens });
+      }
+
       const eliteTag = state.currentMonster.isElite ? '⭐' : '';
       addLog(`💀 ${eliteTag}${mName} 被击败！+${formatNumber(expGain)}经验 +${formatNumber(goldGain)}灵石`);
       emit('kill', { monster: state.currentMonster, expGain, goldGain });
@@ -1031,6 +1203,12 @@ const GameEngine = (() => {
       if (state.inventory.length < state.inventoryMax) {
         state.inventory.push(equip);
       }
+    }
+    // 奇遇额外掉落天机令（30%概率）
+    if (Math.random() < 0.3) {
+      const tokens = 1 + Math.floor(Math.random() * 2);
+      state.tianjiTokens = (state.tianjiTokens || 0) + tokens;
+      addLog(`🎫 奇遇获得 ${tokens} 天机令！`);
     }
     emit('encounter', { event });
   }
@@ -1223,6 +1401,10 @@ const GameEngine = (() => {
       }
     }
     if (r.beastChance && Math.random() < r.beastChance) tryCaptureBeast();
+    // 秘境通关奖励天机令（2-5枚，看秘境等级）
+    const realmTokens = realmIndex + 2;
+    state.tianjiTokens = (state.tianjiTokens || 0) + realmTokens;
+    rewards.push(`天机令x${realmTokens}`);
     addLog(`🏔️ 秘境【${realm.name}】通关！获得：${rewards.join('、')}`);
     emit('secretRealmClear', { realm: realm.name, rewards });
     saveState();
@@ -1259,10 +1441,16 @@ const GameEngine = (() => {
       state.exp += expReward;
       state.towerFloor++;
       if (state.towerFloor - 1 > state.towerBestFloor) state.towerBestFloor = state.towerFloor - 1;
+      // 每5层奖励天机令
+      let towerTokens = 0;
+      if (floor % 5 === 0) {
+        towerTokens = Math.floor(floor / 5);
+        state.tianjiTokens = (state.tianjiTokens || 0) + towerTokens;
+      }
       checkLevelUp();
       checkAchievements();
-      addLog(`🗼 镇妖塔第${floor}层通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石`);
-      emit('towerClear', { floor, goldReward, expReward });
+      addLog(`🗼 镇妖塔第${floor}层通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石${towerTokens > 0 ? ` +${towerTokens}天机令` : ''}`);
+      emit('towerClear', { floor, goldReward, expReward, towerTokens });
       saveState();
       return { success: true, floor, msg: `第${floor}层通关！`, goldReward, expReward, monsterName: monster.displayName };
     } else {
@@ -1364,6 +1552,10 @@ const GameEngine = (() => {
 
     addLog(`🌟🌟🌟 飞升转生！第${state.ascensionCount}次 🌟🌟🌟`);
     addLog(`✨ 获得 ${pointsGained} 仙缘点！`);
+    // 飞升奖励天机令
+    const ascTokens = 10 + state.ascensionCount * 5;
+    state.tianjiTokens = (state.tianjiTokens || 0) + ascTokens;
+    addLog(`🎫 飞升奖励 ${ascTokens} 天机令！`);
     addLog(`💫 从Lv.${startLevel}开始新的修仙之旅...`);
 
     emit('ascension', { pointsGained, ascensionCount: state.ascensionCount });
@@ -1806,6 +1998,12 @@ const GameEngine = (() => {
       reviveCountdown: state.isDead ? Math.max(0, Math.ceil((state.reviveTime - Date.now()) / 1000)) : 0,
       canAscend: canAscend(),
       ascensionPointsPreview: state.level >= 50 ? getAscensionPointsEarned() : 0,
+      // gacha
+      equippedWeaponSkin: state.equippedWeaponSkin,
+      equippedArmorSkin: state.equippedArmorSkin,
+      ownedSkins: state.ownedSkins || [],
+      tianjiTokens: state.tianjiTokens || 0,
+      totalGachaPulls: state.totalGachaPulls || 0,
     };
   }
 
@@ -1826,6 +2024,10 @@ const GameEngine = (() => {
     // v0.5
     performAscension, buyAscensionUpgrade, canAscend, getAscensionPointsEarned,
     ASCENSION_UPGRADES, getMonsterBestiary,
+    // v0.8 gacha
+    doGachaPull, equipSkin, unequipSkin,
+    GACHA_POOL, GACHA_QUALITY_NAMES, GACHA_QUALITY_COLORS, GACHA_COST_SINGLE, GACHA_COST_TEN,
+    WEAPON_SKINS, ARMOR_SKINS,
   };
 
 })();

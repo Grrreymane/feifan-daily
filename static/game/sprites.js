@@ -1594,11 +1594,268 @@ const Sprites = (() => {
     ctx.fillText(name, x, y - 4);
   }
 
+  // ================================================================
+  // 武器外观皮肤绘制
+  // ================================================================
+  const weaponSkinDrawers = {
+    'ws_bamboo': (ctx, s, frame) => { // 翠竹剑
+      rect(ctx, 0, 0, s, 3*s, '#2E5E1E');
+      rect(ctx, -s, 0, 3*s, s, '#4A8B2A');
+      rect(ctx, -s/2, -9*s, 2*s, 9*s, '#4A8B2A');
+      // 竹节
+      for(let i=0;i<3;i++) rect(ctx, -s, -8*s+i*3*s, 3*s, s, '#2E5E1E');
+      rect(ctx, 0, -10*s, s, s, '#8BC34A');
+    },
+    'ws_rusty': (ctx, s, frame) => { // 锈铁剑
+      rect(ctx, 0, 0, s, 3*s, '#5D4037');
+      rect(ctx, -s, 0, 3*s, s, '#8B7355');
+      rect(ctx, -s/2, -8*s, 2*s, 8*s, '#8B6914');
+      rect(ctx, 0, -9*s, s, s, '#A08040');
+      // 锈斑
+      rect(ctx, 0, -6*s, s, s, '#CC6600'); rect(ctx, -s/2, -3*s, s, s, '#996633');
+    },
+    'ws_bone': (ctx, s, frame) => { // 白骨剑
+      rect(ctx, 0, 0, s, 3*s, '#8B7355');
+      rect(ctx, -s, 0, 3*s, s, '#DDD');
+      rect(ctx, -s/2, -9*s, 2*s, 9*s, '#E8DCC8');
+      rect(ctx, 0, -10*s, s, s, '#FFF');
+      // 骨节
+      for(let i=0;i<2;i++) { rect(ctx, -s, -7*s+i*4*s, s, 2*s, '#DDD'); rect(ctx, s, -5*s+i*4*s, s, 2*s, '#DDD'); }
+    },
+    'ws_jade': (ctx, s, frame) => { // 碧玉剑
+      rect(ctx, 0, 0, s, 3*s, '#2E7D32');
+      rect(ctx, -s, 0, 3*s, s, '#4CAF50');
+      rect(ctx, -s/2, -9*s, 2*s, 9*s, '#66BB6A');
+      ctx.globalAlpha = 0.4 + Math.sin(frame*0.06)*0.2;
+      rect(ctx, 0, -9*s, s, 9*s, '#A5D6A7');
+      ctx.globalAlpha = 1;
+      rect(ctx, 0, -10*s, s, s, '#C8E6C9');
+    },
+    'ws_flame': (ctx, s, frame) => { // 烈焰刀
+      rect(ctx, 0, 0, s, 3*s, '#5D4037');
+      rect(ctx, -s*1.5, 0, 4*s, s, '#FF5722');
+      rect(ctx, -s, -9*s, 3*s, 9*s, '#FF5722');
+      rect(ctx, -s/2, -10*s, 2*s, s, '#FFAB40');
+      ctx.globalAlpha = 0.3+Math.sin(frame*0.08)*0.2;
+      ctx.shadowColor = '#FF5722'; ctx.shadowBlur = 8;
+      rect(ctx, -s, -9*s, 3*s, 9*s, '#FF5722');
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+    'ws_frost': (ctx, s, frame) => { // 寒霜剑
+      rect(ctx, 0, 0, s, 3*s, '#455A64');
+      rect(ctx, -s, 0, 3*s, s, '#90CAF9');
+      rect(ctx, -s/2, -9*s, 2*s, 9*s, '#90CAF9');
+      rect(ctx, 0, -10*s, s, s, '#E3F2FD');
+      ctx.globalAlpha = 0.3+Math.sin(frame*0.07)*0.15;
+      ctx.shadowColor = '#64B5F6'; ctx.shadowBlur = 10;
+      rect(ctx, -s/2, -9*s, 2*s, 9*s, '#BBDEFB');
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+    'ws_wind': (ctx, s, frame) => { // 疾风匕
+      rect(ctx, 0, 0, s, 2*s, '#546E7A');
+      rect(ctx, -s/2, -6*s, s*1.5, 6*s, '#B0BEC5');
+      rect(ctx, 0, -7*s, s, s, '#ECEFF1');
+      // 风纹
+      ctx.globalAlpha = 0.4;
+      for(let i=0;i<3;i++){
+        rect(ctx, s + Math.sin(frame*0.1+i)*s, -5*s+i*2*s, 2*s, s, '#80CBC4');
+      }
+      ctx.globalAlpha = 1;
+    },
+    'ws_thunder': (ctx, s, frame) => { // 雷霆锤
+      rect(ctx, 0, 0, s, 4*s, '#795548');
+      rect(ctx, -2*s, -5*s, 5*s, 4*s, '#607D8B');
+      rect(ctx, -2*s, -6*s, 5*s, s, '#78909C');
+      ctx.globalAlpha = 0.5+Math.sin(frame*0.06)*0.3;
+      rect(ctx, -s, -4*s, 3*s, 2*s, '#FFFF00');
+      ctx.globalAlpha = 1;
+    },
+    'ws_blood': (ctx, s, frame) => { // 嗜血刃
+      rect(ctx, 0, 0, s, 3*s, '#3E2723');
+      rect(ctx, -s*1.5, 0, 4*s, s, '#880000');
+      rect(ctx, -s, -10*s, 3*s, 10*s, '#880000');
+      rect(ctx, -s/2, -11*s, 2*s, s, '#CC0000');
+      ctx.globalAlpha = 0.3+Math.sin(frame*0.05)*0.2;
+      ctx.shadowColor = '#FF0000'; ctx.shadowBlur = 10;
+      rect(ctx, -s, -10*s, 3*s, 10*s, '#AA0000');
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+    'ws_shadow': (ctx, s, frame) => { // 暗影匕首
+      rect(ctx, 0, 0, s, 2*s, '#212121');
+      rect(ctx, -s/2, -6*s, s*1.5, 6*s, '#1A1A1A');
+      rect(ctx, 0, -7*s, s, s, '#424242');
+      ctx.globalAlpha = 0.2+Math.sin(frame*0.04)*0.15;
+      ctx.shadowColor = '#9C27B0'; ctx.shadowBlur = 12;
+      rect(ctx, -s/2, -6*s, s*1.5, 6*s, '#4A148C');
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+    'ws_starfall': (ctx, s, frame) => { // 星陨剑
+      rect(ctx, 0, 0, s, 3*s, '#1A237E');
+      rect(ctx, -s, 0, 3*s, s, '#3F51B5');
+      rect(ctx, -s/2, -10*s, 2*s, 10*s, '#283593');
+      // 星星
+      for(let i=0;i<4;i++){
+        ctx.globalAlpha = 0.5+Math.sin(frame*0.08+i)*0.4;
+        rect(ctx, -s+Math.sin(i*1.5)*s, -9*s+i*2.5*s, s, s, '#FFFFFF');
+      }
+      ctx.globalAlpha = 0.3;
+      ctx.shadowColor = '#536DFE'; ctx.shadowBlur = 12;
+      rect(ctx, -s/2, -10*s, 2*s, 10*s, '#3F51B5');
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+    'ws_dragon': (ctx, s, frame) => { // 龙牙剑
+      rect(ctx, 0, 0, s, 3*s, '#4E342E');
+      rect(ctx, -s*1.5, -s, 4*s, 2*s, '#FFD700');
+      rect(ctx, -s, -11*s, 3*s, 11*s, '#E8E8E0');
+      rect(ctx, -s/2, -12*s, 2*s, s, '#FFFFF0');
+      // 龙纹
+      for(let i=0;i<3;i++) rect(ctx, -2*s, -9*s+i*3*s, s, 2*s, '#FFD700');
+      ctx.globalAlpha = 0.35;
+      ctx.shadowColor = '#FFD700'; ctx.shadowBlur = 14;
+      rect(ctx, -s, -11*s, 3*s, 11*s, '#FFF8E1');
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+    'ws_phoenix': (ctx, s, frame) => { // 凤翎刃
+      rect(ctx, 0, 0, s, 3*s, '#BF360C');
+      rect(ctx, -s*1.5, 0, 4*s, s, '#FF6F00');
+      rect(ctx, -s, -10*s, 3*s, 10*s, '#FF6D00');
+      rect(ctx, -s/2, -12*s, 2*s, 2*s, '#FFD600');
+      // 火焰纹
+      ctx.globalAlpha = 0.4+Math.sin(frame*0.06)*0.2;
+      for(let i=0;i<3;i++){
+        rect(ctx, -2*s, -9*s+i*3*s, s, s, '#FFAB00');
+        rect(ctx, 2*s, -8*s+i*3*s, s, s, '#FFAB00');
+      }
+      ctx.shadowColor = '#FF6F00'; ctx.shadowBlur = 14;
+      rect(ctx, -s, -10*s, 3*s, 10*s, '#FF8F00');
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+    'ws_void': (ctx, s, frame) => { // 虚空裂隙
+      rect(ctx, 0, 0, s, 3*s, '#1A1A2E');
+      rect(ctx, -2*s, -s, 5*s, 2*s, '#311B92');
+      rect(ctx, -s*1.5, -12*s, 4*s, 12*s, '#1A1A1A');
+      // 裂隙光
+      ctx.globalAlpha = 0.3+Math.sin(frame*0.04)*0.2;
+      ctx.shadowColor = '#7C4DFF'; ctx.shadowBlur = 18;
+      rect(ctx, -s, -12*s, s*2, 12*s, '#651FFF');
+      ctx.shadowBlur = 0;
+      // 粒子
+      for(let i=0;i<3;i++){
+        rect(ctx, Math.sin(frame*0.03+i*2)*2*s, -10*s+i*4*s, s, s, '#B388FF');
+      }
+      ctx.globalAlpha = 1;
+    },
+    'ws_moonlight': (ctx, s, frame) => { // 月华剑
+      rect(ctx, 0, 0, s, 3*s, '#37474F');
+      rect(ctx, -s, 0, 3*s, s, '#B0BEC5');
+      rect(ctx, -s/2, -10*s, 2*s, 10*s, '#CFD8DC');
+      ctx.globalAlpha = 0.35+Math.sin(frame*0.05)*0.2;
+      ctx.shadowColor = '#E0E0E0'; ctx.shadowBlur = 16;
+      rect(ctx, -s/2, -10*s, 2*s, 10*s, '#ECEFF1');
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+      rect(ctx, 0, -11*s, s, s, '#FFFFFF');
+    },
+    'ws_golden_lotus': (ctx, s, frame) => { // 金莲法杖
+      rect(ctx, 0, 0, s, 5*s, '#5D4037');
+      rect(ctx, 0, -8*s, s, 8*s, '#795548');
+      // 莲花
+      const bloom = Math.sin(frame*0.04)*s*0.3;
+      ctx.fillStyle = '#FFD700';
+      for(let i=0;i<5;i++){
+        const a = i*Math.PI*2/5 + frame*0.01;
+        ctx.beginPath(); ctx.ellipse(s/2+Math.cos(a)*2*s, -10*s+Math.sin(a)*2*s, s*1.5+bloom, s, a, 0, Math.PI*2); ctx.fill();
+      }
+      ctx.globalAlpha = 0.4; ctx.shadowColor = '#FFD700'; ctx.shadowBlur = 12;
+      ctx.beginPath(); ctx.arc(s/2, -10*s, 3*s, 0, Math.PI*2); ctx.fill();
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+    'ws_chaos': (ctx, s, frame) => { // 混沌之刃
+      rect(ctx, 0, 0, s, 3*s, '#1A0A2E');
+      rect(ctx, -2*s, -s, 5*s, 2*s, '#4A148C');
+      // 不规则刀刃
+      ctx.fillStyle = '#311B92';
+      ctx.beginPath();
+      ctx.moveTo(-s*1.5, 0); ctx.lineTo(-2*s, -6*s); ctx.lineTo(-s, -10*s);
+      ctx.lineTo(s, -12*s); ctx.lineTo(2*s, -8*s); ctx.lineTo(s*1.5, 0);
+      ctx.fill();
+      ctx.globalAlpha = 0.4+Math.sin(frame*0.03)*0.2;
+      ctx.shadowColor = '#D500F9'; ctx.shadowBlur = 16;
+      ctx.fill();
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+    'ws_heavenly': (ctx, s, frame) => { // 天罚雷剑
+      rect(ctx, 0, 0, s, 3*s, '#37474F');
+      rect(ctx, -s*1.5, -s, 4*s, 2*s, '#FFEB3B');
+      rect(ctx, -s, -11*s, 3*s, 11*s, '#FFC107');
+      rect(ctx, -s/2, -12*s, 2*s, s, '#FFFF00');
+      // 电弧
+      if (Math.floor(frame/5)%2===0) {
+        ctx.strokeStyle = '#FFFF00'; ctx.lineWidth = s*0.8;
+        ctx.beginPath(); ctx.moveTo(-s, -8*s); ctx.lineTo(-3*s, -10*s); ctx.lineTo(-2*s, -9*s); ctx.lineTo(-4*s, -12*s); ctx.stroke();
+        ctx.beginPath(); ctx.moveTo(2*s, -6*s); ctx.lineTo(4*s, -8*s); ctx.lineTo(3*s, -7*s); ctx.lineTo(5*s, -10*s); ctx.stroke();
+      }
+      ctx.globalAlpha = 0.4; ctx.shadowColor = '#FFEB3B'; ctx.shadowBlur = 18;
+      rect(ctx, -s, -11*s, 3*s, 11*s, '#FFC107');
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+    'ws_primordial': (ctx, s, frame) => { // 太初神剑
+      rect(ctx, 0, 0, s, 3*s, '#880000');
+      rect(ctx, -2*s, -s, 5*s, 2*s, '#FFD700');
+      rect(ctx, -s, -13*s, 3*s, 13*s, '#FFD700');
+      rect(ctx, -s/2, -14*s, 2*s, s, '#FFFFAA');
+      // 旋转符文
+      for(let i=0;i<6;i++){
+        const a = frame*0.02 + i*Math.PI/3;
+        ctx.globalAlpha = 0.6+Math.sin(frame*0.04+i)*0.3;
+        rect(ctx, Math.cos(a)*3*s, -7*s+Math.sin(a)*5*s, s, s, '#FFFFFF');
+      }
+      ctx.globalAlpha = 0.5; ctx.shadowColor = '#FFD700'; ctx.shadowBlur = 22;
+      rect(ctx, -s, -13*s, 3*s, 13*s, '#FFD700');
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+    'ws_cosmic': (ctx, s, frame) => { // 寰宇星辰剑
+      rect(ctx, 0, 0, s, 3*s, '#0D0D2B');
+      rect(ctx, -2*s, -s, 5*s, 2*s, '#00BCD4');
+      // 剑身：深蓝星空
+      const grad = ctx.createLinearGradient(-s, -14*s, 2*s, 0);
+      grad.addColorStop(0, '#1A237E'); grad.addColorStop(0.5, '#0D47A1'); grad.addColorStop(1, '#01579B');
+      ctx.fillStyle = grad;
+      ctx.fillRect(-s, -14*s, 3*s, 14*s);
+      // 星辰
+      for(let i=0;i<8;i++){
+        ctx.globalAlpha = 0.5+Math.sin(frame*0.06+i*0.8)*0.5;
+        const sx = -s + Math.sin(i*1.7)*s*1.5;
+        const sy = -13*s + i*1.8*s;
+        rect(ctx, sx, sy, s*0.8, s*0.8, '#FFFFFF');
+      }
+      ctx.globalAlpha = 0.45+Math.sin(frame*0.025)*0.2;
+      ctx.shadowColor = '#00BCD4'; ctx.shadowBlur = 24;
+      ctx.fillStyle = '#00BCD4';
+      ctx.fillRect(-s, -14*s, 3*s, 14*s);
+      ctx.shadowBlur = 0; ctx.globalAlpha = 1;
+    },
+  };
+
+  // 带皮肤的武器绘制
+  function drawWeaponWithSkin(ctx, x, y, s, tier, frame, attacking, skinId) {
+    if (skinId && weaponSkinDrawers[skinId]) {
+      ctx.save();
+      ctx.translate(x, y);
+      const angle = attacking > 0 ? -0.8 + Math.sin(attacking * 0.5) * 1.5 : -0.3;
+      ctx.rotate(angle);
+      weaponSkinDrawers[skinId](ctx, s, frame);
+      ctx.restore();
+    } else {
+      drawWeapon(ctx, x, y, s, tier, frame, attacking);
+    }
+  }
+
   return {
     drawMouseByRealm,
     drawMonsterByName,
     drawMonsterHPBar,
     drawActiveBeast,
+    drawWeaponWithSkin,
     rect,
     px,
   };
