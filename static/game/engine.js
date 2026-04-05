@@ -1,7 +1,6 @@
 // ============================================================
-// engine.js — 鼠鼠修仙 v0.5 转生系统+图鉴
-// 血条重做 / 死亡复活 / 战斗速度 / 精英怪 / 自动吃药
-// 装备对比 / DPS统计 / 洞府系统 / 成就系统 / 转生飞升
+// engine.js — 鼠鼠修仙 v0.6 视觉效果大升级
+// 灵兽攻击 / 功法特效 / 环境粒子 / 精英死亡增强
 // ============================================================
 
 const GameEngine = (() => {
@@ -862,6 +861,25 @@ const GameEngine = (() => {
         addLog(`⚔️ 暴击！鼠鼠对 ${state.currentMonster.name} 造成 ${formatNumber(damage)} 伤害！`);
       }
       emit('attack', { damage, isCrit, monsterName: state.currentMonster.name });
+
+      // === 功法特效（视觉事件，基于已学功法随机触发） ===
+      const learnedSkills = Object.entries(state.skills).filter(([id, lv]) => lv > 0);
+      if (learnedSkills.length > 0 && Math.random() < 0.25) {
+        const [skillId] = learnedSkills[Math.floor(Math.random() * learnedSkills.length)];
+        emit('skillEffect', { skillId });
+      }
+    }
+
+    // === 灵兽攻击 ===
+    const activeBeast = getActiveBeast();
+    if (activeBeast && state.currentMonster.hp > 0 && Math.random() < 0.4) {
+      let beastDmg = Math.floor((activeBeast.baseAtk + activeBeast.level * 2) * (0.8 + Math.random() * 0.4));
+      if (beastDmg > 0) {
+        state.currentMonster.hp = Math.max(0, state.currentMonster.hp - beastDmg);
+        state.currentMonster.totalHp = Math.max(0, state.currentMonster.totalHp - beastDmg);
+        state.totalDamageDealt += beastDmg;
+        emit('beastAttack', { damage: beastDmg, beastName: activeBeast.name, beastIcon: activeBeast.icon, templateId: activeBeast.templateId });
+      }
     }
 
     // === 多管血条切换 ===
