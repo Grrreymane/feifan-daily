@@ -1,6 +1,6 @@
 // ============================================================
-// engine.js — 鼠鼠修仙 v0.8 天机阁抽卡系统
-// 日夜循环 / 场景小景 / 伤害弹跳 / Mini-HUD / 连杀特效
+// engine.js — 鼠鼠修仙 v0.9 每日签到+悬赏任务
+// 天机阁抽卡 / 日夜循环 / 伤害弹跳 / Mini-HUD / 连杀特效
 // ============================================================
 
 const GameEngine = (() => {
@@ -329,6 +329,158 @@ const GameEngine = (() => {
 
   const GACHA_POOL = [...WEAPON_SKINS.map(s => ({ ...s, type: 'weapon' })), ...ARMOR_SKINS.map(s => ({ ...s, type: 'armor' }))];
 
+  // ========== 每日签到系统 ==========
+  const SIGN_IN_REWARDS = [
+    { day: 1, icon: '💎', name: '灵石x100', rewards: { gold: 100 } },
+    { day: 2, icon: '🌿', name: '灵草x10', rewards: { herb: 10 } },
+    { day: 3, icon: '🎫', name: '天机令x5', rewards: { tianjiTokens: 5 } },
+    { day: 4, icon: '⛏️', name: '矿石x10', rewards: { ore: 10 } },
+    { day: 5, icon: '💊', name: '回春丹x3', rewards: { pill_heal: 3 } },
+    { day: 6, icon: '💎', name: '精华x3', rewards: { essence: 3 } },
+    { day: 7, icon: '🌟', name: '大礼包', rewards: { gold: 500, tianjiTokens: 15, herb: 20, ore: 15, essence: 5 } },
+  ];
+
+  // ========== 悬赏任务系统 ==========
+  const BOUNTY_TEMPLATES = [
+    // 击杀类
+    { id: 'kill_any', name: '斩妖除魔', desc: '击杀{n}只怪物', type: 'kill', target: null,
+      tiers: [{ n: 10, rewards: { gold: 50 } }, { n: 30, rewards: { gold: 150, herb: 3 } }, { n: 80, rewards: { gold: 400, tianjiTokens: 2 } }] },
+    { id: 'kill_elite', name: '精英猎人', desc: '击杀{n}只精英怪', type: 'elite_kill', target: null,
+      tiers: [{ n: 1, rewards: { gold: 100, ore: 3 } }, { n: 3, rewards: { gold: 300, tianjiTokens: 3 } }, { n: 5, rewards: { gold: 500, essence: 2 } }] },
+    // 灵石类
+    { id: 'earn_gold', name: '聚财有道', desc: '获得{n}灵石', type: 'gold_earn', target: null,
+      tiers: [{ n: 200, rewards: { herb: 5 } }, { n: 1000, rewards: { herb: 10, ore: 5 } }, { n: 5000, rewards: { tianjiTokens: 5, essence: 2 } }] },
+    // 强化类
+    { id: 'enhance', name: '百炼成钢', desc: '强化装备{n}次', type: 'enhance', target: null,
+      tiers: [{ n: 3, rewards: { gold: 100 } }, { n: 5, rewards: { gold: 300, ore: 5 } }, { n: 10, rewards: { gold: 500, tianjiTokens: 3 } }] },
+    // 丹药类
+    { id: 'craft_pill', name: '炼丹达人', desc: '炼制{n}颗丹药', type: 'craft', target: null,
+      tiers: [{ n: 2, rewards: { gold: 80, herb: 5 } }, { n: 5, rewards: { gold: 200, essence: 1 } }] },
+    // 秘境类
+    { id: 'secret_realm', name: '秘境探索', desc: '通关{n}次秘境', type: 'realm_clear', target: null,
+      tiers: [{ n: 1, rewards: { gold: 150, herb: 5 } }, { n: 2, rewards: { gold: 300, tianjiTokens: 3 } }] },
+    // 镇妖塔类
+    { id: 'tower_climb', name: '登塔挑战', desc: '镇妖塔通过{n}层', type: 'tower_clear', target: null,
+      tiers: [{ n: 1, rewards: { gold: 100 } }, { n: 3, rewards: { gold: 300, ore: 5 } }, { n: 5, rewards: { gold: 500, tianjiTokens: 4 } }] },
+    // 暴击类
+    { id: 'crit_hit', name: '一击必杀', desc: '触发{n}次暴击', type: 'crit', target: null,
+      tiers: [{ n: 10, rewards: { gold: 80 } }, { n: 30, rewards: { gold: 200, herb: 5 } }, { n: 60, rewards: { tianjiTokens: 3, essence: 1 } }] },
+  ];
+
+  const BOUNTY_MAX_DAILY = 3; // 每日3个悬赏
+
+  function getDayKey(timestamp) {
+    const d = new Date(timestamp || Date.now());
+    return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
+  }
+
+  function checkAndRefreshDaily() {
+    const today = getDayKey();
+    if (state.dailyKey === today) return; // 今天已刷新
+    // 新的一天！
+    state.dailyKey = today;
+    state.towerDailyRewardClaimed = false;
+    // 签到状态：不重置（连续签到用lastSignDate判断）
+    // 刷新悬赏任务
+    refreshBountyQuests();
+    saveState();
+  }
+
+  function performSignIn() {
+    const today = getDayKey();
+    if (state.lastSignDate === today) {
+      return { success: false, msg: '今日已签到' };
+    }
+    // 计算连续签到天数
+    const yesterday = getDayKey(Date.now() - 86400000);
+    if (state.lastSignDate === yesterday) {
+      state.signStreak = (state.signStreak || 0) + 1;
+    } else {
+      state.signStreak = 1; // 断签重置
+    }
+    state.lastSignDate = today;
+    state.totalSignDays = (state.totalSignDays || 0) + 1;
+
+    // 第几天的奖励（7天循环）
+    const dayIndex = ((state.signStreak - 1) % 7);
+    const reward = SIGN_IN_REWARDS[dayIndex];
+
+    // 发放奖励
+    applyDailyRewards(reward.rewards);
+
+    const rewardStr = reward.name;
+    addLog(`📅 每日签到（连续${state.signStreak}天）！获得 ${rewardStr}`);
+    emit('signIn', { day: state.signStreak, reward });
+    saveState();
+    return { success: true, msg: `签到成功！连续${state.signStreak}天，获得${rewardStr}`, streak: state.signStreak, reward };
+  }
+
+  function applyDailyRewards(rewards) {
+    if (rewards.gold) { state.gold += rewards.gold; state.totalGold += rewards.gold; }
+    if (rewards.herb) state.materials.herb += rewards.herb;
+    if (rewards.ore) state.materials.ore += rewards.ore;
+    if (rewards.essence) state.materials.essence += rewards.essence;
+    if (rewards.tianjiTokens) state.tianjiTokens = (state.tianjiTokens || 0) + rewards.tianjiTokens;
+    if (rewards.pill_heal) state.pills['heal_pill'] = (state.pills['heal_pill'] || 0) + rewards.pill_heal;
+  }
+
+  function refreshBountyQuests() {
+    // 随机选3个不重复的悬赏任务
+    const shuffled = [...BOUNTY_TEMPLATES].sort(() => Math.random() - 0.5);
+    const selected = shuffled.slice(0, BOUNTY_MAX_DAILY);
+    state.bountyQuests = selected.map(tmpl => {
+      // 根据玩家等级选择难度
+      const realmIdx = getRealmIndex(state.level);
+      const tierIdx = Math.min(tmpl.tiers.length - 1, Math.floor(realmIdx / 2));
+      const tier = tmpl.tiers[tierIdx];
+      return {
+        id: tmpl.id + '_' + Date.now().toString(36) + Math.random().toString(36).substr(2,3),
+        templateId: tmpl.id,
+        name: tmpl.name,
+        desc: tmpl.desc.replace('{n}', tier.n),
+        type: tmpl.type,
+        required: tier.n,
+        progress: 0,
+        rewards: { ...tier.rewards },
+        completed: false,
+        claimed: false,
+      };
+    });
+  }
+
+  function updateBountyProgress(type, amount) {
+    if (!state.bountyQuests) return;
+    for (const quest of state.bountyQuests) {
+      if (quest.claimed || quest.type !== type) continue;
+      quest.progress = Math.min(quest.required, quest.progress + (amount || 1));
+      if (quest.progress >= quest.required && !quest.completed) {
+        quest.completed = true;
+        addLog(`📋 悬赏【${quest.name}】已完成！去领取奖励吧`);
+        emit('bountyComplete', { quest });
+      }
+    }
+  }
+
+  function claimBountyReward(questId) {
+    if (!state.bountyQuests) return { success: false, msg: '无悬赏' };
+    const quest = state.bountyQuests.find(q => q.id === questId);
+    if (!quest) return { success: false, msg: '任务不存在' };
+    if (!quest.completed) return { success: false, msg: '任务未完成' };
+    if (quest.claimed) return { success: false, msg: '已领取' };
+
+    quest.claimed = true;
+    applyDailyRewards(quest.rewards);
+
+    const rewardStr = Object.entries(quest.rewards).map(([k, v]) => {
+      const names = { gold: '灵石', herb: '灵草', ore: '矿石', essence: '精华', tianjiTokens: '天机令' };
+      return `${names[k] || k}×${v}`;
+    }).join(' ');
+
+    addLog(`🎁 领取悬赏【${quest.name}】奖励：${rewardStr}`);
+    emit('bountyClaim', { quest });
+    saveState();
+    return { success: true, msg: `领取成功！${rewardStr}` };
+  }
   function rollGachaQuality(guaranteed) {
     // guaranteed: 保底最低品质（十连保底用）
     const roll = Math.random();
@@ -564,6 +716,13 @@ const GameEngine = (() => {
       equippedWeaponSkin: null, // 当前装备的武器外观ID
       equippedArmorSkin: null,  // 当前装备的衣服外观ID
       totalGachaPulls: 0,    // 总抽卡次数
+
+      // === v0.9 每日签到+悬赏任务 ===
+      dailyKey: '',          // 今天的日期key（YYYY-MM-DD）
+      lastSignDate: '',      // 上次签到日期
+      signStreak: 0,         // 连续签到天数
+      totalSignDays: 0,      // 累计签到天数
+      bountyQuests: [],      // 当日悬赏任务列表
     };
   }
 
@@ -661,6 +820,12 @@ const GameEngine = (() => {
     if (state.equippedWeaponSkin === undefined) state.equippedWeaponSkin = null;
     if (state.equippedArmorSkin === undefined) state.equippedArmorSkin = null;
     if (state.totalGachaPulls === undefined) state.totalGachaPulls = 0;
+    // v0.9 migration
+    if (state.dailyKey === undefined) state.dailyKey = '';
+    if (state.lastSignDate === undefined) state.lastSignDate = '';
+    if (state.signStreak === undefined) state.signStreak = 0;
+    if (state.totalSignDays === undefined) state.totalSignDays = 0;
+    if (!state.bountyQuests) state.bountyQuests = [];
   }
 
   function saveState() {
@@ -900,6 +1065,7 @@ const GameEngine = (() => {
     cleanExpiredBuffs();
     refreshRealmCharges();
     processCaveProduction();
+    checkAndRefreshDaily();
 
     // 刷怪
     if (!state.currentMonster || (state.currentMonster.hp <= 0 && state.currentMonster.currentBar <= 1)) {
@@ -1023,6 +1189,7 @@ const GameEngine = (() => {
 
       if (isCrit) {
         addLog(`⚔️ 暴击！鼠鼠对 ${state.currentMonster.name} 造成 ${formatNumber(damage)} 伤害！`);
+        updateBountyProgress('crit', 1);
       }
       emit('attack', { damage, isCrit, monsterName: state.currentMonster.name });
 
@@ -1076,11 +1243,16 @@ const GameEngine = (() => {
       state.totalGold += goldGain;
       state.killCount++;
       state.consecutiveKills++;
+      updateBountyProgress('gold_earn', goldGain);
 
       // 怪物击杀统计
       const mName = state.currentMonster.name;
       state.monsterKills[mName] = (state.monsterKills[mName] || 0) + 1;
       if (state.currentMonster.isElite) state.eliteKillCount++;
+
+      // 更新悬赏进度
+      updateBountyProgress('kill', 1);
+      if (state.currentMonster.isElite) updateBountyProgress('elite_kill', 1);
 
       // 精英怪掉落天机令（50%概率，1-3枚）
       if (state.currentMonster.isElite && Math.random() < 0.5) {
@@ -1407,6 +1579,7 @@ const GameEngine = (() => {
     rewards.push(`天机令x${realmTokens}`);
     addLog(`🏔️ 秘境【${realm.name}】通关！获得：${rewards.join('、')}`);
     emit('secretRealmClear', { realm: realm.name, rewards });
+    updateBountyProgress('realm_clear', 1);
     saveState();
     return { success: true, msg: `通关！获得：${rewards.join('、')}`, rewards };
   }
@@ -1451,6 +1624,7 @@ const GameEngine = (() => {
       checkAchievements();
       addLog(`🗼 镇妖塔第${floor}层通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石${towerTokens > 0 ? ` +${towerTokens}天机令` : ''}`);
       emit('towerClear', { floor, goldReward, expReward, towerTokens });
+      updateBountyProgress('tower_clear', 1);
       saveState();
       return { success: true, floor, msg: `第${floor}层通关！`, goldReward, expReward, monsterName: monster.displayName };
     } else {
@@ -1707,6 +1881,7 @@ const GameEngine = (() => {
     state.gold -= cost;
     item.enhanceLevel++;
     addLog(`✨ ${item.name} 强化到+${item.enhanceLevel}！`);
+    updateBountyProgress('enhance', 1);
     saveState();
     return { success: true, msg: `强化成功！+${item.enhanceLevel}` };
   }
@@ -1749,6 +1924,7 @@ const GameEngine = (() => {
     }
     state.pills[recipeId] = (state.pills[recipeId] || 0) + 1;
     addLog(`🧪 炼制成功：${recipe.icon} ${recipe.name}`);
+    updateBountyProgress('craft', 1);
     saveState();
     return { success: true, msg: `炼制成功！` };
   }
@@ -2017,6 +2193,7 @@ const GameEngine = (() => {
   function start(eventCallback) {
     onBattleEvent = eventCallback;
     loadState();
+    checkAndRefreshDaily();
     TICK_INTERVAL = 2000 / (state.battleSpeed || 1);
     if (!state.currentMonster) state.currentMonster = spawnMonster(state.level);
     if (!state.combatStartTime) state.combatStartTime = Date.now();
@@ -2063,6 +2240,13 @@ const GameEngine = (() => {
       ownedSkins: state.ownedSkins || [],
       tianjiTokens: state.tianjiTokens || 0,
       totalGachaPulls: state.totalGachaPulls || 0,
+      // daily
+      lastSignDate: state.lastSignDate || '',
+      signStreak: state.signStreak || 0,
+      totalSignDays: state.totalSignDays || 0,
+      canSignIn: (state.lastSignDate || '') !== getDayKey(),
+      bountyQuests: state.bountyQuests || [],
+      todayKey: getDayKey(),
     };
   }
 
@@ -2088,6 +2272,8 @@ const GameEngine = (() => {
     doGachaPull, equipSkin, unequipSkin,
     GACHA_POOL, GACHA_QUALITY_NAMES, GACHA_QUALITY_COLORS, GACHA_COST_SINGLE, GACHA_COST_TEN,
     WEAPON_SKINS, ARMOR_SKINS,
+    // v0.9 daily
+    performSignIn, claimBountyReward, SIGN_IN_REWARDS, BOUNTY_MAX_DAILY,
   };
 
 })();
