@@ -2102,17 +2102,29 @@ const GameEngine = (() => {
       state.hp = stats.maxHp;
       addLog(`💚 使用${recipe.name}，生命恢复满！`);
     } else if (eff.type === 'tribBoost') {
-      state.buffs.tribBoost = { value: eff.value, until: now + 60000 * pillDurMult };
-      addLog(`⚡ 使用${recipe.name}，渡劫成功率+${eff.value * 100}%！`);
+      const addTime = 60000 * pillDurMult;
+      const existing = state.buffs.tribBoost && state.buffs.tribBoost.until > now ? state.buffs.tribBoost.until : now;
+      state.buffs.tribBoost = { value: eff.value, until: existing + addTime };
+      const totalSec = Math.ceil((state.buffs.tribBoost.until - now) / 1000);
+      addLog(`⚡ 使用${recipe.name}，渡劫成功率+${eff.value * 100}%！(剩余${totalSec}秒)`);
     } else if (eff.type === 'expBoost') {
-      state.buffs.expBoost = { mult: eff.mult, until: now + eff.duration * 1000 * pillDurMult };
-      addLog(`💊 使用${recipe.name}，经验x${eff.mult} ${eff.duration * pillDurMult}秒！`);
+      const addTime = eff.duration * 1000 * pillDurMult;
+      const existing = state.buffs.expBoost && state.buffs.expBoost.until > now ? state.buffs.expBoost.until : now;
+      state.buffs.expBoost = { mult: eff.mult, until: existing + addTime };
+      const totalSec = Math.ceil((state.buffs.expBoost.until - now) / 1000);
+      addLog(`💊 使用${recipe.name}，经验x${eff.mult} (剩余${totalSec}秒)！`);
     } else if (eff.type === 'atkBoost') {
-      state.buffs.atkBoost = { mult: eff.mult, until: now + eff.duration * 1000 * pillDurMult };
-      addLog(`🔴 使用${recipe.name}，攻击x${eff.mult} ${eff.duration * pillDurMult}秒！`);
+      const addTime = eff.duration * 1000 * pillDurMult;
+      const existing = state.buffs.atkBoost && state.buffs.atkBoost.until > now ? state.buffs.atkBoost.until : now;
+      state.buffs.atkBoost = { mult: eff.mult, until: existing + addTime };
+      const totalSec = Math.ceil((state.buffs.atkBoost.until - now) / 1000);
+      addLog(`🔴 使用${recipe.name}，攻击x${eff.mult} (剩余${totalSec}秒)！`);
     } else if (eff.type === 'critBoost') {
-      state.buffs.critBoost = { value: eff.value, until: now + eff.duration * 1000 * pillDurMult };
-      addLog(`💥 使用${recipe.name}，暴击+${eff.value * 100}% ${eff.duration * pillDurMult}秒！`);
+      const addTime = eff.duration * 1000 * pillDurMult;
+      const existing = state.buffs.critBoost && state.buffs.critBoost.until > now ? state.buffs.critBoost.until : now;
+      state.buffs.critBoost = { value: eff.value, until: existing + addTime };
+      const totalSec = Math.ceil((state.buffs.critBoost.until - now) / 1000);
+      addLog(`💥 使用${recipe.name}，暴击+${eff.value * 100}% (剩余${totalSec}秒)！`);
     }
     emit('pillUse', { recipe });
     saveState();

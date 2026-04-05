@@ -1126,7 +1126,17 @@ function render() {
     });
     ctx.globalAlpha = 1;
 
-    // 出战灵兽绘制（带攻击动画）
+    // 坐骑绘制（金丹期+仙鹤，化神期+麒麟）
+    if (gs.visualEquip && gs.visualEquip.mount && !gs.isDead) {
+      const mountY = mouseY + breathOffset + 12;
+      if (gs.visualEquip.mount === '仙鹤') {
+        Sprites.drawMountCrane(ctx, mouseX + swayOffset, mountY, PIXEL_SCALE, animFrame);
+      } else if (gs.visualEquip.mount === '麒麟') {
+        Sprites.drawMountQilin(ctx, mouseX + swayOffset, mountY, PIXEL_SCALE, animFrame);
+      }
+    }
+
+    // 出战灵兽绘制（带攻击动画，朝右）
     if (gs.activeBeast && !gs.isDead) {
       let petX = mouseX - 40;
       let petY = mouseY - 5;
@@ -1143,7 +1153,12 @@ function render() {
       }
       // 闲置时轻微浮动
       const floatY = Math.sin(animFrame * 0.04) * 2;
-      Sprites.drawActiveBeast(ctx, petX, petY + floatY, PIXEL_SCALE, gs.activeBeast.templateId, animFrame);
+      // 水平翻转使灵宠朝右（默认朝左）
+      ctx.save();
+      ctx.translate(petX, petY + floatY);
+      ctx.scale(-1, 1);
+      Sprites.drawActiveBeast(ctx, 0, 0, PIXEL_SCALE, gs.activeBeast.templateId, animFrame);
+      ctx.restore();
     }
 
     // 怪物

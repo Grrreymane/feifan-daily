@@ -2477,6 +2477,8 @@ const Sprites = (() => {
     drawMonsterByName,
     drawMonsterHPBar,
     drawActiveBeast,
+    drawMountCrane,
+    drawMountQilin,
     drawWeaponWithSkin,
     drawArmorSkinOverlay,
     armorSkinColors,
