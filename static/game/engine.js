@@ -1,6 +1,6 @@
 // ============================================================
-// engine.js — 鼠鼠修仙 v1.1 抽卡扩充+坐骑属性+灵兽喂满+系统清理
-// 天机令抽卡 / 装备+外观混合池 / 坐骑属性 / 一键喂满 / 转生天赋
+// engine.js — 鼠鼠修仙 v1.2 视觉修复+凡人修仙传世界观
+// 皮肤内嵌渲染 / 灵宠去重 / 凡人修仙传命名体系
 // ============================================================
 
 const GameEngine = (() => {
@@ -20,26 +20,32 @@ const GameEngine = (() => {
     { name: '大乘期', minLevel: 50, maxLevel: 99, color: '#DC143C' },
   ];
 
-  // ========== 怪物模板 ==========
+  // ========== 怪物模板（凡人修仙传·鼠界）==========
   const MONSTER_TEMPLATES = [
-    [ { name: '灵鼠', hp: 10, atk: 2, exp: 5, gold: 3, trait: null },
-      { name: '毒蛙', hp: 15, atk: 3, exp: 8, gold: 5, trait: 'poison' },
-      { name: '野狐', hp: 25, atk: 5, exp: 12, gold: 8, trait: 'dodge' } ],
-    [ { name: '石傀儡', hp: 100, atk: 15, exp: 50, gold: 30, trait: 'thorns' },
-      { name: '妖蛇', hp: 150, atk: 25, exp: 80, gold: 50, trait: 'poison' },
-      { name: '魔猿', hp: 200, atk: 35, exp: 100, gold: 80, trait: 'berserk' } ],
-    [ { name: '冰魄蛛', hp: 800, atk: 100, exp: 400, gold: 250, trait: 'slow' },
-      { name: '火鸦', hp: 1200, atk: 150, exp: 600, gold: 400, trait: 'burn' },
-      { name: '雷豹', hp: 1500, atk: 200, exp: 800, gold: 500, trait: 'critBoost' } ],
-    [ { name: '幽冥鬼将', hp: 8000, atk: 600, exp: 4000, gold: 2500, trait: 'lifesteal' },
-      { name: '妖龙', hp: 12000, atk: 900, exp: 6000, gold: 4000, trait: 'burn' },
-      { name: '魔修', hp: 15000, atk: 1100, exp: 8000, gold: 5000, trait: 'dodge' } ],
-    [ { name: '天魔', hp: 80000, atk: 5000, exp: 40000, gold: 25000, trait: 'thorns' },
-      { name: '九尾妖狐', hp: 120000, atk: 7000, exp: 60000, gold: 40000, trait: 'charm' },
-      { name: '血煞魔尊', hp: 200000, atk: 10000, exp: 100000, gold: 80000, trait: 'berserk' } ],
-    [ { name: '天劫雷兽', hp: 1000000, atk: 50000, exp: 500000, gold: 300000, trait: 'critBoost' },
+    // 炼气期 — 黄枫谷外围
+    [ { name: '灰毛妖鼠', hp: 10, atk: 2, exp: 5, gold: 3, trait: null },
+      { name: '毒蟾蜍', hp: 15, atk: 3, exp: 8, gold: 5, trait: 'poison' },
+      { name: '赤狐妖', hp: 25, atk: 5, exp: 12, gold: 8, trait: 'dodge' } ],
+    // 筑基期 — 乱星海
+    [ { name: '铁甲傀儡', hp: 100, atk: 15, exp: 50, gold: 30, trait: 'thorns' },
+      { name: '墨蛟蛇', hp: 150, atk: 25, exp: 80, gold: 50, trait: 'poison' },
+      { name: '暴猿妖', hp: 200, atk: 35, exp: 100, gold: 80, trait: 'berserk' } ],
+    // 金丹期 — 天南地界
+    [ { name: '冰魄蜘蛛', hp: 800, atk: 100, exp: 400, gold: 250, trait: 'slow' },
+      { name: '三眼火鸦', hp: 1200, atk: 150, exp: 600, gold: 400, trait: 'burn' },
+      { name: '豹形雷兽', hp: 1500, atk: 200, exp: 800, gold: 500, trait: 'critBoost' } ],
+    // 元婴期 — 星宫
+    [ { name: '鬼影修士', hp: 8000, atk: 600, exp: 4000, gold: 2500, trait: 'lifesteal' },
+      { name: '化龙妖蛟', hp: 12000, atk: 900, exp: 6000, gold: 4000, trait: 'burn' },
+      { name: '血衣魔修', hp: 15000, atk: 1100, exp: 8000, gold: 5000, trait: 'dodge' } ],
+    // 化神期 — 灵界
+    [ { name: '天魔老祖', hp: 80000, atk: 5000, exp: 40000, gold: 25000, trait: 'thorns' },
+      { name: '九尾天狐', hp: 120000, atk: 7000, exp: 60000, gold: 40000, trait: 'charm' },
+      { name: '血魔宗主', hp: 200000, atk: 10000, exp: 100000, gold: 80000, trait: 'berserk' } ],
+    // 大乘期 — 真仙界
+    [ { name: '劫雷真龙', hp: 1000000, atk: 50000, exp: 500000, gold: 300000, trait: 'critBoost' },
       { name: '混沌古兽', hp: 2000000, atk: 80000, exp: 1000000, gold: 600000, trait: 'lifesteal' },
-      { name: '太古魔神', hp: 5000000, atk: 150000, exp: 2500000, gold: 1500000, trait: 'berserk' } ],
+      { name: '天道魔神', hp: 5000000, atk: 150000, exp: 2500000, gold: 1500000, trait: 'berserk' } ],
   ];
 
   // ========== 装备系统 ==========
@@ -67,17 +73,17 @@ const GameEngine = (() => {
   ];
 
   const EQUIP_NAMES = {
-    weapon: ['木剑', '铁剑', '飞剑', '灵剑', '神剑', '天剑', '青锋', '赤霄', '墨渊', '星辰'],
-    armor: ['布衣', '道袍', '法袍', '灵甲', '仙袍', '天衣', '玄铁甲', '龙鳞袍', '紫金铠'],
-    accessory: ['铜环', '玉佩', '灵珠', '乾坤镯', '天机链', '混沌珠', '太极印', '凤凰翎'],
-    boots: ['草鞋', '布靴', '云步靴', '踏风靴', '追风靴', '天行靴', '凌霄靴', '虚空步'],
+    weapon: ['竹杖', '青钢剑', '飞剑', '青竹蜂云剑', '八灵飞剑', '玄天斩灵剑', '赤龙神木杖', '乾坤化灵剑', '太乙残剑', '天罡灭魔剑'],
+    armor: ['粗布衣', '灰袍', '灵蚕丝袍', '金蚕甲', '化龙铠', '天蚕宝衣', '玄铁灵甲', '九转玄功袍', '紫金铠'],
+    accessory: ['灵石坠', '碧玉环', '储物袋', '乾坤袋', '天机玲珑珠', '定风珠', '悟道石', '混沌灵珠'],
+    boots: ['草编鞋', '踏云靴', '御风靴', '千里追风靴', '瞬影步', '天行靴', '凌霄靴', '虚空步'],
   };
 
   const VISUAL_EQUIP = {
-    weapon: ['木剑', '铁剑', '飞剑', '灵剑', '神剑', '天剑'],
-    armor:  ['布衣', '道袍', '法袍', '华服', '仙袍', '天衣'],
+    weapon: ['竹杖', '青钢剑', '飞剑', '灵剑', '八灵飞剑', '玄天斩灵剑'],
+    armor:  ['粗布衣', '灰袍', '灵蚕丝袍', '金蚕甲', '化龙铠', '天蚕宝衣'],
     mount:  [null, null, '仙鹤', '仙鹤', '麒麟', '麒麟'],
-    pet:    [null, '小蛇', '小蛇', '蛟龙', '蛟龙', '神龙'],
+    pet:    [null, '灵蛇', '灵蛇', '蛟龙', '蛟龙', '天龙'],
   };
 
   function generateEquipment(level, forcedQuality) {
@@ -142,87 +148,91 @@ const GameEngine = (() => {
   }
 
   // ========== 丹药系统 ==========
+  // ========== 丹药系统（凡人修仙传丹药体系）==========
   const PILL_RECIPES = [
-    { id: 'exp_pill', name: '聚灵丹', desc: '经验翻倍30秒', icon: '💊',
+    { id: 'exp_pill', name: '黄龙丹', desc: '修炼速度翻倍30秒', icon: '💊',
       materials: { herb: 3 }, gold: 50, effect: { type: 'expBoost', mult: 2, duration: 30 }, minRealm: 0 },
-    { id: 'atk_pill', name: '狂暴丹', desc: '攻击翻倍30秒', icon: '🔴',
+    { id: 'atk_pill', name: '筑元丹', desc: '攻击翻倍30秒', icon: '🔴',
       materials: { herb: 2, ore: 2 }, gold: 80, effect: { type: 'atkBoost', mult: 2, duration: 30 }, minRealm: 0 },
-    { id: 'heal_pill', name: '回春丹', desc: '立即回满生命', icon: '💚',
+    { id: 'heal_pill', name: '回元丹', desc: '立即回满生命', icon: '💚',
       materials: { herb: 5 }, gold: 30, effect: { type: 'heal', value: 1.0 }, minRealm: 0 },
-    { id: 'trib_pill', name: '渡劫丹', desc: '渡劫成功率+20%', icon: '⚡',
+    { id: 'trib_pill', name: '金元丹', desc: '渡劫成功率+20%', icon: '⚡',
       materials: { herb: 5, ore: 5, essence: 1 }, gold: 200, effect: { type: 'tribBoost', value: 0.2 }, minRealm: 1 },
-    { id: 'crit_pill', name: '破妄丹', desc: '暴击率+30% 30秒', icon: '💥',
+    { id: 'crit_pill', name: '清心丹', desc: '暴击率+30% 30秒', icon: '💥',
       materials: { herb: 3, essence: 1 }, gold: 150, effect: { type: 'critBoost', value: 0.3, duration: 30 }, minRealm: 2 },
-    { id: 'super_exp', name: '天灵丹', desc: '经验x5 60秒', icon: '🌟',
+    { id: 'super_exp', name: '天灵地宝丹', desc: '修炼速度x5 60秒', icon: '🌟',
       materials: { herb: 10, essence: 3 }, gold: 500, effect: { type: 'expBoost', mult: 5, duration: 60 }, minRealm: 3 },
   ];
 
   // ========== 功法系统 ==========
+  // ========== 功法系统（凡人修仙传功法体系）==========
   const SKILL_TREE = [
-    { id: 'basic_sword', name: '基础剑诀', desc: '攻击+10%', icon: '🗡️',
+    { id: 'basic_sword', name: '长春功', desc: '攻击+10%', icon: '🗡️',
       realm: 0, cost: 3, maxLevel: 10, effect: { stat: 'attack', type: 'percent', perLevel: 10 } },
-    { id: 'basic_body', name: '炼体术', desc: '生命+10%', icon: '💪',
+    { id: 'basic_body', name: '炼体十二式', desc: '生命+10%', icon: '💪',
       realm: 0, cost: 3, maxLevel: 10, effect: { stat: 'maxHp', type: 'percent', perLevel: 10 } },
-    { id: 'iron_skin', name: '铁皮功', desc: '防御+10%', icon: '🛡️',
+    { id: 'iron_skin', name: '金钟罩', desc: '防御+10%', icon: '🛡️',
       realm: 0, cost: 3, maxLevel: 10, effect: { stat: 'defense', type: 'percent', perLevel: 10 } },
-    { id: 'swift_strike', name: '疾风斩', desc: '攻速+5%', icon: '💨',
+    { id: 'swift_strike', name: '惊鸿剑诀', desc: '攻速+5%', icon: '💨',
       realm: 1, cost: 5, maxLevel: 8, effect: { stat: 'atkSpeed', type: 'percent', perLevel: 5 } },
-    { id: 'golden_core', name: '金丹大法', desc: '全属性+5%', icon: '✨',
+    { id: 'golden_core', name: '三转重元功', desc: '全属性+5%', icon: '✨',
       realm: 2, cost: 8, maxLevel: 5, effect: { stat: 'all', type: 'percent', perLevel: 5 } },
-    { id: 'crit_mastery', name: '会心一击', desc: '暴击率+2%', icon: '🎯',
+    { id: 'crit_mastery', name: '暗器心法', desc: '暴击率+2%', icon: '🎯',
       realm: 1, cost: 5, maxLevel: 10, effect: { stat: 'critRate', type: 'flat', perLevel: 2 } },
-    { id: 'life_drain', name: '吸星大法', desc: '吸血+2%', icon: '🩸',
+    { id: 'life_drain', name: '化血神功', desc: '吸血+2%', icon: '🩸',
       realm: 2, cost: 8, maxLevel: 5, effect: { stat: 'lifesteal', type: 'flat', perLevel: 2 } },
-    { id: 'dodge_wind', name: '御风术', desc: '闪避+2%', icon: '🌀',
+    { id: 'dodge_wind', name: '罗云步', desc: '闪避+2%', icon: '🌀',
       realm: 1, cost: 5, maxLevel: 8, effect: { stat: 'dodge', type: 'flat', perLevel: 2 } },
-    { id: 'crit_damage', name: '破天击', desc: '暴伤+15%', icon: '⚔️',
+    { id: 'crit_damage', name: '大衍决', desc: '暴伤+15%', icon: '⚔️',
       realm: 3, cost: 10, maxLevel: 5, effect: { stat: 'critDamage', type: 'flat', perLevel: 15 } },
-    { id: 'gold_find', name: '寻宝术', desc: '灵石+15%', icon: '💰',
+    { id: 'gold_find', name: '寻宝鼠术', desc: '灵石+15%', icon: '💰',
       realm: 1, cost: 4, maxLevel: 5, effect: { stat: 'goldBonus', type: 'percent', perLevel: 15 } },
   ];
 
-  // ========== 灵兽系统 ==========
+  // ========== 灵兽系统（凡人修仙传灵兽体系）==========
   const BEAST_TEMPLATES = [
-    { id: 'fire_cat', name: '火灵猫', icon: '🔥🐱', baseAtk: 5, baseDef: 2, skill: '火球术：额外10%火焰伤害',
+    { id: 'fire_cat', name: '赤炎灵猫', icon: '🔥🐱', baseAtk: 5, baseDef: 2, skill: '三昧真火：额外10%火焰伤害',
       captureChance: 0.08, minRealm: 0 },
-    { id: 'ice_wolf', name: '冰狼', icon: '❄️🐺', baseAtk: 8, baseDef: 5, skill: '冰甲：防御+15%',
+    { id: 'ice_wolf', name: '玄冰狼', icon: '❄️🐺', baseAtk: 8, baseDef: 5, skill: '寒冰甲：防御+15%',
       captureChance: 0.06, minRealm: 1 },
-    { id: 'thunder_eagle', name: '雷鹰', icon: '⚡🦅', baseAtk: 12, baseDef: 3, skill: '雷击：15%概率双倍攻击',
+    { id: 'thunder_eagle', name: '雷鸣鹰', icon: '⚡🦅', baseAtk: 12, baseDef: 3, skill: '天雷击：15%概率双倍攻击',
       captureChance: 0.04, minRealm: 2 },
-    { id: 'shadow_serpent', name: '暗影蛇', icon: '🌑🐍', baseAtk: 10, baseDef: 8, skill: '暗袭：闪避+10%',
+    { id: 'shadow_serpent', name: '暗鳞蛇', icon: '🌑🐍', baseAtk: 10, baseDef: 8, skill: '隐遁：闪避+10%',
       captureChance: 0.03, minRealm: 2 },
-    { id: 'jade_dragon', name: '玉龙', icon: '🐲💎', baseAtk: 20, baseDef: 15, skill: '龙息：攻击+25%',
+    { id: 'jade_dragon', name: '青鳞蛟龙', icon: '🐲💎', baseAtk: 20, baseDef: 15, skill: '龙吟：攻击+25%',
       captureChance: 0.015, minRealm: 3 },
-    { id: 'phoenix', name: '凤凰', icon: '🔥🦚', baseAtk: 25, baseDef: 20, skill: '涅槃：每击回复1%生命',
+    { id: 'phoenix', name: '天凤', icon: '🔥🦚', baseAtk: 25, baseDef: 20, skill: '涅槃之火：每击回复1%生命',
       captureChance: 0.01, minRealm: 4 },
   ];
 
   // ========== 秘境系统 ==========
+  // ========== 秘境系统（凡人修仙传秘境）==========
   const SECRET_REALMS = [
-    { name: '灵草谷', desc: '产出大量灵草', minRealm: 0, bossTier: 0,
+    { name: '黄枫谷药园', desc: '谷中灵药遍地', minRealm: 0, bossTier: 0,
       rewards: { herb: [5, 12], gold: [50, 150], equipChance: 0.3 } },
-    { name: '矿脉洞', desc: '产出矿石材料', minRealm: 1, bossTier: 1,
+    { name: '乱星海矿岛', desc: '海底矿脉丰饶', minRealm: 1, bossTier: 1,
       rewards: { ore: [5, 12], gold: [100, 300], equipChance: 0.4 } },
-    { name: '万妖林', desc: '有机会捕获灵兽', minRealm: 2, bossTier: 2,
+    { name: '万妖山脉', desc: '妖兽聚集之地', minRealm: 2, bossTier: 2,
       rewards: { herb: [3, 8], essence: [1, 3], beastChance: 0.15, equipChance: 0.5 } },
-    { name: '天机阁', desc: '稀有装备与精华', minRealm: 3, bossTier: 3,
+    { name: '虚天殿遗迹', desc: '上古修士洞府', minRealm: 3, bossTier: 3,
       rewards: { essence: [2, 5], gold: [500, 1500], equipChance: 0.7, equipQualityMin: 2 } },
-    { name: '混沌秘境', desc: '极品掉落', minRealm: 4, bossTier: 4,
+    { name: '小灵界裂缝', desc: '灵界入口碎片', minRealm: 4, bossTier: 4,
       rewards: { essence: [3, 8], gold: [2000, 5000], equipChance: 0.9, equipQualityMin: 3 } },
   ];
 
   // ========== 洞府系统 ==========
+  // ========== 洞府系统（凡人修仙传洞府）==========
   const CAVE_BUILDINGS = [
-    { id: 'herb_garden', name: '药园', icon: '🌿', desc: '每分钟自动产出灵草',
+    { id: 'herb_garden', name: '灵药圃', icon: '🌿', desc: '每分钟自动产出灵药',
       maxLevel: 10, baseCost: 200, costMult: 2.5,
       effect: (lv) => ({ herb_per_min: lv * 0.5 }) },
-    { id: 'spirit_array', name: '聚灵阵', icon: '✨', desc: '增加挂机经验速度',
+    { id: 'spirit_array', name: '聚灵阵', icon: '✨', desc: '增加修炼速度',
       maxLevel: 10, baseCost: 500, costMult: 3,
       effect: (lv) => ({ exp_bonus_pct: lv * 5 }) },
-    { id: 'forge_room', name: '炼丹房', icon: '🔥', desc: '炼丹材料消耗减少',
+    { id: 'forge_room', name: '炼丹室', icon: '🔥', desc: '炼丹材料消耗减少',
       maxLevel: 5, baseCost: 800, costMult: 3.5,
       effect: (lv) => ({ pill_mat_reduce_pct: lv * 10 }) },
-    { id: 'mine_shaft', name: '矿井', icon: '⛏️', desc: '每分钟自动产出矿石',
+    { id: 'mine_shaft', name: '灵矿脉', icon: '⛏️', desc: '每分钟自动产出矿石',
       maxLevel: 10, baseCost: 300, costMult: 2.5,
       effect: (lv) => ({ ore_per_min: lv * 0.3 }) },
     { id: 'training_ground', name: '演武场', icon: '🏋️', desc: '提升全属性百分比',
@@ -231,42 +241,43 @@ const GameEngine = (() => {
   ];
 
   // ========== 成就系统 ==========
+  // ========== 成就系统（凡人修仙传成就）==========
   const ACHIEVEMENTS = [
-    { id: 'kill_10', name: '初出茅庐', desc: '击杀10只怪物', icon: '🏅',
+    { id: 'kill_10', name: '初涉修途', desc: '击杀10只妖兽', icon: '🏅',
       check: (s) => s.killCount >= 10, reward: { attack: 2 } },
-    { id: 'kill_100', name: '小有名气', desc: '击杀100只怪物', icon: '🏅',
+    { id: 'kill_100', name: '斩妖新秀', desc: '击杀100只妖兽', icon: '🏅',
       check: (s) => s.killCount >= 100, reward: { attack: 5, defense: 3 } },
-    { id: 'kill_1000', name: '修仙新星', desc: '击杀1000只怪物', icon: '🎖️',
+    { id: 'kill_1000', name: '除魔卫道', desc: '击杀1000只妖兽', icon: '🎖️',
       check: (s) => s.killCount >= 1000, reward: { attack: 15, maxHp: 100 } },
-    { id: 'kill_10000', name: '妖魔克星', desc: '击杀1万只怪物', icon: '🏆',
+    { id: 'kill_10000', name: '万妖克星', desc: '击杀1万只妖兽', icon: '🏆',
       check: (s) => s.killCount >= 10000, reward: { attack: 50, critRate: 2 } },
-    { id: 'gold_1000', name: '小康之家', desc: '累计获得1000灵石', icon: '💰',
+    { id: 'gold_1000', name: '积攒灵石', desc: '累计获得1000灵石', icon: '💰',
       check: (s) => s.totalGold >= 1000, reward: { goldBonus: 5 } },
-    { id: 'gold_100000', name: '灵石大亨', desc: '累计获得10万灵石', icon: '💰',
+    { id: 'gold_100000', name: '富甲一方', desc: '累计获得10万灵石', icon: '💰',
       check: (s) => s.totalGold >= 100000, reward: { goldBonus: 10 } },
     { id: 'level_10', name: '筑基有成', desc: '达到10级', icon: '⬆️',
       check: (s) => s.level >= 10, reward: { attack: 5, defense: 3, maxHp: 50 } },
-    { id: 'level_20', name: '金丹初成', desc: '达到20级', icon: '⬆️',
+    { id: 'level_20', name: '凝丹成功', desc: '达到20级', icon: '⬆️',
       check: (s) => s.level >= 20, reward: { attack: 15, defense: 8, maxHp: 150 } },
     { id: 'level_30', name: '元婴显化', desc: '达到30级', icon: '⬆️',
       check: (s) => s.level >= 30, reward: { attack: 40, defense: 20, maxHp: 400 } },
-    { id: 'level_50', name: '大乘之境', desc: '达到50级', icon: '👑',
+    { id: 'level_50', name: '大乘圆满', desc: '达到50级', icon: '👑',
       check: (s) => s.level >= 50, reward: { attack: 100, defense: 50, maxHp: 1000, critRate: 5 } },
-    { id: 'tower_10', name: '镇妖勇士', desc: '镇妖塔通过10层', icon: '🗼',
+    { id: 'tower_10', name: '镇妖新手', desc: '锁妖塔通过10层', icon: '🗼',
       check: (s) => s.towerBestFloor >= 10, reward: { attack: 10, defense: 5 } },
-    { id: 'tower_50', name: '镇妖豪杰', desc: '镇妖塔通过50层', icon: '🗼',
+    { id: 'tower_50', name: '镇妖豪杰', desc: '锁妖塔通过50层', icon: '🗼',
       check: (s) => s.towerBestFloor >= 50, reward: { attack: 30, critDamage: 15 } },
-    { id: 'first_beast', name: '灵兽缘分', desc: '捕获第一只灵兽', icon: '🐾',
+    { id: 'first_beast', name: '灵兽有缘', desc: '捕获第一只灵兽', icon: '🐾',
       check: (s) => s.beasts && s.beasts.length >= 1, reward: { attack: 3, defense: 2 } },
-    { id: 'beast_3', name: '万兽之友', desc: '捕获3只灵兽', icon: '🐾',
+    { id: 'beast_3', name: '驭兽之鼠', desc: '捕获3只灵兽', icon: '🐾',
       check: (s) => s.beasts && s.beasts.length >= 3, reward: { attack: 10, maxHp: 80 } },
-    { id: 'first_death', name: '死而复生', desc: '第一次死亡', icon: '💀',
+    { id: 'first_death', name: '九死一生', desc: '第一次陨落', icon: '💀',
       check: (s) => s.deathCount >= 1, reward: { maxHp: 30 } },
-    { id: 'death_10', name: '百折不挠', desc: '死亡10次', icon: '💀',
+    { id: 'death_10', name: '百折不挠', desc: '陨落10次', icon: '💀',
       check: (s) => s.deathCount >= 10, reward: { defense: 10, maxHp: 100 } },
-    { id: 'elite_kill', name: '精英猎手', desc: '击杀10只精英怪', icon: '⭐',
+    { id: 'elite_kill', name: '斩杀强敌', desc: '击杀10只精英妖兽', icon: '⭐',
       check: (s) => s.eliteKillCount >= 10, reward: { attack: 8, critRate: 1 } },
-    { id: 'elite_50', name: '精英克星', desc: '击杀50只精英怪', icon: '⭐',
+    { id: 'elite_50', name: '妖王克星', desc: '击杀50只精英妖兽', icon: '⭐',
       check: (s) => s.eliteKillCount >= 50, reward: { attack: 25, critDamage: 10 } },
   ];
 
@@ -330,37 +341,38 @@ const GameEngine = (() => {
   const GACHA_POOL = [...WEAPON_SKINS.map(s => ({ ...s, type: 'weapon' })), ...ARMOR_SKINS.map(s => ({ ...s, type: 'armor' }))];
 
   // ========== 每日签到系统 ==========
+  // ========== 每日签到（宗门签到）==========
   const SIGN_IN_REWARDS = [
     { day: 1, icon: '💎', name: '灵石x100', rewards: { gold: 100 } },
-    { day: 2, icon: '🌿', name: '灵草x10', rewards: { herb: 10 } },
+    { day: 2, icon: '🌿', name: '灵药x10', rewards: { herb: 10 } },
     { day: 3, icon: '🎫', name: '天机令x5', rewards: { tianjiTokens: 5 } },
     { day: 4, icon: '⛏️', name: '矿石x10', rewards: { ore: 10 } },
-    { day: 5, icon: '💊', name: '回春丹x3', rewards: { pill_heal: 3 } },
+    { day: 5, icon: '💊', name: '回元丹x3', rewards: { pill_heal: 3 } },
     { day: 6, icon: '💎', name: '精华x3', rewards: { essence: 3 } },
-    { day: 7, icon: '🌟', name: '大礼包', rewards: { gold: 500, tianjiTokens: 15, herb: 20, ore: 15, essence: 5 } },
+    { day: 7, icon: '🌟', name: '宗门大礼包', rewards: { gold: 500, tianjiTokens: 15, herb: 20, ore: 15, essence: 5 } },
   ];
 
-  // ========== 悬赏任务系统 ==========
+  // ========== 宗门悬赏任务 ==========
   const BOUNTY_TEMPLATES = [
     // 击杀类
-    { id: 'kill_any', name: '斩妖除魔', desc: '击杀{n}只怪物', type: 'kill', target: null,
+    { id: 'kill_any', name: '除妖卫道', desc: '斩杀{n}只妖兽', type: 'kill', target: null,
       tiers: [{ n: 10, rewards: { gold: 50 } }, { n: 30, rewards: { gold: 150, herb: 3 } }, { n: 80, rewards: { gold: 400, tianjiTokens: 2 } }] },
-    { id: 'kill_elite', name: '精英猎人', desc: '击杀{n}只精英怪', type: 'elite_kill', target: null,
+    { id: 'kill_elite', name: '猎杀妖王', desc: '击杀{n}只精英妖兽', type: 'elite_kill', target: null,
       tiers: [{ n: 1, rewards: { gold: 100, ore: 3 } }, { n: 3, rewards: { gold: 300, tianjiTokens: 3 } }, { n: 5, rewards: { gold: 500, essence: 2 } }] },
     // 灵石类
-    { id: 'earn_gold', name: '聚财有道', desc: '获得{n}灵石', type: 'gold_earn', target: null,
+    { id: 'earn_gold', name: '积攒灵石', desc: '获得{n}灵石', type: 'gold_earn', target: null,
       tiers: [{ n: 200, rewards: { herb: 5 } }, { n: 1000, rewards: { herb: 10, ore: 5 } }, { n: 5000, rewards: { tianjiTokens: 5, essence: 2 } }] },
     // 强化类
-    { id: 'enhance', name: '百炼成钢', desc: '强化装备{n}次', type: 'enhance', target: null,
+    { id: 'enhance', name: '淬炼法器', desc: '强化装备{n}次', type: 'enhance', target: null,
       tiers: [{ n: 3, rewards: { gold: 100 } }, { n: 5, rewards: { gold: 300, ore: 5 } }, { n: 10, rewards: { gold: 500, tianjiTokens: 3 } }] },
     // 丹药类
-    { id: 'craft_pill', name: '炼丹达人', desc: '炼制{n}颗丹药', type: 'craft', target: null,
+    { id: 'craft_pill', name: '炼丹精修', desc: '炼制{n}颗丹药', type: 'craft', target: null,
       tiers: [{ n: 2, rewards: { gold: 80, herb: 5 } }, { n: 5, rewards: { gold: 200, essence: 1 } }] },
     // 秘境类
-    { id: 'secret_realm', name: '秘境探索', desc: '通关{n}次秘境', type: 'realm_clear', target: null,
+    { id: 'secret_realm', name: '探索秘境', desc: '通关{n}次秘境', type: 'realm_clear', target: null,
       tiers: [{ n: 1, rewards: { gold: 150, herb: 5 } }, { n: 2, rewards: { gold: 300, tianjiTokens: 3 } }] },
-    // 镇妖塔类
-    { id: 'tower_climb', name: '登塔挑战', desc: '镇妖塔通过{n}层', type: 'tower_clear', target: null,
+    // 锁妖塔类
+    { id: 'tower_climb', name: '登塔挑战', desc: '锁妖塔通过{n}层', type: 'tower_clear', target: null,
       tiers: [{ n: 1, rewards: { gold: 100 } }, { n: 3, rewards: { gold: 300, ore: 5 } }, { n: 5, rewards: { gold: 500, tianjiTokens: 4 } }] },
     // 暴击类
     { id: 'crit_hit', name: '一击必杀', desc: '触发{n}次暴击', type: 'crit', target: null,
@@ -593,7 +605,7 @@ const GameEngine = (() => {
     return { success: true };
   }
 
-  // ========== 镇妖塔 ==========
+  // ========== 锁妖塔 ==========
   function getTowerMonster(floor) {
     const tier = Math.min(5, Math.floor(floor / 10));
     const monsters = MONSTER_TEMPLATES[tier];
@@ -614,17 +626,17 @@ const GameEngine = (() => {
 
   // ========== 奇遇事件 ==========
   const ENCOUNTER_EVENTS = [
-    { id: 'herb_find', name: '发现灵草', desc: '路边发现一株灵草！',
+    { id: 'herb_find', name: '发现灵药', desc: '路边发现一株千年灵药！',
       weight: 30, rewards: { herb: [1, 5] } },
-    { id: 'ore_find', name: '天降陨铁', desc: '一块散发灵气的陨铁！',
+    { id: 'ore_find', name: '陨铁降世', desc: '一块散发灵气的天外陨铁！',
       weight: 20, rewards: { ore: [1, 4] } },
-    { id: 'gold_rain', name: '灵石矿脉', desc: '踩到了一处灵石矿脉！',
+    { id: 'gold_rain', name: '灵石矿脉', desc: '踩到了一处隐秘灵石矿脉！',
       weight: 25, rewards: { gold: [50, 500] } },
-    { id: 'essence_drop', name: '天材地宝', desc: '发现一颗灵气精华！',
+    { id: 'essence_drop', name: '天材地宝', desc: '发现一颗凝结的灵气精华！',
       weight: 5, rewards: { essence: [1, 2] } },
-    { id: 'random_equip', name: '前辈遗物', desc: '一位前辈的储物袋里...',
+    { id: 'random_equip', name: '前辈洞府', desc: '发现一位陨落前辈的储物袋...',
       weight: 8, rewards: { equip: true } },
-    { id: 'exp_bonus', name: '悟道', desc: '鼠鼠在打坐中突然顿悟！',
+    { id: 'exp_bonus', name: '参悟天道', desc: '鼠鼠在打坐中突然参悟了一丝天道！',
       weight: 12, rewards: { expPercent: [5, 20] } },
   ];
 
@@ -667,7 +679,7 @@ const GameEngine = (() => {
       // 秘境
       secretRealmCharges: 3, secretRealmMaxCharges: 3, lastRealmRefresh: Date.now(),
 
-      // 镇妖塔
+      // 锁妖塔
       towerFloor: 1, towerBestFloor: 0,
       towerDailyRewardClaimed: false, lastTowerReset: Date.now(),
 
@@ -1151,7 +1163,7 @@ const GameEngine = (() => {
       if (hpPct <= state.autoHealThreshold && (state.pills['heal_pill'] || 0) > 0) {
         state.pills['heal_pill']--;
         state.hp = stats.maxHp;
-        addLog('💚 自动使用回春丹！');
+        addLog('💚 自动使用回元丹！');
         emit('autoHeal', {});
       }
     }
@@ -1672,7 +1684,7 @@ const GameEngine = (() => {
     return { success: true, msg: `通关！获得：${rewards.join('、')}`, rewards };
   }
 
-  // ========== 镇妖塔 ==========
+  // ========== 锁妖塔 ==========
   function challengeTower() {
     const floor = state.towerFloor;
     const monster = getTowerMonster(floor);
@@ -1710,13 +1722,13 @@ const GameEngine = (() => {
       }
       checkLevelUp();
       checkAchievements();
-      addLog(`🗼 镇妖塔第${floor}层通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石${towerTokens > 0 ? ` +${towerTokens}天机令` : ''}`);
+      addLog(`🗼 锁妖塔第${floor}层通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石${towerTokens > 0 ? ` +${towerTokens}天机令` : ''}`);
       emit('towerClear', { floor, goldReward, expReward, towerTokens });
       updateBountyProgress('tower_clear', 1);
       saveState();
       return { success: true, floor, msg: `第${floor}层通关！`, goldReward, expReward, monsterName: monster.displayName };
     } else {
-      addLog(`🗼 镇妖塔第${floor}层挑战失败！`);
+      addLog(`🗼 锁妖塔第${floor}层挑战失败！`);
       saveState();
       return { success: false, floor, msg: `第${floor}层失败，需要更强！`, monsterName: monster.displayName };
     }
@@ -1730,7 +1742,7 @@ const GameEngine = (() => {
     state.gold += gold;
     state.materials.herb += herbs;
     state.towerDailyRewardClaimed = true;
-    addLog(`🗼 领取镇妖塔奖励：${formatNumber(gold)}灵石 + ${herbs}灵草`);
+    addLog(`🗼 领取锁妖塔奖励：${formatNumber(gold)}灵石 + ${herbs}灵草`);
     saveState();
     return { success: true, msg: `领取成功！+${formatNumber(gold)}灵石 +${herbs}灵草` };
   }
@@ -1748,30 +1760,30 @@ const GameEngine = (() => {
   // ========== 转生天赋系统 ==========
   // 每次转生随机获得1个前世天赋，提供独特玩法机制
   const PAST_LIFE_TALENTS = [
-    { id: 'berserker', name: '狂战之魂', icon: '🔥', desc: '攻击+40%，但防御-20%',
-      effect: { atkMult: 1.4, defMult: 0.8 }, flavor: '前世是一位嗜血的修罗' },
-    { id: 'ironwall', name: '铁壁金身', icon: '🛡️', desc: '防御+50%，生命+20%，攻击-15%',
-      effect: { defMult: 1.5, hpMult: 1.2, atkMult: 0.85 }, flavor: '前世苦修金刚不坏体' },
-    { id: 'assassin', name: '暗影刺客', icon: '🗡️', desc: '暴击率+15%，暴伤+50%，生命-20%',
-      effect: { critRateBonus: 15, critDmgBonus: 50, hpMult: 0.8 }, flavor: '前世是暗影中的杀手' },
-    { id: 'scholar', name: '博学鸿儒', icon: '📚', desc: '经验获取+60%，灵石+30%',
-      effect: { expMult: 1.6, goldMult: 1.3 }, flavor: '前世饱读万卷修仙典籍' },
-    { id: 'merchant', name: '灵石商贾', icon: '💰', desc: '灵石获取+80%，装备掉率+5%',
-      effect: { goldMult: 1.8, dropBonus: 5 }, flavor: '前世是修仙界的首富' },
-    { id: 'beastmaster', name: '万兽之主', icon: '🐲', desc: '灵兽攻击x2，灵兽捕获率翻倍',
-      effect: { beastAtkMult: 2, beastCaptureRate: 2 }, flavor: '前世与万兽为伴' },
-    { id: 'alchemist', name: '丹道宗师', icon: '⚗️', desc: '丹药持续时间x2，炼丹免材料50%',
-      effect: { pillDurationMult: 2, pillMatReduce: 50 }, flavor: '前世是药王谷主' },
-    { id: 'lucky', name: '天命之子', icon: '🍀', desc: '奇遇触发率翻倍，秘境+1次',
-      effect: { encounterRateMult: 2, realmChargeBonus: 1 }, flavor: '前世集天地气运于一身' },
-    { id: 'phoenix', name: '不死凤凰', icon: '🔥', desc: '死亡后1秒瞬间复活，灵石不掉落',
-      effect: { quickRevive: true, noDeathPenalty: true }, flavor: '前世是涅槃凤凰转世' },
-    { id: 'vampiric', name: '嗜血魔尊', icon: '🩸', desc: '天生15%吸血，但不能自然回血',
-      effect: { lifestealBonus: 15, noNaturalRegen: true }, flavor: '前世是以血为食的大魔头' },
-    { id: 'speedster', name: '迅雷疾风', icon: '⚡', desc: '攻速+30%，闪避+10%，攻击-10%',
-      effect: { atkSpeedBonus: 30, dodgeBonus: 10, atkMult: 0.9 }, flavor: '前世修习天罗无影身法' },
-    { id: 'titan', name: '远古巨人', icon: '🏔️', desc: '生命x2，攻击+20%，闪避=0',
-      effect: { hpMult: 2, atkMult: 1.2, zeroDodge: true }, flavor: '前世是开天辟地的巨灵神' },
+    { id: 'berserker', name: '修罗血脉', icon: '🔥', desc: '攻击+40%，但防御-20%',
+      effect: { atkMult: 1.4, defMult: 0.8 }, flavor: '前世是落月宗的嗜血修罗' },
+    { id: 'ironwall', name: '金刚不坏', icon: '🛡️', desc: '防御+50%，生命+20%，攻击-15%',
+      effect: { defMult: 1.5, hpMult: 1.2, atkMult: 0.85 }, flavor: '前世苦修金刚宗护体神功' },
+    { id: 'assassin', name: '暗夜行者', icon: '🗡️', desc: '暴击率+15%，暴伤+50%，生命-20%',
+      effect: { critRateBonus: 15, critDmgBonus: 50, hpMult: 0.8 }, flavor: '前世是乱星海的暗杀者' },
+    { id: 'scholar', name: '万卷鼠儒', icon: '📚', desc: '修炼速度+60%，灵石+30%',
+      effect: { expMult: 1.6, goldMult: 1.3 }, flavor: '前世在黄枫谷藏经阁博览群书' },
+    { id: 'merchant', name: '坊市大亨', icon: '💰', desc: '灵石获取+80%，装备掉率+5%',
+      effect: { goldMult: 1.8, dropBonus: 5 }, flavor: '前世经营天南最大的坊市' },
+    { id: 'beastmaster', name: '驭兽宗传人', icon: '🐲', desc: '灵兽攻击x2，灵兽捕获率翻倍',
+      effect: { beastAtkMult: 2, beastCaptureRate: 2 }, flavor: '前世是万妖谷的御兽长老' },
+    { id: 'alchemist', name: '丹鼎宗师', icon: '⚗️', desc: '丹药持续时间x2，炼丹免材料50%',
+      effect: { pillDurationMult: 2, pillMatReduce: 50 }, flavor: '前世是药王谷掌门' },
+    { id: 'lucky', name: '气运之鼠', icon: '🍀', desc: '奇遇触发率翻倍，秘境+1次',
+      effect: { encounterRateMult: 2, realmChargeBonus: 1 }, flavor: '前世集天地气运于一身，如韩立般机缘不断' },
+    { id: 'phoenix', name: '天凤血脉', icon: '🔥', desc: '陨落后1秒瞬间复活，灵石不掉落',
+      effect: { quickRevive: true, noDeathPenalty: true }, flavor: '前世是涅槃天凤转世' },
+    { id: 'vampiric', name: '血道修士', icon: '🩸', desc: '天生15%吸血，但不能自然回血',
+      effect: { lifestealBonus: 15, noNaturalRegen: true }, flavor: '前世修习血道禁术的魔修' },
+    { id: 'speedster', name: '雷遁真身', icon: '⚡', desc: '攻速+30%，闪避+10%，攻击-10%',
+      effect: { atkSpeedBonus: 30, dodgeBonus: 10, atkMult: 0.9 }, flavor: '前世修习雷遁之术，身法无影' },
+    { id: 'titan', name: '灵界巨鼠', icon: '🏔️', desc: '生命x2，攻击+20%，闪避=0',
+      effect: { hpMult: 2, atkMult: 1.2, zeroDodge: true }, flavor: '前世是灵界中体型巨大的上古灵鼠' },
   ];
 
   function getAscensionPointsEarned() {

@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🐭 鼠鼠修仙 v1.1</title>
+  <title>🐭 鼠鼠修仙 v1.2</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -362,7 +362,7 @@
               <option value="50">50%</option>
               <option value="60">60%</option>
             </select>
-            <span style="color:#888;">自动吃回春丹</span>
+            <span style="color:#888;">自动吃回元丹</span>
           </div>
         </div>
       </div>
@@ -402,7 +402,7 @@
           <div id="secretRealmList"></div>
         </div>
         <div class="stat-group">
-          <div class="stat-group-title">🗼 镇妖塔</div>
+          <div class="stat-group-title">🗼 锁妖塔</div>
           <div class="stat-row"><span class="stat-label">当前层</span><span class="stat-value" id="towerFloor">1</span></div>
           <div class="stat-row"><span class="stat-label">最高</span><span class="stat-value gold" id="towerBest">0</span></div>
           <div class="upgrade-btns" style="margin-top:4px;">
@@ -1116,25 +1116,13 @@ function render() {
     ctx.globalAlpha = 0.15; ctx.fillStyle = '#000';
     ctx.beginPath(); ctx.ellipse(mouseX, groundY+2, 25, 5, 0, 0, Math.PI*2); ctx.fill();
     ctx.globalAlpha = gs.isDead ? 0.3 : 1;
-    Sprites.drawMouseByRealm(ctx, mouseX + swayOffset, mouseY + breathOffset, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0);
+    // 传入皮肤和灵兽信息，让角色精灵内部处理（不再单独浮空渲染）
+    Sprites.drawMouseByRealm(ctx, mouseX + swayOffset, mouseY + breathOffset, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0, {
+      hasActiveBeast: !!gs.activeBeast,
+      equippedWeaponSkin: gs.equippedWeaponSkin || null,
+      equippedArmorSkin: gs.equippedArmorSkin || null,
+    });
     ctx.globalAlpha = 1;
-
-    // 衣服外观覆盖
-    if (gs.equippedArmorSkin && !gs.isDead) {
-      Sprites.drawArmorSkinOverlay(ctx, mouseX + swayOffset, mouseY + breathOffset, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0, gs.equippedArmorSkin);
-    }
-
-    // 如果有武器皮肤，在鼠鼠右手位置覆盖绘制
-    if (gs.equippedWeaponSkin && !gs.isDead) {
-      const skinBreath = Math.sin(animFrame * 0.04) * 1.5;
-      const skinSway = Math.sin(animFrame * 0.025) * 0.5;
-      const wpnX = mouseX + skinSway;
-      const wpnY = mouseY + skinBreath;
-      // 武器在鼠鼠右手（各境界武器位置略不同）
-      const wpnOffsets = [{x:5,y:-4},{x:6,y:-4},{x:7,y:-4},{x:7,y:-4},{x:8,y:-4},{x:8,y:-4}];
-      const off = wpnOffsets[gs.realmIndex] || wpnOffsets[0];
-      Sprites.drawWeaponWithSkin(ctx, wpnX + off.x * PIXEL_SCALE, wpnY + off.y * PIXEL_SCALE, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0, gs.equippedWeaponSkin);
-    }
 
     // 出战灵兽绘制（带攻击动画）
     if (gs.activeBeast && !gs.isDead) {
@@ -1611,7 +1599,7 @@ function renderCaveTab() {
     const canUp = !maxed && s.gold >= cost;
     const eff = b.effect(lv);
     const effStr = Object.entries(eff).map(([k,v]) => {
-      const names = {herb_per_min:'灵草/分',ore_per_min:'矿石/分',exp_bonus_pct:'经验+%',pill_mat_reduce_pct:'材料-%',stat_point_bonus_pct:'加点+%'};
+      const names = {herb_per_min:'灵药/分',ore_per_min:'矿石/分',exp_bonus_pct:'修炼+%',pill_mat_reduce_pct:'材料-%',all_stat_bonus_pct:'全属性+%'};
       return `${names[k]||k}: ${v}`;
     }).join(' | ');
     html += `<div class="cave-card">
@@ -1917,7 +1905,7 @@ function renderDailyTab() {
       const cls = isClaimed ? 'bounty-card claimed' : (isDone ? 'bounty-card completed' : 'bounty-card');
       const rewardStr = Object.entries(q.rewards).map(([k, v]) => {
         const icons = { gold: '💎', herb: '🌿', ore: '⛏️', essence: '💎', tianjiTokens: '🎫' };
-        const names = { gold: '灵石', herb: '灵草', ore: '矿石', essence: '精华', tianjiTokens: '天机令' };
+        const names = { gold: '灵石', herb: '灵药', ore: '矿石', essence: '精华', tianjiTokens: '天机令' };
         return `${icons[k] || ''}${names[k] || k}×${v}`;
       }).join(' ');
 
@@ -1974,8 +1962,8 @@ function doFeedBeast(id) { const r = GameEngine.feedBeast(id); if (!r.success) s
 function doMaxFeedBeast(id) { const r = GameEngine.maxFeedBeast(id); showResult('灵兽', r.msg); updateUI(); }
 function doSetBeast(id) { GameEngine.setActiveBeast(id); updateUI(); }
 function doEnterRealm(idx) { showResult('秘境', GameEngine.enterSecretRealm(idx).msg); updateUI(); }
-function doTowerChallenge() { showResult('镇妖塔', GameEngine.challengeTower().msg); updateUI(); }
-function doTowerReward() { showResult('镇妖塔', GameEngine.claimTowerReward().msg); updateUI(); }
+function doTowerChallenge() { showResult('锁妖塔', GameEngine.challengeTower().msg); updateUI(); }
+function doTowerReward() { showResult('锁妖塔', GameEngine.claimTowerReward().msg); updateUI(); }
 function doTribulation() { const r = GameEngine.attemptTribulation(); showResult('⛈️ 渡劫', r.msg); updateUI(); }
 function doCaveUpgrade(id) { const r = GameEngine.upgradeCaveBuilding(id); if (!r.success) showResult('洞府', r.msg); updateUI(); }
 function doAscension() {
@@ -2186,7 +2174,7 @@ if (offlineGains && offlineGains.offlineSeconds > 60) {
   const mins = Math.floor((offlineGains.offlineSeconds % 3600) / 60);
   const timeStr = hours > 0 ? `${hours}小时${mins}分钟` : `${mins}分钟`;
   let extraInfo = '';
-  if (offlineGains.offlineHerbs > 0) extraInfo += `灵草 +<span>${offlineGains.offlineHerbs}</span><br>`;
+  if (offlineGains.offlineHerbs > 0) extraInfo += `灵药 +<span>${offlineGains.offlineHerbs}</span><br>`;
   if (offlineGains.offlineOre > 0) extraInfo += `矿石 +<span>${offlineGains.offlineOre}</span><br>`;
   if (offlineGains.caveHerbs > 0) extraInfo += `(洞府药园 +<span>${offlineGains.caveHerbs}</span>)<br>`;
   if (offlineGains.caveOre > 0) extraInfo += `(洞府矿井 +<span>${offlineGains.caveOre}</span>)<br>`;

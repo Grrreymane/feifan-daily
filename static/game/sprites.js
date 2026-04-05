@@ -75,7 +75,7 @@ const Sprites = (() => {
   const _ = ''; // transparent
 
   // --- 炼气期鼠鼠：小灰鼠，布衣 ---
-  function drawMouseRealm0(ctx, x, y, s, frame, attacking) {
+  function drawMouseRealm0(ctx, x, y, s, frame, attacking, opts) {
     const bounce = Math.sin(frame * 0.08) * 1.5 * s;
     const atkX = attacking ? Math.sin(attacking * 0.4) * 6 * s : 0;
     ctx.save();
@@ -84,7 +84,9 @@ const Sprites = (() => {
     const f = C.FUR_GREY, l = C.FUR_LIGHT, b = C.FUR_BELLY;
     const e = C.EAR_PINK, i = C.EAR_INNER, n = C.NOSE;
     const ey = C.EYE, w = '#FFFFFF';
-    const cl = C.CLOTH_BROWN;
+    const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_BROWN) : C.CLOTH_BROWN;
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#A07828') : '#A07828';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#654321') : '#654321';
     
     // 耳朵
     rect(ctx, -5*s, -16*s, 3*s, 4*s, e);
@@ -114,9 +116,9 @@ const Sprites = (() => {
     
     // 身体（布衣）
     rect(ctx, -4*s, -5*s, 9*s, 8*s, cl);
-    rect(ctx, -3*s, -4*s, 7*s, 6*s, '#A07828'); // 衣服深色
+    rect(ctx, -3*s, -4*s, 7*s, 6*s, clAccent);
     // 腰带
-    rect(ctx, -4*s, -1*s, 9*s, 1*s, '#654321');
+    rect(ctx, -4*s, -1*s, 9*s, 1*s, clTrim);
     // 肚子
     rect(ctx, -2*s, -4*s, 5*s, 4*s, b);
     
@@ -136,14 +138,22 @@ const Sprites = (() => {
     ctx.quadraticCurveTo(-10*s, -2*s + Math.sin(frame*0.06)*3*s, -8*s, -6*s);
     ctx.stroke();
     
-    // 右手持武器位置
-    drawWeapon(ctx, 5*s, -4*s, s, 0, frame, attacking);
+    // 右手持武器位置（皮肤替换原武器）
+    if (opts.equippedWeaponSkin && weaponSkinDrawers[opts.equippedWeaponSkin]) {
+      ctx.save(); ctx.translate(5*s, -4*s);
+      const angle = attacking > 0 ? -0.8 + Math.sin(attacking * 0.5) * 1.5 : -0.3;
+      ctx.rotate(angle);
+      weaponSkinDrawers[opts.equippedWeaponSkin](ctx, s, frame);
+      ctx.restore();
+    } else {
+      drawWeapon(ctx, 5*s, -4*s, s, 0, frame, attacking);
+    }
     
     ctx.restore();
   }
 
   // --- 筑基期鼠鼠：亮毛色，道袍，铁剑 ---
-  function drawMouseRealm1(ctx, x, y, s, frame, attacking) {
+  function drawMouseRealm1(ctx, x, y, s, frame, attacking, opts) {
     const bounce = Math.sin(frame * 0.08) * 1.5 * s;
     const atkX = attacking ? Math.sin(attacking * 0.4) * 8 * s : 0;
     ctx.save();
@@ -151,7 +161,9 @@ const Sprites = (() => {
     
     const f = '#ABABAB', l = '#C8C8C8', b = C.FUR_BELLY;
     const e = C.EAR_PINK, i = C.EAR_INNER;
-    const cl = C.CLOTH_GOLD;
+    const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_GOLD) : C.CLOTH_GOLD;
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#C8961C') : '#C8961C';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#F0E0A0') : '#F0E0A0';
 
     // 耳朵
     rect(ctx, -5*s, -16*s, 3*s, 4*s, e);
@@ -178,11 +190,11 @@ const Sprites = (() => {
     
     // 道袍
     rect(ctx, -5*s, -5*s, 11*s, 9*s, cl);
-    rect(ctx, -4*s, -4*s, 9*s, 7*s, '#C8961C');
+    rect(ctx, -4*s, -4*s, 9*s, 7*s, clAccent);
     // 道袍领子
-    rect(ctx, -1*s, -5*s, 3*s, 3*s, '#F0E0A0');
+    rect(ctx, -1*s, -5*s, 3*s, 3*s, clTrim);
     // 腰带
-    rect(ctx, -5*s, 0, 11*s, 1*s, '#8B6914');
+    rect(ctx, -5*s, 0, 11*s, 1*s, opts.equippedArmorSkin ? clTrim : '#8B6914');
     // 道袍下摆
     rect(ctx, -5*s, 4*s, 4*s, 3*s, cl);
     rect(ctx, 3*s, 4*s, 4*s, 3*s, cl);
@@ -198,22 +210,35 @@ const Sprites = (() => {
     ctx.quadraticCurveTo(-11*s, -2*s + Math.sin(frame*0.06)*3*s, -9*s, -6*s);
     ctx.stroke();
 
-    // 灵宠：小蛇（在鼠鼠脚边）
-    drawPetSnake(ctx, -10*s, 4*s, s, frame);
+    // 灵宠：仅在没有出战灵兽时显示装饰性灵宠
+    if (!opts.hasActiveBeast) {
+      drawPetSnake(ctx, -10*s, 4*s, s, frame);
+    }
     
-    drawWeapon(ctx, 6*s, -4*s, s, 1, frame, attacking);
+    // 武器（皮肤替换）
+    if (opts.equippedWeaponSkin && weaponSkinDrawers[opts.equippedWeaponSkin]) {
+      ctx.save(); ctx.translate(6*s, -4*s);
+      const angle = attacking > 0 ? -0.8 + Math.sin(attacking * 0.5) * 1.5 : -0.3;
+      ctx.rotate(angle);
+      weaponSkinDrawers[opts.equippedWeaponSkin](ctx, s, frame);
+      ctx.restore();
+    } else {
+      drawWeapon(ctx, 6*s, -4*s, s, 1, frame, attacking);
+    }
     ctx.restore();
   }
 
   // --- 金丹期鼠鼠：体型更大，法袍，飞剑 ---
-  function drawMouseRealm2(ctx, x, y, s, frame, attacking) {
+  function drawMouseRealm2(ctx, x, y, s, frame, attacking, opts) {
     const bounce = Math.sin(frame * 0.08) * 1 * s;
     const atkX = attacking ? Math.sin(attacking * 0.4) * 10 * s : 0;
     ctx.save();
     ctx.translate(x + atkX, y + bounce);
     
     const f = '#B8B8B8', l = '#D0D0D0';
-    const cl = C.CLOTH_GREEN;
+    const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_GREEN) : C.CLOTH_GREEN;
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#228B22') : '#228B22';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#90EE90') : '#90EE90';
     
     // 耳朵（稍大）
     rect(ctx, -6*s, -18*s, 3*s, 5*s, C.EAR_PINK);
@@ -240,15 +265,15 @@ const Sprites = (() => {
     
     // 法袍
     rect(ctx, -6*s, -5*s, 13*s, 10*s, cl);
-    rect(ctx, -5*s, -4*s, 11*s, 8*s, '#228B22');
+    rect(ctx, -5*s, -4*s, 11*s, 8*s, clAccent);
     // 领子
-    rect(ctx, -1*s, -5*s, 3*s, 3*s, '#90EE90');
+    rect(ctx, -1*s, -5*s, 3*s, 3*s, clTrim);
     // 袍上纹饰
-    rect(ctx, -4*s, -2*s, 1*s, 1*s, '#90EE90');
-    rect(ctx, 4*s, -2*s, 1*s, 1*s, '#90EE90');
+    rect(ctx, -4*s, -2*s, 1*s, 1*s, clTrim);
+    rect(ctx, 4*s, -2*s, 1*s, 1*s, clTrim);
     // 腰带（玉带）
-    rect(ctx, -6*s, 1*s, 13*s, 1*s, '#90EE90');
-    rect(ctx, 0, 0, 2*s, 2*s, '#ADFF2F'); // 玉佩
+    rect(ctx, -6*s, 1*s, 13*s, 1*s, clTrim);
+    rect(ctx, 0, 0, 2*s, 2*s, opts.equippedArmorSkin ? clTrim : '#ADFF2F');
     // 下摆
     rect(ctx, -6*s, 5*s, 5*s, 4*s, cl);
     rect(ctx, 3*s, 5*s, 5*s, 4*s, cl);
@@ -264,24 +289,37 @@ const Sprites = (() => {
     ctx.quadraticCurveTo(-13*s, -1*s + Math.sin(frame*0.06)*3*s, -11*s, -7*s);
     ctx.stroke();
     
-    // 灵宠：小蛇
-    drawPetSnake(ctx, -12*s, 5*s, s, frame);
+    // 灵宠：仅在没有出战灵兽时显示
+    if (!opts.hasActiveBeast) {
+      drawPetSnake(ctx, -12*s, 5*s, s, frame);
+    }
     // 坐骑：仙鹤（在后面）
     drawMountCrane(ctx, -3*s, 10*s, s, frame);
     
-    drawWeapon(ctx, 7*s, -4*s, s, 2, frame, attacking);
+    // 武器（皮肤替换）
+    if (opts.equippedWeaponSkin && weaponSkinDrawers[opts.equippedWeaponSkin]) {
+      ctx.save(); ctx.translate(7*s, -4*s);
+      const angle = attacking > 0 ? -0.8 + Math.sin(attacking * 0.5) * 1.5 : -0.3;
+      ctx.rotate(angle);
+      weaponSkinDrawers[opts.equippedWeaponSkin](ctx, s, frame);
+      ctx.restore();
+    } else {
+      drawWeapon(ctx, 7*s, -4*s, s, 2, frame, attacking);
+    }
     ctx.restore();
   }
 
   // --- 元婴期鼠鼠：光环，华服，灵剑 ---
-  function drawMouseRealm3(ctx, x, y, s, frame, attacking) {
+  function drawMouseRealm3(ctx, x, y, s, frame, attacking, opts) {
     const floatY = Math.sin(frame * 0.04) * 2 * s; // 微浮
     const atkX = attacking ? Math.sin(attacking * 0.4) * 12 * s : 0;
     ctx.save();
     ctx.translate(x + atkX, y + floatY);
     
     const f = '#D0D0D0', l = '#E0E0E0';
-    const cl = C.CLOTH_BLUE;
+    const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_BLUE) : C.CLOTH_BLUE;
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#3458B2') : '#3458B2';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#88BBFF') : '#88BBFF';
     
     // 灵光环
     ctx.globalAlpha = 0.15 + Math.sin(frame * 0.03) * 0.08;
@@ -316,14 +354,14 @@ const Sprites = (() => {
     
     // 华服
     rect(ctx, -6*s, -5*s, 13*s, 10*s, cl);
-    rect(ctx, -5*s, -4*s, 11*s, 8*s, '#3458B2');
+    rect(ctx, -5*s, -4*s, 11*s, 8*s, clAccent);
     // 金边
-    rect(ctx, -6*s, -5*s, 1*s, 10*s, C.MAGIC_GOLD);
-    rect(ctx, 6*s, -5*s, 1*s, 10*s, C.MAGIC_GOLD);
+    rect(ctx, -6*s, -5*s, 1*s, 10*s, opts.equippedArmorSkin ? clTrim : C.MAGIC_GOLD);
+    rect(ctx, 6*s, -5*s, 1*s, 10*s, opts.equippedArmorSkin ? clTrim : C.MAGIC_GOLD);
     // 领子
-    rect(ctx, -1*s, -5*s, 3*s, 3*s, '#88BBFF');
+    rect(ctx, -1*s, -5*s, 3*s, 3*s, clTrim);
     // 腰带
-    rect(ctx, -6*s, 1*s, 13*s, 1*s, C.MAGIC_GOLD);
+    rect(ctx, -6*s, 1*s, 13*s, 1*s, opts.equippedArmorSkin ? clTrim : C.MAGIC_GOLD);
     // 下摆
     rect(ctx, -7*s, 5*s, 5*s, 5*s, cl);
     rect(ctx, 3*s, 5*s, 5*s, 5*s, cl);
@@ -339,24 +377,37 @@ const Sprites = (() => {
     ctx.quadraticCurveTo(-14*s, -1*s + Math.sin(frame*0.06)*3*s, -12*s, -8*s);
     ctx.stroke();
     
-    // 灵宠：蛟龙
-    drawPetDragon(ctx, -14*s, -2*s, s, frame);
+    // 灵宠：仅在没有出战灵兽时显示
+    if (!opts.hasActiveBeast) {
+      drawPetDragon(ctx, -14*s, -2*s, s, frame);
+    }
     // 坐骑：仙鹤
     drawMountCrane(ctx, -3*s, 11*s, s, frame);
     
-    drawWeapon(ctx, 7*s, -4*s, s, 3, frame, attacking);
+    // 武器（皮肤替换）
+    if (opts.equippedWeaponSkin && weaponSkinDrawers[opts.equippedWeaponSkin]) {
+      ctx.save(); ctx.translate(7*s, -4*s);
+      const angle = attacking > 0 ? -0.8 + Math.sin(attacking * 0.5) * 1.5 : -0.3;
+      ctx.rotate(angle);
+      weaponSkinDrawers[opts.equippedWeaponSkin](ctx, s, frame);
+      ctx.restore();
+    } else {
+      drawWeapon(ctx, 7*s, -4*s, s, 3, frame, attacking);
+    }
     ctx.restore();
   }
 
   // --- 化神期鼠鼠：飘浮，仙袍，神剑 ---
-  function drawMouseRealm4(ctx, x, y, s, frame, attacking) {
+  function drawMouseRealm4(ctx, x, y, s, frame, attacking, opts) {
     const floatY = Math.sin(frame * 0.03) * 4 * s;
     const atkX = attacking ? Math.sin(attacking * 0.4) * 15 * s : 0;
     ctx.save();
     ctx.translate(x + atkX, y + floatY - 5*s); // 离地浮空
 
     const f = '#E8E8FF', l = '#F0F0FF';
-    const cl = C.CLOTH_PURPLE;
+    const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_PURPLE) : C.CLOTH_PURPLE;
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#7722CC') : '#7722CC';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#CC88FF') : '#CC88FF';
     
     // 紫色灵光环
     ctx.globalAlpha = 0.18 + Math.sin(frame * 0.025) * 0.08;
@@ -392,37 +443,50 @@ const Sprites = (() => {
     // 仙袍（飘逸）
     const flutter = Math.sin(frame * 0.05) * s;
     rect(ctx, -7*s, -5*s, 15*s, 11*s, cl);
-    rect(ctx, -6*s, -4*s, 13*s, 9*s, '#7722CC');
+    rect(ctx, -6*s, -4*s, 13*s, 9*s, clAccent);
     // 金纹
     for(let i = 0; i < 4; i++) {
-      rect(ctx, -5*s + i*3*s, -3*s, 1*s, 7*s, 'rgba(255,215,0,0.3)');
+      rect(ctx, -5*s + i*3*s, -3*s, 1*s, 7*s, opts.equippedArmorSkin ? clTrim + '44' : 'rgba(255,215,0,0.3)');
     }
     // 领子
-    rect(ctx, -2*s, -5*s, 5*s, 3*s, '#CC88FF');
+    rect(ctx, -2*s, -5*s, 5*s, 3*s, clTrim);
     // 腰带
-    rect(ctx, -7*s, 2*s, 15*s, 1*s, C.MAGIC_GOLD);
+    rect(ctx, -7*s, 2*s, 15*s, 1*s, opts.equippedArmorSkin ? clTrim : C.MAGIC_GOLD);
     // 飘带
     rect(ctx, -8*s + flutter, 6*s, 4*s, 6*s, cl);
     rect(ctx, 5*s - flutter, 6*s, 4*s, 6*s, cl);
     
-    // 灵宠：蛟龙
-    drawPetDragon(ctx, -16*s, -5*s, s, frame);
+    // 灵宠：仅在没有出战灵兽时显示
+    if (!opts.hasActiveBeast) {
+      drawPetDragon(ctx, -16*s, -5*s, s, frame);
+    }
     // 坐骑：麒麟
     drawMountQilin(ctx, -2*s, 12*s, s, frame);
     
-    drawWeapon(ctx, 8*s, -4*s, s, 4, frame, attacking);
+    // 武器（皮肤替换）
+    if (opts.equippedWeaponSkin && weaponSkinDrawers[opts.equippedWeaponSkin]) {
+      ctx.save(); ctx.translate(8*s, -4*s);
+      const angle = attacking > 0 ? -0.8 + Math.sin(attacking * 0.5) * 1.5 : -0.3;
+      ctx.rotate(angle);
+      weaponSkinDrawers[opts.equippedWeaponSkin](ctx, s, frame);
+      ctx.restore();
+    } else {
+      drawWeapon(ctx, 8*s, -4*s, s, 4, frame, attacking);
+    }
     ctx.restore();
   }
 
   // --- 大乘期鼠鼠：金光笼罩，天衣，天剑 ---
-  function drawMouseRealm5(ctx, x, y, s, frame, attacking) {
+  function drawMouseRealm5(ctx, x, y, s, frame, attacking, opts) {
     const floatY = Math.sin(frame * 0.025) * 5 * s;
     const atkX = attacking ? Math.sin(attacking * 0.4) * 18 * s : 0;
     ctx.save();
     ctx.translate(x + atkX, y + floatY - 8*s);
     
     const f = '#FFFFD0', l = '#FFFFF0';
-    const cl = C.CLOTH_RED;
+    const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_RED) : C.CLOTH_RED;
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#B81030') : '#B81030';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#FFD700') : '#FFD700';
 
     // 外层金光
     ctx.globalAlpha = 0.12 + Math.sin(frame * 0.02) * 0.06;
@@ -472,28 +536,39 @@ const Sprites = (() => {
     // 天衣
     const flutter = Math.sin(frame * 0.04) * 1.5 * s;
     rect(ctx, -7*s, -5*s, 15*s, 11*s, cl);
-    rect(ctx, -6*s, -4*s, 13*s, 9*s, '#B81030');
+    rect(ctx, -6*s, -4*s, 13*s, 9*s, clAccent);
     // 金龙纹
     for(let i = 0; i < 5; i++) {
       const yy = -3*s + i*2*s;
-      rect(ctx, -4*s + Math.sin(frame*0.03+i)*s, yy, 1*s, 1*s, '#FFD700');
-      rect(ctx, 4*s - Math.sin(frame*0.03+i)*s, yy, 1*s, 1*s, '#FFD700');
+      rect(ctx, -4*s + Math.sin(frame*0.03+i)*s, yy, 1*s, 1*s, clTrim);
+      rect(ctx, 4*s - Math.sin(frame*0.03+i)*s, yy, 1*s, 1*s, clTrim);
     }
     // 领子
-    rect(ctx, -2*s, -5*s, 5*s, 3*s, '#FFD700');
+    rect(ctx, -2*s, -5*s, 5*s, 3*s, clTrim);
     // 腰带
-    rect(ctx, -7*s, 2*s, 15*s, 2*s, '#FFD700');
-    rect(ctx, -1*s, 1*s, 3*s, 3*s, '#FF4444'); // 中央宝石
+    rect(ctx, -7*s, 2*s, 15*s, 2*s, clTrim);
+    rect(ctx, -1*s, 1*s, 3*s, 3*s, opts.equippedArmorSkin ? clAccent : '#FF4444');
     // 飘带
     rect(ctx, -9*s + flutter, 6*s, 4*s, 8*s, cl);
     rect(ctx, 6*s - flutter, 6*s, 4*s, 8*s, cl);
     
-    // 灵宠：神龙
-    drawPetDragonGold(ctx, -18*s, -8*s, s, frame);
+    // 灵宠：仅在没有出战灵兽时显示
+    if (!opts.hasActiveBeast) {
+      drawPetDragonGold(ctx, -18*s, -8*s, s, frame);
+    }
     // 坐骑：麒麟
     drawMountQilin(ctx, -2*s, 14*s, s, frame);
     
-    drawWeapon(ctx, 8*s, -4*s, s, 5, frame, attacking);
+    // 武器（皮肤替换）
+    if (opts.equippedWeaponSkin && weaponSkinDrawers[opts.equippedWeaponSkin]) {
+      ctx.save(); ctx.translate(8*s, -4*s);
+      const angle = attacking > 0 ? -0.8 + Math.sin(attacking * 0.5) * 1.5 : -0.3;
+      ctx.rotate(angle);
+      weaponSkinDrawers[opts.equippedWeaponSkin](ctx, s, frame);
+      ctx.restore();
+    } else {
+      drawWeapon(ctx, 8*s, -4*s, s, 5, frame, attacking);
+    }
     ctx.restore();
   }
 
@@ -1083,7 +1158,7 @@ const Sprites = (() => {
 
   const monsterDrawers = {
     // ---- 炼气期 ----
-    '灵鼠': (ctx, x, y, s, frame) => {
+    '灰毛妖鼠': (ctx, x, y, s, frame) => {
       // 灰色小老鼠
       rect(ctx, -3*s, -4*s, 6*s, 5*s, '#888'); // body
       rect(ctx, -2*s, -3*s, 4*s, 3*s, '#AAA'); // belly
@@ -1094,7 +1169,7 @@ const Sprites = (() => {
       rect(ctx, 3*s, -1*s, 5*s, s, '#888'); // tail
       rect(ctx, 7*s, -2*s, s, 2*s, '#888');
     },
-    '毒蛙': (ctx, x, y, s, frame) => {
+    '毒蟾蜍': (ctx, x, y, s, frame) => {
       const hop = Math.abs(Math.sin(frame*0.08)) * 2 * s;
       ctx.translate(0, -hop);
       rect(ctx, -4*s, -3*s, 8*s, 5*s, '#228B22'); // body
@@ -1109,7 +1184,7 @@ const Sprites = (() => {
       rect(ctx, -2*s, -2*s, s, s, '#006400');
       rect(ctx, 2*s, -1*s, s, s, '#006400');
     },
-    '野狐': (ctx, x, y, s, frame) => {
+    '赤狐妖': (ctx, x, y, s, frame) => {
       rect(ctx, -4*s, -4*s, 8*s, 6*s, '#D2691E'); // body
       rect(ctx, -3*s, -3*s, 6*s, 4*s, '#F4A460'); // lighter
       rect(ctx, -2*s, -2*s, 4*s, 2*s, '#FFF8DC'); // belly
@@ -1137,7 +1212,7 @@ const Sprites = (() => {
     },
 
     // ---- 筑基期 ----
-    '石傀儡': (ctx, x, y, s, frame) => {
+    '铁甲傀儡': (ctx, x, y, s, frame) => {
       // 大石头人
       rect(ctx, -5*s, -8*s, 10*s, 10*s, '#808080');
       rect(ctx, -4*s, -7*s, 8*s, 8*s, '#A0A0A0');
@@ -1159,7 +1234,7 @@ const Sprites = (() => {
       rect(ctx, -4*s, 2*s, 3*s, 3*s, '#808080');
       rect(ctx, 2*s, 2*s, 3*s, 3*s, '#808080');
     },
-    '妖蛇': (ctx, x, y, s, frame) => {
+    '墨蛟蛇': (ctx, x, y, s, frame) => {
       const slith = frame * 0.08;
       ctx.strokeStyle = '#6B2D8B';
       ctx.lineWidth = s*3;
@@ -1186,7 +1261,7 @@ const Sprites = (() => {
       // fangs
       rect(ctx, -9*s, s + Math.sin(slith)*2*s, s, 2*s, '#FFFFFF');
     },
-    '魔猿': (ctx, x, y, s, frame) => {
+    '暴猿妖': (ctx, x, y, s, frame) => {
       const breathe = Math.sin(frame*0.06)*s;
       // body
       rect(ctx, -5*s, -6*s, 10*s, 9*s, '#4A2A0A');
@@ -1211,7 +1286,7 @@ const Sprites = (() => {
     },
 
     // ---- 金丹期 ----
-    '冰魄蛛': (ctx, x, y, s, frame) => {
+    '冰魄蜘蛛': (ctx, x, y, s, frame) => {
       // body
       rect(ctx, -4*s, -3*s, 8*s, 6*s, '#88BBDD');
       rect(ctx, -3*s, -2*s, 6*s, 4*s, '#AADDEE');
@@ -1242,7 +1317,7 @@ const Sprites = (() => {
       }
       ctx.globalAlpha = 1;
     },
-    '火鸦': (ctx, x, y, s, frame) => {
+    '三眼火鸦': (ctx, x, y, s, frame) => {
       const flap = Math.sin(frame*0.12) * 3*s;
       // wings
       rect(ctx, -8*s, -4*s+flap, 5*s, 3*s, '#CC2200');
@@ -1266,7 +1341,7 @@ const Sprites = (() => {
       rect(ctx, 2*s, 2*s, s, 2*s, '#FF4400');
       ctx.globalAlpha = 1;
     },
-    '雷豹': (ctx, x, y, s, frame) => {
+    '豹形雷兽': (ctx, x, y, s, frame) => {
       // body
       rect(ctx, -5*s, -4*s, 10*s, 6*s, '#CCAA00');
       rect(ctx, -4*s, -3*s, 8*s, 4*s, '#DDBB22');
@@ -1302,7 +1377,7 @@ const Sprites = (() => {
     },
 
     // ---- 元婴期 ----
-    '幽冥鬼将': (ctx, x, y, s, frame) => {
+    '鬼影修士': (ctx, x, y, s, frame) => {
       const hover = Math.sin(frame*0.04)*2*s;
       ctx.translate(0, hover);
       // 幽魂拖影
@@ -1327,7 +1402,7 @@ const Sprites = (() => {
       rect(ctx, 7*s, -8*s, s, 12*s, '#44FF88');
       rect(ctx, 6*s, -9*s, 3*s, s, '#44FF88');
     },
-    '妖龙': (ctx, x, y, s, frame) => {
+    '化龙妖蛟': (ctx, x, y, s, frame) => {
       const bob = Math.sin(frame*0.05)*2*s;
       ctx.translate(0, bob);
       // body (serpentine)
@@ -1359,7 +1434,7 @@ const Sprites = (() => {
       rect(ctx, -12*s, 0, s, s, '#FFAA00');
       ctx.globalAlpha = 1;
     },
-    '魔修': (ctx, x, y, s, frame) => {
+    '血衣魔修': (ctx, x, y, s, frame) => {
       const hover = Math.sin(frame*0.04)*s;
       ctx.translate(0, hover);
       // dark robe
@@ -1391,7 +1466,7 @@ const Sprites = (() => {
     },
 
     // ---- 化神期 ----
-    '天魔': (ctx, x, y, s, frame) => {
+    '天魔老祖': (ctx, x, y, s, frame) => {
       const pulse = Math.sin(frame*0.03);
       // dark aura
       ctx.globalAlpha = 0.1+pulse*0.05;
@@ -1420,7 +1495,7 @@ const Sprites = (() => {
       rect(ctx, -7*s, 2*s, 2*s, 3*s, '#550000');
       rect(ctx, 5*s, 2*s, 2*s, 3*s, '#550000');
     },
-    '九尾妖狐': (ctx, x, y, s, frame) => {
+    '九尾天狐': (ctx, x, y, s, frame) => {
       // body
       rect(ctx, -5*s, -5*s, 10*s, 7*s, '#FFD700');
       rect(ctx, -4*s, -4*s, 8*s, 5*s, '#FFF0B0');
@@ -1449,7 +1524,7 @@ const Sprites = (() => {
       rect(ctx, -4*s, 2*s, 2*s, 2*s, '#FFD700');
       rect(ctx, 3*s, 2*s, 2*s, 2*s, '#FFD700');
     },
-    '血煞魔尊': (ctx, x, y, s, frame) => {
+    '血魔宗主': (ctx, x, y, s, frame) => {
       const pulse = Math.sin(frame*0.04);
       // blood aura
       ctx.globalAlpha = 0.12+pulse*0.06;
@@ -1480,7 +1555,7 @@ const Sprites = (() => {
     },
 
     // ---- 大乘期 ----
-    '天劫雷兽': (ctx, x, y, s, frame) => {
+    '劫雷真龙': (ctx, x, y, s, frame) => {
       // lightning sparks background
       ctx.globalAlpha = 0.15+Math.sin(frame*0.03)*0.1;
       for(let i=0;i<5;i++){
@@ -1546,7 +1621,7 @@ const Sprites = (() => {
       rect(ctx, -2*s, 0, 4*s, 2*s, '#000000');
       rect(ctx, -1*s, 0, 2*s, s, '#440066');
     },
-    '太古魔神': (ctx, x, y, s, frame) => {
+    '天道魔神': (ctx, x, y, s, frame) => {
       const pulse = Math.sin(frame*0.025);
       // cosmic aura
       ctx.globalAlpha = 0.1+pulse*0.05;
@@ -1593,13 +1668,15 @@ const Sprites = (() => {
   // 公开接口
   // ================================================================
 
-  function drawMouseByRealm(ctx, x, y, s, realmIndex, frame, attacking) {
+  function drawMouseByRealm(ctx, x, y, s, realmIndex, frame, attacking, options) {
+    // options: { hasActiveBeast, equippedWeaponSkin, equippedArmorSkin }
+    const opts = options || {};
     const drawFns = [
       drawMouseRealm0, drawMouseRealm1, drawMouseRealm2,
       drawMouseRealm3, drawMouseRealm4, drawMouseRealm5,
     ];
     const fn = drawFns[realmIndex] || drawFns[0];
-    fn(ctx, x, y, s, frame, attacking);
+    fn(ctx, x, y, s, frame, attacking, opts);
   }
 
   function drawMonsterByName(ctx, name, x, y, s, frame, hitAnim) {
