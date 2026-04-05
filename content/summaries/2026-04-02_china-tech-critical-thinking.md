@@ -218,6 +218,119 @@ summary: "旅居海外的中国创作者 Yinfi 以亲身经历探讨一个悖论
 
 ---
 
+## 评论区精选（100/847条 · YouTube Data API · 2026-04-05抓取）
+
+> 视频数据更新：👀 64,516 · 👍 5,137 · 💬 847条评论
+
+### 🏆 高赞深度评论
+
+**1. @curriculumzoë (👍469)**
+> "The algorithm gods have truly blessed me by recommending your video to me! I currently work in China as a kindergarten teacher and it's been nothing short of appalling to me to watch the light get snuffed out of my students from such a young age..."
+
+- 在中国当幼儿园老师的亲历者视角，观察到批判性思维从幼儿时期就被扼杀
+- 引发激烈讨论：↳ @clemenshensch (👍24) 精准反击："你们两个人的回应恰好完美示范了视频里解释的现象——面对批判性论点，你们选择了关闭和攻击，而不是认真参与讨论"
+
+**2. @Graphite-p4g (👍312)**
+> "It's important to remember that even the most intelligent people fall into the trap of selective critical thinking, because intelligence was never about critical thinking, intelligence is the efficiency of your brain to achieve its goals and avoid unpleasant circumstances."
+
+- 对"智力≠批判性思维"的精辟区分
+- ↳ @thehappycamper162 (👍7) 反驳："作为一个懂中文的美国人，他们对这些事情的思考比西方人以为的要深入得多，只是得出了西方不喜欢的答案"
+
+**3. @robbykurnia9671 (👍297)**
+> "So in other words, let people from non-Chinese regime countries innovate, then the Chinese regime receives the innovation blueprint, produces for clients while secretly producing other, more optimized competing products."
+
+- 总结出"创新→复制→优化→竞争"模式，以太阳能面板为例
+- ↳ @Ni3-011 (👍21) 平衡回应："中国确实很有创新力...是的他们不会做出第一个LLM、半导体或光刻机，但他们能在此基础上做出惊人的迭代"
+- ↳ @GodwynDi (👍10) 指出："这条回复链本身就完美匹配了视频里说的——面对不舒服的批判性思考时，立即转向攻击"
+
+### 🧠 独特视角
+
+**4. @wwondertwin (👍124) — AI对齐研究者**
+> "I work in AI alignment and you could be talking about AI here. The optimisation is the same, but the difference is that with AI it's going to lead to catastrophic consequences when they start 'snapping'. It's already happening in experimental conditions..."
+
+- AI对齐领域从业者将视频框架映射到AI系统——"优化而非探索"的问题在AI中同样存在
+- 引发AI安全 vs 人类思维的跨领域讨论
+
+**5. @Mr.FranciscodeMiranda (👍65)**
+> "This isn't a Chinese-only issue. Feynman talked about it during his tenure in a Brazilian University during the 50's. He noticed his students, the best in Brazil, could recite what they would read on the books but couldn't think outside the box. 70 years later and that still..."
+
+- 引用费曼在巴西的经历，将问题扩展到全球维度
+- ↳ @SimonFrack 补充：费曼对美国本土学生也有同样批评
+
+**6. @Liz0628 (👍6)**
+> "I've been reading *Thinking, Fast and Slow*, and this video is a perfect example of how governments can weaponize 'System 1' (fast, intuitive thinking) to bypass 'System 2' (slow, critical analysis)."
+
+- 将视频与卡尼曼的《思考快与慢》框架对接——政府武器化"系统1"来绕过"系统2"
+
+**7. @sillypseudonym4705 (👍28)**
+> "I worry for humanity's future. We seem to be on a course for a hybrid dystopia of shiny distractions for the masses along with brutal surveillance and ostracization for any who are not lulled into passivity."
+
+- 对"超级享乐主义"的未来推演——"闪亮干扰+残酷监控"的混合反乌托邦
+
+### 🌏 跨文化共鸣
+
+**8. @changpahk6595 (👍36)**
+> "as another east asian, i can deeply relate... we're after all, still confucian..."
+
+- 东亚共鸣：儒家文化传统的影响跨越国界
+
+**9. @Joee80808 (👍6)**
+> "I don't think this is really unique to China I think this is just what capitalism does to the human brain... This phrase is definitely true of my entire educational experience in the UK, but here they were just really bad at making us believe we should optimise."
+
+- 英国观众：同样的优化压力存在，只是没有中国那么"成功"
+
+**10. @kras_gk — "Amazing video! Similar situation going on in Russia"**
+
+**11. @Grant-u9l — "This video essay could also describe Australia."**
+
+**12. @gregederer6945 (👍1)**
+> "Something similar occurred in the US in the late 1940s and the 1950s, when America was emerging as the triumphal industrial hegemon. Conformity was highly prized and strictly enforced, critical thinking discouraged..."
+
+- 将中国现状与美国1950年代的"顺从文化"对比
+
+### 🇨🇳 中文评论
+
+**13. @vierliu5322 (👍3)**
+> "在理论角度比较陈词滥调...但是在油管键政区算是很有深度了。我觉得油管键政区留下的这套自由民主、每一个（能被报导的）人都重要都不会被牺牲的价值观完全建立在媒体治国的基础上。"
+
+- 中文长评，认为视频理论框架不新但在YouTube政治讨论区算有深度
+- 自我补充：**"我们这一代年轻人是第一代有余裕去面对存在性危机的中国人"** — 极有洞察力的世代分析
+
+**14. @朱昱光 (👍62) — "感謝分享收穫良多，這分析簡直就是批判性思考的盛宴。"**
+- 引发典型的评论区攻防战：@haiwang2857 指控视频"胡说八道"，被多人反驳
+
+### 😂 轻松一刻
+
+**15. @satan_engineer (👍212) — "I've watched that video and my social credit went down by 100000 😂😂😂"**
+- ↳ @afryanmahendra2055 认真回应："社会信用体系并不存在"
+- ↳ @Mur-_-Lyn 反讽："我没住在石头下面，我试着买一块石头但我的社会信用分不够被拒了😞"
+
+**16. @kazzyfel (👍16) — "Now I understand why my coworkers behave that way."**
+
+### 🎓 一线教育者
+
+**17. @Omnidragon00**
+> "This is something I noticed as a high school teacher here. I was surprised that students don't write essays, even in Chinese. In the US, I wrote countless essays. Even though I hated writing them, I'm so grateful now because they sharpened my critical lens."
+
+- 在中国执教的美国教师，惊讶于学生不写论文——连中文论文都不写
+
+**18. @JustinWrt (👍8)**
+> "I lived in China for a year teaching English and while I was incredibly impressed by Chinese students' potential, I was equally discouraged by the lack of true intellectual freedom in society as well as the classroom."
+
+### ⚖️ 建设性反驳
+
+**19. @afryanmahendra2055 (👍2)**
+> "People forgot that critical thinking is not solely exclusive in one way of thinking. But combining several discipline, like basic knowledge, synthesis, cross reference, and context sensitive judgement. It's hard to take this video as critical thinking, but rather critical response to a certain context..."
+
+- 认为视频本身是"批判性回应"而非"批判性思维"，指出批判性思维需要多学科交叉
+
+**20. @dwaleberryflavor4047 (👍6)**
+> "Efficiency here seems to me to denote a lack of depth. A straight canal through which the water rushes is very efficient, but it lacks the complexity and (ecological) depth that a meandering river allows for."
+
+- "运河vs河流"的精彩比喻：直线运河高效但缺乏弯曲河流的生态深度
+
+---
+
 ## 创作者背景
 
 - **Yinfi**（殷非 / @yinfiyin）— 旅居海外的中国创作者
