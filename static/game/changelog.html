@@ -138,8 +138,8 @@
       <h1>🐭 鼠鼠修仙 · 迭代记录</h1>
       <p>每一个版本都是一次飞升 ✨</p>
       <div class="stats">
-        <div class="stat"><span class="stat-value">v1.4</span><span class="stat-label">当前版本</span></div>
-        <div class="stat"><span class="stat-value">16</span><span class="stat-label">版本迭代</span></div>
+        <div class="stat"><span class="stat-value">v1.5</span><span class="stat-label">当前版本</span></div>
+        <div class="stat"><span class="stat-value">17</span><span class="stat-label">版本迭代</span></div>
         <div class="stat"><span class="stat-value">~6700+</span><span class="stat-label">总代码行数</span></div>
         <div class="stat"><span class="stat-value">3天</span><span class="stat-label">开发周期</span></div>
       </div>
@@ -147,8 +147,44 @@
 
     <div class="timeline" id="timeline">
 
+      <!-- v1.5 -->
+      <div class="version-card minor open">
+        <div class="version-header" onclick="toggleVersion(this)">
+          <span class="version-badge minor">v1.5</span>
+          <span class="version-title">丹药Buff叠加 + 坐骑回归 + 灵宠朝右</span>
+          <span class="version-date">2026-04-06</span>
+          <span class="version-toggle">▼</span>
+        </div>
+        <div class="version-body">
+          <div class="desc">丹药效果可叠加时间，坐骑重新渲染到战斗画面，灵宠方向修正</div>
+          <div class="feature-group">
+            <div class="feature-group-title">💊 丹药Buff叠加 <span class="tag tag-balance">平衡</span></div>
+            <ul class="feature-list">
+              <li><strong>效果时间可叠加</strong>：吃2个黄龙丹直接获得60秒经验翻倍，不再覆盖</li>
+              <li>所有有时间的丹药都支持叠加：黄龙丹(经验)/筑元丹(攻击)/清心丹(暴击)/金元丹(渡劫)</li>
+              <li>使用日志显示剩余总时间，方便控制用量</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">🐎 坐骑回归 <span class="tag tag-fix">修复</span></div>
+            <ul class="feature-list">
+              <li><strong>修复坐骑消失</strong>：金丹期+仙鹤、化神期+麒麟重新在Canvas中渲染</li>
+              <li>坐骑渲染在鼠鼠下方，跟随呼吸浮动动画</li>
+              <li>sprites.js导出<code>drawMountCrane</code>和<code>drawMountQilin</code>接口</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">🐾 灵宠方向修正 <span class="tag tag-fix">修复</span></div>
+            <ul class="feature-list">
+              <li><strong>灵宠改为朝右</strong>：出战灵兽通过Canvas水平翻转<code>scale(-1,1)</code>面向怪物方向</li>
+              <li>攻击冲刺动画方向同步修正</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <!-- v1.4 -->
-      <div class="version-card patch open">
+      <div class="version-card patch">
         <div class="version-header" onclick="toggleVersion(this)">
           <span class="version-badge patch">v1.4</span>
           <span class="version-title">圆润像素风重绘 + 转生Bug修复</span>
