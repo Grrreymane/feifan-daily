@@ -1,7 +1,7 @@
 // ============================================================
-// engine.js — 鼠鼠修仙 v0.4 系统性优化版
+// engine.js — 鼠鼠修仙 v0.5 转生系统+图鉴
 // 血条重做 / 死亡复活 / 战斗速度 / 精英怪 / 自动吃药
-// 装备对比 / DPS统计 / 洞府系统 / 成就系统
+// 装备对比 / DPS统计 / 洞府系统 / 成就系统 / 转生飞升
 // ============================================================
 
 const GameEngine = (() => {
@@ -394,6 +394,19 @@ const GameEngine = (() => {
 
       // 毒/灼烧DoT
       playerDoTs: [], // { type, damage, ticksLeft }
+
+      // === v0.5 转生系统 ===
+      ascensionCount: 0,
+      ascensionPoints: 0, // 仙缘点
+      ascensionBonuses: {
+        atkMult: 0, // 攻击%加成
+        defMult: 0, // 防御%加成
+        hpMult: 0,  // 生命%加成
+        expMult: 0, // 经验%加成
+        goldMult: 0, // 灵石%加成
+        startLevel: 0, // 起始等级加成
+      },
+      totalAscensionPointsEarned: 0,
     };
   }
 
@@ -480,6 +493,11 @@ const GameEngine = (() => {
     if (!state.dpsHistory) state.dpsHistory = [];
     if (state.totalDamageDealt === undefined) state.totalDamageDealt = 0;
     if (state.combatStartTime === undefined) state.combatStartTime = Date.now();
+    // v0.5迁移
+    if (state.ascensionCount === undefined) state.ascensionCount = 0;
+    if (state.ascensionPoints === undefined) state.ascensionPoints = 0;
+    if (!state.ascensionBonuses) state.ascensionBonuses = { atkMult:0, defMult:0, hpMult:0, expMult:0, goldMult:0, startLevel:0 };
+    if (state.totalAscensionPointsEarned === undefined) state.totalAscensionPointsEarned = 0;
   }
 
   function saveState() {
@@ -576,6 +594,14 @@ const GameEngine = (() => {
     critRate += (ab.critRate || 0);
     critDamage += (ab.critDamage || 0);
     goldBonus += (ab.goldBonus || 0);
+
+    // 转生永久加成
+    const asc = state.ascensionBonuses || {};
+    if (asc.atkMult > 0) attack = Math.floor(attack * (1 + asc.atkMult * 10 / 100));
+    if (asc.defMult > 0) defense = Math.floor(defense * (1 + asc.defMult * 10 / 100));
+    if (asc.hpMult > 0) maxHp = Math.floor(maxHp * (1 + asc.hpMult * 10 / 100));
+    if (asc.expMult > 0) expBonus += asc.expMult * 15;
+    if (asc.goldMult > 0) goldBonus += asc.goldMult * 15;
 
     // 洞府: 聚灵阵经验加成
     const spiritArray = state.cave?.spirit_array || 0;
@@ -1241,6 +1267,134 @@ const GameEngine = (() => {
     return { success: true, msg: `领取成功！+${formatNumber(gold)}灵石 +${herbs}灵草` };
   }
 
+  // ========== 转生（飞升）系统 ==========
+  const ASCENSION_UPGRADES = [
+    { id: 'atkMult', name: '仙力灌体', desc: '攻击+10%/级', icon: '⚔️', cost: 1, maxLevel: 20, perLevel: 10 },
+    { id: 'defMult', name: '金刚不灭', desc: '防御+10%/级', icon: '🛡️', cost: 1, maxLevel: 20, perLevel: 10 },
+    { id: 'hpMult', name: '万寿无疆', desc: '生命+10%/级', icon: '❤️', cost: 1, maxLevel: 20, perLevel: 10 },
+    { id: 'expMult', name: '悟道天赋', desc: '经验+15%/级', icon: '📖', cost: 2, maxLevel: 10, perLevel: 15 },
+    { id: 'goldMult', name: '点石成金', desc: '灵石+15%/级', icon: '💰', cost: 2, maxLevel: 10, perLevel: 15 },
+    { id: 'startLevel', name: '根骨深厚', desc: '转生起始等级+2/级', icon: '⬆️', cost: 3, maxLevel: 5, perLevel: 2 },
+  ];
+
+  function getAscensionPointsEarned() {
+    // 仙缘点 = 等级/10 向下取整 + 转生次数奖励
+    let points = Math.floor(state.level / 10);
+    // 额外：每10层塔额外+1
+    points += Math.floor(state.towerBestFloor / 10);
+    // 额外：灵兽数量
+    points += (state.beasts?.length || 0);
+    return Math.max(1, points);
+  }
+
+  function canAscend() {
+    return state.level >= 50 && !state.needTribulation && !state.isDead;
+  }
+
+  function performAscension() {
+    if (!canAscend()) return { success: false, msg: '需要达到大乘期（Lv.50+）且非渡劫/死亡状态' };
+
+    const pointsGained = getAscensionPointsEarned();
+    const oldLevel = state.level;
+    const oldAscCount = state.ascensionCount;
+
+    // 保存需要保留的数据
+    const preserved = {
+      ascensionCount: state.ascensionCount + 1,
+      ascensionPoints: state.ascensionPoints + pointsGained,
+      ascensionBonuses: { ...state.ascensionBonuses },
+      totalAscensionPointsEarned: state.totalAscensionPointsEarned + pointsGained,
+      achievements: { ...state.achievements },
+      achievementBonuses: { ...state.achievementBonuses },
+      beasts: state.beasts.map(b => ({ ...b })),
+      activeBeastId: state.activeBeastId,
+      monsterKills: { ...state.monsterKills },
+      deathCount: state.deathCount,
+      towerBestFloor: state.towerBestFloor,
+      totalGold: state.totalGold,
+      totalExp: state.totalExp,
+      killCount: state.killCount,
+      eliteKillCount: state.eliteKillCount,
+    };
+
+    // 重置为默认状态
+    const fresh = getDefaultState();
+
+    // 应用转生起始等级
+    const startLevel = 1 + (state.ascensionBonuses.startLevel || 0);
+    fresh.level = startLevel;
+
+    // 按起始等级给予初始属性
+    for (let i = 1; i < startLevel; i++) {
+      fresh.baseAttack = Math.floor(fresh.baseAttack * 1.12 + 2);
+      fresh.baseDefense = Math.floor(fresh.baseDefense * 1.08 + 1);
+      fresh.baseMaxHp = Math.floor(fresh.baseMaxHp * 1.1 + 10);
+      fresh.statPoints += 3;
+    }
+
+    // 保留10%灵石
+    fresh.gold = Math.floor(state.gold * 0.1);
+
+    // 恢复保留数据
+    state = fresh;
+    Object.assign(state, preserved);
+    state.hp = getComputedStats().maxHp;
+    state.currentMonster = spawnMonster(state.level);
+    state.combatStartTime = Date.now();
+    state.lastTickTime = Date.now();
+    state.lastCaveProduction = Date.now();
+
+    addLog(`🌟🌟🌟 飞升转生！第${state.ascensionCount}次 🌟🌟🌟`);
+    addLog(`✨ 获得 ${pointsGained} 仙缘点！`);
+    addLog(`💫 从Lv.${startLevel}开始新的修仙之旅...`);
+
+    emit('ascension', { pointsGained, ascensionCount: state.ascensionCount });
+    saveState();
+    return {
+      success: true,
+      msg: `飞升成功！获得${pointsGained}仙缘点，开始第${state.ascensionCount}世修仙！`,
+      pointsGained,
+    };
+  }
+
+  function buyAscensionUpgrade(upgradeId) {
+    const upgrade = ASCENSION_UPGRADES.find(u => u.id === upgradeId);
+    if (!upgrade) return { success: false, msg: '升级不存在' };
+    const curLevel = state.ascensionBonuses[upgradeId] || 0;
+    if (curLevel >= upgrade.maxLevel) return { success: false, msg: '已满级' };
+    const cost = upgrade.cost * (1 + Math.floor(curLevel / 3)); // 每3级费用+1
+    if (state.ascensionPoints < cost) return { success: false, msg: `仙缘点不足（需要${cost}）` };
+
+    state.ascensionPoints -= cost;
+    state.ascensionBonuses[upgradeId] = curLevel + 1;
+    addLog(`🌟 ${upgrade.icon} ${upgrade.name} 升至${curLevel + 1}级！`);
+    saveState();
+    return { success: true, msg: `${upgrade.name} 升至${curLevel + 1}级！` };
+  }
+
+  // ========== 怪物图鉴 ==========
+  function getMonsterBestiary() {
+    const bestiary = [];
+    for (let tier = 0; tier < MONSTER_TEMPLATES.length; tier++) {
+      for (const tmpl of MONSTER_TEMPLATES[tier]) {
+        const kills = state.monsterKills[tmpl.name] || 0;
+        bestiary.push({
+          name: tmpl.name,
+          tier,
+          realm: REALMS[tier]?.name || '???',
+          hp: tmpl.hp,
+          atk: tmpl.atk,
+          exp: tmpl.exp,
+          gold: tmpl.gold,
+          trait: tmpl.trait,
+          kills,
+          discovered: kills > 0,
+        });
+      }
+    }
+    return bestiary;
+  }
+
   // ========== 装备操作 ==========
   function equipItem(inventoryIndex) {
     const item = state.inventory[inventoryIndex];
@@ -1632,6 +1786,8 @@ const GameEngine = (() => {
       tribChance: state.needTribulation ? getTribulationChance(state) : null,
       dps: getCurrentDPS(),
       reviveCountdown: state.isDead ? Math.max(0, Math.ceil((state.reviveTime - Date.now()) / 1000)) : 0,
+      canAscend: canAscend(),
+      ascensionPointsPreview: state.level >= 50 ? getAscensionPointsEarned() : 0,
     };
   }
 
@@ -1648,7 +1804,10 @@ const GameEngine = (() => {
     toggleAutoHeal, setAutoHealThreshold,
     upgradeCaveBuilding, getCaveBuildingCost, CAVE_BUILDINGS,
     ACHIEVEMENTS,
-    REALMS, EQUIP_QUALITIES, EQUIP_SLOT_NAMES,
+    REALMS, EQUIP_QUALITIES, EQUIP_SLOT_NAMES, MONSTER_TEMPLATES,
+    // v0.5
+    performAscension, buyAscensionUpgrade, canAscend, getAscensionPointsEarned,
+    ASCENSION_UPGRADES, getMonsterBestiary,
   };
 
 })();

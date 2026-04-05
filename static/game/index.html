@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🐭 鼠鼠修仙 v0.4</title>
+  <title>🐭 鼠鼠修仙 v0.5</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -172,6 +172,19 @@
     .ach-card .ach-desc { color: #888; font-size: 9px; }
     .ach-card .ach-reward { color: #88ff88; font-size: 9px; }
     .ach-card.locked { opacity: 0.5; }
+    /* 图鉴 */
+    .bestiary-card { background: #1a1a3e; border: 1px solid #2a2a5a; padding: 4px 6px; margin: 2px 0; font-size: 10px; display: flex; align-items: center; gap: 6px; }
+    .bestiary-card.discovered { border-color: #4a8a4a; }
+    .bestiary-card.undiscovered { opacity: 0.35; }
+    .bestiary-card .bc-kills { color: #ff6b6b; font-size: 9px; min-width: 45px; text-align: right; }
+    .bestiary-card .bc-trait { font-size: 9px; color: #cc88cc; }
+    /* 转生 */
+    .asc-card { background: #1a1a2e; border: 1px solid #3a3a6a; padding: 5px 7px; margin: 3px 0; font-size: 10px; display: flex; align-items: center; gap: 6px; }
+    .asc-card .asc-icon { font-size: 18px; }
+    .asc-card .asc-info { flex: 1; }
+    .asc-card .asc-name { font-weight: bold; color: #FFD700; }
+    .asc-card .asc-desc { color: #888; font-size: 9px; }
+    .asc-card .asc-level { color: #88eeff; font-size: 9px; }
     /* 洞府 */
     .cave-card {
       background: #1a1a3e; border: 1px solid #2a2a5a; padding: 6px 8px; margin: 3px 0;
@@ -219,6 +232,8 @@
       <button class="tab-btn" data-tab="realm" title="秘境/塔">🏔️</button>
       <button class="tab-btn" data-tab="cave" title="洞府">🏠</button>
       <button class="tab-btn" data-tab="achieve" title="成就">🏆</button>
+      <button class="tab-btn" data-tab="bestiary" title="图鉴">📖</button>
+      <button class="tab-btn" data-tab="ascension" title="转生">🌟</button>
     </div>
     <div class="tab-content">
       <!-- 状态页 -->
@@ -341,6 +356,31 @@
           <div id="achieveList"></div>
         </div>
       </div>
+      <!-- 图鉴页 -->
+      <div class="tab-page" id="tab-bestiary">
+        <div class="stat-group">
+          <div class="stat-group-title">📖 怪物图鉴 <span id="bestiaryCount" style="color:#ffdd57;"></span></div>
+          <div id="bestiaryList"></div>
+        </div>
+      </div>
+      <!-- 转生页 -->
+      <div class="tab-page" id="tab-ascension">
+        <div class="stat-group">
+          <div class="stat-group-title">🌟 飞升转生</div>
+          <div id="ascensionInfo" class="card" style="border-color:#FFD700;">
+            <div class="card-title" style="color:#FFD700;">✨ 仙缘</div>
+            <div class="card-info">转生次数: <span id="ascCount">0</span> | 仙缘点: <span id="ascPoints" style="color:#FFD700;">0</span></div>
+            <div class="card-desc" id="ascPreview" style="margin-top:4px;"></div>
+            <div class="card-actions" style="margin-top:6px;">
+              <button class="action-btn danger" id="ascendBtn" onclick="doAscension()" disabled>🌟 飞升（需Lv.50+）</button>
+            </div>
+          </div>
+        </div>
+        <div class="stat-group">
+          <div class="stat-group-title">🌟 仙缘升级（消耗仙缘点）</div>
+          <div id="ascUpgradeList"></div>
+        </div>
+      </div>
     </div>
   </div>
   <!-- 中央战斗区 -->
@@ -356,6 +396,7 @@
     <div class="stats-summary">
       <div>击杀: <span id="killCount">0</span> | 死亡: <span id="deathCount">0</span></div>
       <div>精英: <span id="eliteKillCount">0</span> | 连杀: <span id="consecutiveKills">0</span></div>
+      <div>转生: <span id="ascensionCountDisplay" style="color:#FFD700;">0</span> | 仙缘: <span id="ascPointsDisplay" style="color:#FFD700;">0</span></div>
       <div>总经验: <span id="totalExp">0</span></div>
       <div>总灵石: <span id="totalGold">0</span></div>
     </div>
@@ -396,6 +437,8 @@ function refreshCurrentTab() {
   else if (t === 'realm') renderRealmTab();
   else if (t === 'cave') renderCaveTab();
   else if (t === 'achieve') renderAchieveTab();
+  else if (t === 'bestiary') renderBestiaryTab();
+  else if (t === 'ascension') renderAscensionTab();
 }
 
 // ========== Canvas ==========
@@ -411,9 +454,23 @@ resizeCanvas();
 
 function drawBackground() {
   const w = canvas.width, h = canvas.height;
+  const gs = GameEngine.getState();
+  const ri = gs ? gs.realmIndex : 0;
+
+  // 境界背景色方案
+  const bgThemes = [
+    { sky: ['#0a0a2e','#1a1a4e','#1a2a3a','#0d1a0d'], ground: '#1a2a1a', grass: '#223322', hill: '#0d1a2a' }, // 炼气
+    { sky: ['#0a1a2e','#1a2a5e','#2a3a4a','#1a2a1a'], ground: '#1a2a20', grass: '#2a3a2a', hill: '#0d1a3a' }, // 筑基
+    { sky: ['#0a2a1e','#1a3a3e','#1a3a3a','#0d2a0d'], ground: '#1a3a1a', grass: '#2a4a2a', hill: '#0d2a2a' }, // 金丹
+    { sky: ['#0a0a3e','#1a1a6e','#2a2a5a','#0d0d3a'], ground: '#1a1a3a', grass: '#2a2a4a', hill: '#0d0d4a' }, // 元婴
+    { sky: ['#1a0a2e','#2a1a4e','#3a1a3a','#1a0d2a'], ground: '#2a1a2a', grass: '#3a2a3a', hill: '#1a0d3a' }, // 化神
+    { sky: ['#1a0a0a','#3a1a1a','#2a1a2a','#1a0d0d'], ground: '#2a1a1a', grass: '#3a2a2a', hill: '#1a0d1a' }, // 大乘
+  ];
+  const theme = bgThemes[ri] || bgThemes[0];
+
   const grad = ctx.createLinearGradient(0, 0, 0, h);
-  grad.addColorStop(0, '#0a0a2e'); grad.addColorStop(0.5, '#1a1a4e');
-  grad.addColorStop(0.8, '#1a2a3a'); grad.addColorStop(1, '#0d1a0d');
+  grad.addColorStop(0, theme.sky[0]); grad.addColorStop(0.5, theme.sky[1]);
+  grad.addColorStop(0.8, theme.sky[2]); grad.addColorStop(1, theme.sky[3]);
   ctx.fillStyle = grad; ctx.fillRect(0, 0, w, h);
   ctx.fillStyle = '#fff';
   for (let i = 0; i < 40; i++) {
@@ -422,14 +479,27 @@ function drawBackground() {
     ctx.fillRect(sx, sy, (i % 4 === 0) ? 2 : 1, (i % 4 === 0) ? 2 : 1);
   }
   ctx.globalAlpha = 1;
-  ctx.fillStyle = '#0d1a2a'; ctx.beginPath(); ctx.moveTo(0, h * 0.6);
+
+  // 高境界添加浮空仙山/云彩
+  if (ri >= 3) {
+    ctx.globalAlpha = 0.12;
+    ctx.fillStyle = ri >= 5 ? '#FF4444' : '#8888FF';
+    for (let i = 0; i < 3; i++) {
+      const cx = w * (0.15 + i * 0.35) + Math.sin(animFrame * 0.003 + i) * 20;
+      const cy = h * 0.2 + Math.cos(animFrame * 0.004 + i * 2) * 10;
+      ctx.beginPath(); ctx.ellipse(cx, cy, 60 + i * 20, 15 + i * 5, 0, 0, Math.PI*2); ctx.fill();
+    }
+    ctx.globalAlpha = 1;
+  }
+
+  ctx.fillStyle = theme.hill; ctx.beginPath(); ctx.moveTo(0, h * 0.6);
   for (let x = 0; x <= w; x += 40) ctx.lineTo(x, h * 0.55 + Math.sin(x * 0.008) * 30 + Math.sin(x * 0.015) * 15);
   ctx.lineTo(w, h); ctx.lineTo(0, h); ctx.fill();
   const groundY = h * 0.73;
-  ctx.fillStyle = '#1a2a1a'; ctx.fillRect(0, groundY, w, h - groundY);
-  ctx.fillStyle = '#223322';
+  ctx.fillStyle = theme.ground; ctx.fillRect(0, groundY, w, h - groundY);
+  ctx.fillStyle = theme.grass;
   for (let x = 0; x < w; x += 12) { const gh = 2 + (x * 7 % 5); ctx.fillRect(x, groundY - gh, 6, gh); }
-  ctx.fillStyle = '#334433';
+  ctx.fillStyle = theme.grass;
   for (let x = 30; x < w; x += 80) { ctx.fillRect(x, groundY - 2, 8, 4); ctx.fillRect(x + 2, groundY - 4, 4, 2); }
   return groundY;
 }
@@ -633,6 +703,8 @@ function updateUI() {
   document.getElementById('consecutiveKills').textContent = s.consecutiveKills;
   document.getElementById('totalExp').textContent = fmt(s.totalExp);
   document.getElementById('totalGold').textContent = fmt(s.totalGold);
+  document.getElementById('ascensionCountDisplay').textContent = s.ascensionCount;
+  document.getElementById('ascPointsDisplay').textContent = s.ascensionPoints;
   document.getElementById('matHerb').textContent = s.materials.herb || 0;
   document.getElementById('matOre').textContent = s.materials.ore || 0;
   document.getElementById('matEssence').textContent = s.materials.essence || 0;
@@ -862,6 +934,73 @@ function renderAchieveTab() {
   document.getElementById('achieveList').innerHTML = html;
 }
 
+// ========== 图鉴页 ==========
+function renderBestiaryTab() {
+  const bestiary = GameEngine.getMonsterBestiary();
+  const discovered = bestiary.filter(b => b.discovered).length;
+  document.getElementById('bestiaryCount').textContent = ` (${discovered}/${bestiary.length})`;
+  const traitNames = {poison:'🟢毒',dodge:'💨闪避',thorns:'🌿荆棘',berserk:'🔴狂暴',slow:'❄️减速',burn:'🔥灼烧',critBoost:'💥会心',lifesteal:'🩸吸血',charm:'💜魅惑'};
+  const fmt = GameEngine.formatNumber;
+  let html = '';
+  let lastRealm = '';
+  for (const m of bestiary) {
+    if (m.realm !== lastRealm) {
+      lastRealm = m.realm;
+      html += `<div style="color:#888;font-size:9px;margin-top:6px;padding:2px 0;border-bottom:1px solid #2a2a5a;">— ${m.realm} —</div>`;
+    }
+    const cls = m.discovered ? 'discovered' : 'undiscovered';
+    html += `<div class="bestiary-card ${cls}">
+      <div style="flex:1;">
+        <span style="font-weight:bold;${m.discovered?'':'color:#555;'}">${m.discovered ? m.name : '???'}</span>
+        ${m.discovered ? `<span class="bc-trait">${traitNames[m.trait]||''}</span>` : ''}
+        ${m.discovered ? `<div style="color:#666;font-size:9px;">HP:${fmt(m.hp)} ATK:${fmt(m.atk)} EXP:${fmt(m.exp)} 💎:${fmt(m.gold)}</div>` : ''}
+      </div>
+      <div class="bc-kills">${m.discovered ? `×${fmt(m.kills)}` : ''}</div>
+    </div>`;
+  }
+  document.getElementById('bestiaryList').innerHTML = html;
+}
+
+// ========== 转生页 ==========
+function renderAscensionTab() {
+  const s = GameEngine.getState(); if (!s) return;
+  const fmt = GameEngine.formatNumber;
+  document.getElementById('ascCount').textContent = s.ascensionCount;
+  document.getElementById('ascPoints').textContent = s.ascensionPoints;
+  const canAsc = s.canAscend;
+  const btn = document.getElementById('ascendBtn');
+  btn.disabled = !canAsc;
+  if (canAsc) {
+    btn.textContent = `🌟 飞升（获得${s.ascensionPointsPreview}仙缘点）`;
+    btn.style.borderColor = '#FFD700'; btn.style.color = '#FFD700';
+    document.getElementById('ascPreview').innerHTML = `<span style="color:#FFD700;">✅ 已达Lv.${s.level}，可以飞升！</span><br><span style="color:#888;">飞升将重置等级/装备/材料，保留灵兽/成就/图鉴/10%灵石</span>`;
+  } else {
+    btn.textContent = '🌟 飞升（需Lv.50+）';
+    btn.style.borderColor = '#555'; btn.style.color = '#666';
+    document.getElementById('ascPreview').innerHTML = `<span style="color:#888;">达到大乘期（Lv.50）即可飞升转生</span>`;
+  }
+  // 转生加成列表
+  let html = '';
+  for (const u of GameEngine.ASCENSION_UPGRADES) {
+    const lv = s.ascensionBonuses[u.id] || 0;
+    const maxed = lv >= u.maxLevel;
+    const cost = u.cost * (1 + Math.floor(lv / 3));
+    const canBuy = !maxed && s.ascensionPoints >= cost;
+    html += `<div class="asc-card">
+      <div class="asc-icon">${u.icon}</div>
+      <div class="asc-info">
+        <div class="asc-name">${u.name} Lv.${lv}/${u.maxLevel}</div>
+        <div class="asc-desc">${u.desc}</div>
+        <div class="asc-level">${maxed ? '已满级' : `当前：+${lv * u.perLevel}${u.id==='startLevel'?'级':'%'} | 费用：${cost}仙缘`}</div>
+      </div>
+      <button class="action-btn ${canBuy?'gold':''}" onclick="doAscUpgrade('${u.id}')" ${canBuy?'':'disabled'}>
+        ${maxed ? '满' : '升'}
+      </button>
+    </div>`;
+  }
+  document.getElementById('ascUpgradeList').innerHTML = html;
+}
+
 // ========== 操作函数 ==========
 function doUpgrade(stat) { GameEngine.upgrade(stat); updateUI(); }
 function doEquip(idx) { GameEngine.equipItem(idx); updateUI(); }
@@ -882,6 +1021,13 @@ function doTowerChallenge() { showResult('镇妖塔', GameEngine.challengeTower(
 function doTowerReward() { showResult('镇妖塔', GameEngine.claimTowerReward().msg); updateUI(); }
 function doTribulation() { const r = GameEngine.attemptTribulation(); showResult('⛈️ 渡劫', r.msg); updateUI(); }
 function doCaveUpgrade(id) { const r = GameEngine.upgradeCaveBuilding(id); if (!r.success) showResult('洞府', r.msg); updateUI(); }
+function doAscension() {
+  if (!confirm('确定飞升？将重置等级/装备/材料/功法/洞府，保留灵兽/成就/图鉴/10%灵石！')) return;
+  const r = GameEngine.performAscension();
+  showResult('🌟 飞升', r.msg);
+  updateUI();
+}
+function doAscUpgrade(id) { const r = GameEngine.buyAscensionUpgrade(id); if (!r.success) showResult('仙缘', r.msg); updateUI(); }
 function setSpeed(speed) {
   GameEngine.setBattleSpeed(speed);
   document.querySelectorAll('.speed-btn').forEach(b => b.classList.toggle('active', parseInt(b.dataset.speed) === speed));
@@ -985,6 +1131,12 @@ function onBattleEvent(eventType, data) {
       addDamageText(mouseX, mouseY-110, '🏆成就!', '#FFD700', true);
       break;
     case 'tribulationReady': addParticles(mouseX, mouseY, '#FF44FF', 15, 6); break;
+    case 'ascension':
+      addBreakthroughEffect(mouseX, mouseY);
+      addParticles(mouseX, mouseY, '#FFD700', 50, 12);
+      addDamageText(mouseX, mouseY-80, '飞升转生!', '#FFD700', true);
+      addDamageText(mouseX, mouseY-100, `+${data.pointsGained}仙缘`, '#FFD700', true);
+      break;
   }
   updateUI();
 }
