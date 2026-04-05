@@ -1826,6 +1826,19 @@ const GameEngine = (() => {
       eliteKillCount: state.eliteKillCount,
       pastLifeTalents: [...(state.pastLifeTalents || [])],
       // Note: currentTalent will be set after selecting new talent
+
+      // === 抽卡系统保留（外观收藏是永久资产） ===
+      tianjiTokens: state.tianjiTokens || 0,
+      ownedSkins: [...(state.ownedSkins || [])],
+      equippedWeaponSkin: state.equippedWeaponSkin || null,
+      equippedArmorSkin: state.equippedArmorSkin || null,
+      totalGachaPulls: state.totalGachaPulls || 0,
+
+      // === 签到数据保留 ===
+      dailyKey: state.dailyKey || '',
+      lastSignDate: state.lastSignDate || '',
+      signStreak: state.signStreak || 0,
+      totalSignDays: state.totalSignDays || 0,
     };
 
     // 重置为默认状态
