@@ -34,37 +34,37 @@ const Sprites = (() => {
     }
   }
 
-  // 颜色常量
+  // 颜色常量 — 蓝紫霓虹风（参考用户提供的像素美术风格）
   const C = {
-    // 鼠鼠身体
-    FUR_GREY: '#9E9E9E',
-    FUR_LIGHT: '#BDBDBD',
-    FUR_BELLY: '#E0D8CC',
-    EAR_PINK: '#F8A0B0',
-    EAR_INNER: '#FF7090',
-    NOSE: '#FF8888',
-    EYE: '#111111',
-    EYE_SHINE: '#FFFFFF',
-    WHISKER: '#CCCCCC',
-    TAIL: '#B0A898',
-    // 衣服
-    CLOTH_BROWN: '#8B6914',
-    CLOTH_GOLD: '#DAA520',
-    CLOTH_GREEN: '#2E8B57',
-    CLOTH_BLUE: '#4169E1',
-    CLOTH_PURPLE: '#8A2BE2',
-    CLOTH_RED: '#DC143C',
-    // 武器
-    WOOD: '#8B6914',
-    IRON: '#AAAAAA',
-    STEEL: '#C0C0C0',
-    MAGIC_BLUE: '#4AADFF',
-    MAGIC_PURPLE: '#AA88FF',
-    MAGIC_PINK: '#FF66FF',
-    MAGIC_GOLD: '#FFD700',
-    HANDLE: '#654321',
+    // 鼠鼠身体 — 浅蓝紫调
+    FUR_GREY: '#9BB0D4',      // 主毛色：淡蓝灰
+    FUR_LIGHT: '#B8CCE8',     // 亮面：浅蓝白
+    FUR_BELLY: '#C8D8F0',     // 肚子：奶蓝白
+    EAR_PINK: '#C88AAE',      // 耳朵外：灰粉紫
+    EAR_INNER: '#E0A0C4',     // 耳朵内：亮粉
+    NOSE: '#FF99AA',          // 鼻子：粉红
+    EYE: '#111122',           // 眼睛：深蓝黑
+    EYE_SHINE: '#EEEEFF',     // 眼睛高光：亮蓝白
+    WHISKER: '#A0B8D0',       // 胡须：浅蓝灰
+    TAIL: '#8090B0',          // 尾巴：灰蓝
+    // 衣服 — 蓝紫调为主
+    CLOTH_BROWN: '#5A6B8A',   // 炼气布衣：暗蓝灰
+    CLOTH_GOLD: '#4488CC',    // 筑基道袍：靛蓝
+    CLOTH_GREEN: '#2E8B8B',   // 金丹法袍：青碧
+    CLOTH_BLUE: '#4169B4',    // 元婴华服：宝蓝
+    CLOTH_PURPLE: '#7B3EBF',  // 化神仙袍：暮紫
+    CLOTH_RED: '#A02060',     // 大乘天衣：深品红
+    // 武器 — 带灵光
+    WOOD: '#6B7B96',          // 木质→暗蓝灰
+    IRON: '#8899BB',          // 铁→蓝灰
+    STEEL: '#AAB8D0',         // 钢→亮蓝灰
+    MAGIC_BLUE: '#44CCFF',    // 灵光蓝→霓虹青
+    MAGIC_PURPLE: '#AA88FF',  // 灵光紫→亮紫
+    MAGIC_PINK: '#FF66DD',    // 灵光粉→霓虹粉
+    MAGIC_GOLD: '#CCAA44',    // 灵光金→暖金（点缀用）
+    HANDLE: '#4A5570',        // 握柄→暗蓝灰
     // 怪物通用
-    SHADOW: 'rgba(0,0,0,0.2)',
+    SHADOW: 'rgba(20,10,40,0.25)',
   };
 
   // ================================================================
@@ -85,8 +85,8 @@ const Sprites = (() => {
     const e = C.EAR_PINK, i = C.EAR_INNER, n = C.NOSE;
     const ey = C.EYE, w = '#FFFFFF';
     const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_BROWN) : C.CLOTH_BROWN;
-    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#A07828') : '#A07828';
-    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#654321') : '#654321';
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#6E7D99') : '#6E7D99';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#3D4D66') : '#3D4D66';
     
     // 耳朵
     rect(ctx, -5*s, -16*s, 3*s, 4*s, e);
@@ -159,11 +159,11 @@ const Sprites = (() => {
     ctx.save();
     ctx.translate(x + atkX, y + bounce);
     
-    const f = '#ABABAB', l = '#C8C8C8', b = C.FUR_BELLY;
+    const f = '#A0B0CC', l = '#B8C8E0', b = C.FUR_BELLY;
     const e = C.EAR_PINK, i = C.EAR_INNER;
     const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_GOLD) : C.CLOTH_GOLD;
-    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#C8961C') : '#C8961C';
-    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#F0E0A0') : '#F0E0A0';
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#2A5A8A') : '#2A5A8A';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#66CCFF') : '#66CCFF';
 
     // 耳朵
     rect(ctx, -5*s, -16*s, 3*s, 4*s, e);
@@ -194,7 +194,7 @@ const Sprites = (() => {
     // 道袍领子
     rect(ctx, -1*s, -5*s, 3*s, 3*s, clTrim);
     // 腰带
-    rect(ctx, -5*s, 0, 11*s, 1*s, opts.equippedArmorSkin ? clTrim : '#8B6914');
+    rect(ctx, -5*s, 0, 11*s, 1*s, opts.equippedArmorSkin ? clTrim : '#2A5A8A');
     // 道袍下摆
     rect(ctx, -5*s, 4*s, 4*s, 3*s, cl);
     rect(ctx, 3*s, 4*s, 4*s, 3*s, cl);
@@ -204,7 +204,7 @@ const Sprites = (() => {
     rect(ctx, 2*s, 7*s, 3*s, 1*s, f);
     
     // 尾巴
-    ctx.strokeStyle = '#B8B0A0'; ctx.lineWidth = s*1.5; ctx.lineCap='round';
+    ctx.strokeStyle = '#8898B8'; ctx.lineWidth = s*1.5; ctx.lineCap='round';
     ctx.beginPath();
     ctx.moveTo(-5*s, 2*s);
     ctx.quadraticCurveTo(-11*s, -2*s + Math.sin(frame*0.06)*3*s, -9*s, -6*s);
@@ -235,10 +235,10 @@ const Sprites = (() => {
     ctx.save();
     ctx.translate(x + atkX, y + bounce);
     
-    const f = '#B8B8B8', l = '#D0D0D0';
+    const f = '#A8B8D0', l = '#C0D0E8';
     const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_GREEN) : C.CLOTH_GREEN;
-    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#228B22') : '#228B22';
-    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#90EE90') : '#90EE90';
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#1A6B6B') : '#1A6B6B';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#44DDBB') : '#44DDBB';
     
     // 耳朵（稍大）
     rect(ctx, -6*s, -18*s, 3*s, 5*s, C.EAR_PINK);
@@ -273,7 +273,7 @@ const Sprites = (() => {
     rect(ctx, 4*s, -2*s, 1*s, 1*s, clTrim);
     // 腰带（玉带）
     rect(ctx, -6*s, 1*s, 13*s, 1*s, clTrim);
-    rect(ctx, 0, 0, 2*s, 2*s, opts.equippedArmorSkin ? clTrim : '#ADFF2F');
+    rect(ctx, 0, 0, 2*s, 2*s, opts.equippedArmorSkin ? clTrim : '#44EEDD');
     // 下摆
     rect(ctx, -6*s, 5*s, 5*s, 4*s, cl);
     rect(ctx, 3*s, 5*s, 5*s, 4*s, cl);
@@ -283,7 +283,7 @@ const Sprites = (() => {
     rect(ctx, 3*s, 9*s, 3*s, 1*s, f);
     
     // 尾巴
-    ctx.strokeStyle = '#C0B8A8'; ctx.lineWidth = s*1.5; ctx.lineCap='round';
+    ctx.strokeStyle = '#8AA0C0'; ctx.lineWidth = s*1.5; ctx.lineCap='round';
     ctx.beginPath();
     ctx.moveTo(-6*s, 3*s);
     ctx.quadraticCurveTo(-13*s, -1*s + Math.sin(frame*0.06)*3*s, -11*s, -7*s);
@@ -316,10 +316,10 @@ const Sprites = (() => {
     ctx.save();
     ctx.translate(x + atkX, y + floatY);
     
-    const f = '#D0D0D0', l = '#E0E0E0';
+    const f = '#B0C0E0', l = '#C8D8F0';
     const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_BLUE) : C.CLOTH_BLUE;
-    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#3458B2') : '#3458B2';
-    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#88BBFF') : '#88BBFF';
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#2848A0') : '#2848A0';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#66AAFF') : '#66AAFF';
     
     // 灵光环
     ctx.globalAlpha = 0.15 + Math.sin(frame * 0.03) * 0.08;
@@ -371,7 +371,7 @@ const Sprites = (() => {
     rect(ctx, 3*s, 10*s, 3*s, 1*s, f);
 
     // 尾巴
-    ctx.strokeStyle = '#D8D0C0'; ctx.lineWidth = s*1.5; ctx.lineCap='round';
+    ctx.strokeStyle = '#9AB0D8'; ctx.lineWidth = s*1.5; ctx.lineCap='round';
     ctx.beginPath();
     ctx.moveTo(-6*s, 3*s);
     ctx.quadraticCurveTo(-14*s, -1*s + Math.sin(frame*0.06)*3*s, -12*s, -8*s);
@@ -404,10 +404,10 @@ const Sprites = (() => {
     ctx.save();
     ctx.translate(x + atkX, y + floatY - 5*s); // 离地浮空
 
-    const f = '#E8E8FF', l = '#F0F0FF';
+    const f = '#C0C8F0', l = '#D8E0FF';
     const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_PURPLE) : C.CLOTH_PURPLE;
-    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#7722CC') : '#7722CC';
-    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#CC88FF') : '#CC88FF';
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#5B20A0') : '#5B20A0';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#BB77FF') : '#BB77FF';
     
     // 紫色灵光环
     ctx.globalAlpha = 0.18 + Math.sin(frame * 0.025) * 0.08;
@@ -446,7 +446,7 @@ const Sprites = (() => {
     rect(ctx, -6*s, -4*s, 13*s, 9*s, clAccent);
     // 金纹
     for(let i = 0; i < 4; i++) {
-      rect(ctx, -5*s + i*3*s, -3*s, 1*s, 7*s, opts.equippedArmorSkin ? clTrim + '44' : 'rgba(255,215,0,0.3)');
+      rect(ctx, -5*s + i*3*s, -3*s, 1*s, 7*s, opts.equippedArmorSkin ? clTrim + '44' : 'rgba(170,130,255,0.3)');
     }
     // 领子
     rect(ctx, -2*s, -5*s, 5*s, 3*s, clTrim);
@@ -483,10 +483,10 @@ const Sprites = (() => {
     ctx.save();
     ctx.translate(x + atkX, y + floatY - 8*s);
     
-    const f = '#FFFFD0', l = '#FFFFF0';
+    const f = '#D0D0FF', l = '#E8E0FF';
     const cl = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.main || C.CLOTH_RED) : C.CLOTH_RED;
-    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#B81030') : '#B81030';
-    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#FFD700') : '#FFD700';
+    const clAccent = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.accent || '#801050') : '#801050';
+    const clTrim = opts.equippedArmorSkin ? (armorSkinColors[opts.equippedArmorSkin]?.trim || '#FF66AA') : '#FF66AA';
 
     // 外层金光
     ctx.globalAlpha = 0.12 + Math.sin(frame * 0.02) * 0.06;
@@ -547,7 +547,7 @@ const Sprites = (() => {
     rect(ctx, -2*s, -5*s, 5*s, 3*s, clTrim);
     // 腰带
     rect(ctx, -7*s, 2*s, 15*s, 2*s, clTrim);
-    rect(ctx, -1*s, 1*s, 3*s, 3*s, opts.equippedArmorSkin ? clAccent : '#FF4444');
+    rect(ctx, -1*s, 1*s, 3*s, 3*s, opts.equippedArmorSkin ? clAccent : '#FF44AA');
     // 飘带
     rect(ctx, -9*s + flutter, 6*s, 4*s, 8*s, cl);
     rect(ctx, 6*s - flutter, 6*s, 4*s, 8*s, cl);
@@ -1675,6 +1675,30 @@ const Sprites = (() => {
       drawMouseRealm0, drawMouseRealm1, drawMouseRealm2,
       drawMouseRealm3, drawMouseRealm4, drawMouseRealm5,
     ];
+
+    // 霓虹光环 —— 境界越高越明显（蓝紫霓虹风格）
+    if (realmIndex >= 1) {
+      const glowColors = [
+        null,
+        'rgba(68,136,204,0.08)',   // 筑基: 淡蓝
+        'rgba(46,139,139,0.10)',   // 金丹: 青碧
+        'rgba(65,105,180,0.12)',   // 元婴: 宝蓝
+        'rgba(123,62,191,0.15)',   // 化神: 紫
+        'rgba(160,32,96,0.18)',    // 大乘: 品红紫
+      ];
+      const glowR = (12 + realmIndex * 4) * s;
+      const pulse = 1 + Math.sin(frame * 0.03) * 0.15;
+      ctx.save();
+      const grad = ctx.createRadialGradient(x, y, 0, x, y, glowR * pulse);
+      grad.addColorStop(0, glowColors[realmIndex] || 'transparent');
+      grad.addColorStop(1, 'transparent');
+      ctx.fillStyle = grad;
+      ctx.beginPath();
+      ctx.ellipse(x, y - 2*s, glowR * pulse, glowR * pulse * 0.8, 0, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    }
+
     const fn = drawFns[realmIndex] || drawFns[0];
     fn(ctx, x, y, s, frame, attacking, opts);
   }
