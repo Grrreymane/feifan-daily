@@ -947,29 +947,53 @@ const Sprites = (() => {
   function drawMountCrane(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
+    // 阴影
+    ctx.globalAlpha = 0.15;
+    rect(ctx, -3*s, 7*s, 8*s, 2*s, '#000');
+    ctx.globalAlpha = 1;
     // 身体
     rect(ctx, -3*s, -2*s, 8*s, 4*s, '#F8F8F8');
     rect(ctx, -2*s, -1*s, 6*s, 2*s, '#EEEEEE');
+    // 羽毛纹理
+    rect(ctx, -1*s, 0, s, s, '#E8E8E8');
+    rect(ctx, 1*s, -1*s, s, s, '#E8E8E8');
+    rect(ctx, 3*s, 0, s, s, '#E8E8E8');
     // 翅膀
-    const wingY = Math.sin(frame * 0.08) * s;
-    rect(ctx, -5*s, -3*s + wingY, 3*s, 3*s, '#E0E0E0');
-    rect(ctx, 5*s, -3*s + wingY, 3*s, 3*s, '#E0E0E0');
+    const wingY = Math.sin(frame * 0.08) * 1.5 * s;
+    rect(ctx, -6*s, -4*s + wingY, 4*s, 3*s, '#E0E0E0');
+    rect(ctx, -5*s, -3*s + wingY, 2*s, s, '#D0D0D0');
+    rect(ctx, 5*s, -4*s + wingY, 4*s, 3*s, '#E0E0E0');
+    rect(ctx, 6*s, -3*s + wingY, 2*s, s, '#D0D0D0');
+    // 尾羽（飘动）
+    const tailWave = Math.sin(frame * 0.06) * s;
+    rect(ctx, -7*s, -3*s + tailWave, 3*s, s, '#111');
+    rect(ctx, -8*s, -2*s + tailWave, 2*s, s, '#111');
+    rect(ctx, -6*s, -4*s + tailWave, 2*s, s, '#222');
     // 脖子
     rect(ctx, 6*s, -5*s, 2*s, 4*s, '#F8F8F8');
+    rect(ctx, 6*s, -4*s, s, 2*s, '#EEEEEE');
     // 头
     rect(ctx, 5*s, -7*s, 4*s, 3*s, '#F8F8F8');
     // 红冠
-    rect(ctx, 6*s, -8*s, 2*s, 1*s, '#FF0000');
+    rect(ctx, 6*s, -8*s, 2*s, s, '#FF0000');
+    rect(ctx, 7*s, -9*s, s, s, '#CC0000');
     // 喙
-    rect(ctx, 9*s, -6*s, 2*s, s, '#DDAA00');
+    rect(ctx, 9*s, -6*s, 3*s, s, '#DDAA00');
+    rect(ctx, 10*s, -5*s, s, s, '#CC9900');
     // 眼
     rect(ctx, 8*s, -6*s, s, s, '#111');
     // 腿
     rect(ctx, -1*s, 2*s, s, 4*s, '#DDAA00');
     rect(ctx, 2*s, 2*s, s, 4*s, '#DDAA00');
-    // 尾羽
-    rect(ctx, -6*s, -3*s, 2*s, s, '#111');
-    rect(ctx, -7*s, -2*s, 2*s, s, '#111');
+    rect(ctx, -2*s, 5*s, 2*s, s, '#DDAA00');
+    rect(ctx, 1*s, 5*s, 2*s, s, '#DDAA00');
+    // 仙气光晕
+    ctx.globalAlpha = 0.08 + Math.sin(frame * 0.03) * 0.04;
+    ctx.shadowColor = '#88CCFF';
+    ctx.shadowBlur = 10;
+    rect(ctx, -4*s, -3*s, 10*s, 6*s, '#88CCFF');
+    ctx.shadowBlur = 0;
+    ctx.globalAlpha = 1;
     ctx.restore();
   }
 
@@ -978,24 +1002,48 @@ const Sprites = (() => {
     ctx.save();
     ctx.translate(x, y);
     const trot = Math.sin(frame * 0.1) * s;
+    // 阴影
+    ctx.globalAlpha = 0.15;
+    rect(ctx, -4*s, 7*s, 10*s, 2*s, '#000');
+    ctx.globalAlpha = 1;
     // 身体
     rect(ctx, -5*s, -3*s, 12*s, 5*s, '#CC8800');
     rect(ctx, -4*s, -2*s, 10*s, 3*s, '#DDAA33');
-    // 鳞纹
-    for(let i=0; i<4; i++) {
-      rect(ctx, -3*s+i*3*s, -1*s, s, s, '#FFCC44');
+    // 鳞纹（更密）
+    for(let i=0; i<5; i++) {
+      rect(ctx, -4*s+i*2.5*s, -1*s, s, s, '#FFCC44');
+      rect(ctx, -3*s+i*2.5*s, 0, s, s, '#EEB822');
     }
+    // 腹部高光
+    rect(ctx, -3*s, 0, 8*s, s, '#EEC855');
     // 头
     rect(ctx, 7*s, -6*s, 4*s, 4*s, '#CC8800');
     rect(ctx, 8*s, -5*s, 2*s, 2*s, '#DDAA33');
-    // 角
-    rect(ctx, 8*s, -9*s, s, 3*s, '#FFD700');
-    rect(ctx, 9*s, -8*s, s, 2*s, '#FFD700');
-    // 鬃毛（火焰）
-    rect(ctx, 6*s, -7*s, s, 2*s, '#FF4400');
-    rect(ctx, 5*s, -6*s, s, s, '#FF6600');
-    // 眼
+    // 下巴
+    rect(ctx, 8*s, -3*s, 2*s, s, '#BB7700');
+    // 角（双角闪光）
+    const hornGlow = 0.7 + Math.sin(frame * 0.06) * 0.3;
+    ctx.globalAlpha = hornGlow;
+    rect(ctx, 8*s, -10*s, s, 4*s, '#FFD700');
+    rect(ctx, 10*s, -9*s, s, 3*s, '#FFD700');
+    rect(ctx, 8*s, -11*s, s, s, '#FFFFAA');
+    rect(ctx, 10*s, -10*s, s, s, '#FFFFAA');
+    ctx.globalAlpha = 1;
+    // 鬃毛（火焰飘动）
+    const flameOff = Math.sin(frame * 0.12) * s;
+    rect(ctx, 6*s, -8*s + flameOff, s, 3*s, '#FF4400');
+    rect(ctx, 5*s, -7*s + flameOff, s, 2*s, '#FF6600');
+    rect(ctx, 4*s, -6*s + flameOff, s, s, '#FFAA00');
+    // 脊背火焰
+    const spineFlame = Math.sin(frame * 0.08) * 0.5 * s;
+    rect(ctx, -2*s, -4*s + spineFlame, s, s, '#FF6600');
+    rect(ctx, 0, -5*s + spineFlame, s, s, '#FF4400');
+    rect(ctx, 2*s, -4*s + spineFlame, s, s, '#FF6600');
+    // 眼（红色发光）
+    ctx.shadowColor = '#FF0000';
+    ctx.shadowBlur = 4;
     rect(ctx, 10*s, -5*s, s, s, '#FF0000');
+    ctx.shadowBlur = 0;
     // 腿（带步行）
     rect(ctx, -3*s, 2*s + trot, s, 3*s, '#CC8800');
     rect(ctx, 0, 2*s - trot, s, 3*s, '#CC8800');
@@ -1003,15 +1051,29 @@ const Sprites = (() => {
     rect(ctx, 5*s, 2*s - trot, s, 3*s, '#CC8800');
     // 蹄子（火焰）
     ctx.globalAlpha = 0.6 + Math.sin(frame*0.1)*0.3;
-    rect(ctx, -3*s, 5*s+trot, s, s, '#FF6600');
-    rect(ctx, 0, 5*s-trot, s, s, '#FF6600');
-    rect(ctx, 3*s, 5*s+trot, s, s, '#FF6600');
-    rect(ctx, 5*s, 5*s-trot, s, s, '#FF6600');
+    rect(ctx, -4*s, 5*s+trot, 2*s, s, '#FF6600');
+    rect(ctx, -1*s, 5*s-trot, 2*s, s, '#FF6600');
+    rect(ctx, 2*s, 5*s+trot, 2*s, s, '#FF6600');
+    rect(ctx, 4*s, 5*s-trot, 2*s, s, '#FF6600');
+    // 踏火粒子
+    if (Math.random() < 0.3) {
+      const px = Math.random() * 10 - 5;
+      rect(ctx, px*s, 6*s, s, s, '#FFAA00');
+    }
     ctx.globalAlpha = 1;
-    // 尾巴（火焰）
-    rect(ctx, -7*s, -3*s, 2*s, s, '#FF4400');
-    rect(ctx, -8*s + Math.sin(frame*0.08)*s, -4*s, s, 2*s, '#FF6600');
-    rect(ctx, -9*s + Math.sin(frame*0.06)*s, -3*s, s, s, '#FFAA00');
+    // 尾巴（更丰富的火焰尾）
+    const tailWave = Math.sin(frame*0.08)*s;
+    rect(ctx, -7*s, -3*s, 2*s, 2*s, '#FF4400');
+    rect(ctx, -8*s + tailWave, -4*s, 2*s, 2*s, '#FF6600');
+    rect(ctx, -9*s + tailWave*0.7, -5*s, s, 2*s, '#FFAA00');
+    rect(ctx, -10*s + tailWave*0.5, -4*s, s, s, '#FFCC44');
+    // 全身灵光
+    ctx.globalAlpha = 0.06 + Math.sin(frame * 0.04) * 0.03;
+    ctx.shadowColor = '#FFD700';
+    ctx.shadowBlur = 15;
+    rect(ctx, -5*s, -3*s, 12*s, 5*s, '#FFD700');
+    ctx.shadowBlur = 0;
+    ctx.globalAlpha = 1;
     ctx.restore();
   }
 

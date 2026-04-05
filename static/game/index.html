@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>🐭 鼠鼠修仙 v1.0</title>
+  <title>🐭 鼠鼠修仙 v1.1</title>
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -343,7 +343,7 @@
         <div class="stat-group">
           <div class="stat-group-title">💰 资源</div>
           <div class="stat-row"><span class="stat-label">灵石</span><span class="stat-value gold" id="gold">0</span></div>
-          <div class="stat-row"><span class="stat-label">升仙令</span><span class="stat-value" id="tianjiDisplay" style="color:#FF8800;">0 🎫</span></div>
+          <div class="stat-row"><span class="stat-label">天机令</span><span class="stat-value" id="tianjiDisplay" style="color:#FF8800;">0 🎫</span></div>
           <div style="margin-top:3px;">
             <span class="mat-row"><span class="mat-icon">🌿</span><span class="mat-val" id="matHerb">0</span></span>
             <span class="mat-row"><span class="mat-icon">⛏️</span><span class="mat-val" id="matOre">0</span></span>
@@ -373,8 +373,7 @@
         </div><div id="equippedSlots"></div></div>
         <div class="stat-group">
           <div class="stat-group-title">📦 背包 (<span id="invCount">0</span>/<span id="invMax">30</span>)
-            <button class="action-btn red" style="float:right;padding:1px 5px;font-size:8px" onclick="sellAllWhite()">卖白装</button>
-            <button class="action-btn" style="float:right;padding:1px 5px;font-size:8px;margin-right:3px;border-color:#FF8800;color:#FF8800;" onclick="doSellWeaker()">🗑️卖弱装</button>
+            <button class="action-btn" style="float:right;padding:1px 5px;font-size:8px;border-color:#FF8800;color:#FF8800;" onclick="doSellWeaker()">🗑️卖弱装</button>
           </div>
           <div id="inventoryList"></div>
         </div>
@@ -460,16 +459,16 @@
         <div class="stat-group">
           <div class="stat-group-title">🎰 天机阁</div>
           <div class="card" style="border-color:#FF8800;background:linear-gradient(135deg,#1a1a3e,#2a1a2e);">
-            <div class="card-title" style="color:#FFD700;font-size:13px;">🎫 升仙令: <span id="gachaTokens" style="color:#FF8800;">0</span></div>
+            <div class="card-title" style="color:#FFD700;font-size:13px;">🎫 天机令: <span id="gachaTokens" style="color:#FF8800;">0</span></div>
             <div class="card-desc" style="color:#888;">外观抽取·武器&衣服（纯视觉，不影响战力）</div>
             <div class="card-info" style="margin-top:4px;">
               <span style="color:#CCCCCC;">凡30%</span> <span style="color:#44CC44;">良35%</span> <span style="color:#4488FF;">稀20%</span> <span style="color:#AA55FF;">珍10%</span> <span style="color:#FF8800;">极4%</span> <span style="color:#FF2222;">传1%</span>
             </div>
             <div class="card-desc" style="color:#ffdd57;margin-top:4px;">🔟 十连保底：至少获得一个珍品(紫)以上！</div>
-            <div class="card-desc" style="color:#888;margin-top:2px;">重复外观自动转换为升仙令</div>
+            <div class="card-desc" style="color:#888;margin-top:2px;">重复外观自动转换为天机令</div>
             <div class="card-actions" style="margin-top:6px;gap:6px;">
-              <button class="action-btn gold" onclick="doGachaSingle()" style="flex:1;font-size:11px;padding:6px;">🎲 单抽 (1令)</button>
-              <button class="action-btn" onclick="doGachaTen()" style="flex:2;font-size:11px;padding:6px;border-color:#FF8800;color:#FF8800;background:linear-gradient(135deg,#2a1a1a,#3a2a1a);">🎰 十连抽！(9令)</button>
+              <button class="action-btn gold" onclick="doGachaSingle()" style="flex:1;font-size:11px;padding:6px;">🎲 单抽 (10令)</button>
+              <button class="action-btn" onclick="doGachaTen()" style="flex:2;font-size:11px;padding:6px;border-color:#FF8800;color:#FF8800;background:linear-gradient(135deg,#2a1a1a,#3a2a1a);">🎰 十连抽！(90令)</button>
             </div>
           </div>
         </div>
@@ -1553,6 +1552,21 @@ function renderBeastsTab() {
   if (!s.beasts || !s.beasts.length) { document.getElementById('beastList').innerHTML = ''; document.getElementById('noBeast').style.display = 'block'; return; }
   document.getElementById('noBeast').style.display = 'none';
   let html = '';
+  // 坐骑信息
+  const mountName = s.visualEquip.mount;
+  if (mountName) {
+    const mountStats = mountName === '仙鹤' ? '闪避+5% 攻速+5%' : '攻击+15% 暴伤+20% 闪避+3%';
+    html += `<div class="card" style="border-color:#88CCFF;background:#1a1a3e;">
+      <div class="card-title">🐎 坐骑：${mountName}</div>
+      <div class="card-desc">属性加成：${mountStats}</div>
+      <div class="card-info" style="color:#88CCFF;">境界提升后自动升级坐骑</div>
+    </div>`;
+  } else {
+    html += `<div class="card" style="opacity:0.4;">
+      <div class="card-title">🐎 坐骑：无</div>
+      <div class="card-desc" style="color:#666;">金丹期及以上自动获得坐骑</div>
+    </div>`;
+  }
   for (const b of s.beasts) {
     const isActive = b.id === s.activeBeastId;
     const feedCost = Math.floor(50 * Math.pow(1.5, b.level));
@@ -1562,6 +1576,7 @@ function renderBeastsTab() {
       <div class="card-info">攻+${b.baseAtk} 防+${b.baseDef} | (${b.feedCount}/${b.level*3})</div>
       <div class="card-actions">
         <button class="action-btn gold" onclick="doFeedBeast('${b.id}')">喂(${fmt(feedCost)}💎)</button>
+        <button class="action-btn" style="border-color:#FF8800;color:#FF8800;" onclick="doMaxFeedBeast('${b.id}')">⚡喂满</button>
         ${isActive?'':`<button class="action-btn" onclick="doSetBeast('${b.id}')">出战</button>`}
       </div>
     </div>`;
@@ -1759,16 +1774,18 @@ function renderGachaTab() {
     document.getElementById('gachaResultArea').style.display = 'block';
     let rHtml = '';
     for (const r of lastGachaResults) {
-      const qColor = GameEngine.GACHA_QUALITY_COLORS[r.quality];
-      const qName = GameEngine.GACHA_QUALITY_NAMES[r.quality];
+      const qColor = r.isEquip ? (r.qualityColor || '#CCCCCC') : GameEngine.GACHA_QUALITY_COLORS[r.quality];
+      const qName = r.isEquip ? '装备' : GameEngine.GACHA_QUALITY_NAMES[r.quality];
       const cls = r.duplicate ? 'gacha-result-card duplicate' : 'gacha-result-card new';
+      const tag = r.isEquip ? '⚔️' : (r.type === 'weapon' ? '🗡️' : '👘');
       rHtml += `<div class="${cls}" style="border-color:${qColor}20;">
         <span class="gacha-quality" style="background:${qColor};">${qName}</span>
-        <span class="gacha-tag">${r.type === 'weapon' ? '⚔️' : '👘'}</span>
+        <span class="gacha-tag">${tag}</span>
         <div style="flex:1;">
           <span class="gacha-name" style="color:${qColor};">${r.name}</span>
-          ${r.isNew ? '<span style="color:#FFD700;font-size:8px;"> ✨NEW!</span>' : ''}
-          ${r.duplicate ? `<span style="color:#888;font-size:8px;"> 🔄+${r.refund}令</span>` : ''}
+          ${r.isNew && !r.isEquip ? '<span style="color:#FFD700;font-size:8px;"> ✨NEW!</span>' : ''}
+          ${r.isEquip ? `<span style="color:#aaa;font-size:8px;"> ${r.desc}</span>` : ''}
+          ${r.duplicate && !r.isEquip ? `<span style="color:#888;font-size:8px;"> 🔄+${r.refund}令</span>` : ''}
         </div>
       </div>`;
     }
@@ -1900,7 +1917,7 @@ function renderDailyTab() {
       const cls = isClaimed ? 'bounty-card claimed' : (isDone ? 'bounty-card completed' : 'bounty-card');
       const rewardStr = Object.entries(q.rewards).map(([k, v]) => {
         const icons = { gold: '💎', herb: '🌿', ore: '⛏️', essence: '💎', tianjiTokens: '🎫' };
-        const names = { gold: '灵石', herb: '灵草', ore: '矿石', essence: '精华', tianjiTokens: '升仙令' };
+        const names = { gold: '灵石', herb: '灵草', ore: '矿石', essence: '精华', tianjiTokens: '天机令' };
         return `${icons[k] || ''}${names[k] || k}×${v}`;
       }).join(' ');
 
@@ -1937,14 +1954,8 @@ function doClaimBounty(questId) {
 }
 
 // ========== 操作函数 ==========
-function doUpgrade(stat) { GameEngine.upgrade(stat); updateUI(); }
 function doEquip(idx) { GameEngine.equipItem(idx); updateUI(); }
 function doSell(idx) { if (GameEngine.sellItem(idx) > 0) updateUI(); }
-function sellAllWhite() {
-  const s = GameEngine.getState(); if (!s) return;
-  for (let i = s.inventory.length - 1; i >= 0; i--) if (s.inventory[i].qualityIdx === 0) GameEngine.sellItem(i);
-  updateUI();
-}
 function doAutoEquipBest() {
   const r = GameEngine.autoEquipBest();
   showResult('⚡ 一键换装', r.msg);
@@ -1960,6 +1971,7 @@ function doCraftPill(id) { const r = GameEngine.craftPill(id); if (!r.success) s
 function doUsePill(id) { GameEngine.usePill(id); updateUI(); }
 function doSkillUp(id) { const r = GameEngine.upgradeSkill(id); if (!r.success) showResult('功法', r.msg); updateUI(); }
 function doFeedBeast(id) { const r = GameEngine.feedBeast(id); if (!r.success) showResult('灵兽', r.msg); updateUI(); }
+function doMaxFeedBeast(id) { const r = GameEngine.maxFeedBeast(id); showResult('灵兽', r.msg); updateUI(); }
 function doSetBeast(id) { GameEngine.setActiveBeast(id); updateUI(); }
 function doEnterRealm(idx) { showResult('秘境', GameEngine.enterSecretRealm(idx).msg); updateUI(); }
 function doTowerChallenge() { showResult('镇妖塔', GameEngine.challengeTower().msg); updateUI(); }

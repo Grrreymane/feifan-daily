@@ -1,6 +1,6 @@
 // ============================================================
-// engine.js — 鼠鼠修仙 v1.0 系统重构+转生天赋
-// 升仙令抽卡 / 外观生效 / 自动加点 / 转生天赋 / 日夜循环
+// engine.js — 鼠鼠修仙 v1.1 抽卡扩充+坐骑属性+灵兽喂满+系统清理
+// 天机令抽卡 / 装备+外观混合池 / 坐骑属性 / 一键喂满 / 转生天赋
 // ============================================================
 
 const GameEngine = (() => {
@@ -225,9 +225,9 @@ const GameEngine = (() => {
     { id: 'mine_shaft', name: '矿井', icon: '⛏️', desc: '每分钟自动产出矿石',
       maxLevel: 10, baseCost: 300, costMult: 2.5,
       effect: (lv) => ({ ore_per_min: lv * 0.3 }) },
-    { id: 'training_ground', name: '练功场', icon: '🏋️', desc: '加点效果提升',
+    { id: 'training_ground', name: '演武场', icon: '🏋️', desc: '提升全属性百分比',
       maxLevel: 5, baseCost: 1000, costMult: 4,
-      effect: (lv) => ({ stat_point_bonus_pct: lv * 15 }) },
+      effect: (lv) => ({ all_stat_bonus_pct: lv * 3 }) },
   ];
 
   // ========== 成就系统 ==========
@@ -271,8 +271,8 @@ const GameEngine = (() => {
   ];
 
   // ========== 天机阁·抽卡系统 ==========
-  const GACHA_COST_SINGLE = 1;   // 单抽1升仙令
-  const GACHA_COST_TEN = 9;      // 十连9升仙令（9折）
+  const GACHA_COST_SINGLE = 10;  // 单抽10天机令
+  const GACHA_COST_TEN = 90;     // 十连90天机令（9折）
 
   // 品质概率：白30%→绿35%→蓝20%→紫10%→橙4%→红1%
   const GACHA_QUALITY_RATES = [0.30, 0.35, 0.20, 0.10, 0.04, 0.01];
@@ -333,7 +333,7 @@ const GameEngine = (() => {
   const SIGN_IN_REWARDS = [
     { day: 1, icon: '💎', name: '灵石x100', rewards: { gold: 100 } },
     { day: 2, icon: '🌿', name: '灵草x10', rewards: { herb: 10 } },
-    { day: 3, icon: '🎫', name: '升仙令x5', rewards: { tianjiTokens: 5 } },
+    { day: 3, icon: '🎫', name: '天机令x5', rewards: { tianjiTokens: 5 } },
     { day: 4, icon: '⛏️', name: '矿石x10', rewards: { ore: 10 } },
     { day: 5, icon: '💊', name: '回春丹x3', rewards: { pill_heal: 3 } },
     { day: 6, icon: '💎', name: '精华x3', rewards: { essence: 3 } },
@@ -472,7 +472,7 @@ const GameEngine = (() => {
     applyDailyRewards(quest.rewards);
 
     const rewardStr = Object.entries(quest.rewards).map(([k, v]) => {
-      const names = { gold: '灵石', herb: '灵草', ore: '矿石', essence: '精华', tianjiTokens: '升仙令' };
+      const names = { gold: '灵石', herb: '灵草', ore: '矿石', essence: '精华', tianjiTokens: '天机令' };
       return `${names[k] || k}×${v}`;
     }).join(' ');
 
@@ -498,7 +498,7 @@ const GameEngine = (() => {
     // count: 1=单抽, 10=十连
     const cost = count === 10 ? GACHA_COST_TEN : GACHA_COST_SINGLE * count;
     if ((state.tianjiTokens || 0) < cost) {
-      return { success: false, msg: `升仙令不足！需要${cost}枚，当前${state.tianjiTokens || 0}枚` };
+      return { success: false, msg: `天机令不足！需要${cost}枚，当前${state.tianjiTokens || 0}枚` };
     }
 
     state.tianjiTokens -= cost;
@@ -511,36 +511,56 @@ const GameEngine = (() => {
       const quality = rollGachaQuality(isGuaranteed ? 3 : 0);
       if (quality >= 3) hasPurpleOrAbove = true;
 
-      // 从对应品质的池子中随机选
-      const poolByQuality = GACHA_POOL.filter(item => item.quality === quality);
-      if (poolByQuality.length === 0) continue;
-      const chosen = poolByQuality[Math.floor(Math.random() * poolByQuality.length)];
-
-      // 检查是否已拥有
-      const owned = (state.ownedSkins || []).includes(chosen.id);
-
-      if (owned) {
-        // 重复：转换为升仙令（品质越高返还越多）
-        const refund = [1, 2, 5, 10, 25, 50][quality] || 1;
-        state.tianjiTokens += refund;
-        results.push({ ...chosen, duplicate: true, refund });
+      // 40%概率出装备，60%概率出外观（参考原神武器/角色混合池）
+      const isEquipDrop = Math.random() < 0.4;
+      if (isEquipDrop) {
+        // 装备掉落：品质映射到装备品质
+        const equipQuality = Math.min(5, quality);
+        const equip = generateEquipment(Math.max(state.level, 5), equipQuality);
+        if (state.inventory.length < state.inventoryMax) {
+          state.inventory.push(equip);
+          results.push({ type: 'equip', name: equip.name, quality, qualityColor: equip.qualityColor,
+            desc: `${EQUIP_SLOT_NAMES[equip.slot]} 战力${getEquipScore(equip)}`, isNew: true, isEquip: true });
+        } else {
+          const sellGold = getEquipScore(equip) * 2;
+          state.gold += sellGold;
+          results.push({ type: 'equip', name: equip.name, quality, qualityColor: equip.qualityColor,
+            desc: `背包满→自动卖出${formatNumber(sellGold)}灵石`, duplicate: true, isEquip: true });
+        }
       } else {
-        // 新获得
-        if (!state.ownedSkins) state.ownedSkins = [];
-        state.ownedSkins.push(chosen.id);
-        results.push({ ...chosen, duplicate: false, isNew: true });
+        // 外观掉落（原有逻辑）
+        const poolByQuality = GACHA_POOL.filter(item => item.quality === quality);
+        if (poolByQuality.length === 0) continue;
+        const chosen = poolByQuality[Math.floor(Math.random() * poolByQuality.length)];
+
+        const owned = (state.ownedSkins || []).includes(chosen.id);
+
+        if (owned) {
+          const refund = [1, 2, 5, 10, 25, 50][quality] || 1;
+          state.tianjiTokens += refund;
+          results.push({ ...chosen, duplicate: true, refund });
+        } else {
+          if (!state.ownedSkins) state.ownedSkins = [];
+          state.ownedSkins.push(chosen.id);
+          results.push({ ...chosen, duplicate: false, isNew: true });
+        }
       }
     }
 
-    // 统计
     state.totalGachaPulls = (state.totalGachaPulls || 0) + count;
 
-    addLog(`🎰 天机阁${count === 10 ? '十连' : '单抽'}！消耗${cost}升仙令`);
+    addLog(`🎰 天机阁${count === 10 ? '十连' : '单抽'}！消耗${cost}天机令`);
     for (const r of results) {
-      if (r.isNew) {
+      if (r.isEquip) {
+        if (r.duplicate) {
+          addLog(`⚔️ <span style="color:${r.qualityColor}">[${r.name}]</span> —— ${r.desc}`);
+        } else {
+          addLog(`⚔️ <span style="color:${r.qualityColor}">[${r.name}]</span> —— ${r.desc}`);
+        }
+      } else if (r.isNew) {
         addLog(`✨ <span style="color:${GACHA_QUALITY_COLORS[r.quality]}">[${GACHA_QUALITY_NAMES[r.quality]}]${r.name}</span> —— 新获得！`);
       } else if (r.duplicate) {
-        addLog(`🔄 ${r.name}（重复→+${r.refund}升仙令）`);
+        addLog(`🔄 ${r.name}（重复→+${r.refund}天机令）`);
       }
     }
 
@@ -713,7 +733,7 @@ const GameEngine = (() => {
       currentTalent: null,       // 当前生效的前世天赋ID
 
       // === v0.8 天机阁抽卡系统 ===
-      tianjiTokens: 0,       // 升仙令（抽卡代币）
+      tianjiTokens: 0,       // 天机令（抽卡代币）
       ownedSkins: [],        // 已拥有的外观ID列表
       equippedWeaponSkin: null, // 当前装备的武器外观ID
       equippedArmorSkin: null,  // 当前装备的衣服外观ID
@@ -919,6 +939,20 @@ const GameEngine = (() => {
       defense += Math.floor(beast.baseDef * beastMult);
     }
 
+    // 坐骑加成（根据境界自动获得坐骑）
+    const realmIdx = getRealmIndex(state.level);
+    const mountTier = VISUAL_EQUIP.mount[realmIdx];
+    if (mountTier === '仙鹤') {
+      // 仙鹤坐骑：闪避+5%，攻速+5%
+      dodge += 5;
+      atkSpeed += 5;
+    } else if (mountTier === '麒麟') {
+      // 麒麟坐骑：攻击+15%，暴伤+20%，闪避+3%
+      attack = Math.floor(attack * 1.15);
+      critDamage += 20;
+      dodge += 3;
+    }
+
     // 成就永久加成
     const ab = state.achievementBonuses || {};
     attack += (ab.attack || 0);
@@ -940,7 +974,14 @@ const GameEngine = (() => {
     const spiritArray = state.cave?.spirit_array || 0;
     if (spiritArray > 0) expBonus += spiritArray * 5;
 
-    // 洞府: 练功场加点加成 (已在upgrade函数里处理)
+    // 洞府: 演武场全属性加成
+    const trainingGround = state.cave?.training_ground || 0;
+    if (trainingGround > 0) {
+      const tgBonus = trainingGround * 3; // 3%/级
+      attack = Math.floor(attack * (1 + tgBonus / 100));
+      defense = Math.floor(defense * (1 + tgBonus / 100));
+      maxHp = Math.floor(maxHp * (1 + tgBonus / 100));
+    }
 
     // Buff
     const now = Date.now();
@@ -1283,11 +1324,11 @@ const GameEngine = (() => {
       updateBountyProgress('kill', 1);
       if (state.currentMonster.isElite) updateBountyProgress('elite_kill', 1);
 
-      // 精英怪掉落升仙令（50%概率，1-3枚）
+      // 精英怪掉落天机令（50%概率，1-3枚）
       if (state.currentMonster.isElite && Math.random() < 0.5) {
         const tokens = 1 + Math.floor(Math.random() * 3);
         state.tianjiTokens = (state.tianjiTokens || 0) + tokens;
-        addLog(`🎫 精英怪掉落 ${tokens} 枚升仙令！`);
+        addLog(`🎫 精英怪掉落 ${tokens} 枚天机令！`);
         emit('tokenDrop', { amount: tokens });
       }
 
@@ -1413,11 +1454,11 @@ const GameEngine = (() => {
         state.inventory.push(equip);
       }
     }
-    // 奇遇额外掉落升仙令（30%概率）
+    // 奇遇额外掉落天机令（30%概率）
     if (Math.random() < 0.3) {
       const tokens = 1 + Math.floor(Math.random() * 2);
       state.tianjiTokens = (state.tianjiTokens || 0) + tokens;
-      addLog(`🎫 奇遇获得 ${tokens} 升仙令！`);
+      addLog(`🎫 奇遇获得 ${tokens} 天机令！`);
     }
     emit('encounter', { event });
   }
@@ -1620,10 +1661,10 @@ const GameEngine = (() => {
       }
     }
     if (r.beastChance && Math.random() < r.beastChance) tryCaptureBeast();
-    // 秘境通关奖励升仙令（2-5枚，看秘境等级）
+    // 秘境通关奖励天机令（2-5枚，看秘境等级）
     const realmTokens = realmIndex + 2;
     state.tianjiTokens = (state.tianjiTokens || 0) + realmTokens;
-    rewards.push(`升仙令x${realmTokens}`);
+    rewards.push(`天机令x${realmTokens}`);
     addLog(`🏔️ 秘境【${realm.name}】通关！获得：${rewards.join('、')}`);
     emit('secretRealmClear', { realm: realm.name, rewards });
     updateBountyProgress('realm_clear', 1);
@@ -1661,7 +1702,7 @@ const GameEngine = (() => {
       state.exp += expReward;
       state.towerFloor++;
       if (state.towerFloor - 1 > state.towerBestFloor) state.towerBestFloor = state.towerFloor - 1;
-      // 每5层奖励升仙令
+      // 每5层奖励天机令
       let towerTokens = 0;
       if (floor % 5 === 0) {
         towerTokens = Math.floor(floor / 5);
@@ -1669,7 +1710,7 @@ const GameEngine = (() => {
       }
       checkLevelUp();
       checkAchievements();
-      addLog(`🗼 镇妖塔第${floor}层通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石${towerTokens > 0 ? ` +${towerTokens}升仙令` : ''}`);
+      addLog(`🗼 镇妖塔第${floor}层通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石${towerTokens > 0 ? ` +${towerTokens}天机令` : ''}`);
       emit('towerClear', { floor, goldReward, expReward, towerTokens });
       updateBountyProgress('tower_clear', 1);
       saveState();
@@ -1817,10 +1858,10 @@ const GameEngine = (() => {
     addLog(`🎭 觉醒前世天赋【${selectedTalent.icon} ${selectedTalent.name}】—— ${selectedTalent.flavor}`);
     addLog(`💡 天赋效果：${selectedTalent.desc}`);
 
-    // 飞升奖励升仙令
+    // 飞升奖励天机令
     const ascTokens = 10 + state.ascensionCount * 5;
     state.tianjiTokens = (state.tianjiTokens || 0) + ascTokens;
-    addLog(`🎫 飞升奖励 ${ascTokens} 升仙令！`);
+    addLog(`🎫 飞升奖励 ${ascTokens} 天机令！`);
     addLog(`💫 从Lv.${startLevel}开始新的修仙之旅...`);
 
     emit('ascension', { pointsGained, ascensionCount: state.ascensionCount });
@@ -2091,6 +2132,36 @@ const GameEngine = (() => {
     return { success: true, msg: `喂养成功` };
   }
 
+  // 一键喂满灵兽（用当前灵石尽可能升到最高等级）
+  function maxFeedBeast(beastId) {
+    const beast = state.beasts.find(b => b.id === beastId);
+    if (!beast) return { success: false, msg: '灵兽不存在' };
+    let totalSpent = 0;
+    let levelsBefore = beast.level;
+    let fedCount = 0;
+    while (true) {
+      const cost = Math.floor(50 * Math.pow(1.5, beast.level));
+      if (state.gold < cost) break;
+      state.gold -= cost;
+      totalSpent += cost;
+      fedCount++;
+      beast.feedCount++;
+      if (beast.feedCount >= beast.level * 3) {
+        beast.level++;
+        beast.feedCount = 0;
+        beast.baseAtk = Math.floor(beast.baseAtk * 1.25 + 2);
+        beast.baseDef = Math.floor(beast.baseDef * 1.2 + 1);
+      }
+    }
+    const levelsGained = beast.level - levelsBefore;
+    if (fedCount > 0) {
+      addLog(`🐾 一键喂养${beast.name}：花费${formatNumber(totalSpent)}灵石，喂了${fedCount}次${levelsGained > 0 ? `，升了${levelsGained}级` : ''}（当前Lv.${beast.level} ${beast.feedCount}/${beast.level*3}）`);
+      saveState();
+      return { success: true, msg: `一键喂养完成！花费${formatNumber(totalSpent)}灵石${levelsGained > 0 ? `，升${levelsGained}级` : ''}`, fedCount, levelsGained, totalSpent };
+    }
+    return { success: false, msg: `灵石不足（下次喂养需要${formatNumber(Math.floor(50 * Math.pow(1.5, beast.level)))}）` };
+  }
+
   function setActiveBeast(beastId) {
     if (!state.beasts.find(b => b.id === beastId)) return false;
     state.activeBeastId = beastId;
@@ -2098,34 +2169,7 @@ const GameEngine = (() => {
     return true;
   }
 
-  // ========== 加点 ==========
-  function upgrade(stat) {
-    if (!state || state.statPoints <= 0) return false;
-    const trainingGround = state.cave?.training_ground || 0;
-    const bonusMult = 1 + trainingGround * 0.15; // 练功场加成
-
-    switch (stat) {
-      case 'attack':
-        state.baseAttack += Math.floor((state.baseAttack * 0.05 + 3) * bonusMult);
-        break;
-      case 'defense':
-        state.baseDefense += Math.floor((state.baseDefense * 0.05 + 2) * bonusMult);
-        break;
-      case 'hp':
-        state.baseMaxHp += Math.floor((state.baseMaxHp * 0.05 + 10) * bonusMult);
-        state.hp = getComputedStats().maxHp;
-        break;
-      case 'crit':
-        state.baseCritRate = Math.min(80, state.baseCritRate + 1);
-        state.baseCritDamage += 5;
-        break;
-      default:
-        return false;
-    }
-    state.statPoints--;
-    saveState();
-    return true;
-  }
+  // ========== 加点 (v1.0已移除手动加点，升级自动分配) ==========
 
   // ========== 战斗速度 ==========
   function setBattleSpeed(speed) {
@@ -2323,6 +2367,8 @@ const GameEngine = (() => {
         armor: VISUAL_EQUIP.armor[realmIdx],
         mount: VISUAL_EQUIP.mount[realmIdx],
         pet: VISUAL_EQUIP.pet[realmIdx],
+        mountStats: VISUAL_EQUIP.mount[realmIdx] === '仙鹤' ? '闪避+5% 攻速+5%'
+          : VISUAL_EQUIP.mount[realmIdx] === '麒麟' ? '攻+15% 暴伤+20% 闪避+3%' : null,
       },
       activeBeast: getActiveBeast(),
       tribChance: state.needTribulation ? getTribulationChance(state) : null,
@@ -2351,12 +2397,12 @@ const GameEngine = (() => {
   }
 
   return {
-    start, stop, getState, upgrade, resetState, processOfflineGains, formatNumber,
+    start, stop, getState, resetState, processOfflineGains, formatNumber,
     equipItem, unequipItem, sellItem, enhanceEquip, getEquipScore, getEquipEnhanceCost, compareEquip,
     autoEquipBest, sellWeakerItems,
     craftPill, usePill, PILL_RECIPES,
     upgradeSkill, SKILL_TREE,
-    feedBeast, setActiveBeast, BEAST_TEMPLATES,
+    feedBeast, maxFeedBeast, setActiveBeast, BEAST_TEMPLATES,
     enterSecretRealm, SECRET_REALMS,
     challengeTower, claimTowerReward,
     attemptTribulation,
