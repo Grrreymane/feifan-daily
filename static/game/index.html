@@ -331,10 +331,13 @@
       </div>
       <!-- 装备页 -->
       <div class="tab-page" id="tab-equip">
-        <div class="stat-group"><div class="stat-group-title">🎒 已装备</div><div id="equippedSlots"></div></div>
+        <div class="stat-group"><div class="stat-group-title">🎒 已装备
+          <button class="action-btn gold" style="float:right;padding:1px 5px;font-size:8px;margin-left:3px;" onclick="doAutoEquipBest()">⚡一键换装</button>
+        </div><div id="equippedSlots"></div></div>
         <div class="stat-group">
           <div class="stat-group-title">📦 背包 (<span id="invCount">0</span>/<span id="invMax">30</span>)
             <button class="action-btn red" style="float:right;padding:1px 5px;font-size:8px" onclick="sellAllWhite()">卖白装</button>
+            <button class="action-btn" style="float:right;padding:1px 5px;font-size:8px;margin-right:3px;border-color:#FF8800;color:#FF8800;" onclick="doSellWeaker()">🗑️卖弱装</button>
           </div>
           <div id="inventoryList"></div>
         </div>
@@ -1758,6 +1761,16 @@ function doSell(idx) { if (GameEngine.sellItem(idx) > 0) updateUI(); }
 function sellAllWhite() {
   const s = GameEngine.getState(); if (!s) return;
   for (let i = s.inventory.length - 1; i >= 0; i--) if (s.inventory[i].qualityIdx === 0) GameEngine.sellItem(i);
+  updateUI();
+}
+function doAutoEquipBest() {
+  const r = GameEngine.autoEquipBest();
+  showResult('⚡ 一键换装', r.msg);
+  updateUI();
+}
+function doSellWeaker() {
+  const r = GameEngine.sellWeakerItems();
+  showResult('🗑️ 卖弱装', r.msg);
   updateUI();
 }
 function doEnhance(slot) { const r = GameEngine.enhanceEquip(slot); if (!r.success) showResult('强化', r.msg); updateUI(); }

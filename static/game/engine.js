@@ -1639,6 +1639,65 @@ const GameEngine = (() => {
     return gold;
   }
 
+  // 一键装备最强装备
+  function autoEquipBest() {
+    let equipped = 0;
+    // 多轮扫描直到没有更好的装备（因为装备后原装备回到背包可能影响后续判断）
+    let changed = true;
+    while (changed) {
+      changed = false;
+      for (let i = state.inventory.length - 1; i >= 0; i--) {
+        const item = state.inventory[i];
+        if (!item) continue;
+        const curEquip = state.equipment[item.slot];
+        const newScore = getEquipScore(item);
+        const curScore = curEquip ? getEquipScore(curEquip) : 0;
+        if (newScore > curScore) {
+          // 装备这件
+          if (curEquip) state.inventory.push(curEquip);
+          state.equipment[item.slot] = item;
+          state.inventory.splice(i, 1);
+          equipped++;
+          changed = true;
+          break; // 重新从头扫描，因为数组已变
+        }
+      }
+    }
+    state.hp = Math.min(state.hp, getComputedStats().maxHp);
+    if (equipped > 0) {
+      addLog(`⚡ 一键换装！替换了 ${equipped} 件更强装备`);
+      emit('equipChange', {});
+      saveState();
+    }
+    return { success: true, count: equipped, msg: equipped > 0 ? `替换了 ${equipped} 件更强装备！` : '当前已是最强配置' };
+  }
+
+  // 一键出售比身上弱的装备
+  function sellWeakerItems() {
+    let soldCount = 0;
+    let totalGold = 0;
+    for (let i = state.inventory.length - 1; i >= 0; i--) {
+      const item = state.inventory[i];
+      if (!item) continue;
+      const curEquip = state.equipment[item.slot];
+      if (!curEquip) continue; // 该槽位没装备，背包里的不卖
+      const newScore = getEquipScore(item);
+      const curScore = getEquipScore(curEquip);
+      if (newScore <= curScore) {
+        const gold = Math.max(1, newScore * 2);
+        state.gold += gold;
+        totalGold += gold;
+        state.inventory.splice(i, 1);
+        soldCount++;
+      }
+    }
+    if (soldCount > 0) {
+      addLog(`💰 一键出售 ${soldCount} 件弱装备，获得 ${formatNumber(totalGold)} 灵石`);
+      saveState();
+    }
+    return { success: true, count: soldCount, gold: totalGold, msg: soldCount > 0 ? `出售了 ${soldCount} 件，获得 ${formatNumber(totalGold)} 灵石` : '没有可出售的弱装备' };
+  }
+
   function enhanceEquip(slot) {
     const item = state.equipment[slot];
     if (!item) return { success: false, msg: '无装备' };
@@ -2010,6 +2069,7 @@ const GameEngine = (() => {
   return {
     start, stop, getState, upgrade, resetState, processOfflineGains, formatNumber,
     equipItem, unequipItem, sellItem, enhanceEquip, getEquipScore, getEquipEnhanceCost, compareEquip,
+    autoEquipBest, sellWeakerItems,
     craftPill, usePill, PILL_RECIPES,
     upgradeSkill, SKILL_TREE,
     feedBeast, setActiveBeast, BEAST_TEMPLATES,
