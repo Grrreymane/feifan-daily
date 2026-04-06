@@ -138,14 +138,41 @@
       <h1>🐭 鼠鼠修仙 · 迭代记录</h1>
       <p>每一个版本都是一次飞升 ✨</p>
       <div class="stats">
-        <div class="stat"><span class="stat-value">v2.0</span><span class="stat-label">当前版本</span></div>
-        <div class="stat"><span class="stat-value">21</span><span class="stat-label">版本迭代</span></div>
+        <div class="stat"><span class="stat-value">v2.0.1</span><span class="stat-label">当前版本</span></div>
+        <div class="stat"><span class="stat-value">22</span><span class="stat-label">版本迭代</span></div>
         <div class="stat"><span class="stat-value">~6000+</span><span class="stat-label">总代码行数</span></div>
         <div class="stat"><span class="stat-value">3天</span><span class="stat-label">开发周期</span></div>
       </div>
     </div>
 
     <div class="timeline" id="timeline">
+
+      <!-- v2.0.1 -->
+      <div class="version-card patch open">
+        <div class="version-header" onclick="toggleVersion(this)">
+          <span class="version-badge patch">v2.0.1</span>
+          <span class="version-title">修复光环方块 + 美术调整指南</span>
+          <span class="version-date">2026-04-06</span>
+          <span class="version-toggle">▼</span>
+        </div>
+        <div class="version-body">
+          <div class="desc">修复方块像素风重制后境界光环变成放大缩小方块的问题，并添加美术风格调整指南方便后续迭代</div>
+          <div class="feature-group">
+            <div class="feature-group-title">🐛 修复 <span class="tag tag-fix">修复</span></div>
+            <ul class="feature-list">
+              <li><strong>境界光环</strong>：从方块rect改回椭圆ellipse，去掉不断放大缩小的方块</li>
+              <li>光晕透明度和脉冲幅度降低（0.5→0.4, 0.15→0.1），更柔和自然</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">📐 架构优化 <span class="tag tag-improve">优化</span></div>
+            <ul class="feature-list">
+              <li><strong>美术风格调整指南</strong>：文件顶部新增详细注释，标注9大可调整区域的对应函数/对象</li>
+              <li>未来美术迭代时可快速定位修改目标，降低维护成本</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
       <!-- v2.0 -->
       <div class="version-card major open">
