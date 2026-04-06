@@ -138,17 +138,49 @@
       <h1>🐭 鼠鼠修仙 · 迭代记录</h1>
       <p>每一个版本都是一次飞升 ✨</p>
       <div class="stats">
-        <div class="stat"><span class="stat-value">v1.5.3</span><span class="stat-label">当前版本</span></div>
-        <div class="stat"><span class="stat-value">20</span><span class="stat-label">版本迭代</span></div>
-        <div class="stat"><span class="stat-value">~6700+</span><span class="stat-label">总代码行数</span></div>
+        <div class="stat"><span class="stat-value">v2.0</span><span class="stat-label">当前版本</span></div>
+        <div class="stat"><span class="stat-value">21</span><span class="stat-label">版本迭代</span></div>
+        <div class="stat"><span class="stat-value">~6000+</span><span class="stat-label">总代码行数</span></div>
         <div class="stat"><span class="stat-value">3天</span><span class="stat-label">开发周期</span></div>
       </div>
     </div>
 
     <div class="timeline" id="timeline">
 
+      <!-- v2.0 -->
+      <div class="version-card major open">
+        <div class="version-header" onclick="toggleVersion(this)">
+          <span class="version-badge major">v2.0</span>
+          <span class="version-title">方块像素风美术全面重制</span>
+          <span class="version-date">2026-04-06</span>
+          <span class="version-toggle">▼</span>
+        </div>
+        <div class="version-body">
+          <div class="desc">sprites.js 全面重写，从圆润像素风改回经典方块像素风格，用更多像素组成更精细的角色画面</div>
+          <div class="feature-group">
+            <div class="feature-group-title">🎨 美术风格重制 <span class="tag tag-new">全新</span></div>
+            <ul class="feature-list">
+              <li><strong>6境界鼠鼠角色</strong>：全部改用方块(px/rect)绘制，告别圆润风格</li>
+              <li><strong>18种怪物</strong>：灰毛妖鼠、毒蟾蜍、赤狐妖、铁甲傀儡等全部方块像素画</li>
+              <li><strong>6种出战灵兽</strong>：赤炎灵猫、玄冰狼、雷鸣鹰等方块重制</li>
+              <li><strong>3种装饰灵宠</strong>：小蛇/蛟龙/金龙方块版</li>
+              <li><strong>2种坐骑</strong>：仙鹤/麒麟方块像素重绘</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">⚡ 代码优化 <span class="tag tag-improve">优化</span></div>
+            <ul class="feature-list">
+              <li>sprites.js 从 2495行/92KB 精简至 1287行/60KB</li>
+              <li>绘制代码量减少约50%，方块风格更易维护</li>
+              <li>保留 circle/ellipse 仅用于光效和特效</li>
+              <li>武器皮肤/盔甲皮肤保持原有方块风格不变</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <!-- v1.5.3 -->
-      <div class="version-card patch open">
+      <div class="version-card patch">
         <div class="version-header" onclick="toggleVersion(this)">
           <span class="version-badge patch">v1.5.3</span>
           <span class="version-title">角色站在坐骑背上</span>
