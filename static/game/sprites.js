@@ -2,6 +2,24 @@
 // sprites.js — 鼠鼠修仙 像素精灵绘制系统 v3.0
 // 方块像素风格 — 高分辨率像素画，更多像素组成
 // ============================================================
+//
+// 【美术风格调整指南】
+// 1. 颜色调整 → 修改下方 C 对象的颜色常量
+// 2. 角色体型/比例 → 修改 drawMouseBody() 中的像素坐标
+// 3. 各境界外观 → 修改 drawMouseRealm0~5 各函数
+// 4. 怪物外观 → 修改 monsterDrawers / monsterDrawersExtra 对象
+// 5. 灵兽外观 → 修改 drawActiveBeast 函数
+// 6. 坐骑外观 → 修改 drawMountCrane / drawMountQilin 函数
+// 7. 光环/特效 → 修改 drawMouseByRealm 函数中的 ellipse 光晕部分
+// 8. 武器皮肤 → 修改 weaponSkinDrawers 对象
+// 9. 衣服皮肤 → 修改 armorSkinColors 颜色表
+//
+// 核心绘制API:
+//   px(ctx, x, y, s, color)     — 画单个像素方块
+//   rect(ctx, x, y, w, h, color) — 画矩形方块
+//   circle/ellipse              — 仅用于光效/特效（保持柔和）
+//   drawMatrix(ctx, matrix, x, y, s) — 从二维颜色矩阵批量绘制
+// ============================================================
 
 const Sprites = (() => {
 
@@ -1237,13 +1255,14 @@ const Sprites = (() => {
   function drawMouseByRealm(ctx, x, y, s, realmIndex, frame, attacking, options) {
     const opts = options || {};
     const drawFns = [drawMouseRealm0,drawMouseRealm1,drawMouseRealm2,drawMouseRealm3,drawMouseRealm4,drawMouseRealm5];
+    // 境界光环（用circle绘制柔和的椭圆光晕，不是方块）
     if(realmIndex >= 1){
       const glowColors = [null,'rgba(68,136,204,0.08)','rgba(46,139,139,0.10)','rgba(65,105,180,0.12)','rgba(123,62,191,0.15)','rgba(160,32,96,0.18)'];
       const glowR = (12+realmIndex*4)*s;
-      const pulse = 1+Math.sin(frame*0.03)*0.15;
-      ctx.save(); ctx.globalAlpha=0.5;
+      const pulse = 1+Math.sin(frame*0.03)*0.1;
+      ctx.save(); ctx.globalAlpha=0.4;
       const r = glowR*pulse;
-      rect(ctx, x-r, y-2*s-r*0.8, r*2, r*1.6, glowColors[realmIndex]||'transparent');
+      ellipse(ctx, x, y-2*s, r, r*0.7, glowColors[realmIndex]||'transparent');
       ctx.globalAlpha=1; ctx.restore();
     }
     const fn = drawFns[realmIndex] || drawFns[0];
