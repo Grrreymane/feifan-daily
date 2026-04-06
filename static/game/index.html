@@ -1126,14 +1126,40 @@ function render() {
     });
     ctx.globalAlpha = 1;
 
-    // 坐骑绘制（金丹期+仙鹤，化神期+麒麟）
+    // 计算角色内部运动偏移（与sprites.js各realm函数内部的float/atkX一致）
+    let innerFloat = 0, innerAtkX = 0;
+    const atkVal = mouseAttackAnim > 0 ? mouseAttackAnim : 0;
+    if (gs.realmIndex === 0) {
+      innerAtkX = atkVal ? Math.sin(atkVal * 0.4) * 6 * PIXEL_SCALE : 0;
+    } else if (gs.realmIndex === 1) {
+      innerAtkX = atkVal ? Math.sin(atkVal * 0.4) * 8 * PIXEL_SCALE : 0;
+    } else if (gs.realmIndex === 2) {
+      innerFloat = Math.sin(animFrame * 0.04) * 2 * PIXEL_SCALE;
+      innerAtkX = atkVal ? Math.sin(atkVal * 0.4) * 10 * PIXEL_SCALE : 0;
+    } else if (gs.realmIndex === 3) {
+      innerFloat = Math.sin(animFrame * 0.04) * 3 * PIXEL_SCALE - 3 * PIXEL_SCALE;
+      innerAtkX = atkVal ? Math.sin(atkVal * 0.4) * 12 * PIXEL_SCALE : 0;
+    } else if (gs.realmIndex === 4) {
+      innerFloat = Math.sin(animFrame * 0.03) * 4 * PIXEL_SCALE - 6 * PIXEL_SCALE;
+      innerAtkX = atkVal ? Math.sin(atkVal * 0.4) * 14 * PIXEL_SCALE : 0;
+    } else if (gs.realmIndex === 5) {
+      innerFloat = Math.sin(animFrame * 0.03) * 5 * PIXEL_SCALE - 9 * PIXEL_SCALE;
+      innerAtkX = atkVal ? Math.sin(atkVal * 0.4) * 16 * PIXEL_SCALE : 0;
+    }
+
+    // 坐骑绘制（金丹期+仙鹤，化神期+麒麟）— 跟随角色运动+朝右
     if (gs.visualEquip && gs.visualEquip.mount && !gs.isDead) {
-      const mountY = mouseY + breathOffset + 12;
+      const mountBaseX = mouseX + swayOffset + innerAtkX;
+      const mountBaseY = mouseY + breathOffset + innerFloat + 12;
+      ctx.save();
+      ctx.translate(mountBaseX, mountBaseY);
+      ctx.scale(-1, 1); // 水平翻转朝右
       if (gs.visualEquip.mount === '仙鹤') {
-        Sprites.drawMountCrane(ctx, mouseX + swayOffset, mountY, PIXEL_SCALE, animFrame);
+        Sprites.drawMountCrane(ctx, 0, 0, PIXEL_SCALE, animFrame);
       } else if (gs.visualEquip.mount === '麒麟') {
-        Sprites.drawMountQilin(ctx, mouseX + swayOffset, mountY, PIXEL_SCALE, animFrame);
+        Sprites.drawMountQilin(ctx, 0, 0, PIXEL_SCALE, animFrame);
       }
+      ctx.restore();
     }
 
     // 出战灵兽绘制（带攻击动画，朝右）
@@ -1251,10 +1277,12 @@ function render() {
     }
     if (monsterWalkIn < 1) monsterWalkIn = Math.min(1, monsterWalkIn + 0.04);
 
-    // 鼠鼠HP条
+    // 鼠鼠HP条（根据境界动态调整位置避免覆盖角色）
     if (gs.computed && !gs.isDead) {
       const hpPct = gs.hp / gs.computed.maxHp;
-      const barW = 56, barH = 5, barX = mouseX - barW/2, barY = mouseY - 65;
+      // 不同境界角色高度不同，血条需要足够高
+      const hpBarExtra = [0, 0, 5, 12, 20, 32][gs.realmIndex] || 0;
+      const barW = 56, barH = 5, barX = mouseX - barW/2, barY = mouseY + breathOffset + innerFloat - 35 - hpBarExtra;
       ctx.fillStyle = '#222'; ctx.fillRect(barX - 1, barY - 1, barW + 2, barH + 2);
       ctx.fillStyle = '#333'; ctx.fillRect(barX, barY, barW, barH);
       if (hpPct > 0) {
