@@ -166,25 +166,13 @@ const Sprites = (() => {
     rect(ctx, 5*s, -9*s, 2*s, 2*s, C.CHEEK);
     px(ctx, 5*s, -10*s, s, '#FFCCDD');
 
-    // === 眼睛（3x4像素，更传神——瞳孔+高光+眼底色） ===
+    // === 眼睛（2x2像素小眼，参考像素鼠风格——小巧+单高光） ===
     // 左眼
-    rect(ctx, -4*s, -12*s, 3*s, 4*s, '#0A0A22'); // 眼框
-    rect(ctx, -3*s, -11*s, 2*s, 2*s, '#1A1A44');  // 瞳孔深色
-    px(ctx, -4*s, -12*s, s, '#FFFFFF');             // 高光点1
-    px(ctx, -3*s, -12*s, s, '#DDEEFF');             // 高光点2
-    px(ctx, -2*s, -9*s, s, '#6688BB');              // 眼底反光
+    rect(ctx, -4*s, -11*s, 2*s, 2*s, '#0A0A22'); // 眼睛主体
+    px(ctx, -4*s, -11*s, s, '#FFFFFF');            // 左上高光点
     // 右眼
-    rect(ctx, 2*s, -12*s, 3*s, 4*s, '#0A0A22');
-    rect(ctx, 2*s, -11*s, 2*s, 2*s, '#1A1A44');
-    px(ctx, 2*s, -12*s, s, '#FFFFFF');
-    px(ctx, 3*s, -12*s, s, '#DDEEFF');
-    px(ctx, 4*s, -9*s, s, '#6688BB');
-
-    // === 眉毛（微小的表情细节） ===
-    px(ctx, -4*s, -13*s, s, furMain);
-    px(ctx, -3*s, -13*s, s, '#7A8CA8');
-    px(ctx, 3*s, -13*s, s, '#7A8CA8');
-    px(ctx, 4*s, -13*s, s, furMain);
+    rect(ctx, 3*s, -11*s, 2*s, 2*s, '#0A0A22');
+    px(ctx, 3*s, -11*s, s, '#FFFFFF');
 
     // === 鼻子（小三角形） ===
     px(ctx, 0, -8*s, s, C.NOSE);
