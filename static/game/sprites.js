@@ -221,12 +221,12 @@ const Sprites = (() => {
 
     drawMouseTail(ctx, s, frame);
 
-    // 布衣身体（方块）
-    rect(ctx, -5*s, -4*s, 11*s, 8*s, cl);
-    rect(ctx, -4*s, -3*s, 9*s, 6*s, clAccent);
-    rect(ctx, -2*s, -2*s, 5*s, 4*s, C.FUR_BELLY);
+    // 布衣身体（v4.0适配：紧凑躯干）
+    rect(ctx, -4*s, -4*s, 9*s, 7*s, cl);
+    rect(ctx, -3*s, -3*s, 7*s, 5*s, clAccent);
+    rect(ctx, -2*s, -2*s, 5*s, 3*s, C.FUR_BELLY);
     // 腰带
-    rect(ctx, -5*s, 0, 11*s, s, clTrim);
+    rect(ctx, -4*s, 0, 9*s, s, clTrim);
     // 衣领（V型像素线）
     px(ctx, -s, -5*s, s, clTrim);
     px(ctx, 0, -4*s, s, clTrim);
@@ -262,12 +262,12 @@ const Sprites = (() => {
 
     drawMouseTail(ctx, s, frame, '#7A8CB0');
 
-    // 道袍身体
-    rect(ctx, -6*s, -4*s, 13*s, 9*s, cl);
-    rect(ctx, -5*s, -3*s, 11*s, 7*s, clAccent);
-    rect(ctx, -3*s, -2*s, 7*s, 5*s, C.FUR_BELLY);
+    // 道袍身体（v4.0适配）
+    rect(ctx, -5*s, -4*s, 11*s, 8*s, cl);
+    rect(ctx, -4*s, -3*s, 9*s, 6*s, clAccent);
+    rect(ctx, -2*s, -2*s, 5*s, 4*s, C.FUR_BELLY);
     // 腰带
-    rect(ctx, -6*s, 0, 13*s, s, clTrim);
+    rect(ctx, -5*s, 0, 11*s, s, clTrim);
     // V领
     px(ctx, -s, -5*s, s, clTrim);
     px(ctx, 0, -4*s, s, clTrim);
@@ -275,8 +275,8 @@ const Sprites = (() => {
     px(ctx, s, -5*s, s, clTrim);
     // 飘带
     const ribbonWave = Math.sin(frame * 0.06) > 0 ? s : 0;
-    rect(ctx, -6*s, 5*s, s, 3*s + ribbonWave, clTrim);
-    rect(ctx, -7*s, 7*s + ribbonWave, s, s, clTrim);
+    rect(ctx, -5*s, 5*s, s, 2*s + ribbonWave, clTrim);
+    rect(ctx, -6*s, 6*s + ribbonWave, s, s, clTrim);
 
     drawMouseBody(ctx, s, f, l, C.FUR_BELLY, C.EAR_PINK, C.EAR_INNER);
     drawMouseLegs(ctx, s, f);
@@ -308,25 +308,25 @@ const Sprites = (() => {
 
     drawMouseTail(ctx, s, frame, '#6688AA');
 
-    // 法袍（方块版）
-    rect(ctx, -6*s, -5*s, 13*s, 11*s, cl);
-    rect(ctx, -5*s, -4*s, 11*s, 9*s, clAccent);
-    rect(ctx, -3*s, -2*s, 7*s, 5*s, C.FUR_BELLY);
+    // 法袍（v4.0适配：紧凑躯干+浮空）
+    rect(ctx, -5*s, -4*s, 11*s, 9*s, cl);
+    rect(ctx, -4*s, -3*s, 9*s, 7*s, clAccent);
+    rect(ctx, -2*s, -2*s, 5*s, 4*s, C.FUR_BELLY);
     // 金丹纹饰（闪烁像素块）
     ctx.globalAlpha = 0.3 + Math.sin(frame * 0.04) * 0.15;
     rect(ctx, -s, -s, 3*s, 2*s, '#44FFCC');
     ctx.globalAlpha = 1;
     // 腰带
-    rect(ctx, -6*s, 0, 13*s, s, clTrim);
+    rect(ctx, -5*s, 0, 11*s, s, clTrim);
     // 玉佩
-    px(ctx, -5*s, 2*s, s, '#44DDBB');
-    px(ctx, -5*s, 3*s, s, '#88FFE0');
+    px(ctx, -4*s, 2*s, s, '#44DDBB');
+    px(ctx, -4*s, 3*s, s, '#88FFE0');
     // V领
-    px(ctx, -2*s, -6*s, s, clTrim);
-    px(ctx, -s, -5*s, s, clTrim);
+    px(ctx, -2*s, -5*s, s, clTrim);
+    px(ctx, -s, -4*s, s, clTrim);
     px(ctx, 0, -4*s, s, clTrim);
-    px(ctx, s, -5*s, s, clTrim);
-    px(ctx, 2*s, -6*s, s, clTrim);
+    px(ctx, s, -4*s, s, clTrim);
+    px(ctx, 2*s, -5*s, s, clTrim);
 
     // 浮空气流（方块版）
     ctx.globalAlpha = 0.15;
@@ -366,10 +366,10 @@ const Sprites = (() => {
 
     drawMouseTail(ctx, s, frame, '#5577AA');
 
-    // 华服（方块版，更大）
-    rect(ctx, -7*s, -5*s, 15*s, 12*s, cl);
-    rect(ctx, -6*s, -4*s, 13*s, 10*s, clAccent);
-    rect(ctx, -3*s, -2*s, 7*s, 6*s, C.FUR_BELLY);
+    // 华服（v4.0适配：紧凑+高级）
+    rect(ctx, -6*s, -4*s, 13*s, 10*s, cl);
+    rect(ctx, -5*s, -3*s, 11*s, 8*s, clAccent);
+    rect(ctx, -2*s, -2*s, 5*s, 5*s, C.FUR_BELLY);
     // 灵纹（旋转方块像素）
     ctx.globalAlpha = 0.25;
     for (let i = 0; i < 3; i++) {
@@ -380,23 +380,23 @@ const Sprites = (() => {
     }
     ctx.globalAlpha = 1;
     // 腰带+宝石
-    rect(ctx, -7*s, 0, 15*s, s, clTrim);
+    rect(ctx, -6*s, 0, 13*s, s, clTrim);
     rect(ctx, 0, 0, s, s, '#4488FF');
     // 肩饰（方块）
-    rect(ctx, -7*s, -5*s, 2*s, 2*s, clTrim);
-    rect(ctx, 6*s, -5*s, 2*s, 2*s, clTrim);
+    rect(ctx, -6*s, -4*s, 2*s, 2*s, clTrim);
+    rect(ctx, 5*s, -4*s, 2*s, 2*s, clTrim);
     // V领
-    px(ctx, -2*s, -6*s, s, clTrim);
-    px(ctx, -s, -5*s, s, clTrim);
+    px(ctx, -2*s, -5*s, s, clTrim);
+    px(ctx, -s, -4*s, s, clTrim);
     px(ctx, 0, -4*s, s, clTrim);
-    px(ctx, s, -5*s, s, clTrim);
-    px(ctx, 2*s, -6*s, s, clTrim);
+    px(ctx, s, -4*s, s, clTrim);
+    px(ctx, 2*s, -5*s, s, clTrim);
     // 飘带
     const rw = Math.sin(frame * 0.05) > 0 ? s : 0;
-    rect(ctx, -7*s, 7*s, s, 3*s + rw, clTrim);
-    rect(ctx, -8*s, 9*s + rw, s, s, clTrim);
-    rect(ctx, 7*s, 7*s, s, 3*s + rw, clTrim);
-    rect(ctx, 8*s, 9*s + rw, s, s, clTrim);
+    rect(ctx, -6*s, 6*s, s, 2*s + rw, clTrim);
+    rect(ctx, -7*s, 7*s + rw, s, s, clTrim);
+    rect(ctx, 6*s, 6*s, s, 2*s + rw, clTrim);
+    rect(ctx, 7*s, 7*s + rw, s, s, clTrim);
 
     drawMouseBody(ctx, s, f, l, C.FUR_BELLY, C.EAR_PINK, C.EAR_INNER);
     drawMouseLegs(ctx, s, f);
@@ -428,11 +428,11 @@ const Sprites = (() => {
 
     drawMouseTail(ctx, s, frame, '#7788CC');
 
-    // 仙袍（方块版，下摆宽大）
-    rect(ctx, -8*s, -5*s, 17*s, 13*s, cl);
-    rect(ctx, -9*s, 4*s, 19*s, 4*s, cl); // 下摆
-    rect(ctx, -7*s, -4*s, 15*s, 9*s, clAccent);
-    rect(ctx, -3*s, -2*s, 7*s, 6*s, C.FUR_BELLY);
+    // 仙袍（v4.0适配：紧凑+飘逸下摆）
+    rect(ctx, -6*s, -4*s, 13*s, 10*s, cl);
+    rect(ctx, -7*s, 4*s, 15*s, 3*s, cl); // 下摆
+    rect(ctx, -5*s, -3*s, 11*s, 8*s, clAccent);
+    rect(ctx, -2*s, -2*s, 5*s, 5*s, C.FUR_BELLY);
     // 符文光（闪烁像素块）
     ctx.globalAlpha = 0.2 + Math.sin(frame * 0.03) * 0.1;
     for (let i = 0; i < 4; i++) {
@@ -442,29 +442,29 @@ const Sprites = (() => {
     }
     ctx.globalAlpha = 1;
     // 腰带
-    rect(ctx, -8*s, 0, 17*s, s, clTrim);
+    rect(ctx, -6*s, 0, 13*s, s, clTrim);
     // 紫玉坠
     rect(ctx, 0, 0, s, s, '#9944FF');
     px(ctx, 0, s, s, '#CC88FF');
     // 肩甲（方块+宝石）
-    rect(ctx, -8*s, -5*s, 3*s, 2*s, clTrim);
-    px(ctx, -7*s, -5*s, s, '#FF88FF');
-    rect(ctx, 6*s, -5*s, 3*s, 2*s, clTrim);
-    px(ctx, 7*s, -5*s, s, '#FF88FF');
+    rect(ctx, -6*s, -4*s, 2*s, 2*s, clTrim);
+    px(ctx, -5*s, -4*s, s, '#FF88FF');
+    rect(ctx, 5*s, -4*s, 2*s, 2*s, clTrim);
+    px(ctx, 6*s, -4*s, s, '#FF88FF');
     // V领
-    px(ctx, -2*s, -6*s, s, clTrim);
-    px(ctx, -s, -5*s, s, clTrim);
+    px(ctx, -2*s, -5*s, s, clTrim);
+    px(ctx, -s, -4*s, s, clTrim);
     px(ctx, 0, -4*s, s, clTrim);
-    px(ctx, s, -5*s, s, clTrim);
-    px(ctx, 2*s, -6*s, s, clTrim);
+    px(ctx, s, -4*s, s, clTrim);
+    px(ctx, 2*s, -5*s, s, clTrim);
     // 长飘带（方块像素线）
     const rw = Math.sin(frame * 0.04) > 0 ? s : 0;
-    rect(ctx, -9*s, 8*s, s, 4*s + rw, clTrim);
-    rect(ctx, -10*s, 11*s + rw, s, 2*s, clTrim);
-    rect(ctx, -11*s, 12*s + rw, s, 2*s, clTrim);
-    rect(ctx, 9*s, 8*s, s, 4*s + rw, clTrim);
-    rect(ctx, 10*s, 11*s + rw, s, 2*s, clTrim);
-    rect(ctx, 11*s, 12*s + rw, s, 2*s, clTrim);
+    rect(ctx, -7*s, 7*s, s, 3*s + rw, clTrim);
+    rect(ctx, -8*s, 9*s + rw, s, 2*s, clTrim);
+    rect(ctx, -9*s, 10*s + rw, s, s, clTrim);
+    rect(ctx, 7*s, 7*s, s, 3*s + rw, clTrim);
+    rect(ctx, 8*s, 9*s + rw, s, 2*s, clTrim);
+    rect(ctx, 9*s, 10*s + rw, s, s, clTrim);
 
     drawMouseBody(ctx, s, f, l, C.FUR_BELLY, C.EAR_PINK, C.EAR_INNER);
     drawMouseLegs(ctx, s, f);
@@ -501,11 +501,11 @@ const Sprites = (() => {
     rect(ctx, -16*s, -16*s, 33*s, 33*s, '#FF66BB');
     ctx.globalAlpha = 1;
 
-    // 天衣身体（方块版，最大最华丽）
-    rect(ctx, -9*s, -5*s, 19*s, 14*s, cl);
-    rect(ctx, -10*s, 5*s, 21*s, 5*s, cl); // 大下摆
-    rect(ctx, -8*s, -4*s, 17*s, 10*s, clAccent);
-    rect(ctx, -4*s, -2*s, 9*s, 7*s, C.FUR_BELLY);
+    // 天衣身体（v4.0适配：紧凑+最华丽）
+    rect(ctx, -7*s, -4*s, 15*s, 11*s, cl);
+    rect(ctx, -8*s, 5*s, 17*s, 4*s, cl); // 大下摆
+    rect(ctx, -6*s, -3*s, 13*s, 9*s, clAccent);
+    rect(ctx, -3*s, -2*s, 7*s, 6*s, C.FUR_BELLY);
 
     // 天衣纹饰（旋转像素符文）
     ctx.globalAlpha = 0.25 + Math.sin(frame * 0.025) * 0.1;
@@ -517,39 +517,39 @@ const Sprites = (() => {
     ctx.globalAlpha = 1;
 
     // 天冠（方块版头饰）
-    rect(ctx, -s, -17*s, 3*s, 2*s, '#FFD700');
-    px(ctx, 0, -18*s, s, '#FFFFAA');
+    rect(ctx, -s, -16*s, 3*s, 2*s, '#FFD700');
+    px(ctx, 0, -17*s, s, '#FFFFAA');
     ctx.globalAlpha = 0.4 + Math.sin(frame * 0.06) * 0.3;
-    rect(ctx, -2*s, -18*s, 5*s, 3*s, '#FFD70066');
+    rect(ctx, -2*s, -17*s, 5*s, 3*s, '#FFD70066');
     ctx.globalAlpha = 1;
 
     // 腰带
-    rect(ctx, -9*s, 0, 19*s, s, clTrim);
+    rect(ctx, -7*s, 0, 15*s, s, clTrim);
     // 神玉
     rect(ctx, 0, 0, s, s, '#FF3388');
     px(ctx, 0, s, s, '#FF88BB');
     // 大型肩甲
-    rect(ctx, -9*s, -5*s, 3*s, 3*s, clTrim);
-    px(ctx, -8*s, -5*s, s, '#FF44AA');
-    rect(ctx, 7*s, -5*s, 3*s, 3*s, clTrim);
-    px(ctx, 8*s, -5*s, s, '#FF44AA');
+    rect(ctx, -7*s, -4*s, 2*s, 2*s, clTrim);
+    px(ctx, -6*s, -4*s, s, '#FF44AA');
+    rect(ctx, 6*s, -4*s, 2*s, 2*s, clTrim);
+    px(ctx, 7*s, -4*s, s, '#FF44AA');
     // V领
-    px(ctx, -2*s, -6*s, s, clTrim);
-    px(ctx, -s, -5*s, s, clTrim);
+    px(ctx, -2*s, -5*s, s, clTrim);
+    px(ctx, -s, -4*s, s, clTrim);
     px(ctx, 0, -4*s, s, clTrim);
-    px(ctx, s, -5*s, s, clTrim);
-    px(ctx, 2*s, -6*s, s, clTrim);
+    px(ctx, s, -4*s, s, clTrim);
+    px(ctx, 2*s, -5*s, s, clTrim);
 
     // 多条长飘带
     const rw = Math.sin(frame * 0.035) > 0 ? s : 0;
     for (let i = 0; i < 2; i++) {
       const c = i === 0 ? clTrim : '#FF88CC88';
-      rect(ctx, -10*s - i*s, 10*s, s, 5*s + rw, c);
-      rect(ctx, -11*s - i*s, 14*s + rw, s, 3*s, c);
-      rect(ctx, -12*s - i*s, 16*s + rw, s, 2*s, c);
-      rect(ctx, 10*s + i*s, 10*s, s, 5*s + rw, c);
-      rect(ctx, 11*s + i*s, 14*s + rw, s, 3*s, c);
-      rect(ctx, 12*s + i*s, 16*s + rw, s, 2*s, c);
+      rect(ctx, -8*s - i*s, 9*s, s, 4*s + rw, c);
+      rect(ctx, -9*s - i*s, 12*s + rw, s, 2*s, c);
+      rect(ctx, -10*s - i*s, 13*s + rw, s, 2*s, c);
+      rect(ctx, 8*s + i*s, 9*s, s, 4*s + rw, c);
+      rect(ctx, 9*s + i*s, 12*s + rw, s, 2*s, c);
+      rect(ctx, 10*s + i*s, 13*s + rw, s, 2*s, c);
     }
 
     drawMouseBody(ctx, s, f, l, C.FUR_BELLY, C.EAR_PINK, C.EAR_INNER);
@@ -641,6 +641,7 @@ const Sprites = (() => {
   function drawPetDragon(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
+    ctx.scale(-1, 1); // 抵消外层灵兽翻转，使龙头朝右（面向怪物）
     const bob = Math.sin(frame * 0.04) * s;
     ctx.translate(0, bob);
     // 蛇形身体（S形蜿蜒，多节渐变）
@@ -691,6 +692,7 @@ const Sprites = (() => {
   function drawPetDragonGold(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
+    ctx.scale(-1, 1); // 抵消外层灵兽翻转，使龙头朝右（面向怪物）
     const bob = Math.sin(frame * 0.03) * 1.5 * s;
     ctx.translate(0, bob);
     const bodyGold = '#DAA520', scaleGold = '#FFD700', bellyGold = '#FFFFAA';
@@ -1404,11 +1406,12 @@ const Sprites = (() => {
     const atkX = attacking>0 ? Math.sin(attacking*0.4)*(6+realmIndex*2)*s : 0;
     const floatExtra = realmIndex>=3 ? -(realmIndex-2)*3*s : 0;
     ctx.save(); ctx.translate(x+atkX, y+bounce+floatExtra); ctx.globalAlpha=0.75;
-    const bw = realmIndex>=2 ? 7 : (realmIndex>=1 ? 6 : 5);
-    const bh = realmIndex>=2 ? 6 : (realmIndex>=1 ? 5 : 4);
+    // v4.0适配：缩小衣服覆盖层
+    const bw = realmIndex>=4 ? 7 : (realmIndex>=2 ? 6 : (realmIndex>=1 ? 5 : 4));
+    const bh = realmIndex>=4 ? 6 : (realmIndex>=2 ? 5 : (realmIndex>=1 ? 4 : 4));
     rect(ctx,-bw*s,-(bh-1)*s,bw*2*s,bh*2*s,colors.main);
     rect(ctx,-(bw-1)*s,-(bh-2)*s,(bw-1)*2*s,(bh-1)*2*s,colors.accent);
-    px(ctx,-s,-(bh+1)*s,s,colors.trim); px(ctx,0,-bh*s,s,colors.trim); px(ctx,s,-(bh+1)*s,s,colors.trim);
+    px(ctx,-s,-(bh)*s,s,colors.trim); px(ctx,0,-(bh-1)*s,s,colors.trim); px(ctx,s,-(bh)*s,s,colors.trim);
     rect(ctx,-bw*s,0,bw*2*s,s,colors.trim);
     if(skinId.includes('phoenix')||skinId.includes('celestial')||skinId.includes('primordial')||skinId.includes('universe')){
       ctx.globalAlpha=0.25+Math.sin(frame*0.04)*0.15; rect(ctx,-bw*s,-(bh-1)*s,bw*2*s,bh*2*s,colors.trim);
