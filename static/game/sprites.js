@@ -1,6 +1,7 @@
 // ============================================================
-// sprites.js — 鼠鼠修仙 像素精灵绘制系统 v3.0
+// sprites.js — 鼠鼠修仙 像素精灵绘制系统 v3.1
 // 方块像素风格 — 高分辨率像素画，更多像素组成
+// v3.1: 鼠鼠精细化 + 中华龙形象重制
 // ============================================================
 //
 // 【美术风格调整指南】
@@ -120,71 +121,126 @@ const Sprites = (() => {
   // 每个角色用更多像素块组成，全部使用 rect/px 绘制
   // ================================================================
 
-  // 通用鼠鼠身体绘制（方块像素版，所有境界共用）
+  // 通用鼠鼠身体绘制（方块像素版，所有境界共用）— v3.1 精细版
   function drawMouseBody(ctx, s, furMain, furLight, furBelly, earOuter, earInner) {
-    // === 耳朵（方块三角+内部粉色） ===
-    // 左耳
-    rect(ctx, -6*s, -16*s, 4*s, s, earOuter);
-    rect(ctx, -5*s, -17*s, 2*s, s, earOuter);
-    rect(ctx, -6*s, -15*s, 4*s, 2*s, earOuter);
-    rect(ctx, -5*s, -16*s, 2*s, s, earInner);
-    rect(ctx, -5*s, -15*s, 2*s, s, earInner);
-    // 右耳
-    rect(ctx, 3*s, -16*s, 4*s, s, earOuter);
-    rect(ctx, 4*s, -17*s, 2*s, s, earOuter);
-    rect(ctx, 3*s, -15*s, 4*s, 2*s, earOuter);
-    rect(ctx, 4*s, -16*s, 2*s, s, earInner);
-    rect(ctx, 4*s, -15*s, 2*s, s, earInner);
+    // === 耳朵（更精细的圆润三角+高光+阴影） ===
+    // 左耳外侧
+    rect(ctx, -7*s, -17*s, 5*s, s, earOuter);
+    rect(ctx, -6*s, -18*s, 3*s, s, earOuter);
+    rect(ctx, -7*s, -16*s, 5*s, 2*s, earOuter);
+    rect(ctx, -7*s, -14*s, 4*s, s, earOuter);
+    // 左耳内侧粉色（更多层次）
+    rect(ctx, -6*s, -17*s, 3*s, s, earInner);
+    rect(ctx, -6*s, -16*s, 3*s, s, earInner);
+    rect(ctx, -6*s, -15*s, 2*s, s, earInner);
+    px(ctx, -5*s, -17*s, s, '#E8B0D0'); // 耳内高光
+    // 右耳外侧
+    rect(ctx, 3*s, -17*s, 5*s, s, earOuter);
+    rect(ctx, 4*s, -18*s, 3*s, s, earOuter);
+    rect(ctx, 3*s, -16*s, 5*s, 2*s, earOuter);
+    rect(ctx, 4*s, -14*s, 4*s, s, earOuter);
+    // 右耳内侧粉色
+    rect(ctx, 4*s, -17*s, 3*s, s, earInner);
+    rect(ctx, 4*s, -16*s, 3*s, s, earInner);
+    rect(ctx, 5*s, -15*s, 2*s, s, earInner);
+    px(ctx, 5*s, -17*s, s, '#E8B0D0');
 
-    // === 头部（方块大头） ===
-    rect(ctx, -5*s, -13*s, 11*s, 9*s, furMain);
-    rect(ctx, -4*s, -14*s, 9*s, s, furMain);
-    rect(ctx, -4*s, -12*s, 9*s, 7*s, furLight);
-    // 腮帮
-    rect(ctx, -5*s, -8*s, 2*s, 2*s, C.CHEEK);
-    rect(ctx, 4*s, -8*s, 2*s, 2*s, C.CHEEK);
+    // === 头部（更大、更圆润，多层毛色渐变） ===
+    rect(ctx, -5*s, -14*s, 11*s, s, furMain);  // 头顶
+    rect(ctx, -6*s, -13*s, 13*s, 3*s, furMain); // 头上半
+    rect(ctx, -6*s, -10*s, 13*s, 4*s, furLight); // 头下半亮色
+    rect(ctx, -5*s, -6*s, 11*s, 2*s, furMain);  // 下巴
+    // 额头渐变高光
+    px(ctx, -2*s, -13*s, s, furLight);
+    px(ctx, -s, -14*s, s, furLight);
+    px(ctx, 0, -13*s, s, furLight);
+    px(ctx, s, -14*s, s, furLight);
+    px(ctx, 2*s, -13*s, s, furLight);
+    // 头顶毛发纹理
+    px(ctx, -3*s, -14*s, s, furLight);
+    px(ctx, 3*s, -14*s, s, furLight);
 
-    // === 眼睛（2x3像素黑+高光） ===
-    rect(ctx, -3*s, -11*s, 2*s, 3*s, '#000011');
-    px(ctx, -3*s, -11*s, s, '#FFFFFF');
-    px(ctx, -2*s, -9*s, s, '#AABBFF');
-    rect(ctx, 2*s, -11*s, 2*s, 3*s, '#000011');
-    px(ctx, 2*s, -11*s, s, '#FFFFFF');
-    px(ctx, 3*s, -9*s, s, '#AABBFF');
+    // === 腮帮（更柔和的腮红） ===
+    rect(ctx, -6*s, -9*s, 2*s, 2*s, C.CHEEK);
+    px(ctx, -5*s, -10*s, s, '#FFCCDD'); // 腮红上延
+    rect(ctx, 5*s, -9*s, 2*s, 2*s, C.CHEEK);
+    px(ctx, 5*s, -10*s, s, '#FFCCDD');
 
-    // === 鼻子 ===
-    rect(ctx, 0, -7*s, s, s, C.NOSE);
+    // === 眼睛（3x4像素，更传神——瞳孔+高光+眼底色） ===
+    // 左眼
+    rect(ctx, -4*s, -12*s, 3*s, 4*s, '#0A0A22'); // 眼框
+    rect(ctx, -3*s, -11*s, 2*s, 2*s, '#1A1A44');  // 瞳孔深色
+    px(ctx, -4*s, -12*s, s, '#FFFFFF');             // 高光点1
+    px(ctx, -3*s, -12*s, s, '#DDEEFF');             // 高光点2
+    px(ctx, -2*s, -9*s, s, '#6688BB');              // 眼底反光
+    // 右眼
+    rect(ctx, 2*s, -12*s, 3*s, 4*s, '#0A0A22');
+    rect(ctx, 2*s, -11*s, 2*s, 2*s, '#1A1A44');
+    px(ctx, 2*s, -12*s, s, '#FFFFFF');
+    px(ctx, 3*s, -12*s, s, '#DDEEFF');
+    px(ctx, 4*s, -9*s, s, '#6688BB');
 
-    // === 嘴巴 ===
-    px(ctx, -s, -6*s, s, '#8899AA');
-    px(ctx, s, -6*s, s, '#8899AA');
+    // === 眉毛（微小的表情细节） ===
+    px(ctx, -4*s, -13*s, s, furMain);
+    px(ctx, -3*s, -13*s, s, '#7A8CA8');
+    px(ctx, 3*s, -13*s, s, '#7A8CA8');
+    px(ctx, 4*s, -13*s, s, furMain);
 
-    // === 胡须（方块像素线） ===
-    rect(ctx, -8*s, -10*s, 3*s, s, C.WHISKER);
-    rect(ctx, -8*s, -8*s, 3*s, s, C.WHISKER);
-    rect(ctx, 6*s, -10*s, 3*s, s, C.WHISKER);
-    rect(ctx, 6*s, -8*s, 3*s, s, C.WHISKER);
+    // === 鼻子（小三角形） ===
+    px(ctx, 0, -8*s, s, C.NOSE);
+    px(ctx, -s, -7*s, s, '#DD8899');
+    px(ctx, s, -7*s, s, '#DD8899');
+
+    // === 嘴巴（微笑弧线） ===
+    px(ctx, -2*s, -6*s, s, '#8899AA');
+    px(ctx, -s, -5*s, s, '#8899AA');
+    px(ctx, 0, -5*s, s, '#7788AA');
+    px(ctx, s, -5*s, s, '#8899AA');
+    px(ctx, 2*s, -6*s, s, '#8899AA');
+
+    // === 胡须（6根，左右各3，长短交错） ===
+    // 左侧
+    rect(ctx, -9*s, -11*s, 3*s, s, C.WHISKER);
+    rect(ctx, -10*s, -9*s, 4*s, s, C.WHISKER);
+    rect(ctx, -9*s, -7*s, 3*s, s, C.WHISKER);
+    // 右侧
+    rect(ctx, 7*s, -11*s, 3*s, s, C.WHISKER);
+    rect(ctx, 7*s, -9*s, 4*s, s, C.WHISKER);
+    rect(ctx, 7*s, -7*s, 3*s, s, C.WHISKER);
   }
 
-  // 绘制鼠鼠腿脚（方块版）
+  // 绘制鼠鼠腿脚（方块版）— v3.1 精细版
   function drawMouseLegs(ctx, s, furMain) {
+    // 左腿
     rect(ctx, -4*s, 3*s, 3*s, 4*s, furMain);
-    rect(ctx, -4*s, 7*s, 3*s, s, C.FUR_DARK);
+    rect(ctx, -5*s, 6*s, s, s, furMain);        // 大腿外侧
+    rect(ctx, -4*s, 7*s, 4*s, s, C.FUR_DARK);   // 脚掌
+    px(ctx, -5*s, 7*s, s, C.FUR_DARK);           // 脚趾
+    // 右腿
     rect(ctx, 2*s, 3*s, 3*s, 4*s, furMain);
-    rect(ctx, 2*s, 7*s, 3*s, s, C.FUR_DARK);
+    rect(ctx, 5*s, 6*s, s, s, furMain);
+    rect(ctx, 1*s, 7*s, 4*s, s, C.FUR_DARK);
+    px(ctx, 5*s, 7*s, s, C.FUR_DARK);
   }
 
-  // 绘制尾巴（方块版）
+  // 绘制尾巴（方块版）— v3.1 精细版，更长更卷
   function drawMouseTail(ctx, s, frame, color) {
     const c = color || C.TAIL;
+    const cLight = color ? color + 'CC' : '#8AA0C0';
     const wave = Math.sin(frame * 0.06) * 2;
+    // 根部粗
     rect(ctx, -4*s, 2*s, 2*s, s, c);
-    rect(ctx, -6*s, s + wave*s, 2*s, s, c);
-    rect(ctx, -8*s, 0 + wave*s, 2*s, s, c);
-    rect(ctx, -9*s, -s + wave*s, s, s, c);
-    rect(ctx, -10*s, -2*s + wave*s, s, s, c);
-    rect(ctx, -10*s, -3*s + wave*0.5*s, s, s, c);
-    rect(ctx, -9*s, -4*s + wave*0.5*s, s, s, c);
+    rect(ctx, -5*s, s, 2*s, 2*s, c);
+    // 中部
+    rect(ctx, -7*s, s + wave*s, 2*s, s, c);
+    px(ctx, -7*s, wave*s, s, cLight); // 高光
+    rect(ctx, -9*s, 0 + wave*s, 2*s, s, c);
+    // 尾端细卷
+    rect(ctx, -10*s, -s + wave*s, s, s, c);
+    rect(ctx, -11*s, -2*s + wave*0.7*s, s, s, c);
+    rect(ctx, -11*s, -3*s + wave*0.5*s, s, s, c);
+    rect(ctx, -10*s, -4*s + wave*0.4*s, s, s, c);
+    px(ctx, -9*s, -4*s + wave*0.3*s, s, c); // 尾尖
   }
 
   // ================================================================
@@ -620,48 +676,114 @@ const Sprites = (() => {
     ctx.restore();
   }
 
-  // 蛟龙（装饰性）
+  // 蛟龙（装饰性）— 中华龙风格：蛇形长身、鹿角、龙须、云纹
   function drawPetDragon(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
     const bob = Math.sin(frame * 0.04) * s;
     ctx.translate(0, bob);
-    // 身体
-    rect(ctx, -3*s, -s, 8*s, 3*s, '#4488CC');
-    rect(ctx, -2*s, -2*s, 6*s, s, '#5599DD');
-    // 头
-    rect(ctx, 5*s, -3*s, 3*s, 4*s, '#5599DD');
-    px(ctx, 7*s, -3*s, s, '#88CCFF'); // 角
-    px(ctx, 6*s, -2*s, s, '#FFFF00'); // 眼
-    // 翅膀
-    rect(ctx, -s, -4*s, 3*s, 2*s, '#4488CC88');
-    // 尾
-    rect(ctx, -5*s, 0, 2*s, s, '#3377BB');
-    px(ctx, -6*s, s, s, '#3377BB');
+    // 蛇形身体（S形蜿蜒，多节渐变）
+    const bodyColor = '#3388BB', scaleColor = '#44AADD', bellyColor = '#88DDFF';
+    // 身段1
+    rect(ctx, -5*s, 0, 3*s, 2*s, bodyColor);
+    px(ctx, -4*s, s, s, bellyColor);
+    // 身段2（微上弯）
+    rect(ctx, -2*s, -s, 3*s, 2*s, bodyColor);
+    px(ctx, -s, 0, s, bellyColor);
+    // 身段3
+    rect(ctx, s, -2*s, 3*s, 2*s, bodyColor);
+    px(ctx, 2*s, -s, s, bellyColor);
+    // 身段4
+    rect(ctx, 4*s, -3*s, 2*s, 2*s, bodyColor);
+    px(ctx, 4*s, -2*s, s, bellyColor);
+    // 鳞片纹理
+    ctx.globalAlpha = 0.3;
+    px(ctx, -4*s, -s, s, scaleColor); px(ctx, -s, -2*s, s, scaleColor);
+    px(ctx, 2*s, -3*s, s, scaleColor); px(ctx, 5*s, -4*s, s, scaleColor);
+    ctx.globalAlpha = 1;
+    // 龙头（方正，带下颚）
+    rect(ctx, 6*s, -5*s, 3*s, 3*s, bodyColor);
+    rect(ctx, 6*s, -4*s, 3*s, s, bellyColor); // 下颚
+    px(ctx, 8*s, -5*s, s, '#FFEE44'); // 眼
+    // 鹿角（中华龙标志）
+    px(ctx, 7*s, -6*s, s, '#DAA520'); px(ctx, 7*s, -7*s, s, '#DAA520');
+    px(ctx, 6*s, -8*s, s, '#DAA520');
+    px(ctx, 8*s, -6*s, s, '#B8860B'); px(ctx, 9*s, -7*s, s, '#B8860B');
+    // 龙须（两根长须飘动）
+    const whiskerWave = Math.sin(frame * 0.06) * s;
+    px(ctx, 9*s, -4*s, s, '#88CCFF');
+    px(ctx, 10*s, -3*s + whiskerWave, s, '#88CCFF');
+    px(ctx, 9*s, -3*s, s, '#88CCFF');
+    px(ctx, 10*s, -2*s - whiskerWave, s, '#88CCFF');
+    // 尾巴（渐细）
+    rect(ctx, -7*s, s, 2*s, s, bodyColor);
+    px(ctx, -8*s, 2*s, s, '#2277AA');
+    px(ctx, -9*s, 2*s, s, '#2277AA');
+    // 云纹祥瑞（微弱光效）
+    ctx.globalAlpha = 0.12;
+    ellipse(ctx, 0, 0, 8*s, 4*s, '#88DDFF');
+    ctx.globalAlpha = 1;
     ctx.restore();
   }
 
-  // 金龙（装饰性）
+  // 金龙（装饰性）— 中华神龙风格：金鳞蛇身、双鹿角、五爪、龙珠
   function drawPetDragonGold(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
     const bob = Math.sin(frame * 0.03) * 1.5 * s;
     ctx.translate(0, bob);
-    // 身体
-    rect(ctx, -4*s, -s, 10*s, 3*s, '#DAA520');
-    rect(ctx, -3*s, -2*s, 8*s, s, '#FFD700');
-    // 头
-    rect(ctx, 6*s, -4*s, 4*s, 5*s, '#FFD700');
-    rect(ctx, 8*s, -5*s, s, s, '#FFFFAA'); // 角
-    px(ctx, 7*s, -3*s, s, '#FF4400'); // 眼
-    // 翅膀
-    rect(ctx, -s, -5*s, 4*s, 3*s, '#FFD70088');
-    // 尾
-    rect(ctx, -6*s, 0, 2*s, s, '#CC8800');
-    px(ctx, -7*s, s, s, '#CC8800');
-    // 光效
+    const bodyGold = '#DAA520', scaleGold = '#FFD700', bellyGold = '#FFFFAA';
+    // 蛇形身体（更长更壮的S形）
+    rect(ctx, -7*s, s, 3*s, 3*s, bodyGold);
+    px(ctx, -6*s, 2*s, s, bellyGold);
+    rect(ctx, -4*s, 0, 3*s, 3*s, bodyGold);
+    px(ctx, -3*s, s, s, bellyGold);
+    rect(ctx, -s, -s, 3*s, 3*s, bodyGold);
+    px(ctx, 0, 0, s, bellyGold);
+    rect(ctx, 2*s, -2*s, 3*s, 3*s, bodyGold);
+    px(ctx, 3*s, -s, s, bellyGold);
+    rect(ctx, 5*s, -3*s, 2*s, 3*s, bodyGold);
+    // 金鳞纹理
+    ctx.globalAlpha = 0.4;
+    px(ctx, -6*s, 0, s, scaleGold); px(ctx, -3*s, -s, s, scaleGold);
+    px(ctx, 0, -2*s, s, scaleGold); px(ctx, 3*s, -3*s, s, scaleGold);
+    ctx.globalAlpha = 1;
+    // 五爪（中华龙特征，两对小爪）
+    px(ctx, -5*s, 3*s, s, bodyGold); px(ctx, -4*s, 4*s, s, '#CC8800');
+    px(ctx, 1*s, 2*s, s, bodyGold); px(ctx, 2*s, 3*s, s, '#CC8800');
+    // 龙头（威严方正）
+    rect(ctx, 7*s, -5*s, 4*s, 4*s, scaleGold);
+    rect(ctx, 7*s, -3*s, 4*s, 2*s, bellyGold); // 下颚
+    rect(ctx, 7*s, -6*s, 4*s, s, bodyGold); // 额头
+    px(ctx, 9*s, -5*s, s, '#FF2200'); // 龙眼（红色）
+    px(ctx, 10*s, -4*s, s, '#FFFFFF'); // 眼高光
+    // 龙口
+    px(ctx, 11*s, -3*s, s, '#CC3300');
+    // 鹿角（金色双叉角）
+    rect(ctx, 8*s, -7*s, s, s, '#FFD700'); rect(ctx, 7*s, -8*s, s, s, '#FFD700');
+    rect(ctx, 6*s, -9*s, s, s, '#FFD700'); px(ctx, 8*s, -8*s, s, '#FFFFAA');
+    rect(ctx, 10*s, -7*s, s, s, '#FFD700'); rect(ctx, 11*s, -8*s, s, s, '#FFD700');
+    px(ctx, 10*s, -8*s, s, '#FFFFAA');
+    // 龙须（金色飘动长须）
+    const wh = Math.sin(frame * 0.05) * s;
+    rect(ctx, 11*s, -4*s, s, s, '#FFD700');
+    px(ctx, 12*s, -3*s + wh, s, '#FFE066');
+    px(ctx, 13*s, -3*s + wh, s, '#FFE066');
+    rect(ctx, 11*s, -2*s, s, s, '#FFD700');
+    px(ctx, 12*s, -s - wh, s, '#FFE066');
+    // 龙珠（闪烁火球）
+    ctx.globalAlpha = 0.5 + Math.sin(frame * 0.08) * 0.3;
+    circle(ctx, 13*s, -5*s, 1.5*s, '#FF6600');
+    px(ctx, 13*s, -5*s, s, '#FFFF88');
+    ctx.globalAlpha = 1;
+    // 尾巴（渐细+尾鳍）
+    rect(ctx, -9*s, 2*s, 2*s, s, bodyGold);
+    px(ctx, -10*s, 3*s, s, '#CC8800');
+    px(ctx, -11*s, 2*s, s, '#CC8800');
+    px(ctx, -11*s, 4*s, s, '#CC8800');
+    // 神龙光环
     ctx.globalAlpha = 0.1;
-    rect(ctx, -6*s, -6*s, 16*s, 12*s, '#FFD700');
+    ellipse(ctx, 0, 0, 12*s, 6*s, '#FFD700');
     ctx.globalAlpha = 1;
     ctx.restore();
   }
@@ -1028,12 +1150,32 @@ const Sprites = (() => {
     },
     '墨蛟蛇': (ctx, x, y, s, frame) => {
       const wave = Math.sin(frame * 0.05);
-      rect(ctx, -6*s, -s, 3*s, 3*s, '#224400'); rect(ctx, -3*s, -2*s+wave*s, 3*s, 3*s, '#336600');
-      rect(ctx, 0, -s, 3*s, 3*s, '#224400'); rect(ctx, 3*s, -2*s+wave*s, 3*s, 3*s, '#336600');
-      rect(ctx, -9*s, -4*s, 4*s, 5*s, '#448800'); rect(ctx, -8*s, -3*s, 2*s, 3*s, '#55AA00');
-      px(ctx, -9*s, -3*s, s, '#FFFF00'); px(ctx, -9*s, 0, s, '#FFFF00');
-      rect(ctx, -10*s, -s, s, s, '#FF0000'); px(ctx, -11*s, 0, s, '#FF0000');
-      rect(ctx, 6*s, -s+wave*s, 2*s, s, '#224400'); px(ctx, 8*s, -s, s, '#113300');
+      // 墨蛟蛇——黑绿色蛇形，有角质突起暗示未来化蛟
+      const bodyD='#1A3300', scaleD='#336600', bellyD='#557722';
+      // S形蛇身
+      rect(ctx, -6*s, 0, 3*s, 2*s, bodyD); px(ctx, -5*s, s, s, bellyD);
+      rect(ctx, -3*s, -s+wave*s, 3*s, 2*s, scaleD); px(ctx, -2*s, 0+wave*s, s, bellyD);
+      rect(ctx, 0, 0, 3*s, 2*s, bodyD); px(ctx, s, s, s, bellyD);
+      rect(ctx, 3*s, -s+wave*s, 3*s, 2*s, scaleD); px(ctx, 4*s, 0+wave*s, s, bellyD);
+      // 鳞纹
+      ctx.globalAlpha=0.3;
+      px(ctx, -4*s, -s, s, '#448800'); px(ctx, s, -s, s, '#448800');
+      px(ctx, 4*s, -2*s+wave*s, s, '#448800');
+      ctx.globalAlpha=1;
+      // 蛇头（略宽，有蛟龙雏形）
+      rect(ctx, 6*s, -3*s, 4*s, 4*s, scaleD);
+      rect(ctx, 6*s, -s, 4*s, s, bellyD); // 下颚
+      // 蛇眼（金色竖瞳）
+      px(ctx, 8*s, -3*s, s, '#FFFF00');
+      // 角质突起（暗示化蛟趋势）
+      px(ctx, 7*s, -4*s, s, '#555500'); px(ctx, 9*s, -4*s, s, '#555500');
+      // 信子（红色分叉舌）
+      px(ctx, 10*s, -s, s, '#FF0000'); px(ctx, 11*s, -2*s, s, '#FF0000');
+      px(ctx, 11*s, 0, s, '#FF0000');
+      // 蛇尾（渐细）
+      rect(ctx, -8*s, s+wave*s, 2*s, s, bodyD);
+      px(ctx, -9*s, s, s, '#113300');
+      px(ctx, -10*s, s, s, '#0A2200');
     },
     '暴猿妖': (ctx, x, y, s, frame) => {
       const pound = Math.sin(frame * 0.12) * s;
@@ -1108,15 +1250,53 @@ const Sprites = (() => {
     },
     '劫雷真龙': (ctx, x, y, s, frame) => {
       const bob=Math.sin(frame*0.03)*2*s; ctx.translate(0,bob);
-      rect(ctx,-6*s,-3*s,14*s,7*s,'#2244AA'); rect(ctx,-5*s,-2*s,12*s,5*s,'#3355CC');
-      ctx.globalAlpha=0.3; for(let i=0;i<6;i++) px(ctx,-4*s+i*2*s,-2*s+(i%2)*s,s,'#112288'); ctx.globalAlpha=1;
-      rect(ctx,-10*s,-6*s,6*s,6*s,'#3355CC'); rect(ctx,-9*s,-5*s,4*s,4*s,'#4466DD');
-      rect(ctx,-9*s,-9*s,s,3*s,'#FFD700'); rect(ctx,-6*s,-9*s,s,3*s,'#FFD700');
-      px(ctx,-9*s,-5*s,s,'#FFFF00');
-      rect(ctx,-11*s,-4*s,2*s,s,'#88BBFF'); rect(ctx,-11*s,-2*s,2*s,s,'#88BBFF');
-      rect(ctx,-3*s,-6*s,5*s,3*s,'#2244AA88'); rect(ctx,3*s,-6*s,5*s,3*s,'#2244AA88');
-      rect(ctx,8*s,-2*s,2*s,s,'#2244AA'); rect(ctx,10*s,-s,s,s,'#2244AA');
-      ctx.globalAlpha=0.3+Math.sin(frame*0.1)*0.2; px(ctx,-3*s,-4*s,s,'#FFFF44'); px(ctx,4*s,-5*s,s,'#FFFF44'); ctx.globalAlpha=1;
+      // 中华龙蛇形身体（雷蓝色，S形蜿蜒）
+      const bodyB='#2244AA', scaleB='#3366CC', bellyB='#88BBFF';
+      // 龙身段1（后段）
+      rect(ctx,-7*s,0,3*s,4*s,bodyB); rect(ctx,-7*s,s,3*s,2*s,scaleB);
+      px(ctx,-6*s,2*s,s,bellyB);
+      // 龙身段2
+      rect(ctx,-4*s,-2*s,4*s,4*s,bodyB); rect(ctx,-3*s,-s,2*s,2*s,bellyB);
+      // 龙身段3
+      rect(ctx,0,-3*s,4*s,4*s,bodyB); rect(ctx,s,-2*s,2*s,2*s,bellyB);
+      // 龙身段4（前段）
+      rect(ctx,4*s,-4*s,3*s,3*s,bodyB); rect(ctx,4*s,-3*s,3*s,s,bellyB);
+      // 鳞片纹理（闪电纹）
+      ctx.globalAlpha=0.4;
+      px(ctx,-6*s,-s,s,'#FFFF44'); px(ctx,-2*s,-3*s,s,'#FFFF44');
+      px(ctx,2*s,-4*s,s,'#FFFF44'); px(ctx,5*s,-5*s,s,'#FFFF44');
+      ctx.globalAlpha=1;
+      // 龙爪（雷电利爪，两对）
+      px(ctx,-5*s,4*s,s,'#88BBFF'); px(ctx,-4*s,5*s,s,'#4466DD');
+      px(ctx,2*s,s,s,'#88BBFF'); px(ctx,3*s,2*s,s,'#4466DD');
+      // 龙头（威严大头）
+      rect(ctx,7*s,-7*s,5*s,5*s,scaleB); rect(ctx,7*s,-6*s,5*s,3*s,bodyB);
+      rect(ctx,7*s,-4*s,5*s,2*s,bellyB); // 下颚
+      rect(ctx,7*s,-8*s,5*s,s,bodyB); // 额头
+      // 龙眼（金色雷光）
+      px(ctx,10*s,-7*s,s,'#FFFF00'); px(ctx,11*s,-6*s,s,'#FFFFAA');
+      // 鹿角（雷龙的电角）
+      rect(ctx,8*s,-9*s,s,s,'#FFD700'); rect(ctx,7*s,-10*s,s,s,'#FFD700');
+      rect(ctx,6*s,-11*s,s,s,'#FFFFAA');
+      rect(ctx,11*s,-9*s,s,s,'#FFD700'); rect(ctx,12*s,-10*s,s,s,'#FFD700');
+      px(ctx,11*s,-10*s,s,'#FFFFAA');
+      // 龙须（电弧飘动）
+      const wh=Math.sin(frame*0.07)*s;
+      px(ctx,12*s,-5*s,s,'#88CCFF'); px(ctx,13*s,-4*s+wh,s,'#AADDFF');
+      px(ctx,12*s,-3*s,s,'#88CCFF'); px(ctx,13*s,-2*s-wh,s,'#AADDFF');
+      // 龙口（可见牙）
+      px(ctx,12*s,-4*s,s,'#FFFFFF');
+      // 尾巴（闪电尾，渐细+分叉）
+      rect(ctx,-9*s,s,2*s,2*s,bodyB);
+      rect(ctx,-11*s,2*s,2*s,s,bodyB);
+      px(ctx,-12*s,s,s,'#3366CC'); px(ctx,-12*s,3*s,s,'#3366CC'); // 尾鳍分叉
+      // 雷电特效（闪烁电弧围绕龙身）
+      ctx.globalAlpha=0.3+Math.sin(frame*0.1)*0.2;
+      px(ctx,-3*s,-4*s,s,'#FFFF44'); px(ctx,4*s,-5*s,s,'#FFFF44');
+      px(ctx,-s,2*s,s,'#FFFF44'); px(ctx,6*s,-2*s,s,'#FFFF44');
+      // 龙身周围的雷光
+      for(let i=0;i<3;i++){const a=frame*0.08+i*2.1,r=6*s; px(ctx,Math.cos(a)*r,-s+Math.sin(a)*r*0.5,s,'#FFFF88');}
+      ctx.globalAlpha=1;
     },
     '血魔宗主': (ctx, x, y, s, frame) => {
       const pulse=Math.sin(frame*0.04);
@@ -1137,13 +1317,44 @@ const Sprites = (() => {
     },
     '化龙妖蛟': (ctx, x, y, s, frame) => {
       const wave=Math.sin(frame*0.04)*s;
-      rect(ctx,-5*s,-2*s,12*s,5*s,'#228866'); rect(ctx,-4*s,-s,10*s,3*s,'#33AA77');
-      ctx.globalAlpha=0.3; for(let i=0;i<5;i++) px(ctx,-3*s+i*2*s,-s,s,'#116644'); ctx.globalAlpha=1;
-      rect(ctx,-9*s,-5*s,5*s,5*s,'#33AA77'); rect(ctx,-8*s,-4*s,3*s,3*s,'#44BB88');
-      rect(ctx,-8*s,-7*s,s,2*s,'#DAA520'); rect(ctx,-6*s,-7*s,s,2*s,'#DAA520');
-      px(ctx,-8*s,-4*s,s,'#FFFF00'); rect(ctx,-10*s,-3*s,2*s,s,'#88DDAA');
-      rect(ctx,-2*s,-4*s,3*s,2*s,'#228866'); rect(ctx,3*s,-4*s,3*s,2*s,'#228866');
-      rect(ctx,7*s,-s+wave,2*s,s,'#228866'); rect(ctx,9*s,0+wave,s,s,'#117755');
+      // 中华蛟龙——半龙半蛇身，正在化龙，身体更细长
+      const bodyG='#228866', scaleG='#33AA77', bellyG='#88DDAA';
+      // 蛇形身段（S形蜿蜒）
+      rect(ctx,-6*s,0,3*s,3*s,bodyG); px(ctx,-5*s,s,s,bellyG);
+      rect(ctx,-3*s,-s+wave,3*s,3*s,bodyG); px(ctx,-2*s,0+wave,s,bellyG);
+      rect(ctx,0,-2*s,3*s,3*s,bodyG); px(ctx,s,-s,s,bellyG);
+      rect(ctx,3*s,-3*s+wave,3*s,2*s,bodyG); px(ctx,4*s,-2*s+wave,s,bellyG);
+      // 鳞片纹理
+      ctx.globalAlpha=0.3;
+      px(ctx,-5*s,-s,s,scaleG); px(ctx,-s,-2*s+wave,s,scaleG);
+      px(ctx,2*s,-3*s,s,scaleG); px(ctx,5*s,-4*s+wave,s,scaleG);
+      ctx.globalAlpha=1;
+      // 初生龙爪（蛟龙化龙中，爪未完全长成，一对小爪）
+      px(ctx,-4*s,3*s,s,bodyG); px(ctx,-3*s,4*s,s,'#116644');
+      px(ctx,1*s,s,s,bodyG); px(ctx,2*s,2*s,s,'#116644');
+      // 龙头（尖锐，比蛇头更宽）
+      rect(ctx,6*s,-5*s,4*s,4*s,scaleG);
+      rect(ctx,6*s,-4*s,4*s,2*s,bellyG); // 下颚
+      rect(ctx,6*s,-6*s,4*s,s,bodyG); // 额板
+      // 龙眼
+      px(ctx,8*s,-5*s,s,'#FFFF00');
+      // 初生鹿角（短，化龙中）
+      px(ctx,7*s,-7*s,s,'#DAA520'); px(ctx,9*s,-7*s,s,'#DAA520');
+      px(ctx,7*s,-8*s,s,'#B8860B');
+      // 龙须（短须）
+      const wh=Math.sin(frame*0.06)*s;
+      px(ctx,10*s,-4*s,s,'#88DDAA'); px(ctx,11*s,-3*s+wh,s,'#88DDAA');
+      px(ctx,10*s,-3*s,s,'#88DDAA');
+      // 龙口
+      px(ctx,10*s,-4*s,s,'#EEFFEE');
+      // 尾巴（蛇尾，渐细）
+      rect(ctx,-8*s,s+wave,2*s,s,bodyG);
+      px(ctx,-9*s,2*s+wave,s,'#117755');
+      px(ctx,-10*s,2*s+wave,s,'#117755');
+      // 化龙灵气（绿色微光）
+      ctx.globalAlpha=0.1;
+      ellipse(ctx,0,-s,10*s,5*s,'#44FFAA');
+      ctx.globalAlpha=1;
     },
     '混沌古兽': (ctx, x, y, s, frame) => {
       const pulse=Math.sin(frame*0.03);
@@ -1188,7 +1399,7 @@ const Sprites = (() => {
     'ws_vine': (ctx,s,frame) => { rect(ctx,0,0,s,3*s,'#1B5E20'); rect(ctx,-s,0,3*s,s,'#2E7D32'); rect(ctx,-s/2,-9*s,2*s,9*s,'#4CAF50'); for(let i=0;i<4;i++) rect(ctx,(i%2===0?-s:s),-8*s+i*2*s,s,s,'#81C784'); rect(ctx,0,-10*s,s,s,'#A5D6A7'); },
     'ws_crystal': (ctx,s,frame) => { rect(ctx,0,0,s,3*s,'#4A148C'); rect(ctx,-s,0,3*s,s,'#CE93D8'); rect(ctx,-s/2,-10*s,2*s,10*s,'#E1BEE7'); rect(ctx,-s,-11*s,3*s,s,'#F3E5F5'); ctx.globalAlpha=0.3+Math.sin(frame*0.06)*0.2; rect(ctx,-s,-10*s,3*s,10*s,'#F3E5F5'); ctx.globalAlpha=1; },
     'ws_demon': (ctx,s,frame) => { rect(ctx,0,0,s,3*s,'#1A1A1A'); rect(ctx,-2*s,-s,5*s,2*s,'#B71C1C'); rect(ctx,-s,-11*s,3*s,11*s,'#D32F2F'); rect(ctx,-s/2,-12*s,2*s,s,'#FF5252'); ctx.globalAlpha=0.2+Math.sin(frame*0.04)*0.15; rect(ctx,-s,-11*s,3*s,11*s,'#FF1744'); ctx.globalAlpha=1; },
-    'ws_dragon': (ctx,s,frame) => { rect(ctx,0,0,s,3*s,'#1B5E20'); rect(ctx,-2*s,-s,5*s,2*s,'#FFD700'); rect(ctx,-s,-11*s,3*s,11*s,'#2E7D32'); rect(ctx,0,-12*s,s,s,'#4CAF50'); for(let i=0;i<3;i++) px(ctx,-s+i*s,-10*s+i*2*s,s,'#FFD700'); ctx.globalAlpha=0.2; rect(ctx,-s,-11*s,3*s,11*s,'#FFD700'); ctx.globalAlpha=1; },
+    'ws_dragon': (ctx,s,frame) => { rect(ctx,0,0,s,3*s,'#1B5E20'); rect(ctx,-2*s,-s,5*s,2*s,'#DAA520'); rect(ctx,-s,-11*s,3*s,11*s,'#2E7D32'); rect(ctx,0,-12*s,s,s,'#FFD700'); /* 龙鳞纹 */ for(let i=0;i<4;i++) px(ctx,-s+((i+1)%2)*s,-10*s+i*2.5*s,s,'#FFD700'); /* 龙首护手 */ rect(ctx,-2*s,-s,s,2*s,'#DAA520'); rect(ctx,2*s,-s,s,2*s,'#DAA520'); px(ctx,-2*s,-2*s,s,'#FFD700'); px(ctx,2*s,-2*s,s,'#FFD700'); ctx.globalAlpha=0.2+Math.sin(frame*0.05)*0.1; rect(ctx,-s,-11*s,3*s,11*s,'#FFD700'); ctx.globalAlpha=1; },
     'ws_phoenix': (ctx,s,frame) => { rect(ctx,0,0,s,3*s,'#BF360C'); rect(ctx,-2*s,-s,5*s,2*s,'#FF6F00'); rect(ctx,-s,-11*s,3*s,11*s,'#FF8F00'); rect(ctx,0,-12*s,s,s,'#FFD600'); ctx.globalAlpha=0.4+Math.sin(frame*0.08)*0.3; for(let i=0;i<5;i++) px(ctx,-s+Math.sin(frame*0.06+i)*s*1.5,-11*s+i*2.5*s,s,i%2===0?'#FF6F00':'#FFD600'); ctx.globalAlpha=1; },
     'ws_void': (ctx,s,frame) => { rect(ctx,0,0,s,3*s,'#0D0D0D'); rect(ctx,-2*s,-s,5*s,2*s,'#4A148C'); rect(ctx,-s,-12*s,3*s,12*s,'#1A0033'); rect(ctx,0,-13*s,s,s,'#7C4DFF'); for(let i=0;i<4;i++){ctx.globalAlpha=0.4+Math.sin(frame*0.05+i*0.7)*0.3; px(ctx,-s+Math.sin(i*2.1)*s,-11*s+i*3*s,s,'#B388FF');} ctx.globalAlpha=1; },
     'ws_celestial': (ctx,s,frame) => { rect(ctx,0,0,s,3*s,'#5D4037'); rect(ctx,-2*s,-s,5*s,2*s,'#FFD700'); rect(ctx,-s,-12*s,3*s,12*s,'#FFC107'); rect(ctx,-s/2,-13*s,2*s,s,'#FFFFF0'); ctx.globalAlpha=0.5+Math.sin(frame*0.035)*0.3; rect(ctx,-s,-12*s,3*s,12*s,'#FFD700'); ctx.globalAlpha=1; },
