@@ -1138,10 +1138,14 @@ function render() {
       innerAtkX = atkVal ? Math.sin(atkVal * 0.4) * 16 * PIXEL_SCALE : 0;
     }
 
-    // 坐骑绘制（先画坐骑再画角色，坐骑在角色图层下面不会遮挡）
+    // 坐骑绘制（先画坐骑再画角色，角色"骑"在坐骑背上）
     if (gs.visualEquip && gs.visualEquip.mount && !gs.isDead) {
       const mountBaseX = mouseX + swayOffset + innerAtkX;
-      const mountBaseY = mouseY + breathOffset + innerFloat + 12;
+      // 坐骑位于角色脚底下方，角色站在坐骑背上
+      // 仙鹤身体中心=锚点(0,0)，背部约-4s处，需要让背部对齐角色底部
+      // 麒麟身体中心=锚点(0,0)，背部约-5s处
+      const mountOffsetY = gs.visualEquip.mount === '仙鹤' ? 18 : 20;
+      const mountBaseY = mouseY + breathOffset + innerFloat + mountOffsetY;
       ctx.save();
       ctx.translate(mountBaseX, mountBaseY);
       ctx.scale(-1, 1); // 水平翻转朝右
