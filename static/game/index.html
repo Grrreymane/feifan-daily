@@ -1117,15 +1117,6 @@ function render() {
     const swayOffset = Math.sin(animFrame * 0.025) * 0.5; // 微妙左右摆动
     ctx.globalAlpha = 0.15; ctx.fillStyle = '#000';
     ctx.beginPath(); ctx.ellipse(mouseX, groundY+2, 25, 5, 0, 0, Math.PI*2); ctx.fill();
-    ctx.globalAlpha = gs.isDead ? 0.3 : 1;
-    // 传入皮肤和灵兽信息，让角色精灵内部处理（不再单独浮空渲染）
-    Sprites.drawMouseByRealm(ctx, mouseX + swayOffset, mouseY + breathOffset, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0, {
-      hasActiveBeast: !!gs.activeBeast,
-      equippedWeaponSkin: gs.equippedWeaponSkin || null,
-      equippedArmorSkin: gs.equippedArmorSkin || null,
-    });
-    ctx.globalAlpha = 1;
-
     // 计算角色内部运动偏移（与sprites.js各realm函数内部的float/atkX一致）
     let innerFloat = 0, innerAtkX = 0;
     const atkVal = mouseAttackAnim > 0 ? mouseAttackAnim : 0;
@@ -1147,7 +1138,7 @@ function render() {
       innerAtkX = atkVal ? Math.sin(atkVal * 0.4) * 16 * PIXEL_SCALE : 0;
     }
 
-    // 坐骑绘制（金丹期+仙鹤，化神期+麒麟）— 跟随角色运动+朝右
+    // 坐骑绘制（先画坐骑再画角色，坐骑在角色图层下面不会遮挡）
     if (gs.visualEquip && gs.visualEquip.mount && !gs.isDead) {
       const mountBaseX = mouseX + swayOffset + innerAtkX;
       const mountBaseY = mouseY + breathOffset + innerFloat + 12;
@@ -1161,6 +1152,15 @@ function render() {
       }
       ctx.restore();
     }
+
+    ctx.globalAlpha = gs.isDead ? 0.3 : 1;
+    // 传入皮肤和灵兽信息，让角色精灵内部处理（不再单独浮空渲染）
+    Sprites.drawMouseByRealm(ctx, mouseX + swayOffset, mouseY + breathOffset, PIXEL_SCALE, gs.realmIndex, animFrame, mouseAttackAnim > 0 ? mouseAttackAnim : 0, {
+      hasActiveBeast: !!gs.activeBeast,
+      equippedWeaponSkin: gs.equippedWeaponSkin || null,
+      equippedArmorSkin: gs.equippedArmorSkin || null,
+    });
+    ctx.globalAlpha = 1;
 
     // 出战灵兽绘制（带攻击动画，朝右）
     if (gs.activeBeast && !gs.isDead) {
@@ -1280,9 +1280,10 @@ function render() {
     // 鼠鼠HP条（根据境界动态调整位置避免覆盖角色）
     if (gs.computed && !gs.isDead) {
       const hpPct = gs.hp / gs.computed.maxHp;
-      // 不同境界角色高度不同，血条需要足够高
-      const hpBarExtra = [0, 0, 5, 12, 20, 32][gs.realmIndex] || 0;
-      const barW = 56, barH = 5, barX = mouseX - barW/2, barY = mouseY + breathOffset + innerFloat - 35 - hpBarExtra;
+      // 不同境界角色高度不同，血条需要足够高（角色顶部约-16s处有头饰）
+      // 炼气/筑基角色紧凑, 金丹+开始浮空, 大乘期浮空最高+有天冠
+      const hpBarExtra = [0, 0, 8, 18, 28, 45][gs.realmIndex] || 0;
+      const barW = 56, barH = 5, barX = mouseX - barW/2, barY = mouseY + breathOffset + innerFloat - 45 - hpBarExtra;
       ctx.fillStyle = '#222'; ctx.fillRect(barX - 1, barY - 1, barW + 2, barH + 2);
       ctx.fillStyle = '#333'; ctx.fillRect(barX, barY, barW, barH);
       if (hpPct > 0) {
