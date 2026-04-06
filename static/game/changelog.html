@@ -138,8 +138,8 @@
       <h1>🐭 鼠鼠修仙 · 迭代记录</h1>
       <p>每一个版本都是一次飞升 ✨</p>
       <div class="stats">
-        <div class="stat"><span class="stat-value">v1.5.2</span><span class="stat-label">当前版本</span></div>
-        <div class="stat"><span class="stat-value">19</span><span class="stat-label">版本迭代</span></div>
+        <div class="stat"><span class="stat-value">v1.5.3</span><span class="stat-label">当前版本</span></div>
+        <div class="stat"><span class="stat-value">20</span><span class="stat-label">版本迭代</span></div>
         <div class="stat"><span class="stat-value">~6700+</span><span class="stat-label">总代码行数</span></div>
         <div class="stat"><span class="stat-value">3天</span><span class="stat-label">开发周期</span></div>
       </div>
@@ -147,8 +147,29 @@
 
     <div class="timeline" id="timeline">
 
-      <!-- v1.5.2 -->
+      <!-- v1.5.3 -->
       <div class="version-card patch open">
+        <div class="version-header" onclick="toggleVersion(this)">
+          <span class="version-badge patch">v1.5.3</span>
+          <span class="version-title">角色站在坐骑背上</span>
+          <span class="version-date">2026-04-06</span>
+          <span class="version-toggle">▼</span>
+        </div>
+        <div class="version-body">
+          <div class="desc">调整坐骑位置到角色脚底，实现真正的骑乘视觉效果</div>
+          <div class="feature-group">
+            <div class="feature-group-title">🐴 骑乘效果优化 <span class="tag tag-fix">修复</span></div>
+            <ul class="feature-list">
+              <li><strong>角色站在坐骑上</strong>：坐骑下移至角色脚底位置，鼠鼠视觉上骑在坐骑背上</li>
+              <li>仙鹤坐骑偏移+18px，麒麟坐骑偏移+20px（根据体型差异）</li>
+              <li>绘制顺序：坐骑(底层) → 角色(上层)，角色始终不被遮挡</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- v1.5.2 -->
+      <div class="version-card patch">
         <div class="version-header" onclick="toggleVersion(this)">
           <span class="version-badge patch">v1.5.2</span>
           <span class="version-title">坐骑图层修复 + 血条位置进一步优化</span>
