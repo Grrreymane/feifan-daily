@@ -138,8 +138,8 @@
       <h1>🐭 鼠鼠修仙 · 迭代记录</h1>
       <p>每一个版本都是一次飞升 ✨</p>
       <div class="stats">
-        <div class="stat"><span class="stat-value">v1.5</span><span class="stat-label">当前版本</span></div>
-        <div class="stat"><span class="stat-value">17</span><span class="stat-label">版本迭代</span></div>
+        <div class="stat"><span class="stat-value">v1.5.1</span><span class="stat-label">当前版本</span></div>
+        <div class="stat"><span class="stat-value">18</span><span class="stat-label">版本迭代</span></div>
         <div class="stat"><span class="stat-value">~6700+</span><span class="stat-label">总代码行数</span></div>
         <div class="stat"><span class="stat-value">3天</span><span class="stat-label">开发周期</span></div>
       </div>
@@ -147,8 +147,43 @@
 
     <div class="timeline" id="timeline">
 
+      <!-- v1.5.1 -->
+      <div class="version-card patch open">
+        <div class="version-header" onclick="toggleVersion(this)">
+          <span class="version-badge patch">v1.5.1</span>
+          <span class="version-title">坐骑跟随角色运动 + 血条位置优化</span>
+          <span class="version-date">2026-04-06</span>
+          <span class="version-toggle">▼</span>
+        </div>
+        <div class="version-body">
+          <div class="desc">坐骑跟随角色全部动画，朝向修正为向右，血条不再覆盖角色</div>
+          <div class="feature-group">
+            <div class="feature-group-title">🐎 坐骑动画同步 <span class="tag tag-fix">修复</span></div>
+            <ul class="feature-list">
+              <li><strong>跟随角色内部运动</strong>：坐骑现在同步角色的浮空(float)和攻击冲刺(atkX)动画</li>
+              <li>每个境界有独立的浮空幅度和攻击位移，坐骑完全匹配</li>
+              <li>大乘期角色大幅浮空时，坐骑也跟着飘起来</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">➡️ 坐骑朝右 <span class="tag tag-fix">修复</span></div>
+            <ul class="feature-list">
+              <li><strong>水平翻转</strong>：仙鹤和麒麟通过<code>ctx.scale(-1, 1)</code>翻转为面向怪物方向</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">💚 血条位置优化 <span class="tag tag-fix">修复</span></div>
+            <ul class="feature-list">
+              <li><strong>动态高度调整</strong>：血条根据境界自动调整高度，不再覆盖大乘期角色</li>
+              <li>血条跟随呼吸动画和角色浮空偏移，与角色保持一致距离</li>
+              <li>各境界额外上移量：炼气0/筑基0/金丹5/元婴12/化神20/大乘32像素</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
       <!-- v1.5 -->
-      <div class="version-card minor open">
+      <div class="version-card minor">
         <div class="version-header" onclick="toggleVersion(this)">
           <span class="version-badge minor">v1.5</span>
           <span class="version-title">丹药Buff叠加 + 坐骑回归 + 灵宠朝右</span>
