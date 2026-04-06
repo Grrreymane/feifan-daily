@@ -121,114 +121,87 @@ const Sprites = (() => {
   // 每个角色用更多像素块组成，全部使用 rect/px 绘制
   // ================================================================
 
-  // 通用鼠鼠身体绘制（方块像素版，所有境界共用）— v3.1 精细版
+  // 通用鼠鼠身体绘制（方块像素版，所有境界共用）— v4.0 参考像素鼠风格
+  // 特征：大圆耳、紧凑圆脸、小眼+单高光、小鼻小嘴、细胡须
   function drawMouseBody(ctx, s, furMain, furLight, furBelly, earOuter, earInner) {
-    // === 耳朵（更精细的圆润三角+高光+阴影） ===
-    // 左耳外侧
-    rect(ctx, -7*s, -17*s, 5*s, s, earOuter);
-    rect(ctx, -6*s, -18*s, 3*s, s, earOuter);
-    rect(ctx, -7*s, -16*s, 5*s, 2*s, earOuter);
-    rect(ctx, -7*s, -14*s, 4*s, s, earOuter);
-    // 左耳内侧粉色（更多层次）
-    rect(ctx, -6*s, -17*s, 3*s, s, earInner);
-    rect(ctx, -6*s, -16*s, 3*s, s, earInner);
-    rect(ctx, -6*s, -15*s, 2*s, s, earInner);
-    px(ctx, -5*s, -17*s, s, '#E8B0D0'); // 耳内高光
-    // 右耳外侧
-    rect(ctx, 3*s, -17*s, 5*s, s, earOuter);
-    rect(ctx, 4*s, -18*s, 3*s, s, earOuter);
-    rect(ctx, 3*s, -16*s, 5*s, 2*s, earOuter);
-    rect(ctx, 4*s, -14*s, 4*s, s, earOuter);
-    // 右耳内侧粉色
-    rect(ctx, 4*s, -17*s, 3*s, s, earInner);
-    rect(ctx, 4*s, -16*s, 3*s, s, earInner);
-    rect(ctx, 5*s, -15*s, 2*s, s, earInner);
-    px(ctx, 5*s, -17*s, s, '#E8B0D0');
+    // === 耳朵（大圆耳，像素鼠标志性特征） ===
+    // 左耳（圆形轮廓，3层）
+    rect(ctx, -8*s, -17*s, 4*s, s, earOuter);   // 顶
+    rect(ctx, -9*s, -16*s, 6*s, 2*s, earOuter);  // 上部宽
+    rect(ctx, -9*s, -14*s, 5*s, 2*s, earOuter);  // 下部
+    rect(ctx, -8*s, -12*s, 3*s, s, earOuter);     // 底部连接头
+    // 左耳内粉
+    rect(ctx, -7*s, -16*s, 3*s, s, earInner);
+    rect(ctx, -8*s, -15*s, 4*s, 2*s, earInner);
+    rect(ctx, -7*s, -13*s, 2*s, s, earInner);
+    px(ctx, -6*s, -15*s, s, '#F0C0D8'); // 内高光
+    // 右耳
+    rect(ctx, 5*s, -17*s, 4*s, s, earOuter);
+    rect(ctx, 4*s, -16*s, 6*s, 2*s, earOuter);
+    rect(ctx, 5*s, -14*s, 5*s, 2*s, earOuter);
+    rect(ctx, 6*s, -12*s, 3*s, s, earOuter);
+    // 右耳内粉
+    rect(ctx, 5*s, -16*s, 3*s, s, earInner);
+    rect(ctx, 5*s, -15*s, 4*s, 2*s, earInner);
+    rect(ctx, 6*s, -13*s, 2*s, s, earInner);
+    px(ctx, 6*s, -15*s, s, '#F0C0D8');
 
-    // === 头部（更大、更圆润，多层毛色渐变） ===
-    rect(ctx, -5*s, -14*s, 11*s, s, furMain);  // 头顶
-    rect(ctx, -6*s, -13*s, 13*s, 3*s, furMain); // 头上半
-    rect(ctx, -6*s, -10*s, 13*s, 4*s, furLight); // 头下半亮色
-    rect(ctx, -5*s, -6*s, 11*s, 2*s, furMain);  // 下巴
-    // 额头渐变高光
-    px(ctx, -2*s, -13*s, s, furLight);
-    px(ctx, -s, -14*s, s, furLight);
+    // === 头部（圆润紧凑，像素鼠风格） ===
+    rect(ctx, -4*s, -13*s, 9*s, s, furMain);     // 头顶窄
+    rect(ctx, -5*s, -12*s, 11*s, 3*s, furMain);   // 头上部
+    rect(ctx, -5*s, -9*s, 11*s, 3*s, furLight);   // 头下部亮色
+    rect(ctx, -4*s, -6*s, 9*s, 2*s, furMain);     // 下巴
+    // 额头高光
+    px(ctx, -s, -12*s, s, furLight);
     px(ctx, 0, -13*s, s, furLight);
-    px(ctx, s, -14*s, s, furLight);
-    px(ctx, 2*s, -13*s, s, furLight);
-    // 头顶毛发纹理
-    px(ctx, -3*s, -14*s, s, furLight);
-    px(ctx, 3*s, -14*s, s, furLight);
+    px(ctx, s, -12*s, s, furLight);
 
-    // === 腮帮（更柔和的腮红） ===
-    rect(ctx, -6*s, -9*s, 2*s, 2*s, C.CHEEK);
-    px(ctx, -5*s, -10*s, s, '#FFCCDD'); // 腮红上延
-    rect(ctx, 5*s, -9*s, 2*s, 2*s, C.CHEEK);
-    px(ctx, 5*s, -10*s, s, '#FFCCDD');
+    // === 腮红 ===
+    rect(ctx, -5*s, -8*s, 2*s, 2*s, C.CHEEK);
+    rect(ctx, 4*s, -8*s, 2*s, 2*s, C.CHEEK);
 
-    // === 眼睛（2x2像素小眼，参考像素鼠风格——小巧+单高光） ===
-    // 左眼
-    rect(ctx, -4*s, -11*s, 2*s, 2*s, '#0A0A22'); // 眼睛主体
-    px(ctx, -4*s, -11*s, s, '#FFFFFF');            // 左上高光点
-    // 右眼
-    rect(ctx, 3*s, -11*s, 2*s, 2*s, '#0A0A22');
-    px(ctx, 3*s, -11*s, s, '#FFFFFF');
+    // === 眼睛（2x2像素，深色+单高光，像素鼠风格） ===
+    rect(ctx, -3*s, -10*s, 2*s, 2*s, '#0A0A22');
+    px(ctx, -3*s, -10*s, s, '#FFFFFF');
+    rect(ctx, 2*s, -10*s, 2*s, 2*s, '#0A0A22');
+    px(ctx, 2*s, -10*s, s, '#FFFFFF');
 
-    // === 鼻子（小三角形） ===
-    px(ctx, 0, -8*s, s, C.NOSE);
-    px(ctx, -s, -7*s, s, '#DD8899');
-    px(ctx, s, -7*s, s, '#DD8899');
+    // === 鼻子（小圆点） ===
+    px(ctx, 0, -7*s, s, C.NOSE);
 
-    // === 嘴巴（微笑弧线） ===
-    px(ctx, -2*s, -6*s, s, '#8899AA');
-    px(ctx, -s, -5*s, s, '#8899AA');
-    px(ctx, 0, -5*s, s, '#7788AA');
-    px(ctx, s, -5*s, s, '#8899AA');
-    px(ctx, 2*s, -6*s, s, '#8899AA');
+    // === 嘴巴（简洁微笑） ===
+    px(ctx, -s, -6*s, s, '#8899AA');
+    px(ctx, s, -6*s, s, '#8899AA');
 
-    // === 胡须（6根，左右各3，长短交错） ===
-    // 左侧
-    rect(ctx, -9*s, -11*s, 3*s, s, C.WHISKER);
-    rect(ctx, -10*s, -9*s, 4*s, s, C.WHISKER);
-    rect(ctx, -9*s, -7*s, 3*s, s, C.WHISKER);
-    // 右侧
-    rect(ctx, 7*s, -11*s, 3*s, s, C.WHISKER);
-    rect(ctx, 7*s, -9*s, 4*s, s, C.WHISKER);
-    rect(ctx, 7*s, -7*s, 3*s, s, C.WHISKER);
+    // === 胡须（细长，左右各3根） ===
+    rect(ctx, -8*s, -10*s, 3*s, s, C.WHISKER);
+    rect(ctx, -9*s, -8*s, 4*s, s, C.WHISKER);
+    rect(ctx, -8*s, -6*s, 3*s, s, C.WHISKER);
+    rect(ctx, 6*s, -10*s, 3*s, s, C.WHISKER);
+    rect(ctx, 6*s, -8*s, 4*s, s, C.WHISKER);
+    rect(ctx, 6*s, -6*s, 3*s, s, C.WHISKER);
   }
 
-  // 绘制鼠鼠腿脚（方块版）— v3.1 精细版
+  // 绘制鼠鼠腿脚（方块版）— v4.0
   function drawMouseLegs(ctx, s, furMain) {
-    // 左腿
-    rect(ctx, -4*s, 3*s, 3*s, 4*s, furMain);
-    rect(ctx, -5*s, 6*s, s, s, furMain);        // 大腿外侧
-    rect(ctx, -4*s, 7*s, 4*s, s, C.FUR_DARK);   // 脚掌
-    px(ctx, -5*s, 7*s, s, C.FUR_DARK);           // 脚趾
+    // 左腿（短粗Q版）
+    rect(ctx, -3*s, 3*s, 2*s, 3*s, furMain);
+    rect(ctx, -3*s, 6*s, 3*s, s, C.FUR_DARK);
     // 右腿
-    rect(ctx, 2*s, 3*s, 3*s, 4*s, furMain);
-    rect(ctx, 5*s, 6*s, s, s, furMain);
-    rect(ctx, 1*s, 7*s, 4*s, s, C.FUR_DARK);
-    px(ctx, 5*s, 7*s, s, C.FUR_DARK);
+    rect(ctx, 2*s, 3*s, 2*s, 3*s, furMain);
+    rect(ctx, 1*s, 6*s, 3*s, s, C.FUR_DARK);
   }
 
-  // 绘制尾巴（方块版）— v3.1 精细版，更长更卷
+  // 绘制尾巴（方块版）— v4.0 简洁卷尾
   function drawMouseTail(ctx, s, frame, color) {
     const c = color || C.TAIL;
-    const cLight = color ? color + 'CC' : '#8AA0C0';
     const wave = Math.sin(frame * 0.06) * 2;
-    // 根部粗
     rect(ctx, -4*s, 2*s, 2*s, s, c);
-    rect(ctx, -5*s, s, 2*s, 2*s, c);
-    // 中部
-    rect(ctx, -7*s, s + wave*s, 2*s, s, c);
-    px(ctx, -7*s, wave*s, s, cLight); // 高光
-    rect(ctx, -9*s, 0 + wave*s, 2*s, s, c);
-    // 尾端细卷
-    rect(ctx, -10*s, -s + wave*s, s, s, c);
-    rect(ctx, -11*s, -2*s + wave*0.7*s, s, s, c);
-    rect(ctx, -11*s, -3*s + wave*0.5*s, s, s, c);
-    rect(ctx, -10*s, -4*s + wave*0.4*s, s, s, c);
-    px(ctx, -9*s, -4*s + wave*0.3*s, s, c); // 尾尖
+    rect(ctx, -6*s, s + wave*s, 2*s, s, c);
+    rect(ctx, -8*s, 0 + wave*s, 2*s, s, c);
+    rect(ctx, -9*s, -s + wave*s, s, s, c);
+    rect(ctx, -9*s, -2*s + wave*0.5*s, s, s, c);
+    rect(ctx, -8*s, -3*s + wave*0.3*s, s, s, c);
   }
 
   // ================================================================
@@ -1137,6 +1110,7 @@ const Sprites = (() => {
       rect(ctx, -4*s, 5*s, 3*s, 3*s, '#555566'); rect(ctx, 2*s, 5*s, 3*s, 3*s, '#555566');
     },
     '墨蛟蛇': (ctx, x, y, s, frame) => {
+      ctx.scale(-1, 1); // 翻转面向左方（面向玩家）
       const wave = Math.sin(frame * 0.05);
       // 墨蛟蛇——黑绿色蛇形，有角质突起暗示未来化蛟
       const bodyD='#1A3300', scaleD='#336600', bellyD='#557722';
@@ -1237,6 +1211,7 @@ const Sprites = (() => {
       ctx.globalAlpha=0.08; rect(ctx,-7*s,-5*s,18*s,10*s,'#FFDDAA'); ctx.globalAlpha=1;
     },
     '劫雷真龙': (ctx, x, y, s, frame) => {
+      ctx.scale(-1, 1); // 翻转面向左方（面向玩家）
       const bob=Math.sin(frame*0.03)*2*s; ctx.translate(0,bob);
       // 中华龙蛇形身体（雷蓝色，S形蜿蜒）
       const bodyB='#2244AA', scaleB='#3366CC', bellyB='#88BBFF';
@@ -1304,6 +1279,7 @@ const Sprites = (() => {
       ctx.globalAlpha=0.2; for(let i=0;i<3;i++) px(ctx,-2*s+i*2*s,7*s+Math.sin(frame*0.06+i)*s,s,'#FF0000'); ctx.globalAlpha=1;
     },
     '化龙妖蛟': (ctx, x, y, s, frame) => {
+      ctx.scale(-1, 1); // 翻转面向左方（面向玩家）
       const wave=Math.sin(frame*0.04)*s;
       // 中华蛟龙——半龙半蛇身，正在化龙，身体更细长
       const bodyG='#228866', scaleG='#33AA77', bellyG='#88DDAA';
