@@ -38,7 +38,7 @@ const BASE_PATH = (process.env.BASE_PATH || '').replace(/\/+$/, '');
 const CATEGORIES = {
   briefings: { name: '每日简报', emoji: '📡', slug: 'briefings', description: '科技 · 游戏 · AI 每日精选' },
   articles:  { name: '深度文章', emoji: '📝', slug: 'articles',  description: '原创观察与编译精选' },
-  summaries: { name: '视频笔记', emoji: '🎬', slug: 'summaries', description: '播客 · 视频内容总结' },
+  summaries: { name: '笔记', emoji: '📒', slug: 'summaries', description: '视频 · 播客 · 文章 · 学习笔记' },
   gallery:   { name: '福瑞画廊', emoji: '🐾', slug: 'gallery',   description: '每日精选兽人艺术' },
 };
 
@@ -126,7 +126,7 @@ function htmlShell(title, body, activeNav = '') {
       <a href="${B}/"${activeNav === 'home' ? ' class="active"' : ''}>首页</a>
       <a href="${B}/briefings/"${activeNav === 'briefings' ? ' class="active"' : ''}>每日简报</a>
       <a href="${B}/articles/"${activeNav === 'articles' ? ' class="active"' : ''}>深度文章</a>
-      <a href="${B}/summaries/"${activeNav === 'summaries' ? ' class="active"' : ''}>视频笔记</a>
+      <a href="${B}/summaries/"${activeNav === 'summaries' ? ' class="active"' : ''}>笔记</a>
       <a href="${B}/gallery/"${activeNav === 'gallery' ? ' class="active"' : ''}>福瑞画廊</a>
       <a href="${B}/game/"${activeNav === 'game' ? ' class="active"' : ''}>🐭 鼠鼠修仙</a>
     </nav>

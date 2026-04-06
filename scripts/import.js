@@ -92,11 +92,11 @@ const articleCount = importFiles(
   ARTICLE_META
 );
 
-console.log('\n📥 导入视频笔记...');
+console.log('\n📥 导入笔记...');
 const summaryCount = importFiles(
   '/data/workspace/summaries',
   'summaries',
   SUMMARY_META
 );
 
-console.log(`\n✅ 导入完成：${articleCount} 篇文章，${summaryCount} 篇视频笔记`);
+console.log(`\n✅ 导入完成：${articleCount} 篇文章，${summaryCount} 篇笔记`);

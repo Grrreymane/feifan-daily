@@ -9,7 +9,7 @@ feifan-daily/
 ├── content/            # 内容目录（Markdown + frontmatter）
 │   ├── briefings/      # 每日简报
 │   ├── articles/       # 深度文章
-│   └── summaries/      # 视频笔记
+│   └── summaries/      # 笔记
 ├── static/             # 静态资源
 │   ├── css/
 │   ├── js/
