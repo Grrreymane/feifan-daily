@@ -138,14 +138,43 @@
       <h1>🐭 鼠鼠修仙 · 迭代记录</h1>
       <p>每一个版本都是一次飞升 ✨</p>
       <div class="stats">
-        <div class="stat"><span class="stat-value">v2.2</span><span class="stat-label">当前版本</span></div>
-        <div class="stat"><span class="stat-value">24</span><span class="stat-label">版本迭代</span></div>
+        <div class="stat"><span class="stat-value">v2.3</span><span class="stat-label">当前版本</span></div>
+        <div class="stat"><span class="stat-value">25</span><span class="stat-label">版本迭代</span></div>
         <div class="stat"><span class="stat-value">~6000+</span><span class="stat-label">总代码行数</span></div>
         <div class="stat"><span class="stat-value">3天</span><span class="stat-label">开发周期</span></div>
       </div>
     </div>
 
     <div class="timeline" id="timeline">
+
+      <!-- v2.3 -->
+      <div class="version-card minor open">
+        <div class="version-header" onclick="toggleVersion(this)">
+          <span class="version-badge minor">v2.3</span>
+          <span class="version-title">灵宠龙方向修复 + 衣服适配v4.0体型</span>
+          <span class="version-date">2026-04-07</span>
+          <span class="version-toggle">▼</span>
+        </div>
+        <div class="version-body">
+          <div class="desc">修复灵宠蛟龙/金龙面朝错误方向的问题，同时将所有6个境界的衣服重绘适配v4.0鼠鼠紧凑体型。</div>
+          <div class="feature-group">
+            <div class="feature-group-title">🐉 灵宠龙方向修复 <span class="tag tag-fix">修复</span></div>
+            <ul class="feature-list">
+              <li><strong>蛟龙/金龙</strong>：添加scale(-1,1)抵消外层灵兽翻转</li>
+              <li>龙头现在正确面向怪物方向（右方）</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">👘 衣服重绘 <span class="tag tag-improve">美术</span></div>
+            <ul class="feature-list">
+              <li>6个境界衣服全部缩小适配v4.0紧凑体型</li>
+              <li>布衣/道袍/法袍/华服/仙袍/天衣宽度各减2-4px</li>
+              <li>天冠/肩甲/飘带/V领/腰带同步调整位置</li>
+              <li>衣服皮肤覆盖层(drawArmorSkinOverlay)同步缩小</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
       <!-- v2.2 -->
       <div class="version-card minor open">
