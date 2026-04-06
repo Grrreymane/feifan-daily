@@ -1,0 +1,590 @@
+---
+title: "AI 通用"
+slug: "ai-general"
+description: "人工智能行业动态、观点与趋势"
+created: "2026-04-07"
+updated: "2026-04-07"
+---
+
+# AI 通用
+
+人工智能行业动态、观点与趋势
+
+---
+
+## 📚 相关内容
+
+<!-- 以下由知识编译器自动维护，请勿手动编辑 -->
+
+
+### [GDC从业报告出炉：2300人做了一次行业体检，全是坏消息](https://reg.gdconf.com/2026-SOTI)
+- 📅 2026-04-02 · 来源: articles · 分类: articles
+- GDC 2026行业现状报告调查了2300+名从业者。四分之一被裁员，过半认为AI有害，87%加过班，82%支持工会但只有12%加入。从裁员到AI到关税，每项数据都不太好看。
+
+### [编程到底有多有趣？一个 Vibe Coder 从第一行代码开始补课](https://youtu.be/OQ_EhCtNc2M)
+- 📅 2026-04-04 · 来源: articles · 分类: articles
+- UC Berkeley教授Sarah Chasins用30分钟回答了网友的编程问题，111万人看完舍不得快进。三个月后评论区吵翻了——AI编程到底靠不靠谱？
+
+### [Patrick Breyer](https://patrick-breyer.de)
+- 📅 2026-03-27 · 来源: daily-materials · 分类: daily-materials
+
+### [futuresearch.ai](https://futuresearch.ai)
+- 📅 2026-03-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic](https://docs.anthropic.com)
+- 📅 2026-03-27 · 来源: daily-materials · 分类: daily-materials
+
+### [astral.sh](https://astral.sh/blog/openai)
+- 📅 2026-03-27 · 来源: daily-materials · 分类: daily-materials
+
+### [NVIDIA](https://www.nvidia.com/en-us/events/gdc/)
+- 📅 2026-03-27 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/real-time-bridge-between-blender-unreal-engine-5)
+- 📅 2026-03-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender](https://www.blender.org)
+- 📅 2026-03-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Layer.ai](https://www.layer.ai/blog/gdc-2026-recap)
+- 📅 2026-03-27 · 来源: daily-materials · 分类: daily-materials
+
+### [github](https://github.com/facebookresearch)
+- 📅 2026-03-27 · 来源: daily-materials · 分类: daily-materials
+
+### [9to5Mac](https://9to5mac.com)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [claude.com](https://code.claude.com)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/itigges22)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Windows Central](https://windowscentral.com)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [symbolica.ai](https://symbolica.ai)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [deadsoftie.com](https://deadsoftie.com/2026-03-18/gdc-2026)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Epic Forums](https://forums.unrealengine.com)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI](https://openai.com)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [geohot.github.io](https://geohot.github.io)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [tedium.co](https://tedium.co)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [wnhub.io](https://wnhub.io/news/Generative_AI)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [byteiota.com](https://byteiota.com/game-developers-beat-ai-backlash-how-they-did-it/)
+- 📅 2026-03-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Ars Technica](https://arstechnica.com)
+- 📅 2026-03-29 · 来源: daily-materials · 分类: daily-materials
+
+### [PCWorld](https://pcworld.com)
+- 📅 2026-03-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/j-x-z)
+- 📅 2026-03-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Fortune](https://fortune.com/2026/03/17/andrej-karpathy-loop-autonomous-ai-agents-future/)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub (54K+ stars)](https://github.com/karpathy/autoresearch)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [GIGAZINE](https://gigazine.net/gsc_news/en/20260324-humans-bottleneck-ai/)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/kingdom-come-deliverance-2-translator-claims-warhorse-have-laid-him-off-in-preference-of-using-ai-going-forward)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/new-report-claims-kingdom-come-deliverance-2-studio-fired-translator-to-replace-them-with-ai-and-save-finances)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/29/soras-shutdown-could-be-a-reality-check-moment-for-ai-video/)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/a-year-on-from-launching-wanderstop-ivy-road-are-closing-their-doors-after-struggling-to-fund-their-next-game)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [LinkedIn 两个标签页吃掉2.4GB内存](https://news.ycombinator.com/item?id=47561489)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Miasma: 一个用来困住AI爬虫的无限毒坑](https://github.com/austin-weeks/miasma)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [警方用AI面部识别错误逮捕田纳西女性](https://www.cnn.com/2026/03/29/us/angela-lipps-ai-facial-recognition)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Voyager 1 运行在 69KB 内存和8轨磁带机上](https://techfixated.com/a-1977-time-capsule-voyager-1-runs-on-69-kb-of-memory-and-an-8-track-tape-recorder-4/)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/wanderstop-studio-ivy-road-to-close-after-funding-for-second-game-didnt-come-to-fruition)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/death-stranding-2-on-the-beachs-pc-release-takes-sequels-total-sales-past-2-million)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/former-valve-writer-hits-out-at-epic-games-layoffs-its-not-like-theyre-a-publicly-traded-company-its-not-like-theres-some-need-to-hit-the-stock-market-thing-this-is-tim)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/28/stanford-study-outlines-dangers-of-asking-ai-chatbots-for-personal-advice/)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/28/bluesky-leans-into-ai-with-attie-an-app-for-building-custom-feeds/)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/entertainment/903056/suno-ai-music-v5-5-model)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/ai-artificial-intelligence/900400/tiktok-ai-ads-labels-samsung-disclosure)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/28/mark-zuckerberg-texted-elon-musk-to-offer-help-with-doge/)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/29/project-hail-mary-becomes-amazon-mgms-biggest-box-office-hit/)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/neovim/neovim/releases/tag/v0.12.0)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/take-a-look-at-this-mysterious-and-detailed-environment-with-an-eerie-atmosphere/)
+- 📅 2026-03-30 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/30/ai-chip-startup-rebellions-raises-400-million-at-2-3b-valuation-in-pre-ipo-round/)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/30/starcloud-raises-170-million-series-ato-build-data-centers-in-space/)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/30/apple-will-hide-your-email-address-from-apps-and-websites-but-not-cops/)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/unity-sees-growth-in-engine-revenue-shuts-down-ironsource-ad-network-in-favour-of-vector-ai-user-acquisition-platform)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/tech/903509/apple-iphone-google-android-video-calls-rcs-universal-profile-4-0)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/30/qodo-bets-on-code-verification-as-ai-coding-scales-raises-70m/)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/29/youtube-ceo-says-the-best-youtubers-will-never-leave-their-home/)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/death-stranding-2-on-the-beach-sales-top-2-million-news-in-brief)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/epics-mass-layoffs-left-a-programmer-with-terminal-brain-cancer-without-life-insurance-but-tim-sweeney-says-the-company-will-solve-the-problem)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/the-list-of-people-hit-by-recent-epic-layoffs-has-been-turned-into-a-dedicated-portal-for-recruiters)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/marathons-developers-say-they-are-in-it-for-the-long-haul-amidst-fears-the-game-has-underperformed-in-this-live-service-hell)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/crimson-deserts-latest-patch-adds-new-mounts-makes-slapping-npcs-with-trees-a-crime-and-reportedly-junks-the-infamous-ai-paintings)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/undertale-and-deltarune-creator-comments-on-lack-of-non-japanese-translations)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/raiding-like-its-1999-why-daybreak-thinks-new-players-will-try-a-27-year-old-mmo)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/mario-galaxy-movie-star-jack-black-would-like-to-appear-in-yakuza-live-action-adaptation)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Mar/29/pretext/#atom-everything)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [datagubbe.se](https://www.datagubbe.se/aipixels/)
+- 📅 2026-03-31 · 来源: daily-materials · 分类: daily-materials
+
+### [Business Insider](https://www.businessinsider.com/epic-games-layoffs-ceo-says-ai-isnt-to-blame-2026-3)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [PC Gamer](https://www.pcgamer.com/gaming-industry/eidos-montreal-studio-head-departs-as-it-lays-off-another-124-employees-across-production-and-support-teams/)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Kotaku](https://kotaku.com/kingdom-come-2-translator-gen-ai-fired-warhorse-2000682854)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/vr-developer-polyarc-games-facing-layoffs-unspecified-number-of-employees-affected)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/amd-ships-fsr-sdk-2-2-with-better-upscaling-ray-regeneration/)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [The Register](https://www.theregister.com/2026/03/31/anthropic_claude_code_limits/)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/31/google-is-now-letting-users-in-the-us-change-their-gmail-address/)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/31/waymo-starts-robotaxi-services-at-san-antonio-international-airport/)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/31/meta-launches-two-new-ray-ban-glasses-designed-for-prescription-wearers/)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/31/exclusive-runway-launches-10m-fund-builders-program-to-support-early-stage-ai-startups/)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/31/whoop-valuation-10b-series-g-fundraise/)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/30/allbirds-is-selling-for-39-million-it-raised-nearly-10-times-that-amount-in-its-ipo/)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/google-research/timesfm)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/drona23/claude-token-efficient)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1s8ki1a/learn_procedural_content_generation_in_unreal/)
+- 📅 2026-04-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry](https://www.gamesindustry.biz/tickets-go-on-sale-for-consumer-event-ign-live-2026-returning-to-la-on-6-june)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/dave-the-diver-goes-3d-in-real-vr-fishing-collaboration-dlc/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/fan-art-of-ultramarine-veteran-sergeant-from-warhammer-40-000/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/01/spacex-files-confidentially-for-ipo-in-mega-listing-potentially-valued-at-1-75-trillion-report-says/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [StepSecurity](https://www.stepsecurity.io/blog/axios-compromised-on-npm-malicious-versions-drop-remote-access-trojan)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/31/openai-not-yet-public-raises-3b-from-retail-investors-in-monster-122b-fund-raise/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/01/cognichip-wants-ai-to-design-the-chips-that-power-ai-and-just-raised-60m-to-try/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/31/salesforce-announces-an-ai-heavy-makeover-for-slack-with-30-new-features/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/01/hasbro-hacked-may-take-several-weeks-to-recover/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/01/whatsapp-notifies-hundreds-of-users-who-installed-a-fake-app-that-was-actually-government-spyware/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/31/yupp-ai-shuts-down-33m-a16z-crypto-chris-dixon/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/01/nothings-ai-devices-plan-reportedly-contains-smart-glasses-and-earbuds/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/31/meta-was-finally-held-accountable-for-harming-teens-now-what/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Cohere](https://cohere.com/blog/transcribe)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/03/31/its-not-your-imagination-ai-seed-startups-are-commanding-higher-valuations/)
+- 📅 2026-04-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Blog](https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [SiliconAngle](https://siliconangle.com/2026/04/02/googles-new-gemma-4-models-bring-complex-reasoning-skills-low-power-devices/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [9to5Google](https://9to5google.com/2026/04/02/google-gemma-4/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论(457⬆️)](https://news.ycombinator.com/item?id=47616361)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Alibaba Cloud Blog](https://www.alibabacloud.com/blog/qwen3-6-plus-towards-real-world-agents_603005)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [BrowserGate.eu](https://browsergate.eu/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论(1161⬆️,536评论)](https://news.ycombinator.com/item?id=47613981)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare Blog](https://blog.cloudflare.com/emdash-wordpress/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论(653⬆️,486评论)](https://news.ycombinator.com/item?id=47602832)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Undark](https://undark.org/2026/04/01/sweden-schools-books/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论(574⬆️,298评论)](https://news.ycombinator.com/item?id=47612601)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [IBM Newsroom](https://newsroom.ibm.com/2026-04-02-ibm-announces-strategic-collaboration-with-arm-to-shape-the-future-of-enterprise-computing)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [lemonade-server.ai](https://lemonade-server.ai)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [RPS报道](https://www.rockpapershotgun.com/the-sequel-to-garrys-mod-releases-this-month-and-valve-will-let-you-publish-your-creations-as-standalone-steam-games-like-dafty-finn-sim-my-summer-cottage)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/02/microsoft-takes-on-ai-rivals-with-three-new-foundational-models/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/01/anthropic-took-down-thousands-of-github-repos-trying-to-yank-its-leaked-source-code-a-move-the-company-says-was-an-accident/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/01/system-failure-paralyzes-baidu-robotaxis-in-china/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/01/startup-funding-shatters-all-records-in-q1/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/02/tesla-deliveries-cheaper-vehicles-model-y-3-sales/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/01/metas-natural-gas-binge-could-power-south-dakota/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/indie-pass-introduces-subscription-model-focused-on-indie-games/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/a-game-pass-for-indie-games-meet-indie-pass-a-7-a-month-subscription-that-brings-new-titles-every-month)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/mobile-focused-studio-coffee-stain-malmo-shuts-down)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/mechwarrior-dev-piranha-games-reportedly-affected-by-redundancies)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/the-last-of-us-online-80-percent-complete-when-cancelled)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/flippednormals-is-shutting-down)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [CGChannel](https://www.cgchannel.com/2026/03/flippednormals-is-closing-its-online-marketplace-on-31-march/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [latent.space](https://www.latent.space/podcast/archive)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Radio.net](https://www.radio.net/podcast/latent-space-podcast)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [youreverydayai.com](https://www.youreverydayai.com/episodes/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [acquired.fm](https://www.acquired.fm/episodes)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [simonwillison.net](https://simonwillison.net/2026/Apr/1/datasette-llm-2/)
+- 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Substack系列](https://isolveproblems.substack.com/p/how-microsoft-vaporized-a-trillion-8f4)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 350+ points](https://news.ycombinator.com/item?id=47616242)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Business Insider](https://www.businessinsider.com/openai-acquires-tbpn-tech-talk-show-in-media-push-2026-4)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Axios](https://www.axios.com/2026/04/02/openai-acquires-tbpn)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Reuters](https://whtc.com/2026/04/02/openai-acquires-technology-talk-show-tbpn-in-surprise-move/)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Lenny's Podcast](https://www.lennysnewsletter.com/p/the-practical-guide-to-building-with-ai-agents-simon-willison)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [paddo.dev详细分析](https://paddo.dev/blog/ai-roundup-april-2026/)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Sony官方](https://sonyinteractive.com/en/news/blog/sony-interactive-entertainment-acquires-cinemersive-labs/)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/sony-acquires-machine-learning-company-to-enhance-gameplay/)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Digital Production](https://digitalproduction.com/2026/03/20/flippednormals-marketplace-closes-march-31/)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/schrodingers-switch-2-is-it-failing-or-soaring-opinion)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/unigine-2-21-is-out-now/)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/reddit-posts-can-be-more-important-than-data-and-other-lessons-from-maintaining-candy-crush-as-a-forever-game)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/have-a-look-at-new-trailer-of-the-ghost-in-the-shell-anime-series/)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Cursor官网](https://cursor.com)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Automaton](https://automaton-media.com/en/news/sonys-game-division-announces-acquisition-of-machine-learning-and-computer-vision-company-cinemersive-labs/)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/elevate-your-productivity-with-this-scattering-plugin-for-blender/)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/polygoniq-presents-flexible-humans-that-can-heal-you-or-your-workflow-from-blender/)
+- 📅 2026-04-04 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepMind](https://deepmind.google/models/gemma/gemma-4/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [mtlynch.io](https://mtlynch.io/claude-code-found-linux-vulnerability/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Sebastian Raschka Newsletter](https://magazine.sebastianraschka.com/p/components-of-a-coding-agent)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Mintlify Blog](https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/04/anthropic-says-claude-code-subscribers-will-need-to-pay-extra-for-openclaw-support/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub Commit](https://github.com/OneUptime/blog/commit/30cd2384794c897d95aca77d173db44af51ca849)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [The Times](https://www.thetimes.com/uk/technology-uk/article/sarah-wynn-williams-careless-people-meta-nrffdfpmf)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Blogosphere](https://text.blogosphere.app/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/03/anthropic-buys-biotech-startup-coefficient-bio-in-400m-deal-reports/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/03/openai-executive-shuffle-new-roles-coo-brad-lightcap-fidji-simo-kate-rouch/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/03/anthropic-ramps-up-its-political-activities-with-a-new-pac/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/03/anthropic-is-having-a-moment-in-the-private-markets-spacex-could-spoil-the-party/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/03/ai-companies-are-building-huge-natural-gas-plants-to-power-data-centers-what-could-go-wrong/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/03/people-would-rather-have-an-amazon-warehouse-in-their-backyard-than-a-data-center/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/03/teslas-texas-factory-workforce-reportedly-shrunk-22-in-2025/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison 引用 Kyle Daigle](https://simonwillison.net/2026/Apr/4/kyle-daigle/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [arXiv](https://arxiv.org/abs/2604.01193)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/grand-theft-auto-6-publisher-take-two-have-seemingly-laid-off-their-head-of-ai-and-several-of-the-departments-staffers)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/i-was-chomping-at-the-bit-to-crack-the-code-how-procedural-maps-became-xcom-2s-biggest-ambition-after-firaxis-couldnt-manage-it-in-enemy-unknown)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sc6tk0/an_article_ive_written_about_making_a_blender/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sbiujg/getting_started_with_the_nvidia_rtx_branch_of/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sc74t5/postsoviet_xray_room_ue_56/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1sbjish/ive_spent_30_hours_reverseengineering_silksongs/)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [The Guardian](https://www.theguardian.com/world/2026/apr/03/us-fighter-jet-confirmed-shot-down-over-iran)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/tech/906453/human-made-ai-free-logo-creative-content)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/entertainment/907111/murphy-campbell-folk-music-ai-copyright)
+- 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/ai-artificial-intelligence/907427/iran-openai-stargate-datacenter-uae-abu-dhabi-threat)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/06/apple-epic-games-lawsuit-supreme-court-appeal-app-store-commission/)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/06/how-to-use-chatgpt-apps-doordash-spotify-uber/)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/06/spains-xoople-raises-130-million-series-b-to-map-the-earth-for-ai/)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/entertainment/907293/netflix-playground-kids-games-app)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/arman-bd/guppylm)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/keeping-teams-together-doesnt-seem-to-matter-to-people-but-for-us-it-did-star-wars-zero-companys-director-on-what-the-industry-can-learn-from-xcom-2)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/sonys-battle-against-shovelware-publishers-persists-as-it-purges-another-load-of-crap-games-from-the-playstation-store)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/love2d/love)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/how-to-build-and-light-a-post-soviet-hospital-with-different-rooms/)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/check-out-this-weight-painting-blender-tool-designed-for-lazy-rigging-artists/)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/how-to-create-an-ice-material-using-substance-3d-designer/)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/mesh2motion-animation-app-introduces-spider-and-snake-rigs/)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/gamedev/comments/1rp216y/one_week_after_releasing_my_first_steam_game/)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sdoq90/arcane_magic_lightning_eruption_fx_in_unreal/)
+- 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
