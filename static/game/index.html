@@ -224,10 +224,14 @@
     }
     .skin-card.equipped { border-color: #FFD700; background: #2a2a3e; }
     .skin-card.locked { opacity: 0.3; }
+    .skin-card .skin-preview { flex-shrink: 0; width: 40px; height: 40px; background: #0a0a1e; border-radius: 4px; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+    .skin-card .skin-preview canvas { display: block; }
     .skin-card .skin-quality { font-size: 9px; padding: 1px 4px; border-radius: 2px; color: #fff; min-width: 28px; text-align: center; }
-    .skin-card .skin-info { flex: 1; }
+    .skin-card .skin-info { flex: 1; min-width: 0; }
     .skin-card .skin-name { font-weight: bold; }
     .skin-card .skin-desc { color: #888; font-size: 9px; }
+    .gacha-result-card .gr-preview { flex-shrink: 0; width: 36px; height: 36px; background: #0a0a1e; border-radius: 3px; overflow: hidden; display: flex; align-items: center; justify-content: center; }
+    .gacha-result-card .gr-preview canvas { display: block; }
     /* 签到日历 */
     .sign-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; margin: 4px 0; }
     .sign-day {
@@ -1816,30 +1820,65 @@ function renderGachaTab() {
 
   // 当前装备的外观
   let equippedHtml = '';
+  const equippedCanvasItems = [];
   const wSkin = s.equippedWeaponSkin ? GameEngine.GACHA_POOL.find(p => p.id === s.equippedWeaponSkin) : null;
   const aSkin = s.equippedArmorSkin ? GameEngine.GACHA_POOL.find(p => p.id === s.equippedArmorSkin) : null;
+  const realmIdx = Math.min(Math.floor((s.level - 1) / 10), 5);
   equippedHtml += `<div class="skin-card equipped">
+    <div class="skin-preview">${wSkin
+      ? `<canvas id="eq-weapon-cvs" width="40" height="40" style="width:40px;height:40px;image-rendering:pixelated;"></canvas>`
+      : `<div style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;color:#555;font-size:14px;">⚔️</div>`
+    }</div>
     <span style="color:#888;min-width:32px;">⚔️武器</span>
     <span style="flex:1;${wSkin ? 'color:'+GameEngine.GACHA_QUALITY_COLORS[wSkin.quality] : 'color:#555'}">${wSkin ? wSkin.name : '默认外观'}</span>
     ${wSkin ? `<button class="action-btn" onclick="doUnequipSkin('weapon')" style="padding:1px 5px;font-size:8px;">卸下</button>` : ''}
   </div>`;
+  if (wSkin) equippedCanvasItems.push({ id: 'eq-weapon-cvs', skinId: wSkin.id, type: 'weapon' });
   equippedHtml += `<div class="skin-card equipped">
+    <div class="skin-preview">${aSkin
+      ? `<canvas id="eq-armor-cvs" width="40" height="40" style="width:40px;height:40px;image-rendering:pixelated;"></canvas>`
+      : `<div style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;color:#555;font-size:14px;">👘</div>`
+    }</div>
     <span style="color:#888;min-width:32px;">👘衣服</span>
     <span style="flex:1;${aSkin ? 'color:'+GameEngine.GACHA_QUALITY_COLORS[aSkin.quality] : 'color:#555'}">${aSkin ? aSkin.name : '默认外观'}</span>
     ${aSkin ? `<button class="action-btn" onclick="doUnequipSkin('armor')" style="padding:1px 5px;font-size:8px;">卸下</button>` : ''}
   </div>`;
+  if (aSkin) equippedCanvasItems.push({ id: 'eq-armor-cvs', skinId: aSkin.id, type: 'armor' });
   document.getElementById('equippedSkins').innerHTML = equippedHtml;
+  // 绘制已装备外观预览
+  if (equippedCanvasItems.length > 0) {
+    requestAnimationFrame(() => {
+      for (const item of equippedCanvasItems) {
+        const cvs = document.getElementById(item.id);
+        if (!cvs) continue;
+        const ctx = cvs.getContext('2d');
+        ctx.clearRect(0, 0, 40, 40);
+        ctx.save();
+        if (item.type === 'weapon') {
+          Sprites.drawWeaponWithSkin(ctx, 20, 34, 1.8, realmIdx, 0, 0, item.skinId);
+        } else {
+          Sprites.drawMouseByRealm(ctx, 20, 30, 1.2, realmIdx, 0, 0, { equippedArmorSkin: item.skinId });
+        }
+        ctx.restore();
+      }
+    });
+  }
 
   // 显示上次抽卡结果
   if (lastGachaResults) {
     document.getElementById('gachaResultArea').style.display = 'block';
     let rHtml = '';
-    for (const r of lastGachaResults) {
+    const gachaCanvasItems = [];
+    for (let ri = 0; ri < lastGachaResults.length; ri++) {
+      const r = lastGachaResults[ri];
       const qColor = r.isEquip ? (r.qualityColor || '#CCCCCC') : GameEngine.GACHA_QUALITY_COLORS[r.quality];
       const qName = r.isEquip ? '装备' : GameEngine.GACHA_QUALITY_NAMES[r.quality];
       const cls = r.duplicate ? 'gacha-result-card duplicate' : 'gacha-result-card new';
       const tag = r.isEquip ? '⚔️' : (r.type === 'weapon' ? '🗡️' : '👘');
+      const grCanvasId = `gr-cvs-${ri}`;
+      const showPreview = !r.isEquip && r.id;
       rHtml += `<div class="${cls}" style="border-color:${qColor}20;">
+        ${showPreview ? `<div class="gr-preview"><canvas id="${grCanvasId}" width="36" height="36" style="width:36px;height:36px;image-rendering:pixelated;"></canvas></div>` : ''}
         <span class="gacha-quality" style="background:${qColor};">${qName}</span>
         <span class="gacha-tag">${tag}</span>
         <div style="flex:1;">
@@ -1849,8 +1888,28 @@ function renderGachaTab() {
           ${r.duplicate && !r.isEquip ? `<span style="color:#888;font-size:8px;"> 🔄+${r.refund}令</span>` : ''}
         </div>
       </div>`;
+      if (showPreview) gachaCanvasItems.push({ id: grCanvasId, skinId: r.id, type: r.type });
     }
     document.getElementById('gachaResults').innerHTML = rHtml;
+    // 绘制抽卡结果预览图
+    if (gachaCanvasItems.length > 0) {
+      requestAnimationFrame(() => {
+        const realmIndex = s ? Math.min(Math.floor((s.level - 1) / 10), 5) : 0;
+        for (const item of gachaCanvasItems) {
+          const cvs = document.getElementById(item.id);
+          if (!cvs) continue;
+          const ctx = cvs.getContext('2d');
+          ctx.clearRect(0, 0, 36, 36);
+          ctx.save();
+          if (item.type === 'weapon') {
+            Sprites.drawWeaponWithSkin(ctx, 18, 30, 1.5, realmIndex, 0, 0, item.skinId);
+          } else {
+            Sprites.drawMouseByRealm(ctx, 18, 27, 1.0, realmIndex, 0, 0, { equippedArmorSkin: item.skinId });
+          }
+          ctx.restore();
+        }
+      });
+    }
   } else {
     document.getElementById('gachaResultArea').style.display = 'none';
   }
@@ -1880,6 +1939,7 @@ function renderSkinCollection(s) {
     return b.quality - a.quality;
   });
 
+  const canvasItems = [];
   let html = '';
   for (const item of pool) {
     const owned = s.ownedSkins.includes(item.id);
@@ -1888,10 +1948,14 @@ function renderSkinCollection(s) {
     const qColor = GameEngine.GACHA_QUALITY_COLORS[item.quality];
     const qName = GameEngine.GACHA_QUALITY_NAMES[item.quality];
     const cls = equipped ? 'skin-card equipped' : (owned ? 'skin-card' : 'skin-card locked');
+    const canvasId = `skin-cvs-${item.id}`;
 
     html += `<div class="${cls}">
+      <div class="skin-preview">${owned
+        ? `<canvas id="${canvasId}" width="40" height="40" style="width:40px;height:40px;image-rendering:pixelated;"></canvas>`
+        : `<div style="width:40px;height:40px;display:flex;align-items:center;justify-content:center;color:#555;font-size:16px;">?</div>`
+      }</div>
       <span class="skin-quality" style="background:${qColor};">${qName}</span>
-      <span style="color:#888;font-size:9px;">${item.type === 'weapon' ? '⚔️' : '👘'}</span>
       <div class="skin-info">
         <span class="skin-name" style="color:${owned ? qColor : '#555'};">${owned ? item.name : '???'}</span>
         <div class="skin-desc">${owned ? item.desc : '未获得'}</div>
@@ -1899,9 +1963,32 @@ function renderSkinCollection(s) {
       ${owned && !equipped ? `<button class="action-btn" onclick="doEquipSkin('${item.id}')" style="padding:1px 5px;font-size:8px;border-color:${qColor};color:${qColor};">装备</button>` : ''}
       ${equipped ? '<span style="color:#FFD700;font-size:9px;">✅</span>' : ''}
     </div>`;
+    if (owned) canvasItems.push({ id: canvasId, skinId: item.id, type: item.type });
   }
   if (!html) html = '<div style="color:#555;font-size:10px;">暂无外观</div>';
   document.getElementById('skinCollection').innerHTML = html;
+  // 绘制外观预览
+  requestAnimationFrame(() => drawSkinPreviews(canvasItems, s));
+}
+
+// 在小canvas上绘制外观预览图
+function drawSkinPreviews(items, state) {
+  const realmIndex = state ? Math.min(Math.floor((state.level - 1) / 10), 5) : 0;
+  for (const item of items) {
+    const cvs = document.getElementById(item.id);
+    if (!cvs) continue;
+    const ctx = cvs.getContext('2d');
+    ctx.clearRect(0, 0, 40, 40);
+    ctx.save();
+    if (item.type === 'weapon') {
+      // 武器皮肤：直接绘制武器
+      Sprites.drawWeaponWithSkin(ctx, 20, 34, 1.8, realmIndex, 0, 0, item.skinId);
+    } else {
+      // 衣服皮肤：绘制穿着该皮肤的鼠鼠
+      Sprites.drawMouseByRealm(ctx, 20, 30, 1.2, realmIndex, 0, 0, { equippedArmorSkin: item.skinId });
+    }
+    ctx.restore();
+  }
 }
 
 function doGachaSingle() {
