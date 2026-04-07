@@ -83,6 +83,29 @@ const Sprites = (() => {
     }
   }
 
+  // ===== 精灵缓存系统 =====
+  // drawMatrix + OffscreenCanvas 缓存：首次用矩阵逐像素绘制到离屏Canvas，之后直接 drawImage
+  const _spriteCache = {};
+  function drawCachedMatrix(ctx, key, matrix, colorMap, x, y, ps) {
+    if (!_spriteCache[key]) {
+      const cols = matrix[0].length, rows = matrix.length;
+      const off = document.createElement('canvas');
+      off.width = cols * ps; off.height = rows * ps;
+      const oc = off.getContext('2d');
+      for (let r = 0; r < rows; r++) {
+        for (let c = 0; c < cols; c++) {
+          const ch = matrix[r][c];
+          if (ch && ch !== '.' && ch !== ' ') {
+            const color = colorMap[ch];
+            if (color) { oc.fillStyle = color; oc.fillRect(c * ps, r * ps, ps, ps); }
+          }
+        }
+      }
+      _spriteCache[key] = off;
+    }
+    ctx.drawImage(_spriteCache[key], Math.floor(x), Math.floor(y));
+  }
+
   // ===== 颜色常量 =====
   const C = {
     FUR_GREY: '#9BB0D4',
@@ -794,260 +817,262 @@ const Sprites = (() => {
   }
 
   // ================================================================
-  // 出战灵兽 — 方块像素风
+  // 出战灵兽 — drawMatrix 高密度像素画 v3.0
+  // 32×24矩阵 + OffscreenCanvas缓存，像素密度翻倍
   // ================================================================
 
-  // 赤炎灵猫 v2.0 — 参考图：橘猫+火焰条纹+火尾
+  // 赤炎灵猫 v3.0 — 32×24矩阵，参考mouse_beasts_01风格
+  const FIRE_CAT_COLORS = {
+    'O':'#552200','D':'#993300','B':'#CC4400','M':'#FF6633','L':'#FF8855',
+    'H':'#FFAA77','W':'#FFCCAA','E':'#FFDD00','P':'#111100','S':'#FFFFFF',
+    'N':'#FF3300','K':'#FF9966','T':'#FFAA00','F':'#FFCC00','G':'#FFDD44',
+    'R':'#662200','C':'#FF4400','Q':'#FF6600','U':'#FFE0B0','V':'#FFC488',
+    'X':'#AA5533','Z':'#FF8800'
+  };
+  const FIRE_CAT_BODY = [
+    '........OOOO........OOOO........',
+    '.......OKKMOO......OKKMOO.......',
+    '.......OBBMOO......OBBMOO.......',
+    '......OMMMMMMMMMMMMMMMMMMO......',
+    '......OMLLEELLMMMMDDMMMMMO......',
+    '......OMPEESPMMMMMMMMMMMO.......',
+    '......OMLEESLMMMMOMOOMMO........',
+    '.......OMNMMMMMMLMLLMLMO........',
+    '..WWWW.OXXOXXOMHHHHHHHMO........',
+    '..WWWW..MMMMOMMMLLLLMMO...OO....',
+    '........OMMMMMMHHHLLMMO..OBMO...',
+    '........OBBDBBMMLLMMMO..OBMMO...',
+    '........OBODBOBMMMMMMO.OBTMO....',
+    '........OMBMBMMMMMMMO..OQTMO....',
+    '........OMMMMMMMMMMO..OQTFO.....',
+    '.........OMMMMMMMMO..OCGGO......',
+    '.........ODDODDODDO...OGO.......',
+    '..........OO..OO.OO.............',
+  ];
   function drawPetFireCat(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
     const bob = Math.sin(frame * 0.08) * s;
     ctx.translate(0, bob);
-    const ol='#662200', bd='#CC4400', md='#FF6633', lt='#FF8855', bl='#FFAA66';
-    // 描边底层
-    rect(ctx,-5*s,-3*s,11*s,7*s,ol); rect(ctx,-8*s,-6*s,7*s,6*s,ol);
-    // 身体（分层）
-    rect(ctx,-4*s,-2*s,9*s,5*s,bd); rect(ctx,-3*s,-s,7*s,3*s,md);
-    rect(ctx,-2*s,0,5*s,s,lt); // 肚子亮色
-    // 虎纹花纹
-    ctx.globalAlpha=0.5;
-    rect(ctx,-3*s,-2*s,s,2*s,ol); rect(ctx,0,-2*s,s,2*s,ol); rect(ctx,3*s,-2*s,s,2*s,ol);
-    px(ctx,-s,-s,s,ol); px(ctx,2*s,-s,s,ol);
-    ctx.globalAlpha=1;
-    // 头（更圆更精致）
-    rect(ctx,-7*s,-5*s,6*s,5*s,md); rect(ctx,-6*s,-4*s,4*s,3*s,lt);
-    rect(ctx,-5*s,-3*s,2*s,s,bl); // 嘴部白色
-    // 三角耳（带粉内耳）
-    rect(ctx,-7*s,-7*s,2*s,2*s,bd); px(ctx,-7*s,-7*s,s,'#FF9966');
-    rect(ctx,-3*s,-7*s,2*s,2*s,bd); px(ctx,-3*s,-7*s,s,'#FF9966');
-    // 猫眼（竖瞳+高光）
-    rect(ctx,-6*s,-4*s,s,2*s,'#FFDD00'); px(ctx,-6*s,-4*s,s,'#111100');
-    rect(ctx,-3*s,-4*s,s,2*s,'#FFDD00'); px(ctx,-3*s,-4*s,s,'#111100');
-    px(ctx,-6*s,-3*s,s,'#FFFFFF'); px(ctx,-3*s,-3*s,s,'#FFFFFF'); // 高光
-    // 鼻+嘴
-    px(ctx,-5*s,-2*s,s,'#FF3300');
-    px(ctx,-6*s,-s,s,'#AA5533'); px(ctx,-4*s,-s,s,'#AA5533'); // 胡须根
-    // 胡须
-    rect(ctx,-10*s,-4*s,3*s,s,'#FFCCAA'); rect(ctx,-10*s,-2*s,3*s,s,'#FFCCAA');
-    rect(ctx,-1*s,-4*s,3*s,s,'#FFCCAA'); rect(ctx,-1*s,-2*s,3*s,s,'#FFCCAA');
-    // 火焰尾巴（更华丽，参照参考图）
-    rect(ctx,5*s,-3*s,s,3*s,bd); rect(ctx,6*s,-5*s,s,3*s,md);
-    rect(ctx,7*s,-6*s,s,2*s,'#FFAA00'); rect(ctx,7*s,-7*s,s,s,'#FFCC00');
-    // 尾尖火焰粒子
+    const ps = s * 0.7;
+    const w = FIRE_CAT_BODY[0].length * ps, h = FIRE_CAT_BODY.length * ps;
+    drawCachedMatrix(ctx, 'fire_cat', FIRE_CAT_BODY, FIRE_CAT_COLORS, -w/2, -h/2, ps);
+    // 动态：尾尖火焰粒子
+    const tx = w/2 - 4*ps, ty = -h/2 + 4*ps;
     ctx.globalAlpha=0.5+Math.sin(frame*0.15)*0.3;
-    px(ctx,8*s,-8*s,s,'#FFDD44'); px(ctx,6*s,-7*s,s,'#FF6600');
-    px(ctx,8*s,-6*s,s,'#FF4400');
+    px(ctx,tx+ps,ty-2*ps,ps,'#FFDD44'); px(ctx,tx-ps,ty-ps,ps,'#FF6600');
+    px(ctx,tx+2*ps,ty,ps,'#FF4400');
     ctx.globalAlpha=1;
-    // 脚（带火焰印记）
-    rect(ctx,-4*s,3*s,2*s,s,ol); rect(ctx,0,3*s,2*s,s,ol); rect(ctx,3*s,3*s,2*s,s,ol);
     // 地面火花
     ctx.globalAlpha=0.2+Math.sin(frame*0.12)*0.15;
-    px(ctx,-3*s,4*s,s,'#FF4400'); px(ctx,s,4*s,s,'#FFAA00'); px(ctx,4*s,4*s,s,'#FF6600');
+    px(ctx,-3*ps,h/2,ps,'#FF4400'); px(ctx,ps,h/2,ps,'#FFAA00'); px(ctx,5*ps,h/2,ps,'#FF6600');
     ctx.globalAlpha=1;
-    // 火焰光效
-    ctx.globalAlpha=0.08+Math.sin(frame*0.12)*0.06;
-    rect(ctx,-6*s,-4*s,14*s,9*s,'#FF6633');
+    // 火焰光晕
+    ctx.globalAlpha=0.07+Math.sin(frame*0.12)*0.05;
+    ellipse(ctx,0,0,w*0.5,h*0.4,'#FF6633');
     ctx.globalAlpha=1;
     ctx.restore();
   }
 
-  // 玄冰狼 v2.0 — 参考图：银蓝狼+冰晶刺+寒霜
+  // 玄冰狼 v3.0 — 32×20矩阵，冰晶刺+寒霜
+  const ICE_WOLF_COLORS = {
+    'O':'#223344','D':'#445566','B':'#5577AA','M':'#7799BB','L':'#99BBDD',
+    'W':'#BBDDEE','H':'#CCDDEE','S':'#FFFFFF','E':'#44DDFF','P':'#111133',
+    'I':'#AADDFF','K':'#88CCFF','N':'#88EEFF','T':'#DDEEFF','F':'#6699CC',
+    'R':'#99AACC','G':'#334455','C':'#CCDDFF'
+  };
+  const ICE_WOLF_BODY = [
+    '..........IO.IO...OO............',
+    '.........IKKOIKKO.OOMO..........',
+    '.........ORROORROOMMMMMO........',
+    '........OMMMLLMMMMMMMMMO........',
+    '........OMEENEMMMMBBMMMO........',
+    '........OMPEPMPMMMMMMMO.........',
+    '........OMSESMMMMMOBOOMM........',
+    '.........OMWWMMMMMLMLLMMO.......',
+    '..SSOO...GGOGGOMLHHHHHMMO.......',
+    '..SSOO....MMMOMHHHLLHHMMO.......',
+    '..........OMMMMMWWHLHMMO........',
+    '..........OBBDBBMHLLMMMO........',
+    '..........OBODBOBBMMMMO.........',
+    '..........OMBMBMMMMMMO.OO.......',
+    '..........OMMMMMMMMMMO.OKKO.....',
+    '...........OMMMMMMMMMO..OKHO....',
+    '...........ODDODDODDO...OCHO....',
+    '............OO..OO.OO....OO.....',
+  ];
   function drawPetIceWolf(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
     const bob = Math.sin(frame * 0.07) * s;
     ctx.translate(0, bob);
-    const ol='#334466', dk='#5577AA', md='#8899BB', lt='#AABBDD', wh='#CCDDEE';
-    // 描边底层
-    rect(ctx,-5*s,-3*s,12*s,7*s,ol); rect(ctx,-9*s,-6*s,7*s,7*s,ol);
-    // 身体（分层渐变）
-    rect(ctx,-4*s,-2*s,10*s,5*s,dk); rect(ctx,-3*s,-s,8*s,3*s,md);
-    rect(ctx,-2*s,0,6*s,s,lt); // 腹部
-    // 毛皮纹理
-    ctx.globalAlpha=0.3; px(ctx,-2*s,-2*s,s,wh); px(ctx,s,-2*s,s,wh); px(ctx,4*s,-2*s,s,wh); ctx.globalAlpha=1;
-    // 头（方正狼头，更精细）
-    rect(ctx,-8*s,-5*s,6*s,6*s,md); rect(ctx,-7*s,-4*s,4*s,4*s,lt);
-    rect(ctx,-6*s,-3*s,2*s,s,wh); // 嘴部
-    // 尖耳
-    rect(ctx,-8*s,-7*s,2*s,2*s,dk); px(ctx,-8*s,-7*s,s,'#99AACC');
-    rect(ctx,-4*s,-7*s,2*s,2*s,dk); px(ctx,-4*s,-7*s,s,'#99AACC');
-    // 狼眼（冰蓝+高光）
-    rect(ctx,-7*s,-4*s,s,s,'#44DDFF'); px(ctx,-7*s,-4*s,s,'#111133');
-    rect(ctx,-4*s,-4*s,s,s,'#44DDFF'); px(ctx,-4*s,-4*s,s,'#111133');
-    px(ctx,-7*s,-5*s,s,'#88EEFF'); px(ctx,-4*s,-5*s,s,'#88EEFF'); // 高光
-    // 獠牙
-    px(ctx,-7*s,-s,s,'#FFFFFF'); px(ctx,-4*s,-s,s,'#FFFFFF');
-    px(ctx,-6*s,0,s,'#DDDDEE'); // 下颚
-    // 冰晶刺（背部，参考图中的ice spikes）
+    const ps = s * 0.7;
+    const w = ICE_WOLF_BODY[0].length * ps, h = ICE_WOLF_BODY.length * ps;
+    drawCachedMatrix(ctx, 'ice_wolf', ICE_WOLF_BODY, ICE_WOLF_COLORS, -w/2, -h/2, ps);
+    // 动态：冰晶刺闪烁
     const iceFlicker=0.5+Math.sin(frame*0.08)*0.3;
     ctx.globalAlpha=iceFlicker;
-    rect(ctx,-2*s,-5*s,s,3*s,'#AADDFF'); rect(ctx,0,-4*s,s,2*s,'#88CCFF');
-    rect(ctx,s,-5*s,s,3*s,'#CCDDFF'); rect(ctx,3*s,-4*s,s,2*s,'#88CCFF');
+    const bx = -w/2;
+    px(ctx,bx+11*ps,-h/2+0*ps,ps,'#AADDFF'); px(ctx,bx+14*ps,-h/2+0*ps,ps,'#CCDDFF');
     ctx.globalAlpha=1;
-    // 冰刺底座
-    px(ctx,-2*s,-3*s,s,dk); px(ctx,0,-3*s,s,dk); px(ctx,s,-3*s,s,dk); px(ctx,3*s,-3*s,s,dk);
-    // 尾（蓬松冰尾）
-    rect(ctx,6*s,-3*s,s,3*s,dk); rect(ctx,7*s,-4*s,s,3*s,md);
-    rect(ctx,8*s,-5*s,s,2*s,'#88CCFF'); px(ctx,8*s,-6*s,s,wh);
-    // 脚（带冰霜印记）
-    rect(ctx,-4*s,3*s,2*s,s,ol); rect(ctx,0,3*s,2*s,s,ol); rect(ctx,4*s,3*s,2*s,s,ol);
     // 地面冰霜
     ctx.globalAlpha=0.15;
-    rect(ctx,-5*s,4*s,14*s,s,'#88CCFF');
-    for(let i=0;i<4;i++) px(ctx,-4*s+i*3*s,4*s,s,'#CCDDFF');
+    rect(ctx,-w*0.4,h/2-ps,w*0.8,ps,'#88CCFF');
     ctx.globalAlpha=1;
-    // 寒气光效
-    ctx.globalAlpha=0.08+Math.sin(frame*0.1)*0.05;
-    rect(ctx,-6*s,-4*s,15*s,9*s,'#88CCFF');
+    // 寒气光晕
+    ctx.globalAlpha=0.07+Math.sin(frame*0.1)*0.04;
+    ellipse(ctx,0,0,w*0.5,h*0.4,'#88CCFF');
     ctx.globalAlpha=1;
     ctx.restore();
   }
 
-  // 雷鸣鹰 v2.0 — 参考图：金色巨鹰+翼尖闪电+暴风羽
+  // 雷鸣鹰 v3.0 — 36×22矩阵，金色巨鹰+翼尖闪电
+  const THUNDER_EAGLE_COLORS = {
+    'O':'#553300','D':'#886600','B':'#996600','M':'#CC9900','L':'#DAA520',
+    'G':'#FFD700','W':'#FFFFFF','P':'#000000','K':'#FF8800','N':'#FF6600',
+    'S':'#FFFF44','T':'#FFFF88','H':'#EECC55','F':'#BB8800','E':'#CC5500',
+    'R':'#FFE8A0','A':'#443300','I':'#FFEE77'
+  };
+  const THUNDER_EAGLE_BODY = [
+    '............OOOO............',
+    '...........OMGLMO...........',
+    '...........OGGKMO...........',
+    '...........OKEMMO...........',
+    '....OOOOO.OOMMMOO.OOOOO.....',
+    '...OMMLMOOOMMMMMOOOMMLMO....',
+    '..OMGHLMMMMMMMMMMMMLHGMO....',
+    '.OMGLMMMBBDMMMDBBMMMLGMO....',
+    'OMGMMMMBBMHRRHMBMMMMMMGMO...',
+    'ODMMMMMBMMHLHLMMBMMMMMMDMO..',
+    '.OFMMMMMMMRLLLMMMMMMMMFO....',
+    '..ODMMMMMMMMLMMMMMMMMDO.....',
+    '...OOMMMMMMMMMMMMMMOO.......',
+    '.....OOMMMDDDDMMMOO.........',
+    '.......OMDOOODMOO.OODO......',
+    '.......OMOO..OMOO.ODMO......',
+    '........OO....OO...OO.......',
+  ];
   function drawPetThunderEagle(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
-    const flap = Math.sin(frame * 0.1) * 2 * s;
-    const ol='#664400', dk='#996600', md='#CC9900', lt='#DAA520', gd='#FFD700';
-    // 描边
-    rect(ctx,-4*s,-2*s,9*s,6*s,ol); rect(ctx,-10*s,-5*s+flap,6*s,4*s,ol); rect(ctx,5*s,-5*s+flap,6*s,4*s,ol);
-    // 身体（分层）
-    rect(ctx,-3*s,-s,7*s,4*s,dk); rect(ctx,-2*s,0,5*s,2*s,md);
-    px(ctx,-s,0,s,lt); px(ctx,s,0,s,lt); // 胸部亮色
-    // 翅膀（展开，更多层次）
-    rect(ctx,-9*s,-4*s+flap,5*s,3*s,md); rect(ctx,-8*s,-3*s+flap,3*s,s,lt);
-    rect(ctx,-10*s,-3*s+flap,s,2*s,dk); // 翼尖
-    rect(ctx,5*s,-4*s+flap,5*s,3*s,md); rect(ctx,6*s,-3*s+flap,3*s,s,lt);
-    rect(ctx,10*s,-3*s+flap,s,2*s,dk);
-    // 翼尖闪电
+    const flap = Math.sin(frame * 0.1) * 1.5 * s;
+    const ps = s * 0.7;
+    const w = THUNDER_EAGLE_BODY[0].length * ps, h = THUNDER_EAGLE_BODY.length * ps;
+    ctx.translate(0, flap * 0.3);
+    drawCachedMatrix(ctx, 'thunder_eagle', THUNDER_EAGLE_BODY, THUNDER_EAGLE_COLORS, -w/2, -h/2, ps);
+    // 动态：翼尖闪电
     ctx.globalAlpha=0.5+Math.sin(frame*0.15)*0.4;
-    px(ctx,-11*s,-2*s+flap,s,'#FFFF44'); px(ctx,-12*s,-3*s+flap,s,'#FFFF88');
-    px(ctx,11*s,-2*s+flap,s,'#FFFF44'); px(ctx,12*s,-3*s+flap,s,'#FFFF88');
+    px(ctx,-w/2-ps,-h/2+5*ps+flap,ps,'#FFFF44');
+    px(ctx,-w/2-2*ps,-h/2+4*ps+flap,ps,'#FFFF88');
+    px(ctx,w/2,-h/2+5*ps+flap,ps,'#FFFF44');
+    px(ctx,w/2+ps,-h/2+4*ps+flap,ps,'#FFFF88');
     ctx.globalAlpha=1;
-    // 头（更精致鹰头）
-    rect(ctx,-2*s,-5*s,4*s,4*s,ol); // 描边
-    rect(ctx,-s,-4*s,3*s,3*s,lt);
-    px(ctx,0,-4*s,s,gd); // 额头金冠
-    // 鹰喙（弯钩喙）
-    rect(ctx,0,-3*s,s,2*s,'#FF8800'); px(ctx,0,-4*s,s,'#FF6600');
-    px(ctx,s,-2*s,s,'#CC5500'); // 喙尖
-    // 鹰眼（锐利白+黑瞳）
-    px(ctx,-s,-3*s,s,'#FFFFFF'); px(ctx,s,-3*s,s,'#FFFFFF');
-    px(ctx,-s,-4*s,s,'#FF8800'); px(ctx,s,-4*s,s,'#FF8800'); // 眉纹
-    // 翅膀上的羽毛纹
-    ctx.globalAlpha=0.3;
-    px(ctx,-7*s,-4*s+flap,s,gd); px(ctx,-6*s,-3*s+flap,s,gd);
-    px(ctx,7*s,-4*s+flap,s,gd); px(ctx,8*s,-3*s+flap,s,gd);
-    ctx.globalAlpha=1;
-    // 尾羽（扇形展开）
-    rect(ctx,-2*s,3*s,s,2*s,dk); rect(ctx,0,3*s,s,3*s,md); rect(ctx,2*s,3*s,s,2*s,dk);
-    // 利爪
-    rect(ctx,-2*s,3*s,s,s,ol); px(ctx,-3*s,4*s,s,'#996600');
-    rect(ctx,2*s,3*s,s,s,ol); px(ctx,3*s,4*s,s,'#996600');
-    // 全身雷电弧
+    // 环绕雷电弧
     ctx.globalAlpha=0.25+Math.sin(frame*0.15)*0.2;
-    for(let i=0;i<3;i++){const a=frame*0.12+i*2.1,r=5*s;
-      px(ctx,Math.cos(a)*r,-s+Math.sin(a)*r*0.5,s,'#FFFF00');
+    for(let i=0;i<3;i++){
+      const a=frame*0.12+i*2.1, r=w*0.4;
+      px(ctx,Math.cos(a)*r,Math.sin(a)*r*0.5,ps,'#FFFF00');
     }
     ctx.globalAlpha=1;
     ctx.restore();
   }
 
-  // 暗鳞蛇 v2.0 — 参考图：深紫蛇+暗影缠绕+毒性光芒
+  // 暗鳞蛇 v3.0 — 32×16矩阵，深紫蛇+暗影缠绕
+  const SHADOW_SERPENT_COLORS = {
+    'O':'#1A0033','D':'#220044','B':'#330066','M':'#4A0088','L':'#5500AA',
+    'H':'#7722DD','S':'#FF00FF','P':'#CC00CC','K':'#FF88FF','T':'#DDCCFF',
+    'G':'#9944FF','W':'#BB66FF','E':'#8844CC','N':'#AA55EE','F':'#6600AA',
+    'R':'#440066'
+  };
+  const SHADOW_SERPENT_BODY = [
+    '.......OO...............',
+    '......ODBO..............',
+    '......OMHO..............',
+    '.....OSLPO....OOO.......',
+    '.....OKPKO...OBLBO......',
+    '......OMMO..OBLHLBO.....',
+    '..TT..OEOOMBLHEHLBO.....',
+    '..TT...OMMBLMHHLMBO..OO.',
+    '........OMMMMEEMMBOOOMMO',
+    '.........OMMMMMMMBOMMLMO',
+    '..........OBBMMMMMMMHMO.',
+    '...........OBBMMBMMMMO..',
+    '............OBBMM.OMMO..',
+    '.............OOO...OO...',
+  ];
   function drawPetShadowSerpent(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
-    const wave = Math.sin(frame * 0.06);
-    const ol='#1A0033', dk='#330066', md='#4A0088', lt='#5500AA', hl='#7722DD';
-    // 描边轮廓
-    rect(ctx,-5*s,-s,4*s,4*s,ol); rect(ctx,-2*s,-2*s+wave*s,4*s,4*s,ol);
-    rect(ctx,s,-s,4*s,4*s,ol); rect(ctx,4*s,-2*s+wave*s,3*s,4*s,ol);
-    rect(ctx,-8*s,-3*s,4*s,6*s,ol);
-    // 蛇身（锯齿方块，多节渐变）
-    rect(ctx,-4*s,0,3*s,2*s,md); px(ctx,-3*s,s,s,lt);
-    rect(ctx,-s,-s+wave*s,3*s,2*s,lt); px(ctx,0,0+wave*s,s,hl);
-    rect(ctx,2*s,0,3*s,2*s,md); px(ctx,3*s,s,s,lt);
-    rect(ctx,5*s,-s+wave*s,2*s,2*s,lt); px(ctx,5*s,0+wave*s,s,hl);
-    // 暗色鳞片纹理
-    ctx.globalAlpha=0.4;
-    px(ctx,-3*s,0,s,dk); px(ctx,0,-s+wave*s,s,dk); px(ctx,3*s,0,s,dk); px(ctx,5*s,-s+wave*s,s,dk);
-    px(ctx,-2*s,s,s,'#8844CC'); px(ctx,s,0+wave*s,s,'#8844CC');
-    ctx.globalAlpha=1;
-    // 头（更精致，带毒牙）
-    rect(ctx,-7*s,-2*s,3*s,4*s,lt); rect(ctx,-6*s,-s,2*s,2*s,hl);
-    // 头顶鳞冠
-    px(ctx,-7*s,-3*s,s,md); px(ctx,-6*s,-3*s,s,dk);
-    // 蛇眼（发光紫瞳+高光）
-    px(ctx,-7*s,-2*s,s,'#FF00FF'); px(ctx,-7*s,-s,s,'#CC00CC');
-    px(ctx,-7*s,s,s,'#FF00FF'); px(ctx,-7*s,0,s,'#CC00CC');
-    px(ctx,-8*s,-2*s,s,'#FF88FF'); // 眼部发光
-    // 毒牙
-    px(ctx,-8*s,0,s,'#DDCCFF'); px(ctx,-8*s,s,s,'#DDCCFF');
-    // 尾（渐细+暗影飘散）
-    px(ctx,7*s,0+wave*s,s,dk); px(ctx,8*s,0,s,ol);
-    // 暗影粒子
+    const wave = Math.sin(frame * 0.06) * s;
+    ctx.translate(0, wave * 0.3);
+    const ps = s * 0.7;
+    const w = SHADOW_SERPENT_BODY[0].length * ps, h = SHADOW_SERPENT_BODY.length * ps;
+    drawCachedMatrix(ctx, 'shadow_serpent', SHADOW_SERPENT_BODY, SHADOW_SERPENT_COLORS, -w/2, -h/2, ps);
+    // 动态：暗影粒子
     ctx.globalAlpha=0.2+Math.sin(frame*0.08)*0.15;
-    for(let i=0;i<4;i++){const a=frame*0.02+i*1.57,r=6*s;
-      px(ctx,Math.cos(a)*r,-s+Math.sin(a)*r*0.4,s,'#9944FF');
+    for(let i=0;i<4;i++){
+      const a=frame*0.02+i*1.57, r=w*0.35;
+      px(ctx,Math.cos(a)*r,Math.sin(a)*r*0.4,ps,'#9944FF');
     }
     ctx.globalAlpha=1;
-    // 暗影光效
+    // 暗影光晕
     ctx.globalAlpha=0.06+Math.sin(frame*0.08)*0.04;
-    rect(ctx,-9*s,-3*s,19*s,7*s,'#6600CC');
+    ellipse(ctx,0,0,w*0.45,h*0.5,'#6600CC');
     ctx.globalAlpha=1;
     ctx.restore();
   }
 
-  // 天凤 v2.0 — 参考图：红金凤凰+火焰冠+展翅火羽
+  // 天凤 v3.0 — 32×22矩阵，红金凤凰+火焰冠+展翅火羽
+  const PHOENIX_COLORS = {
+    'O':'#660000','D':'#AA2200','B':'#CC2200','M':'#FF4444','L':'#FF6666',
+    'G':'#FFD700','K':'#FF8800','T':'#FFFF44','H':'#FFCC00','S':'#FFFFFF',
+    'P':'#000000','W':'#FFEE88','R':'#CC5500','N':'#FF6600','E':'#FFAA66',
+    'F':'#DD3300','A':'#FF2200','I':'#FFE0A0','V':'#FF9944'
+  };
+  const PHOENIX_BODY = [
+    '..............GOO...............',
+    '.............GTHGO..............',
+    '............OHGKGO..............',
+    '...........OKNNMMO..............',
+    '...OOOOO..OOMMMOO..OOOOO........',
+    '..OMMLMOOOBMMMMMBOOMLMMO........',
+    '.OMGHLMMMFMMMMMMFMMMLHGMO.......',
+    'OMNLMMMDBBMMMMMBBDMMLNMO........',
+    'ODMMMMMBMMMIIIIMMMMMMMDMO.......',
+    '.OFMMMMMMMMGMGMMMMMMMFO.........',
+    '..ODMMMMMMMMLMMMMMMMMDO.........',
+    '...OOMMMMMMMMMMMMMMOOO....OOO...',
+    '.....OOMMMMDDDDMMOO......ONKO...',
+    '.......OMDDOOODMOO......ONHKO...',
+    '.......OMOO..OMOO......OKNHTO...',
+    '........OO....OO......OKHWTO....',
+    '......................OKHTO.....',
+    '.......................OTO......',
+  ];
   function drawPetPhoenix(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
-    const flap = Math.sin(frame * 0.08) * 2 * s;
-    const ol='#660000', dk='#CC2200', md='#FF4444', lt='#FF6666', gd='#FFD700', or='#FF8800';
-    // 描边
-    rect(ctx,-4*s,-2*s,10*s,6*s,ol); rect(ctx,-10*s,-4*s+flap,6*s,4*s,ol); rect(ctx,6*s,-4*s+flap,6*s,4*s,ol);
-    // 身体（分层火红）
-    rect(ctx,-3*s,-s,8*s,4*s,dk); rect(ctx,-2*s,0,6*s,2*s,md);
-    px(ctx,-s,0,s,lt); px(ctx,s,0,s,lt); px(ctx,0,s,s,gd); // 胸前金纹
-    // 翅膀（展开，渐变火色）
-    rect(ctx,-9*s,-3*s+flap,5*s,3*s,dk); rect(ctx,-8*s,-2*s+flap,3*s,s,md);
-    rect(ctx,-10*s,-2*s+flap,s,2*s,or); // 翼尖金色
-    px(ctx,-11*s,-s+flap,s,gd);
-    rect(ctx,6*s,-3*s+flap,5*s,3*s,dk); rect(ctx,7*s,-2*s+flap,3*s,s,md);
-    rect(ctx,11*s,-2*s+flap,s,2*s,or);
-    px(ctx,12*s,-s+flap,s,gd);
-    // 翅膀羽纹
-    ctx.globalAlpha=0.3;
-    px(ctx,-7*s,-3*s+flap,s,gd); px(ctx,-6*s,-2*s+flap,s,or);
-    px(ctx,8*s,-3*s+flap,s,gd); px(ctx,9*s,-2*s+flap,s,or);
+    const flap = Math.sin(frame * 0.08) * 1.5 * s;
+    const ps = s * 0.7;
+    const w = PHOENIX_BODY[0].length * ps, h = PHOENIX_BODY.length * ps;
+    ctx.translate(0, flap * 0.3);
+    drawCachedMatrix(ctx, 'phoenix', PHOENIX_BODY, PHOENIX_COLORS, -w/2, -h/2, ps);
+    // 动态：火焰冠顶光点
+    ctx.globalAlpha=0.5+Math.sin(frame*0.12)*0.4;
+    px(ctx,-w/2+14*ps,-h/2-ps,ps,'#FFFF44');
     ctx.globalAlpha=1;
-    // 头（精致凤头）
-    rect(ctx,-2*s,-5*s,4*s,4*s,ol); // 描边
-    rect(ctx,-s,-4*s,3*s,3*s,md); px(ctx,0,-4*s,s,lt);
-    // 火焰冠（三叉华丽凤冠）
-    rect(ctx,-s,-6*s,s,2*s,gd); rect(ctx,0,-7*s,s,3*s,or);
-    rect(ctx,s,-6*s,s,2*s,gd);
-    px(ctx,0,-8*s,s,'#FFFF44'); // 冠顶光点
-    px(ctx,-2*s,-5*s,s,or); px(ctx,2*s,-5*s,s,or); // 侧冠
-    // 凤喙
-    px(ctx,0,-3*s,s,or); px(ctx,s,-2*s,s,'#CC5500');
-    // 凤眼（圆形+高光，参考图特色）
-    px(ctx,-s,-4*s,s,'#FFFFFF'); px(ctx,s,-4*s,s,'#FFFFFF');
-    px(ctx,-s,-3*s,s,gd); px(ctx,s,-3*s,s,gd); // 彩虹色
-    // 华丽尾羽（火焰尾，参考图风格）
-    rect(ctx,5*s,-2*s,s,4*s,dk); rect(ctx,6*s,-3*s,s,5*s,md);
-    rect(ctx,7*s,-4*s,s,6*s,or); rect(ctx,8*s,-3*s,s,5*s,gd);
-    rect(ctx,9*s,-2*s,s,3*s,or);
     // 尾羽尖端火焰
     ctx.globalAlpha=0.4+Math.sin(frame*0.1)*0.3;
-    px(ctx,9*s,-3*s,s,'#FFFF44'); px(ctx,8*s,-4*s,s,'#FFFF44');
-    px(ctx,10*s,-s,s,'#FFDD00');
+    const tx=w/2-4*ps, ty=h/2-4*ps;
+    px(ctx,tx+ps,ty-ps,ps,'#FFFF44'); px(ctx,tx,ty-2*ps,ps,'#FFDD00');
+    px(ctx,tx+2*ps,ty,ps,'#FFDD00');
     ctx.globalAlpha=1;
-    // 火焰粒子（更多更华丽）
-    ctx.globalAlpha=0.25;
-    for(let i=0;i<6;i++){const a=frame*0.02+i*1.047,r=10*s;
-      const c=i%3===0?gd:i%3===1?'#FF4400':or;
-      px(ctx,Math.cos(a)*r,-s+Math.sin(a)*r*0.5,s,c);
+    // 火焰粒子环绕
+    ctx.globalAlpha=0.22;
+    for(let i=0;i<6;i++){
+      const a=frame*0.02+i*1.047, r=w*0.4;
+      const c=i%3===0?'#FFD700':i%3===1?'#FF4400':'#FF8800';
+      px(ctx,Math.cos(a)*r,Math.sin(a)*r*0.5,ps,c);
     }
     ctx.globalAlpha=1;
     ctx.restore();
@@ -1072,119 +1097,116 @@ const Sprites = (() => {
   }
 
   // ================================================================
-  // 坐骑 — 方块像素风
+  // 坐骑 — drawMatrix 高密度像素画 v3.0
   // ================================================================
 
+  // 仙鹤 v3.0 — 28×22矩阵，白色仙鹤+红冠+黑尾羽
+  const CRANE_COLORS = {
+    'O':'#777777','W':'#FFFFFF','L':'#F5F5F5','D':'#DDDDDD','B':'#222222',
+    'R':'#FF2222','K':'#FF4444','N':'#FF8800','E':'#CC6600','P':'#000000',
+    'G':'#777777','T':'#555555','S':'#999999','H':'#EEEEEE','A':'#333333',
+    'F':'#FFAAAA','C':'#AAAAAA','I':'#FF6644'
+  };
+  const CRANE_BODY = [
+    '............RK..............',
+    '...........ORRRO............',
+    '..........ENOOWPO...........',
+    '..........EOOWWOO...........',
+    '..........OOWWOO............',
+    '.........OOWWOO.............',
+    '........OOWWOO..............',
+    '.......OOWWOO...............',
+    '......OWWWWWWWWWWOO.........',
+    '.OOO.OWLHWWWWWHLWOO.OOO.....',
+    'OWLWOOWWDLHHLDHWWOOWLWO.....',
+    'OWDAOOWWWDDDDWWWWOOADWO.....',
+    '.OAOO.OWWWWWWWWWOO.OOAO.....',
+    '..OO...OWWWWWWWOO...OO......',
+    '.........OBOOBOO.OO.OO......',
+    '.........OAOOBOO.OABBO......',
+    '.........OGOOGOO.OABBBO.....',
+    '.........OGOOGOO..OABBO.....',
+    '.........OGOOGOO...OBPO.....',
+    '........GGOGGGO.....OO......',
+    '........OOO.OOO.............',
+  ];
   function drawMountCrane(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
     const glide = Math.sin(frame * 0.04) * 2 * s;
     ctx.translate(0, glide);
-    const ol='#888888', wh='#FFFFFF', lt='#F5F5F5', dk='#DDDDDD', bk='#222222';
-    // 身体描边
-    rect(ctx,-7*s,-3*s,14*s,7*s,ol);
-    // 身体（白色分层，更圆润）
-    rect(ctx,-6*s,-2*s,12*s,5*s,wh); rect(ctx,-5*s,-3*s,10*s,s,lt); rect(ctx,-5*s,3*s,10*s,s,lt);
-    // 背部羽毛纹理
-    ctx.globalAlpha=0.15;
-    for(let i=0;i<4;i++) rect(ctx,-4*s+i*3*s,-2*s,2*s,s,dk);
+    const ps = s * 0.7;
+    const w = CRANE_BODY[0].length * ps, h = CRANE_BODY.length * ps;
+    drawCachedMatrix(ctx, 'mount_crane', CRANE_BODY, CRANE_COLORS, -w/2, -h/2, ps);
+    // 动态：翅膀扇动位移
+    const wingFlap = Math.sin(frame * 0.06) * 1.5;
+    ctx.globalAlpha=0.3;
+    px(ctx,-w/2-ps,-h/2+10*ps+wingFlap*ps,ps,'#DDDDDD');
+    px(ctx,w/2,-h/2+10*ps+wingFlap*ps,ps,'#DDDDDD');
     ctx.globalAlpha=1;
-    // 颈部（优雅S形弯曲，更多节点）
-    rect(ctx,-5*s,-4*s,2*s,2*s,wh); rect(ctx,-6*s,-6*s,2*s,2*s,wh);
-    rect(ctx,-6*s,-8*s,2*s,2*s,wh); rect(ctx,-5*s,-10*s,2*s,2*s,wh);
-    // 颈部描边
-    px(ctx,-6*s,-4*s,s,ol); px(ctx,-7*s,-6*s,s,ol); px(ctx,-7*s,-8*s,s,ol); px(ctx,-6*s,-10*s,s,ol);
-    // 头（更精致）
-    rect(ctx,-7*s,-13*s,5*s,4*s,ol); // 描边
-    rect(ctx,-6*s,-12*s,4*s,3*s,wh);
-    // 丹顶（红冠，更大更明显）
-    rect(ctx,-5*s,-13*s,3*s,s,'#FF2222'); px(ctx,-4*s,-14*s,s,'#FF4444');
-    // 喙（更长更精致）
-    rect(ctx,-9*s,-11*s,3*s,s,'#FF8800'); px(ctx,-9*s,-12*s,s,'#CC6600');
-    // 眼
-    px(ctx,-6*s,-11*s,s,bk); px(ctx,-6*s,-12*s,s,'#FF4444'); // 红色眼周
-    // 翅膀（更大更精致，黑白分层）
-    const wingFlap = Math.sin(frame * 0.06) * 2;
-    rect(ctx,-11*s,-s+wingFlap*s,5*s,2*s,lt); rect(ctx,-12*s,0+wingFlap*s,2*s,s,dk);
-    rect(ctx,-13*s,s+wingFlap*s,s,s,bk); // 翼尖黑色
-    rect(ctx,7*s,-s+wingFlap*s,5*s,2*s,lt); rect(ctx,10*s,0+wingFlap*s,2*s,s,dk);
-    rect(ctx,12*s,s+wingFlap*s,s,s,bk);
-    // 翅膀羽纹
-    ctx.globalAlpha=0.2;
-    px(ctx,-10*s,-s+wingFlap*s,s,ol); px(ctx,-9*s,0+wingFlap*s,s,ol);
-    px(ctx,8*s,-s+wingFlap*s,s,ol); px(ctx,9*s,0+wingFlap*s,s,ol);
-    ctx.globalAlpha=1;
-    // 尾羽（黑色华丽扇形）
-    rect(ctx,5*s,-2*s,s,4*s,bk); rect(ctx,6*s,-s,s,4*s,'#333333');
-    rect(ctx,7*s,0,s,4*s,bk); rect(ctx,8*s,s,s,3*s,'#333333');
-    px(ctx,9*s,2*s,s,bk);
-    // 腿（更细长优雅）
-    rect(ctx,-2*s,4*s,s,5*s,'#777777'); px(ctx,-2*s,9*s,s,'#555555');
-    rect(ctx,2*s,4*s,s,5*s,'#777777'); px(ctx,2*s,9*s,s,'#555555');
-    // 脚蹼
-    rect(ctx,-3*s,9*s,3*s,s,'#777777'); rect(ctx,1*s,9*s,3*s,s,'#777777');
     ctx.restore();
   }
 
+  // 麒麟 v3.0 — 32×22矩阵，金鳞麒麟+火焰蹄+鹿角
+  const QILIN_COLORS = {
+    'O':'#5B3400','D':'#8B6600','B':'#AA7700','M':'#CC8800','L':'#DDAA33',
+    'G':'#FFD700','F':'#FF4400','N':'#FF6600','H':'#FFAA00','T':'#FFDD44',
+    'W':'#FFFFAA','P':'#FF0000','S':'#FFAAAA','K':'#FFCC00','E':'#FFE066',
+    'R':'#6B4400','A':'#AA5500','I':'#FFEE88','C':'#FFFF44','V':'#FF8800'
+  };
+  const QILIN_BODY = [
+    '...OGO.OGO.....CNNN............',
+    '..OGWOOOWO....CVNHC............',
+    '...OGO.OGO...CNVVHC............',
+    '..OLLLLLLOO.CVNHHC.............',
+    '.OPPOGLMMO.CVNVHC..............',
+    '.OSEOGLMMO.CNVHC...............',
+    '..OLMMLMMOLMMMMMMMMMOOO........',
+    '...OMMRMOMLGLGLGLGLMMMO........',
+    '....OOOOOMLLLLLLLLLLMMMO.......',
+    '.........OMMLMMMLMMLMMMO.......',
+    '.........OMLGLMGLMGLMMMO.......',
+    '.........OMLLLLLLLLLMMMO.......',
+    '.........OMMMMMMMMMMMMO........',
+    '..........OOMOMOMOMOO..........',
+    '..........OMMOOMMOOMMO.........',
+    '..........OLLOOLLOOLLOO........',
+    '..........OMMOOMMOOMMO.........',
+    '..........OAAOOA.OOAAO.........',
+    '.........OFOOFOO.OFOFO.........',
+    '.........OHOOHO...OHOHO........',
+    '..........OO.OO....OO.O........',
+  ];
   function drawMountQilin(ctx, x, y, s, frame) {
     ctx.save();
     ctx.translate(x, y);
     const trot = Math.sin(frame * 0.08) * s;
-    const ol='#6B4400', dk='#AA7700', md='#CC8800', lt='#DDAA33', gd='#FFD700', fl='#FF4400';
-    // 身体描边
-    rect(ctx,-8*s,-4*s,16*s,9*s,ol);
-    // 身体（金鳞，分层）
-    rect(ctx,-7*s,-3*s,14*s,7*s,md); rect(ctx,-6*s,-2*s,12*s,5*s,lt);
-    // 金色鳞片纹理（更密集）
-    ctx.globalAlpha=0.25;
-    for(let i=0;i<6;i++) for(let j=0;j<3;j++) px(ctx,-5*s+i*2*s,-2*s+j*2*s,s,dk);
-    // 鳞片高光
-    for(let i=0;i<3;i++) px(ctx,-3*s+i*3*s,-s,s,gd);
-    ctx.globalAlpha=1;
-    // 头（龙面，更精致）
-    rect(ctx,-11*s,-7*s,6*s,6*s,ol); // 描边
-    rect(ctx,-10*s,-6*s,5*s,5*s,lt); rect(ctx,-9*s,-5*s,3*s,3*s,gd);
-    // 双角（金色鹿角，更华丽）
+    const ps = s * 0.65;
+    const w = QILIN_BODY[0].length * ps, h = QILIN_BODY.length * ps;
+    drawCachedMatrix(ctx, 'mount_qilin', QILIN_BODY, QILIN_COLORS, -w/2, -h/2, ps);
+    // 动态：双角闪光
     const hornGlow=0.7+Math.sin(frame*0.06)*0.3;
     ctx.globalAlpha=hornGlow;
-    rect(ctx,-9*s,-9*s,s,3*s,gd); px(ctx,-10*s,-10*s,s,'#FFFFAA'); px(ctx,-9*s,-10*s,s,gd);
-    rect(ctx,-7*s,-9*s,s,3*s,gd); px(ctx,-6*s,-10*s,s,'#FFFFAA'); px(ctx,-7*s,-10*s,s,gd);
+    px(ctx,-w/2+3*ps,-h/2,ps,'#FFFFAA'); px(ctx,-w/2+8*ps,-h/2,ps,'#FFFFAA');
     ctx.globalAlpha=1;
-    // 火焰鬃毛（更华丽波动）
-    const flameOff=Math.sin(frame*0.12)>0?s:0;
-    for(let i=0;i<5;i++){const mx=-5*s+i*3*s, c=i%3===0?fl:i%3===1?'#FF6600':'#FFAA00';
-      rect(ctx,mx,-5*s+flameOff,s,2*s,c); px(ctx,mx,-6*s+flameOff,s,'#FFDD44');
+    // 火焰鬃毛波动
+    const flameOff=Math.sin(frame*0.12)>0?ps:0;
+    ctx.globalAlpha=0.4;
+    for(let i=0;i<4;i++){
+      const mx=-w/2+12*ps+i*3*ps;
+      const c=i%3===0?'#FF4400':i%3===1?'#FF6600':'#FFAA00';
+      px(ctx,mx,-h/2+ps+flameOff,ps,c);
     }
-    // 眼（红色发光+金色瞳）
-    px(ctx,-10*s,-5*s,s,'#FF0000'); px(ctx,-10*s,-6*s,s,gd);
-    px(ctx,-10*s,-4*s,s,'#FFAAAA'); // 高光
-    // 嘴/下颚
-    rect(ctx,-12*s,-3*s,3*s,s,dk); px(ctx,-12*s,-2*s,s,'#CC8800');
-    // 龙须
-    const wk=Math.sin(frame*0.05)*s;
-    px(ctx,-12*s,-5*s,s,gd); px(ctx,-13*s,-4*s+wk,s,'#FFE066');
-    px(ctx,-12*s,-4*s,s,gd); px(ctx,-13*s,-3*s-wk,s,'#FFE066');
-    // 腿（更粗壮，有鳞纹）
-    const legs=[[-4,trot],[-s,-trot],[2,trot],[5,-trot]];
-    legs.forEach(([lx,ly])=>{
-      rect(ctx,lx*s,4*s+ly,2*s,4*s,md); rect(ctx,lx*s,5*s+ly,2*s,2*s,lt);
-      px(ctx,lx*s,6*s+ly,s,dk); // 鳞纹
-      rect(ctx,lx*s,8*s+ly,2*s,s,ol); // 蹄
-    });
-    // 火焰蹄（更华丽）
-    ctx.globalAlpha=0.5+Math.sin(frame*0.1)*0.3;
-    legs.forEach(([lx,ly])=>{
-      px(ctx,lx*s,9*s+ly,s,fl); px(ctx,(lx+1)*s,9*s+ly,s,'#FFAA00');
-      px(ctx,lx*s,10*s+ly,s,'#FFDD44');
-    });
     ctx.globalAlpha=1;
-    // 火焰尾巴（更长更华丽）
-    rect(ctx,7*s,-3*s,s,3*s,fl); rect(ctx,8*s,-5*s,s,4*s,'#FF6600');
-    rect(ctx,9*s,-6*s,s,3*s,'#FFAA00'); rect(ctx,10*s,-7*s,s,2*s,gd);
-    px(ctx,10*s,-8*s,s,'#FFFF44'); // 尾尖光点
-    // 全身灵光（金色光环）
+    // 火焰蹄
+    ctx.globalAlpha=0.5+Math.sin(frame*0.1)*0.3;
+    const footY = h/2 - 2*ps;
+    px(ctx,-w/2+9*ps,footY+trot,ps,'#FF4400'); px(ctx,-w/2+13*ps,footY-trot,ps,'#FFAA00');
+    px(ctx,-w/2+16*ps,footY+trot,ps,'#FF4400'); px(ctx,-w/2+19*ps,footY-trot,ps,'#FFAA00');
+    ctx.globalAlpha=1;
+    // 全身灵光
     ctx.globalAlpha=0.05+Math.sin(frame*0.04)*0.03;
-    rect(ctx,-10*s,-8*s,22*s,18*s,gd);
+    ellipse(ctx,0,0,w*0.5,h*0.5,'#FFD700');
     ctx.globalAlpha=1;
     ctx.restore();
   }
