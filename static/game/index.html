@@ -1529,7 +1529,7 @@ function renderSkillsTab() {
   for (const sk of GameEngine.SKILL_TREE) {
     const lv = s.skills[sk.id]||0; const locked = s.realmIndex < sk.realm;
     const maxed = lv >= sk.maxLevel;
-    const goldCost = sk.cost * 100 * (1 + lv);
+    const goldCost = Math.floor(sk.cost * 200 * Math.pow(1 + lv, 1.5));
     const canUp = !locked && !maxed && s.gold >= goldCost;
     const canMax = !locked && !maxed;
     html += `<div class="card" ${locked?'style="opacity:0.4"':''}>

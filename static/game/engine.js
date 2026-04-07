@@ -224,19 +224,19 @@ const GameEngine = (() => {
   // ========== 洞府系统（凡人修仙传洞府）==========
   const CAVE_BUILDINGS = [
     { id: 'herb_garden', name: '灵药圃', icon: '🌿', desc: '每分钟自动产出灵药',
-      maxLevel: 10, baseCost: 200, costMult: 2.5,
+      maxLevel: 10, baseCost: 200, costMult: 2.2,
       effect: (lv) => ({ herb_per_min: lv * 0.5 }) },
     { id: 'spirit_array', name: '聚灵阵', icon: '✨', desc: '增加修炼速度',
-      maxLevel: 10, baseCost: 500, costMult: 3,
+      maxLevel: 10, baseCost: 500, costMult: 2.2,
       effect: (lv) => ({ exp_bonus_pct: lv * 5 }) },
     { id: 'forge_room', name: '炼丹室', icon: '🔥', desc: '炼丹材料消耗减少',
-      maxLevel: 5, baseCost: 800, costMult: 3.5,
+      maxLevel: 5, baseCost: 1000, costMult: 2.5,
       effect: (lv) => ({ pill_mat_reduce_pct: lv * 10 }) },
     { id: 'mine_shaft', name: '灵矿脉', icon: '⛏️', desc: '每分钟自动产出矿石',
-      maxLevel: 10, baseCost: 300, costMult: 2.5,
+      maxLevel: 10, baseCost: 300, costMult: 2.2,
       effect: (lv) => ({ ore_per_min: lv * 0.3 }) },
     { id: 'training_ground', name: '演武场', icon: '🏋️', desc: '提升全属性百分比',
-      maxLevel: 5, baseCost: 1000, costMult: 4,
+      maxLevel: 5, baseCost: 2000, costMult: 2.5,
       effect: (lv) => ({ all_stat_bonus_pct: lv * 3 }) },
   ];
 
@@ -910,7 +910,21 @@ const GameEngine = (() => {
 
   function getRealm(level) { return REALMS[getRealmIndex(level)]; }
 
+  // v1.3.1: 怪物等级缩放——30级以上加入轻度二次方额外增长
+  function getLevelScale(level, realmMinLevel) {
+    let scale = 1 + (level - realmMinLevel) * 0.15;
+    if (level >= 30) {
+      scale *= (1 + Math.pow((level - 30) * 0.01, 1.3));
+    }
+    return scale;
+  }
+
   function getExpToNextLevel(level) {
+    // v1.3.1: Lv.50+经验曲线平缓化，从1.35指数改为1.08，避免后期永远到不了
+    if (level >= 50) {
+      const base50 = Math.floor(50 * Math.pow(1.35, 49));
+      return Math.floor(base50 * Math.pow(1.08, level - 50));
+    }
     return Math.floor(50 * Math.pow(1.35, level - 1));
   }
 
@@ -918,7 +932,7 @@ const GameEngine = (() => {
     const realmIdx = getRealmIndex(level);
     const monsters = MONSTER_TEMPLATES[realmIdx];
     const template = monsters[Math.floor(Math.random() * monsters.length)];
-    const levelScale = 1 + (level - REALMS[realmIdx].minLevel) * 0.15;
+    const levelScale = getLevelScale(level, REALMS[realmIdx].minLevel);
 
     // 精英怪机制：每15次连杀生成一只精英
     let isElite = false;
@@ -2205,8 +2219,8 @@ const GameEngine = (() => {
     if (getRealmIndex(state.level) < sk.realm) return { success: false, msg: '境界不足' };
     const curLv = state.skills[skillId] || 0;
     if (curLv >= sk.maxLevel) return { success: false, msg: '已满级' };
-    // v1.0: 功法升级消耗灵石而非修炼点
-    const goldCost = sk.cost * 100 * (1 + curLv);
+    // v1.3.1: 功法升级费用从线性改为1.5次方增长
+    const goldCost = Math.floor(sk.cost * 200 * Math.pow(1 + curLv, 1.5));
     if (state.gold < goldCost) return { success: false, msg: `灵石不足（需要${formatNumber(goldCost)}）` };
     state.gold -= goldCost;
     state.skills[skillId] = curLv + 1;
@@ -2225,7 +2239,7 @@ const GameEngine = (() => {
     let totalSpent = 0;
     let levelsGained = 0;
     while (curLv < sk.maxLevel) {
-      const goldCost = sk.cost * 100 * (1 + curLv);
+      const goldCost = Math.floor(sk.cost * 200 * Math.pow(1 + curLv, 1.5));
       if (state.gold < goldCost) break;
       state.gold -= goldCost;
       totalSpent += goldCost;
@@ -2238,7 +2252,7 @@ const GameEngine = (() => {
       saveState();
       return { success: true, msg: `${sk.name} 一键升${levelsGained}级！花费${formatNumber(totalSpent)}灵石（Lv.${curLv}/${sk.maxLevel}）`, totalSpent, levelsGained };
     }
-    const nextCost = sk.cost * 100 * (1 + curLv);
+    const nextCost = Math.floor(sk.cost * 200 * Math.pow(1 + curLv, 1.5));
     return { success: false, msg: `灵石不足（下次升级需要${formatNumber(nextCost)}）` };
   }
 
@@ -2359,7 +2373,7 @@ const GameEngine = (() => {
     const avgExp = monsters.reduce((sum, m) => sum + m.exp, 0) / monsters.length;
     const avgGold = monsters.reduce((sum, m) => sum + m.gold, 0) / monsters.length;
     const avgHp = monsters.reduce((sum, m) => sum + m.hp, 0) / monsters.length;
-    const levelScale = 1 + (state.level - REALMS[realmIdx].minLevel) * 0.15;
+    const levelScale = getLevelScale(state.level, REALMS[realmIdx].minLevel);
     const stats = getComputedStats();
     const killsPerTick = Math.max(0.1, stats.attack / (avgHp * levelScale));
     const totalKills = Math.floor(killsPerTick * tickCount);
