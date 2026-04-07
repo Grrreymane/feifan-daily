@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-08"
 ---
 
 # Blender
@@ -130,3 +130,24 @@ Blender 工具与社区动态
 
 ### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sdoq90/arcane_magic_lightning_eruption_fx_in_unreal/)
 - 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/flippednormals-is-shutting-down)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/the-rise-fall-and-resurgence-of-australian-game-development)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/artist-unveils-procedural-cathedral-made-with-blender-s-geometry-nodes/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/creating-a-painterly-like-and-stylized-environment-inspired-by-howl-s-moving-castle/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/how-to-design-an-environment-mixing-coziness-with-cyberpunk-vibes/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/create-3d-worlds-easily-with-this-procedural-nature-assets-for-blender/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials

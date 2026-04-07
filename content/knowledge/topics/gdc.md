@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-08"
 ---
 
 # GDC 大会
@@ -74,3 +74,6 @@ GDC 演讲、报告与行业洞察
 
 ### [Reddit](https://www.reddit.com/r/gamedev/comments/1se3o4v/what_i_learned_growing_an_indie_game_community/)
 - 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube/GDC](https://www.youtube.com/watch?v=XxvLyd4lKZM)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials

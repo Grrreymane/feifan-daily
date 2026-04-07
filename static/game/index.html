@@ -232,47 +232,6 @@
     .skin-card .skin-desc { color: #888; font-size: 9px; }
     .gacha-result-card .gr-preview { flex-shrink: 0; width: 36px; height: 36px; background: #0a0a1e; border-radius: 3px; overflow: hidden; display: flex; align-items: center; justify-content: center; }
     .gacha-result-card .gr-preview canvas { display: block; }
-    /* 签到日历 */
-    .sign-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 3px; margin: 4px 0; }
-    .sign-day {
-      background: #1a1a3e; border: 1px solid #2a2a5a; padding: 4px 2px; text-align: center;
-      font-size: 9px; min-height: 42px; display: flex; flex-direction: column; align-items: center; justify-content: center;
-      transition: all 0.15s;
-    }
-    .sign-day .sd-icon { font-size: 14px; }
-    .sign-day .sd-label { color: #666; font-size: 8px; margin-top: 1px; }
-    .sign-day.today { border-color: #ffdd57; background: #2a2a3e; }
-    .sign-day.claimed { border-color: #4a8a4a; background: #1a2a1a; opacity: 0.6; }
-    .sign-day.claimed .sd-label { color: #4a8a4a; }
-    .sign-btn {
-      width: 100%; padding: 6px; margin-top: 4px; background: linear-gradient(135deg, #3a3a2a, #4a4a2a);
-      border: 2px solid #ffdd57; color: #ffdd57; font-size: 12px; font-weight: bold;
-      cursor: pointer; text-align: center; transition: all 0.2s;
-    }
-    .sign-btn:hover { background: linear-gradient(135deg, #4a4a3a, #5a5a3a); }
-    .sign-btn:disabled { opacity: 0.4; cursor: not-allowed; border-color: #555; color: #555; }
-    /* 悬赏卡片 */
-    .bounty-card {
-      background: #1a1a3e; border: 1px solid #2a2a5a; padding: 6px 8px; margin: 3px 0;
-      font-size: 10px; transition: all 0.2s;
-    }
-    .bounty-card.completed { border-color: #FFD700; }
-    .bounty-card.claimed { border-color: #4a8a4a; opacity: 0.5; }
-    .bounty-header { display: flex; justify-content: space-between; align-items: center; }
-    .bounty-name { font-weight: bold; color: #ddd; }
-    .bounty-status { font-size: 9px; }
-    .bounty-desc { color: #888; font-size: 9px; margin: 2px 0; }
-    .bounty-progress-bg { background: #111; height: 8px; border: 1px solid #333; margin: 3px 0; position: relative; }
-    .bounty-progress-fill { height: 100%; background: linear-gradient(90deg, #4a9eff, #8ef); transition: width 0.3s; }
-    .bounty-progress-fill.done { background: linear-gradient(90deg, #FFD700, #FFA500); }
-    .bounty-progress-text { position: absolute; top: -1px; left: 50%; transform: translateX(-50%); font-size: 7px; color: #fff; text-shadow: 1px 1px 0 #000; }
-    .bounty-rewards { color: #aaa; font-size: 9px; margin-top: 2px; }
-    .bounty-claim-btn {
-      margin-top: 3px; padding: 3px 10px; background: #3a3a2a; border: 1px solid #FFD700;
-      color: #FFD700; font-size: 10px; cursor: pointer; width: 100%;
-    }
-    .bounty-claim-btn:hover { background: #4a4a3a; }
-    .bounty-claim-btn:disabled { opacity: 0.4; cursor: not-allowed; }
     ::-webkit-scrollbar { width: 4px; }
     ::-webkit-scrollbar-track { background: #0d0d2b; }
     ::-webkit-scrollbar-thumb { background: #3a3a6a; border-radius: 3px; }
@@ -312,7 +271,6 @@
       <button class="tab-btn" data-tab="bestiary" title="图鉴">📖</button>
       <button class="tab-btn" data-tab="ascension" title="转生">🌟</button>
       <button class="tab-btn" data-tab="gacha" title="天机阁">🎰</button>
-      <button class="tab-btn" data-tab="daily" title="每日">📅</button>
     </div>
     <div class="tab-content">
       <!-- 状态页 -->
@@ -406,17 +364,21 @@
       <!-- 秘境/塔页 -->
       <div class="tab-page" id="tab-realm">
         <div class="stat-group">
-          <div class="stat-group-title">🏔️ 秘境 (<span id="realmCharges">3</span>/<span id="realmMaxCharges">3</span>)</div>
+          <div class="stat-group-title">🏔️ 秘境探索 (<span id="realmCharges">3</span>/<span id="realmMaxCharges">3</span>) <span style="color:#888;font-size:8px;">5层Roguelike</span></div>
           <div id="secretRealmList"></div>
+          <div id="realmExploreLog" style="display:none;margin-top:4px;"></div>
         </div>
         <div class="stat-group">
           <div class="stat-group-title">🗼 锁妖塔</div>
           <div class="stat-row"><span class="stat-label">当前层</span><span class="stat-value" id="towerFloor">1</span></div>
           <div class="stat-row"><span class="stat-label">最高</span><span class="stat-value gold" id="towerBest">0</span></div>
-          <div class="upgrade-btns" style="margin-top:4px;">
-            <button class="action-btn gold" onclick="doTowerChallenge()">⚔️ 挑战</button>
-            <button class="action-btn" onclick="doTowerReward()">🎁 领取</button>
+          <div class="stat-row"><span class="stat-label">下个里程碑</span><span class="stat-value" id="nextMilestone" style="color:#FF8800;">10层</span></div>
+          <div class="upgrade-btns" style="margin-top:4px;display:flex;gap:3px;flex-wrap:wrap;">
+            <button class="action-btn gold" onclick="doTowerChallenge()">⚔️ 挑战1层</button>
+            <button class="action-btn" style="border-color:#FF8800;color:#FF8800;" onclick="doAutoTower()">🔥 连续闯</button>
+            <button class="action-btn" onclick="doSweepTower()">🧹 扫荡</button>
           </div>
+          <div id="towerMilestoneList" style="margin-top:4px;"></div>
         </div>
       </div>
       <!-- 洞府页 -->
@@ -502,17 +464,6 @@
           <div class="card"><div class="card-info">总抽卡次数: <span id="totalPulls">0</span></div></div>
         </div>
       </div>
-      <!-- 每日签到+悬赏页 -->
-      <div class="tab-page" id="tab-daily">
-        <div class="stat-group">
-          <div class="stat-group-title">📅 每日签到 (连续<span id="signStreak" style="color:#ffdd57;">0</span>天)</div>
-          <div id="signInArea"></div>
-        </div>
-        <div class="stat-group">
-          <div class="stat-group-title">📋 悬赏任务 (<span id="bountyDate" style="color:#888;"></span>)</div>
-          <div id="bountyList"></div>
-        </div>
-      </div>
     </div>
   </div>
   <!-- 中央战斗区 -->
@@ -572,7 +523,6 @@ function refreshCurrentTab() {
   else if (t === 'bestiary') renderBestiaryTab();
   else if (t === 'ascension') renderAscensionTab();
   else if (t === 'gacha') renderGachaTab();
-  else if (t === 'daily') renderDailyTab();
 }
 
 // ========== Canvas ==========
@@ -1581,11 +1531,15 @@ function renderSkillsTab() {
     const maxed = lv >= sk.maxLevel;
     const goldCost = sk.cost * 100 * (1 + lv);
     const canUp = !locked && !maxed && s.gold >= goldCost;
+    const canMax = !locked && !maxed;
     html += `<div class="card" ${locked?'style="opacity:0.4"':''}>
       <div class="card-title">${sk.icon} ${sk.name} ${locked?'(需'+GameEngine.REALMS[sk.realm].name+')':''}</div>
       <div class="card-desc">${sk.desc}</div>
       <div class="card-info">Lv.${lv}/${sk.maxLevel} | 费用:${fmt(goldCost)}💎</div>
-      <div class="card-actions"><button class="action-btn ${canUp?'gold':''}" onclick="doSkillUp('${sk.id}')" ${canUp?'':'disabled'}>${maxed?'满级':'升级'}</button></div>
+      <div class="card-actions">
+        <button class="action-btn ${canUp?'gold':''}" onclick="doSkillUp('${sk.id}')" ${canUp?'':'disabled'}>${maxed?'满级':'升级'}</button>
+        ${!maxed && !locked ? `<button class="action-btn" style="border-color:#FF8800;color:#FF8800;" onclick="doMaxSkillUp('${sk.id}')" ${canMax && s.gold >= goldCost?'':'disabled'}>⚡加满</button>` : ''}
+      </div>
     </div>`;
   }
   document.getElementById('skillTree').innerHTML = html;
@@ -1629,18 +1583,35 @@ function renderBeastsTab() {
 }
 function renderRealmTab() {
   const s = GameEngine.getState(); if (!s) return;
+  const fmt = GameEngine.formatNumber;
   document.getElementById('realmCharges').textContent = s.secretRealmCharges;
   document.getElementById('towerFloor').textContent = s.towerFloor;
   document.getElementById('towerBest').textContent = s.towerBestFloor;
+  // 下一个里程碑
+  const milestones = GameEngine.TOWER_MILESTONES;
+  const nextMs = [10,20,30,40,50,60,70,80,90,100].find(f => f >= s.towerFloor);
+  document.getElementById('nextMilestone').textContent = nextMs ? `${nextMs}层 (${milestones[nextMs].name})` : '已全部达成';
+  // 秘境列表
   let html = '';
   GameEngine.SECRET_REALMS.forEach((r, i) => {
     const locked = s.realmIndex < r.minRealm;
     html += `<div class="realm-card ${locked?'locked':''}" onclick="${locked?'':'doEnterRealm('+i+')'}">
       <div class="rc-name">${r.name} ${locked?'🔒':''}</div>
       <div class="rc-desc">${r.desc}</div>
+      <div style="color:#FF8800;font-size:8px;margin-top:2px;">${locked?'':'🎲 5层探索·随机事件·BUFF加持'}</div>
     </div>`;
   });
   document.getElementById('secretRealmList').innerHTML = html;
+  // 里程碑列表
+  let msHtml = '<div style="font-size:9px;color:#888;margin-bottom:2px;">🏆 里程碑奖励：</div>';
+  for (const [floor, ms] of Object.entries(milestones)) {
+    const claimed = s.towerMilestones && s.towerMilestones[floor];
+    const reached = s.towerBestFloor >= parseInt(floor);
+    msHtml += `<div style="font-size:9px;color:${claimed?'#4a8a4a':reached?'#FFD700':'#444'};padding:1px 0;">
+      ${claimed?'✅':reached?'🏆':'🔒'} ${floor}层 - ${ms.name}${claimed?' (已领取)':''}: <span style="color:#aaa;">${ms.desc}</span>
+    </div>`;
+  }
+  document.getElementById('towerMilestoneList').innerHTML = msHtml;
 }
 
 // ========== 洞府页 ==========
@@ -1665,9 +1636,12 @@ function renderCaveTab() {
         <div class="cave-desc">${b.desc}</div>
         <div class="cave-effect">${lv > 0 ? effStr : '未建造'}</div>
       </div>
-      <button class="action-btn ${canUp?'gold':''}" onclick="doCaveUpgrade('${b.id}')" ${maxed||!canUp?'disabled':''}>
-        ${maxed ? '满级' : fmt(cost)+'💎'}
-      </button>
+      <div style="display:flex;gap:3px;flex-direction:column;">
+        <button class="action-btn ${canUp?'gold':''}" onclick="doCaveUpgrade('${b.id}')" ${maxed||!canUp?'disabled':''}>
+          ${maxed ? '满级' : fmt(cost)+'💎'}
+        </button>
+        ${!maxed ? `<button class="action-btn" style="border-color:#FF8800;color:#FF8800;font-size:9px;padding:2px 4px;" onclick="doMaxCaveUpgrade('${b.id}')" ${!canUp?'disabled':''}>⚡加满</button>` : ''}
+      </div>
     </div>`;
   }
   document.getElementById('caveList').innerHTML = html;
@@ -2016,91 +1990,6 @@ function doUnequipSkin(type) {
   updateUI();
 }
 
-// ========== 每日签到+悬赏页 ==========
-function renderDailyTab() {
-  const s = GameEngine.getState(); if (!s) return;
-  const fmt = GameEngine.formatNumber;
-  document.getElementById('signStreak').textContent = s.signStreak;
-  document.getElementById('bountyDate').textContent = s.todayKey;
-
-  // 签到日历（7天一循环）
-  const rewards = GameEngine.SIGN_IN_REWARDS;
-  let signHtml = '<div class="sign-grid">';
-  for (let i = 0; i < 7; i++) {
-    const r = rewards[i];
-    const dayNum = i + 1;
-    const currentCycleDay = ((s.signStreak || 0) % 7) || (s.signStreak > 0 ? 7 : 0);
-    const isClaimed = s.signStreak > 0 && (
-      (dayNum < currentCycleDay) ||
-      (dayNum === currentCycleDay && !s.canSignIn)
-    );
-    const isToday = dayNum === (currentCycleDay === 0 ? 1 : currentCycleDay + (s.canSignIn ? 0 : 1));
-    const cls = isClaimed ? 'sign-day claimed' : (isToday && s.canSignIn ? 'sign-day today' : 'sign-day');
-    signHtml += `<div class="${cls}">
-      <div class="sd-icon">${r.icon}</div>
-      <div class="sd-label">第${dayNum}天</div>
-      ${isClaimed ? '<div style="color:#4a8a4a;font-size:8px;">✓</div>' : ''}
-    </div>`;
-  }
-  signHtml += '</div>';
-
-  // 签到按钮
-  if (s.canSignIn) {
-    signHtml += `<button class="sign-btn" onclick="doSignIn()">📅 签到领取</button>`;
-  } else {
-    signHtml += `<button class="sign-btn" disabled>✅ 今日已签到</button>`;
-  }
-  signHtml += `<div style="color:#666;font-size:9px;margin-top:3px;text-align:center;">累计签到 ${s.totalSignDays} 天 | 连续 ${s.signStreak} 天</div>`;
-  document.getElementById('signInArea').innerHTML = signHtml;
-
-  // 悬赏任务
-  let bountyHtml = '';
-  if (!s.bountyQuests || s.bountyQuests.length === 0) {
-    bountyHtml = '<div style="color:#555;font-size:10px;padding:4px;">暂无悬赏任务</div>';
-  } else {
-    for (const q of s.bountyQuests) {
-      const pct = Math.min(100, Math.floor(q.progress / q.required * 100));
-      const isDone = q.completed;
-      const isClaimed = q.claimed;
-      const cls = isClaimed ? 'bounty-card claimed' : (isDone ? 'bounty-card completed' : 'bounty-card');
-      const rewardStr = Object.entries(q.rewards).map(([k, v]) => {
-        const icons = { gold: '💎', herb: '🌿', ore: '⛏️', essence: '💎', tianjiTokens: '🎫' };
-        const names = { gold: '灵石', herb: '灵药', ore: '矿石', essence: '精华', tianjiTokens: '天机令' };
-        return `${icons[k] || ''}${names[k] || k}×${v}`;
-      }).join(' ');
-
-      bountyHtml += `<div class="${cls}">
-        <div class="bounty-header">
-          <span class="bounty-name">${q.name}</span>
-          <span class="bounty-status" style="color:${isClaimed ? '#4a8a4a' : isDone ? '#FFD700' : '#888'};">
-            ${isClaimed ? '✅ 已领取' : isDone ? '🎁 可领取' : `${q.progress}/${q.required}`}
-          </span>
-        </div>
-        <div class="bounty-desc">${q.desc}</div>
-        <div class="bounty-progress-bg">
-          <div class="bounty-progress-fill${isDone ? ' done' : ''}" style="width:${pct}%;"></div>
-          <span class="bounty-progress-text">${pct}%</span>
-        </div>
-        <div class="bounty-rewards">奖励：${rewardStr}</div>
-        ${isDone && !isClaimed ? `<button class="bounty-claim-btn" onclick="doClaimBounty('${q.id}')">🎁 领取奖励</button>` : ''}
-      </div>`;
-    }
-  }
-  document.getElementById('bountyList').innerHTML = bountyHtml;
-}
-
-function doSignIn() {
-  const r = GameEngine.performSignIn();
-  showResult('📅 每日签到', r.msg);
-  updateUI();
-}
-
-function doClaimBounty(questId) {
-  const r = GameEngine.claimBountyReward(questId);
-  showResult('📋 悬赏任务', r.msg);
-  updateUI();
-}
-
 // ========== 操作函数 ==========
 function doEquip(idx) { GameEngine.equipItem(idx); updateUI(); }
 function doSell(idx) { if (GameEngine.sellItem(idx) > 0) updateUI(); }
@@ -2121,11 +2010,40 @@ function doSkillUp(id) { const r = GameEngine.upgradeSkill(id); if (!r.success) 
 function doFeedBeast(id) { const r = GameEngine.feedBeast(id); if (!r.success) showResult('灵兽', r.msg); updateUI(); }
 function doMaxFeedBeast(id) { const r = GameEngine.maxFeedBeast(id); showResult('灵兽', r.msg); updateUI(); }
 function doSetBeast(id) { GameEngine.setActiveBeast(id); updateUI(); }
-function doEnterRealm(idx) { showResult('秘境', GameEngine.enterSecretRealm(idx).msg); updateUI(); }
+function doEnterRealm(idx) {
+  const r = GameEngine.enterSecretRealm(idx);
+  if (!r.success && !r.log) { showResult('秘境', r.msg); updateUI(); return; }
+  // 显示探索日志
+  const logEl = document.getElementById('realmExploreLog');
+  if (r.log && r.log.length > 0) {
+    let logHtml = `<div style="background:#111;border:1px solid ${r.alive?'#4a8a4a':'#aa4444'};padding:6px;font-size:9px;max-height:200px;overflow-y:auto;">`;
+    logHtml += `<div style="color:#FFD700;font-weight:bold;margin-bottom:3px;">🏔️ 秘境探索 (${r.layers}/${r.total}层) | BUFF: ${r.buff}</div>`;
+    for (const line of r.log) {
+      logHtml += `<div style="color:#ccc;padding:1px 0;border-bottom:1px solid #222;">${line}</div>`;
+    }
+    logHtml += `<div style="color:${r.alive?'#44FF44':'#FF4444'};font-weight:bold;margin-top:3px;">${r.alive?'✅ 全部通关！':'💀 探索终止'} 获得：${r.rewards.join('、')}</div>`;
+    logHtml += '</div>';
+    logEl.innerHTML = logHtml;
+    logEl.style.display = 'block';
+  }
+  updateUI();
+}
 function doTowerChallenge() { showResult('锁妖塔', GameEngine.challengeTower().msg); updateUI(); }
-function doTowerReward() { showResult('锁妖塔', GameEngine.claimTowerReward().msg); updateUI(); }
+function doAutoTower() {
+  const r = GameEngine.autoChallengeTower();
+  showResult('🗼 锁妖塔连续挑战', r.msg);
+  updateUI();
+}
+function doSweepTower() {
+  const r = GameEngine.sweepTower();
+  showResult('🗼 锁妖塔扫荡', r.msg);
+  updateUI();
+}
+function doTowerReward() { showResult('锁妖塔', GameEngine.sweepTower().msg); updateUI(); }
 function doTribulation() { const r = GameEngine.attemptTribulation(); showResult('⛈️ 渡劫', r.msg); updateUI(); }
 function doCaveUpgrade(id) { const r = GameEngine.upgradeCaveBuilding(id); if (!r.success) showResult('洞府', r.msg); updateUI(); }
+function doMaxCaveUpgrade(id) { const r = GameEngine.maxUpgradeCave(id); showResult('🏠 洞府', r.msg); updateUI(); }
+function doMaxSkillUp(id) { const r = GameEngine.maxUpgradeSkill(id); showResult('📜 功法', r.msg); updateUI(); }
 function doAscension() {
   if (!confirm('确定飞升？将重置等级/装备/材料/功法/洞府，保留灵兽/成就/图鉴/10%灵石！')) return;
   const r = GameEngine.performAscension();

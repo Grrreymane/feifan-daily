@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-08"
 ---
 
 # OpenAI
@@ -136,3 +136,21 @@ OpenAI 公司动态与产品
 
 ### [TechCrunch](https://techcrunch.com/2026/04/06/iran-threatens-stargate-ai-data-centers/)
 - 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [The New Yorker](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [JUXT Blog](https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/waymo-opens-robotaxi-service-in-nashville-partners-with-lyft/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials

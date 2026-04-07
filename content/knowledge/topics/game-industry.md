@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-08"
 ---
 
 # 游戏行业
@@ -80,3 +80,6 @@ updated: "2026-04-07"
 
 ### [Eurogamer](https://www.eurogamer.net/slay-the-spire-2-beats-crimson-desert-and-resident-evil-requiem-as-marchs-biggest-selling-game-on-steam)
 - 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube/GDC](https://www.youtube.com/watch?v=XxvLyd4lKZM)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials

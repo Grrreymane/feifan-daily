@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-08"
 ---
 
 # AI 通用
@@ -588,3 +588,120 @@ updated: "2026-04-07"
 
 ### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sdoq90/arcane_magic_lightning_eruption_fx_in_unreal/)
 - 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [The New Yorker](https://www.newyorker.com/magazine/2026/04/13/sam-altman-may-control-our-future-can-he-be-trusted)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [JUXT Blog](https://www.juxt.pro/blog/a-bug-on-the-dark-side-of-the-moon/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [USC Dornsife](https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison's Blog](https://simonwillison.net/2026/Apr/2/lennys-podcast/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/return-of-the-obra-dinn-developer-lucas-pope-secretive)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Sam Altman 纽约客特写](https://news.ycombinator.com/item?id=47659135)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Code 锁用户数小时](https://news.ycombinator.com/item?id=47676521)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [AI让思维同质化研究](https://news.ycombinator.com/item?id=47673541)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [从Cloudflare迁移到Bunny.net](https://news.ycombinator.com/item?id=47675013)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [每个重要的GPU](https://news.ycombinator.com/item?id=47672295)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [自制水泥笔记本支架](https://news.ycombinator.com/item?id=47673360)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Launch HN: Freestyle – 为Coding Agent打造的沙盒](https://news.ycombinator.com/item?id=47663147)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 2029年前实现全面后量子安全](https://news.ycombinator.com/item?id=47675625)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Google开源实验性Agent编排测试平台Scion](https://news.ycombinator.com/item?id=47675213)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [别再付Dropbox/Google Drive了，用自己的S3桶](https://news.ycombinator.com/item?id=47673394)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/sony-to-acquire-ai-and-computer-vision-company-cinemersive-labs)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/take-two-interactive-reportedly-lays-off-ai-team)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/playerbase-is-playstation-s-plan-to-officially-scan-gamers-into-games/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/artist-unveils-procedural-cathedral-made-with-blender-s-geometry-nodes/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/creating-a-painterly-like-and-stylized-environment-inspired-by-howl-s-moving-castle/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/how-to-design-an-environment-mixing-coziness-with-cyberpunk-vibes/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/create-3d-worlds-easily-with-this-procedural-nature-assets-for-blender/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/anthropic-compute-deal-google-broadcom-tpus/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/russian-government-hackers-broke-into-thousands-of-home-routers-to-steal-passwords/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/cisa-budget-cuts-700-million-cybersecurity-agency-trump/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/uber-is-the-latest-to-be-won-over-by-amazons-ai-chips/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/waymo-opens-robotaxi-service-in-nashville-partners-with-lyft/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/the-ai-gold-rush-is-pulling-private-wealth-into-riskier-earlier-bets/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [InfoQ](https://www.infoq.com/news/2026/04/google-agent-testbed-scion/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/3/axios-supply-chain-attack/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare Blog](https://blog.cloudflare.com/post-quantum-roadmap/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Podcasts](https://podcasts.apple.com/us/podcast/latent-space-the-ai-engineer-podcast/id1674008350)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Practical AI](https://practicalai.fm/episodes)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube](https://youtu.be/wc8FBhQtdsA)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Developer](https://www.gamedeveloper.com/podcasts)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube/GDC](https://www.youtube.com/watch?v=XxvLyd4lKZM)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials

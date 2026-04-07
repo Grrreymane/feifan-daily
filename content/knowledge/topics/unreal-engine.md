@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-08"
 ---
 
 # Unreal Engine
@@ -127,3 +127,6 @@ UE 引擎更新与技巧
 
 ### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sdoq90/arcane_magic_lightning_eruption_fx_in_unreal/)
 - 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/sony-to-acquire-ai-and-computer-vision-company-cinemersive-labs)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-08"
 ---
 
 # 游戏开发
@@ -37,3 +37,15 @@ updated: "2026-04-07"
 
 ### [gamedeveloper.com/podcasts](https://www.gamedeveloper.com/podcasts)
 - 📅 2026-04-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/return-of-the-obra-dinn-developer-lucas-pope-secretive)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Sam Altman 纽约客特写](https://news.ycombinator.com/item?id=47659135)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Code 锁用户数小时](https://news.ycombinator.com/item?id=47676521)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [别再付Dropbox/Google Drive了，用自己的S3桶](https://news.ycombinator.com/item?id=47673394)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials

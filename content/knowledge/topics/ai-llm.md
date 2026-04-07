@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-08"
 ---
 
 # 大语言模型
@@ -73,3 +73,6 @@ LLM 技术进展、应用与讨论
 
 ### [Eurogamer](https://www.eurogamer.net/slay-the-spire-2-beats-crimson-desert-and-resident-evil-requiem-as-marchs-biggest-selling-game-on-steam)
 - 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Podcasts](https://podcasts.apple.com/us/podcast/latent-space-the-ai-engineer-podcast/id1674008350)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials

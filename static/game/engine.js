@@ -341,46 +341,6 @@ const GameEngine = (() => {
   const GACHA_POOL = [...WEAPON_SKINS.map(s => ({ ...s, type: 'weapon' })), ...ARMOR_SKINS.map(s => ({ ...s, type: 'armor' }))];
 
   // ========== 每日签到系统 ==========
-  // ========== 每日签到（宗门签到）==========
-  const SIGN_IN_REWARDS = [
-    { day: 1, icon: '💎', name: '灵石x100', rewards: { gold: 100 } },
-    { day: 2, icon: '🌿', name: '灵药x10', rewards: { herb: 10 } },
-    { day: 3, icon: '🎫', name: '天机令x5', rewards: { tianjiTokens: 5 } },
-    { day: 4, icon: '⛏️', name: '矿石x10', rewards: { ore: 10 } },
-    { day: 5, icon: '💊', name: '回元丹x3', rewards: { pill_heal: 3 } },
-    { day: 6, icon: '💎', name: '精华x3', rewards: { essence: 3 } },
-    { day: 7, icon: '🌟', name: '宗门大礼包', rewards: { gold: 500, tianjiTokens: 15, herb: 20, ore: 15, essence: 5 } },
-  ];
-
-  // ========== 宗门悬赏任务 ==========
-  const BOUNTY_TEMPLATES = [
-    // 击杀类
-    { id: 'kill_any', name: '除妖卫道', desc: '斩杀{n}只妖兽', type: 'kill', target: null,
-      tiers: [{ n: 10, rewards: { gold: 50 } }, { n: 30, rewards: { gold: 150, herb: 3 } }, { n: 80, rewards: { gold: 400, tianjiTokens: 2 } }] },
-    { id: 'kill_elite', name: '猎杀妖王', desc: '击杀{n}只精英妖兽', type: 'elite_kill', target: null,
-      tiers: [{ n: 1, rewards: { gold: 100, ore: 3 } }, { n: 3, rewards: { gold: 300, tianjiTokens: 3 } }, { n: 5, rewards: { gold: 500, essence: 2 } }] },
-    // 灵石类
-    { id: 'earn_gold', name: '积攒灵石', desc: '获得{n}灵石', type: 'gold_earn', target: null,
-      tiers: [{ n: 200, rewards: { herb: 5 } }, { n: 1000, rewards: { herb: 10, ore: 5 } }, { n: 5000, rewards: { tianjiTokens: 5, essence: 2 } }] },
-    // 强化类
-    { id: 'enhance', name: '淬炼法器', desc: '强化装备{n}次', type: 'enhance', target: null,
-      tiers: [{ n: 3, rewards: { gold: 100 } }, { n: 5, rewards: { gold: 300, ore: 5 } }, { n: 10, rewards: { gold: 500, tianjiTokens: 3 } }] },
-    // 丹药类
-    { id: 'craft_pill', name: '炼丹精修', desc: '炼制{n}颗丹药', type: 'craft', target: null,
-      tiers: [{ n: 2, rewards: { gold: 80, herb: 5 } }, { n: 5, rewards: { gold: 200, essence: 1 } }] },
-    // 秘境类
-    { id: 'secret_realm', name: '探索秘境', desc: '通关{n}次秘境', type: 'realm_clear', target: null,
-      tiers: [{ n: 1, rewards: { gold: 150, herb: 5 } }, { n: 2, rewards: { gold: 300, tianjiTokens: 3 } }] },
-    // 锁妖塔类
-    { id: 'tower_climb', name: '登塔挑战', desc: '锁妖塔通过{n}层', type: 'tower_clear', target: null,
-      tiers: [{ n: 1, rewards: { gold: 100 } }, { n: 3, rewards: { gold: 300, ore: 5 } }, { n: 5, rewards: { gold: 500, tianjiTokens: 4 } }] },
-    // 暴击类
-    { id: 'crit_hit', name: '一击必杀', desc: '触发{n}次暴击', type: 'crit', target: null,
-      tiers: [{ n: 10, rewards: { gold: 80 } }, { n: 30, rewards: { gold: 200, herb: 5 } }, { n: 60, rewards: { tianjiTokens: 3, essence: 1 } }] },
-  ];
-
-  const BOUNTY_MAX_DAILY = 3; // 每日3个悬赏
-
   function getDayKey(timestamp) {
     const d = new Date(timestamp || Date.now());
     return `${d.getFullYear()}-${String(d.getMonth()+1).padStart(2,'0')}-${String(d.getDate()).padStart(2,'0')}`;
@@ -388,110 +348,10 @@ const GameEngine = (() => {
 
   function checkAndRefreshDaily() {
     const today = getDayKey();
-    if (state.dailyKey === today) return; // 今天已刷新
-    // 新的一天！
+    if (state.dailyKey === today) return;
     state.dailyKey = today;
     state.towerDailyRewardClaimed = false;
-    // 签到状态：不重置（连续签到用lastSignDate判断）
-    // 刷新悬赏任务
-    refreshBountyQuests();
     saveState();
-  }
-
-  function performSignIn() {
-    const today = getDayKey();
-    if (state.lastSignDate === today) {
-      return { success: false, msg: '今日已签到' };
-    }
-    // 计算连续签到天数
-    const yesterday = getDayKey(Date.now() - 86400000);
-    if (state.lastSignDate === yesterday) {
-      state.signStreak = (state.signStreak || 0) + 1;
-    } else {
-      state.signStreak = 1; // 断签重置
-    }
-    state.lastSignDate = today;
-    state.totalSignDays = (state.totalSignDays || 0) + 1;
-
-    // 第几天的奖励（7天循环）
-    const dayIndex = ((state.signStreak - 1) % 7);
-    const reward = SIGN_IN_REWARDS[dayIndex];
-
-    // 发放奖励
-    applyDailyRewards(reward.rewards);
-
-    const rewardStr = reward.name;
-    addLog(`📅 每日签到（连续${state.signStreak}天）！获得 ${rewardStr}`);
-    emit('signIn', { day: state.signStreak, reward });
-    saveState();
-    return { success: true, msg: `签到成功！连续${state.signStreak}天，获得${rewardStr}`, streak: state.signStreak, reward };
-  }
-
-  function applyDailyRewards(rewards) {
-    if (rewards.gold) { state.gold += rewards.gold; state.totalGold += rewards.gold; }
-    if (rewards.herb) state.materials.herb += rewards.herb;
-    if (rewards.ore) state.materials.ore += rewards.ore;
-    if (rewards.essence) state.materials.essence += rewards.essence;
-    if (rewards.tianjiTokens) state.tianjiTokens = (state.tianjiTokens || 0) + rewards.tianjiTokens;
-    if (rewards.pill_heal) state.pills['heal_pill'] = (state.pills['heal_pill'] || 0) + rewards.pill_heal;
-  }
-
-  function refreshBountyQuests() {
-    // 随机选3个不重复的悬赏任务
-    const shuffled = [...BOUNTY_TEMPLATES].sort(() => Math.random() - 0.5);
-    const selected = shuffled.slice(0, BOUNTY_MAX_DAILY);
-    state.bountyQuests = selected.map(tmpl => {
-      // 根据玩家等级选择难度
-      const realmIdx = getRealmIndex(state.level);
-      const tierIdx = Math.min(tmpl.tiers.length - 1, Math.floor(realmIdx / 2));
-      const tier = tmpl.tiers[tierIdx];
-      return {
-        id: tmpl.id + '_' + Date.now().toString(36) + Math.random().toString(36).substr(2,3),
-        templateId: tmpl.id,
-        name: tmpl.name,
-        desc: tmpl.desc.replace('{n}', tier.n),
-        type: tmpl.type,
-        required: tier.n,
-        progress: 0,
-        rewards: { ...tier.rewards },
-        completed: false,
-        claimed: false,
-      };
-    });
-  }
-
-  function updateBountyProgress(type, amount) {
-    if (!state.bountyQuests) return;
-    for (const quest of state.bountyQuests) {
-      if (quest.claimed || quest.type !== type) continue;
-      quest.progress = Math.min(quest.required, quest.progress + (amount || 1));
-      if (quest.progress >= quest.required && !quest.completed) {
-        quest.completed = true;
-        addLog(`📋 悬赏【${quest.name}】已完成！去领取奖励吧`);
-        emit('bountyComplete', { quest });
-      }
-    }
-  }
-
-  function claimBountyReward(questId) {
-    if (!state.bountyQuests) return { success: false, msg: '无悬赏' };
-    const quest = state.bountyQuests.find(q => q.id === questId);
-    if (!quest) return { success: false, msg: '任务不存在' };
-    if (!quest.completed) return { success: false, msg: '任务未完成' };
-    if (quest.claimed) return { success: false, msg: '已领取' };
-
-    quest.claimed = true;
-    applyDailyRewards(quest.rewards);
-
-    const rewardStr = Object.entries(quest.rewards).map(([k, v]) => {
-      const names = { gold: '灵石', herb: '灵草', ore: '矿石', essence: '精华', tianjiTokens: '天机令' };
-      return `${names[k] || k}×${v}`;
-    }).join(' ');
-
-    addLog(`🎁 领取悬赏【${quest.name}】奖励：${rewardStr}`);
-    emit('bountyClaim', { quest });
-    saveState();
-    return { success: true, msg: `领取成功！${rewardStr}` };
   }
   function rollGachaQuality(guaranteed) {
     // guaranteed: 保底最低品质（十连保底用）
@@ -680,7 +540,7 @@ const GameEngine = (() => {
       secretRealmCharges: 3, secretRealmMaxCharges: 3, lastRealmRefresh: Date.now(),
 
       // 锁妖塔
-      towerFloor: 1, towerBestFloor: 0,
+      towerFloor: 1, towerBestFloor: 0, towerMilestones: {},
       towerDailyRewardClaimed: false, lastTowerReset: Date.now(),
 
       // 渡劫
@@ -751,12 +611,8 @@ const GameEngine = (() => {
       equippedArmorSkin: null,  // 当前装备的衣服外观ID
       totalGachaPulls: 0,    // 总抽卡次数
 
-      // === v0.9 每日签到+悬赏任务 ===
-      dailyKey: '',          // 今天的日期key（YYYY-MM-DD）
-      lastSignDate: '',      // 上次签到日期
-      signStreak: 0,         // 连续签到天数
-      totalSignDays: 0,      // 累计签到天数
-      bountyQuests: [],      // 当日悬赏任务列表
+      // === daily key for tower reward reset ===
+      dailyKey: '',
     };
   }
 
@@ -857,12 +713,10 @@ const GameEngine = (() => {
     if (state.equippedWeaponSkin === undefined) state.equippedWeaponSkin = null;
     if (state.equippedArmorSkin === undefined) state.equippedArmorSkin = null;
     if (state.totalGachaPulls === undefined) state.totalGachaPulls = 0;
-    // v0.9 migration
+    // v0.9 migration (daily key only, sign-in/bounty removed)
     if (state.dailyKey === undefined) state.dailyKey = '';
-    if (state.lastSignDate === undefined) state.lastSignDate = '';
-    if (state.signStreak === undefined) state.signStreak = 0;
-    if (state.totalSignDays === undefined) state.totalSignDays = 0;
-    if (!state.bountyQuests) state.bountyQuests = [];
+    // tower milestones migration
+    if (!state.towerMilestones) state.towerMilestones = {};
   }
 
   function saveState() {
@@ -1269,7 +1123,6 @@ const GameEngine = (() => {
 
       if (isCrit) {
         addLog(`⚔️ 暴击！鼠鼠对 ${state.currentMonster.name} 造成 ${formatNumber(damage)} 伤害！`);
-        updateBountyProgress('crit', 1);
       }
       emit('attack', { damage, isCrit, monsterName: state.currentMonster.name });
 
@@ -1325,7 +1178,6 @@ const GameEngine = (() => {
       state.totalGold += goldGain;
       state.killCount++;
       state.consecutiveKills++;
-      updateBountyProgress('gold_earn', goldGain);
 
       // 怪物击杀统计
       const mName = state.currentMonster.name;
@@ -1333,8 +1185,6 @@ const GameEngine = (() => {
       if (state.currentMonster.isElite) state.eliteKillCount++;
 
       // 更新悬赏进度
-      updateBountyProgress('kill', 1);
-      if (state.currentMonster.isElite) updateBountyProgress('elite_kill', 1);
 
       // 精英怪掉落天机令（50%概率，1-3枚）
       if (state.currentMonster.isElite && Math.random() < 0.5) {
@@ -1595,6 +1445,32 @@ const GameEngine = (() => {
     return Math.floor(building.baseCost * Math.pow(building.costMult, curLevel));
   }
 
+  // 一键加满洞府建筑（用当前灵石尽可能升到最高等级）
+  function maxUpgradeCave(buildingId) {
+    const building = CAVE_BUILDINGS.find(b => b.id === buildingId);
+    if (!building) return { success: false, msg: '建筑不存在' };
+    let curLevel = state.cave[buildingId] || 0;
+    if (curLevel >= building.maxLevel) return { success: false, msg: '已满级' };
+    let totalSpent = 0;
+    let levelsGained = 0;
+    while (curLevel < building.maxLevel) {
+      const cost = Math.floor(building.baseCost * Math.pow(building.costMult, curLevel));
+      if (state.gold < cost) break;
+      state.gold -= cost;
+      totalSpent += cost;
+      curLevel++;
+      levelsGained++;
+      state.cave[buildingId] = curLevel;
+    }
+    if (levelsGained > 0) {
+      addLog(`🏠 一键升级${building.icon} ${building.name}：花费${formatNumber(totalSpent)}灵石，升了${levelsGained}级（当前Lv.${curLevel}/${building.maxLevel}）`);
+      saveState();
+      return { success: true, msg: `${building.name} 一键升${levelsGained}级！花费${formatNumber(totalSpent)}灵石（Lv.${curLevel}/${building.maxLevel}）`, totalSpent, levelsGained };
+    }
+    const nextCost = Math.floor(building.baseCost * Math.pow(building.costMult, curLevel));
+    return { success: false, msg: `灵石不足（下次升级需要${formatNumber(nextCost)}）` };
+  }
+
   // ========== 渡劫 ==========
   function attemptTribulation() {
     if (!state.needTribulation) return { success: false, msg: '当前无需渡劫' };
@@ -1644,65 +1520,213 @@ const GameEngine = (() => {
     }
   }
 
+  // ========== 秘境系统（Roguelike多层探索）==========
+  // 秘境事件类型
+  const REALM_EVENTS = [
+    { type: 'battle', name: '妖兽拦路', icon: '⚔️', weight: 35 },
+    { type: 'treasure', name: '宝箱发现', icon: '🎁', weight: 20 },
+    { type: 'trap', name: '陷阱机关', icon: '💀', weight: 15 },
+    { type: 'heal', name: '灵泉恢复', icon: '💚', weight: 10 },
+    { type: 'adventure', name: '奇遇机缘', icon: '🌟', weight: 20 },
+  ];
+
+  // 秘境临时BUFF
+  const REALM_BUFFS = [
+    { id: 'atk_up', name: '攻势凌厉', desc: '攻击+30%', icon: '⚔️', effect: { atkMult: 1.3 } },
+    { id: 'def_up', name: '金身护体', desc: '防御+40%', icon: '🛡️', effect: { defMult: 1.4 } },
+    { id: 'crit_up', name: '慧眼如炬', desc: '暴击+15%', icon: '🎯', effect: { critBonus: 15 } },
+    { id: 'gold_up', name: '财运亨通', desc: '灵石+50%', icon: '💰', effect: { goldMult: 1.5 } },
+    { id: 'loot_up', name: '探宝嗅觉', desc: '掉落+25%', icon: '🔍', effect: { lootMult: 1.25 } },
+    { id: 'hp_up', name: '气血充盈', desc: '生命+25%', icon: '❤️', effect: { hpMult: 1.25 } },
+  ];
+
   function enterSecretRealm(realmIndex) {
     if (state.secretRealmCharges <= 0) return { success: false, msg: '秘境次数不足' };
     const realm = SECRET_REALMS[realmIndex];
     if (!realm) return { success: false, msg: '秘境不存在' };
     if (getRealmIndex(state.level) < realm.minRealm) return { success: false, msg: '境界不足' };
     state.secretRealmCharges--;
-    const rewards = [];
+
     const stats = getComputedStats();
-    const bossHp = MONSTER_TEMPLATES[realm.bossTier]?.[0]?.hp * 3 || 500;
-    const win = stats.attack * 15 > bossHp;
-    if (!win) {
-      addLog(`🏔️ 秘境【${realm.name}】挑战失败！BOSS太强了！`);
-      saveState();
-      return { success: false, msg: '挑战失败！BOSS太强了' };
-    }
-    const r = realm.rewards;
-    if (r.herb) { const n = randRange(r.herb); state.materials.herb += n; rewards.push(`灵草x${n}`); }
-    if (r.ore) { const n = randRange(r.ore); state.materials.ore += n; rewards.push(`矿石x${n}`); }
-    if (r.essence) { const n = randRange(r.essence); state.materials.essence += n; rewards.push(`精华x${n}`); }
-    if (r.gold) { const g = randRange(r.gold); state.gold += g; rewards.push(`灵石${formatNumber(g)}`); }
-    if (Math.random() < (r.equipChance || 0)) {
-      const minQ = r.equipQualityMin || 0;
-      const equip = generateEquipment(state.level, Math.min(5, minQ + Math.floor(Math.random() * 3)));
-      if (state.inventory.length < state.inventoryMax) {
-        state.inventory.push(equip);
-        rewards.push(`[${equip.name}]`);
+    const totalLayers = 5; // 5层探索
+    const allRewards = [];
+    let currentHp = stats.maxHp;
+    let alive = true;
+    const log = [];
+
+    // 随机获得一个临时BUFF
+    const buff = REALM_BUFFS[Math.floor(Math.random() * REALM_BUFFS.length)];
+    log.push(`✨ 获得秘境增益【${buff.name}】${buff.desc}`);
+
+    // 应用BUFF到属性
+    const buffedStats = { ...stats };
+    if (buff.effect.atkMult) buffedStats.attack = Math.floor(buffedStats.attack * buff.effect.atkMult);
+    if (buff.effect.defMult) buffedStats.defense = Math.floor(buffedStats.defense * buff.effect.defMult);
+    if (buff.effect.critBonus) buffedStats.critRate = Math.min(100, buffedStats.critRate + buff.effect.critBonus);
+    if (buff.effect.hpMult) { buffedStats.maxHp = Math.floor(buffedStats.maxHp * buff.effect.hpMult); currentHp = buffedStats.maxHp; }
+    const goldMult = buff.effect.goldMult || 1;
+    const lootMult = buff.effect.lootMult || 1;
+
+    for (let layer = 1; layer <= totalLayers && alive; layer++) {
+      // 按权重随机选事件
+      const totalWeight = REALM_EVENTS.reduce((s, e) => s + e.weight, 0);
+      let roll = Math.random() * totalWeight;
+      let event = REALM_EVENTS[0];
+      for (const e of REALM_EVENTS) {
+        roll -= e.weight;
+        if (roll <= 0) { event = e; break; }
+      }
+
+      const layerScale = 1 + (realmIndex * 0.3) + (layer * 0.15);
+
+      if (event.type === 'battle') {
+        // 战斗事件：模拟回合制
+        const monsters = MONSTER_TEMPLATES[Math.min(5, realm.bossTier)];
+        const tmpl = monsters[Math.floor(Math.random() * monsters.length)];
+        const isBoss = (layer === totalLayers); // 最后一层必定BOSS
+        const hpScale = isBoss ? layerScale * 3 : layerScale;
+        let monsterHp = Math.floor(tmpl.hp * hpScale);
+        const monsterAtk = Math.floor((tmpl.atk || 5) * layerScale);
+        let rounds = 0;
+        while (currentHp > 0 && monsterHp > 0 && rounds < 20) {
+          rounds++;
+          const isCrit = Math.random() * 100 < buffedStats.critRate;
+          let dmg = buffedStats.attack * (isCrit ? buffedStats.critDamage / 100 : 1);
+          dmg = Math.floor(dmg * (0.9 + Math.random() * 0.2));
+          monsterHp -= dmg;
+          if (monsterHp <= 0) break;
+          if (Math.random() * 100 >= buffedStats.dodge) {
+            let mDmg = Math.max(1, monsterAtk - buffedStats.defense * 0.3);
+            currentHp -= Math.floor(mDmg * (0.8 + Math.random() * 0.4));
+          }
+        }
+        if (currentHp <= 0) {
+          alive = false;
+          log.push(`💀 第${layer}层：${event.icon} ${isBoss?'BOSS ':''}${tmpl.name}将你击败！探索终止`);
+        } else {
+          const battleGold = Math.floor((tmpl.gold || 20) * layerScale * goldMult);
+          state.gold += battleGold; state.totalGold += battleGold;
+          allRewards.push(`灵石${formatNumber(battleGold)}`);
+          log.push(`${event.icon} 第${layer}层：击败${isBoss?'BOSS ':''}${tmpl.name}！+${formatNumber(battleGold)}灵石`);
+        }
+
+      } else if (event.type === 'treasure') {
+        // 宝箱：随机奖励
+        const r = realm.rewards;
+        const treasureRewards = [];
+        if (r.herb) { const n = Math.floor(randRange(r.herb) * lootMult); state.materials.herb += n; treasureRewards.push(`灵药x${n}`); }
+        if (r.ore) { const n = Math.floor(randRange(r.ore) * lootMult); state.materials.ore += n; treasureRewards.push(`矿石x${n}`); }
+        if (r.essence && Math.random() < 0.3 * lootMult) { const n = randRange(r.essence); state.materials.essence += n; treasureRewards.push(`精华x${n}`); }
+        if (Math.random() < (r.equipChance || 0) * lootMult) {
+          const minQ = r.equipQualityMin || 0;
+          const equip = generateEquipment(state.level, Math.min(5, minQ + Math.floor(Math.random() * 3)));
+          if (state.inventory.length < state.inventoryMax) { state.inventory.push(equip); treasureRewards.push(`[${equip.name}]`); }
+        }
+        log.push(`${event.icon} 第${layer}层：发现宝箱！获得${treasureRewards.join('、') || '少许灵石'}`);
+        allRewards.push(...treasureRewards);
+
+      } else if (event.type === 'trap') {
+        // 陷阱：扣血
+        const trapDmg = Math.floor(buffedStats.maxHp * (0.1 + Math.random() * 0.15));
+        currentHp -= trapDmg;
+        if (currentHp <= 0) {
+          alive = false;
+          log.push(`${event.icon} 第${layer}层：踩中致命陷阱！探索终止`);
+        } else {
+          log.push(`${event.icon} 第${layer}层：踩中陷阱！受到${formatNumber(trapDmg)}伤害（剩余${Math.floor(currentHp/buffedStats.maxHp*100)}%血）`);
+        }
+
+      } else if (event.type === 'heal') {
+        // 灵泉恢复
+        const healAmt = Math.floor(buffedStats.maxHp * (0.2 + Math.random() * 0.2));
+        currentHp = Math.min(buffedStats.maxHp, currentHp + healAmt);
+        log.push(`${event.icon} 第${layer}层：发现灵泉！恢复${formatNumber(healAmt)}生命（当前${Math.floor(currentHp/buffedStats.maxHp*100)}%）`);
+
+      } else if (event.type === 'adventure') {
+        // 奇遇：大奖
+        const adventureRoll = Math.random();
+        if (adventureRoll < 0.3) {
+          // 大量灵石
+          const g = Math.floor((100 + realmIndex * 200) * layerScale * goldMult);
+          state.gold += g; state.totalGold += g;
+          allRewards.push(`灵石${formatNumber(g)}`);
+          log.push(`${event.icon} 第${layer}层：发现前辈洞府遗宝！+${formatNumber(g)}灵石`);
+        } else if (adventureRoll < 0.5) {
+          // 天机令
+          const tokens = realmIndex + 2 + Math.floor(Math.random() * 3);
+          state.tianjiTokens = (state.tianjiTokens || 0) + tokens;
+          allRewards.push(`天机令x${tokens}`);
+          log.push(`${event.icon} 第${layer}层：参悟天机！+${tokens}天机令`);
+        } else if (adventureRoll < 0.7) {
+          // 灵兽机缘
+          if (realm.rewards.beastChance) tryCaptureBeast();
+          const expBonus = Math.floor(getExpToNextLevel(state.level) * 0.1);
+          state.exp += expBonus;
+          allRewards.push(`经验${formatNumber(expBonus)}`);
+          log.push(`${event.icon} 第${layer}层：顿悟修行！+${formatNumber(expBonus)}经验`);
+        } else {
+          // 材料大礼
+          const herbs = Math.floor((3 + realmIndex * 2) * lootMult);
+          const ores = Math.floor((2 + realmIndex) * lootMult);
+          state.materials.herb += herbs; state.materials.ore += ores;
+          allRewards.push(`灵药x${herbs}`, `矿石x${ores}`);
+          log.push(`${event.icon} 第${layer}层：发现材料洞穴！+灵药x${herbs} +矿石x${ores}`);
+        }
       }
     }
-    if (r.beastChance && Math.random() < r.beastChance) tryCaptureBeast();
-    // 秘境通关奖励天机令（2-5枚，看秘境等级）
-    const realmTokens = realmIndex + 2;
+
+    // 通关奖励天机令
+    const layersCleared = alive ? totalLayers : log.length - 1;
+    const realmTokens = Math.floor((realmIndex + 1) * (layersCleared / totalLayers) * 2) + 1;
     state.tianjiTokens = (state.tianjiTokens || 0) + realmTokens;
-    rewards.push(`天机令x${realmTokens}`);
-    addLog(`🏔️ 秘境【${realm.name}】通关！获得：${rewards.join('、')}`);
-    emit('secretRealmClear', { realm: realm.name, rewards });
-    updateBountyProgress('realm_clear', 1);
+    allRewards.push(`天机令x${realmTokens}`);
+
+    checkLevelUp();
+    const summary = alive ? `🎉 秘境【${realm.name}】全${totalLayers}层通关！` : `秘境【${realm.name}】探索了${layersCleared}/${totalLayers}层`;
+    addLog(`🏔️ ${summary} 获得：${allRewards.join('、')}`);
+    emit('secretRealmClear', { realm: realm.name, rewards: allRewards, layers: layersCleared, total: totalLayers, alive });
     saveState();
-    return { success: true, msg: `通关！获得：${rewards.join('、')}`, rewards };
+    return { success: true, msg: summary, rewards: allRewards, log, buff: buff.name, layers: layersCleared, total: totalLayers, alive };
   }
 
-  // ========== 锁妖塔 ==========
+  // ========== 锁妖塔（连续挑战+里程碑+BOSS+扫荡）==========
+  // 里程碑奖励表（每10层）
+  const TOWER_MILESTONES = {
+    10: { name: '铜塔之证', rewards: { gold: 500, tianjiTokens: 5 }, desc: '灵石500+天机令5' },
+    20: { name: '银塔之证', rewards: { gold: 1500, tianjiTokens: 10, herb: 15 }, desc: '灵石1500+天机令10+灵药15' },
+    30: { name: '金塔之证', rewards: { gold: 5000, tianjiTokens: 20, ore: 20 }, desc: '灵石5000+天机令20+矿石20' },
+    40: { name: '玉塔之证', rewards: { gold: 15000, tianjiTokens: 30, essence: 5 }, desc: '灵石15000+天机令30+精华5' },
+    50: { name: '仙塔之证', rewards: { gold: 50000, tianjiTokens: 50, essence: 10 }, desc: '灵石50000+天机令50+精华10' },
+    60: { name: '神塔之证', rewards: { gold: 100000, tianjiTokens: 80, essence: 20 }, desc: '灵石100000+天机令80+精华20' },
+    70: { name: '圣塔之证', rewards: { gold: 200000, tianjiTokens: 100, essence: 30 }, desc: '灵石200000+天机令100+精华30' },
+    80: { name: '天塔之证', rewards: { gold: 500000, tianjiTokens: 150, essence: 50 }, desc: '灵石500000+天机令150+精华50' },
+    90: { name: '道塔之证', rewards: { gold: 1000000, tianjiTokens: 200, essence: 80 }, desc: '灵石1000000+天机令200+精华80' },
+    100: { name: '无上塔主', rewards: { gold: 5000000, tianjiTokens: 500, essence: 200 }, desc: '灵石5000000+天机令500+精华200' },
+  };
+
   function challengeTower() {
     const floor = state.towerFloor;
     const monster = getTowerMonster(floor);
     const stats = getComputedStats();
     let mouseHp = stats.maxHp;
     let monsterHp = monster.maxHp;
+    const isBoss = (floor % 10 === 0);
+    // BOSS有额外技能：护盾（减伤20%）、狂暴（低血量攻击翻倍）
+    const bossShield = isBoss ? 0.8 : 1;
     let rounds = 0;
     const maxRounds = 30;
     while (mouseHp > 0 && monsterHp > 0 && rounds < maxRounds) {
       rounds++;
       const isCrit = Math.random() * 100 < stats.critRate;
       let dmg = stats.attack * (isCrit ? stats.critDamage / 100 : 1);
-      dmg = Math.floor(dmg * (0.9 + Math.random() * 0.2));
+      dmg = Math.floor(dmg * (0.9 + Math.random() * 0.2) * bossShield);
       monsterHp -= dmg;
       if (stats.lifesteal > 0) mouseHp = Math.min(stats.maxHp, mouseHp + Math.floor(dmg * stats.lifesteal / 100));
       if (monsterHp <= 0) break;
+      // BOSS狂暴：低于30%血时攻击翻倍
+      const bossRage = (isBoss && monsterHp < monster.maxHp * 0.3) ? 2 : 1;
       if (Math.random() * 100 >= stats.dodge) {
-        let mDmg = Math.max(1, monster.atk - stats.defense * 0.3);
+        let mDmg = Math.max(1, monster.atk * bossRage - stats.defense * 0.3);
         mDmg = Math.floor(mDmg * (0.8 + Math.random() * 0.4));
         mouseHp -= mDmg;
       }
@@ -1720,31 +1744,82 @@ const GameEngine = (() => {
         towerTokens = Math.floor(floor / 5);
         state.tianjiTokens = (state.tianjiTokens || 0) + towerTokens;
       }
+      // 里程碑奖励（每10层）
+      let milestoneMsg = '';
+      if (TOWER_MILESTONES[floor]) {
+        const ms = TOWER_MILESTONES[floor];
+        if (!state.towerMilestones) state.towerMilestones = {};
+        if (!state.towerMilestones[floor]) {
+          state.towerMilestones[floor] = true;
+          const r = ms.rewards;
+          if (r.gold) { state.gold += r.gold; state.totalGold += r.gold; }
+          if (r.tianjiTokens) state.tianjiTokens += r.tianjiTokens;
+          if (r.herb) state.materials.herb += r.herb;
+          if (r.ore) state.materials.ore += r.ore;
+          if (r.essence) state.materials.essence += r.essence;
+          milestoneMsg = ` 🏆里程碑【${ms.name}】！额外获得${ms.desc}`;
+        }
+      }
       checkLevelUp();
       checkAchievements();
-      addLog(`🗼 锁妖塔第${floor}层通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石${towerTokens > 0 ? ` +${towerTokens}天机令` : ''}`);
-      emit('towerClear', { floor, goldReward, expReward, towerTokens });
-      updateBountyProgress('tower_clear', 1);
+      addLog(`🗼 锁妖塔第${floor}层${isBoss?'(BOSS)':''}通关！+${formatNumber(expReward)}经验 +${formatNumber(goldReward)}灵石${towerTokens > 0 ? ` +${towerTokens}天机令` : ''}${milestoneMsg}`);
+      emit('towerClear', { floor, goldReward, expReward, towerTokens, isBoss, milestone: TOWER_MILESTONES[floor]?.name });
       saveState();
-      return { success: true, floor, msg: `第${floor}层通关！`, goldReward, expReward, monsterName: monster.displayName };
+      return { success: true, floor, msg: `第${floor}层${isBoss?'(BOSS)':''}通关！${milestoneMsg}`, goldReward, expReward, monsterName: monster.displayName, isBoss };
     } else {
-      addLog(`🗼 锁妖塔第${floor}层挑战失败！`);
+      addLog(`🗼 锁妖塔第${floor}层${isBoss?'(BOSS)':''}挑战失败！`);
       saveState();
-      return { success: false, floor, msg: `第${floor}层失败，需要更强！`, monsterName: monster.displayName };
+      return { success: false, floor, msg: `第${floor}层${isBoss?'(BOSS)':''}失败，需要更强！`, monsterName: monster.displayName, isBoss };
     }
   }
 
-  function claimTowerReward() {
-    if (state.towerDailyRewardClaimed) return { success: false, msg: '今日已领取' };
+  // 连续挑战锁妖塔（自动打到失败为止）
+  function autoChallengeTower() {
+    const results = [];
+    let floorsCleared = 0;
+    let totalGold = 0;
+    let totalExp = 0;
+    let milestones = [];
+    const maxAttempts = 100; // 安全上限
+    for (let i = 0; i < maxAttempts; i++) {
+      const r = challengeTower();
+      if (!r.success) {
+        results.push(r);
+        break;
+      }
+      floorsCleared++;
+      totalGold += r.goldReward || 0;
+      totalExp += r.expReward || 0;
+      if (r.isBoss) milestones.push(r.floor);
+      results.push(r);
+    }
+    const startFloor = state.towerFloor - floorsCleared;
+    const msg = floorsCleared > 0
+      ? `连续闯过${floorsCleared}层（${startFloor}→${startFloor + floorsCleared}层）！总计+${formatNumber(totalGold)}灵石 +${formatNumber(totalExp)}经验${milestones.length > 0 ? ' 击败BOSS:' + milestones.join(',') + '层' : ''}`
+      : `第${state.towerFloor}层挑战失败，需要更强！`;
+    return { success: floorsCleared > 0, floorsCleared, totalGold, totalExp, milestones, msg, results };
+  }
+
+  // 扫荡锁妖塔（已通关层数一键领取基础奖励）
+  function sweepTower() {
     if (state.towerBestFloor <= 0) return { success: false, msg: '尚未通关任何层' };
-    const gold = state.towerBestFloor * 100;
-    const herbs = Math.floor(state.towerBestFloor / 3) + 1;
-    state.gold += gold;
+    if (state.towerDailyRewardClaimed) return { success: false, msg: '今日已扫荡' };
+    const floors = state.towerBestFloor;
+    const goldReward = Math.floor(floors * 80);
+    const expReward = Math.floor(floors * 60);
+    const herbs = Math.floor(floors / 5) + 1;
+    const ores = Math.floor(floors / 8) + 1;
+    const tokens = Math.floor(floors / 10);
+    state.gold += goldReward; state.totalGold += goldReward;
+    state.exp += expReward;
     state.materials.herb += herbs;
+    state.materials.ore += ores;
+    if (tokens > 0) state.tianjiTokens = (state.tianjiTokens || 0) + tokens;
     state.towerDailyRewardClaimed = true;
-    addLog(`🗼 领取锁妖塔奖励：${formatNumber(gold)}灵石 + ${herbs}灵草`);
+    checkLevelUp();
+    addLog(`🗼 扫荡锁妖塔（${floors}层）：+${formatNumber(goldReward)}灵石 +${formatNumber(expReward)}经验 +${herbs}灵药 +${ores}矿石${tokens > 0 ? ` +${tokens}天机令` : ''}`);
     saveState();
-    return { success: true, msg: `领取成功！+${formatNumber(gold)}灵石 +${herbs}灵草` };
+    return { success: true, msg: `扫荡${floors}层！+${formatNumber(goldReward)}灵石 +${formatNumber(expReward)}经验 +${herbs}灵药 +${ores}矿石${tokens > 0 ? ` +${tokens}天机令` : ''}` };
   }
 
   // ========== 转生（飞升）系统 ==========
@@ -1833,12 +1908,6 @@ const GameEngine = (() => {
       equippedWeaponSkin: state.equippedWeaponSkin || null,
       equippedArmorSkin: state.equippedArmorSkin || null,
       totalGachaPulls: state.totalGachaPulls || 0,
-
-      // === 签到数据保留 ===
-      dailyKey: state.dailyKey || '',
-      lastSignDate: state.lastSignDate || '',
-      signStreak: state.signStreak || 0,
-      totalSignDays: state.totalSignDays || 0,
     };
 
     // 重置为默认状态
@@ -2038,7 +2107,6 @@ const GameEngine = (() => {
     state.gold -= cost;
     item.enhanceLevel++;
     addLog(`✨ ${item.name} 强化到+${item.enhanceLevel}！`);
-    updateBountyProgress('enhance', 1);
     saveState();
     return { success: true, msg: `强化成功！+${item.enhanceLevel}` };
   }
@@ -2083,7 +2151,6 @@ const GameEngine = (() => {
     }
     state.pills[recipeId] = (state.pills[recipeId] || 0) + 1;
     addLog(`🧪 炼制成功：${recipe.icon} ${recipe.name}`);
-    updateBountyProgress('craft', 1);
     saveState();
     return { success: true, msg: `炼制成功！` };
   }
@@ -2146,6 +2213,33 @@ const GameEngine = (() => {
     addLog(`📜 功法【${sk.name}】升至${curLv + 1}级！`);
     saveState();
     return { success: true, msg: `${sk.name} 升至${curLv + 1}级！`, goldCost };
+  }
+
+  // 一键加满功法（用当前灵石尽可能升到最高等级）
+  function maxUpgradeSkill(skillId) {
+    const sk = SKILL_TREE.find(s => s.id === skillId);
+    if (!sk) return { success: false, msg: '功法不存在' };
+    if (getRealmIndex(state.level) < sk.realm) return { success: false, msg: '境界不足' };
+    let curLv = state.skills[skillId] || 0;
+    if (curLv >= sk.maxLevel) return { success: false, msg: '已满级' };
+    let totalSpent = 0;
+    let levelsGained = 0;
+    while (curLv < sk.maxLevel) {
+      const goldCost = sk.cost * 100 * (1 + curLv);
+      if (state.gold < goldCost) break;
+      state.gold -= goldCost;
+      totalSpent += goldCost;
+      curLv++;
+      levelsGained++;
+      state.skills[skillId] = curLv;
+    }
+    if (levelsGained > 0) {
+      addLog(`📜 一键修炼【${sk.name}】：花费${formatNumber(totalSpent)}灵石，升了${levelsGained}级（当前Lv.${curLv}/${sk.maxLevel}）`);
+      saveState();
+      return { success: true, msg: `${sk.name} 一键升${levelsGained}级！花费${formatNumber(totalSpent)}灵石（Lv.${curLv}/${sk.maxLevel}）`, totalSpent, levelsGained };
+    }
+    const nextCost = sk.cost * 100 * (1 + curLv);
+    return { success: false, msg: `灵石不足（下次升级需要${formatNumber(nextCost)}）` };
   }
 
   // ========== 灵兽 ==========
@@ -2419,13 +2513,6 @@ const GameEngine = (() => {
       ownedSkins: state.ownedSkins || [],
       tianjiTokens: state.tianjiTokens || 0,
       totalGachaPulls: state.totalGachaPulls || 0,
-      // daily
-      lastSignDate: state.lastSignDate || '',
-      signStreak: state.signStreak || 0,
-      totalSignDays: state.totalSignDays || 0,
-      canSignIn: (state.lastSignDate || '') !== getDayKey(),
-      bountyQuests: state.bountyQuests || [],
-      todayKey: getDayKey(),
       // talents
       currentTalent: getCurrentTalent(),
       currentTalentId: state.currentTalent,
@@ -2438,14 +2525,14 @@ const GameEngine = (() => {
     equipItem, unequipItem, sellItem, enhanceEquip, getEquipScore, getEquipEnhanceCost, compareEquip,
     autoEquipBest, sellWeakerItems,
     craftPill, usePill, PILL_RECIPES,
-    upgradeSkill, SKILL_TREE,
+    upgradeSkill, maxUpgradeSkill, SKILL_TREE,
     feedBeast, maxFeedBeast, setActiveBeast, BEAST_TEMPLATES,
     enterSecretRealm, SECRET_REALMS,
-    challengeTower, claimTowerReward,
+    challengeTower, autoChallengeTower, sweepTower, TOWER_MILESTONES,
     attemptTribulation,
     setBattleSpeed,
     toggleAutoHeal, setAutoHealThreshold,
-    upgradeCaveBuilding, getCaveBuildingCost, CAVE_BUILDINGS,
+    upgradeCaveBuilding, maxUpgradeCave, getCaveBuildingCost, CAVE_BUILDINGS,
     ACHIEVEMENTS,
     REALMS, EQUIP_QUALITIES, EQUIP_SLOT_NAMES, MONSTER_TEMPLATES,
     // v0.5
@@ -2455,8 +2542,6 @@ const GameEngine = (() => {
     doGachaPull, equipSkin, unequipSkin,
     GACHA_POOL, GACHA_QUALITY_NAMES, GACHA_QUALITY_COLORS, GACHA_COST_SINGLE, GACHA_COST_TEN,
     WEAPON_SKINS, ARMOR_SKINS,
-    // v0.9 daily
-    performSignIn, claimBountyReward, SIGN_IN_REWARDS, BOUNTY_MAX_DAILY,
     // v1.0 talents
     PAST_LIFE_TALENTS,
   };

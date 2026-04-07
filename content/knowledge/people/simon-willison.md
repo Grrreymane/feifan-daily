@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-08"
 ---
 
 # Simon Willison
@@ -21,3 +21,7 @@ updated: "2026-04-07"
 - 📅 2026-04-05 — [Simon Willison](https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/)
 
 - 📅 2026-04-05 — [Simon Willison 引用 Kyle Daigle](https://simonwillison.net/2026/Apr/4/kyle-daigle/)
+
+- 📅 2026-04-08 — [Simon Willison's Blog](https://simonwillison.net/2026/Apr/2/lennys-podcast/)
+
+- 📅 2026-04-08 — [Simon Willison](https://simonwillison.net/2026/Apr/3/axios-supply-chain-attack/)

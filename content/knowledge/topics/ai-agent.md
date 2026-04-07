@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-08"
 ---
 
 # AI Agent
@@ -112,3 +112,54 @@ AI Agent 架构、实践与踩坑
 
 ### [Mintlify Blog](https://www.mintlify.com/blog/how-we-built-a-virtual-filesystem-for-our-assistant)
 - 📅 2026-04-05 · 来源: daily-materials · 分类: daily-materials
+
+### [USC Dornsife](https://dornsife.usc.edu/news/stories/ai-may-be-making-us-think-and-write-more-alike/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison's Blog](https://simonwillison.net/2026/Apr/2/lennys-podcast/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison 评注](https://simonwillison.net/2026/Apr/3/vulnerability-research-is-cooked/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [每个重要的GPU](https://news.ycombinator.com/item?id=47672295)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [自制水泥笔记本支架](https://news.ycombinator.com/item?id=47673360)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Launch HN: Freestyle – 为Coding Agent打造的沙盒](https://news.ycombinator.com/item?id=47663147)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 2029年前实现全面后量子安全](https://news.ycombinator.com/item?id=47675625)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Google开源实验性Agent编排测试平台Scion](https://news.ycombinator.com/item?id=47675213)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [别再付Dropbox/Google Drive了，用自己的S3桶](https://news.ycombinator.com/item?id=47673394)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/06/openai-alums-have-been-quietly-investing-from-a-new-potentially-100m-fund/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [InfoQ](https://www.infoq.com/news/2026/04/google-agent-testbed-scion/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/3/axios-supply-chain-attack/)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Podcasts](https://podcasts.apple.com/us/podcast/latent-space-the-ai-engineer-podcast/id1674008350)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space](https://www.latent.space/podcast/archive)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Practical AI](https://practicalai.fm/episodes)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube](https://youtu.be/wc8FBhQtdsA)
+- 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
