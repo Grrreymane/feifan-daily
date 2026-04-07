@@ -138,14 +138,53 @@
       <h1>🐭 鼠鼠修仙 · 迭代记录</h1>
       <p>每一个版本都是一次飞升 ✨</p>
       <div class="stats">
-        <div class="stat"><span class="stat-value">v2.6</span><span class="stat-label">当前版本</span></div>
-        <div class="stat"><span class="stat-value">28</span><span class="stat-label">版本迭代</span></div>
+        <div class="stat"><span class="stat-value">v2.7</span><span class="stat-label">当前版本</span></div>
+        <div class="stat"><span class="stat-value">29</span><span class="stat-label">版本迭代</span></div>
         <div class="stat"><span class="stat-value">~6000+</span><span class="stat-label">总代码行数</span></div>
-        <div class="stat"><span class="stat-value">3天</span><span class="stat-label">开发周期</span></div>
+        <div class="stat"><span class="stat-value">4天</span><span class="stat-label">开发周期</span></div>
       </div>
     </div>
 
     <div class="timeline" id="timeline">
+
+      <!-- v2.7 -->
+      <div class="version-card minor open">
+        <div class="version-header" onclick="toggleVersion(this)">
+          <span class="version-badge minor">v2.7</span>
+          <span class="version-title">灵兽·坐骑 drawMatrix 高密度像素画升级</span>
+          <span class="version-date">2026-04-08</span>
+          <span class="version-toggle">▼</span>
+        </div>
+        <div class="version-body">
+          <div class="desc">引入 drawMatrix + OffscreenCanvas 缓存架构，将灵兽和坐骑从 ~30个rect调用 升级为 32×24 颜色矩阵（600+独立像素点），像素密度翻倍，画质大幅提升。</div>
+          <div class="feature-group">
+            <div class="feature-group-title">🏗️ 架构升级 <span class="tag tag-system">系统</span></div>
+            <ul class="feature-list">
+              <li><strong>drawCachedMatrix 精灵缓存</strong>：首次用矩阵逐像素绘制到离屏Canvas，后续帧直接 drawImage GPU加速</li>
+              <li><strong>颜色映射表</strong>：每种生物独立颜色定义（字符→HEX色值），方便后续换色/皮肤扩展</li>
+              <li>文件体积反降：93KB → 90KB（矩阵数据比大量rect调用更紧凑）</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">🐾 灵兽升级 (6种) <span class="tag tag-visual">美术</span></div>
+            <ul class="feature-list">
+              <li><strong>赤炎灵猫</strong>：32×18矩阵，精致橘猫轮廓+虎纹花纹+火焰尾巴+地面火花</li>
+              <li><strong>玄冰狼</strong>：32×18矩阵，银蓝毛皮分层+冰晶刺闪烁+寒霜地面效果</li>
+              <li><strong>雷鸣鹰</strong>：28×17矩阵，金色展翅巨鹰+翼尖闪电+环绕雷电弧</li>
+              <li><strong>暗鳞蛇</strong>：24×14矩阵，深紫蛇身S形+暗影粒子环绕+暗紫光晕</li>
+              <li><strong>天凤</strong>：32×18矩阵，红金凤凰+三叉火冠+华丽尾羽+火焰粒子环绕</li>
+              <li><strong>青鳞蛟龙</strong>：保持原有绘制（待下版升级）</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">🐎 坐骑升级 (2种) <span class="tag tag-visual">美术</span></div>
+            <ul class="feature-list">
+              <li><strong>仙鹤</strong>：28×21矩阵，白色仙鹤+红冠丹顶+S形颈部+黑色尾羽</li>
+              <li><strong>麒麟</strong>：31×21矩阵，金鳞麒麟+鹿角闪光+火焰鬃毛波动+火焰蹄特效</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
       <!-- v2.6 -->
       <div class="version-card minor open">
