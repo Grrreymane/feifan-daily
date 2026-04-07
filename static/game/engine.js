@@ -470,7 +470,7 @@ const GameEngine = (() => {
     const tier = Math.min(5, Math.floor(floor / 10));
     const monsters = MONSTER_TEMPLATES[tier];
     const template = monsters[Math.floor(Math.random() * monsters.length)];
-    const scale = 1 + floor * 0.2;
+    const scale = 1 + floor * 0.3 + Math.pow(floor, 1.5) * 0.01;
     return {
       name: `${template.name}(塔${floor}层)`,
       displayName: template.name,
@@ -1692,16 +1692,16 @@ const GameEngine = (() => {
   // ========== 锁妖塔（连续挑战+里程碑+BOSS+扫荡）==========
   // 里程碑奖励表（每10层）
   const TOWER_MILESTONES = {
-    10: { name: '铜塔之证', rewards: { gold: 500, tianjiTokens: 5 }, desc: '灵石500+天机令5' },
-    20: { name: '银塔之证', rewards: { gold: 1500, tianjiTokens: 10, herb: 15 }, desc: '灵石1500+天机令10+灵药15' },
-    30: { name: '金塔之证', rewards: { gold: 5000, tianjiTokens: 20, ore: 20 }, desc: '灵石5000+天机令20+矿石20' },
-    40: { name: '玉塔之证', rewards: { gold: 15000, tianjiTokens: 30, essence: 5 }, desc: '灵石15000+天机令30+精华5' },
-    50: { name: '仙塔之证', rewards: { gold: 50000, tianjiTokens: 50, essence: 10 }, desc: '灵石50000+天机令50+精华10' },
-    60: { name: '神塔之证', rewards: { gold: 100000, tianjiTokens: 80, essence: 20 }, desc: '灵石100000+天机令80+精华20' },
-    70: { name: '圣塔之证', rewards: { gold: 200000, tianjiTokens: 100, essence: 30 }, desc: '灵石200000+天机令100+精华30' },
-    80: { name: '天塔之证', rewards: { gold: 500000, tianjiTokens: 150, essence: 50 }, desc: '灵石500000+天机令150+精华50' },
-    90: { name: '道塔之证', rewards: { gold: 1000000, tianjiTokens: 200, essence: 80 }, desc: '灵石1000000+天机令200+精华80' },
-    100: { name: '无上塔主', rewards: { gold: 5000000, tianjiTokens: 500, essence: 200 }, desc: '灵石5000000+天机令500+精华200' },
+    10: { name: '铜塔之证', rewards: { gold: 300, tianjiTokens: 3 }, desc: '灵石300+天机令3' },
+    20: { name: '银塔之证', rewards: { gold: 800, tianjiTokens: 5, herb: 10 }, desc: '灵石800+天机令5+灵药10' },
+    30: { name: '金塔之证', rewards: { gold: 2000, tianjiTokens: 8, ore: 10 }, desc: '灵石2000+天机令8+矿石10' },
+    40: { name: '玉塔之证', rewards: { gold: 5000, tianjiTokens: 12, essence: 3 }, desc: '灵石5000+天机令12+精华3' },
+    50: { name: '仙塔之证', rewards: { gold: 10000, tianjiTokens: 18, essence: 5 }, desc: '灵石10000+天机令18+精华5' },
+    60: { name: '神塔之证', rewards: { gold: 20000, tianjiTokens: 25, essence: 8 }, desc: '灵石20000+天机令25+精华8' },
+    70: { name: '圣塔之证', rewards: { gold: 40000, tianjiTokens: 35, essence: 12 }, desc: '灵石40000+天机令35+精华12' },
+    80: { name: '天塔之证', rewards: { gold: 80000, tianjiTokens: 50, essence: 18 }, desc: '灵石80000+天机令50+精华18' },
+    90: { name: '道塔之证', rewards: { gold: 150000, tianjiTokens: 70, essence: 25 }, desc: '灵石150000+天机令70+精华25' },
+    100: { name: '无上塔主', rewards: { gold: 300000, tianjiTokens: 100, essence: 40 }, desc: '灵石300000+天机令100+精华40' },
   };
 
   function challengeTower() {
@@ -1732,8 +1732,8 @@ const GameEngine = (() => {
       }
     }
     if (monsterHp <= 0) {
-      const goldReward = Math.floor(50 * Math.pow(1.5, floor));
-      const expReward = Math.floor(100 * Math.pow(1.4, floor));
+      const goldReward = Math.floor(50 + floor * 30 + Math.pow(floor, 1.8) * 2);
+      const expReward = Math.floor(80 + floor * 25 + Math.pow(floor, 1.7) * 2);
       state.gold += goldReward;
       state.exp += expReward;
       state.towerFloor++;
