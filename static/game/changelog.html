@@ -138,14 +138,61 @@
       <h1>🐭 鼠鼠修仙 · 迭代记录</h1>
       <p>每一个版本都是一次飞升 ✨</p>
       <div class="stats">
-        <div class="stat"><span class="stat-value">v2.5</span><span class="stat-label">当前版本</span></div>
-        <div class="stat"><span class="stat-value">27</span><span class="stat-label">版本迭代</span></div>
+        <div class="stat"><span class="stat-value">v2.6</span><span class="stat-label">当前版本</span></div>
+        <div class="stat"><span class="stat-value">28</span><span class="stat-label">版本迭代</span></div>
         <div class="stat"><span class="stat-value">~6000+</span><span class="stat-label">总代码行数</span></div>
         <div class="stat"><span class="stat-value">3天</span><span class="stat-label">开发周期</span></div>
       </div>
     </div>
 
     <div class="timeline" id="timeline">
+
+      <!-- v2.6 -->
+      <div class="version-card minor open">
+        <div class="version-header" onclick="toggleVersion(this)">
+          <span class="version-badge minor">v2.6</span>
+          <span class="version-title">怪物·灵兽·坐骑像素画全面重制</span>
+          <span class="version-date">2026-04-08</span>
+          <span class="version-toggle">▼</span>
+        </div>
+        <div class="version-body">
+          <div class="desc">基于 mouse_beasts_01 参考风格，28种生物像素画全面升级——描边轮廓、多层色阶、动态特效、精致纹理。</div>
+          <div class="feature-group">
+            <div class="feature-group-title">👹 怪物重制 (18种) <span class="tag tag-visual">美术</span></div>
+            <ul class="feature-list">
+              <li><strong>Tier 1-3 怪物</strong>：灰毛妖鼠、毒蟾蜍、赤狐妖、影蝠群、铁甲傀儡、墨蛟蛇等增加黑色描边轮廓</li>
+              <li><strong>Tier 4-5 怪物</strong>：化龙妖蛟、劫雷真龙、天魔老祖等增加3-5层色阶渐变</li>
+              <li><strong>Boss (8种)</strong>：全部增加动态粒子特效（火焰/闪电/暗能量/冰霜等）</li>
+              <li>所有怪物增加纹理细节：鳞片、毛皮、骨刺、裂纹等</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">🐾 灵兽重制 (8种) <span class="tag tag-visual">美术</span></div>
+            <ul class="feature-list">
+              <li><strong>赤炎灵猫</strong>：火焰毛皮纹理 + 尾部火焰粒子</li>
+              <li><strong>玄冰狼</strong>：冰晶鬃毛 + 冰霜吐息特效</li>
+              <li><strong>雷鸣鹰</strong>：闪电羽翼 + 电弧环绕</li>
+              <li><strong>暗鳞蛇</strong>：暗紫鳞片纹理 + 毒雾粒子</li>
+              <li><strong>蛟龙/金龙</strong>：龙鳞细节 + 祥云/龙珠特效</li>
+              <li><strong>天凤</strong>：五彩羽翼渐变 + 凤羽飘落粒子</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">🐎 坐骑重制 (2种) <span class="tag tag-visual">美术</span></div>
+            <ul class="feature-list">
+              <li><strong>仙鹤</strong>：增加羽毛纹理、翼尖渐变、仙气飘带</li>
+              <li><strong>麒麟</strong>：增加龙须金鳞、火焰蹄印、鹿角细节</li>
+            </ul>
+          </div>
+          <div class="feature-group">
+            <div class="feature-group-title">📊 代码规模 <span class="tag tag-refactor">重构</span></div>
+            <ul class="feature-list">
+              <li>sprites.js 从 1485行 增至 2030行（+37%）</li>
+              <li>统一描边(outline)系统 + 多层色阶渐变架构</li>
+            </ul>
+          </div>
+        </div>
+      </div>
 
       <!-- v2.5 -->
       <div class="version-card minor open">
