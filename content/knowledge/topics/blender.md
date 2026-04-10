@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-04-08"
+updated: "2026-04-10"
 ---
 
 # Blender
@@ -151,3 +151,24 @@ Blender 工具与社区动态
 
 ### [TechCrunch](https://techcrunch.com/2026/04/07/anthropic-mythos-ai-model-preview-security/)
 - 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [如何雕刻街霸6 Juri Han动态造型](https://80.lv/articles/how-to-sculpt-texture-juri-han-from-street-figther-6-in-a-dynamic-pose/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [2D概念到3D：Blender & Substance 3D 工作流](https://80.lv/articles/reinterpreting-a-2d-concept-in-three-dimensions-using-blender-substance-3d/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [五家工作室联合组建 Nova Assembly](https://80.lv/articles/five-game-studios-unite-to-form-developer-led-holding-nova-assembly/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [如何可持续地做游戏开发？](https://www.reddit.com/r/gamedev/comments/1sgk5dz/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Unreal Extended Framework 2.5 大更新](https://www.reddit.com/r/unrealengine/comments/1sgj02f/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Rigify(Blender)到UE的最佳工作流](https://www.reddit.com/r/unrealengine/comments/1sgsgwi/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Nvidia RTXGI 5.7 Plugin](https://www.reddit.com/r/unrealengine/comments/1sg8cvf/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-08"
+updated: "2026-04-10"
 ---
 
 # AI Agent
@@ -163,3 +163,9 @@ AI Agent 架构、实践与踩坑
 
 ### [YouTube](https://youtu.be/wc8FBhQtdsA)
 - 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Sierra's Bret Taylor says the era of clicking buttons is over](https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Reallocating $100/Month Claude Code Spend to Zed and OpenRouter](https://braw.dev/blog/2026-04-06-reallocating-100-month-claude-spend/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials

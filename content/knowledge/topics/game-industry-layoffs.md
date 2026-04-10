@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-10"
 ---
 
 # 游戏行业裁员
@@ -107,3 +107,24 @@ updated: "2026-04-07"
 
 ### [Reddit](https://www.reddit.com/r/gamedev/comments/1se3o4v/what_i_learned_growing_an_indie_game_community/)
 - 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Gunzilla Games 被指控拖欠员工薪水](https://www.gamesindustry.biz/off-the-grid-maker-and-game-informer-owner-gunzilla-games-accused-of-missing-staff-salary-payments)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [AAA裁员的隐性成本：为什么产能稳定依赖高级人才](https://www.gamesindustry.biz/the-hidden-cost-of-layoffs-why-aaa-production-stability-depends-on-senior-talent-opinion)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Lucas Pope 不愿透露新游戏，怕被AI"吸走"](https://www.gamesindustry.biz/papers-please-return-of-the-obra-dinn-dev-lucas-pope-wont-talk-about-current-game-in-case-it-gets-slurped-up-by-ai)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Poly Haven开源游戏项目Project Lighthouse](https://www.youtube.com/watch?v=_lWWwQk3VDw)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [AAA裁员的隐性成本讨论](https://www.reddit.com/r/gamedev/comments/1sgrd0q/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [TikTok Minis上线10个市场——独立开发者本地化指南](https://www.reddit.com/r/gamedev/comments/1sghzs1/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [如何可持续地做游戏开发？](https://www.reddit.com/r/gamedev/comments/1sgk5dz/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials

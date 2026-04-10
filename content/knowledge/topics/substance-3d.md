@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-10"
 ---
 
 # Substance 3D
@@ -46,3 +46,12 @@ Substance 系列工具与材质
 
 ### [80 Level](https://80.lv/articles/old-man-stylized-3d-character-made-with-blender-zbrush/)
 - 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [如何雕刻街霸6 Juri Han动态造型](https://80.lv/articles/how-to-sculpt-texture-juri-han-from-street-figther-6-in-a-dynamic-pose/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [2D概念到3D：Blender & Substance 3D 工作流](https://80.lv/articles/reinterpreting-a-2d-concept-in-three-dimensions-using-blender-substance-3d/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [五家工作室联合组建 Nova Assembly](https://80.lv/articles/five-game-studios-unite-to-form-developer-led-holding-nova-assembly/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials

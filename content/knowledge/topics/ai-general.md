@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-08"
+updated: "2026-04-10"
 ---
 
 # AI 通用
@@ -705,3 +705,99 @@ updated: "2026-04-08"
 
 ### [YouTube/GDC](https://www.youtube.com/watch?v=XxvLyd4lKZM)
 - 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [ML promises to be profoundly weird](https://aphyr.com/posts/411-the-future-of-everything-is-lies-i-guess)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison: Meta's new model is Muse Spark](https://simonwillison.net/2026/Apr/8/muse-spark/#atom-everything)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Muse Spark: Scaling towards personal superintelligence](https://ai.meta.com/blog/introducing-muse-spark-msl/?_fb_noscript=1)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude mixes up who said what](https://dwyer.co.za/static/claude-mixes-up-who-said-what-and-thats-not-ok.html)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Git commands I run before reading any code](https://piechowski.io/post/git-commands-before-reading-code/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [The Vercel plugin on Claude Code wants to read your prompts](https://akshaychugh.xyz/writings/png/vercel-plugin-telemetry)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Sierra's Bret Taylor says the era of clicking buttons is over](https://techcrunch.com/2026/04/09/sierras-bret-taylor-says-the-era-of-clicking-buttons-is-over/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Reallocating $100/Month Claude Code Spend to Zed and OpenRouter](https://braw.dev/blog/2026-04-06-reallocating-100-month-claude-spend/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude mixes up who said what](https://news.ycombinator.com/item?id=47701233)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta removes ads](https://news.ycombinator.com/item?id=47703419)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Cascadeur 2026.1 发布：渲染引擎全面升级](https://80.lv/articles/cascadeur-2026-1-arrives-with-rendering-engine-overhaul/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Move Genesis 无标记点动作捕捉系统](https://80.lv/articles/move-s-new-markerless-motion-capture-system-genesis-promises-cinema-quality-imaging/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [AAA裁员的隐性成本：为什么产能稳定依赖高级人才](https://www.gamesindustry.biz/the-hidden-cost-of-layoffs-why-aaa-production-stability-depends-on-senior-talent-opinion)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Lucas Pope 不愿透露新游戏，怕被AI"吸走"](https://www.gamesindustry.biz/papers-please-return-of-the-obra-dinn-dev-lucas-pope-wont-talk-about-current-game-in-case-it-gets-slurped-up-by-ai)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [德国投入€1.25亿游戏基金，Rockfish获€800万](https://www.gamesindustry.biz/rockfish-games-lands-8m-grant-as-germany-boosts-game-industry-support)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Temtem: Pioneers — Palworld的新竞争者](https://www.eurogamer.net/palworld-temtem-survival-creature-collector-spin-off-temtem-pioneers)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Rigify(Blender)到UE的最佳工作流](https://www.reddit.com/r/unrealengine/comments/1sgsgwi/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Nvidia RTXGI 5.7 Plugin](https://www.reddit.com/r/unrealengine/comments/1sg8cvf/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon CEO年度股东信：$2000亿资本支出辩护](https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [AWS同时投资Anthropic和OpenAI：这不是冲突](https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Canva收购AI公司Simtheory和营销自动化Ortto](https://techcrunch.com/2026/04/08/canva-doubles-down-on-ai-and-marketing-automation-with-simtheory-ortto-acquisitions/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Waymo自动驾驶车检测坑洞，数据共享给Waze](https://techcrunch.com/2026/04/09/waymo-robotaxis-are-tracking-potholes-and-sharing-that-data-with-waze-users/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Spotify允许所有人关闭视频](https://techcrunch.com/2026/04/09/spotify-now-lets-everyone-turn-off-all-videos-in-its-app/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Pizza Tycoon如何在25MHz CPU上模拟交通](https://pizzalegacy.nl/blog/traffic-system.html)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [CSS Studio: 手绘设计+AI编码](https://cssstudio.ai)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [swyx: How to Thought Lead (2026)](https://www.swyx.io)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison 引用 Giles Turnbull：每个人都喜欢用AI做别人的职业](https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/hazelight-studios-reaches-a-milestone-with-over-50-million-copies-sold/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/five-studios-form-developer-led-holding-nova-assembly)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/08/wireguard-vpn-developer-cant-ship-software-updates-after-microsoft-locks-account/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/09/you-can-now-edit-your-instagram-comments/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/galaxies-spring-showcase-how-to-watch-and-what-to-expect)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
