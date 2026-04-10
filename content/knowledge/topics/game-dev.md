@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-04-08"
+updated: "2026-04-10"
 ---
 
 # 游戏开发
@@ -49,3 +49,18 @@ updated: "2026-04-08"
 
 ### [别再付Dropbox/Google Drive了，用自己的S3桶](https://news.ycombinator.com/item?id=47673394)
 - 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [AAA裁员的隐性成本讨论](https://www.reddit.com/r/gamedev/comments/1sgrd0q/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [TikTok Minis上线10个市场——独立开发者本地化指南](https://www.reddit.com/r/gamedev/comments/1sghzs1/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [如何可持续地做游戏开发？](https://www.reddit.com/r/gamedev/comments/1sgk5dz/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Unreal Extended Framework 2.5 大更新](https://www.reddit.com/r/unrealengine/comments/1sgj02f/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Rigify(Blender)到UE的最佳工作流](https://www.reddit.com/r/unrealengine/comments/1sgsgwi/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials

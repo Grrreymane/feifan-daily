@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-08"
+updated: "2026-04-10"
 ---
 
 # OpenAI
@@ -154,3 +154,15 @@ OpenAI 公司动态与产品
 
 ### [TechCrunch](https://techcrunch.com/2026/04/07/google-maps-can-now-write-captions-for-your-photos-using-ai/)
 - 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon CEO年度股东信：$2000亿资本支出辩护](https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [AWS同时投资Anthropic和OpenAI：这不是冲突](https://techcrunch.com/2026/04/08/aws-boss-explains-why-investing-billions-in-both-anthropic-and-openai-is-an-ok-conflict/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Canva收购AI公司Simtheory和营销自动化Ortto](https://techcrunch.com/2026/04/08/canva-doubles-down-on-ai-and-marketing-automation-with-simtheory-ortto-acquisitions/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/rockfish-games-lands-8m-grant-as-germany-boosts-game-industry-support)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials

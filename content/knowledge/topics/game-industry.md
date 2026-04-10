@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-08"
+updated: "2026-04-10"
 ---
 
 # 游戏行业
@@ -83,3 +83,12 @@ updated: "2026-04-08"
 
 ### [YouTube/GDC](https://www.youtube.com/watch?v=XxvLyd4lKZM)
 - 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [EFF is leaving X](https://news.ycombinator.com/item?id=47706268)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Cascadeur 2026.1 发布：渲染引擎全面升级](https://80.lv/articles/cascadeur-2026-1-arrives-with-rendering-engine-overhaul/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Move Genesis 无标记点动作捕捉系统](https://80.lv/articles/move-s-new-markerless-motion-capture-system-genesis-promises-cinema-quality-imaging/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials

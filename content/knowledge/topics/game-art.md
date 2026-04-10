@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-10"
 ---
 
 # 游戏美术
@@ -106,3 +106,12 @@ updated: "2026-04-07"
 
 ### [80 Level](https://80.lv/articles/rokoko-has-introduced-browser-based-app-for-generating-character-animations/)
 - 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [EFF is leaving X](https://news.ycombinator.com/item?id=47706268)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Cascadeur 2026.1 发布：渲染引擎全面升级](https://80.lv/articles/cascadeur-2026-1-arrives-with-rendering-engine-overhaul/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Move Genesis 无标记点动作捕捉系统](https://80.lv/articles/move-s-new-markerless-motion-capture-system-genesis-promises-cinema-quality-imaging/)
+- 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
