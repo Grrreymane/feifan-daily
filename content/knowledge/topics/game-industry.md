@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-10"
+updated: "2026-04-11"
 ---
 
 # 游戏行业
@@ -92,3 +92,12 @@ updated: "2026-04-10"
 
 ### [Move Genesis 无标记点动作捕捉系统](https://80.lv/articles/move-s-new-markerless-motion-capture-system-genesis-promises-cinema-quality-imaging/)
 - 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Kerkour](https://kerkour.com/rust-supply-chain-nightmare)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/09/volkswagen-drops-all-electric-id-4-in-the-us-in-pivot-back-to-gas-suvs/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/cyberpunk-2077-s-new-ps5-pro-update-is-absolutely-mind-blowing/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
