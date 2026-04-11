@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-10"
+updated: "2026-04-11"
 ---
 
 # AI Agent
@@ -169,3 +169,18 @@ AI Agent 架构、实践与踩坑
 
 ### [Reallocating $100/Month Claude Code Spend to Zed and OpenRouter](https://braw.dev/blog/2026-04-06-reallocating-100-month-claude-spend/)
 - 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/steam-code-references-steamgpt)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [SkyPilot Blog](https://blog.skypilot.co/research-driven-agents/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [InstantDB](https://www.instantdb.com/essays/architecture)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/france-to-ditch-windows-for-linux-to-reduce-reliance-on-us-tech/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials

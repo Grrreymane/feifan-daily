@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-10"
+updated: "2026-04-11"
 ---
 
 # AI 通用
@@ -801,3 +801,72 @@ updated: "2026-04-10"
 
 ### [Eurogamer](https://www.eurogamer.net/galaxies-spring-showcase-how-to-watch-and-what-to-expect)
 - 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [The Guardian](https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [Wired](https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/snap-gets-closer-to-releasing-new-ai-glasses-after-years-long-hiatus/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/steam-code-references-steamgpt)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [SkyPilot Blog](https://blog.skypilot.co/research-driven-agents/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [InstantDB](https://www.instantdb.com/essays/architecture)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/france-to-ditch-windows-for-linux-to-reduce-reliance-on-us-tech/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/youtube-premium-youtube-music-subscription-price-increase/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/09/eff-is-the-latest-organization-to-leave-x/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/psa-if-you-use-the-meta-ai-app-your-friends-will-find-out-and-it-will-be-embarrassing/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [Eclectic Light](https://eclecticlight.co/2026/04/10/why-you-cant-trust-privacy-security/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/every-fusion-startup-that-has-raised-over-100m/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [Kerkour](https://kerkour.com/rust-supply-chain-nightmare)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/09/volkswagen-drops-all-electric-id-4-in-the-us-in-pivot-back-to-gas-suvs/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/cyberpunk-2077-s-new-ps5-pro-update-is-absolutely-mind-blowing/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/gothic-1-remake-starts-pre-orders-shows-new-trailer/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/learn-what-recruiters-want-from-artists-in-artstation-s-report/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube完整演讲](https://www.youtube.com/watch?v=WJZYiWpToVo)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️293](https://news.ycombinator.com/item?id=47706140)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials

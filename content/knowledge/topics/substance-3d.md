@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-04-10"
+updated: "2026-04-11"
 ---
 
 # Substance 3D
@@ -55,3 +55,15 @@ Substance 系列工具与材质
 
 ### [五家工作室联合组建 Nova Assembly](https://80.lv/articles/five-game-studios-unite-to-form-developer-led-holding-nova-assembly/)
 - 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/cyberpunk-2077-s-new-ps5-pro-update-is-absolutely-mind-blowing/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/gothic-1-remake-starts-pre-orders-shows-new-trailer/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/learn-what-recruiters-want-from-artists-in-artstation-s-report/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube完整演讲](https://www.youtube.com/watch?v=WJZYiWpToVo)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials

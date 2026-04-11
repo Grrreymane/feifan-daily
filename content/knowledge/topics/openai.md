@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-10"
+updated: "2026-04-11"
 ---
 
 # OpenAI
@@ -166,3 +166,24 @@ OpenAI 公司动态与产品
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/rockfish-games-lands-8m-grant-as-germany-boosts-game-industry-support)
 - 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [The Guardian](https://www.theguardian.com/technology/2026/apr/10/us-summoned-bank-bosses-to-discuss-cyber-risks-posed-by-anthropic-latest-ai-model)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/09/chatgpt-pro-plan-100-month-codex/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [Wired](https://www.wired.com/story/openai-backs-bill-exempt-ai-firms-model-harm-lawsuits/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/09/meta-ai-app-climbs-to-no-5-on-the-app-store-after-muse-spark-launch/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/snap-gets-closer-to-releasing-new-ai-glasses-after-years-long-hiatus/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/)
+- 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
