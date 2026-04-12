@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-04-10"
+updated: "2026-04-12"
 ---
 
 # Unreal Engine
@@ -148,3 +148,21 @@ UE 引擎更新与技巧
 
 ### [Amazon CEO年度股东信：$2000亿资本支出辩护](https://techcrunch.com/2026/04/09/amazon-ceo-takes-aim-at-nvidia-intel-starlink-more-in-annual-shareholder-letter/)
 - 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/artist-creates-a-forest-environment-that-turns-into-a-cinematic-fantasy-scene/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/this-metroid-fusion-animated-fan-art-created-with-unreal-engine-and-zbrush-is-really-impressive/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/take-a-look-at-this-real-time-game-character-created-using-zbrush-and-unreal-engine/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/according-to-youtube-independant-animators-are-changing-the-industry/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/developing-microlandia-a-socioeconomic-city-builder-based-on-real-world-data/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sij8qq/free_plugin_for_ue57_sword_generator/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-11"
+updated: "2026-04-12"
 ---
 
 # AI 通用
@@ -870,3 +870,42 @@ updated: "2026-04-11"
 
 ### [HN ⬆️293](https://news.ycombinator.com/item?id=47706140)
 - 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/tech/910691/google-news-polymarket-bets-error)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/epic-set-to-release-arc-raiders-like-extraction-shooter-with-disney-characters-by-the-end-of-the-year)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/amazon-shakes-up-luna-streaming-service-removing-access-to-individual-games-third-party-subscriptions-and-its-bring-your-own-library-feature)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/games/910110/pokemon-champions-bugs-balance-issues-vgc-newcomers)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/turn-based-xcom-like-xenonauts-2-has-left-early-access-and-reached-1-0-status/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [taintedcoders.com](https://taintedcoders.com/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/devs-arent-lazy-and-game-updates-arent-guaranteed-opinion)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/developing-microlandia-a-socioeconomic-city-builder-based-on-real-world-data/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sij8qq/free_plugin_for_ue57_sword_generator/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/Keychron/Keychron-Keyboards-Hardware-Design)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials

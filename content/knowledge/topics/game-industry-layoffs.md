@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-04-10"
+updated: "2026-04-12"
 ---
 
 # 游戏行业裁员
@@ -128,3 +128,6 @@ updated: "2026-04-10"
 
 ### [如何可持续地做游戏开发？](https://www.reddit.com/r/gamedev/comments/1sgk5dz/)
 - 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/epic-set-to-release-arc-raiders-like-extraction-shooter-with-disney-characters-by-the-end-of-the-year)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
