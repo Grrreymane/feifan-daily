@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-04-07"
+updated: "2026-04-12"
 ---
 
 # ZBrush
@@ -64,3 +64,15 @@ ZBrush 雕刻与工作流
 
 ### [80 Level](https://80.lv/articles/check-out-how-developer-implemented-optical-flow-in-houdini-cops/)
 - 📅 2026-04-07 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/artist-creates-a-forest-environment-that-turns-into-a-cinematic-fantasy-scene/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/this-metroid-fusion-animated-fan-art-created-with-unreal-engine-and-zbrush-is-really-impressive/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/take-a-look-at-this-real-time-game-character-created-using-zbrush-and-unreal-engine/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/according-to-youtube-independant-animators-are-changing-the-industry/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials

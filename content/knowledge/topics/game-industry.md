@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-11"
+updated: "2026-04-12"
 ---
 
 # 游戏行业
@@ -101,3 +101,9 @@ updated: "2026-04-11"
 
 ### [80 Level](https://80.lv/articles/cyberpunk-2077-s-new-ps5-pro-update-is-absolutely-mind-blowing/)
 - 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/steam-code-references-steamgpt)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials

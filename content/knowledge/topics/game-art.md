@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-10"
+updated: "2026-04-12"
 ---
 
 # 游戏美术
@@ -115,3 +115,12 @@ updated: "2026-04-10"
 
 ### [Move Genesis 无标记点动作捕捉系统](https://80.lv/articles/move-s-new-markerless-motion-capture-system-genesis-promises-cinema-quality-imaging/)
 - 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [taintedcoders.com](https://taintedcoders.com/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/devs-arent-lazy-and-game-updates-arent-guaranteed-opinion)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/artist-creates-a-forest-environment-that-turns-into-a-cinematic-fantasy-scene/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials

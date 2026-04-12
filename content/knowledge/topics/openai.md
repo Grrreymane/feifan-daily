@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-11"
+updated: "2026-04-12"
 ---
 
 # OpenAI
@@ -187,3 +187,15 @@ OpenAI 公司动态与产品
 
 ### [TechCrunch](https://techcrunch.com/2026/04/09/google-and-intel-deepen-ai-infrastructure-partnership/)
 - 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/11/nvidia-backed-sifive-hits-3-65-billion-valuation-for-open-ai-chips/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/10/youtube-premium-youtube-music-subscription-price-increase/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sij8qq/free_plugin_for_ue57_sword_generator/)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials

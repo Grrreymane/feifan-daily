@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-04-10"
+updated: "2026-04-12"
 ---
 
 # 游戏开发
@@ -64,3 +64,9 @@ updated: "2026-04-10"
 
 ### [Rigify(Blender)到UE的最佳工作流](https://www.reddit.com/r/unrealengine/comments/1sgsgwi/)
 - 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/Keychron/Keychron-Keyboards-Hardware-Design)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Construction Physics](https://www.construction-physics.com/p/helium-is-hard-to-replace)
+- 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
