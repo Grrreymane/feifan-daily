@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-12"
+updated: "2026-04-13"
 ---
 
 # AI 通用
@@ -909,3 +909,66 @@ updated: "2026-04-12"
 
 ### [GitHub](https://github.com/Keychron/Keychron-Keyboards-Hardware-Design)
 - 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/starfield-ps5-players-demand-refunds-reporting-widespread-bugs-and-glitches-that-leave-the-game-unplayable)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/games/910815/rockstar-games-says-hack-will-have-no-impact)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/gta-6-developer-rockstar-games-hacked-once-again-but-insists-only-a-limited-amount-of-non-material-company-information-was-compromised)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/new-report-claims-microsoft-is-considering-changing-day-one-access-to-call-of-duty-on-game-pass)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/black-and-white-lionhead-peter-moylneux-retrospective-google-deepmind-gemini-ai)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/according-to-youtube-independant-animators-are-changing-the-industry/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1sjbu8j/50_free_cc0_hdris_29k_for_unreal_engine_unity/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/12/x-says-its-reducing-payments-to-clickbait-accounts/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/transportation/910717/netherlands-tesla-supervised-full-self-driving)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [The Independent](https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat](https://venturebeat.com/security/your-developers-are-already-running-ai-locally-why-on-device-inference-is)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/gadgets/909928/nintendo-switch-2-super-mario-galaxy-bundle-deal-sale)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sjble1/from_epic_grant_to_50_free_cc0_hdris/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Cognitive Revolution](https://www.cognitiverevolution.ai)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1shm5su/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sjdu5p/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sirqhy/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sirxwx/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sj1hf5/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials

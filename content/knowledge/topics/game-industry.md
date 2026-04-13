@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-12"
+updated: "2026-04-13"
 ---
 
 # 游戏行业
@@ -107,3 +107,6 @@ updated: "2026-04-12"
 
 ### [The Verge](https://www.theverge.com/ai-artificial-intelligence/910460/new-yorker-david-szauder-illustration-generative-ai)
 - 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/starfield-ps5-players-demand-refunds-reporting-widespread-bugs-and-glitches-that-leave-the-game-unplayable)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials

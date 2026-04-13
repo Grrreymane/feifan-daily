@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-04-12"
+updated: "2026-04-13"
 ---
 
 # Unreal Engine
@@ -166,3 +166,33 @@ UE 引擎更新与技巧
 
 ### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sij8qq/free_plugin_for_ue57_sword_generator/)
 - 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1sjbu8j/50_free_cc0_hdris_29k_for_unreal_engine_unity/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/12/x-says-its-reducing-payments-to-clickbait-accounts/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [flippednormals.com](https://flippednormals.com)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sjble1/from_epic_grant_to_50_free_cc0_hdris/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space](https://www.latent.space/podcast)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sjgxix/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sjdu5p/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sirqhy/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sirxwx/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sj1hf5/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials

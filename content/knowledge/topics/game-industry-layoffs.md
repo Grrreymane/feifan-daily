@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-04-12"
+updated: "2026-04-13"
 ---
 
 # 游戏行业裁员
@@ -131,3 +131,9 @@ updated: "2026-04-12"
 
 ### [Eurogamer](https://www.eurogamer.net/epic-set-to-release-arc-raiders-like-extraction-shooter-with-disney-characters-by-the-end-of-the-year)
 - 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/starfield-ps5-players-demand-refunds-reporting-widespread-bugs-and-glitches-that-leave-the-game-unplayable)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/games/910815/rockstar-games-says-hack-will-have-no-impact)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
