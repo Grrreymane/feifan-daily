@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-04-08"
+updated: "2026-04-13"
 ---
 
 # 大语言模型
@@ -76,3 +76,6 @@ LLM 技术进展、应用与讨论
 
 ### [Apple Podcasts](https://podcasts.apple.com/us/podcast/latent-space-the-ai-engineer-podcast/id1674008350)
 - 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space](https://www.latent.space/podcast)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials

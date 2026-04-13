@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-12"
+updated: "2026-04-13"
 ---
 
 # OpenAI
@@ -199,3 +199,21 @@ OpenAI 公司动态与产品
 
 ### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sij8qq/free_plugin_for_ue57_sword_generator/)
 - 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/starfield-ps5-players-demand-refunds-reporting-widespread-bugs-and-glitches-that-leave-the-game-unplayable)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/transportation/910717/netherlands-tesla-supervised-full-self-driving)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/tech/910691/google-news-polymarket-bets-error)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [The Independent](https://www.the-independent.com/tech/renewable-energy-solar-nepal-bhutan-iceland-b2533699.html)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sjble1/from_epic_grant_to_50_free_cc0_hdris/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space](https://www.latent.space/podcast)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials

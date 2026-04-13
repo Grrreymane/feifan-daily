@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-04-12"
+updated: "2026-04-13"
 ---
 
 # 游戏开发
@@ -70,3 +70,18 @@ updated: "2026-04-12"
 
 ### [Construction Physics](https://www.construction-physics.com/p/helium-is-hard-to-replace)
 - 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1shm5su/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1rp216y/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sjgxix/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sjdu5p/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sirqhy/)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials

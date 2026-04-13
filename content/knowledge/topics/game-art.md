@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-12"
+updated: "2026-04-13"
 ---
 
 # 游戏美术
@@ -124,3 +124,15 @@ updated: "2026-04-12"
 
 ### [80 Level](https://80.lv/articles/artist-creates-a-forest-environment-that-turns-into-a-cinematic-fantasy-scene/)
 - 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat](https://venturebeat.com/security/your-developers-are-already-running-ai-locally-why-on-device-inference-is)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/gadgets/909928/nintendo-switch-2-super-mario-galaxy-bundle-deal-sale)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Cognitive Revolution](https://www.cognitiverevolution.ai)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Developer](https://www.gamedeveloper.com/podcasts)
+- 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
