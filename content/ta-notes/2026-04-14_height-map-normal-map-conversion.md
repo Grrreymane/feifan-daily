@@ -8,6 +8,8 @@ source_url: "https://www.monolithsoft.co.jp/techblog/articles/000637.html"
 
 # Height Map 与 Normal Map 的相互转换
 
+![文章封面](/images/ta-notes/tech_46_01.jpg)
+
 > 📌 **原文信息**
 > - 原文：[Height MapとNormal Mapの相互変換 — Monolith Soft TECH BLOG](https://www.monolithsoft.co.jp/techblog/articles/000637.html)
 > - 作者：廣瀬（Monolith Soft 技术美术，主要负责特效相关业务）
@@ -69,7 +71,12 @@ $$
 
 由于单位向量 **n**(*x*,*y*) 的各分量范围在 -1 到 1 之间，因此在保存为纹理时，通常对各分量执行 `* 0.5 + 0.5` 运算，将值重映射到 0 到 1 的范围。
 
-*【原文此处有示意图：Height Map 与生成的 Normal Map 的对比】*
+![Height Map → Normal Map 的公式示意](/images/ta-notes/tech_46_02.jpg)
+
+| | |
+|:---:|:---:|
+| ![Height Map](/images/ta-notes/tech_46_03.jpg) | ![生成的 Normal Map](/images/ta-notes/tech_46_04.jpg) |
+| 【左】Height Map | 【右】生成的 Normal Map |
 
 ### 源代码
 
@@ -139,7 +146,15 @@ $$
 
 这种方法简单明了、实现也很容易，但缺点是受数值误差影响较大，生成的 Height Map 上会出现条纹状噪声。
 
-*【原文此处有图：线积分计算结果，及加伽马后可视化噪声的效果、3D 化结果】*
+![线积分计算结果](/images/ta-notes/tech_46_05.jpg)
+
+| | |
+|:---:|:---:|
+| ![线积分计算结果](/images/ta-notes/tech_46_06.jpg) | ![加伽马后可视化噪声](/images/ta-notes/tech_46_07.jpg) |
+| 【左】式 (5) 的计算结果 | 【右】加伽马后可视化噪声的效果 |
+
+![线积分 3D 化结果](/images/ta-notes/tech_46_08.jpg)
+*图像 3D 化结果*
 
 #### 源代码
 
@@ -204,7 +219,11 @@ $$
 
 本文使用 SciPy 的稀疏矩阵直接法进行求解。
 
-*【原文此处有图：泊松方程计算结果、3D 化结果】*
+![泊松方程计算结果](/images/ta-notes/tech_46_09.jpg)
+*式 (7) 的计算结果*
+
+![泊松方程 3D 化结果](/images/ta-notes/tech_46_10.jpg)
+*图像 3D 化结果*
 
 #### 源代码
 
@@ -343,7 +362,11 @@ $$
 
 **当图像不具有周期性时，通过零填充（zero-padding）可以创建更精确的 Height Map。**
 
-*【原文此处有图：最小化问题计算结果、3D 化结果】*
+![最小化问题计算结果](/images/ta-notes/tech_46_11.jpg)
+*最小化问题的计算结果*
+
+![最小化问题 3D 化结果](/images/ta-notes/tech_46_12.jpg)
+*图像 3D 化结果*
 
 #### 源代码
 
