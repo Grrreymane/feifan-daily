@@ -346,9 +346,38 @@ function homePageHtml(allPosts) {
   return htmlShell('首页', body, 'home');
 }
 
+// ===== Security Check =====
+function securityScan() {
+  const BLOCKED = [/lightai/i, /nano[\-\s]?banana/i, /woa\.com/i, /iwiki/i, /tapd/i];
+  const violations = [];
+  for (const [cat] of Object.entries(CATEGORIES)) {
+    const dir = path.join(CONTENT_DIR, cat);
+    if (!fs.existsSync(dir)) continue;
+    for (const f of fs.readdirSync(dir).filter(x => x.endsWith('.md'))) {
+      const content = fs.readFileSync(path.join(dir, f), 'utf-8');
+      for (const re of BLOCKED) {
+        const m = content.match(re);
+        if (m) violations.push({ file: `${cat}/${f}`, keyword: m[0] });
+      }
+    }
+  }
+  if (violations.length > 0) {
+    console.error('\n🚨 安全检查未通过！以下文件包含不应出现在公开仓库中的内容：');
+    for (const v of violations) {
+      console.error(`   ❌ ${v.file} → 发现: "${v.keyword}"`);
+    }
+    console.error('\n请修正后重新构建。\n');
+    process.exit(1);
+  }
+  console.log('  ✅ 安全扫描通过');
+}
+
 // ===== Build =====
 function build() {
   console.log('🔨 开始构建...');
+  
+  // Security scan before anything else
+  securityScan();
   
   // Clean dist
   if (fs.existsSync(DIST_DIR)) {
