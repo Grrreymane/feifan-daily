@@ -99,10 +99,29 @@ function formatDate(dateStr) {
 }
 
 function renderMarkdown(md) {
-  return marked(md, {
+  // Protect LaTeX math blocks from marked processing
+  const mathBlocks = [];
+  // Protect display math ($$...$$) first
+  let protected = md.replace(/\$\$([\s\S]*?)\$\$/g, (match) => {
+    const idx = mathBlocks.length;
+    mathBlocks.push(match);
+    return `%%MATH_BLOCK_${idx}%%`;
+  });
+  // Protect inline math ($...$) — avoid matching $ used in code
+  protected = protected.replace(/(?<!\$)\$(?!\$)(.+?)(?<!\$)\$(?!\$)/g, (match) => {
+    const idx = mathBlocks.length;
+    mathBlocks.push(match);
+    return `%%MATH_BLOCK_${idx}%%`;
+  });
+
+  let html = marked(protected, {
     breaks: true,
     gfm: true,
   });
+
+  // Restore math blocks
+  html = html.replace(/%%MATH_BLOCK_(\d+)%%/g, (_, idx) => mathBlocks[parseInt(idx)]);
+  return html;
 }
 
 // ===== HTML Templates =====
@@ -118,6 +137,7 @@ function htmlShell(title, body, activeNav = '') {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="${B}/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
 </head>
 <body>
   <header class="site-header">
@@ -139,7 +159,9 @@ function htmlShell(title, body, activeNav = '') {
   <footer class="site-footer">
     非凡像素 © ${new Date().getFullYear()} · 用理解代替恐惧
   </footer>
-
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"
+    onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false});"></script>
 </body>
 </html>`;
 }
