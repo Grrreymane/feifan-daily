@@ -137,6 +137,7 @@ function htmlShell(title, body, activeNav = '') {
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="${B}/css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/styles/github-dark.min.css" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" crossorigin="anonymous">
 </head>
 <body>
@@ -159,6 +160,8 @@ function htmlShell(title, body, activeNav = '') {
   <footer class="site-footer">
     非凡像素 © ${new Date().getFullYear()} · 用理解代替恐惧
   </footer>
+  <script defer src="https://cdn.jsdelivr.net/npm/highlight.js@11.9.0/highlight.min.js" crossorigin="anonymous"
+    onload="hljs.highlightAll();"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" crossorigin="anonymous"
     onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}],throwOnError:false});"></script>
