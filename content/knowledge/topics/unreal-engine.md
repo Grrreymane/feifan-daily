@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-04-13"
+updated: "2026-04-14"
 ---
 
 # Unreal Engine
@@ -196,3 +196,27 @@ UE 引擎更新与技巧
 
 ### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sj1hf5/)
 - 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/fallout-tv-series-inspired-cgi-cinematic-in-3ds-max/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/medieval-inn-made-from-modular-3d-pieces-in-unreal-engine-5/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/check-out-how-this-vibrant-snowy-scene-is-built-from-a-blockout-in-blender/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1skhizw/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1shm5su/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sk6d2w/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1skffcj/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sjx34h/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials

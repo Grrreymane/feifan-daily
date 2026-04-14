@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-13"
+updated: "2026-04-14"
 ---
 
 # AI 通用
@@ -972,3 +972,60 @@ updated: "2026-04-13"
 
 ### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sj1hf5/)
 - 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/12/apple-reportedly-testing-four-designs-for-upcoming-smart-glasses/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/13/the-largest-orbital-compute-cluster-is-open-for-business/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/tech/911080/microsoft-ai-openclaw-365-businesses)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Servo Blog](https://servo.org/blog/2026/04/13/servo-0.1.0-release/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/13/booking-com-confirms-hackers-accessed-customers-data/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/rockstar-games-affected-by-data-breach-limited-amount-of-non-material-information-accessed)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/epic-games-is-working-on-an-arc-raiders-like-disney-extraction-shooter-slated-to-release-by-the-end-of-the-year)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/metro-2039-announced-xbox-stream-reveal)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/new-hideo-kojima-game-physint-casting-details)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/follow-a-games-rules-not-its-story-exit-8-director-genki-kawamura-on-the-secret-to-a-successful-movie-adaptation)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Rephonic确认](https://rephonic.com/podcasts/latent-space-podcast)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1skhizw/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sk6d2w/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1skffcj/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sjx34h/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [arXiv论文](https://arxiv.org/abs/2603.21852)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Essay](https://essays.johnloeber.com/p/4-bring-back-idiomatic-design)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials

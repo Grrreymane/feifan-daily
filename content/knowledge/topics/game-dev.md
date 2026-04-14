@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-04-13"
+updated: "2026-04-14"
 ---
 
 # 游戏开发
@@ -85,3 +85,9 @@ updated: "2026-04-13"
 
 ### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sirqhy/)
 - 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1skbzjb/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1skhizw/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials

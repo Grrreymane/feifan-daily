@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-13"
+updated: "2026-04-14"
 ---
 
 # OpenAI
@@ -217,3 +217,9 @@ OpenAI 公司动态与产品
 
 ### [Latent Space](https://www.latent.space/podcast)
 - 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/follow-a-games-rules-not-its-story-exit-8-director-genki-kawamura-on-the-secret-to-a-successful-movie-adaptation)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Rephonic确认](https://rephonic.com/podcasts/latent-space-podcast)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
