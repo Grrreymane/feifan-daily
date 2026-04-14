@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-11"
+updated: "2026-04-14"
 ---
 
 # AI Agent
@@ -184,3 +184,21 @@ AI Agent 架构、实践与踩坑
 
 ### [TechCrunch](https://techcrunch.com/2026/04/10/france-to-ditch-windows-for-linux-to-reduce-reliance-on-us-tech/)
 - 📅 2026-04-11 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/13/vercel-ceo-guillermo-rauch-signals-ipo-readiness-as-ai-agents-fuel-revenue-surge/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/12/at-the-humanx-conference-everyone-was-talking-about-claude/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1skhizw/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1shm5su/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sk6d2w/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sjble1/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials

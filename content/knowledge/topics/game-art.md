@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-13"
+updated: "2026-04-14"
 ---
 
 # 游戏美术
@@ -136,3 +136,9 @@ updated: "2026-04-13"
 
 ### [Game Developer](https://www.gamedeveloper.com/podcasts)
 - 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/fallout-tv-series-inspired-cgi-cinematic-in-3ds-max/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/medieval-inn-made-from-modular-3d-pieces-in-unreal-engine-5/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials

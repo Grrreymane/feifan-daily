@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-04-10"
+updated: "2026-04-14"
 ---
 
 # Blender
@@ -172,3 +172,18 @@ Blender 工具与社区动态
 
 ### [Nvidia RTXGI 5.7 Plugin](https://www.reddit.com/r/unrealengine/comments/1sg8cvf/)
 - 📅 2026-04-10 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/fallout-tv-series-inspired-cgi-cinematic-in-3ds-max/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/medieval-inn-made-from-modular-3d-pieces-in-unreal-engine-5/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/check-out-how-this-vibrant-snowy-scene-is-built-from-a-blockout-in-blender/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/get-this-highly-customizable-rig-of-hornet-from-hollow-knight-for-free/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/jesse-miettinen-demonstrates-grunge-generator-on-furniture-assets/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials

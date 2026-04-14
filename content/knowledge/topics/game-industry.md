@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-13"
+updated: "2026-04-14"
 ---
 
 # 游戏行业
@@ -110,3 +110,12 @@ updated: "2026-04-13"
 
 ### [Eurogamer](https://www.eurogamer.net/starfield-ps5-players-demand-refunds-reporting-widespread-bugs-and-glitches-that-leave-the-game-unplayable)
 - 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/rockstar-games-affected-by-data-breach-limited-amount-of-non-material-information-accessed)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/12/x-says-its-reducing-payments-to-clickbait-accounts/)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/epic-games-is-working-on-an-arc-raiders-like-disney-extraction-shooter-slated-to-release-by-the-end-of-the-year)
+- 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
