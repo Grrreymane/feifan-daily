@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-04-14"
+updated: "2026-04-15"
 ---
 
 # Unreal Engine
@@ -220,3 +220,12 @@ UE 引擎更新与技巧
 
 ### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sjx34h/)
 - 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/see-how-framestore-created-vfx-for-aliens-landscapes-for-mickey-17/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/foliage-tools-for-unreal-engine-has-received-a-new-beta-version/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/check-out-this-simple-trick-for-deep-ice-cracks-in-3d/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials

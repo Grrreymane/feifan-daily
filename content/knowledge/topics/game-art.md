@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-14"
+updated: "2026-04-15"
 ---
 
 # 游戏美术
@@ -142,3 +142,9 @@ updated: "2026-04-14"
 
 ### [80 Level](https://80.lv/articles/medieval-inn-made-from-modular-3d-pieces-in-unreal-engine-5/)
 - 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/stalker-2s-latest-update-adds-an-easily-missed-new-questline-while-dispersing-accidental-mutant-crowds)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/when-optimization-stops-working-inside-the-switch-port-of-secret-of-the-mimic-that-required-rewriting-the-engine/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials

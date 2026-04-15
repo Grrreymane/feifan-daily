@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-14"
+updated: "2026-04-15"
 ---
 
 # OpenAI
@@ -223,3 +223,15 @@ OpenAI 公司动态与产品
 
 ### [Rephonic确认](https://rephonic.com/podcasts/latent-space-podcast)
 - 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/14/london-gets-closer-to-its-first-robotaxi-service-as-waymo-begins-testing/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/13/uber-nuro-san-francisco-testing-premium-robotaxi-service/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/13/openai-has-bought-ai-personal-finance-startup-hiro/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials

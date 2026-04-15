@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-14"
+updated: "2026-04-15"
 ---
 
 # 游戏行业
@@ -119,3 +119,9 @@ updated: "2026-04-14"
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/epic-games-is-working-on-an-arc-raiders-like-disney-extraction-shooter-slated-to-release-by-the-end-of-the-year)
 - 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/14/how-vibe-coding-app-anything-is-rebuilding-after-getting-booted-from-the-app-store-twice/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/v-ray-is-now-free-for-blender-users/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
