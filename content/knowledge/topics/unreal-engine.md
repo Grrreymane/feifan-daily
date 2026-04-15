@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-04-15"
+updated: "2026-04-16"
 ---
 
 # Unreal Engine
@@ -229,3 +229,39 @@ UE 引擎更新与技巧
 
 ### [80 Level](https://80.lv/articles/check-out-this-simple-trick-for-deep-ice-cracks-in-3d/)
 - 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/15/anthropic-shrugs-off-vc-funding-offers-valuing-it-at-800b-for-now/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/wrap-meshes-onto-complex-surfaces-in-one-click-with-this-ue5-tool/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/better-reference-explorer-plug-in-for-unreal-engine-5/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/see-how-vfx-built-the-world-of-netflix-s-live-action-one-piece-season-2/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sm0kbl/ue_58_branch_released_on_github/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sm96it/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sm4of3/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sm0pru/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sm92ct/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1smcmo4/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sm2gr4/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1smc9ep/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials

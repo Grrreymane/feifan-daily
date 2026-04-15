@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-15"
+updated: "2026-04-16"
 ---
 
 # OpenAI
@@ -235,3 +235,6 @@ OpenAI 公司动态与产品
 
 ### [TechCrunch](https://techcrunch.com/2026/04/14/google-adds-ai-skills-to-chrome-to-help-you-save-favorite-workflows/)
 - 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sm0kbl/ue_58_branch_released_on_github/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials

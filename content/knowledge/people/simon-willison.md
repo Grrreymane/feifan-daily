@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-04-13"
+updated: "2026-04-16"
 ---
 
 # Simon Willison
@@ -31,3 +31,5 @@ updated: "2026-04-13"
 - 📅 2026-04-10 — [Simon Willison 引用 Giles Turnbull：每个人都喜欢用AI做别人的职业](https://simonwillison.net/2026/Apr/8/giles-turnbull/#atom-everything)
 
 - 📅 2026-04-13 — [Simon Willison](https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything)
+
+- 📅 2026-04-16 — [Simon Willison](https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/)
