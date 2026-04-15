@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-04-14"
+updated: "2026-04-15"
 ---
 
 # Blender
@@ -187,3 +187,12 @@ Blender 工具与社区动态
 
 ### [80 Level](https://80.lv/articles/jesse-miettinen-demonstrates-grunge-generator-on-furniture-assets/)
 - 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/14/how-vibe-coding-app-anything-is-rebuilding-after-getting-booted-from-the-app-store-twice/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/v-ray-is-now-free-for-blender-users/)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/xbox-boss-reportedly-says-game-pass-has-become-too-expensive-for-players)
+- 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
