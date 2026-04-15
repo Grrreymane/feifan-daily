@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-15"
+updated: "2026-04-16"
 ---
 
 # AI 通用
@@ -1059,3 +1059,48 @@ updated: "2026-04-15"
 
 ### [Rock Paper Shotgun](https://www.rockpapershotgun.com/i-wanted-you-to-feel-bad-former-battlefield-audio-designer-recalls-punching-himself-to-record-more-realistic-gunshot-screams)
 - 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/15/anthropic-shrugs-off-vc-funding-offers-valuing-it-at-800b-for-now/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/15/snap-is-cutting-1000-jobs-16-of-its-workforce/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch/CNBC](https://techcrunch.com/2026/04/15/after-sale-of-its-shoe-business-allbirds-pivots-to-ai/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [HN⬆️141](https://news.ycombinator.com/item?id=47779094)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [HN⬆️187](https://news.ycombinator.com/item?id=47768339)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/15/reid-hoffman-weighs-in-on-the-tokenmaxxing-debate/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/newzoo-more-than-half-of-pc-revenue-comes-from-games-outside-the-top-20)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/adobe-introduces-color-grading-mode-for-premiere-in-public-beta/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/ultimate-extremely-detailed-procedural-gore-shader-for-blender-5-0/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/wrap-meshes-onto-complex-surfaces-in-one-click-with-this-ue5-tool/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1sm0kbl/ue_58_branch_released_on_github/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sm28xl/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sm96it/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials

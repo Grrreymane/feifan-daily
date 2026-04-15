@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-04-15"
+updated: "2026-04-16"
 ---
 
 # Blender
@@ -196,3 +196,18 @@ Blender 工具与社区动态
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/xbox-boss-reportedly-says-game-pass-has-become-too-expensive-for-players)
 - 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/adobe-introduces-color-grading-mode-for-premiere-in-public-beta/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/ultimate-extremely-detailed-procedural-gore-shader-for-blender-5-0/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/wrap-meshes-onto-complex-surfaces-in-one-click-with-this-ue5-tool/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sm2gr4/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1smc9ep/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials

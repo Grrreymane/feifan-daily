@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-04-13"
+updated: "2026-04-16"
 ---
 
 # 游戏行业裁员
@@ -137,3 +137,12 @@ updated: "2026-04-13"
 
 ### [The Verge](https://www.theverge.com/games/910815/rockstar-games-says-hack-will-have-no-impact)
 - 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/15/anthropic-shrugs-off-vc-funding-offers-valuing-it-at-800b-for-now/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/15/snap-is-cutting-1000-jobs-16-of-its-workforce/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials

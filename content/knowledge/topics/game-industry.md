@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-15"
+updated: "2026-04-16"
 ---
 
 # 游戏行业
@@ -125,3 +125,12 @@ updated: "2026-04-15"
 
 ### [80 Level](https://80.lv/articles/v-ray-is-now-free-for-blender-users/)
 - 📅 2026-04-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/15/reid-hoffman-weighs-in-on-the-tokenmaxxing-debate/)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/newzoo-more-than-half-of-pc-revenue-comes-from-games-outside-the-top-20)
+- 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
