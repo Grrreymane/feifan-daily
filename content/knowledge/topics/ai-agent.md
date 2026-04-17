@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-14"
+updated: "2026-04-17"
 ---
 
 # AI Agent
@@ -202,3 +202,60 @@ AI Agent 架构、实践与踩坑
 
 ### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sjble1/)
 - 📅 2026-04-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 官方公告](https://www.anthropic.com/news/claude-opus-4-7)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [The Information 原始报道](https://thetechportal.com/2026/04/15/anthropic-could-soon-release-opus-4-7-model-and-ai-design-tool/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude API 文档](https://platform.claude.com/docs/en/about-claude/models/overview)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Qwen 官方博客](https://qwen.ai/blog?id=qwen3.6-35b-a3b)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [aphyr.com](https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Tech Stack Ups](https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [darkbloom.dev](https://darkbloom.dev)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/runway-ceo-says-ai-could-help-hollywood-make-50-films-instead-of-one-100m-blockbuster/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/meta-raises-quest-3-and-quest-3s-prices-due-to-ram-shortage/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/canvas-ai-assistant-can-now-call-various-tools-to-make-designs-for-you/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/deepl-known-for-text-translation-now-wants-to-translate-your-voice/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare博客](https://blog.cloudflare.com/email-for-agents/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/robloxs-ai-assistant-gets-new-agentic-tools-to-plan-build-and-test-games/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/its-not-just-you-bluesky-is-sorta-down/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [thunderbolt.io](https://www.thunderbolt.io/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/autograph-by-maxon-now-available-for-free/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired.fm](https://www.acquired.fm/episodes)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
