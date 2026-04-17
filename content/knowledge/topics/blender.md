@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-04-16"
+updated: "2026-04-17"
 ---
 
 # Blender
@@ -211,3 +211,18 @@ Blender 工具与社区动态
 
 ### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1smc9ep/)
 - 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1sm0kbl/ue_58_branch_released_on_github/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1smqm2s/blender_geometry_nodes_to_unreal/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/starfield-estimated-to-have-sold-140k-copies-on-ps5-in-debut-week-news-in-brief)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [愿望单转化率基准数据](https://www.reddit.com/r/gamedev/comments/1sn58mr/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [2026年还在用UE4？什么留住了你？](https://www.reddit.com/r/unrealengine/comments/1sml1sa/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-16"
+updated: "2026-04-17"
 ---
 
 # AI 通用
@@ -1104,3 +1104,99 @@ updated: "2026-04-16"
 
 ### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sm96it/)
 - 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [The Information 原始报道](https://thetechportal.com/2026/04/15/anthropic-could-soon-release-opus-4-7-model-and-ai-design-tool/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude API 文档](https://platform.claude.com/docs/en/about-claude/models/overview)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Qwen 官方博客](https://qwen.ai/blog?id=qwen3.6-35b-a3b)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [ZINC架构分析](https://zolotukhin.ai/blog/2026-04-05-qwen-3-6-architecture-and-what-it-would-take-to-bring-it-into-zinc/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison 博客](https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [antirez.com](https://antirez.com/news/163)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Google IPv6统计](https://www.google.com/intl/en/ipv6/statistics.html?yzh=28197)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Google AI 开发者论坛](https://discuss.ai.google.dev/t/unexpected-54k-billing-spike-in-13-hours-firebase-browser-key-without-api-restrictions-used-for-gemini-requests/140262)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [法院文件 PDF](https://fingfx.thomsonreuters.com/gfx/legaldocs/xmvjyjekkpr/Rakoff%20-%20order%20-%20AI.pdf)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [aphyr.com](https://aphyr.com/posts/420-the-future-of-everything-is-lies-i-guess-where-do-we-go-from-here)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Tech Stack Ups](https://techstackups.com/articles/laravel-raised-money-and-now-injects-ads-directly-into-your-agent/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [darkbloom.dev](https://darkbloom.dev)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/google-now-lets-you-explore-the-web-side-by-side-with-ai-mode/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/ai-traffic-to-us-retailers-rose-393-in-q1-and-its-boosting-their-revenue-too/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/runway-ceo-says-ai-could-help-hollywood-make-50-films-instead-of-one-100m-blockbuster/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/meta-raises-quest-3-and-quest-3s-prices-due-to-ram-shortage/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/canvas-ai-assistant-can-now-call-various-tools-to-make-designs-for-you/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/deepl-known-for-text-translation-now-wants-to-translate-your-voice/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare博客](https://blog.cloudflare.com/email-for-agents/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/robloxs-ai-assistant-gets-new-agentic-tools-to-plan-build-and-test-games/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/its-not-just-you-bluesky-is-sorta-down/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [thunderbolt.io](https://www.thunderbolt.io/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/insightfinder-raises-15m-to-help-companies-figure-out-where-ai-agents-go-wrong/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/autograph-by-maxon-now-available-for-free/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/tim-sweeney-comments-on-unity-fortnite-collaboration/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/foliage-modeling-toolset-natsura-0-6-now-available/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/44-of-games-industry-professionals-have-considered-leaving-the-industry-as-a-result-of-redundancies)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/xbox-cco-details-unified-approach-for-next-gen-project-helix-console)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/ps5-sales-spike-as-players-raced-to-beat-global-price-rises)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/roblox-to-pay-over-12m-to-state-of-nevada-in-child-safety-settlement)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/games-and-movies-are-rushing-to-jump-into-bed-while-theyre-still-getting-to-know-each-other-opinion)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials

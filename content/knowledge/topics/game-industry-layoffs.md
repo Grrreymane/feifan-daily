@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-04-16"
+updated: "2026-04-17"
 ---
 
 # 游戏行业裁员
@@ -146,3 +146,12 @@ updated: "2026-04-16"
 
 ### [TechCrunch](https://techcrunch.com/2026/04/15/adobes-new-firefly-ai-assistant-can-use-creative-cloud-apps-to-complete-tasks/)
 - 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/tim-sweeney-comments-on-unity-fortnite-collaboration/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/foliage-modeling-toolset-natsura-0-6-now-available/)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/44-of-games-industry-professionals-have-considered-leaving-the-industry-as-a-result-of-redundancies)
+- 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials

@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-04-16"
+updated: "2026-04-17"
 ---
 
 # Simon Willison
@@ -33,3 +33,7 @@ updated: "2026-04-16"
 - 📅 2026-04-13 — [Simon Willison](https://simonwillison.net/2026/Apr/11/sqlite/#atom-everything)
 
 - 📅 2026-04-16 — [Simon Willison](https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/)
+
+- 📅 2026-04-17 — [Simon Willison 博客](https://simonwillison.net/2026/Apr/16/qwen-beats-opus/#atom-everything)
+
+- 📅 2026-04-17 — [Simon Willison](https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything)
