@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-17"
+updated: "2026-04-18"
 ---
 
 # AI Agent
@@ -259,3 +259,21 @@ AI Agent 架构、实践与踩坑
 
 ### [Acquired.fm](https://www.acquired.fm/episodes)
 - 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/17/zoom-teams-up-with-world-to-verify-humans-in-meeting/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/17/googles-ai-mode-can-now-help-you-find-products-in-stock-nearby/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Blog](https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/ludum-dare-to-officially-end-in-october-2028/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry](https://www.gamesindustry.biz/roblox-releases-agentic-ai-tools-for-creators-promising-ability-to-build-a-game-with-a-single-prompt)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials

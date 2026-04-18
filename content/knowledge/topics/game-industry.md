@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-16"
+updated: "2026-04-18"
 ---
 
 # 游戏行业
@@ -134,3 +134,6 @@ updated: "2026-04-16"
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/newzoo-more-than-half-of-pc-revenue-comes-from-games-outside-the-top-20)
 - 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry](https://www.gamesindustry.biz/weak-job-security-risks-an-industry-brain-drain-opinion)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
