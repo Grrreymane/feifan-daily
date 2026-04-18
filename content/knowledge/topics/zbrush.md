@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-04-12"
+updated: "2026-04-18"
 ---
 
 # ZBrush
@@ -76,3 +76,12 @@ ZBrush 雕刻与工作流
 
 ### [80 Level](https://80.lv/articles/according-to-youtube-independant-animators-are-changing-the-industry/)
 - 📅 2026-04-12 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry](https://www.gamesindustry.biz/weak-job-security-risks-an-industry-brain-drain-opinion)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/how-to-sculpt-a-detailed-environment-of-a-hidden-temple-using-zbrush/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/3d-artist-on-substance-3d-painter-s-role-in-modern-pipelines/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials

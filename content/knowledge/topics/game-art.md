@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-16"
+updated: "2026-04-18"
 ---
 
 # 游戏美术
@@ -157,3 +157,9 @@ updated: "2026-04-16"
 
 ### [80 Level](https://80.lv/articles/wrap-meshes-onto-complex-surfaces-in-one-click-with-this-ue5-tool/)
 - 📅 2026-04-16 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry](https://www.gamesindustry.biz/weak-job-security-risks-an-industry-brain-drain-opinion)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/how-to-sculpt-a-detailed-environment-of-a-hidden-temple-using-zbrush/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-17"
+updated: "2026-04-18"
 ---
 
 # AI 通用
@@ -1200,3 +1200,54 @@ updated: "2026-04-17"
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/games-and-movies-are-rushing-to-jump-into-bed-while-theyre-still-getting-to-know-each-other-opinion)
 - 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/17/anthropic-launches-claude-design-a-new-product-for-creating-quick-visuals/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/17/netflix-plans-to-add-a-vertical-video-feed-use-ai-for-recommendations/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/new-leaders-new-fund-sequoia-has-raised-7b-to-expand-its-ai-bets/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/factory-hits-1-5b-valuation-to-build-ai-coding-for-enterprises/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/16/physical-intelligence-a-hot-robotics-startup-says-its-new-robot-brain-can-figure-out-tasks-it-was-never-taught/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/17/its-not-just-you-bluesky-is-sorta-down/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/17/zoom-teams-up-with-world-to-verify-humans-in-meeting/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/17/googles-ai-mode-can-now-help-you-find-products-in-stock-nearby/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Blog](https://android-developers.googleblog.com/2026/04/build-android-apps-3x-faster-using-any-agent.html)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/ludum-dare-to-officially-end-in-october-2028/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry](https://www.gamesindustry.biz/roblox-releases-agentic-ai-tools-for-creators-promising-ability-to-build-a-game-with-a-single-prompt)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry](https://www.gamesindustry.biz/weak-job-security-risks-an-industry-brain-drain-opinion)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/how-to-sculpt-a-detailed-environment-of-a-hidden-temple-using-zbrush/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/3d-artist-on-substance-3d-painter-s-role-in-modern-pipelines/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/blender-add-on-that-instantly-turns-rough-sketches-into-3d-poses/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/how-studio-doodal-created-the-wolrd-for-metroidvania-game-solateria/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv](https://80.lv/articles/fans-reimagine-classic-tomb-raider-as-2d-side-scroller/)
+- 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
