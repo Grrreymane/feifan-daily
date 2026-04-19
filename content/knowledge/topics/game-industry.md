@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-18"
+updated: "2026-04-19"
 ---
 
 # 游戏行业
@@ -137,3 +137,15 @@ updated: "2026-04-18"
 
 ### [GamesIndustry](https://www.gamesindustry.biz/weak-job-security-risks-an-industry-brain-drain-opinion)
 - 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/smol-machines/smolvm)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/clair-obscur-expedition-33-takes-best-game-award-at-2026-bafta-games-awards-but-shares-spotlight-with-dispatch-with-3-wins-each)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired](https://www.acquired.fm/episodes)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/podcast-roblox-hollywood-and-london-games-week)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials

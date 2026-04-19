@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-18"
+updated: "2026-04-19"
 ---
 
 # AI Agent
@@ -277,3 +277,21 @@ AI Agent 架构、实践与踩坑
 
 ### [GamesIndustry](https://www.gamesindustry.biz/roblox-releases-agentic-ai-tools-for-creators-promising-ability-to-build-a-game-with-a-single-prompt)
 - 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/pragmata-interview-how-capcom-delivered-a-stunning-new-sci-fi-ip-with-re-engine/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison's Blog](https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Code Camp](https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Substack](https://miguelconner.substack.com/p/im-coding-by-hand)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Toby Ord](https://www.tobyord.com/writing/hourly-costs-for-ai-agents)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Lawfare](https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials

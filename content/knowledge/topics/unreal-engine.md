@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-04-17"
+updated: "2026-04-19"
 ---
 
 # Unreal Engine
@@ -283,3 +283,18 @@ UE 引擎更新与技巧
 
 ### [GAS替代方案Stats_X插件更新](https://www.reddit.com/r/unrealengine/comments/1smyxp5/)
 - 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [IGN无视我的独立游戏预告片，YouTube 24小时给了2.5万播放](https://www.reddit.com/r/gamedev/comments/1sp108d/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [EU Stop Killing Games听证会：关于游戏保存的严肃讨论](https://www.reddit.com/r/gamedev/comments/1sowzg1/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [在UE4中独自开发2年后终于发布了首款游戏](https://www.reddit.com/r/unrealengine/comments/1so64q4/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [教程：如何在UE5中制作背景飞鸟效果](https://www.reddit.com/r/unrealengine/comments/1sp2ohh/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [周末项目：MetaHuman在Web上的开源自动化管线](https://www.reddit.com/r/unrealengine/comments/1sotcsu/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-18"
+updated: "2026-04-19"
 ---
 
 # 游戏美术
@@ -163,3 +163,24 @@ updated: "2026-04-18"
 
 ### [80.lv](https://80.lv/articles/how-to-sculpt-a-detailed-environment-of-a-hidden-temple-using-zbrush/)
 - 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/pragmata-interview-how-capcom-delivered-a-stunning-new-sci-fi-ip-with-re-engine/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison's Blog](https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Code Camp](https://www.claudecodecamp.com/p/i-measured-claude-4-7-s-new-tokenizer-here-s-what-it-costs-you)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [ShaderPad](https://rileyjshaw.com/blog/introducing-shaderpad/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/its-been-an-interesting-year-the-jailed-creator-of-fortunes-run-has-passed-parole-and-is-back-working-on-her-deus-ex-style-fps)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/have-a-look-at-this-surreal-3d-character-based-on-a-2d-illustration/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/liquid-glass-magnifier-a-substance-3d-designer-tool/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials

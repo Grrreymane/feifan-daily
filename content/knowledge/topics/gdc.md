@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-04-08"
+updated: "2026-04-19"
 ---
 
 # GDC 大会
@@ -77,3 +77,9 @@ GDC 演讲、报告与行业洞察
 
 ### [YouTube/GDC](https://www.youtube.com/watch?v=XxvLyd4lKZM)
 - 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [教程：如何在UE5中制作背景飞鸟效果](https://www.reddit.com/r/unrealengine/comments/1sp2ohh/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [周末项目：MetaHuman在Web上的开源自动化管线](https://www.reddit.com/r/unrealengine/comments/1sotcsu/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
