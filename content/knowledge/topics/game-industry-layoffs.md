@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-04-18"
+updated: "2026-04-19"
 ---
 
 # 游戏行业裁员
@@ -158,3 +158,9 @@ updated: "2026-04-18"
 
 ### [GamesIndustry](https://www.gamesindustry.biz/weak-job-security-risks-an-industry-brain-drain-opinion)
 - 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Developer](https://www.gamedeveloper.com/podcasts)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired](https://www.acquired.fm/episodes)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials

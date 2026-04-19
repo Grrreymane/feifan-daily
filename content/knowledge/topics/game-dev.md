@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-04-17"
+updated: "2026-04-19"
 ---
 
 # 游戏开发
@@ -109,3 +109,9 @@ updated: "2026-04-17"
 
 ### [GAS替代方案Stats_X插件更新](https://www.reddit.com/r/unrealengine/comments/1smyxp5/)
 - 📅 2026-04-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Podcasts](https://podcasts.apple.com/se/podcast/karpathys-autoresearch-could-make-scientists-of-us-all/id1172218725?i=1000758671846)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [IGN无视我的独立游戏预告片，YouTube 24小时给了2.5万播放](https://www.reddit.com/r/gamedev/comments/1sp108d/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials

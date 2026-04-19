@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-18"
+updated: "2026-04-19"
 ---
 
 # OpenAI
@@ -241,3 +241,27 @@ OpenAI 公司动态与产品
 
 ### [80.lv](https://80.lv/articles/fans-reimagine-classic-tomb-raider-as-2d-side-scroller/)
 - 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic官方](https://www.anthropic.com/news/claude-design-anthropic-labs)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/lead-character-artist-details-a-terrifying-boss-creature-from-killing-floor-3/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Digital Production](https://digitalproduction.com/2026/03/20/flippednormals-marketplace-closes-march-31/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/17/kevin-weil-and-bill-peebles-exit-openai-as-company-continues-to-shed-side-quests/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/ai-artificial-intelligence/914463/openai-sora-bill-peebles-kevin-weil-leaving-departing)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/18/the-app-store-is-booming-again-and-ai-may-be-why/)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space](https://www.latent.space/p/nvidia-brev-dynamo)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Podcasts](https://podcasts.apple.com/se/podcast/karpathys-autoresearch-could-make-scientists-of-us-all/id1172218725?i=1000758671846)
+- 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
