@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-19"
+updated: "2026-04-20"
 ---
 
 # OpenAI
@@ -265,3 +265,9 @@ OpenAI 公司动态与产品
 
 ### [Apple Podcasts](https://podcasts.apple.com/se/podcast/karpathys-autoresearch-could-make-scientists-of-us-all/id1172218725?i=1000758671846)
 - 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/80-level-job-digest-hot-roles-for-creatives/)
+- 📅 2026-04-20 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/)
+- 📅 2026-04-20 · 来源: daily-materials · 分类: daily-materials
