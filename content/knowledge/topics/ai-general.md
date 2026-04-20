@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-19"
+updated: "2026-04-20"
 ---
 
 # AI 通用
@@ -1332,3 +1332,21 @@ updated: "2026-04-19"
 
 ### [周末项目：MetaHuman在Web上的开源自动化管线](https://www.reddit.com/r/unrealengine/comments/1sotcsu/)
 - 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/surprise-nintendo-launches-new-pop-up-store-in-london)
+- 📅 2026-04-20 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/80-level-job-digest-hot-roles-for-creatives/)
+- 📅 2026-04-20 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/)
+- 📅 2026-04-20 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/19/blue-origin-successfully-re-uses-a-new-glenn-rocket-for-the-first-time-ever/)
+- 📅 2026-04-20 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/19/palantir-posts-mini-manifesto-denouncing-regressive-and-harmful-cultures/)
+- 📅 2026-04-20 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years)
+- 📅 2026-04-20 · 来源: daily-materials · 分类: daily-materials

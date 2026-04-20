@@ -1,6 +1,6 @@
 ---
 title: "知识库索引"
-updated: "2026-04-19"
+updated: "2026-04-20"
 ---
 
 # 📖 非凡像素知识库
@@ -14,7 +14,7 @@ updated: "2026-04-19"
 ### 🤖 AI
 
 - [AI Agent](topics/ai-agent.md) (93 条)
-- [AI 通用](topics/ai-general.md) (438 条)
+- [AI 通用](topics/ai-general.md) (444 条)
 - [大语言模型](topics/ai-llm.md) (21 条)
 - [AI 工具](topics/ai-tools.md) (1 条)
 
@@ -24,7 +24,7 @@ updated: "2026-04-19"
 - [批判性思维](topics/critical-thinking.md) (1 条)
 - [数据报告](topics/data-reports.md) (1 条)
 - [GDC 大会](topics/gdc.md) (22 条)
-- [OpenAI](topics/openai.md) (83 条)
+- [OpenAI](topics/openai.md) (85 条)
 - [编程](topics/programming.md) (2 条)
 - [Substance 3D](topics/substance-3d.md) (25 条)
 - [Unreal Engine](topics/unreal-engine.md) (94 条)
@@ -53,4 +53,4 @@ updated: "2026-04-19"
 
 📊 共 20 个话题，3 位人物
 
-*最后更新: 2026-04-19*
+*最后更新: 2026-04-20*
