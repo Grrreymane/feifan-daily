@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-04-19"
+updated: "2026-04-21"
 ---
 
 # 游戏行业裁员
@@ -164,3 +164,9 @@ updated: "2026-04-19"
 
 ### [Acquired](https://www.acquired.fm/episodes)
 - 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/pirate-adventure-windrose-tops-1-million-copies-sold-in-6-days-news-in-brief)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/clair-obscur-expedition-33-and-dispatch-lead-at-bafta-awards-2026)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials

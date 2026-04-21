@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-19"
+updated: "2026-04-21"
 ---
 
 # 游戏美术
@@ -184,3 +184,12 @@ updated: "2026-04-19"
 
 ### [80 Level](https://80.lv/articles/liquid-glass-magnifier-a-substance-3d-designer-tool/)
 - 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/20/north-korea-hackers-blamed-for-290m-crypto-theft/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/20/mastodon-says-its-flagship-server-was-hit-by-a-ddos-attack/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/maxon-announces-cinema-4d-coming-to-ipad/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials

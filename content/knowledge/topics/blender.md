@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-04-18"
+updated: "2026-04-21"
 ---
 
 # Blender
@@ -238,3 +238,18 @@ Blender 工具与社区动态
 
 ### [80.lv](https://80.lv/articles/plasticity-2026-1-adds-new-commands-improves-old-ones/)
 - 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/20/mastodon-says-its-flagship-server-was-hit-by-a-ddos-attack/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/maxon-announces-cinema-4d-coming-to-ipad/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/insydium-teases-nexus-for-blender/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/real-time-gpu-powered-smoke-fire-simulation-in-blender/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/developer-shows-custom-godot-shader-deforming-objects-according-to-terrain/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
