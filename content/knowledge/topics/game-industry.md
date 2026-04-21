@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-19"
+updated: "2026-04-21"
 ---
 
 # 游戏行业
@@ -149,3 +149,6 @@ updated: "2026-04-19"
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/podcast-roblox-hollywood-and-london-games-week)
 - 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/pirate-adventure-windrose-tops-1-million-copies-sold-in-6-days-news-in-brief)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials

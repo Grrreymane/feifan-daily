@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-20"
+updated: "2026-04-21"
 ---
 
 # AI 通用
@@ -1350,3 +1350,36 @@ updated: "2026-04-20"
 
 ### [The Verge](https://www.theverge.com/ai-artificial-intelligence/914672/the-ram-shortage-could-last-years)
 - 📅 2026-04-20 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/pirate-adventure-windrose-tops-1-million-copies-sold-in-6-days-news-in-brief)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/clair-obscur-expedition-33-and-dispatch-lead-at-bafta-awards-2026)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/games/914963/fortnite-ai-characters-developers-conversations)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/id-xbox-ign-showcase-april-2026-announced)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Axios](https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️312](https://news.ycombinator.com/item?id=47833247)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/20/deezer-says-44-of-songs-uploaded-to-its-platform-daily-are-ai-generated/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/tech/914869/humanoid-robot-half-marathon-record)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/real-time-gpu-powered-smoke-fire-simulation-in-blender/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/developer-shows-custom-godot-shader-deforming-objects-according-to-terrain/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/breakdown-designing-a-highly-detailed-ak-47-magazine/)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials

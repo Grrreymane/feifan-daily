@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-19"
+updated: "2026-04-21"
 ---
 
 # AI Agent
@@ -295,3 +295,6 @@ AI Agent 架构、实践与踩坑
 
 ### [Lawfare](https://www.lawfaremedia.org/article/it-is-time-to-ban-the-sale-of-precise-geolocation)
 - 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/pirate-adventure-windrose-tops-1-million-copies-sold-in-6-days-news-in-brief)
+- 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
