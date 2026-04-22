@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-21"
+updated: "2026-04-22"
 ---
 
 # 游戏美术
@@ -193,3 +193,12 @@ updated: "2026-04-21"
 
 ### [80 Level](https://80.lv/articles/maxon-announces-cinema-4d-coming-to-ipad/)
 - 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/xbox-lowers-game-pass-ultimate-price-call-of-duty-games-now-post-launch/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1srujpc/behaviour_interactive_lay_offs/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Fantasy House on Cliff 3D环境制作流程](https://80.lv/articles/making-fantasy-house-on-cliff-environment-in-3d/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials

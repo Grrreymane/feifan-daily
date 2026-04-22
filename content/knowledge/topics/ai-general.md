@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-21"
+updated: "2026-04-22"
 ---
 
 # AI 通用
@@ -1383,3 +1383,78 @@ updated: "2026-04-21"
 
 ### [80 Level](https://80.lv/articles/breakdown-designing-a-highly-detailed-ak-47-magazine/)
 - 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Newsroom](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/20/anthropic-takes-5b-from-amazon-and-pledges-100b-in-cloud-spending-in-return/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Qwen Blog](https://qwen.ai/blog?id=qwen3.6-max-preview)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/21/youtube-expands-its-ai-likeness-detection-technology-to-celebrities/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [PrismML](https://prismml.com/news/ternary-bonsai)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/21/clarifai-okcupid-facial-recognition-ai-ftc-settlement/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/microsoft-cuts-game-pass-pricing-and-removes-call-of-duty-as-day-one-launch-title-in-response-to-a-lot-of-feedback)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender体积光雾工具Volume Forge](https://80.lv/articles/blender-tool-to-create-localized-volumetric-light-fog/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [低模风格卷发制作流程](https://80.lv/articles/artist-shares-the-process-of-creating-curly-hair-in-low-poly-style/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [纯文本图形FPS游戏](https://80.lv/articles/this-fps-game-is-entirely-made-of-text-based-graphics/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals新网站上线](https://80.lv/articles/flippednormals-launches-its-new-website/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [赛璐珞风格手绘动画冒险游戏The Explorator](https://80.lv/articles/explore-a-mysterious-city-in-this-cel-shaded-style-game-with-handmade-animations/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [全球RAM短缺将延续至明年](https://80.lv/articles/analysts-say-global-ram-shortage-will-extend-into-next-year/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Cloud的Jack Buser认为AI可以拯救游戏行业](https://www.gamesindustry.biz/this-is-not-a-sustainable-business-model-why-google-clouds-jack-buser-thinks-ai-can-save-the-games-industry)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Build a Rocket Boy因监控软件被工会起诉](https://www.gamesindustry.biz/union-takes-legal-action-against-build-a-rocket-boy-over-alleged-data-privacy-violations)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [三丽鸥成立游戏品牌Sanrio Games](https://www.gamesindustry.biz/sanrio-establishes-in-house-gaming-brand-sanrio-games)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [ggsql: SQL的图形语法](https://opensource.posit.co/blog/2026-04-20_ggsql_alpha_release/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [VidStudio: 浏览器端视频编辑器（不上传文件）](https://vidstudio.app/video-editor)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenClaw风格Claude CLI使用再次被允许](https://docs.openclaw.ai/providers/anthropic)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi Vendor Verifier：验证推理提供商准确性](https://www.kimi.com/blog/kimi-vendor-verifier)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [GoModel: Go语言的开源AI网关](https://github.com/ENTERPILOT/GOModel/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [AI agents太像人类了](https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [llm-openrouter 0.6](https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Grammit! PCG Grammar Helper](https://www.reddit.com/r/unrealengine/comments/1srr0cm/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-21"
+updated: "2026-04-22"
 ---
 
 # AI Agent
@@ -298,3 +298,18 @@ AI Agent 架构、实践与踩坑
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/pirate-adventure-windrose-tops-1-million-copies-sold-in-6-days-news-in-brief)
 - 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi Vendor Verifier：验证推理提供商准确性](https://www.kimi.com/blog/kimi-vendor-verifier)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [GoModel: Go语言的开源AI网关](https://github.com/ENTERPILOT/GOModel/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [AI agents太像人类了](https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [llm-openrouter 0.6](https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials

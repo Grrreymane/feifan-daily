@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-04-13"
+updated: "2026-04-22"
 ---
 
 # 大语言模型
@@ -79,3 +79,12 @@ LLM 技术进展、应用与讨论
 
 ### [Latent Space](https://www.latent.space/podcast)
 - 📅 2026-04-13 · 来源: daily-materials · 分类: daily-materials
+
+### [AI agents太像人类了](https://simonwillison.net/2026/Apr/21/andreas-pahlsson-notini/#atom-everything)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [llm-openrouter 0.6](https://simonwillison.net/2026/Apr/20/llm-openrouter/#atom-everything)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
