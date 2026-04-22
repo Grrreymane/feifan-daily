@@ -8,7 +8,7 @@ artist: "@Vanraaz2 / @HeWasArt (推荐画师)"
 twitter_url: ""
 ---
 
-今日 LightAI API Key 过期，AI 生图跳过。
+今日 AI 生图服务 Key 过期，生图跳过。
 
 推荐画师：
 - **@Vanraaz2** — 数字绘画风格干净利落，偏好肌肉兽人角色
