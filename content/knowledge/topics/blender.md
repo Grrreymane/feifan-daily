@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-04-21"
+updated: "2026-04-22"
 ---
 
 # Blender
@@ -253,3 +253,12 @@ Blender 工具与社区动态
 
 ### [80 Level](https://80.lv/articles/developer-shows-custom-godot-shader-deforming-objects-according-to-terrain/)
 - 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Fantasy House on Cliff 3D环境制作流程](https://80.lv/articles/making-fantasy-house-on-cliff-environment-in-3d/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender体积光雾工具Volume Forge](https://80.lv/articles/blender-tool-to-create-localized-volumetric-light-fog/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [低模风格卷发制作流程](https://80.lv/articles/artist-shares-the-process-of-creating-curly-hair-in-low-poly-style/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials

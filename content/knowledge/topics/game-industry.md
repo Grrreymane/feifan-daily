@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-21"
+updated: "2026-04-22"
 ---
 
 # 游戏行业
@@ -152,3 +152,15 @@ updated: "2026-04-21"
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/pirate-adventure-windrose-tops-1-million-copies-sold-in-6-days-news-in-brief)
 - 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [赛璐珞风格手绘动画冒险游戏The Explorator](https://80.lv/articles/explore-a-mysterious-city-in-this-cel-shaded-style-game-with-handmade-animations/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [全球RAM短缺将延续至明年](https://80.lv/articles/analysts-say-global-ram-shortage-will-extend-into-next-year/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Cloud的Jack Buser认为AI可以拯救游戏行业](https://www.gamesindustry.biz/this-is-not-a-sustainable-business-model-why-google-clouds-jack-buser-thinks-ai-can-save-the-games-industry)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Build a Rocket Boy因监控软件被工会起诉](https://www.gamesindustry.biz/union-takes-legal-action-against-build-a-rocket-boy-over-alleged-data-privacy-violations)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials

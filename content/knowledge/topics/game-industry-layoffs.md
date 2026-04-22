@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-04-21"
+updated: "2026-04-22"
 ---
 
 # 游戏行业裁员
@@ -170,3 +170,24 @@ updated: "2026-04-21"
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/clair-obscur-expedition-33-and-dispatch-lead-at-bafta-awards-2026)
 - 📅 2026-04-21 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/microsoft-cuts-game-pass-pricing-and-removes-call-of-duty-as-day-one-launch-title-in-response-to-a-lot-of-feedback)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/xbox-lowers-game-pass-ultimate-price-call-of-duty-games-now-post-launch/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1srujpc/behaviour_interactive_lay_offs/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Fantasy House on Cliff 3D环境制作流程](https://80.lv/articles/making-fantasy-house-on-cliff-environment-in-3d/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [3年卡在800愿望单，如何突破到5000](https://www.reddit.com/r/gamedev/comments/1srlcsw/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [MindsEye员工起诉管理层安装秘密监控软件](https://www.reddit.com/r/gamedev/comments/1srs27e/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [UE编辑器饼/轮盘菜单](https://www.reddit.com/r/unrealengine/comments/1srsjyd/)
+- 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
