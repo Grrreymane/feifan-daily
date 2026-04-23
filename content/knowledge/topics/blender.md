@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-04-22"
+updated: "2026-04-23"
 ---
 
 # Blender
@@ -262,3 +262,15 @@ Blender 工具与社区动态
 
 ### [低模风格卷发制作流程](https://80.lv/articles/artist-shares-the-process-of-creating-curly-hair-in-low-poly-style/)
 - 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/how-a-small-indie-team-is-building-a-fully-simulated-sandbox-rpg-in-valorborn/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/how-to-design-a-startfighter-influenced-by-a-hunting-owl-using-blender/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/procedural-traffic-cone-generator-in-blender/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1ssslm9/root_and_vine_generator/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials

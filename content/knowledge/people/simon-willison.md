@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-04-19"
+updated: "2026-04-23"
 ---
 
 # Simon Willison
@@ -39,3 +39,7 @@ updated: "2026-04-19"
 - 📅 2026-04-17 — [Simon Willison](https://simonwillison.net/2026/Apr/15/gemini-31-flash-tts/#atom-everything)
 
 - 📅 2026-04-19 — [Simon Willison's Blog](https://simonwillison.net/guides/agentic-engineering-patterns/adding-a-new-content-type/#atom-everything)
+
+- 📅 2026-04-23 — [Simon Willison](https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything)
+
+- 📅 2026-04-23 — [Simon Willison分析](https://simonwillison.net/2026/Apr/22/claude-code-confusion/)
