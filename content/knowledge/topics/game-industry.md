@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-22"
+updated: "2026-04-23"
 ---
 
 # 游戏行业
@@ -164,3 +164,12 @@ updated: "2026-04-22"
 
 ### [Build a Rocket Boy因监控软件被工会起诉](https://www.gamesindustry.biz/union-takes-legal-action-against-build-a-rocket-boy-over-alleged-data-privacy-violations)
 - 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/us-hardware-sales-rose-69-in-march-2026-following-strong-switch-2-performance-us-monthly-charts)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space](https://www.latent.space/podcast)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials

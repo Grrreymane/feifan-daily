@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-04-22"
+updated: "2026-04-23"
 ---
 
 # 游戏行业裁员
@@ -191,3 +191,6 @@ updated: "2026-04-22"
 
 ### [UE编辑器饼/轮盘菜单](https://www.reddit.com/r/unrealengine/comments/1srsjyd/)
 - 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space](https://www.latent.space/podcast)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials

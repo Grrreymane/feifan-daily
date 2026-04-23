@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-22"
+updated: "2026-04-23"
 ---
 
 # AI 通用
@@ -1458,3 +1458,87 @@ updated: "2026-04-22"
 
 ### [Grammit! PCG Grammar Helper](https://www.reddit.com/r/unrealengine/comments/1srr0cm/)
 - 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Google官方博客](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [CRN详细报道](https://www.crn.com/news/ai/2026/google-cloud-next-2026-the-biggest-news-on-gemini-agentic-ai-tpus)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [The Next Web](https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI官方](https://openai.com/index/introducing-chatgpt-images-2-0/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat](https://venturebeat.com/technology/openais-chatgpt-images-2-0-is-here-and-it-does-multilingual-text-full-infographics-slides-maps-even-manga-seemingly-flawlessly)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [DataCamp深度测评](https://www.datacamp.com/blog/chatgpt-images-2-0)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Qwen官方博客](https://qwen.ai/blog?id=qwen3.6-27b)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Bluesky原帖](https://bsky.app/profile/edzitron.com/post/3mjzxwfx3qs2a)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison分析](https://simonwillison.net/2026/Apr/22/claude-code-confusion/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Blog](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://cli.github.com/telemetry)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/21/meta-will-record-employees-keystrokes-and-use-it-to-train-its-ai-models/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/us-hardware-sales-rose-69-in-march-2026-following-strong-switch-2-performance-us-monthly-charts)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/firstpoint-vc-launches-with-50m-fund-to-invest-in-ai-driven-games-and-entertainment-startups)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/koei-tecmo-revises-fy26-results-following-success-of-pokemon-pokopia-and-nioh-3)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/how-a-small-indie-team-is-building-a-fully-simulated-sandbox-rpg-in-valorborn/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/how-to-design-a-startfighter-influenced-by-a-hunting-owl-using-blender/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1ssslm9/root_and_vine_generator/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit/r/gamedev](https://www.reddit.com/r/gamedev/comments/1shm5su/from_high_school_project_to_8500_steam_wishlists/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch独家](https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/x-makes-it-more-expensive-to-post-links-through-its-api/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/uk-government-says-100-countries-have-spyware-that-can-hack-peoples-phones/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-22"
+updated: "2026-04-23"
 ---
 
 # AI Agent
@@ -313,3 +313,24 @@ AI Agent 架构、实践与踩坑
 
 ### [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/)
 - 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Google官方博客](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/cloud-next-2026-sundar-pichai/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [CRN详细报道](https://www.crn.com/news/ai/2026/google-cloud-next-2026-the-biggest-news-on-gemini-agentic-ai-tpus)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [The Next Web](https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Twitter](https://twitter.com/spacex/status/2046713419978453374)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Blog](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials

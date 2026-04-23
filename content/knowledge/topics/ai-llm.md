@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-04-22"
+updated: "2026-04-23"
 ---
 
 # 大语言模型
@@ -88,3 +88,9 @@ LLM 技术进展、应用与讨论
 
 ### [Thank You For Being a Friend](https://blog.codinghorror.com/thank-you-for-being-a-friend/)
 - 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Blog](https://blog.google/innovation-and-ai/infrastructure-and-cloud/google-cloud/eighth-generation-tpu-agentic-era/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials

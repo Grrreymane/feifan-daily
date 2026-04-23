@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-20"
+updated: "2026-04-23"
 ---
 
 # OpenAI
@@ -271,3 +271,33 @@ OpenAI 公司动态与产品
 
 ### [TechCrunch](https://techcrunch.com/2026/04/18/ai-chip-startup-cerebras-files-for-ipo/)
 - 📅 2026-04-20 · 来源: daily-materials · 分类: daily-materials
+
+### [The Next Web](https://thenextweb.com/news/google-cloud-next-ai-agents-agentic-era)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/google-makes-an-interesting-choice-with-its-new-agent-building-tool-for-enterprises/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI官方](https://openai.com/index/introducing-chatgpt-images-2-0/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/21/chatgpts-new-images-2-0-model-is-surprisingly-good-at-generating-text/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat](https://venturebeat.com/technology/openais-chatgpt-images-2-0-is-here-and-it-does-multilingual-text-full-infographics-slides-maps-even-manga-seemingly-flawlessly)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [DataCamp深度测评](https://www.datacamp.com/blog/chatgpt-images-2-0)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit/r/gamedev](https://www.reddit.com/r/gamedev/comments/1shm5su/from_high_school_project_to_8500_steam_wishlists/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/22/openai-teams-up-with-infosys-to-bring-ai-tools-to-more-businesses/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch独家](https://techcrunch.com/2026/04/22/exclusive-google-deepens-thinking-machines-lab-ties-with-new-multi-billion-dollar-deal/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials

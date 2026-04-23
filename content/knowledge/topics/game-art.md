@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-22"
+updated: "2026-04-23"
 ---
 
 # 游戏美术
@@ -202,3 +202,6 @@ updated: "2026-04-22"
 
 ### [Fantasy House on Cliff 3D环境制作流程](https://80.lv/articles/making-fantasy-house-on-cliff-environment-in-3d/)
 - 📅 2026-04-22 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/how-a-small-indie-team-is-building-a-fully-simulated-sandbox-rpg-in-valorborn/)
+- 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
