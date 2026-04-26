@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-23"
+updated: "2026-04-26"
 ---
 
 # AI 通用
@@ -1542,3 +1542,81 @@ updated: "2026-04-23"
 
 ### [TechCrunch](https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter/)
 - 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepSeek 官方](https://api-docs.deepseek.com/news/news260424)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热榜 ⬆️2009](https://news.ycombinator.com/item?id=47884971)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 官方](https://openai.com/index/introducing-gpt-5-5/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Fortune](https://fortune.com/2026/04/23/openai-releases-gpt-5-5/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热榜 ⬆️1556](https://news.ycombinator.com/item?id=47879092)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Bloomberg](https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️740](https://news.ycombinator.com/item?id=47892074)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/24/cohere-acquires-merges-with-german-based-startup-to-create-a-transatlantic-ai-powerhouse/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch 深度](https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [GPT-5.5 prompting guide](https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [The people do not yearn for automation](https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [llm 0.31](https://simonwillison.net/2026/Apr/24/llm/#atom-everything)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️918](https://news.ycombinator.com/item?id=47892019)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [ComfyUI 官方博客](https://blog.comfy.org/p/comfyui-raises-30m-to-scale-open)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️489](https://news.ycombinator.com/item?id=47890799)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️182](https://news.ycombinator.com/item?id=47899844)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub: wuphf](https://github.com/nex-crm/wuphf)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️216](https://news.ycombinator.com/item?id=47897681)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/3d-artist-recreates-masque-of-the-black-rose-elise-splash-art-from-league-of-legends/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/24/x-launches-xchat-app-ios-messaging-iphone/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/24/mac-mini-price-expensive-ebay-shortage-ai-memory/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/24/x-energy-stock-pops-27-on-first-day-of-trading-following-upsized-ipo/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️328](https://news.ycombinator.com/item?id=47863570)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials

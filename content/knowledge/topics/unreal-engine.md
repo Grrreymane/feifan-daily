@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-04-23"
+updated: "2026-04-26"
 ---
 
 # Unreal Engine
@@ -325,3 +325,9 @@ UE 引擎更新与技巧
 
 ### [Reddit/r/gamedev](https://www.reddit.com/r/gamedev/comments/1shm5su/from_high_school_project_to_8500_steam_wishlists/)
 - 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1svgav3/i_made_my_most_popular_pack_free_on_fab/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1susnh5/ue5_plugin_for_steam_capsules_gif_creation/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials

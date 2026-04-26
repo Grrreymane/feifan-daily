@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-04-23"
+updated: "2026-04-26"
 ---
 
 # 大语言模型
@@ -94,3 +94,27 @@ LLM 技术进展、应用与讨论
 
 ### [TechCrunch](https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter/)
 - 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [GPT-5.5 prompting guide](https://simonwillison.net/2026/Apr/25/gpt-5-5-prompting-guide/#atom-everything)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [The people do not yearn for automation](https://simonwillison.net/2026/Apr/24/the-people-do-not-yearn-for-automation/#atom-everything)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [llm 0.31](https://simonwillison.net/2026/Apr/24/llm/#atom-everything)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️918](https://news.ycombinator.com/item?id=47892019)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️320](https://news.ycombinator.com/item?id=47893779)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [arXiv](https://arxiv.org/abs/2604.21691)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️182](https://news.ycombinator.com/item?id=47899844)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub: wuphf](https://github.com/nex-crm/wuphf)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
