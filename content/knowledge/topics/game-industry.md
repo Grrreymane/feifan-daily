@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-23"
+updated: "2026-04-26"
 ---
 
 # 游戏行业
@@ -173,3 +173,9 @@ updated: "2026-04-23"
 
 ### [Latent Space](https://www.latent.space/podcast)
 - 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️216](https://news.ycombinator.com/item?id=47897681)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/3d-artist-recreates-masque-of-the-black-rose-elise-splash-art-from-league-of-legends/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials

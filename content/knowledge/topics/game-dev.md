@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-04-23"
+updated: "2026-04-26"
 ---
 
 # 游戏开发
@@ -118,3 +118,33 @@ updated: "2026-04-23"
 
 ### [Latent Space](https://www.latent.space/podcast)
 - 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️489](https://news.ycombinator.com/item?id=47890799)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️346](https://news.ycombinator.com/item?id=47897891)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [ItsFOSS](https://itsfoss.com/news/firefox-ships-brave-adblock-engine/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/valve-adds-new-tools-to-help-developers-spot-steam-deck-performance-issues/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/can-fast-cuts-work-in-asl-animation-disney-and-deaf-west-say-yes/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/after-losing-its-creative-director-it-looks-like-assassins-creed-hexe-has-lost-its-game-director-now-too)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/tools-to-tell-if-your-game-is-broken)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1shm5su/from_high_school_project_to_8500_steam_wishlists/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1susnh5/ue5_plugin_for_steam_capsules_gif_creation/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/25/apple-under-ternus-what-comes-next-for-the-tech-giants-hardware-strategy/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials

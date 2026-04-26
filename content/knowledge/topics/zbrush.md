@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-04-18"
+updated: "2026-04-26"
 ---
 
 # ZBrush
@@ -85,3 +85,12 @@ ZBrush 雕刻与工作流
 
 ### [80.lv](https://80.lv/articles/3d-artist-on-substance-3d-painter-s-role-in-modern-pipelines/)
 - 📅 2026-04-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/3d-artist-recreates-masque-of-the-black-rose-elise-splash-art-from-league-of-legends/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/this-gorgeous-xal-atath-from-world-of-warcraft-fan-sculpt-was-made-with-zbrush/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/watch-how-an-expert-3d-artist-sculpts-a-character-from-scratch/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials

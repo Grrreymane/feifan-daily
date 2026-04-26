@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-23"
+updated: "2026-04-26"
 ---
 
 # 游戏美术
@@ -205,3 +205,18 @@ updated: "2026-04-23"
 
 ### [80 Level](https://80.lv/articles/how-a-small-indie-team-is-building-a-fully-simulated-sandbox-rpg-in-valorborn/)
 - 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/24/comfyui-hits-500m-valuation-as-creators-seek-more-control-over-ai-generated-media/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [ComfyUI 官方博客](https://blog.comfy.org/p/comfyui-raises-30m-to-scale-open)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️489](https://news.ycombinator.com/item?id=47890799)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️216](https://news.ycombinator.com/item?id=47897681)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/3d-artist-recreates-masque-of-the-black-rose-elise-splash-art-from-league-of-legends/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-23"
+updated: "2026-04-26"
 ---
 
 # AI Agent
@@ -334,3 +334,36 @@ AI Agent 架构、实践与踩坑
 
 ### [TechCrunch](https://techcrunch.com/2026/04/22/ai-is-spitting-out-more-potential-drugs-than-ever-this-start-up-wants-to-figure-out-which-ones-matter/)
 - 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 官方](https://openai.com/index/introducing-gpt-5-5/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/23/openai-chatgpt-gpt-5-5-ai-model-superapp/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Fortune](https://fortune.com/2026/04/23/openai-releases-gpt-5-5/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热榜 ⬆️1556](https://news.ycombinator.com/item?id=47879092)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Bloomberg](https://www.bloomberg.com/news/articles/2026-04-24/google-plans-to-invest-up-to-40-billion-in-anthropic)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️320](https://news.ycombinator.com/item?id=47893779)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [arXiv](https://arxiv.org/abs/2604.21691)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️182](https://news.ycombinator.com/item?id=47899844)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub: wuphf](https://github.com/nex-crm/wuphf)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️216](https://news.ycombinator.com/item?id=47897681)
+- 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
