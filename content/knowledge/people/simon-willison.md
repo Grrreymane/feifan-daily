@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-04-23"
+updated: "2026-04-29"
 ---
 
 # Simon Willison
@@ -43,3 +43,11 @@ updated: "2026-04-23"
 - 📅 2026-04-23 — [Simon Willison](https://simonwillison.net/2026/Apr/22/qwen36-27b/#atom-everything)
 
 - 📅 2026-04-23 — [Simon Willison分析](https://simonwillison.net/2026/Apr/22/claude-code-confusion/)
+
+- 📅 2026-04-29 — [Simon Willison](https://simonwillison.net/2026/Apr/27/vibevoice/)
+
+- 📅 2026-04-29 — [Simon Willison](https://simonwillison.net/2026/Apr/28/talkie/)
+
+- 📅 2026-04-29 — [Simon Willison](https://simonwillison.net/2026/Apr/28/matthew-yglesias/)
+
+- 📅 2026-04-29 — [Simon Willison](https://simonwillison.net/2026/Apr/28/pip-261/)

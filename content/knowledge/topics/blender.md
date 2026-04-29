@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-04-23"
+updated: "2026-04-29"
 ---
 
 # Blender
@@ -274,3 +274,12 @@ Blender 工具与社区动态
 
 ### [Reddit](https://www.reddit.com/r/unrealengine/comments/1ssslm9/root_and_vine_generator/)
 - 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Tech.eu](https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender.org](https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/claude-ai-creator-anthropic-joins-blender-development-fund-as-corporate-patron/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials

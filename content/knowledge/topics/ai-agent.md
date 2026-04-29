@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-04-26"
+updated: "2026-04-29"
 ---
 
 # AI Agent
@@ -367,3 +367,15 @@ AI Agent 架构、实践与踩坑
 
 ### [HN ⬆️216](https://news.ycombinator.com/item?id=47897681)
 - 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Unite.AI](https://www.unite.ai/ineffable-intelligence-closes-1-1b-seed-at-5-1b-valuation/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Tech.eu](https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/see-what-s-new-in-adobe-photoshop-lightroom/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials

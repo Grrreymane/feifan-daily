@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-26"
+updated: "2026-04-29"
 ---
 
 # 游戏行业
@@ -179,3 +179,9 @@ updated: "2026-04-26"
 
 ### [80 Level](https://80.lv/articles/3d-artist-recreates-masque-of-the-black-rose-elise-splash-art-from-league-of-legends/)
 - 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [RPS 报道](https://www.rockpapershotgun.com/valve-have-confirmed-the-steam-controller-price-and-release-date-though-the-steam-machine-is-still-in-ram-price-purgatory)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/magic-the-gathering-arena-devs-announce-plans-to-unionise)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
