@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-04-23"
+updated: "2026-04-29"
 ---
 
 # 游戏行业裁员
@@ -194,3 +194,12 @@ updated: "2026-04-23"
 
 ### [Latent Space](https://www.latent.space/podcast)
 - 📅 2026-04-23 · 来源: daily-materials · 分类: daily-materials
+
+### [RPS 报道](https://www.rockpapershotgun.com/valve-have-confirmed-the-steam-controller-price-and-release-date-though-the-steam-machine-is-still-in-ram-price-purgatory)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/magic-the-gathering-arena-devs-announce-plans-to-unionise)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/capcom-raises-fy25-outlook-following-boost-from-resident-evil-requiem)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials

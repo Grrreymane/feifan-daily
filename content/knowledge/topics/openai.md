@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-26"
+updated: "2026-04-29"
 ---
 
 # OpenAI
@@ -322,3 +322,18 @@ OpenAI 公司动态与产品
 
 ### [llm 0.31](https://simonwillison.net/2026/Apr/24/llm/#atom-everything)
 - 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Bloomberg](https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Tracking the history of the now-deceased OpenAI Microsoft AGI clause](https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GTFOBins 安全工具](https://gtfobins.org/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Easyduino: KiCad 开源 PCB 开发板](https://github.com/Hanqaqa/Easyduino)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials

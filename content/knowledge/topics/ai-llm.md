@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-04-26"
+updated: "2026-04-29"
 ---
 
 # 大语言模型
@@ -118,3 +118,12 @@ LLM 技术进展、应用与讨论
 
 ### [GitHub: wuphf](https://github.com/nex-crm/wuphf)
 - 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Unite.AI](https://www.unite.ai/ineffable-intelligence-closes-1-1b-seed-at-5-1b-valuation/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Tech.eu](https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender.org](https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials

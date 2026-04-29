@@ -3,7 +3,7 @@ title: "Vibe Coding"
 slug: "vibe-coding"
 description: "AI 辅助编程的现象、利弊与讨论"
 created: "2026-04-07"
-updated: "2026-04-08"
+updated: "2026-04-29"
 ---
 
 # Vibe Coding
@@ -23,3 +23,9 @@ AI 辅助编程的现象、利弊与讨论
 
 ### [YouTube](https://youtu.be/wc8FBhQtdsA)
 - 📅 2026-04-08 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials

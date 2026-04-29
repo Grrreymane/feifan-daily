@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-26"
+updated: "2026-04-29"
 ---
 
 # AI 通用
@@ -1620,3 +1620,96 @@ updated: "2026-04-26"
 
 ### [HN ⬆️328](https://news.ycombinator.com/item?id=47863570)
 - 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Bloomberg](https://www.bloomberg.com/news/articles/2026-04-27/microsoft-to-stop-sharing-revenue-with-main-ai-partner-openai)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/27/openai-ends-microsoft-legal-peril-over-its-50b-amazon-deal/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Tracking the history of the now-deceased OpenAI Microsoft AGI clause](https://simonwillison.net/2026/Apr/27/now-deceased-agi-clause/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Unite.AI](https://www.unite.ai/ineffable-intelligence-closes-1-1b-seed-at-5-1b-valuation/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Tech.eu](https://tech.eu/2026/04/27/ineffable-intelligence-launches-with-record-breaking-11b-seed-round/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender.org](https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/claude-ai-creator-anthropic-joins-blender-development-fund-as-corporate-patron/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [RPS 报道](https://www.rockpapershotgun.com/valve-have-confirmed-the-steam-controller-price-and-release-date-though-the-steam-machine-is-still-in-ram-price-purgatory)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/magic-the-gathering-arena-devs-announce-plans-to-unionise)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/capcom-raises-fy25-outlook-following-boost-from-resident-evil-requiem)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1sxyldp/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub Blog](https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Where's Your Ed At](https://www.wheresyoured.at/ais-economics-dont-make-sense/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Legal Layer](https://legallayer.substack.com/p/who-owns-the-claude-code-wrote)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/ai-artificial-intelligence/919494/google-pentagon-classified-ai-deal)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/microsoft/VibeVoice)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/27/vibevoice/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [talkie-lm.com](https://talkie-lm.com/introducing-talkie)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/28/talkie/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/28/youtube-is-testing-an-ai-powered-search-feature-that-shows-guided-answers/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/28/matthew-yglesias/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Is my blue your blue?](https://ismy.blue/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [UAE 退出 OPEC 和 OPEC+](https://www.reuters.com/markets/commodities/uae-says-it-quits-opec-opec-statement-2026-04-28/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [RF 工程的静悄悄复兴](https://atempleton.bearblog.dev/quiet-resurgence-of-rf-engineering/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub 可用性更新](https://github.blog/news-insights/company-news/an-update-on-github-availability/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GTFOBins 安全工具](https://gtfobins.org/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Easyduino: KiCad 开源 PCB 开发板](https://github.com/Hanqaqa/Easyduino)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/see-what-s-new-in-adobe-photoshop-lightroom/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/)
+- 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
