@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-04-29"
+updated: "2026-05-01"
 ---
 
 # AI 通用
@@ -1713,3 +1713,87 @@ updated: "2026-04-29"
 
 ### [TechCrunch](https://techcrunch.com/2026/04/28/red-hats-openclaw-maintainer-just-made-enterprise-claw-deployments-a-lot-safer/)
 - 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/greedfall-studio-spiders-liquidation-is-a-premeditated-and-deliberate-choice-by-nacons-management-claim-union-as-they-call-for-a-boycott)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/greedfall-developer-spiders-reportedly-set-to-close)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/xbox-hardware-revenue-drops-33-year-on-year-during-q3)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/heroes-of-might-and-magic-olden-era-hits-early-access-today-with-the-start-of-a-narrative-campaign-six-factions-a-map-editor-and-multiplayer)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/ustwo-games-to-consider-hiring-more-contractors-to-reduce-development-costs)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GDC Vault](https://gdcvault.com/browse/gdc-26)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI Blog](https://openai.com/index/where-the-goblins-came-from/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat](https://venturebeat.com/ai/why-openais-goblin-problem-matters-and-how-you-can-release-the-goblins-on-your-own)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Gizmodo](https://gizmodo.com/the-goblins-came-back-to-haunt-us-openai-explains-how-chatgpts-nerdy-personality-got-out-of-control-2000752670)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/30/googles-gemini-ai-assistant-is-hitting-the-road-in-millions-of-vehicles/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/30/stripe-link-digital-wallet-ai-agents-shopping/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/29/softbank-is-creating-a-robotics-company-that-builds-data-centers-and-already-eyeing-a-100b-ipo/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/30/meta-says-its-business-ai-now-facilitates-10-million-conversations-a-week/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/30/spotify-introduces-verified-artist-badges-to-help-distinguish-humans-from-ai/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/30/x-announces-a-rebuilt-ad-platform-powered-by-ai/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/30/netflix-wants-you-to-watch-clips-its-tiktok-like-vertical-video-feed/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [zed.dev](https://zed.dev/blog/zed-1-0)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [copy.fail](https://copy.fail/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/30/zig-anti-ai/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [twitter/theo](https://twitter.com/theo/status/2049645973350363168)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [gcc.gnu.org](https://gcc.gnu.org/gcc-16/changes.html)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Semgrep Blog](https://semgrep.dev/blog/2026/malicious-dependency-in-pytorch-lightning-used-for-ai-training/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [dpa-international.com](https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/29/llm/#atom-everything)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube](https://www.youtube.com/watch?v=PhoRC7yd4zU)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials

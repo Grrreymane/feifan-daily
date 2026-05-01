@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-04-29"
+updated: "2026-05-01"
 ---
 
 # 大语言模型
@@ -127,3 +127,27 @@ LLM 技术进展、应用与讨论
 
 ### [Blender.org](https://www.blender.org/press/anthropic-joins-the-blender-development-fund-as-corporate-patron/)
 - 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [copy.fail](https://copy.fail/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/30/zig-anti-ai/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [dpa-international.com](https://dpa-international.com/general-news/urn:newsml:dpa.com:20090101:260430-930-14717/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/Apr/29/llm/#atom-everything)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube](https://www.youtube.com/watch?v=PhoRC7yd4zU)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Mapping World Space to Render Target 实现动态世界揭露效果](https://www.reddit.com/r/unrealengine/comments/1t00lt8/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [我做了一个带逻辑的对话树开发工具 D-Tree](https://www.reddit.com/r/unrealengine/comments/1szf61c/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-04-19"
+updated: "2026-05-01"
 ---
 
 # GDC 大会
@@ -83,3 +83,12 @@ GDC 演讲、报告与行业洞察
 
 ### [周末项目：MetaHuman在Web上的开源自动化管线](https://www.reddit.com/r/unrealengine/comments/1sotcsu/)
 - 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/feel-classic-n64-zelda-vibes-in-this-new-indie-dungeon-creator/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/play-as-shapeshifting-leaf-creature-in-this-fast-paced-roguelite-action-game/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GDC Vault](https://gdcvault.com/browse/gdc-26)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials

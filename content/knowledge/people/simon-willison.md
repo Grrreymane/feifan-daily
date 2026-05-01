@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-04-29"
+updated: "2026-05-01"
 ---
 
 # Simon Willison
@@ -51,3 +51,9 @@ updated: "2026-04-29"
 - 📅 2026-04-29 — [Simon Willison](https://simonwillison.net/2026/Apr/28/matthew-yglesias/)
 
 - 📅 2026-04-29 — [Simon Willison](https://simonwillison.net/2026/Apr/28/pip-261/)
+
+- 📅 2026-05-01 — [Simon Willison](https://simonwillison.net/2026/Apr/30/zig-anti-ai/)
+
+- 📅 2026-05-01 — [Simon Willison](https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything)
+
+- 📅 2026-05-01 — [Simon Willison](https://simonwillison.net/2026/Apr/29/llm/#atom-everything)

@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-04-29"
+updated: "2026-05-01"
 ---
 
 # OpenAI
@@ -337,3 +337,27 @@ OpenAI 公司动态与产品
 
 ### [Easyduino: KiCad 开源 PCB 开发板](https://github.com/Hanqaqa/Easyduino)
 - 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GDC Vault](https://gdcvault.com/browse/gdc-26)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI Blog](https://openai.com/index/where-the-goblins-came-from/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat](https://venturebeat.com/ai/why-openais-goblin-problem-matters-and-how-you-can-release-the-goblins-on-your-own)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Gizmodo](https://gizmodo.com/the-goblins-came-back-to-haunt-us-openai-explains-how-chatgpts-nerdy-personality-got-out-of-control-2000752670)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/30/spotify-introduces-verified-artist-badges-to-help-distinguish-humans-from-ai/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/29/satya-nadella-says-hes-ready-to-exploit-the-new-openai-deal/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/04/30/x-announces-a-rebuilt-ad-platform-powered-by-ai/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
