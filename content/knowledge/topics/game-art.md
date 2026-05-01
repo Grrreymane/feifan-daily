@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-04-29"
+updated: "2026-05-01"
 ---
 
 # 游戏美术
@@ -229,3 +229,12 @@ updated: "2026-04-29"
 
 ### [Rock Paper Shotgun](https://www.rockpapershotgun.com/the-blood-of-dawnwalker-gets-a-late-summer-release-date-system-requirements-and-another-very-witchery-gameplay-look-in)
 - 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/greedfall-studio-spiders-liquidation-is-a-premeditated-and-deliberate-choice-by-nacons-management-claim-union-as-they-call-for-a-boycott)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/why-arent-there-more-pc-first-gamepads-valve-dont-know-but-they-did-see-an-opportunity-for-the-new-steam-controller)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update/)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials

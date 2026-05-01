@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-04-29"
+updated: "2026-05-01"
 ---
 
 # 游戏行业
@@ -185,3 +185,6 @@ updated: "2026-04-29"
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/magic-the-gathering-arena-devs-announce-plans-to-unionise)
 - 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/greedfall-studio-spiders-liquidation-is-a-premeditated-and-deliberate-choice-by-nacons-management-claim-union-as-they-call-for-a-boycott)
+- 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
