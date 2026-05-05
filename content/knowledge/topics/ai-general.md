@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-05-01"
+updated: "2026-05-05"
 ---
 
 # AI 通用
@@ -1797,3 +1797,57 @@ updated: "2026-05-01"
 
 ### [YouTube](https://www.youtube.com/watch?v=PhoRC7yd4zU)
 - 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [自定义复古引擎模拟真实CRT显示行为](https://80.lv/articles/custom-retro-game-engine-that-simulates-real-crt-displays-behavior/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [免费浏览器MMD动画编辑器](https://80.lv/articles/take-a-look-at-a-free-browser-based-mmd-animation-editor/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Artius: 后AI时代的艺术生Sonic](https://www.rockpapershotgun.com/artius-pure-imagination-is-sonic-the-hedgehog-for-art-students-in-a-post-ai-world)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Crimson Desert最新补丁：boss重打+后期build挑战](https://www.rockpapershotgun.com/crimson-deserts-latest-patch-will-help-with-your-post-game-buff-build-boredom-through-boss-fight-do-overs-and-more)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Marathon创意总监：已规划好未来数年故事走向](https://www.eurogamer.net/marathon-dev-bungie-already-knows-where-we-want-to-take-the-story-over-the-next-few-years)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Halo 2/3重制版"确定在积极开发中"](https://www.eurogamer.net/halo-2-and-3-remakes-are-definitely-happening-claims-leaker)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [2026全球游戏薪酬调查+5000条数据Dashboard](https://www.reddit.com/r/gamedev/comments/1t3np9p/survey_of_global_salaries_2026_dashboard_of_5000/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Mercedes-Benz承诺恢复物理按钮](https://www.drive.com.au/news/mercedes-benz-commits-to-bringing-back-phycial-buttons/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [EU 2027年起强制可拆卸手机电池](https://www.ecopv-eu.com/en/blog-en/replaceable-smartphone-batteries-2027-eu-regulation/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Notepad++商标侵权：Mac假冒版](https://notepad-plus-plus.org/news/npp-trademark-infringement/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Pixel 11可能成为RAM短缺的下一个受害者](https://www.theverge.com/tech/923252/google-pixel-11-spec-leak-lower-ram)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Roomba创始人回归：毛茸茸的AI伴侣机器人](https://www.theverge.com/ai-artificial-intelligence/922947/roomba-creator-new-robot-familiar-machines-magic-ai-launch)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### ['This is Fine'创作者指控AI创业公司盗用其艺术](https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Elon Musk的唯一AI专家证人担忧AGI军备竞赛](https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [DoorDash新增AI工具加速商户入驻](https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Ouster彩色激光雷达要取代摄像头](https://techcrunch.com/2026/05/04/ousters-new-color-lidar-is-coming-to-replace-cameras/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [我的Trailer在IGN上传前就获得了20k愿望清单](https://www.reddit.com/r/gamedev/comments/1t3njon/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Equal Ping for All：网络公平性设计](https://www.reddit.com/r/gamedev/comments/1t3h13i/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials

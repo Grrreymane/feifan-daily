@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-05-01"
+updated: "2026-05-05"
 ---
 
 # AI Agent
@@ -391,3 +391,18 @@ AI Agent 架构、实践与踩坑
 
 ### [YouTube](https://www.youtube.com/watch?v=PhoRC7yd4zU)
 - 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [EU 2027年起强制可拆卸手机电池](https://www.ecopv-eu.com/en/blog-en/replaceable-smartphone-batteries-2027-eu-regulation/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [TUI为什么回来了](https://wiki.alcidesfonseca.com/blog/why-tuis-are-back/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [BYOMesh – LoRa mesh新方案100x带宽](https://partyon.xyz/@nullagent/116499715071759135)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub宕机](https://www.githubstatus.com/incidents/72q3n8yxthcy)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Notepad++商标侵权：Mac假冒版](https://notepad-plus-plus.org/news/npp-trademark-infringement/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials

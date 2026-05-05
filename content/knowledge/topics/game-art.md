@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-05-01"
+updated: "2026-05-05"
 ---
 
 # 游戏美术
@@ -238,3 +238,9 @@ updated: "2026-05-01"
 
 ### [80 Level](https://80.lv/articles/see-what-s-next-for-gamemaker-in-spring-2026-update/)
 - 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in Unreal: 1284 commits, 5.8分支切割最强信号](https://www.reddit.com/r/unrealengine/comments/1t3dbmv/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [UE 5.7 PCG教程](https://www.reddit.com/r/unrealengine/comments/1t39fd4/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials

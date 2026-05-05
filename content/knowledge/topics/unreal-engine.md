@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-05-01"
+updated: "2026-05-05"
 ---
 
 # Unreal Engine
@@ -352,3 +352,21 @@ UE 引擎更新与技巧
 
 ### [我做了一个带逻辑的对话树开发工具 D-Tree](https://www.reddit.com/r/unrealengine/comments/1szf61c/)
 - 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5材质重定向Mesh技术分解](https://80.lv/articles/understanding-material-based-mesh-reorientation-in-unreal-engine-5/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Sonic冒险早期概念图曝光](https://80.lv/articles/early-sonic-adventure-concept-art-reveals-very-different-direction-for-the-game/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [2026全球游戏薪酬调查 + 5000条数据Dashboard](https://www.reddit.com/r/gamedev/comments/1t3np9p/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Equal Ping for All：网络公平性设计](https://www.reddit.com/r/gamedev/comments/1t3h13i/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in Unreal: 1284 commits, 5.8分支切割最强信号](https://www.reddit.com/r/unrealengine/comments/1t3dbmv/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [UE 5.7 PCG教程](https://www.reddit.com/r/unrealengine/comments/1t39fd4/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials

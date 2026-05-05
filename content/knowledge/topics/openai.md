@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-05-01"
+updated: "2026-05-05"
 ---
 
 # OpenAI
@@ -361,3 +361,12 @@ OpenAI 公司动态与产品
 
 ### [TechCrunch](https://techcrunch.com/2026/04/30/x-announces-a-rebuilt-ad-platform-powered-by-ai/)
 - 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### ['This is Fine'创作者指控AI创业公司盗用其艺术](https://techcrunch.com/2026/05/03/this-is-fine-creator-says-ai-startup-stole-his-art/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [Elon Musk的唯一AI专家证人担忧AGI军备竞赛](https://techcrunch.com/2026/05/04/elon-musks-only-expert-witness-at-the-openai-trial-fears-an-agi-arms-race/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [DoorDash新增AI工具加速商户入驻](https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/)
+- 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
