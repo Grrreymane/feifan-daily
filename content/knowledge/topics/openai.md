@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-05-05"
+updated: "2026-05-06"
 ---
 
 # OpenAI
@@ -370,3 +370,30 @@ OpenAI 公司动态与产品
 
 ### [DoorDash新增AI工具加速商户入驻](https://techcrunch.com/2026/05/04/doordash-adds-ai-tools-to-speed-up-merchant-onboarding-edit-photos-of-dishes/)
 - 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1t4m3lh/indie_dev_reality_check_1371_games_applied_to_our/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [That Privacy Guy](https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI Blog](https://openai.com/index/delivering-low-latency-voice-ai-at-scale/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/angelos-p/llm-from-scratch)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials

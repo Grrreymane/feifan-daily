@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-05-05"
+updated: "2026-05-06"
 ---
 
 # AI Agent
@@ -406,3 +406,36 @@ AI Agent 架构、实践与踩坑
 
 ### [Notepad++商标侵权：Mac假冒版](https://notepad-plus-plus.org/news/npp-trademark-infringement/)
 - 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [idiallo.com](https://idiallo.com/blog/ai-didnt-delete-your-database-you-did)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [addyosmani.com](https://addyosmani.com/blog/agent-skills/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [tooldirectory.ai](https://tooldirectory.ai/ai-graveyard)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [susam.net](https://susam.net/inverse-laws-of-robotics.html)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [dbreunig.com](https://www.dbreunig.com/2026/05/04/10-lessons-for-agentic-coding.html)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Niels Berglund 总结](https://nielsberglund.com/post/2026-05-03-interesting-stuff---week-18-2026/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube (AI Engineer)](https://www.youtube.com/watch?v=zepu8Kk6FBQ)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Swyx.io](https://www.swyx.io)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Radio.net](https://www.radio.net/podcast/latent-space-podcast)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials

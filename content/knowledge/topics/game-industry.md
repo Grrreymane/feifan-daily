@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-05-01"
+updated: "2026-05-06"
 ---
 
 # 游戏行业
@@ -188,3 +188,6 @@ updated: "2026-05-01"
 
 ### [Rock Paper Shotgun](https://www.rockpapershotgun.com/greedfall-studio-spiders-liquidation-is-a-premeditated-and-deliberate-choice-by-nacons-management-claim-union-as-they-call-for-a-boycott)
 - 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/unity-launches-in-editor-ai-tools-suite-in-beta/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials

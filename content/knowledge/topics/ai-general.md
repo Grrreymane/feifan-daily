@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-05-05"
+updated: "2026-05-06"
 ---
 
 # AI 通用
@@ -1851,3 +1851,105 @@ updated: "2026-05-05"
 
 ### [Equal Ping for All：网络公平性设计](https://www.reddit.com/r/gamedev/comments/1t3h13i/)
 - 📅 2026-05-05 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/unity-launches-in-editor-ai-tools-suite-in-beta/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/its-a-totally-crazy-market-the-seismic-impact-of-the-ai-boom-on-video-game-hardware)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/steam-controller-sold-out-several-minutes-after-launch/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/pearl-abyss-sells-ccp-back-to-its-ceo-for-less-than-half-what-it-paid-plus-20-million-in-crypto)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/please-rockstar-and-take-two-push-gta-6s-price-up-to-80-for-the-good-of-the-entire-industry-bank-of-america-beg)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/remedy-entertainment-control-6-million-units-sold)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/resident-evil-requiem-director-dlss5-grace-got-it-right)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/how-to-transform-a-2d-concept-of-a-fantasy-character-into-an-expressive-3d-model/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/free-node-based-image-editor-alternative-to-photoshop/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/we-want-to-ensure-gamers-are-part-of-those-conversations-stop-killing-games-launch-player-advocacy-group-to-lobby-the-uk-government)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev](https://www.reddit.com/r/gamedev/comments/1t4m3lh/indie_dev_reality_check_1371_games_applied_to_our/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/openai-releases-gpt-5-5-instant-a-new-default-model-for-chatgpt/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [That Privacy Guy](https://www.thatprivacyguy.com/blog/chrome-silent-nano-install/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/pennsylvania-sues-character-ai-after-a-chatbot-allegedly-posed-as-a-doctor/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/meta-will-use-ai-to-analyze-height-and-bone-structure-to-identify-if-users-are-underage/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/elevenlabs-lists-blackrock-jamie-foxx-and-eva-longoria-as-new-investors/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/04/as-workers-worry-about-ai-nvidias-jensen-huang-says-ai-is-creating-an-enormous-number-of-jobs/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/04/u-s-government-warns-of-severe-copyfail-bug-affecting-major-versions-of-linux/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/04/image-ai-models-now-drive-app-growth-beating-chatbot-upgrades/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI Blog](https://openai.com/index/delivering-low-latency-voice-ai-at-scale/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/angelos-p/llm-from-scratch)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [idiallo.com](https://idiallo.com/blog/ai-didnt-delete-your-database-you-did)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [addyosmani.com](https://addyosmani.com/blog/agent-skills/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [tooldirectory.ai](https://tooldirectory.ai/ai-graveyard)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [robert-glaser.de](https://www.robert-glaser.de/when-everyone-has-ai-and-the-company-still-learns-nothing/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [susam.net](https://susam.net/inverse-laws-of-robotics.html)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Niels Berglund 总结](https://nielsberglund.com/post/2026-05-03-interesting-stuff---week-18-2026/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube (AI Engineer)](https://www.youtube.com/watch?v=zepu8Kk6FBQ)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Tweede Golf Blog](https://tweedegolf.nl/en/blog/237/async-rust-never-left-the-mvp-state)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [sethmlarson.dev](https://sethmlarson.dev/hand-drawn-qr-codes)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
