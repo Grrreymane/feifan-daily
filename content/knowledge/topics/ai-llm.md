@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-05-01"
+updated: "2026-05-06"
 ---
 
 # 大语言模型
@@ -151,3 +151,27 @@ LLM 技术进展、应用与讨论
 
 ### [我做了一个带逻辑的对话树开发工具 D-Tree](https://www.reddit.com/r/unrealengine/comments/1szf61c/)
 - 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI Blog](https://openai.com/index/delivering-low-latency-voice-ai-at-scale/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub](https://github.com/angelos-p/llm-from-scratch)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [idiallo.com](https://idiallo.com/blog/ai-didnt-delete-your-database-you-did)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Niels Berglund 总结](https://nielsberglund.com/post/2026-05-03-interesting-stuff---week-18-2026/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [YouTube (AI Engineer)](https://www.youtube.com/watch?v=zepu8Kk6FBQ)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Swyx.io](https://www.swyx.io)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [simonwillison.net](https://simonwillison.net/2026/May/4/granite-41-3b-svg-pelican-gallery/#atom-everything)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Radio.net](https://www.radio.net/podcast/latent-space-podcast)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials

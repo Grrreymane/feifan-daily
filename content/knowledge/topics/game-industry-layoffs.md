@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-04-29"
+updated: "2026-05-06"
 ---
 
 # 游戏行业裁员
@@ -203,3 +203,15 @@ updated: "2026-04-29"
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/capcom-raises-fy25-outlook-following-boost-from-resident-evil-requiem)
 - 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/etsy-launches-its-app-within-chatgpt-as-it-continues-its-ai-push/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/paypal-says-its-becoming-a-technology-company-again-that-means-ai/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/05/coinbase-to-lay-off-14-of-staff-as-part-of-broader-restructuring/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials

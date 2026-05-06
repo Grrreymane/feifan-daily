@@ -3,7 +3,7 @@ title: "Vibe Coding"
 slug: "vibe-coding"
 description: "AI 辅助编程的现象、利弊与讨论"
 created: "2026-04-07"
-updated: "2026-04-29"
+updated: "2026-05-06"
 ---
 
 # Vibe Coding
@@ -29,3 +29,9 @@ AI 辅助编程的现象、利弊与讨论
 
 ### [TechCrunch](https://techcrunch.com/2026/04/28/lovable-launches-its-vibe-coding-app-on-ios-and-android/)
 - 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Niels Berglund 总结](https://nielsberglund.com/post/2026-05-03-interesting-stuff---week-18-2026/)
+- 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
