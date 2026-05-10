@@ -1,6 +1,6 @@
 ---
 title: "知识库索引"
-updated: "2026-05-09"
+updated: "2026-05-10"
 ---
 
 # 📖 非凡像素知识库
@@ -13,9 +13,9 @@ updated: "2026-05-09"
 
 ### 🤖 AI
 
-- [AI Agent](topics/ai-agent.md) (141 条)
-- [AI 通用](topics/ai-general.md) (645 条)
-- [大语言模型](topics/ai-llm.md) (53 条)
+- [AI Agent](topics/ai-agent.md) (142 条)
+- [AI 通用](topics/ai-general.md) (646 条)
+- [大语言模型](topics/ai-llm.md) (54 条)
 - [AI 工具](topics/ai-tools.md) (1 条)
 
 ### 📌 其他
@@ -53,4 +53,4 @@ updated: "2026-05-09"
 
 📊 共 20 个话题，3 位人物
 
-*最后更新: 2026-05-09*
+*最后更新: 2026-05-10*

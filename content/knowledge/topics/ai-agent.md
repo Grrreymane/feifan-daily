@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-05-06"
+updated: "2026-05-10"
 ---
 
 # AI Agent
@@ -439,3 +439,6 @@ AI Agent 架构、实践与踩坑
 
 ### [Radio.net](https://www.radio.net/podcast/latent-space-podcast)
 - 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 234票](https://news.ycombinator.com/item?id=48066592)
+- 📅 2026-05-10 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-05-06"
+updated: "2026-05-10"
 ---
 
 # AI 通用
@@ -1953,3 +1953,6 @@ updated: "2026-05-06"
 
 ### [sethmlarson.dev](https://sethmlarson.dev/hand-drawn-qr-codes)
 - 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 234票](https://news.ycombinator.com/item?id=48066592)
+- 📅 2026-05-10 · 来源: daily-materials · 分类: daily-materials
