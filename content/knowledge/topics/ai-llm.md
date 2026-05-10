@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-05-06"
+updated: "2026-05-10"
 ---
 
 # 大语言模型
@@ -175,3 +175,6 @@ LLM 技术进展、应用与讨论
 
 ### [Radio.net](https://www.radio.net/podcast/latent-space-podcast)
 - 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 345票](https://news.ycombinator.com/item?id=48071940)
+- 📅 2026-05-10 · 来源: daily-materials · 分类: daily-materials
