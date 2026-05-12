@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-05-06"
+updated: "2026-05-12"
 ---
 
 # 游戏美术
@@ -250,3 +250,6 @@ updated: "2026-05-06"
 
 ### [sethmlarson.dev](https://sethmlarson.dev/hand-drawn-qr-codes)
 - 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [墙体应该是静态网格还是平面纹理？](https://www.reddit.com/r/unrealengine/comments/1ta4p2v/)
+- 📅 2026-05-12 · 来源: daily-materials · 分类: daily-materials
