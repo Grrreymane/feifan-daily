@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-05-10"
+updated: "2026-05-12"
 ---
 
 # AI 通用
@@ -1956,3 +1956,6 @@ updated: "2026-05-10"
 
 ### [HN讨论 234票](https://news.ycombinator.com/item?id=48066592)
 - 📅 2026-05-10 · 来源: daily-materials · 分类: daily-materials
+
+### [墙体应该是静态网格还是平面纹理？](https://www.reddit.com/r/unrealengine/comments/1ta4p2v/)
+- 📅 2026-05-12 · 来源: daily-materials · 分类: daily-materials

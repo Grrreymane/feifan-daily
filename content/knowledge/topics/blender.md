@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-05-06"
+updated: "2026-05-12"
 ---
 
 # Blender
@@ -298,3 +298,9 @@ Blender 工具与社区动态
 
 ### [80 Level](https://80.lv/articles/lightwave-digital-teases-lightwave-3d-2026-update/)
 - 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5中PCG模块化的全部用法](https://www.reddit.com/r/unrealengine/comments/1t9aur8/)
+- 📅 2026-05-12 · 来源: daily-materials · 分类: daily-materials
+
+### [墙体应该是静态网格还是平面纹理？](https://www.reddit.com/r/unrealengine/comments/1ta4p2v/)
+- 📅 2026-05-12 · 来源: daily-materials · 分类: daily-materials
