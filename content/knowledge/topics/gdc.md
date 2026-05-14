@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-05-01"
+updated: "2026-05-14"
 ---
 
 # GDC 大会
@@ -92,3 +92,18 @@ GDC 演讲、报告与行业洞察
 
 ### [GDC Vault](https://gdcvault.com/browse/gdc-26)
 - 📅 2026-05-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/the-old-school-publishing-model-is-dead-silver-lining-interactive-joins-the-new-wave-of-pick-and-mix-publishers)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1tb7a4t/gdc_just_temporarily_released_223_sessions_for/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1tbtjxo/our_unreleased_indie_game_got_stolen_as_a_chinese/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [thekelleys.org](https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level 引用](https://80.lv/articles/how-rockstar-pulled-off-gta-3-s-huge-open-world-on-ps2/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials

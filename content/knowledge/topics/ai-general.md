@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-05-12"
+updated: "2026-05-14"
 ---
 
 # AI 通用
@@ -1959,3 +1959,84 @@ updated: "2026-05-12"
 
 ### [墙体应该是静态网格还是平面纹理？](https://www.reddit.com/r/unrealengine/comments/1ta4p2v/)
 - 📅 2026-05-12 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/13/anthropic-now-has-more-business-customers-than-openai-according-to-ramp-data/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch - 小企业](https://techcrunch.com/2026/05/13/anthropic-courts-a-new-kind-of-customer-small-business-owners/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepMind Blog](https://deepmind.google/blog/ai-pointer/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Googlebook](https://googlebook.google/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/13/anduril-raises-5b-doubles-valuation-to-61b/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/13/origin-lab-raises-8m-to-help-video-game-companies-sell-data-to-world-model-builders/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/13/adaption-aims-big-with-autoscientist-an-ai-tool-that-helps-models-train-themselves/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/13/amazon-launches-an-ai-shopping-assistant-for-the-search-bar-powered-by-alexa/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/13/who-trusts-sam-altman/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/13/ransomware-hackers-claim-breach-at-foxconn-a-major-electronics-manufacturer-for-apple-google-and-nvidia/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [DuckDB Blog](https://duckdb.org/2026/05/12/quack-remote-protocol)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/capcom-secures-ninth-consecutive-year-of-profit-boosted-by-resident-evil-requiem)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/former-netease-exec-simon-zhu-secures-100m-to-launch-greaterthan-group)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/haunted-chocolatier-will-be-larger-in-scale-than-stardew-valley/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/free-public-beta-tool-for-3d-mesh-cache-viewing/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/learn-hard-surface-modeling-pbr-texturing-with-this-steampunk-cannon-prop/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/fluffy-tail-simulation-showcase-with-custom-hair-geometry-nodes/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/procedurally-generated-realistic-sea-foam-in-unity/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [karpathy.github.io](http://karpathy.github.io/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [simonwillison.net](https://simonwillison.net/2026/May/13/csp-allow/#atom-everything)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [simonwillison.net](https://simonwillison.net/2026/May/12/llm/#atom-everything)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [nair.sh](https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [monokai.com](https://monokai.com/articles/how-i-moved-my-digital-stack-to-europe/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [jorijn.com](https://jorijn.com/en/blog/leaving-github-for-forgejo/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [thekelleys.org](https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level 引用](https://80.lv/articles/how-rockstar-pulled-off-gta-3-s-huge-open-world-on-ps2/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [darknetdiaries.com/episode/114](https://darknetdiaries.com/episode/114/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials

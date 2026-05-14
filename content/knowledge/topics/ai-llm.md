@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-05-10"
+updated: "2026-05-14"
 ---
 
 # 大语言模型
@@ -178,3 +178,12 @@ LLM 技术进展、应用与讨论
 
 ### [HN 345票](https://news.ycombinator.com/item?id=48071940)
 - 📅 2026-05-10 · 来源: daily-materials · 分类: daily-materials
+
+### [simonwillison.net](https://simonwillison.net/2026/May/13/csp-allow/#atom-everything)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [simonwillison.net](https://simonwillison.net/2026/May/12/llm/#atom-everything)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [nair.sh](https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
