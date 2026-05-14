@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-05-06"
+updated: "2026-05-14"
 ---
 
 # 游戏行业
@@ -191,3 +191,12 @@ updated: "2026-05-06"
 
 ### [80 Level](https://80.lv/articles/unity-launches-in-editor-ai-tools-suite-in-beta/)
 - 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub Release](https://github.com/Genymobile/scrcpy/releases/tag/v4.0)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1tb2ni9/58_preview_is_out/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [thekelleys.org](https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials

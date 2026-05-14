@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-05-12"
+updated: "2026-05-14"
 ---
 
 # Unreal Engine
@@ -394,3 +394,12 @@ UE 引擎更新与技巧
 
 ### [墙体应该是静态网格还是平面纹理？](https://www.reddit.com/r/unrealengine/comments/1ta4p2v/)
 - 📅 2026-05-12 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub Release](https://github.com/Genymobile/scrcpy/releases/tag/v4.0)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1tb2ni9/58_preview_is_out/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/capcom-secures-ninth-consecutive-year-of-profit-boosted-by-resident-evil-requiem)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-05-12"
+updated: "2026-05-14"
 ---
 
 # 游戏美术
@@ -253,3 +253,21 @@ updated: "2026-05-12"
 
 ### [墙体应该是静态网格还是平面纹理？](https://www.reddit.com/r/unrealengine/comments/1ta4p2v/)
 - 📅 2026-05-12 · 来源: daily-materials · 分类: daily-materials
+
+### [GitHub Release](https://github.com/Genymobile/scrcpy/releases/tag/v4.0)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/unrealengine/comments/1tb2ni9/58_preview_is_out/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1tbtjxo/our_unreleased_indie_game_got_stolen_as_a_chinese/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/how-rockstar-pulled-off-gta-3-s-huge-open-world-on-ps2/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [darknetdiaries.com/episode/114](https://darknetdiaries.com/episode/114/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/fluffy-tail-simulation-showcase-with-custom-hair-geometry-nodes/)
+- 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
