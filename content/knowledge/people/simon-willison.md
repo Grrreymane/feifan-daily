@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-05-01"
+updated: "2026-05-18"
 ---
 
 # Simon Willison
@@ -57,3 +57,5 @@ updated: "2026-05-01"
 - 📅 2026-05-01 — [Simon Willison](https://simonwillison.net/2026/Apr/30/zig-anti-ai/#atom-everything)
 
 - 📅 2026-05-01 — [Simon Willison](https://simonwillison.net/2026/Apr/29/llm/#atom-everything)
+
+- 📅 2026-05-18 — [Simon Willison](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)

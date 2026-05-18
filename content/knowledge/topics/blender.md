@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-05-12"
+updated: "2026-05-18"
 ---
 
 # Blender
@@ -304,3 +304,6 @@ Blender 工具与社区动态
 
 ### [墙体应该是静态网格还是平面纹理？](https://www.reddit.com/r/unrealengine/comments/1ta4p2v/)
 - 📅 2026-05-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/a-great-score-is-not-heard-from-indiana-jones-to-star-wars-musical-legend-gordy-haab-on-becoming-a-caretaker-of-some-of-video-games-most-prolific-franchises)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials

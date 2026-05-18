@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-04-26"
+updated: "2026-05-18"
 ---
 
 # ZBrush
@@ -94,3 +94,6 @@ ZBrush 雕刻与工作流
 
 ### [80 Level](https://80.lv/articles/watch-how-an-expert-3d-artist-sculpts-a-character-from-scratch/)
 - 📅 2026-04-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/a-great-score-is-not-heard-from-indiana-jones-to-star-wars-musical-legend-gordy-haab-on-becoming-a-caretaker-of-some-of-video-games-most-prolific-franchises)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials

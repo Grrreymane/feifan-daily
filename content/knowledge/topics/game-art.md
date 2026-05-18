@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-05-14"
+updated: "2026-05-18"
 ---
 
 # 游戏美术
@@ -271,3 +271,6 @@ updated: "2026-05-14"
 
 ### [80 Level](https://80.lv/articles/fluffy-tail-simulation-showcase-with-custom-hair-geometry-nodes/)
 - 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [CSDN 逐字稿](https://download.csdn.net/blog/column/12680697/155788807)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials

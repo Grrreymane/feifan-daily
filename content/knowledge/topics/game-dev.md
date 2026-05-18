@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-05-12"
+updated: "2026-05-18"
 ---
 
 # 游戏开发
@@ -163,3 +163,9 @@ updated: "2026-05-12"
 
 ### [墙体应该是静态网格还是平面纹理？](https://www.reddit.com/r/unrealengine/comments/1ta4p2v/)
 - 📅 2026-05-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1tfrkod/procedural_waves_ue5/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1tc50ka/what_i_learned_using_only_oldschool_stop_motion/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials

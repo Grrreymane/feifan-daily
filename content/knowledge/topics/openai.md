@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-05-14"
+updated: "2026-05-18"
 ---
 
 # OpenAI
@@ -418,3 +418,21 @@ OpenAI 公司动态与产品
 
 ### [simonwillison.net](https://simonwillison.net/2026/May/12/llm/#atom-everything)
 - 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Daring Fireball](https://daringfireball.net/2026/05/ai_is_technology_not_a_product)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️168](https://news.ycombinator.com/item?id=48168626)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 官方](https://openai.com/index/malta-chatgpt-plus-partnership/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️281](https://news.ycombinator.com/item?id=48163392)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials

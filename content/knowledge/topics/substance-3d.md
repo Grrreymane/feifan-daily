@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-04-19"
+updated: "2026-05-18"
 ---
 
 # Substance 3D
@@ -91,3 +91,6 @@ Substance 系列工具与材质
 
 ### [80 Level](https://80.lv/articles/lead-character-artist-details-a-terrifying-boss-creature-from-killing-floor-3/)
 - 📅 2026-04-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/a-great-score-is-not-heard-from-indiana-jones-to-star-wars-musical-legend-gordy-haab-on-becoming-a-caretaker-of-some-of-video-games-most-prolific-franchises)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
