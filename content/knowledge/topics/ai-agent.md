@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-05-10"
+updated: "2026-05-18"
 ---
 
 # AI Agent
@@ -442,3 +442,21 @@ AI Agent 架构、实践与踩坑
 
 ### [HN讨论 234票](https://news.ycombinator.com/item?id=48066592)
 - 📅 2026-05-10 · 来源: daily-materials · 分类: daily-materials
+
+### [crates.io](https://crates.io/crates/zerostack/1.0.0)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️500](https://news.ycombinator.com/item?id=48164287)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechSpot](https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [机器之心报道](https://so.html5.qq.com/page/real/search_news?docid=70000021_34469c0aae956652)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [CSDN 解读](https://blog.csdn.net/loongggdroid/article/details/160721414)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials

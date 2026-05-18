@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-05-14"
+updated: "2026-05-18"
 ---
 
 # 大语言模型
@@ -187,3 +187,36 @@ LLM 技术进展、应用与讨论
 
 ### [nair.sh](https://www.nair.sh/guides-and-opinions/communicating-your-expertise/why-senior-developers-fail-to-communicate-their-expertise)
 - 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️215](https://news.ycombinator.com/item?id=48168198)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat](https://venturebeat.com/technology/the-enterprise-risk-nobody-is-modeling-ai-is-replacing-the-very-experts-it-needs-to-learn-from)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [arXiv](https://arxiv.org/abs/2605.12357)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️231](https://news.ycombinator.com/item?id=48158506)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [crates.io](https://crates.io/crates/zerostack/1.0.0)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️500](https://news.ycombinator.com/item?id=48164287)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [CSDN 中文解读](https://blog.csdn.net/loongggdroid/article/details/160721414)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [CSDN 逐字稿](https://download.csdn.net/blog/column/12680697/155788807)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials

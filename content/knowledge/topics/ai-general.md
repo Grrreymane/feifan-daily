@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-05-14"
+updated: "2026-05-18"
 ---
 
 # AI 通用
@@ -2040,3 +2040,102 @@ updated: "2026-05-14"
 
 ### [darknetdiaries.com/episode/114](https://darknetdiaries.com/episode/114/)
 - 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/palestinian-pseudo-stealth-game-dreams-on-a-pillow-paints-a-difficult-poetic-picture-in-its-first-look-at-gameplay)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/i-didnt-think-forza-horizon-6s-custom-garages-would-lead-me-to-miss-mucking-about-with-my-motor-on-mexican-driveways-but-they-have)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1tfpx79/i_made_the_same_game_in_unity_and_godot_to_test/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/17/for-eclipse-the-2-5b-cerebras-win-is-just-the-start-of-realizing-its-physical-world-thesis/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/16/openai-co-founder-greg-brockman-reportedly-takes-charge-of-product-strategy/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/05/16/research-repository-arxiv-will-ban-authors-for-a-year-if-they-let-ai-do-all-the-work/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [The State of Brand](https://www.thestateofbrand.com/news/ai-subscription-time-bomb)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️281](https://news.ycombinator.com/item?id=48168056)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️334](https://news.ycombinator.com/item?id=48168221)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Daring Fireball](https://daringfireball.net/2026/05/ai_is_technology_not_a_product)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️168](https://news.ycombinator.com/item?id=48168626)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 官方](https://openai.com/index/malta-chatgpt-plus-partnership/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️281](https://news.ycombinator.com/item?id=48163392)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Business Insider](https://www.businessinsider.com/mistral-ceo-warns-europe-2-years-avoid-us-ai-dependence-2026-5)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️54](https://news.ycombinator.com/item?id=48170122)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/ai-artificial-intelligence/932203/university-of-arizona-students-boo-eric-schmidt-ai-commencement)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️215](https://news.ycombinator.com/item?id=48168198)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat](https://venturebeat.com/technology/the-enterprise-risk-nobody-is-modeling-ai-is-replacing-the-very-experts-it-needs-to-learn-from)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat](https://venturebeat.com/orchestration/architectural-patterns-for-graph-enhanced-rag-moving-beyond-vector-search-in-production)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [arXiv](https://arxiv.org/abs/2605.12357)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️231](https://news.ycombinator.com/item?id=48158506)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [crates.io](https://crates.io/crates/zerostack/1.0.0)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️500](https://news.ycombinator.com/item?id=48164287)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [TechSpot](https://www.techspot.com/news/112410-security-researcher-microsoft-secretly-built-backdoor-bitlocker-releases.html)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论 ⬆️376](https://news.ycombinator.com/item?id=48168856)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [机器之心报道](https://so.html5.qq.com/page/real/search_news?docid=70000021_34469c0aae956652)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [CSDN 解读](https://blog.csdn.net/loongggdroid/article/details/160721414)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [CSDN 逐字稿](https://download.csdn.net/blog/column/12680697/155788807)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/a-great-score-is-not-heard-from-indiana-jones-to-star-wars-musical-legend-gordy-haab-on-becoming-a-caretaker-of-some-of-video-games-most-prolific-franchises)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1tfi914/how_do_devs_make_simple_sprites_look_appealing/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️321](https://news.ycombinator.com/item?id=48159241)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️144](https://news.ycombinator.com/item?id=48147091)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials

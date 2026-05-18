@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-05-14"
+updated: "2026-05-18"
 ---
 
 # Unreal Engine
@@ -403,3 +403,15 @@ UE 引擎更新与技巧
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/capcom-secures-ninth-consecutive-year-of-profit-boosted-by-resident-evil-requiem)
 - 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1tftkjv/pcg_manual_editing_is_here_and_its_awesome/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine](https://www.reddit.com/r/unrealengine/comments/1tfrkod/procedural_waves_ue5/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1tc50ka/what_i_learned_using_only_oldschool_stop_motion/)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [HN ⬆️274](https://news.ycombinator.com/item?id=48164432)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials

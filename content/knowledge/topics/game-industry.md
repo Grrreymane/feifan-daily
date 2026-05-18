@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-05-14"
+updated: "2026-05-18"
 ---
 
 # 游戏行业
@@ -200,3 +200,6 @@ updated: "2026-05-14"
 
 ### [thekelleys.org](https://lists.thekelleys.org.uk/pipermail/dnsmasq-discuss/2026q2/018471.html)
 - 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer](https://www.eurogamer.net/terraria-70m-sales-15-anniversary)
+- 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
