@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-05-18"
+updated: "2026-05-23"
 ---
 
 # OpenAI
@@ -436,3 +436,6 @@ OpenAI 公司动态与产品
 
 ### [HN讨论 ⬆️281](https://news.ycombinator.com/item?id=48163392)
 - 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [🔥 #2 头条候选：OpenAI 模型推翻离散几何中心猜想（HN 1402 分热帖）](https://openai.com/index/model-disproves-discrete-geometry-conjecture/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials

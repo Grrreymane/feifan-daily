@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-05-14"
+updated: "2026-05-23"
 ---
 
 # GDC 大会
@@ -107,3 +107,9 @@ GDC 演讲、报告与行业洞察
 
 ### [80 Level 引用](https://80.lv/articles/how-rockstar-pulled-off-gta-3-s-huge-open-world-on-ps2/)
 - 📅 2026-05-14 · 来源: daily-materials · 分类: daily-materials
+
+### [3. r/gamedev · "AI slop 充斥 sub" 的强烈反弹讨论](https://www.reddit.com/r/gamedev/comments/1tjvs4l/something_has_to_be_done_about_the_ai_slop_on/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [4. r/unrealengine · 受 GDC 2016《巫师 3》对话演讲启发的对话系统](https://www.reddit.com/r/unrealengine/comments/1tknvmb/i_made_a_scenedialog_system_inspired_by_2016_gdc/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials

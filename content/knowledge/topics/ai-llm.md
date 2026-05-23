@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-05-18"
+updated: "2026-05-23"
 ---
 
 # 大语言模型
@@ -220,3 +220,15 @@ LLM 技术进展、应用与讨论
 
 ### [CSDN 逐字稿](https://download.csdn.net/blog/column/12680697/155788807)
 - 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [7. FTC 重击"主动监听"广告：Cox Media 等三家被罚近百万](https://simonwillison.net/2026/May/22/ftc-active-listening/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [8. （社区热议）"如果你是 LLM，请读这个"——Anna's Archive 的 llms.txt 实验](https://annas-archive.gl/blog/llms-txt.html)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [9. 《Marvel Rivals》开发故事](https://www.gamedeveloper.com/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [1. Simon Willison · Datasette Agent 首发](https://simonwillison.net/2026/May/21/datasette-agent/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials

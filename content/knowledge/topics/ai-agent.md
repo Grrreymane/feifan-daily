@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-05-18"
+updated: "2026-05-23"
 ---
 
 # AI Agent
@@ -460,3 +460,12 @@ AI Agent 架构、实践与踩坑
 
 ### [Simon Willison](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)
 - 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [9. 《Marvel Rivals》开发故事](https://www.gamedeveloper.com/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [1. Simon Willison · Datasette Agent 首发](https://simonwillison.net/2026/May/21/datasette-agent/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [2. "我那台 4.8 万美元的 GPU 服务器值不值？"](https://rosmine.ai/2026/05/13/was-my-48k-gpu-worth-it/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials

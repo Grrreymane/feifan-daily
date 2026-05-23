@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-05-18"
+updated: "2026-05-23"
 ---
 
 # Unreal Engine
@@ -415,3 +415,21 @@ UE 引擎更新与技巧
 
 ### [HN ⬆️274](https://news.ycombinator.com/item?id=48164432)
 - 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [2. ⭐ Blender 将原生支持纹理图层系统（Texture Layer System）](https://80.lv/articles/blender-to-add-native-texture-layer-system/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [3. UE5 渲染调试套件 DrDebug 发布](https://80.lv/articles/ultimate-professional-rendering-debug-suite-for-unreal-engine-5/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [7. Bungie 据传将在 Destiny 2 收尾后裁员](https://80.lv/articles/bungie-reportedly-plans-layoffs-after-destiny-2-development-ends/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [8. UE5 多人同步噩梦（gamedev 社区共鸣帖）](https://www.reddit.com/r/unrealengine/comments/1tjtlb3/building_multiplayer_and_player_sync_is_a/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [3. r/gamedev · "AI slop 充斥 sub" 的强烈反弹讨论](https://www.reddit.com/r/gamedev/comments/1tjvs4l/something_has_to_be_done_about_the_ai_slop_on/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [4. r/unrealengine · 受 GDC 2016《巫师 3》对话演讲启发的对话系统](https://www.reddit.com/r/unrealengine/comments/1tknvmb/i_made_a_scenedialog_system_inspired_by_2016_gdc/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
