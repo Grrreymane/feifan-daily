@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-05-18"
+updated: "2026-05-23"
 ---
 
 # AI 通用
@@ -2139,3 +2139,42 @@ updated: "2026-05-18"
 
 ### [HN ⬆️144](https://news.ycombinator.com/item?id=48147091)
 - 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [🔥 #1 头条候选：Andrej Karpathy 加入 Anthropic（AI圈年度人事大新闻）](https://techcrunch.com/（TechCrunch)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🔥 #2 头条候选：OpenAI 模型推翻离散几何中心猜想（HN 1402 分热帖）](https://openai.com/index/model-disproves-discrete-geometry-conjecture/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [1. Google Antigravity 的"诱饵-换货"争议](https://www.0xsid.com/blog/antigravity-bait-n-switch)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [2. Spotify 与环球音乐达成 AI 翻唱/混音协议](https://techcrunch.com/2026/05/21/spotify-and-universal-music-strike-deal-allowing-fan-made-ai-covers-and-remixes/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [3. "六个值得一试的搜索引擎"——Google 已经不像 Google 了](https://techcrunch.com/2026/05/21/six-search-engines-worth-trying-now-that-google-isnt-really-google-anymore/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [4. Google AI 眼镜首发体验（Android XR + Gemini）](https://techcrunch.com/2026/05/22/we-tried-googles-ai-glasses-and-theyre-almost-there/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [2. "我那台 4.8 万美元的 GPU 服务器值不值？"](https://rosmine.ai/2026/05/13/was-my-48k-gpu-worth-it/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [3. 用 Gemma4-31B 在 2021 MacBook 本地索引一年视频](https://blog.simbastack.com/indexed-a-year-of-video-locally/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [4. 内存短缺正在重塑消费电子定价](https://davidoks.blog/p/ai-is-killing-the-cheap-smartphone)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [4. （视频）FlippedNormals 课程平台动态](https://www.flippednormals.com/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [2. r/gamedev · "如何在游戏行业活动里专业 networking 而不变成讨厌的人"](https://www.reddit.com/r/gamedev/comments/1tjqmdd/how_to_actually_network_at_game_industry_events/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [3. r/gamedev · "AI slop 充斥 sub" 的强烈反弹讨论](https://www.reddit.com/r/gamedev/comments/1tjvs4l/something_has_to_be_done_about_the_ai_slop_on/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [4. r/unrealengine · 受 GDC 2016《巫师 3》对话演讲启发的对话系统](https://www.reddit.com/r/unrealengine/comments/1tknvmb/i_made_a_scenedialog_system_inspired_by_2016_gdc/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials

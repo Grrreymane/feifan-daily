@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-05-18"
+updated: "2026-05-23"
 ---
 
 # Substance 3D
@@ -94,3 +94,9 @@ Substance 系列工具与材质
 
 ### [Eurogamer](https://www.eurogamer.net/a-great-score-is-not-heard-from-indiana-jones-to-star-wars-musical-legend-gordy-haab-on-becoming-a-caretaker-of-some-of-video-games-most-prolific-franchises)
 - 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [1. ⭐ Godot 推出全新官方 Asset Store（替代旧 Asset Library）](https://80.lv/articles/godot-is-launching-a-new-asset-store-to-replace-the-old-asset-library/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [2. ⭐ Blender 将原生支持纹理图层系统（Texture Layer System）](https://80.lv/articles/blender-to-add-native-texture-layer-system/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials

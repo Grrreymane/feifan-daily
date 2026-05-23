@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-05-06"
+updated: "2026-05-23"
 ---
 
 # 游戏行业裁员
@@ -215,3 +215,9 @@ updated: "2026-05-06"
 
 ### [TechCrunch](https://techcrunch.com/2026/05/04/openais-cozy-partner-cerebras-is-on-track-for-a-blockbuster-ipo/)
 - 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [6. ZBrush 石头雕刻表面变化练习（80 Level Showcase 第二名）](https://80.lv/articles/explore-surface-variation-in-this-zbrush-stone-sculpting-practice/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [7. Bungie 据传将在 Destiny 2 收尾后裁员](https://80.lv/articles/bungie-reportedly-plans-layoffs-after-destiny-2-development-ends/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials

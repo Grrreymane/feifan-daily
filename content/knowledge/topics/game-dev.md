@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-05-18"
+updated: "2026-05-23"
 ---
 
 # 游戏开发
@@ -169,3 +169,9 @@ updated: "2026-05-18"
 
 ### [Reddit r/gamedev](https://www.reddit.com/r/gamedev/comments/1tc50ka/what_i_learned_using_only_oldschool_stop_motion/)
 - 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [8. UE5 多人同步噩梦（gamedev 社区共鸣帖）](https://www.reddit.com/r/unrealengine/comments/1tjtlb3/building_multiplayer_and_player_sync_is_a/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [1. Practical AI（changelog 出品）— 推荐订阅](https://practicalai.fm/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials

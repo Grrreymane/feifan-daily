@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-05-18"
+updated: "2026-05-23"
 ---
 
 # 游戏美术
@@ -274,3 +274,12 @@ updated: "2026-05-18"
 
 ### [CSDN 逐字稿](https://download.csdn.net/blog/column/12680697/155788807)
 - 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [🔥 #1 头条候选：Andrej Karpathy 加入 Anthropic（AI圈年度人事大新闻）](https://techcrunch.com/（TechCrunch)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [8. （社区热议）"如果你是 LLM，请读这个"——Anna's Archive 的 llms.txt 实验](https://annas-archive.gl/blog/llms-txt.html)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [4. r/unrealengine · 受 GDC 2016《巫师 3》对话演讲启发的对话系统](https://www.reddit.com/r/unrealengine/comments/1tknvmb/i_made_a_scenedialog_system_inspired_by_2016_gdc/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials

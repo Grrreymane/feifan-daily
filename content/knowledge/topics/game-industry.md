@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-05-18"
+updated: "2026-05-23"
 ---
 
 # 游戏行业
@@ -203,3 +203,12 @@ updated: "2026-05-18"
 
 ### [Eurogamer](https://www.eurogamer.net/terraria-70m-sales-15-anniversary)
 - 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [8. （社区热议）"如果你是 LLM，请读这个"——Anna's Archive 的 llms.txt 实验](https://annas-archive.gl/blog/llms-txt.html)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [1. r/gamedev · "GameDev 老兵 10+ 年经验总结"](https://www.reddit.com/r/gamedev/comments/1tkl92n/some_things_ive_learned_after_being_a_dev_for_10/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [2. r/gamedev · "如何在游戏行业活动里专业 networking 而不变成讨厌的人"](https://www.reddit.com/r/gamedev/comments/1tjqmdd/how_to_actually_network_at_game_industry_events/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "职场社交"
 slug: "career-networking"
 description: "Networking 技巧与经验"
 created: "2026-04-07"
-updated: "2026-04-29"
+updated: "2026-05-23"
 ---
 
 # 职场社交
@@ -34,3 +34,9 @@ Networking 技巧与经验
 
 ### [GitHub 可用性更新](https://github.blog/news-insights/company-news/an-update-on-github-availability/)
 - 📅 2026-04-29 · 来源: daily-materials · 分类: daily-materials
+
+### [1. r/gamedev · "GameDev 老兵 10+ 年经验总结"](https://www.reddit.com/r/gamedev/comments/1tkl92n/some_things_ive_learned_after_being_a_dev_for_10/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [2. r/gamedev · "如何在游戏行业活动里专业 networking 而不变成讨厌的人"](https://www.reddit.com/r/gamedev/comments/1tjqmdd/how_to_actually_network_at_game_industry_events/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials

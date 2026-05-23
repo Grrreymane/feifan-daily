@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-05-18"
+updated: "2026-05-23"
 ---
 
 # ZBrush
@@ -97,3 +97,12 @@ ZBrush 雕刻与工作流
 
 ### [Eurogamer](https://www.eurogamer.net/a-great-score-is-not-heard-from-indiana-jones-to-star-wars-musical-legend-gordy-haab-on-becoming-a-caretaker-of-some-of-video-games-most-prolific-franchises)
 - 📅 2026-05-18 · 来源: daily-materials · 分类: daily-materials
+
+### [5. 角色定制化雕刻+贴图全流程拆解](https://80.lv/articles/breakdown-how-to-sculpt-and-texture-a-character-with-customisable-features/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [6. ZBrush 石头雕刻表面变化练习（80 Level Showcase 第二名）](https://80.lv/articles/explore-surface-variation-in-this-zbrush-stone-sculpting-practice/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [7. Bungie 据传将在 Destiny 2 收尾后裁员](https://80.lv/articles/bungie-reportedly-plans-layoffs-after-destiny-2-development-ends/)
+- 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
