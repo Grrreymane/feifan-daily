@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-05-24"
 ---
 
 # 大语言模型
@@ -232,3 +232,15 @@ LLM 技术进展、应用与讨论
 
 ### [1. Simon Willison · Datasette Agent 首发](https://simonwillison.net/2026/May/21/datasette-agent/)
 - 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Project Glasswing: An Initial Update](https://www.anthropic.com/research/glasswing-initial-update)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [红杉2026年投资峰会 AI对话 Karpathy](https://blog.csdn.net/D1237890/article/details/160691880)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [notesbylex.com](https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [modelrift.com](https://modelrift.com/blog/openscad-llm-benchmark/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials

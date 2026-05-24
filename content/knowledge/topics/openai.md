@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-05-24"
 ---
 
 # OpenAI
@@ -439,3 +439,9 @@ OpenAI 公司动态与产品
 
 ### [🔥 #2 头条候选：OpenAI 模型推翻离散几何中心猜想（HN 1402 分热帖）](https://openai.com/index/model-disproves-discrete-geometry-conjecture/)
 - 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Project Glasswing: An Initial Update](https://www.anthropic.com/research/glasswing-initial-update)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft starts canceling Claude Code licenses (The Verge)](https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials

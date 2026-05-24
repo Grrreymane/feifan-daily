@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-05-24"
 ---
 
 # AI 通用
@@ -2178,3 +2178,108 @@ updated: "2026-05-23"
 
 ### [4. r/unrealengine · 受 GDC 2016《巫师 3》对话演讲启发的对话系统](https://www.reddit.com/r/unrealengine/comments/1tknvmb/i_made_a_scenedialog_system_inspired_by_2016_gdc/)
 - 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Project Glasswing: An Initial Update](https://www.anthropic.com/research/glasswing-initial-update)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [红杉2026年投资峰会 AI对话 Karpathy](https://blog.csdn.net/D1237890/article/details/160691880)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft starts canceling Claude Code licenses (The Verge)](https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [SpaceX files to go public](https://techcrunch.com/video/spacex-files-to-go-public-and-the-math-requires-a-little-faith/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Nuclear startup Deep Fission 二度寻求 IPO](https://techcrunch.com/2026/05/23/nuclear-startup-deep-fission-says-its-going-public-again-and-i-have-questions/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Peec 柏林 AI 搜索可见性创业，年化营收数月翻倍至 1000 万美元](https://techcrunch.com/2026/05/23/peec-one-of-berlins-rising-startups-more-than-doubled-annualized-revenue-in-months-to-10m-sources-say/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [How VCs and founders use inflated 'ARR'](https://techcrunch.com/2026/05/22/how-vcs-and-founders-use-inflated-arr-to-kingmake-ai-startups/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Ferrari 与 IBM 联手用 AI 打造 F1 超级粉丝](https://techcrunch.com/2026/05/23/ferrari-is-using-ai-to-create-f1-superfans/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Spotify AI 押注：什么都更多，要的反而更少](https://techcrunch.com/2026/05/22/spotifys-ai-bet-more-of-everything-less-of-what-you-want/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta 悄悄上线 Reddit 类应用 Forum](https://techcrunch.com/2026/05/22/meta-quietly-launches-a-new-reddit-like-app-called-forum/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 推出 disco-ball 闪光版图标](https://techcrunch.com/2026/05/22/google-goes-for-the-glitter-with-disco-ball-icons-are-yall-sure-you-still-want/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [CISA 数据泄露事件](https://krebsonsecurity.com/2026/05/lawmakers-demand-answers-as-cisa-tries-to-contain-data-leak/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Trump Mobile 客户数据泄露](https://techcrunch.com/2026/05/22/trump-mobile-confirms-it-exposed-customers-personal-data-including-phone-numbers-and-home-addresses/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Blue Origin New Glenn 4 月事故后获批继续飞行](https://techcrunch.com/2026/05/22/blue-origin-cleared-to-fly-new-glenn-mega-rocket-after-april-mishap/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Elon Musk 放弃地球太阳能，xAI 全面押注天然气，SpaceX 痴迷轨道数据中心](https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Stunning 3D Persian Warrior — Real-Time UE5](https://80.lv/articles/this-stunning-3d-persian-warrior-character-was-rendered-in-real-time-using-ue5/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Misty Morning Painting Scene by Lotus Design](https://80.lv/articles/have-a-look-at-this-scene-of-a-misty-morning-that-looks-like-a-painting/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Cozy Country: Cozy Painting Game](https://80.lv/articles/this-cozy-painting-game-let-s-you-explore-the-landscapes-you-create/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Underwater Cozy Adventure Game](https://80.lv/articles/check-out-this-cozy-adventure-game-where-you-ll-explore-an-underwater-world/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Inside Focus Entertainment's AA Strategy](https://80.lv/articles/inside-focus-entertainment-s-strategy-for-aa-games-and-long-term-franchises/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Bubsy 4D — 经典 IP 的现代3D再造](https://80.lv/articles/how-bubsy-4d-reimagines-a-retro-mascot-for-modern-3d-platformers/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Pegfinity demo 与正式版存档处理](https://www.reddit.com/r/gamedev/comments/1tlmyy1/how_do_you_usually_handle_demo_save_files/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Palestinian indie dev: Dreams on a Pillow 访谈](https://www.reddit.com/r/gamedev/comments/1tkw2m7/hearing_a_palestinian_indie_dev_explain_how_not/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Wave Break Effect 流体模拟插件](https://www.reddit.com/r/unrealengine/comments/1tlbf47/been_working_so_hard_on_getting_the_wave_break/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 推出新 Asset Store](https://80.lv/articles/godot-is-launching-a-new-asset-store-to-replace-the-old-asset-library/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 将引入原生 Texture Layer System](https://80.lv/articles/blender-to-add-native-texture-layer-system/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [BambuStudio 涉嫌违反 PrusaSlicer AGPL](https://xcancel.com/josefprusa/status/2054602354851254330)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [simonwillison.net](https://simonwillison.net/2026/May/22/memory-shortage/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [horace.io/brrr_intro.html](https://horace.io/brrr_intro.html)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [notesbylex.com](https://notesbylex.com/shipping-a-laptop-to-a-refugee-camp-in-uganda)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [modelrift.com](https://modelrift.com/blog/openscad-llm-benchmark/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [NVIDIA GDC 2026:DLSS 4.5当家,从"渲染管线"到"生成式AI世界"的进化](https://so.html5.qq.com/page/real/search_news?docid=70000021_10269b0409c05352)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv/podcast](https://80.lv/podcast/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Hollow Knight: Silksong DLC "Sea of Sorrow" 2026 内推出](https://nintendoeverything.com/tag/hollow-knight-silksong/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Deno 2.8 发布](https://deno.com/blog/v2.8)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials

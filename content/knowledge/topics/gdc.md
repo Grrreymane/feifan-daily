@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-05-24"
 ---
 
 # GDC 大会
@@ -113,3 +113,9 @@ GDC 演讲、报告与行业洞察
 
 ### [4. r/unrealengine · 受 GDC 2016《巫师 3》对话演讲启发的对话系统](https://www.reddit.com/r/unrealengine/comments/1tknvmb/i_made_a_scenedialog_system_inspired_by_2016_gdc/)
 - 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [NVIDIA GDC 2026:DLSS 4.5当家,从"渲染管线"到"生成式AI世界"的进化](https://so.html5.qq.com/page/real/search_news?docid=70000021_10269b0409c05352)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv/podcast](https://80.lv/podcast/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials

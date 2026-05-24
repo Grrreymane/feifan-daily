@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-05-24"
 ---
 
 # 游戏美术
@@ -283,3 +283,27 @@ updated: "2026-05-23"
 
 ### [4. r/unrealengine · 受 GDC 2016《巫师 3》对话演讲启发的对话系统](https://www.reddit.com/r/unrealengine/comments/1tknvmb/i_made_a_scenedialog_system_inspired_by_2016_gdc/)
 - 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Elon Musk 放弃地球太阳能，xAI 全面押注天然气，SpaceX 痴迷轨道数据中心](https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Stunning 3D Persian Warrior — Real-Time UE5](https://80.lv/articles/this-stunning-3d-persian-warrior-character-was-rendered-in-real-time-using-ue5/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [simonwillison.net](https://simonwillison.net/2026/May/22/memory-shortage/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [horace.io/brrr_intro.html](https://horace.io/brrr_intro.html)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [modelrift.com](https://modelrift.com/blog/openscad-llm-benchmark/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [NVIDIA GDC 2026:DLSS 4.5当家,从"渲染管线"到"生成式AI世界"的进化](https://so.html5.qq.com/page/real/search_news?docid=70000021_10269b0409c05352)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv/podcast](https://80.lv/podcast/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Deno 2.8 发布](https://deno.com/blog/v2.8)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials

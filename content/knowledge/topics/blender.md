@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-05-24"
 ---
 
 # Blender
@@ -313,3 +313,6 @@ Blender 工具与社区动态
 
 ### [2. ⭐ Blender 将原生支持纹理图层系统（Texture Layer System）](https://80.lv/articles/blender-to-add-native-texture-layer-system/)
 - 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [BambuStudio 涉嫌违反 PrusaSlicer AGPL](https://xcancel.com/josefprusa/status/2054602354851254330)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
