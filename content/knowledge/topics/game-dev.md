@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-05-24"
 ---
 
 # 游戏开发
@@ -175,3 +175,15 @@ updated: "2026-05-23"
 
 ### [1. Practical AI（changelog 出品）— 推荐订阅](https://practicalai.fm/)
 - 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Bubsy 4D — 经典 IP 的现代3D再造](https://80.lv/articles/how-bubsy-4d-reimagines-a-retro-mascot-for-modern-3d-platformers/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Co-Op Mining Game like Deep Rock Galactic with Goblins](https://80.lv/articles/this-co-op-mining-game-is-like-deep-rock-galactic-with-goblins/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Hey all, I'm Indie Game Joe - AMA](https://www.reddit.com/r/gamedev/comments/1tkqsd0/hey_all_im_indie_game_joe_ama/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Quetoo — 历经 19 年的 QUAKE 致敬作正式发布](https://www.reddit.com/r/gamedev/comments/1tlivz7/quetoo_a_love_letter_to_the_quake_series_released/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials

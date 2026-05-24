@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-05-24"
 ---
 
 # 游戏行业
@@ -212,3 +212,21 @@ updated: "2026-05-23"
 
 ### [2. r/gamedev · "如何在游戏行业活动里专业 networking 而不变成讨厌的人"](https://www.reddit.com/r/gamedev/comments/1tjqmdd/how_to_actually_network_at_game_industry_events/)
 - 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Elon Musk 放弃地球太阳能，xAI 全面押注天然气，SpaceX 痴迷轨道数据中心](https://techcrunch.com/2026/05/23/elon-musk-has-given-up-on-solar-power-on-earth/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Stunning 3D Persian Warrior — Real-Time UE5](https://80.lv/articles/this-stunning-3d-persian-warrior-character-was-rendered-in-real-time-using-ue5/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Best ways to get eyes on a Fab plugin](https://www.reddit.com/r/unrealengine/comments/1tlfmh0/best_ways_to_get_eyes_on_a_fab_plugin_looking_for/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Outliner 组织技巧](https://www.reddit.com/r/unrealengine/comments/1tlh5ok/tips_for_organizing_the_outliner/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 推出新 Asset Store](https://80.lv/articles/godot-is-launching-a-new-asset-store-to-replace-the-old-asset-library/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 将引入原生 Texture Layer System](https://80.lv/articles/blender-to-add-native-texture-layer-system/)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials

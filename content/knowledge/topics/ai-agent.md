@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-05-24"
 ---
 
 # AI Agent
@@ -469,3 +469,6 @@ AI Agent 架构、实践与踩坑
 
 ### [2. "我那台 4.8 万美元的 GPU 服务器值不值？"](https://rosmine.ai/2026/05/13/was-my-48k-gpu-worth-it/)
 - 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [红杉2026 AI Ascent 对话 Karpathy 中文整理](https://blog.csdn.net/D1237890/article/details/160691880)
+- 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
