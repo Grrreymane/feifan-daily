@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-05-24"
+updated: "2026-05-26"
 ---
 
 # Blender
@@ -316,3 +316,6 @@ Blender 工具与社区动态
 
 ### [BambuStudio 涉嫌违反 PrusaSlicer AGPL](https://xcancel.com/josefprusa/status/2054602354851254330)
 - 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Humble Bundle 上架 43 套环境包](https://www.reddit.com/r/unrealengine/comments/1tn6za5/i_have_my_own_humble_bundle_after_more_than_a/)
+- 📅 2026-05-26 · 来源: daily-materials · 分类: daily-materials
