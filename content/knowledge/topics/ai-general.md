@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-05-24"
+updated: "2026-05-26"
 ---
 
 # AI 通用
@@ -2283,3 +2283,15 @@ updated: "2026-05-24"
 
 ### [Deno 2.8 发布](https://deno.com/blog/v2.8)
 - 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### ["do you make your placeholder art good or just colored rectangles?"](https://www.reddit.com/r/gamedev/comments/1tnbsj9/do_you_make_your_placeholder_art_good_but_not/)
+- 📅 2026-05-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Painterly Shader for UE5](https://www.reddit.com/r/unrealengine/comments/1tmokyl/finally_finished_my_painterly_shader_for_ue5/)
+- 📅 2026-05-26 · 来源: daily-materials · 分类: daily-materials
+
+### [60,000 物理碎块单帧不掉帧](https://www.reddit.com/r/unrealengine/comments/1tn62mu/ue_54_performance_test_60000_physically_simulated/)
+- 📅 2026-05-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Humble Bundle 上架 43 套环境包](https://www.reddit.com/r/unrealengine/comments/1tn6za5/i_have_my_own_humble_bundle_after_more_than_a/)
+- 📅 2026-05-26 · 来源: daily-materials · 分类: daily-materials

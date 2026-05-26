@@ -1,6 +1,6 @@
 ---
 title: "知识库索引"
-updated: "2026-05-25"
+updated: "2026-05-26"
 ---
 
 # 📖 非凡像素知识库
@@ -14,20 +14,20 @@ updated: "2026-05-25"
 ### 🤖 AI
 
 - [AI Agent](topics/ai-agent.md) (152 条)
-- [AI 通用](topics/ai-general.md) (755 条)
+- [AI 通用](topics/ai-general.md) (759 条)
 - [大语言模型](topics/ai-llm.md) (76 条)
 - [AI 工具](topics/ai-tools.md) (1 条)
 
 ### 📌 其他
 
-- [Blender](topics/blender.md) (100 条)
+- [Blender](topics/blender.md) (101 条)
 - [批判性思维](topics/critical-thinking.md) (1 条)
 - [数据报告](topics/data-reports.md) (1 条)
 - [GDC 大会](topics/gdc.md) (34 条)
 - [OpenAI](topics/openai.md) (143 条)
 - [编程](topics/programming.md) (2 条)
 - [Substance 3D](topics/substance-3d.md) (28 条)
-- [Unreal Engine](topics/unreal-engine.md) (146 条)
+- [Unreal Engine](topics/unreal-engine.md) (150 条)
 - [Vibe Coding](topics/vibe-coding.md) (6 条)
 - [ZBrush](topics/zbrush.md) (30 条)
 
@@ -37,7 +37,7 @@ updated: "2026-05-25"
 
 ### 🎮 游戏
 
-- [游戏美术](topics/game-art.md) (97 条)
+- [游戏美术](topics/game-art.md) (98 条)
 - [游戏开发](topics/game-dev.md) (57 条)
 - [游戏行业裁员](topics/game-industry-layoffs.md) (68 条)
 - [游戏行业](topics/game-industry.md) (71 条)
@@ -54,4 +54,4 @@ updated: "2026-05-25"
 
 📊 共 20 个话题，4 位人物
 
-*最后更新: 2026-05-25*
+*最后更新: 2026-05-26*
