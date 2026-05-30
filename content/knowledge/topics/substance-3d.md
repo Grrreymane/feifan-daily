@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-05-30"
 ---
 
 # Substance 3D
@@ -100,3 +100,9 @@ Substance 系列工具与材质
 
 ### [2. ⭐ Blender 将原生支持纹理图层系统（Texture Layer System）](https://80.lv/articles/blender-to-add-native-texture-layer-system/)
 - 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Léopold Herlaud 重新诠释海龙之屋概念图（环境美术 Breakdown）](https://80.lv/（28)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Steven Spielberg 谈 AI 与电影创作："灵魂没有替代品"](https://80.lv/articles/steven-spielberg-on-ai-in-filmmaking-there-is-no-substitute-for-the-soul/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials

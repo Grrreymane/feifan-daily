@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-05-30"
 ---
 
 # 游戏行业裁员
@@ -221,3 +221,12 @@ updated: "2026-05-23"
 
 ### [7. Bungie 据传将在 Destiny 2 收尾后裁员](https://80.lv/articles/bungie-reportedly-plans-layoffs-after-destiny-2-development-ends/)
 - 📅 2026-05-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 最新动作三连：Opus 4.8 + 65B H 轮融资 + 4700 亿年化收入](https://www.anthropic.com/news/claude-opus-4-8（HN)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Cognition CEO Scott Wu：AI Coding Agents 不应该取代人类](https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [内存才是 AI 真正的瓶颈：XCENA 拿到 1.35 亿美金](https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials

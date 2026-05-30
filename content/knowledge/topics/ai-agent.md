@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-05-24"
+updated: "2026-05-30"
 ---
 
 # AI Agent
@@ -472,3 +472,18 @@ AI Agent 架构、实践与踩坑
 
 ### [红杉2026 AI Ascent 对话 Karpathy 中文整理](https://blog.csdn.net/D1237890/article/details/160691880)
 - 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 是不是在重演前端"失落的十年"？](https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 大规模 AI 代码审查实践](https://blog.cloudflare.com/ai-code-review/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [The Internet is Being Rebuilt for Machines](https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Cognition CEO Scott Wu：AI Coding Agents 不应该取代人类](https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [内存才是 AI 真正的瓶颈：XCENA 拿到 1.35 亿美金](https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials

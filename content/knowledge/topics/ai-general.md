@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-05-26"
+updated: "2026-05-30"
 ---
 
 # AI 通用
@@ -2295,3 +2295,48 @@ updated: "2026-05-26"
 
 ### [Humble Bundle 上架 43 套环境包](https://www.reddit.com/r/unrealengine/comments/1tn6za5/i_have_my_own_humble_bundle_after_more_than_a/)
 - 📅 2026-05-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Houdini 制作风格化丛林资产，全程零贴图](https://80.lv/articles/houdini-made-stylized-jungle-assets-with-no-textures/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Léopold Herlaud 重新诠释海龙之屋概念图（环境美术 Breakdown）](https://80.lv/（28)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Steven Spielberg 谈 AI 与电影创作："灵魂没有替代品"](https://80.lv/articles/steven-spielberg-on-ai-in-filmmaking-there-is-no-substitute-for-the-soul/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Houdini × Unreal "Beyond the Wall" by Hayato（Reddit 热推）](https://www.reddit.com/r/unrealengine/comments/1tr9fdd/houdini_unreal_beyond_the_wall_by_hayato/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 最新动作三连：Opus 4.8 + 65B H 轮融资 + 4700 亿年化收入](https://www.anthropic.com/news/claude-opus-4-8（HN)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 是不是在重演前端"失落的十年"？](https://mastrojs.github.io/blog/2026-05-23-is-AI-causing-a-repeat-of-frontends-lost-decade/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Real-time LLM Inference on Standard GPUs: 3000 tokens/s per request](https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 大规模 AI 代码审查实践](https://blog.cloudflare.com/ai-code-review/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [The Internet is Being Rebuilt for Machines](https://techcrunch.com/2026/05/28/the-internet-is-being-rebuilt-for-machines/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Cognition CEO Scott Wu：AI Coding Agents 不应该取代人类](https://techcrunch.com/2026/05/29/cognitions-scott-wu-says-ai-coding-agents-shouldnt-replace-humans/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [内存才是 AI 真正的瓶颈：XCENA 拿到 1.35 亿美金](https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft 威胁起诉安全研究员引发争议](https://techcrunch.com/2026/05/29/microsoft-under-fire-for-threatening-security-researcher-with-criminal-investigation/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [AI / 科技](https://techcrunch.com/2026/05/29/after-nvidias-20b-not-aqui-hire-ai-chip-startup-groq-reportedly-raising-650m/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Decision Space 播客（游戏设计深度访谈）](https://www.decisionspacepodcast.com/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Hacker News Top Discussions（综合）](https://news.ycombinator.com/item?id=48311647)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-05-24"
+updated: "2026-05-30"
 ---
 
 # 大语言模型
@@ -244,3 +244,6 @@ LLM 技术进展、应用与讨论
 
 ### [modelrift.com](https://modelrift.com/blog/openscad-llm-benchmark/)
 - 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Real-time LLM Inference on Standard GPUs: 3000 tokens/s per request](https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
