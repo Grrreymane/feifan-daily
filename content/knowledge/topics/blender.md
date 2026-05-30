@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-05-26"
+updated: "2026-05-30"
 ---
 
 # Blender
@@ -319,3 +319,15 @@ Blender 工具与社区动态
 
 ### [Humble Bundle 上架 43 套环境包](https://www.reddit.com/r/unrealengine/comments/1tn6za5/i_have_my_own_humble_bundle_after_more_than_a/)
 - 📅 2026-05-26 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level 终极 Blender 天空工具（Volumetric / 影视级大气）](https://80.lv/articles/ultimate-blender-sky-tool-for-cinematic-environments-volumetric-atmospheres/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [NetEase Q1 财报：游戏收入 $3.7B，同比 +6.9%](https://www.gamesindustry.biz/netease-reports-69-increase-in-games-revenue-to-37bn-during-q1)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals – Blender Cinematic Workflow 工具包（5/31 截止）](https://www.flippednormals.com/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Hacker News Top Discussions（综合）](https://news.ycombinator.com/item?id=48311647)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials

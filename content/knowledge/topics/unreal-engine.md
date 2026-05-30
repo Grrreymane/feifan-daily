@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-05-26"
+updated: "2026-05-30"
 ---
 
 # Unreal Engine
@@ -466,3 +466,9 @@ UE 引擎更新与技巧
 
 ### [Humble Bundle 上架 43 套环境包](https://www.reddit.com/r/unrealengine/comments/1tn6za5/i_have_my_own_humble_bundle_after_more_than_a/)
 - 📅 2026-05-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Houdini × Unreal "Beyond the Wall" by Hayato（Reddit 热推）](https://www.reddit.com/r/unrealengine/comments/1tr9fdd/houdini_unreal_beyond_the_wall_by_hayato/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [The Witcher 4 团队规模超过 W3 两倍 → AAA 团队膨胀讨论](https://www.rockpapershotgun.com/the-witcher-4-is-the-work-of-over-twice-as-many-cd-projekt-staff-as-the-witcher-3-in-a-fresh-display-of-how-blockbluster-team-sizes-have-ballooned)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials

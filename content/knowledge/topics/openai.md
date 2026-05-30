@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-05-24"
+updated: "2026-05-30"
 ---
 
 # OpenAI
@@ -445,3 +445,6 @@ OpenAI 公司动态与产品
 
 ### [Microsoft starts canceling Claude Code licenses (The Verge)](https://www.theverge.com/tech/930447/microsoft-claude-code-discontinued-notepad)
 - 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Decision Space 播客（游戏设计深度访谈）](https://www.decisionspacepodcast.com/)
+- 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
