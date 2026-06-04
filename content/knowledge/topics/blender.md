@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-05-30"
+updated: "2026-06-04"
 ---
 
 # Blender
@@ -331,3 +331,15 @@ Blender 工具与社区动态
 
 ### [Hacker News Top Discussions（综合）](https://news.ycombinator.com/item?id=48311647)
 - 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level Job Digest：Visionary、Netflix、Epic、Warhorse 等本周开放岗位](https://80.lv/articles/80-level-job-digest-find-great-roles-for-creatives-here/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Sentinels 项目：Blender + Plasticity 打造复古科幻世界](https://80.lv/articles/building-sentinels-crafting-a-retro-sci-fi-universe-in-blender-and-plasticity/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Krysidian：Blender 用于 NPR 风格化场景的"假光照"系统](https://80.lv/articles/fake-lighting-system-for-stylized-npr-scenes-in-blender/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Ana Roman：从 ZBrush 到 Splash Screen——Lady Made of Rock 制作流程](https://80.lv/articles/from-model-to-zbrush-splash-screen-process-of-crafting-lady-made-of-rock/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials

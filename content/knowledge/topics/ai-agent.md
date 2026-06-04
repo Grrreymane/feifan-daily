@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-05-30"
+updated: "2026-06-04"
 ---
 
 # AI Agent
@@ -487,3 +487,21 @@ AI Agent 架构、实践与踩坑
 
 ### [内存才是 AI 真正的瓶颈：XCENA 拿到 1.35 亿美金](https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/)
 - 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Suno 再融 $400M，估值 54 亿](https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Coralogix 获 2 亿美元，押注"看护 AI Agent"赛道](https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta WhatsApp Business AI Agent 全球开放](https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft 开源 ASSERT：用文字描述生成 AI 行为测试](https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Uber Caps Usage of AI Tools](https://simonwillison.net/2026/Jun/3/uber-caps-usage/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [datasette-agent-micropython 0.1a0](https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-05-30"
+updated: "2026-06-04"
 ---
 
 # Substance 3D
@@ -106,3 +106,12 @@ Substance 系列工具与材质
 
 ### [Steven Spielberg 谈 AI 与电影创作："灵魂没有替代品"](https://80.lv/articles/steven-spielberg-on-ai-in-filmmaking-there-is-no-substitute-for-the-soul/)
 - 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Krysidian：Blender 用于 NPR 风格化场景的"假光照"系统](https://80.lv/articles/fake-lighting-system-for-stylized-npr-scenes-in-blender/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Ana Roman：从 ZBrush 到 Splash Screen——Lady Made of Rock 制作流程](https://80.lv/articles/from-model-to-zbrush-splash-screen-process-of-crafting-lady-made-of-rock/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Ikumi Nakamura 新作 Kemuri 揭面：合作打妖怪是仪式](https://www.rockpapershotgun.com/one-discovers-one-guides-and-one-strikes-the-final-blow-ikumi-nakamuras-new-yokai-hunting-game-kemuri-is-turning-co-op-into-a-ritual-somehow)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
