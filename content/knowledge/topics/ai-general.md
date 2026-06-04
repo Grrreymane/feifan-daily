@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-05-30"
+updated: "2026-06-04"
 ---
 
 # AI 通用
@@ -2340,3 +2340,51 @@ updated: "2026-05-30"
 
 ### [Hacker News Top Discussions（综合）](https://news.ycombinator.com/item?id=48311647)
 - 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft MAI-Code-1-Flash 上线 VS Code Copilot](https://microsoft.ai/news/introducingmai-code-1-flash/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Gemma 4 12B：统一编码器无关的多模态开源模型](https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemma-4-12b/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 在斯坦福法学院测评中击败教授](https://law.stanford.edu/press/ai-outperforms-law-professors-in-stanford-law-study/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Suno 再融 $400M，估值 54 亿](https://techcrunch.com/2026/06/03/still-facing-copyright-lawsuits-ai-music-generator-suno-raises-another-400m/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Coralogix 获 2 亿美元，押注"看护 AI Agent"赛道](https://techcrunch.com/2026/06/03/coralogix-raises-200m-in-race-to-build-the-monitoring-layer-for-ai-agents/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta WhatsApp Business AI Agent 全球开放](https://techcrunch.com/2026/06/03/metas-ai-agent-for-whatsapp-business-is-now-available-globally/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft 开源 ASSERT：用文字描述生成 AI 行为测试](https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [GitLab 裁员 14%，押注 AI 工作负载](https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level Job Digest：Visionary、Netflix、Epic、Warhorse 等本周开放岗位](https://80.lv/articles/80-level-job-digest-find-great-roles-for-creatives-here/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Ana Roman：从 ZBrush 到 Splash Screen——Lady Made of Rock 制作流程](https://80.lv/articles/from-model-to-zbrush-splash-screen-process-of-crafting-lady-made-of-rock/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Ikumi Nakamura 新作 Kemuri 揭面：合作打妖怪是仪式](https://www.rockpapershotgun.com/one-discovers-one-guides-and-one-strikes-the-final-blow-ikumi-nakamuras-new-yokai-hunting-game-kemuri-is-turning-co-op-into-a-ritual-somehow)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Tomb Raider: Legacy of Atlantis 跳票到 2027 年 2 月，Steam 标注"使用 AI 辅助资产"](https://www.rockpapershotgun.com/tomb-raider-legacy-of-atlantis-studio-have-used-ai-assisted-tools-during-development-but-swear-any-ai-assisted-assets-were-either-replaced-or-refined-by-humans)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Control Resonant 9 月 24 日发售](https://www.rockpapershotgun.com/control-resonant-release-date-yeah-thats-nice-now-move-aside-so-i-can-look-at-its-system-requirements-and-ohhh-thats-a-lot-of-ssd-space)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft's new MAI models](https://simonwillison.net/2026/Jun/2/microsofts-new-models/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Uber Caps Usage of AI Tools](https://simonwillison.net/2026/Jun/3/uber-caps-usage/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [datasette-agent-micropython 0.1a0](https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials

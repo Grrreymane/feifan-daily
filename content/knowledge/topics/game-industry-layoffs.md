@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-05-30"
+updated: "2026-06-04"
 ---
 
 # 游戏行业裁员
@@ -230,3 +230,12 @@ updated: "2026-05-30"
 
 ### [内存才是 AI 真正的瓶颈：XCENA 拿到 1.35 亿美金](https://techcrunch.com/2026/05/29/xcena-secures-135m-at-570m-valuation-betting-on-memory-as-ais-real-bottleneck/)
 - 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft 开源 ASSERT：用文字描述生成 AI 行为测试](https://techcrunch.com/2026/06/02/new-microsoft-tool-lets-devs-spin-up-ai-behavior-tests-using-text-descriptions/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [GitLab 裁员 14%，押注 AI 工作负载](https://techcrunch.com/2026/06/03/gitlab-cuts-14-of-staff-as-it-scales-its-platform-to-serve-ai-workloads/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level Job Digest：Visionary、Netflix、Epic、Warhorse 等本周开放岗位](https://80.lv/articles/80-level-job-digest-find-great-roles-for-creatives-here/)
+- 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
