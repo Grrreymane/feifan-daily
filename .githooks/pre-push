@@ -1,0 +1,21 @@
+#!/bin/bash
+# pre-push hook — 在推送到 GitHub 前自动跑 frontmatter 检查
+# 失败则阻断 push，提示修复
+#
+# 安装：cp .githooks/pre-push .git/hooks/pre-push && chmod +x .git/hooks/pre-push
+# 或：git config core.hooksPath .githooks
+
+set -e
+
+REPO_ROOT="$(git rev-parse --show-toplevel)"
+echo "🔍 [pre-push] 检查 frontmatter ..."
+
+if ! python3 "${REPO_ROOT}/scripts/check_frontmatter.py" --fix-suggest; then
+  echo ""
+  echo "❌ frontmatter 检查未通过，已阻止 push。"
+  echo "   修复后重试，或临时跳过：git push --no-verify"
+  exit 1
+fi
+
+echo "✅ [pre-push] frontmatter 检查通过"
+exit 0
