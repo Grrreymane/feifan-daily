@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-04"
+updated: "2026-06-07"
 ---
 
 # AI Agent
@@ -505,3 +505,6 @@ AI Agent 架构、实践与踩坑
 
 ### [datasette-agent-micropython 0.1a0](https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/)
 - 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [S&P 500 拒绝 SpaceX 入指数，同时挡掉 OpenAI 和 Anthropic 的资格](https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials

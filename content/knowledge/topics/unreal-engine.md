@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-05-30"
+updated: "2026-06-07"
 ---
 
 # Unreal Engine
@@ -472,3 +472,21 @@ UE 引擎更新与技巧
 
 ### [The Witcher 4 团队规模超过 W3 两倍 → AAA 团队膨胀讨论](https://www.rockpapershotgun.com/the-witcher-4-is-the-work-of-over-twice-as-many-cd-projekt-staff-as-the-witcher-3-in-a-fresh-display-of-how-blockbluster-team-sizes-have-ballooned)
 - 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [一款动作策略独立游戏 The Ember Guardian 接近 1 万销量复盘](https://www.reddit.com/r/gamedev/comments/1txnnik/my_actionstrategy_game_is_almost_at_10k_sales_so/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [如何防止外包合作伙伴偷偷用 AI 生成素材？](https://www.reddit.com/r/gamedev/comments/1txf3x5/how_do_you_prevent_outsourcing_partners_from/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [DLSS 4.5 UE 插件已发布 — 支持动态多帧生成](https://www.reddit.com/r/unrealengine/comments/1tx1ypf/dlss_45_unreal_engine_plugin_now_available/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [UE 在游戏外被忽视的强项 — 实时电影 / 虚拟制作](https://www.reddit.com/r/unrealengine/comments/1txlfxv/what_does_unreal_do_incredibly_well_that_people/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/september-becomes-a-pile-up-as-publishers-swerve-to-avoid-gta-6-opinion)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Nex Playground："今年的元器件已经备好"——避开 AI 涨价潮](https://www.gamesindustry.biz/we-have-secured-our-components-for-this-year-nex-playground-hopes-to-avoid-any-further-ai-related-price-rises)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
