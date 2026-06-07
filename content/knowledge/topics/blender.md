@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-04"
+updated: "2026-06-07"
 ---
 
 # Blender
@@ -343,3 +343,12 @@ Blender 工具与社区动态
 
 ### [Ana Roman：从 ZBrush 到 Splash Screen——Lady Made of Rock 制作流程](https://80.lv/articles/from-model-to-zbrush-splash-screen-process-of-crafting-lady-made-of-rock/)
 - 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [*Guild Wars 3* 官宣 PC/PS5，2027 秋 beta](https://80.lv/articles/guild-wars-3-officially-revealed-for-pc-and-ps5-beta-coming-fall-2027/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [一段 Blender 黏液仿真 demo，又湿又粘](https://80.lv/articles/this-blender-simulation-looks-so-slimy-and-sticky/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Capcom 正式公布 *Resident Evil: Code Veronica Remake*（含首人称预告）](https://80.lv/articles/capcom-finally-announces-resident-evil-code-veronica-remake/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials

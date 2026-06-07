@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-04"
+updated: "2026-06-07"
 ---
 
 # AI 通用
@@ -2388,3 +2388,105 @@ updated: "2026-06-04"
 
 ### [datasette-agent-micropython 0.1a0](https://simonwillison.net/2026/Jun/2/datasette-agent-micropython/)
 - 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 开源 AI 漏洞挖掘框架](https://github.com/anthropics/defending-code-reference-harness)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [阿里巴巴开源 Open Code Review CLI](https://github.com/alibaba/open-code-review)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Transformer 真的需要三个投影吗？QKV 变体研究](https://arxiv.org/abs/2606.04032)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [1995 年风格的文档 LLM 微调](https://passo.uno/fine-tuning-docs-llm/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Steam 干掉了 Popular Upcoming](https://www.reddit.com/r/gamedev/comments/1tx42yd/steam_nuked_popular_upcoming/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [把"伪娘营销"变成中国小黑盒涨粉策略](https://www.reddit.com/r/gamedev/comments/1txd5ig/turns_out_femboy_baiting_is_a_pretty_solid/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [一款动作策略独立游戏 The Ember Guardian 接近 1 万销量复盘](https://www.reddit.com/r/gamedev/comments/1txnnik/my_actionstrategy_game_is_almost_at_10k_sales_so/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [如何防止外包合作伙伴偷偷用 AI 生成素材？](https://www.reddit.com/r/gamedev/comments/1txf3x5/how_do_you_prevent_outsourcing_partners_from/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [DLSS 4.5 UE 插件已发布 — 支持动态多帧生成](https://www.reddit.com/r/unrealengine/comments/1tx1ypf/dlss_45_unreal_engine_plugin_now_available/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [UE 在游戏外被忽视的强项 — 实时电影 / 虚拟制作](https://www.reddit.com/r/unrealengine/comments/1txlfxv/what_does_unreal_do_incredibly_well_that_people/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Psychological Horror Game *UN: Me* 公布登陆 Switch 2/PS5/PC](https://80.lv/articles/psychological-horror-game-un-me-announced-for-switch-2-ps5-and-pc/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [近距离看 *Prove You're Human* 中的 AI 角色 Mesa](https://80.lv/articles/take-a-closer-look-at-mesa-the-ai-from-prove-you-re-human/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [*1666: Amsterdam* —— 刺客信条之父被 Ubisoft 抢走十多年的项目终于复活](https://80.lv/articles/1666-amsterdam-is-a-dark-story-driven-action-game-from-the-creator-of-assassin-s-creed/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Capcom 正式公布 *Resident Evil: Code Veronica Remake*（含首人称预告）](https://80.lv/articles/capcom-finally-announces-resident-evil-code-veronica-remake/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [*Alien: Isolation 2* 首支正式预告：来到外星雾林](https://www.rockpapershotgun.com/a-new-hunting-ground-for-the-ultimate-apex-predator-alien-isolation-2-gets-its-first-proper-trailer)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Fumito Ueda 新作机甲游戏定名 *Gen Atlas*](https://www.rockpapershotgun.com/overwhelming-power-fumito-uedas-giant-robot-game-gets-an-official-title-and-wait-a-minute-is-that-a-gun)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [007 First Light 销量破 270 万，"接近 300 万"，预算远低于此前传的 $200M](https://www.gamesindustry.biz/007-first-light-officially-sells-27-million-copies-probably-at-three-million)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Nex Playground："今年的元器件已经备好"——避开 AI 涨价潮](https://www.gamesindustry.biz/we-have-secured-our-components-for-this-year-nex-playground-hopes-to-avoid-any-further-ai-related-price-rises)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [S&P 500 拒绝 SpaceX 入指数，同时挡掉 OpenAI 和 Anthropic 的资格](https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [How LLMs work（科普长文）](https://www.0xkato.xyz/how-llms-actually-work/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Ask HN: 你和 GenAI 的"oh shit"瞬间是哪一刻？](https://news.ycombinator.com/item?id=48406174)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Conventional Commits 是在让你关注错的东西](https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Ask HN: 为什么 HN 群体如此反 AI？](https://news.ycombinator.com/item?id=48420827)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Gemma 4 QAT：为手机和笔记本优化的量化感知训练](https://blog.google/innovation-and-ai/technology/developers-tools/quantization-aware-training-gemma-4/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [pg_durable：Microsoft 开源 Postgres 内的 durable execution](https://github.com/microsoft/pg_durable)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Mouseless：键盘控制 macOS/Linux/Windows](https://mouseless.click)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Trump 政府考虑入股 OpenAI](https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Sriram Krishnan 离任白宫 AI 顾问，启动新机构继续做 AI 政策](https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [NSA 据报准备使用 Anthropic 的 Mythos 用于网络作战，尽管联邦禁令在](https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Supabase 估值 8 个月翻倍至 $10B](https://techcrunch.com/2026/06/05/supabase-doubles-valuation-to-10b-in-8-months/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Google + FBI 警告：勒索团伙派假 IT 工程师上门入侵律所](https://techcrunch.com/2026/06/05/google-and-fbi-warn-of-ransomware-group-that-sends-fake-it-workers-to-hack-victims-in-person/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [前网络安全高管举报：IBM 多年隐瞒数据泄露事件](https://techcrunch.com/2026/06/05/former-cyber-executive-turned-whistleblower-accuses-ibm-of-covering-up-several-data-breaches/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI Help: Lockdown Mode 上线（Plus/Pro/Business）](https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Beyond Instagram：下一代社交应用涌现](https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-05-30"
+updated: "2026-06-07"
 ---
 
 # 大语言模型
@@ -247,3 +247,30 @@ LLM 技术进展、应用与讨论
 
 ### [Real-time LLM Inference on Standard GPUs: 3000 tokens/s per request](https://blog.kog.ai/real-time-llm-inference-on-standard-gpus-3-000-tokens-s-per-request/)
 - 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [阿里巴巴开源 Open Code Review CLI](https://github.com/alibaba/open-code-review)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Transformer 真的需要三个投影吗？QKV 变体研究](https://arxiv.org/abs/2606.04032)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [1995 年风格的文档 LLM 微调](https://passo.uno/fine-tuning-docs-llm/)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [程序员愿为 Claude 写文档但不为同事写](https://blog.plover.com/2026/03/09/#documentation-wins-2)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [ISS 宇航员被要求避险 SpaceX Dragon — 俄罗斯舱段漏气](https://www.bbc.com/news/live/c4g44ew3g1kt)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [S&P 500 拒绝 SpaceX 入指数，同时挡掉 OpenAI 和 Anthropic 的资格](https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [How LLMs work（科普长文）](https://www.0xkato.xyz/how-llms-actually-work/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Ask HN: 你和 GenAI 的"oh shit"瞬间是哪一刻？](https://news.ycombinator.com/item?id=48406174)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Conventional Commits 是在让你关注错的东西](https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-06-04"
+updated: "2026-06-06"
 ---
 
 # 游戏行业裁员
@@ -239,3 +239,6 @@ updated: "2026-06-04"
 
 ### [80 Level Job Digest：Visionary、Netflix、Epic、Warhorse 等本周开放岗位](https://80.lv/articles/80-level-job-digest-find-great-roles-for-creatives-here/)
 - 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/september-becomes-a-pile-up-as-publishers-swerve-to-avoid-gta-6-opinion)
+- 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials

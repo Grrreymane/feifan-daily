@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-05-30"
+updated: "2026-06-07"
 ---
 
 # OpenAI
@@ -448,3 +448,36 @@ OpenAI 公司动态与产品
 
 ### [Decision Space 播客（游戏设计深度访谈）](https://www.decisionspacepodcast.com/)
 - 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [S&P 500 拒绝 SpaceX 入指数，同时挡掉 OpenAI 和 Anthropic 的资格](https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [How LLMs work（科普长文）](https://www.0xkato.xyz/how-llms-actually-work/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [pg_durable：Microsoft 开源 Postgres 内的 durable execution](https://github.com/microsoft/pg_durable)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Mouseless：键盘控制 macOS/Linux/Windows](https://mouseless.click)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Trump 政府考虑入股 OpenAI](https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Sriram Krishnan 离任白宫 AI 顾问，启动新机构继续做 AI 政策](https://techcrunch.com/2026/06/06/sriram-krishnan-is-leaving-his-role-as-white-house-ai-advisor/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [NSA 据报准备使用 Anthropic 的 Mythos 用于网络作战，尽管联邦禁令在](https://techcrunch.com/2026/06/05/nsa-said-to-be-readying-anthropics-mythos-for-use-in-cyber-operations/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Google + FBI 警告：勒索团伙派假 IT 工程师上门入侵律所](https://techcrunch.com/2026/06/05/google-and-fbi-warn-of-ransomware-group-that-sends-fake-it-workers-to-hack-victims-in-person/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [前网络安全高管举报：IBM 多年隐瞒数据泄露事件](https://techcrunch.com/2026/06/05/former-cyber-executive-turned-whistleblower-accuses-ibm-of-covering-up-several-data-breaches/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI Help: Lockdown Mode 上线（Plus/Pro/Business）](https://simonwillison.net/2026/Jun/5/openai-help-lockdown-mode/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Beyond Instagram：下一代社交应用涌现](https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/)
+- 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
