@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-07"
+updated: "2026-06-08"
 ---
 
 # Unreal Engine
@@ -490,3 +490,15 @@ UE 引擎更新与技巧
 
 ### [Nex Playground："今年的元器件已经备好"——避开 AI 涨价潮](https://www.gamesindustry.biz/we-have-secured-our-components-for-this-year-nex-playground-hopes-to-avoid-any-further-ai-related-price-rises)
 - 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Sinking City 2 释出首小时 Demo + 8/18 发售确定](https://www.rockpapershotgun.com/ukrainian-made-lovecraftian-horror-game-the-sinking-city-2-finally-has-a-release-date-and-you-can-play-the-first-hour-right-now-on-steam)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine 高赞实战分享：从 City Sample 抠出可移植的可破坏车辆系统](https://www.reddit.com/r/unrealengine/comments/1tzeppa/i_ripped_city_samples_entire_destructible_vehicle/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine：UE5 HUD 系统去 Tick 化的优化日记](https://www.reddit.com/r/unrealengine/comments/1tzfb2b/i_removed_every_tick_from_my_hud_system_in_ue5/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [r/unrealengine：用 PCG + 3 个 Mesh 重做《Dune》巨石阵](https://www.reddit.com/r/unrealengine/comments/1tzg004/i_recreated_dunes_giant_rocks_in_ue5_pcg_with/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials

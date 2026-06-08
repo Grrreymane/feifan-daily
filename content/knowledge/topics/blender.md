@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-07"
+updated: "2026-06-08"
 ---
 
 # Blender
@@ -352,3 +352,12 @@ Blender 工具与社区动态
 
 ### [Capcom 正式公布 *Resident Evil: Code Veronica Remake*（含首人称预告）](https://80.lv/articles/capcom-finally-announces-resident-evil-code-veronica-remake/)
 - 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [【游戏设计】Game Maker's Toolkit / Mark Brown](https://www.youtube.com/c/markbrowngmtk)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [【3D 美术】Blender Guru](https://www.blenderguru.com/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [【独立游戏】Decision Space](https://www.decisionspacepodcast.com/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-07"
+updated: "2026-06-08"
 ---
 
 # 大语言模型
@@ -274,3 +274,12 @@ LLM 技术进展、应用与讨论
 
 ### [Conventional Commits 是在让你关注错的东西](https://sumnerevans.com/posts/software-engineering/stop-using-conventional-commits/)
 - 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 千赞热帖："LLM 正在侵蚀我的软件工程师生涯，我不知道该怎么办"](https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 千赞热帖："LLM 正在侵蚀我的软件工程师生涯，我不知道该怎么办"](https://news.ycombinator.com/item?id=48434312（611)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 高分热帖：Ask HN](https://news.ycombinator.com/item?id=48406174（665)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials

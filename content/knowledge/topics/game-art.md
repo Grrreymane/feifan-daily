@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-05-30"
+updated: "2026-06-08"
 ---
 
 # 游戏美术
@@ -313,3 +313,12 @@ updated: "2026-05-30"
 
 ### [Houdini 制作风格化丛林资产，全程零贴图](https://80.lv/articles/houdini-made-stylized-jungle-assets-with-no-textures/)
 - 📅 2026-05-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Summer Game Fest 2026 主秀盛况：日厂全面碾压，Persona 6 时隔多年回归](https://www.theverge.com/entertainment/945256/persona-6-teaser)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://hyperallergic.com/how-liminalism-became-the-defining-aesthetic-of-our-time/（liminal)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://www.gamesindustry.biz/the-summer-game-fest-showcase-showed-japans-top-game-makers-racing-ever-further-ahead-of-the-west-opinion)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials

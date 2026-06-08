@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-07"
+updated: "2026-06-08"
 ---
 
 # AI Agent
@@ -508,3 +508,27 @@ AI Agent 架构、实践与踩坑
 
 ### [S&P 500 拒绝 SpaceX 入指数，同时挡掉 OpenAI 和 Anthropic 的资格](https://arstechnica.com/tech-policy/2026/06/sp-500-blocks-fast-spacex-entry-wont-waive-rule-for-unprofitable-ai-firms/)
 - 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 仍在做"超级应用"，资深员工说"chat 已死"](https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 高分热帖：OpenAI 工程实践](https://openai.com/index/harness-engineering/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 高分热帖：OpenAI 工程实践](https://news.ycombinator.com/item?id=48416264（268)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 248 赞热帖：Anthropic，请给 Linux 出官方 Claude Desktop](https://github.com/anthropics/claude-code/issues/65697)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 248 赞热帖：Anthropic，请给 Linux 出官方 Claude Desktop](https://news.ycombinator.com/item?id=48434436（279)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat 深度文：Agentic AI 解决了写代码，却暴露了软件工程的所有其他问题](https://venturebeat.com/technology/agentic-ai-solved-coding-and-exposed-every-other-problem-in-software-engineering)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://techcrunch.com/2026/06/06/the-trump-administration-might-take-an-equity-stake-in-openai/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials

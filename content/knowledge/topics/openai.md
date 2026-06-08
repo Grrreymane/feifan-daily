@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-06-07"
+updated: "2026-06-08"
 ---
 
 # OpenAI
@@ -481,3 +481,39 @@ OpenAI 公司动态与产品
 
 ### [Beyond Instagram：下一代社交应用涌现](https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/)
 - 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy 加入 Anthropic：负责预训练，并组建"用 Claude 加速预训练研究"的新团队](https://blog.csdn.net/csdnsevenn/article/details/161265952)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy 加入 Anthropic：负责预训练，并组建"用 Claude 加速预训练研究"的新团队](https://blog.csdn.net/Datawhale/article/details/161235781)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 千赞热帖："LLM 正在侵蚀我的软件工程师生涯，我不知道该怎么办"](https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 高分热帖：Ask HN](https://news.ycombinator.com/item?id=48406174（665)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 推 Lockdown Mode 抵御 prompt injection](https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta 确认数千个 Instagram 账号被 AI 聊天机器人漏洞黑了](https://news.ycombinator.com/item?id=48427643（668)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [WWDC 2026 前瞻：Siri 大改 + Apple Intelligence 更新](https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 仍在做"超级应用"，资深员工说"chat 已死"](https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 高分热帖：OpenAI 工程实践](https://openai.com/index/harness-engineering/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 高分热帖：OpenAI 工程实践](https://news.ycombinator.com/item?id=48416264（268)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://techcrunch.com/2026/06/07/the-worst-hacks-and-breaches-of-2026-so-far/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://techcrunch.com/2026/06/07/inside-gms-900m-ev-battery-gamble/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
