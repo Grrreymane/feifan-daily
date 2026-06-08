@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-05-24"
+updated: "2026-06-08"
 ---
 
 # 游戏行业
@@ -230,3 +230,6 @@ updated: "2026-05-24"
 
 ### [Blender 将引入原生 Texture Layer System](https://80.lv/articles/blender-to-add-native-texture-layer-system/)
 - 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Summer Game Fest 2026 主秀盛况：日厂全面碾压，Persona 6 时隔多年回归](https://www.theverge.com/entertainment/945256/persona-6-teaser)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials

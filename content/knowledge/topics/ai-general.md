@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-07"
+updated: "2026-06-08"
 ---
 
 # AI 通用
@@ -2490,3 +2490,84 @@ updated: "2026-06-07"
 
 ### [Beyond Instagram：下一代社交应用涌现](https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/)
 - 📅 2026-06-07 · 来源: daily-materials · 分类: daily-materials
+
+### [Summer Game Fest 2026 主秀盛况：日厂全面碾压，Persona 6 时隔多年回归](https://www.theverge.com/entertainment/945256/persona-6-teaser)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Summer Game Fest 2026 主秀盛况：日厂全面碾压，Persona 6 时隔多年回归](https://www.gamesindustry.biz/the-summer-game-fest-showcase-showed-japans-top-game-makers-racing-ever-further-ahead-of-the-west-opinion)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Sinking City 2 释出首小时 Demo + 8/18 发售确定](https://www.rockpapershotgun.com/ukrainian-made-lovecraftian-horror-game-the-sinking-city-2-finally-has-a-release-date-and-you-can-play-the-first-hour-right-now-on-steam)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy 加入 Anthropic：负责预训练，并组建"用 Claude 加速预训练研究"的新团队](https://blog.csdn.net/csdnsevenn/article/details/161265952)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy 加入 Anthropic：负责预训练，并组建"用 Claude 加速预训练研究"的新团队](https://blog.csdn.net/Datawhale/article/details/161235781)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 千赞热帖："LLM 正在侵蚀我的软件工程师生涯，我不知道该怎么办"](https://human-in-the-loop.bearblog.dev/llms-are-eroding-my-software-engineering-career-and-i-dont-know-what-to-do/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 千赞热帖："LLM 正在侵蚀我的软件工程师生涯，我不知道该怎么办"](https://news.ycombinator.com/item?id=48434312（611)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 高分热帖：Ask HN](https://news.ycombinator.com/item?id=48406174（665)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 推 Lockdown Mode 抵御 prompt injection](https://techcrunch.com/2026/06/06/openai-unveils-lockdown-mode-to-protect-sensitive-data-from-prompt-injection-attacks/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta 确认数千个 Instagram 账号被 AI 聊天机器人漏洞黑了](https://this.weekinsecurity.com/meta-confirms-thousands-of-instagram-accounts-were-hacked-by-abusing-its-ai-chatbot/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta 确认数千个 Instagram 账号被 AI 聊天机器人漏洞黑了](https://news.ycombinator.com/item?id=48427643（668)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [WWDC 2026 前瞻：Siri 大改 + Apple Intelligence 更新](https://techcrunch.com/2026/06/06/what-to-expect-from-wwdc-2026-siris-highly-anticipated-revamp-and-apple-intelligence-updates/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 仍在做"超级应用"，资深员工说"chat 已死"](https://techcrunch.com/2026/06/07/openai-is-still-working-on-that-super-app/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 高分热帖：OpenAI 工程实践](https://openai.com/index/harness-engineering/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 高分热帖：OpenAI 工程实践](https://news.ycombinator.com/item?id=48416264（268)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 248 赞热帖：Anthropic，请给 Linux 出官方 Claude Desktop](https://news.ycombinator.com/item?id=48434436（279)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat 深度文：Agentic AI 解决了写代码，却暴露了软件工程的所有其他问题](https://venturebeat.com/technology/agentic-ai-solved-coding-and-exposed-every-other-problem-in-software-engineering)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [【AI 深度】Dwarkesh Podcast](https://www.dwarkeshpatel.com/podcast)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Crestamorph（绘画 + 漫画双栖）](https://x.com/Crestamorph)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Skaifox（柔和厚涂兽人）](https://x.com/Skaifox)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [BladeTiger_Art（写实虎类专家）](https://x.com/BladeTiger_Art)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://techcrunch.com/2026/06/07/the-worst-hacks-and-breaches-of-2026-so-far/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://techcrunch.com/2026/06/07/inside-gms-900m-ev-battery-gamble/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://www.ioccc.org/2025/)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://ntsc.rs/（对像素风/复古风游戏后期非常有用）)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://pdimagearchive.org/（学习/试验素材好去处）)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 / @takemotoarashi](https://hyperallergic.com/how-liminalism-became-the-defining-aesthetic-of-our-time/（liminal)
+- 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
