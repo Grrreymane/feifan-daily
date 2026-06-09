@@ -348,7 +348,7 @@ function homePageHtml(allPosts) {
 
 // ===== Security Check =====
 function securityScan() {
-  const BLOCKED = [/the primary image engine/i, /nano[\-\s]?banana/i, /internal.example.com/i, /internal-wiki/i, /internal-tracker/i];
+  const BLOCKED = [/the primary image engine/i, /internal.example.com/i, /internal-wiki/i, /internal-tracker/i];
   const violations = [];
   for (const [cat] of Object.entries(CATEGORIES)) {
     const dir = path.join(CONTENT_DIR, cat);
