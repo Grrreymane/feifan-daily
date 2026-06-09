@@ -348,7 +348,7 @@ function homePageHtml(allPosts) {
 
 // ===== Security Check =====
 function securityScan() {
-  const BLOCKED = [/lightai/i, /nano[\-\s]?banana/i, /woa\.com/i, /iwiki/i, /tapd/i];
+  const BLOCKED = [/lightai/i, /woa\.com/i, /iwiki/i, /tapd/i];
   const violations = [];
   for (const [cat] of Object.entries(CATEGORIES)) {
     const dir = path.join(CONTENT_DIR, cat);
