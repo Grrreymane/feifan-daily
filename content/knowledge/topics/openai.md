@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-06-08"
+updated: "2026-06-10"
 ---
 
 # OpenAI
@@ -517,3 +517,9 @@ OpenAI 公司动态与产品
 
 ### [竹本嵐 / @takemotoarashi](https://techcrunch.com/2026/06/07/inside-gms-900m-ev-battery-gamble/)
 - 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 秘密提交 IPO 文件，紧随 Anthropic 之后](https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy microGPT](http://karpathy.github.io)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials

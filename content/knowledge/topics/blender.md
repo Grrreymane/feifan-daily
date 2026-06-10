@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-08"
+updated: "2026-06-10"
 ---
 
 # Blender
@@ -361,3 +361,18 @@ Blender 工具与社区动态
 
 ### [【独立游戏】Decision Space](https://www.decisionspacepodcast.com/)
 - 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Geometry Nodes 编织生成器](https://80.lv/articles/incredible-weave-generator-powered-by-blender-s-geometry-nodes)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Callipeg 2D 动画工具登陆 PC](https://80.lv/articles/2d-animation-app-callipeg-is-coming-to-pc)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [5. FlippedNormals](http://www.flippednormals.com)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [6. Blender Guru](http://www.blenderguru.com)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [7. The Vergecast（Apple WWDC 2026 特集，预期）](https://www.theverge.com/the-vergecast)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials

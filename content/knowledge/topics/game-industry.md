@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-06-08"
+updated: "2026-06-10"
 ---
 
 # 游戏行业
@@ -233,3 +233,12 @@ updated: "2026-06-08"
 
 ### [Summer Game Fest 2026 主秀盛况：日厂全面碾压，Persona 6 时隔多年回归](https://www.theverge.com/entertainment/945256/persona-6-teaser)
 - 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [工业级动画/CG 制作幕后](https://80.lv/articles/look-development-breakdown-astrid-from-how-to-train-your-dragon-the-hidden-world)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Callipeg 2D 动画工具登陆 PC](https://80.lv/articles/2d-animation-app-callipeg-is-coming-to-pc)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [游戏行业大事](https://www.gamesindustry.biz/ninja-theory-cancels-project-mara)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials

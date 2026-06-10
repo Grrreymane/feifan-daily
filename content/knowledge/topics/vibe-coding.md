@@ -3,7 +3,7 @@ title: "Vibe Coding"
 slug: "vibe-coding"
 description: "AI 辅助编程的现象、利弊与讨论"
 created: "2026-04-07"
-updated: "2026-05-06"
+updated: "2026-06-10"
 ---
 
 # Vibe Coding
@@ -35,3 +35,12 @@ AI 辅助编程的现象、利弊与讨论
 
 ### [Niels Berglund 总结](https://nielsberglund.com/post/2026-05-03-interesting-stuff---week-18-2026/)
 - 📅 2026-05-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Lovable 5亿美元 ARR + 每周百万新项目](https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 秘密提交 IPO 文件，紧随 Anthropic 之后](https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### ['Sloppenheimer': Amazon 员工在 Slack 上嘲讽自家 AI](https://www.404media.co/sloppenheimer-amazon-employees-mock-the-companys-ai-on-slack)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials

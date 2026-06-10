@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-08"
+updated: "2026-06-10"
 ---
 
 # AI 通用
@@ -2571,3 +2571,48 @@ updated: "2026-06-08"
 
 ### [竹本嵐 / @takemotoarashi](https://hyperallergic.com/how-liminalism-became-the-defining-aesthetic-of-our-time/（liminal)
 - 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [1. Anthropic 发布 Claude Fable 5 —— Mythos级模型首次面向大众](https://www.anthropic.com/news/claude-fable-5-mythos-5)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [工业级动画/CG 制作幕后](https://80.lv/articles/look-development-breakdown-astrid-from-how-to-train-your-dragon-the-hidden-world)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Building Captain Itch: Character-Led CGI Campaign with Unreal Engine](https://80.lv/articles/building-captain-itch-designing-a-character-led-cgi-campaign-with-unreal-engine)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [DCC 工具更新](https://80.lv/articles/get-a-first-look-at-houdini-22)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox Game Pass 涨价后流失"数百万"订阅](https://80.lv/articles/xbox-game-pass-lost-millions-of-subscribers-after-price-increase)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 模型/产品](https://opencv.org/opencv-5)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Lovable 5亿美元 ARR + 每周百万新项目](https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 秘密提交 IPO 文件，紧随 Anthropic 之后](https://techcrunch.com/2026/06/08/following-anthropic-openai-files-confidentially-for-ipo)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [深度博客/分析（HN 高分）](https://www.codingwithjesse.com/blog/rockstar-developers)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### ['Sloppenheimer': Amazon 员工在 Slack 上嘲讽自家 AI](https://www.404media.co/sloppenheimer-amazon-employees-mock-the-companys-ai-on-slack)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft 开源工具被攻击，AI 开发者密码遭窃](https://techcrunch.com/2026/06/08/microsofts-open-source-tools-were-hacked-to-steal-passwords-of-ai-developers)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple's slow-and-steady AI bet starting to look smart](https://techcrunch.com/2026/06/08/why-apples-slow-and-steady-ai-bet-is-starting-to-look-pretty-smart)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [论文/技术研究](https://arxiv.org/abs/2605.15184)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Performative-UI: design tropes 的 React 组件库](https://vorpus.github.io/performativeUI)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Making Graphics Like it's 1993](https://staniks.github.io/articles/catlantean-3d-blog-1)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
