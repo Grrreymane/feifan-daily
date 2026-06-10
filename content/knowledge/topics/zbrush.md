@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-06-04"
+updated: "2026-06-10"
 ---
 
 # ZBrush
@@ -121,3 +121,9 @@ ZBrush 雕刻与工作流
 
 ### [Ikumi Nakamura 新作 Kemuri 揭面：合作打妖怪是仪式](https://www.rockpapershotgun.com/one-discovers-one-guides-and-one-strikes-the-final-blow-ikumi-nakamuras-new-yokai-hunting-game-kemuri-is-turning-co-op-into-a-ritual-somehow)
 - 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [5. FlippedNormals](http://www.flippednormals.com)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [6. Blender Guru](http://www.blenderguru.com)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials

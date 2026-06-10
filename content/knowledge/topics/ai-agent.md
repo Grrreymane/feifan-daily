@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-08"
+updated: "2026-06-10"
 ---
 
 # AI Agent
@@ -532,3 +532,9 @@ AI Agent 架构、实践与踩坑
 
 ### [竹本嵐 / @takemotoarashi](https://techcrunch.com/2026/06/06/beyond-instagram-introducing-the-next-generation-of-social-apps/)
 - 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [论文/技术研究](https://arxiv.org/abs/2605.15184)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Can LLMs Beat Classical Hyperparameter Optimization Algorithms?](https://arxiv.org/abs/2603.24647)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials

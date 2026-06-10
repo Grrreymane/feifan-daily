@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-08"
+updated: "2026-06-10"
 ---
 
 # 游戏美术
@@ -322,3 +322,9 @@ updated: "2026-06-08"
 
 ### [竹本嵐 / @takemotoarashi](https://www.gamesindustry.biz/the-summer-game-fest-showcase-showed-japans-top-game-makers-racing-ever-further-ahead-of-the-west-opinion)
 - 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [1. Anthropic 发布 Claude Fable 5 —— Mythos级模型首次面向大众](https://www.anthropic.com/news/claude-fable-5-mythos-5)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [工业级动画/CG 制作幕后](https://80.lv/articles/look-development-breakdown-astrid-from-how-to-train-your-dragon-the-hidden-world)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials

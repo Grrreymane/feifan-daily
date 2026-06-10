@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-08"
+updated: "2026-06-10"
 ---
 
 # 大语言模型
@@ -283,3 +283,15 @@ LLM 技术进展、应用与讨论
 
 ### [HN 高分热帖：Ask HN](https://news.ycombinator.com/item?id=48406174（665)
 - 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenCV 5 发布 —— 计算机视觉数年来最大跃迁](https://opencv.org/opencv-5)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Lovable 5亿美元 ARR + 每周百万新项目](https://techcrunch.com/2026/06/09/lovable-says-it-has-hit-500m-in-annualized-revenue-with-1-million-new-projects-a-week)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Can LLMs Beat Classical Hyperparameter Optimization Algorithms?](https://arxiv.org/abs/2603.24647)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [创意/计算艺术](https://vorpus.github.io/performativeUI)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials

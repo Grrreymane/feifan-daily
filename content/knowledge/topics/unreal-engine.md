@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-08"
+updated: "2026-06-10"
 ---
 
 # Unreal Engine
@@ -502,3 +502,12 @@ UE 引擎更新与技巧
 
 ### [r/unrealengine：用 PCG + 3 个 Mesh 重做《Dune》巨石阵](https://www.reddit.com/r/unrealengine/comments/1tzg004/i_recreated_dunes_giant_rocks_in_ue5_pcg_with/)
 - 📅 2026-06-08 · 来源: daily-materials · 分类: daily-materials
+
+### [Building Captain Itch: Character-Led CGI Campaign with Unreal Engine](https://80.lv/articles/building-captain-itch-designing-a-character-led-cgi-campaign-with-unreal-engine)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [DCC 工具更新](https://80.lv/articles/get-a-first-look-at-houdini-22)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 模型/产品](https://opencv.org/opencv-5)
+- 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
