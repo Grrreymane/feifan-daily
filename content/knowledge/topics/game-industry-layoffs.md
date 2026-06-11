@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-06-06"
+updated: "2026-06-11"
 ---
 
 # 游戏行业裁员
@@ -242,3 +242,9 @@ updated: "2026-06-06"
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/september-becomes-a-pile-up-as-publishers-swerve-to-avoid-gta-6-opinion)
 - 📅 2026-06-06 · 来源: daily-materials · 分类: daily-materials
+
+### [[D. Houdini MPM Solver 模拟岩浆流动](https://80.lv/articles/simulating-lava-flow-with-houdini-s-mpm-solver/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[E. Ubisoft 关闭温尼伯 / 贝尔格莱德工作室，全球裁员 380 人](https://www.gamesindustry.biz/ubisoft-closing-studios-in-winnipeg-and-belgrade-and-cutting-publishing-roles-worldwide-380-jobs-at-risk)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials

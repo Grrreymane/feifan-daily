@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-06-04"
+updated: "2026-06-11"
 ---
 
 # Substance 3D
@@ -115,3 +115,9 @@ Substance 系列工具与材质
 
 ### [Ikumi Nakamura 新作 Kemuri 揭面：合作打妖怪是仪式](https://www.rockpapershotgun.com/one-discovers-one-guides-and-one-strikes-the-final-blow-ikumi-nakamuras-new-yokai-hunting-game-kemuri-is-turning-co-op-into-a-ritual-somehow)
 - 📅 2026-06-04 · 来源: daily-materials · 分类: daily-materials
+
+### [[4. FlippedNormals（YouTube 频道 & 课程）](https://www.flippednormals.com/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[5. Blender Guru（Andrew Price）](https://www.blenderguru.com/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials

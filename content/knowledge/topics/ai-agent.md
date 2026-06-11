@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-10"
+updated: "2026-06-11"
 ---
 
 # AI Agent
@@ -538,3 +538,18 @@ AI Agent 架构、实践与踩坑
 
 ### [Can LLMs Beat Classical Hyperparameter Optimization Algorithms?](https://arxiv.org/abs/2603.24647)
 - 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [[3. 德国法院判决：Google AI Overviews 错误回答需自担责任](https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[A. 6,000 个 Agent 同帧：GPU 驱动人群系统（80 Level 教程）](https://80.lv/articles/6-000-agents-on-one-game-thread-novel-high-performance-framework-for-gpu-driven-crowd-systems/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[工具与生态](https://github.com/apple/container/blob/main/docs/container-machine.md)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[安全与合规](https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[r/gamedev（游戏开发心声）](https://www.reddit.com/r/gamedev/comments/1tzff7r/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials

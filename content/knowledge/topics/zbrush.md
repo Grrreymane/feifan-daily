@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-06-10"
+updated: "2026-06-11"
 ---
 
 # ZBrush
@@ -127,3 +127,15 @@ ZBrush 雕刻与工作流
 
 ### [6. Blender Guru](http://www.blenderguru.com)
 - 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [[A. 6,000 个 Agent 同帧：GPU 驱动人群系统（80 Level 教程）](https://80.lv/articles/6-000-agents-on-one-game-thread-novel-high-performance-framework-for-gpu-driven-crowd-systems/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[B. ZBrush + UE 制作真实生锈大门 Diorama](https://80.lv/articles/designing-a-diorama-of-a-realistic-rusty-gate-using-zbrush-and-unreal-engine/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[4. FlippedNormals（YouTube 频道 & 课程）](https://www.flippednormals.com/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[5. Blender Guru（Andrew Price）](https://www.blenderguru.com/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials

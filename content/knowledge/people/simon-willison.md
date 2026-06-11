@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-05-23"
+updated: "2026-06-11"
 ---
 
 # Simon Willison
@@ -61,3 +61,5 @@ updated: "2026-05-23"
 - 📅 2026-05-18 — [Simon Willison](https://simonwillison.net/2026/May/17/gds-weighs-in/#atom-everything)
 
 - 📅 2026-05-23 — [1. Simon Willison · Datasette Agent 首发](https://simonwillison.net/2026/May/21/datasette-agent/)
+
+- 📅 2026-06-11 — [[Simon Willison 系列（深度博客重点推荐）](https://simonwillison.net/2026/Jun/9/llm/)

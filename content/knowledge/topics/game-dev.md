@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-05-24"
+updated: "2026-06-11"
 ---
 
 # 游戏开发
@@ -187,3 +187,12 @@ updated: "2026-05-24"
 
 ### [Quetoo — 历经 19 年的 QUAKE 致敬作正式发布](https://www.reddit.com/r/gamedev/comments/1tlivz7/quetoo_a_love_letter_to_the_quake_series_released/)
 - 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [[3. Hard Fork (NYT, Kevin Roose & Casey Newton)](https://www.nytimes.com/column/hard-fork)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[4. FlippedNormals（YouTube 频道 & 课程）](https://www.flippednormals.com/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[r/gamedev（游戏开发心声）](https://www.reddit.com/r/gamedev/comments/1tzff7r/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials

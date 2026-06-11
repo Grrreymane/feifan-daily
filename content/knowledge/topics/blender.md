@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-10"
+updated: "2026-06-11"
 ---
 
 # Blender
@@ -376,3 +376,9 @@ Blender 工具与社区动态
 
 ### [7. The Vergecast（Apple WWDC 2026 特集，预期）](https://www.theverge.com/the-vergecast)
 - 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [[B. ZBrush + UE 制作真实生锈大门 Diorama](https://80.lv/articles/designing-a-diorama-of-a-realistic-rusty-gate-using-zbrush-and-unreal-engine/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[C. Blender 插件 Cloud Paint：真体积感的风格化云](https://80.lv/articles/blender-tool-for-creating-stylized-3d-clouds-with-true-volume/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
