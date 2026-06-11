@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-10"
+updated: "2026-06-11"
 ---
 
 # AI 通用
@@ -2616,3 +2616,57 @@ updated: "2026-06-10"
 
 ### [Making Graphics Like it's 1993](https://staniks.github.io/articles/catlantean-3d-blog-1)
 - 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [[2. Arm 神经渲染 + UE MegaLights 首次登陆移动端（游戏×AI 交叉）](https://www.gamesindustry.biz/new-arm-tech-enables-the-use-of-unreal-engine-megalights-on-mobile)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[3. 德国法院判决：Google AI Overviews 错误回答需自担责任](https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[B. ZBrush + UE 制作真实生锈大门 Diorama](https://80.lv/articles/designing-a-diorama-of-a-realistic-rusty-gate-using-zbrush-and-unreal-engine/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[C. Blender 插件 Cloud Paint：真体积感的风格化云](https://80.lv/articles/blender-tool-for-creating-stylized-3d-clouds-with-true-volume/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[H. Frontier Developments FY26 创纪录利润：扭亏为盈](https://www.gamesindustry.biz/frontier-developments-reports-record-profits-in-fy26-turnaround)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[I. ESA 警告"No Fakes Act"未区分深伪与游戏数字替身](https://www.gamesindustry.biz/esa-warns-no-fakes-act-fails-to-distinguish-between-deepfakes-and-digital-replicas-used-in-video-games)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[J. Resident Evil: Veronica 制作人确认由 RE2 Remake 团队操刀](https://80.lv/articles/resident-evil-veronica-producer-shares-new-details-confirms-re2-remake-team-at-helm/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[K. Kingdom Hearts IV 突袭新预告 + KH Collection 登陆 Switch 2](https://80.lv/articles/kingdom-hearts-iv-gets-surprise-new-gameplay-trailer/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[L. Big Walk（Untitled Goose Game 工作室新作）8月发售 + 6年开发回顾](https://80.lv/articles/co-op-walker-talker-from-developers-of-untitled-goose-game-is-coming-in-august/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[模型与发布](https://opencv.org/opencv-5/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[工具与生态](https://github.com/apple/container/blob/main/docs/container-machine.md)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[安全与合规](https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[Simon Willison 系列（深度博客重点推荐）](https://simonwillison.net/2026/Jun/9/llm/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[行业讨论 / 文化](https://mohkohn.co.uk/writing/html-first/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[3. Hard Fork (NYT, Kevin Roose & Casey Newton)](https://www.nytimes.com/column/hard-fork)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[画师线索](https://x.com/shepherd0821)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[r/gamedev（游戏开发心声）](https://www.reddit.com/r/gamedev/comments/1tzff7r/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[✏️ 给明早简报的编排建议](https://jivx.com/eki)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials

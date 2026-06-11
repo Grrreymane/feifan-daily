@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-10"
+updated: "2026-06-11"
 ---
 
 # 大语言模型
@@ -295,3 +295,9 @@ LLM 技术进展、应用与讨论
 
 ### [创意/计算艺术](https://vorpus.github.io/performativeUI)
 - 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [[安全与合规](https://blue41.com/blog/how-we-helped-bunq-secure-their-financial-ai-assistant/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[Simon Willison 系列（深度博客重点推荐）](https://simonwillison.net/2026/Jun/9/llm/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials

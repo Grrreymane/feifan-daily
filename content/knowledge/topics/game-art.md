@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-10"
+updated: "2026-06-11"
 ---
 
 # 游戏美术
@@ -328,3 +328,12 @@ updated: "2026-06-10"
 
 ### [工业级动画/CG 制作幕后](https://80.lv/articles/look-development-breakdown-astrid-from-how-to-train-your-dragon-the-hidden-world)
 - 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [[3. 德国法院判决：Google AI Overviews 错误回答需自担责任](https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[3. Hard Fork (NYT, Kevin Roose & Casey Newton)](https://www.nytimes.com/column/hard-fork)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[4. FlippedNormals（YouTube 频道 & 课程）](https://www.flippednormals.com/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-10"
+updated: "2026-06-11"
 ---
 
 # Unreal Engine
@@ -511,3 +511,12 @@ UE 引擎更新与技巧
 
 ### [AI 模型/产品](https://opencv.org/opencv-5)
 - 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [[2. Arm 神经渲染 + UE MegaLights 首次登陆移动端（游戏×AI 交叉）](https://www.gamesindustry.biz/new-arm-tech-enables-the-use-of-unreal-engine-megalights-on-mobile)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[B. ZBrush + UE 制作真实生锈大门 Diorama](https://80.lv/articles/designing-a-diorama-of-a-realistic-rusty-gate-using-zbrush-and-unreal-engine/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[r/unrealengine（UE 生态）](https://www.reddit.com/r/unrealengine/comments/1u1vbsb/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials

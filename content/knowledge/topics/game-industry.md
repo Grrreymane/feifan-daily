@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-06-10"
+updated: "2026-06-11"
 ---
 
 # 游戏行业
@@ -242,3 +242,18 @@ updated: "2026-06-10"
 
 ### [游戏行业大事](https://www.gamesindustry.biz/ninja-theory-cancels-project-mara)
 - 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [[3. 德国法院判决：Google AI Overviews 错误回答需自担责任](https://the-decoder.com/landmark-german-ruling-declares-googles-ai-overviews-are-googles-own-words-and-makes-it-liable-for-false-answers/)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[E. Ubisoft 关闭温尼伯 / 贝尔格莱德工作室，全球裁员 380 人](https://www.gamesindustry.biz/ubisoft-closing-studios-in-winnipeg-and-belgrade-and-cutting-publishing-roles-worldwide-380-jobs-at-risk)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[F. EA 550 亿美元收购案：为什么这不是普通杠杆收购](https://www.gamesindustry.biz/why-the-55bn-acquisition-of-electronic-arts-isnt-your-usual-leveraged-buyout)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[H. Frontier Developments FY26 创纪录利润：扭亏为盈](https://www.gamesindustry.biz/frontier-developments-reports-record-profits-in-fy26-turnaround)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [[I. ESA 警告"No Fakes Act"未区分深伪与游戏数字替身](https://www.gamesindustry.biz/esa-warns-no-fakes-act-fails-to-distinguish-between-deepfakes-and-digital-replicas-used-in-video-games)
+- 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
