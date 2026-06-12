@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-06-11"
+updated: "2026-06-12"
 ---
 
 # 游戏行业裁员
@@ -248,3 +248,6 @@ updated: "2026-06-11"
 
 ### [[E. Ubisoft 关闭温尼伯 / 贝尔格莱德工作室，全球裁员 380 人](https://www.gamesindustry.biz/ubisoft-closing-studios-in-winnipeg-and-belgrade-and-cutting-publishing-roles-worldwide-380-jobs-at-risk)
 - 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [传 Xbox 也将更大规模裁员](https://www.gamesindustry.biz/xbox-reportedly-planning-more-layoffs-as-ceo-calls-for-xbox-reset)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials

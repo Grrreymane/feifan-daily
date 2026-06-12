@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-11"
+updated: "2026-06-12"
 ---
 
 # AI 通用
@@ -2670,3 +2670,36 @@ updated: "2026-06-11"
 
 ### [[✏️ 给明早简报的编排建议](https://jivx.com/eki)
 - 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [传 Xbox 也将更大规模裁员](https://www.gamesindustry.biz/xbox-reportedly-planning-more-layoffs-as-ceo-calls-for-xbox-reset)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Lines of code got a better publicist](https://curlewis.co.nz/posts/lines-of-code-got-a-better-publicist/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Doing nothing at work](https://www.seangoedecke.com/doing-nothing-at-work/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Open Reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Web Browsers on Video Game Consoles](https://vale.rocks/posts/game-console-browsers)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Build a Basic AI Agent from Scratch: Long Task Planning](https://medium.com/@rogi23696/build-a-basic-ai-agent-from-scratch-long-task-planning-14e803f9bd6d)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [365 Days of Unreal Engine Tutorials](https://www.reddit.com/r/unrealengine/comments/1u33qh6/365_days_of_unreal_engine_tutorials/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [6 years later, 20k+ copies sold, $135k revenue and I only launched on Console](https://www.reddit.com/r/gamedev/comments/1tzff7r/6_years_later_20k_copies_sold_135k_revenue_and_i/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [ai.engineer 大会首次走出美国，落地伦敦](https://www.ai-insight.org/news/10708)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [datasette-agent 0.2a0](https://simonwillison.net/2026/Jun/10/datasette-agent/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Quoting Jeremy Howard](https://simonwillison.net/2026/Jun/10/jeremy-howard/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials

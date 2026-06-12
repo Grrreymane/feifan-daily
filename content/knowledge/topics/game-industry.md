@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-06-11"
+updated: "2026-06-12"
 ---
 
 # 游戏行业
@@ -257,3 +257,15 @@ updated: "2026-06-11"
 
 ### [[I. ESA 警告"No Fakes Act"未区分深伪与游戏数字替身](https://www.gamesindustry.biz/esa-warns-no-fakes-act-fails-to-distinguish-between-deepfakes-and-digital-replicas-used-in-video-games)
 - 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [传 Xbox 也将更大规模裁员](https://www.gamesindustry.biz/xbox-reportedly-planning-more-layoffs-as-ceo-calls-for-xbox-reset)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Open Reproduction of DeepSeek-R1](https://github.com/huggingface/open-r1)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Web Browsers on Video Game Consoles](https://vale.rocks/posts/game-console-browsers)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Build a Basic AI Agent from Scratch: Long Task Planning](https://medium.com/@rogi23696/build-a-basic-ai-agent-from-scratch-long-task-planning-14e803f9bd6d)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials

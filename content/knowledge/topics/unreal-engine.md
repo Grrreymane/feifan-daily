@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-11"
+updated: "2026-06-12"
 ---
 
 # Unreal Engine
@@ -520,3 +520,18 @@ UE 引擎更新与技巧
 
 ### [[r/unrealengine（UE 生态）](https://www.reddit.com/r/unrealengine/comments/1u1vbsb/)
 - 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [Build a Basic AI Agent from Scratch: Long Task Planning](https://medium.com/@rogi23696/build-a-basic-ai-agent-from-scratch-long-task-planning-14e803f9bd6d)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [365 Days of Unreal Engine Tutorials](https://www.reddit.com/r/unrealengine/comments/1u33qh6/365_days_of_unreal_engine_tutorials/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Per-material dynamic BRDF selection 插件预告](https://www.reddit.com/r/unrealengine/comments/1u31fpt/added_support_for_permaterial_dynamic_brdf/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [What actually changed about how you work once you properly understood Lumen?](https://www.reddit.com/r/unrealengine/comments/1u2e957/what_actually_changed_about_how_you_work_once_you/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [6 years later, 20k+ copies sold, $135k revenue and I only launched on Console](https://www.reddit.com/r/gamedev/comments/1tzff7r/6_years_later_20k_copies_sold_135k_revenue_and_i/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials

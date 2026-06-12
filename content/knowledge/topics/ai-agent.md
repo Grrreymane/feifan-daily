@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-11"
+updated: "2026-06-12"
 ---
 
 # AI Agent
@@ -553,3 +553,21 @@ AI Agent 架构、实践与踩坑
 
 ### [[r/gamedev（游戏开发心声）](https://www.reddit.com/r/gamedev/comments/1tzff7r/)
 - 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [Web Browsers on Video Game Consoles](https://vale.rocks/posts/game-console-browsers)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Build a Basic AI Agent from Scratch: Long Task Planning](https://medium.com/@rogi23696/build-a-basic-ai-agent-from-scratch-long-task-planning-14e803f9bd6d)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [365 Days of Unreal Engine Tutorials](https://www.reddit.com/r/unrealengine/comments/1u33qh6/365_days_of_unreal_engine_tutorials/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [asyncinject 0.7](https://simonwillison.net/2026/Jun/11/asyncinject/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [datasette-agent 0.2a0](https://simonwillison.net/2026/Jun/10/datasette-agent/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Quoting Jeremy Howard](https://simonwillison.net/2026/Jun/10/jeremy-howard/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
