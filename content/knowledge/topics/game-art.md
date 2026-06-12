@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-11"
+updated: "2026-06-12"
 ---
 
 # 游戏美术
@@ -337,3 +337,6 @@ updated: "2026-06-11"
 
 ### [[4. FlippedNormals（YouTube 频道 & 课程）](https://www.flippednormals.com/)
 - 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [datasette 1.0a33](https://simonwillison.net/2026/Jun/11/datasette/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials

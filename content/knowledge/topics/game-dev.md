@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-06-11"
+updated: "2026-06-12"
 ---
 
 # 游戏开发
@@ -196,3 +196,12 @@ updated: "2026-06-11"
 
 ### [[r/gamedev（游戏开发心声）](https://www.reddit.com/r/gamedev/comments/1tzff7r/)
 - 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [Build a Basic AI Agent from Scratch: Long Task Planning](https://medium.com/@rogi23696/build-a-basic-ai-agent-from-scratch-long-task-planning-14e803f9bd6d)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [365 Days of Unreal Engine Tutorials](https://www.reddit.com/r/unrealengine/comments/1u33qh6/365_days_of_unreal_engine_tutorials/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Per-material dynamic BRDF selection 插件预告](https://www.reddit.com/r/unrealengine/comments/1u31fpt/added_support_for_permaterial_dynamic_brdf/)
+- 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
