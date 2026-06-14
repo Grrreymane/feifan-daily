@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-06-10"
+updated: "2026-06-14"
 ---
 
 # OpenAI
@@ -523,3 +523,12 @@ OpenAI 公司动态与产品
 
 ### [Andrej Karpathy microGPT](http://karpathy.github.io)
 - 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials

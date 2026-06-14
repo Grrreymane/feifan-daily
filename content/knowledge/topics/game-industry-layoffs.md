@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-06-12"
+updated: "2026-06-14"
 ---
 
 # 游戏行业裁员
@@ -251,3 +251,12 @@ updated: "2026-06-12"
 
 ### [传 Xbox 也将更大规模裁员](https://www.gamesindustry.biz/xbox-reportedly-planning-more-layoffs-as-ceo-calls-for-xbox-reset)
 - 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Renault Group](https://www.renaultgroup.com/en/magazine/energy-and-powertrains/all-about-electric-motors-with-no-rare-earths/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/games/949584/microsoft-spinning-off-xbox)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/asha-sharma-faces-tough-decisions-with-limited-room-for-manoeuvre-opinion)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-12"
+updated: "2026-06-14"
 ---
 
 # AI 通用
@@ -2703,3 +2703,60 @@ updated: "2026-06-12"
 
 ### [Quoting Jeremy Howard](https://simonwillison.net/2026/Jun/10/jeremy-howard/)
 - 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 公告](https://www.anthropic.com/news/fable-mythos-access)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/12/mistral-is-rumored-to-be-raising-e3b-at-e20-valuation/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/12/metas-months-old-ai-unit-is-a-soul-crushing-gulag-say-the-engineers-stuck-inside-it/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/13/openai-faces-investigation-from-state-attorneys-general/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/12/chinese-cybercrime-operation-that-used-ai-to-scam-hundreds-of-thousands-of-victims-sued-by-google/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/tech/949502/apple-macos-27-golden-gate-siri-ai-apple-intelligence)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/12/spacex-ipo-closes-up-19-and-delivers-the-worlds-first-trillionaire/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Innovative Genomics](https://innovativegenomics.org/news/crispr-technique-selectively-shreds-cancer-cells/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/13/the-fbi-built-its-own-replica-small-town-to-simulate-real-world-cyberattacks/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Renault Group](https://www.renaultgroup.com/en/magazine/energy-and-powertrains/all-about-electric-motors-with-no-rare-earths/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge](https://www.theverge.com/games/949584/microsoft-spinning-off-xbox)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/nintendo-reportedly-look-set-to-net-so-little-from-their-palworld-lawsuit-youll-wonder-why-they-bothered)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/theres-nothing-worse-than-an-ai-generated-pitch-bloober-jagex-11-bit-and-indie-devs-on-the-bruising-hurdle-of-funding-a-videogame-prototype)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/forza-horizon-6-pc-players-urged-to-check-their-microsoft-gaming-services-version-as-playground-tackle-disappearing-saves)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/simulating-watercolor-using-houdinis-cops/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/developing-original-3d-chimera-character/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/3d-artist-shares-the-substance-3d-painter-file-of-man-on-the-subway/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/this-short-barnacle-animation-was-inspired-by-the-half-life-game/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun](https://www.rockpapershotgun.com/zlin-city-arch-moderna-is-a-diorama-city-builder-made-with-actual-physical-models-and-based-on-a-real-czech-city)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials

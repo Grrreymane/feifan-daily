@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-06-11"
+updated: "2026-06-14"
 ---
 
 # Substance 3D
@@ -121,3 +121,15 @@ Substance 系列工具与材质
 
 ### [[5. Blender Guru（Andrew Price）](https://www.blenderguru.com/)
 - 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/simulating-watercolor-using-houdinis-cops/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/developing-original-3d-chimera-character/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/3d-artist-shares-the-substance-3d-painter-file-of-man-on-the-subway/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level](https://80.lv/articles/this-short-barnacle-animation-was-inspired-by-the-half-life-game/)
+- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
