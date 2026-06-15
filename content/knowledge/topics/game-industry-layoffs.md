@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-06-14"
+updated: "2026-06-15"
 ---
 
 # 游戏行业裁员
@@ -260,3 +260,6 @@ updated: "2026-06-14"
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/asha-sharma-faces-tough-decisions-with-limited-room-for-manoeuvre-opinion)
 - 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Point Cloud Sound 不规则音源技术](https://www.reddit.com/r/gamedev/comments/1u5g80b/how_my_point_cloud_sound_technique_for_irregular/)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
