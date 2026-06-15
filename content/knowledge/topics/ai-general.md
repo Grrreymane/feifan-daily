@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-14"
+updated: "2026-06-15"
 ---
 
 # AI 通用
@@ -2760,3 +2760,39 @@ updated: "2026-06-14"
 
 ### [Rock Paper Shotgun](https://www.rockpapershotgun.com/zlin-city-arch-moderna-is-a-diorama-city-builder-made-with-actual-physical-models-and-based-on-a-real-czech-city)
 - 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [RPS 报道](https://www.rockpapershotgun.com/whether-you-believe-it-or-not-final-fantasy-7-revelation-director-naoki-hamaguchi-says-the-ends-been-planned-from-the-start)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [腾讯新闻 SGF 解读](https://new.qq.com/rain/a/20260608A07JAP00)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Point Cloud Sound 不规则音源技术](https://www.reddit.com/r/gamedev/comments/1u5g80b/how_my_point_cloud_sound_technique_for_irregular/)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [自定义 Steam Micro-Trailer](https://www.reddit.com/r/gamedev/comments/1u5jruk/i_found_a_way_to_make_a_custom_microtrailer_for_a/)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### ["Your first game won't be good. Ship it anyway"](https://www.reddit.com/r/gamedev/comments/1u5ktbl/your_first_game_wont_be_good_ship_it_anyway/)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5 Auto Exposure 异常排查](https://www.reddit.com/r/unrealengine/comments/1u5qxvb/the_auto_exposure_in_my_project_is_broken_somehow/)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon CEO 的对话触发禁令](https://techcrunch.com/2026/06/13/amazon-ceo-reportedly-raised-anthropic-model-concerns-before-government-crackdown/)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon 安全研究 + Fable/Mythos](https://www.theverge.com/ai-artificial-intelligence/949601/amazon-anthropic-fablemythos-government-ban)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon CEO talks with U.S. officials triggered crackdown](https://www.wsj.com/tech/ai/amazon-ceos-talks-with-u-s-officials-triggered-crackdown-on-anthropic-models-dcc90578)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [As Anthropic suspends access, India debates its AI future](https://techcrunch.com/2026/06/13/as-anthropic-suspends-access-to-new-models-india-debates-its-ai-future/)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [硅星人 / 实测 GLM-5.2](https://so.html5.qq.com/page/real/search_news?docid=70000021_9116a2d52fc72952)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM 5.2 新高峰](https://so.html5.qq.com/page/real/search_news?docid=70000021_9696a2e20c858752)
+- 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
