@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-11"
+updated: "2026-06-16"
 ---
 
 # 大语言模型
@@ -301,3 +301,12 @@ LLM 技术进展、应用与讨论
 
 ### [[Simon Willison 系列（深度博客重点推荐）](https://simonwillison.net/2026/Jun/9/llm/)
 - 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: 从零写 C++ 光线追踪器（不用 AI）](https://github.com/themartiano/luz)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Ask HN: 有没有人把 Claude/GPT 换成本地模型做日常 coding？](https://news.ycombinator.com/item?id=48542100)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Rio de Janeiro "本土" LLM 实为模型 merge](https://github.com/nex-agi/Nex-N2/issues/4)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials

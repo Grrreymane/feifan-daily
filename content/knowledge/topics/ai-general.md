@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-15"
+updated: "2026-06-16"
 ---
 
 # AI 通用
@@ -2796,3 +2796,33 @@ updated: "2026-06-15"
 
 ### [GLM 5.2 新高峰](https://so.html5.qq.com/page/real/search_news?docid=70000021_9696a2e20c858752)
 - 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Multiplayer is just "single player but networked"?](https://www.reddit.com/r/unrealengine/comments/1u6dupg/whoever_said_multiplayer_is_just_single_player/)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Heads up to ANYONE who buys assets / plugins on FAB](https://www.reddit.com/r/unrealengine/comments/1u6azd3/heads_up_to_anyone_who_buys_assets_plugins_on_fab/)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [770 commits on ue5-main last week](https://www.reddit.com/r/unrealengine/comments/1u6cjm2/770_commits_on_ue5main_last_week_a_uba_deadlock/)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [A simple pipeline for photorealistic mountains](https://www.reddit.com/r/unrealengine/comments/1u6idp9/if_you_want_a_simple_pipeline_for_photorealistic/)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Curl 七月暂停接收漏洞报告](https://daniel.haxx.se/blog/2026/06/15/curl-summer-of-bliss/)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: Kage — 单二进制离线网站](https://github.com/tamnd/kage)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [CrankGPT](https://crankgpt.com)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: 从零写 C++ 光线追踪器（不用 AI）](https://github.com/themartiano/luz)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Ask HN: 有没有人把 Claude/GPT 换成本地模型做日常 coding？](https://news.ycombinator.com/item?id=48542100)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Rio de Janeiro "本土" LLM 实为模型 merge](https://github.com/nex-agi/Nex-N2/issues/4)
+- 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
