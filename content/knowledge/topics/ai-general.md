@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-16"
+updated: "2026-06-17"
 ---
 
 # AI 通用
@@ -2826,3 +2826,90 @@ updated: "2026-06-16"
 
 ### [Rio de Janeiro "本土" LLM 实为模型 merge](https://github.com/nex-agi/Nex-N2/issues/4)
 - 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level 跟进](https://80.lv/articles/xbox-is-reportedly-planning-to-shut-down-south-of-midnight-hellblade-studios/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit](https://www.reddit.com/r/gamedev/comments/1u7d762/new_popular_upcoming_how_it_actually_works_ama/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Feds freaked over Fable 5 after 'fix this code', not jailbreak](https://www.theregister.com/security/2026/06/15/feds-freaked-over-fable-5-after-simple-fix-this-code-prompt-not-jailbreak-says-researcher/5255827)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [The Fable 5 Export Controls Harm US Cyber Defense](https://simonwillison.net/2026/Jun/16/fable-5-export-controls/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Quoting Matteo Wong, The Atlantic](https://simonwillison.net/2026/Jun/16/matteo-wong-the-atlantic/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [The US government's Anthropic models ban was never about an AI jailbreak](https://techcrunch.com/2026/06/15/the-us-governments-anthropic-models-ban-was-never-about-an-ai-jailbreak/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### ["They screwed us": Personality clashes sent Anthropic's models offline](https://simonwillison.net/2026/Jun/15/axios-clashes-anthropics/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/16/chatgpts-market-share-slips-below-50-for-first-time/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/16/spacex-passes-amazon-as-valuation-balloons-to-2-7t/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/16/spacex-to-acquire-cursor-for-60b-in-stock-days-after-blockbuster-ipo/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Reuters/HN 472分](https://www.reuters.com/legal/transactional/spacex-buy-anysphere-60-billion-2026-06-16/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/16/android-17-launches-with-new-multitasking-tools-as-google-expands-gemini-features/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [llama.cpp 作者实测 Qwen3.6-27B](https://simonwillison.net/2026/Jun/16/georgi-gerganov/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/16/sixty-percent-of-u-s-consumers-say-ai-in-brand-messaging-is-a-turnoff-survey-finds/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/16/snap-finally-debuts-its-long-awaited-ar-glasses-specs-and-oof-they-arent-cheap/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Roman.pt 原文](https://roman.pt/posts/linkedin-backdoor/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [iroh.computer/blog/v1](https://www.iroh.computer/blog/v1)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 1330分](https://news.ycombinator.com/item?id=48542480)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [vickiboykis.com](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [simonwillison.net](https://simonwillison.net/2026/Jun/15/datasette-agent/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [ciechanow.ski/mechanical-watch](https://ciechanow.ski/mechanical-watch/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 502分](https://news.ycombinator.com/item?id=48553550)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Peopleless economy?](https://gmalandrakis.com/writings/ad-economicum.html)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 270分](https://news.ycombinator.com/item?id=48547062)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [notnotp.com](https://notnotp.com/notes/what-job-interviews-taught-me-about-kubernetes/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 243分](https://news.ycombinator.com/item?id=48546428)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [dwarkesh.com](https://www.dwarkesh.com/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level 文章链接](https://80.lv/articles/boston-dynamics-used-blender-to-teach-its-humanoid-robot-soccer-skills/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-15"
+updated: "2026-06-17"
 ---
 
 # 游戏美术
@@ -361,3 +361,9 @@ updated: "2026-06-15"
 
 ### [腾讯新闻 SGF 解读](https://new.qq.com/rain/a/20260608A07JAP00)
 - 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/auditors-warn-dont-nod-will-run-out-of-cash-by-november-if-it-is-unable-to-secure-financing)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [dwarkesh.com](https://www.dwarkesh.com/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials

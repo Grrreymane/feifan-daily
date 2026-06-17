@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-11"
+updated: "2026-06-17"
 ---
 
 # Blender
@@ -382,3 +382,9 @@ Blender 工具与社区动态
 
 ### [[C. Blender 插件 Cloud Paint：真体积感的风格化云](https://80.lv/articles/blender-tool-for-creating-stylized-3d-clouds-with-true-volume/)
 - 📅 2026-06-11 · 来源: daily-materials · 分类: daily-materials
+
+### [波士顿动力 Atlas 学踢足球](https://so.html5.qq.com/page/real/search_news?docid=70000021_4326a18e73612552)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level 文章链接](https://80.lv/articles/boston-dynamics-used-blender-to-teach-its-humanoid-robot-soccer-skills/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials

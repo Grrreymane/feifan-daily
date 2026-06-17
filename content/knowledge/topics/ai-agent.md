@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-12"
+updated: "2026-06-17"
 ---
 
 # AI Agent
@@ -571,3 +571,15 @@ AI Agent 架构、实践与踩坑
 
 ### [Quoting Jeremy Howard](https://simonwillison.net/2026/Jun/10/jeremy-howard/)
 - 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [vickiboykis.com](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [simonwillison.net](https://simonwillison.net/2026/Jun/15/datasette-agent/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [ciechanow.ski/mechanical-watch](https://ciechanow.ski/mechanical-watch/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 502分](https://news.ycombinator.com/item?id=48553550)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
