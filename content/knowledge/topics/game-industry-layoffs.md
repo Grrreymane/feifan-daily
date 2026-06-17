@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-06-15"
+updated: "2026-06-17"
 ---
 
 # 游戏行业裁员
@@ -263,3 +263,15 @@ updated: "2026-06-15"
 
 ### [Point Cloud Sound 不规则音源技术](https://www.reddit.com/r/gamedev/comments/1u5g80b/how_my_point_cloud_sound_technique_for_irregular/)
 - 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [iroh.computer/blog/v1](https://www.iroh.computer/blog/v1)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 1330分](https://news.ycombinator.com/item?id=48542480)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch](https://techcrunch.com/2026/06/16/robinhoods-note-on-10-layoffs-shows-blaming-ai-isnt-cutting-it/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [vickiboykis.com](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials

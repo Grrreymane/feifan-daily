@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-06-12"
+updated: "2026-06-17"
 ---
 
 # 游戏开发
@@ -205,3 +205,9 @@ updated: "2026-06-12"
 
 ### [Per-material dynamic BRDF selection 插件预告](https://www.reddit.com/r/unrealengine/comments/1u31fpt/added_support_for_permaterial_dynamic_brdf/)
 - 📅 2026-06-12 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/auditors-warn-dont-nod-will-run-out-of-cash-by-november-if-it-is-unable-to-secure-financing)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz](https://www.gamesindustry.biz/toys-for-bob-says-spyro-reigniteds-11m-sales-proved-theres-an-audience-that-woke-up-to-show-up-for-that-series)
+- 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
