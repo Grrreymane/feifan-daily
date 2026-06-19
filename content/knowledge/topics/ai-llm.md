@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-16"
+updated: "2026-06-19"
 ---
 
 # 大语言模型
@@ -310,3 +310,18 @@ LLM 技术进展、应用与讨论
 
 ### [Rio de Janeiro "本土" LLM 实为模型 merge](https://github.com/nex-agi/Nex-N2/issues/4)
 - 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Midjourney Medical: 60-second whole-body ultrasound scanner](https://www.midjourney.com/medical/blogpost)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepSeek Introduces Vision](https://chat.deepseek.com/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM-5.2 is probably the most powerful text-only open weights LLM](https://simonwillison.net/2026/Jun/17/glm-52/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Charity Majors quote: 2025 turned the economics of code production upside down](https://simonwillison.net/2026/Jun/17/charity-majors/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Local Qwen isn't a worse Opus, it's a different tool](https://blog.alexellis.io/local-ai-is-not-opus/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials

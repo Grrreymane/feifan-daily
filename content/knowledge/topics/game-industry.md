@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-06-15"
+updated: "2026-06-19"
 ---
 
 # 游戏行业
@@ -287,3 +287,12 @@ updated: "2026-06-15"
 
 ### [腾讯新闻 SGF 解读](https://new.qq.com/rain/a/20260608A07JAP00)
 - 📅 2026-06-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Epic 开源 Lore：游戏行业版本控制的反 Perforce 宣言](https://lore.org/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Epic Games Presented Its Open-Sourced Version Control System](https://80.lv/articles/epic-games-presented-its-open-sourced-version-control-system/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Everything you need to know from State of Unreal 2026: Unreal Engine 6](https://www.gamesindustry.biz/everything-you-need-to-know-from-state-of-unreal-2026-unreal-engine-6-unreal-engine-58-and-1bn-paid-to-fortnite-devs)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
