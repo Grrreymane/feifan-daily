@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-16"
+updated: "2026-06-19"
 ---
 
 # Unreal Engine
@@ -559,3 +559,15 @@ UE 引擎更新与技巧
 
 ### [A simple pipeline for photorealistic mountains](https://www.reddit.com/r/unrealengine/comments/1u6idp9/if_you_want_a_simple_pipeline_for_photorealistic/)
 - 📅 2026-06-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Epic Games Presented Its Open-Sourced Version Control System](https://80.lv/articles/epic-games-presented-its-open-sourced-version-control-system/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Everything you need to know from State of Unreal 2026: Unreal Engine 6](https://www.gamesindustry.biz/everything-you-need-to-know-from-state-of-unreal-2026-unreal-engine-6-unreal-engine-58-and-1bn-paid-to-fortnite-devs)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Vampire Survivors studio Poncle reviewing Fortnite collab after UE6 GenAI reveal](https://www.rockpapershotgun.com/after-epic-outline-a-genai-focused-unreal-engine-6-vampire-survivors-studio-poncle-say-theyre-reviewing-their-fortnite-collab)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Swame Art Founder Anna Siaredzich on Building Stable AAA Production Systems](https://80.lv/articles/swame-art-founder-anna-siaredzich-on-building-stable-aaa-production-systems-through-external-development/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials

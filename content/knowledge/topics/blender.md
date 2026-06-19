@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-17"
+updated: "2026-06-19"
 ---
 
 # Blender
@@ -388,3 +388,15 @@ Blender 工具与社区动态
 
 ### [80 Level 文章链接](https://80.lv/articles/boston-dynamics-used-blender-to-teach-its-humanoid-robot-soccer-skills/)
 - 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Don't Nod says it has several levers to secure financial position](https://www.gamesindustry.biz/dont-nod-says-it-has-several-levers-to-secure-financial-position-after-auditors-detailed-cash-woes)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Have A Look At These Surreal Fluid Bone Creatures In Blender](https://80.lv/articles/have-a-look-at-these-surreal-fluid-bone-creatures-in-blender/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [How To Make Your 2D Sprites Look Like 3D In Unity](https://80.lv/articles/how-to-make-your-2d-sprites-look-like-3d-in-unity/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Midjourney Medical: 60-second whole-body ultrasound scanner](https://www.midjourney.com/medical/blogpost)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials

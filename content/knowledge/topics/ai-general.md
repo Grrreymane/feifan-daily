@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-17"
+updated: "2026-06-19"
 ---
 
 # AI 通用
@@ -2913,3 +2913,60 @@ updated: "2026-06-17"
 
 ### [80 Level 文章链接](https://80.lv/articles/boston-dynamics-used-blender-to-teach-its-humanoid-robot-soccer-skills/)
 - 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Epic 开源 Lore：游戏行业版本控制的反 Perforce 宣言](https://lore.org/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Everything you need to know from State of Unreal 2026: Unreal Engine 6](https://www.gamesindustry.biz/everything-you-need-to-know-from-state-of-unreal-2026-unreal-engine-6-unreal-engine-58-and-1bn-paid-to-fortnite-devs)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Vampire Survivors studio Poncle reviewing Fortnite collab after UE6 GenAI reveal](https://www.rockpapershotgun.com/after-epic-outline-a-genai-focused-unreal-engine-6-vampire-survivors-studio-poncle-say-theyre-reviewing-their-fortnite-collab)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Swame Art Founder Anna Siaredzich on Building Stable AAA Production Systems](https://80.lv/articles/swame-art-founder-anna-siaredzich-on-building-stable-aaa-production-systems-through-external-development/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Reach the roof before your toe fungus reaches your brain in Moldrise horror demo](https://www.rockpapershotgun.com/reach-the-roof-before-your-toe-fungus-reaches-your-brain-in-moldrise-my-favourite-horror-demo-in-ages)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Signet City fungalpunk RPG by Citizen Sleeper developer](https://www.rockpapershotgun.com/signet-city-is-an-rpg-where-you-play-a-brain-fungus-feeding-off-the-emotions-of-your-host-like-a-mushroom-themed-monsters-inc)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [OtherSide Entertainment cuts 17 jobs after Argos cancellation](https://www.gamesindustry.biz/otherside-entertainment-cuts-17-jobs-after-argos-cancellation)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Crystal Dynamics is remaking the original Tomb Raider](https://www.gamesindustry.biz/were-not-trying-to-replace-it-this-is-very-much-a-love-letter-why-crystal-dynamics-is-remaking-the-original-tomb-raider-again)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Don't Nod says it has several levers to secure financial position](https://www.gamesindustry.biz/dont-nod-says-it-has-several-levers-to-secure-financial-position-after-auditors-detailed-cash-woes)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Have A Look At These Surreal Fluid Bone Creatures In Blender](https://80.lv/articles/have-a-look-at-these-surreal-fluid-bone-creatures-in-blender/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [How To Make Your 2D Sprites Look Like 3D In Unity](https://80.lv/articles/how-to-make-your-2d-sprites-look-like-3d-in-unity/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Charity Majors quote: 2025 turned the economics of code production upside down](https://simonwillison.net/2026/Jun/17/charity-majors/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Local Qwen isn't a worse Opus, it's a different tool](https://blog.alexellis.io/local-ai-is-not-opus/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Adobe adds its AI assistant to Premiere, Illustrator and InDesign](https://techcrunch.com/2026/06/18/adobe-adds-its-ai-assistant-to-premiere-illustrator-and-indesign/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [AI data centers just got a government-mandated fast lane to the grid](https://techcrunch.com/2026/06/18/ai-data-centers-just-got-a-government-mandated-fast-lane-to-the-grid/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [AI is hurting Apple in more ways than one: it may force iPhone price increases](https://techcrunch.com/2026/06/17/ai-is-hurting-apple-in-more-ways-than-one-it-may-force-iphone-price-increases/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [The smartphone era created an attention crisis. Slowtech is fixing it](https://techcrunch.com/2026/06/18/the-smartphone-era-created-an-attention-crisis-slowtech-is-fixing-it/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [General Intuition in talks to raise 300M at around 2B valuation](https://techcrunch.com/2026/06/18/general-intuition-in-talks-to-raise-300m-at-around-2b-valuation/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Waymo recalls nearly 4000 robotaxis to stop them driving into highway construction zones](https://techcrunch.com/2026/06/18/waymo-recalls-nearly-4000-robotaxis-to-stop-them-driving-into-highway-construction-zones/)
+- 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
