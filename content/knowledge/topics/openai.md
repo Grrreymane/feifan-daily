@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-06-17"
+updated: "2026-06-20"
 ---
 
 # OpenAI
@@ -538,3 +538,24 @@ OpenAI 公司动态与产品
 
 ### [TechCrunch](https://techcrunch.com/2026/06/16/spacex-passes-amazon-as-valuation-balloons-to-2-7t/)
 - 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [State of Unreal UE6 Reactions: Hype, Skepticism, and What It Means for Game Devs](https://80.lv/articles/state-of-unreal-ue6-reactions-hype-skepticism-and-what-it-means-for-game-devs/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [AI inference startup Baseten reportedly raising $1.5B months after its last mega-round](https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI is bringing on some big guns in the lead-up to its IPO](https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Noam Shazeer Joins OpenAI（HN，345分/348评论）](https://news.ycombinator.com/item?id=48578913)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [European Commission aims to facilitate code of conduct for "end of life" games](https://www.gamesindustry.biz/european-commission-aims-to-facilitate-code-of-conduct-for-managing-end-of-life-for-games-following-stop-killing-games-petition)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Lex Fridman 官网](https://lexfridman.com/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Hard Fork - Apple Podcasts](https://itunes.apple.com/cn/podcast/hard-fork/id1528594034)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials

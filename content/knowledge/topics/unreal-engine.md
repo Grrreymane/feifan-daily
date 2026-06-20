@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-19"
+updated: "2026-06-20"
 ---
 
 # Unreal Engine
@@ -571,3 +571,33 @@ UE 引擎更新与技巧
 
 ### [Swame Art Founder Anna Siaredzich on Building Stable AAA Production Systems](https://80.lv/articles/swame-art-founder-anna-siaredzich-on-building-stable-aaa-production-systems-through-external-development/)
 - 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [State of Unreal UE6 Reactions: Hype, Skepticism, and What It Means for Game Devs](https://80.lv/articles/state-of-unreal-ue6-reactions-hype-skepticism-and-what-it-means-for-game-devs/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Unreal Engine 6 source code now public（r/unrealengine）](https://www.reddit.com/r/unrealengine/comments/1u9rga8/unreal_engine_6_source_code_now_public/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Word from UnrealFest: no more support for visual scripting in UE6](https://www.reddit.com/r/unrealengine/comments/1u95p1z/word_from_unrealfest_yes_no_more_support_for/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [PUBG now has genAI team mates capable of "intelligent decision-making"](https://www.rockpapershotgun.com/pubg-has-genai-team-mates-now-capable-of-intelligent-decision-making-and-i-must-remind-you-that-krafton-are-working-on-bots-for-the-military)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Breakdown: Gentle Girl Surrounded by Flowers in 3D](https://80.lv/articles/breakdown-gentle-girl-surrounded-by-flowers-in-3d/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Learn Unreal Engine 5.8 Animation & Rigging With Free Zebra Character Sample](https://80.lv/articles/learn-unreal-engine-5-8-animation-rigging-with-free-zebra-character-sample/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Artist Shows 3D Creature Models Created for South of Midnight](https://80.lv/articles/artist-shows-3d-creature-models-created-for-south-of-midnight/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [.gitignore Isn't the only way to ignore files in Git（HN 524分）](https://nelson.cloud/.gitignore-isnt-the-only-way-to-ignore-files-in-git/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [I don't understand why people feel like they HAVE to use the latest thing](https://www.reddit.com/r/unrealengine/comments/1u9v742/i_dont_understand_why_people_feel_like_they_have/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Watching players play your game is both exciting and painful](https://www.reddit.com/r/gamedev/comments/1ua3v00/watching_players_play_your_game_is_both_exciting/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
