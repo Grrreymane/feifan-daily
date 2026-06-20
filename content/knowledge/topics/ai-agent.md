@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-17"
+updated: "2026-06-20"
 ---
 
 # AI Agent
@@ -583,3 +583,9 @@ AI Agent 架构、实践与踩坑
 
 ### [HN 502分](https://news.ycombinator.com/item?id=48553550)
 - 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [datasette-acl 0.6a0（多用户权限）](https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [The AirPods Effect](https://www.theescapenewsletter.com/p/the-airpods-effect)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials

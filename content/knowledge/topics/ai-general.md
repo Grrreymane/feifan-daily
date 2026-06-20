@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-19"
+updated: "2026-06-20"
 ---
 
 # AI 通用
@@ -2970,3 +2970,90 @@ updated: "2026-06-19"
 
 ### [Waymo recalls nearly 4000 robotaxis to stop them driving into highway construction zones](https://techcrunch.com/2026/06/18/waymo-recalls-nearly-4000-robotaxis-to-stop-them-driving-into-highway-construction-zones/)
 - 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [State of Unreal UE6 Reactions: Hype, Skepticism, and What It Means for Game Devs](https://80.lv/articles/state-of-unreal-ue6-reactions-hype-skepticism-and-what-it-means-for-game-devs/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Unreal Engine 6 source code now public（r/unrealengine）](https://www.reddit.com/r/unrealengine/comments/1u9rga8/unreal_engine_6_source_code_now_public/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Word from UnrealFest: no more support for visual scripting in UE6](https://www.reddit.com/r/unrealengine/comments/1u95p1z/word_from_unrealfest_yes_no_more_support_for/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [PUBG now has genAI team mates capable of "intelligent decision-making"](https://www.rockpapershotgun.com/pubg-has-genai-team-mates-now-capable-of-intelligent-decision-making-and-i-must-remind-you-that-krafton-are-working-on-bots-for-the-military)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [As AI costs rise, there's little evidence of major utility in game development](https://www.gamesindustry.biz/as-ai-costs-rise-theres-little-evidence-of-major-utility-in-game-development-opinion)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon hopes to challenge Nvidia more directly by selling its AI chips](https://techcrunch.com/2026/06/18/amazon-hopes-to-challenge-nvidia-more-directly-by-selling-its-ai-chips/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [AI inference startup Baseten reportedly raising $1.5B months after its last mega-round](https://techcrunch.com/2026/06/18/ai-inference-startup-baseten-reportedly-raising-1-5b-months-after-its-last-mega-round/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI is bringing on some big guns in the lead-up to its IPO](https://techcrunch.com/2026/06/18/openai-is-bringing-on-some-big-guns-in-the-lead-up-to-its-ipo/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Noam Shazeer Joins OpenAI（HN，345分/348评论）](https://news.ycombinator.com/item?id=48578913)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [European Commission aims to facilitate code of conduct for "end of life" games](https://www.gamesindustry.biz/european-commission-aims-to-facilitate-code-of-conduct-for-managing-end-of-life-for-games-following-stop-killing-games-petition)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Newzoo: Global games market made over $200bn in 2025](https://www.gamesindustry.biz/newzoo-global-games-market-made-over-200bn-in-2025)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Hyundai buys Boston Dynamics, Atlas humanoid to be used at vehicle plant by 2028](https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Snap spins off AI video team into new company, Dotmo, due to costs](https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Breakdown: Gentle Girl Surrounded by Flowers in 3D](https://80.lv/articles/breakdown-gentle-girl-surrounded-by-flowers-in-3d/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Creating Real-Time Persian Female Warrior Character With Modern Design Elements](https://80.lv/articles/creating-real-time-persian-female-warrior-character-with-modern-design-elements/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Render Wireframe Effects In Unity With This Shader](https://80.lv/articles/render-wireframe-effects-in-unity-with-this-shader/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Datasette Apps: Host custom HTML applications inside Datasette](https://simonwillison.net/2026/Jun/18/datasette-apps/#atom-everything)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [datasette-acl 0.6a0（多用户权限）](https://simonwillison.net/2026/Jun/18/datasette-acl/#atom-everything)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [The AirPods Effect](https://www.theescapenewsletter.com/p/the-airpods-effect)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [The AirPods Effect（HN 309分/539评论）](https://news.ycombinator.com/item?id=48592832)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Modos Color Monitor Pushes E-Paper Displays Further](https://spectrum.ieee.org/modos-e-paper-monitor)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Modos E-paper Monitor（HN 326分）](https://news.ycombinator.com/item?id=48583897)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Project Valhalla, Explained: How a Decade of Work Arrives in JDK 28](https://www.jvm-weekly.com/p/project-valhalla-explained-how-a)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [DuckDB Internals: Why Is DuckDB Fast? (Part 1)](https://www.greybeam.ai/blog/duckdb-internals-part-1)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [To study how chips work, MIT researchers built their own operating system](https://news.mit.edu/2026/to-study-how-chips-really-work-mit-researchers-built-their-own-operating-system-0610)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Watching players play your game is both exciting and painful](https://www.reddit.com/r/gamedev/comments/1ua3v00/watching_players_play_your_game_is_both_exciting/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [I'm a dev who has been working on my game for 2 years and THE EXACT SAME game title appeared on another Steam game](https://www.reddit.com/r/gamedev/comments/1u9y7c5/im_a_dev_who_has_been_working_on_my_game_for_2/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Lex Fridman 官网](https://lexfridman.com/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Hard Fork - Apple Podcasts](https://itunes.apple.com/cn/podcast/hard-fork/id1528594034)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials

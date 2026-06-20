@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-17"
+updated: "2026-06-20"
 ---
 
 # 游戏美术
@@ -367,3 +367,9 @@ updated: "2026-06-17"
 
 ### [dwarkesh.com](https://www.dwarkesh.com/)
 - 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Snap spins off AI video team into new company, Dotmo, due to costs](https://techcrunch.com/2026/06/18/snap-spins-off-ai-video-team-into-new-company-dotmo-due-to-costs/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Breakdown: Gentle Girl Surrounded by Flowers in 3D](https://80.lv/articles/breakdown-gentle-girl-surrounded-by-flowers-in-3d/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials

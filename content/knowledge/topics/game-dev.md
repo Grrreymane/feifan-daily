@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-06-17"
+updated: "2026-06-20"
 ---
 
 # 游戏开发
@@ -211,3 +211,15 @@ updated: "2026-06-17"
 
 ### [GamesIndustry.biz](https://www.gamesindustry.biz/toys-for-bob-says-spyro-reigniteds-11m-sales-proved-theres-an-audience-that-woke-up-to-show-up-for-that-series)
 - 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [State of Unreal UE6 Reactions: Hype, Skepticism, and What It Means for Game Devs](https://80.lv/articles/state-of-unreal-ue6-reactions-hype-skepticism-and-what-it-means-for-game-devs/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Word from UnrealFest: no more support for visual scripting in UE6](https://www.reddit.com/r/unrealengine/comments/1u95p1z/word_from_unrealfest_yes_no_more_support_for/)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [PUBG now has genAI team mates capable of "intelligent decision-making"](https://www.rockpapershotgun.com/pubg-has-genai-team-mates-now-capable-of-intelligent-decision-making-and-i-must-remind-you-that-krafton-are-working-on-bots-for-the-military)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [As AI costs rise, there's little evidence of major utility in game development](https://www.gamesindustry.biz/as-ai-costs-rise-theres-little-evidence-of-major-utility-in-game-development-opinion)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials

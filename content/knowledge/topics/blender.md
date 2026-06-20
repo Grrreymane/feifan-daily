@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-19"
+updated: "2026-06-20"
 ---
 
 # Blender
@@ -400,3 +400,6 @@ Blender 工具与社区动态
 
 ### [Midjourney Medical: 60-second whole-body ultrasound scanner](https://www.midjourney.com/medical/blogpost)
 - 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Hard Fork - Apple Podcasts](https://itunes.apple.com/cn/podcast/hard-fork/id1528594034)
+- 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
