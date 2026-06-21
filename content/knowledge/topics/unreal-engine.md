@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-20"
+updated: "2026-06-21"
 ---
 
 # Unreal Engine
@@ -601,3 +601,33 @@ UE 引擎更新与技巧
 
 ### [Watching players play your game is both exciting and painful](https://www.reddit.com/r/gamedev/comments/1ua3v00/watching_players_play_your_game_is_both_exciting/)
 - 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [AlphaFold 之父 John Jumper 离开 Google DeepMind 加盟 Anthropic](https://techcrunch.com/2026/06/20/nobel-laureate-john-jumper-is-leaving-deepmind-for-rival-anthropic/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [育碧联合创始人 Claude Guillemot 飞机失事遇难，享年 69 岁](https://www.reuters.com/world/ubisofts-co-founder-claude-guillemot-dies-plane-crash-2026-06-20/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Pragmata 角色设计的"Diana 警察"（角色塑造方法论）](https://www.rockpapershotgun.com/to-make-pragmatas-diana-feel-naturally-childlike-a-small-group-of-women-dubbed-the-diana-police-was-set-up-to-keep-things-in-check)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Sony PC 战略转向 + AI 转型（行业战略）](https://www.rockpapershotgun.com/sony-say-goodbye-to-pc-and-hello-to-ai-in-their-annual-business-report-which-must-be-a-good-thing-right)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [for Fortnite 已向独立创作者支付超 10 亿美元](https://80.lv/articles/epic-games-has-paid-out-over-usd1-billion-to-indie-creators-through-unreal-editor-for-fortnite/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Houdini 泡沫模拟（视觉技术 demo）](https://80.lv/articles/this-houdini-foam-simulation-it-s-very-satisfying-to-watch/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [封面"鳄鱼物种之争"（社区话题）](https://80.lv/articles/possible-mistake-in-gta-6-cover-art-makes-players-discuss-gators-crocs-at-length/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Aura 推出 e-ink 数码相框（消费硬件 / 视觉）](https://techcrunch.com/2026/06/19/auras-impressive-e-ink-photo-frame-doesnt-even-look-digital/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Kyber：让免费视频播放器流畅运行的人，开始让机器人也流畅运行](https://techcrunch.com/2026/06/19/he-made-your-free-video-player-run-smoothly-now-hes-doing-that-for-robots/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit / r/unrealengine UE6 真实情绪（核心板块）](https://www.reddit.com/r/unrealengine/comments/1uaqbip/ue6/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials

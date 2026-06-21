@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-20"
+updated: "2026-06-21"
 ---
 
 # AI 通用
@@ -3057,3 +3057,45 @@ updated: "2026-06-20"
 
 ### [Hard Fork - Apple Podcasts](https://itunes.apple.com/cn/podcast/hard-fork/id1528594034)
 - 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Projekt Red CEO："Cyberpunk 救赎弧还没走完，The Witcher 4 是关键"](https://www.rockpapershotgun.com/cd-projekt-reds-ceo-still-thinks-they-need-to-finish-their-post-cyberpunk-redemption-arc-and-hes-hoping-the-witcher-4-will-help)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Sony PC 战略转向 + AI 转型（行业战略）](https://www.rockpapershotgun.com/sony-say-goodbye-to-pc-and-hello-to-ai-in-their-annual-business-report-which-must-be-a-good-thing-right)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [for Fortnite 已向独立创作者支付超 10 亿美元](https://80.lv/articles/epic-games-has-paid-out-over-usd1-billion-to-indie-creators-through-unreal-editor-for-fortnite/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Houdini 泡沫模拟（视觉技术 demo）](https://80.lv/articles/this-houdini-foam-simulation-it-s-very-satisfying-to-watch/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [封面"鳄鱼物种之争"（社区话题）](https://80.lv/articles/possible-mistake-in-gta-6-cover-art-makes-players-discuss-gators-crocs-at-length/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [LLMs Are Complicated Now（架构/工程深度文）](https://ianbarber.blog/2026/06/19/llms-are-complicated-now/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [引用：Sean Lynch 论 MCP 的真正价值（Simon Willison 笔记）](https://simonwillison.net/2026/Jun/19/sean-lynch/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [台 Langflow 服务器遭攻击 + LangGraph/LangChain 同样有洞（AI 安全）](https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Hypernetworks vs RAG vs 微调（架构方向）](https://venturebeat.com/orchestration/fine-tuning-forgets-rag-leaks-context-hypernetworks-build-the-model-your-agent-needs-on-demand)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [GPT-5.5 的幻觉率是 GLM-5.2 的 3 倍（开源对比）](https://arrowtsx.dev/bigger-models/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 推出"为 AI agent 准备的临时账户"](https://blog.cloudflare.com/temporary-accounts/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Aura 推出 e-ink 数码相框（消费硬件 / 视觉）](https://techcrunch.com/2026/06/19/auras-impressive-e-ink-photo-frame-doesnt-even-look-digital/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit / r/unrealengine UE6 真实情绪（核心板块）](https://www.reddit.com/r/unrealengine/comments/1uaqbip/ue6/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Stanford CS25 Transformers United V6（讲座系列）](https://web.stanford.edu/class/cs25)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
