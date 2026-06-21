@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-19"
+updated: "2026-06-21"
 ---
 
 # 大语言模型
@@ -325,3 +325,18 @@ LLM 技术进展、应用与讨论
 
 ### [Local Qwen isn't a worse Opus, it's a different tool](https://blog.alexellis.io/local-ai-is-not-opus/)
 - 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Houdini 泡沫模拟（视觉技术 demo）](https://80.lv/articles/this-houdini-foam-simulation-it-s-very-satisfying-to-watch/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [封面"鳄鱼物种之争"（社区话题）](https://80.lv/articles/possible-mistake-in-gta-6-cover-art-makes-players-discuss-gators-crocs-at-length/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [LLMs Are Complicated Now（架构/工程深度文）](https://ianbarber.blog/2026/06/19/llms-are-complicated-now/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [引用：Sean Lynch 论 MCP 的真正价值（Simon Willison 笔记）](https://simonwillison.net/2026/Jun/19/sean-lynch/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [台 Langflow 服务器遭攻击 + LangGraph/LangChain 同样有洞（AI 安全）](https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials

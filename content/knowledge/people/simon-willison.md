@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-06-11"
+updated: "2026-06-21"
 ---
 
 # Simon Willison
@@ -63,3 +63,5 @@ updated: "2026-06-11"
 - 📅 2026-05-23 — [1. Simon Willison · Datasette Agent 首发](https://simonwillison.net/2026/May/21/datasette-agent/)
 
 - 📅 2026-06-11 — [[Simon Willison 系列（深度博客重点推荐）](https://simonwillison.net/2026/Jun/9/llm/)
+
+- 📅 2026-06-21 — [引用：Sean Lynch 论 MCP 的真正价值（Simon Willison 笔记）](https://simonwillison.net/2026/Jun/19/sean-lynch/)

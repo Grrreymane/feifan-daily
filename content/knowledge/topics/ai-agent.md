@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-20"
+updated: "2026-06-21"
 ---
 
 # AI Agent
@@ -589,3 +589,18 @@ AI Agent 架构、实践与踩坑
 
 ### [The AirPods Effect](https://www.theescapenewsletter.com/p/the-airpods-effect)
 - 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [台 Langflow 服务器遭攻击 + LangGraph/LangChain 同样有洞（AI 安全）](https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Hypernetworks vs RAG vs 微调（架构方向）](https://venturebeat.com/orchestration/fine-tuning-forgets-rag-leaks-context-hypernetworks-build-the-model-your-agent-needs-on-demand)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [GPT-5.5 的幻觉率是 GLM-5.2 的 3 倍（开源对比）](https://arrowtsx.dev/bigger-models/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 推出"为 AI agent 准备的临时账户"](https://blog.cloudflare.com/temporary-accounts/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Hyundai 全资收购 Boston Dynamics（机器人产业）](https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/)
+- 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
