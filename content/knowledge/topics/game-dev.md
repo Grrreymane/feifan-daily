@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-06-20"
+updated: "2026-06-22"
 ---
 
 # 游戏开发
@@ -223,3 +223,12 @@ updated: "2026-06-20"
 
 ### [As AI costs rise, there's little evidence of major utility in game development](https://www.gamesindustry.biz/as-ai-costs-rise-theres-little-evidence-of-major-utility-in-game-development-opinion)
 - 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [SMPTE Makes Its Standards Freely Accessible](https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community)
+- 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Against Wishlist Obsession](https://www.reddit.com/r/gamedev/comments/1ubvvi1/against_wishlist_obsession/)
+- 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials
+
+### [What game development advice turned out to be completely wrong for you?](https://www.reddit.com/r/gamedev/comments/1ubj9qo/what_game_development_advice_turned_out_to_be/)
+- 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials

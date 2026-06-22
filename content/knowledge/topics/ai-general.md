@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-21"
+updated: "2026-06-22"
 ---
 
 # AI 通用
@@ -3099,3 +3099,21 @@ updated: "2026-06-21"
 
 ### [Stanford CS25 Transformers United V6（讲座系列）](https://web.stanford.edu/class/cs25)
 - 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Loupe – iOS app that raises awareness about what native apps can see](https://github.com/mysk-research/loupe)
+- 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Hits 50% IPv6](https://blog.apnic.net/2026/04/28/google-hits-50-ipv6/)
+- 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials
+
+### [SMPTE Makes Its Standards Freely Accessible](https://www.smpte.org/blog/smpte-makes-its-standards-freely-accessible-openingstandards-library-to-the-global-media-technology-community)
+- 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Against Wishlist Obsession](https://www.reddit.com/r/gamedev/comments/1ubvvi1/against_wishlist_obsession/)
+- 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials
+
+### [What game development advice turned out to be completely wrong for you?](https://www.reddit.com/r/gamedev/comments/1ubj9qo/what_game_development_advice_turned_out_to_be/)
+- 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials
+
+### [17-Year-Old Beginner Looking for a Roadmap to Become a 3D Environment Artist](https://www.reddit.com/r/gamedev/comments/1ubsj8v/17yearold_beginner_looking_for_a_roadmap_to/)
+- 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials
