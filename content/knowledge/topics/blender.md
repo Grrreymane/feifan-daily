@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-20"
+updated: "2026-06-24"
 ---
 
 # Blender
@@ -403,3 +403,18 @@ Blender 工具与社区动态
 
 ### [Hard Fork - Apple Podcasts](https://itunes.apple.com/cn/podcast/hard-fork/id1528594034)
 - 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：律师拆解UE6"AI集成"的合同与版权地雷](https://80.lv/articles/video-game-lawyer-explains-key-issues-with-ue6-s-ai-integration/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Destiny 2 扭曲特效在Blender里复刻成功](https://80.lv/articles/destiny-2-s-distortion-vfx-recreated-in-blender/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [法国游戏工会STJV呼吁全国性罢工日（6月25日）](https://www.rockpapershotgun.com/this-crisis-was-avoidable-but-our-bosses-chose-to-drive-blindly-towards-disaster-french-videogame-union-stjv-call-for-national-industry-strike-day)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Odin程序化毛发拆解](https://80.lv/articles/breakdown-nice-stylized-3d-model-of-odin/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot视差贴图实现](https://80.lv/articles/iterative-parallax-mapping-implemented-on-roof-material-in-godot/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials

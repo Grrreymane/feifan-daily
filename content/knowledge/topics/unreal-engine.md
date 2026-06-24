@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-22"
+updated: "2026-06-24"
 ---
 
 # Unreal Engine
@@ -646,3 +646,12 @@ UE 引擎更新与技巧
 
 ### [17-Year-Old Beginner Looking for a Roadmap to Become a 3D Environment Artist](https://www.reddit.com/r/gamedev/comments/1ubsj8v/17yearold_beginner_looking_for_a_roadmap_to/)
 - 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials
+
+### [腾讯传将退出Marvelous等多家日本工作室投资](https://www.gamesindustry.biz/report-tencent-plans-to-exit-investments-in-japanese-studios-like-story-of-seasons-developer-marvelous)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：用Maya做Jiggle Physics再导入UE5的免费工具Bonjolt发布Beta](https://80.lv/articles/create-jiggle-physics-in-maya-export-to-unreal-engine-5-with-this-tool/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：律师拆解UE6"AI集成"的合同与版权地雷](https://80.lv/articles/video-game-lawyer-explains-key-issues-with-ue6-s-ai-integration/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials

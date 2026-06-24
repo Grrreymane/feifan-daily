@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-06-20"
+updated: "2026-06-24"
 ---
 
 # OpenAI
@@ -559,3 +559,15 @@ OpenAI 公司动态与产品
 
 ### [Hard Fork - Apple Podcasts](https://itunes.apple.com/cn/podcast/hard-fork/id1528594034)
 - 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple芯片发现"不可修补"漏洞 老款iPhone面临越狱回潮](https://techcrunch.com/2026/06/22/a-new-unpatchable-flaw-in-apple-chips-opens-the-door-to-an-iphone-jailbreak/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI上线开源安全计划，用AI给开源代码自动找Bug](https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [VibeThinker-1.5B 论文版上HN ⬆️333](https://arxiv.org/abs/2606.16140)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [百度 Unlimited-OCR：单次解析超长文档](https://github.com/baidu/Unlimited-OCR)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
