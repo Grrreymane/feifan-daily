@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-22"
+updated: "2026-06-24"
 ---
 
 # AI 通用
@@ -3117,3 +3117,54 @@ updated: "2026-06-22"
 
 ### [17-Year-Old Beginner Looking for a Roadmap to Become a 3D Environment Artist](https://www.reddit.com/r/gamedev/comments/1ubsj8v/17yearold_beginner_looking_for_a_roadmap_to/)
 - 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials
+
+### [EA：AI在工作室"加速原型迭代、显著释放创造力"](https://www.gamesindustry.biz/ea-ai-is-delivering-faster-prototyping-and-a-real-rise-in-creativity-in-its-studios)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [腾讯传将退出Marvelous等多家日本工作室投资](https://www.gamesindustry.biz/report-tencent-plans-to-exit-investments-in-japanese-studios-like-story-of-seasons-developer-marvelous)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：用Maya做Jiggle Physics再导入UE5的免费工具Bonjolt发布Beta](https://80.lv/articles/create-jiggle-physics-in-maya-export-to-unreal-engine-5-with-this-tool/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：律师拆解UE6"AI集成"的合同与版权地雷](https://80.lv/articles/video-game-lawyer-explains-key-issues-with-ue6-s-ai-integration/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Destiny 2 扭曲特效在Blender里复刻成功](https://80.lv/articles/destiny-2-s-distortion-vfx-recreated-in-blender/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [法国游戏工会STJV呼吁全国性罢工日（6月25日）](https://www.rockpapershotgun.com/this-crisis-was-avoidable-but-our-bosses-chose-to-drive-blindly-towards-disaster-french-videogame-union-stjv-call-for-national-industry-strike-day)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Obsidian被指控系统性违反加州劳动法](https://www.gamesindustry.biz/obsidian-sued-in-class-action-lawsuit-over-alleged-systematic-pattern-of-wage-and-hour-violations)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic推出Claude Tag：常驻Slack的"AI同事"](https://techcrunch.com/2026/06/23/anthropics-claude-tag-is-learning-your-company-one-slack-message-at-a-time/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [年龄/身份验证条款](https://techcrunch.com/2026/06/22/anthropic-says-claude-may-want-to-see-your-id/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Google DeepMind与A24签7500万美元合作 押注AI电影工具](https://techcrunch.com/2026/06/22/google-deepmind-bets-75m-on-ais-future-in-hollywood-with-a24-deal/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Mistral OCR 4 发布](https://mistral.ai/news/ocr-4/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft与Chevron签20年天然气数据中心PPA](https://techcrunch.com/2026/06/22/microsoft-and-chevron-plan-one-of-the-largest-gas-powered-data-center-projects-in-us/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Nvidia新散热系统只解决"室内水耗"，电厂层面仍是黑洞](https://techcrunch.com/2026/06/22/nvidia-wants-to-cut-data-center-water-use-but-thats-not-the-same-as-fixing-ais-water-problem/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple芯片发现"不可修补"漏洞 老款iPhone面临越狱回潮](https://techcrunch.com/2026/06/22/a-new-unpatchable-flaw-in-apple-chips-opens-the-door-to-an-iphone-jailbreak/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI上线开源安全计划，用AI给开源代码自动找Bug](https://techcrunch.com/2026/06/22/openai-launches-new-initiative-to-help-find-and-patch-open-source-bugs/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [VibeThinker-1.5B 论文版上HN ⬆️333](https://arxiv.org/abs/2606.16140)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [百度 Unlimited-OCR：单次解析超长文档](https://github.com/baidu/Unlimited-OCR)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-20"
+updated: "2026-06-24"
 ---
 
 # 游戏美术
@@ -373,3 +373,18 @@ updated: "2026-06-20"
 
 ### [Breakdown: Gentle Girl Surrounded by Flowers in 3D](https://80.lv/articles/breakdown-gentle-girl-surrounded-by-flowers-in-3d/)
 - 📅 2026-06-20 · 来源: daily-materials · 分类: daily-materials
+
+### [EA：AI在工作室"加速原型迭代、显著释放创造力"](https://www.gamesindustry.biz/ea-ai-is-delivering-faster-prototyping-and-a-real-rise-in-creativity-in-its-studios)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：用Maya做Jiggle Physics再导入UE5的免费工具Bonjolt发布Beta](https://80.lv/articles/create-jiggle-physics-in-maya-export-to-unreal-engine-5-with-this-tool/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：律师拆解UE6"AI集成"的合同与版权地雷](https://80.lv/articles/video-game-lawyer-explains-key-issues-with-ue6-s-ai-integration/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Odin程序化毛发拆解](https://80.lv/articles/breakdown-nice-stylized-3d-model-of-odin/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot视差贴图实现](https://80.lv/articles/iterative-parallax-mapping-implemented-on-roof-material-in-godot/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials

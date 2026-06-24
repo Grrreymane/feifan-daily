@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-06-17"
+updated: "2026-06-24"
 ---
 
 # 游戏行业裁员
@@ -275,3 +275,9 @@ updated: "2026-06-17"
 
 ### [vickiboykis.com](https://vickiboykis.com/2026/06/15/running-local-models-is-good-now/)
 - 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [法国游戏工会STJV呼吁全国性罢工日（6月25日）](https://www.rockpapershotgun.com/this-crisis-was-avoidable-but-our-bosses-chose-to-drive-blindly-towards-disaster-french-videogame-union-stjv-call-for-national-industry-strike-day)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Obsidian被指控系统性违反加州劳动法](https://www.gamesindustry.biz/obsidian-sued-in-class-action-lawsuit-over-alleged-systematic-pattern-of-wage-and-hour-violations)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
