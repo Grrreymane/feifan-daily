@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-21"
+updated: "2026-06-25"
 ---
 
 # AI Agent
@@ -604,3 +604,21 @@ AI Agent 架构、实践与踩坑
 
 ### [Hyundai 全资收购 Boston Dynamics（机器人产业）](https://startupfortune.com/hyundai-takes-full-control-of-boston-dynamics-as-softbank-exits-for-325-million/)
 - 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48660711)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Qwen-AgentWorld：通用 Agent 的语言世界模型](https://arxiv.org/abs/2606.24597)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48654351)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Haystack：开源生产级 Agent + RAG 框架](https://haystack.deepset.ai/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48658095)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 自研芯片首次亮相，由 Broadcom 制造](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials

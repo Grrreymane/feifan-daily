@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-06-24"
+updated: "2026-06-25"
 ---
 
 # OpenAI
@@ -570,4 +570,22 @@ OpenAI 公司动态与产品
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
 
 ### [百度 Unlimited-OCR：单次解析超长文档](https://github.com/baidu/Unlimited-OCR)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [RubyLLM：Ruby 一站式接入所有主流 AI 提供商](https://rubyllm.com/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48660711)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Qwen-AgentWorld：通用 Agent 的语言世界模型](https://arxiv.org/abs/2606.24597)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48658095)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 自研芯片首次亮相，由 Broadcom 制造](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Menlo Ventures 押注 Anthropic 后募资 30 亿美元新基金](https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials

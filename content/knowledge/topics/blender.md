@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-24"
+updated: "2026-06-25"
 ---
 
 # Blender
@@ -417,4 +417,10 @@ Blender 工具与社区动态
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
 
 ### [Godot视差贴图实现](https://80.lv/articles/iterative-parallax-mapping-implemented-on-roof-material-in-godot/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Build Entire River Environments From Curves With This Blender Tool](https://80.lv/articles/build-entire-river-environments-from-curves-with-this-blender-tool/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [New Free Toolkit Released For Maya Animators](https://80.lv/articles/new-free-toolkit-released-for-maya-animators/)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-21"
+updated: "2026-06-25"
 ---
 
 # 大语言模型
@@ -340,3 +340,30 @@ LLM 技术进展、应用与讨论
 
 ### [台 Langflow 服务器遭攻击 + LangGraph/LangChain 同样有洞（AI 安全）](https://venturebeat.com/security/7000-langflow-servers-under-attack-langgraph-langchain-same-holes)
 - 📅 2026-06-21 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48646659)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [RubyLLM：Ruby 一站式接入所有主流 AI 提供商](https://rubyllm.com/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48660711)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Qwen-AgentWorld：通用 Agent 的语言世界模型](https://arxiv.org/abs/2606.24597)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48654351)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Vulnerability reports are not special anymore](https://words.filippo.io/vuln-reports/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48653216)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [PR spam looks like email spam in the early 2000s](https://www.greptile.com/blog/prs-on-openclaw)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48660579)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
