@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-06-22"
+updated: "2026-06-25"
 ---
 
 # 游戏开发
@@ -232,3 +232,6 @@ updated: "2026-06-22"
 
 ### [What game development advice turned out to be completely wrong for you?](https://www.reddit.com/r/gamedev/comments/1ubj9qo/what_game_development_advice_turned_out_to_be/)
 - 📅 2026-06-22 · 来源: daily-materials · 分类: daily-materials
+
+### [6 年时间、20k+ 销量、$13.5 万营收，只在主机端发售的独立游戏复盘](https://www.reddit.com/r/gamedev/comments/1tzff7r/6_years_later_20k_copies_sold_135k_revenue_and_i/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials

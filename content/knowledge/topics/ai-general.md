@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-24"
+updated: "2026-06-25"
 ---
 
 # AI 通用
@@ -3167,4 +3167,91 @@ updated: "2026-06-24"
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
 
 ### [百度 Unlimited-OCR：单次解析超长文档](https://github.com/baidu/Unlimited-OCR)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Check Out These Free Crowd Reaction Mocap Animations](https://80.lv/articles/check-out-these-free-crowd-reaction-mocap-animations/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Brad Pitt's Fight Club Look Recreated in 3D Using Unreal Engine 5.7](https://80.lv/articles/brad-pitt-s-fight-club-look-recreated-in-3d-using-unreal-engine-5-7/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Folk Emerging：4X 策略游戏前几回合的极致挖掘](https://www.rockpapershotgun.com/folk-emerging-is-a-4x-strategy-sim-entirely-set-inside-the-first-few-turns-of-a-civilization-game-and-i-think-it-has-huge-potential)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Citizen Sleeper 创作者讲新作 Signet City](https://www.rockpapershotgun.com/citizen-sleeper-creator-explains-why-theyre-taking-a-swing-with-their-new-rpg)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Magic: The Gathering Arena 开发者工会成立](https://www.rockpapershotgun.com/magic-the-gathering-arena-devs-union-officially-elected-following-claims-wizards-of-the-coast-were-dragging-their-heels-on-voluntary-recognition)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Krea 2：开源 12B 参数 SOTA 图像模型](https://www.krea.ai/blog/krea-2-technical-report)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48646659)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [RubyLLM：Ruby 一站式接入所有主流 AI 提供商](https://rubyllm.com/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48660711)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Qwen-AgentWorld：通用 Agent 的语言世界模型](https://arxiv.org/abs/2606.24597)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48654351)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Haystack：开源生产级 Agent + RAG 框架](https://haystack.deepset.ai/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48658095)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 自研芯片首次亮相，由 Broadcom 制造](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Menlo Ventures 押注 Anthropic 后募资 30 亿美元新基金](https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Figma 加入代码图层、动画与 AI 功能](https://techcrunch.com/2026/06/24/figma-adds-code-layers-support-for-animations-more-ai-features-in-new-update/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Superhuman 收购 AI 检测公司 GPTZero](https://techcrunch.com/2026/06/23/superhuman-acquires-ai-detection-startup-gptzero/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Mark Zuckerberg 想让 Meta 做预测市场](https://techcrunch.com/2026/06/23/mark-zuckerberg-wants-meta-to-launch-its-own-prediction-market/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Vulnerability reports are not special anymore](https://words.filippo.io/vuln-reports/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48653216)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [PR spam looks like email spam in the early 2000s](https://www.greptile.com/blog/prs-on-openclaw)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48660579)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [John Carmack 早期错误回顾](https://twitter.com/ID_AA_Carmack/status/2069799283369345247)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [The Vergecast：Is the Steam Machine worth the wait?](https://www.theverge.com/the-vergecast)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [游戏 Jam 作品爆红，攒下 17.5 万 wishlists，但被多次盗版改成 AI Slop](https://www.reddit.com/r/gamedev/comments/1tq3sv6/our_game_jam_entry_blew_up_and_we_turned_it_into/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity 用了 10 年，第一次认真试 Godot 4.7，渲染让我意外](https://www.reddit.com/r/gamedev/comments/1uehia7/10_years_in_unity_just_gave_godot_47_a_real_shot/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Steam 描述用 WebM 别用 GIF！](https://www.reddit.com/r/gamedev/comments/1ueaooj/use_webm_on_your_steam_description_dont_use_gifs/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [纪念给单词加红绿波浪线的发明者](https://devblogs.microsoft.com/oldnewthing/20260622-00/?p=112451)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Boffin 指 Microsoft "量子飞跃" 因 Python 错误站不住脚](https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-06-19"
+updated: "2026-06-25"
 ---
 
 # 游戏行业
@@ -296,3 +296,27 @@ updated: "2026-06-19"
 
 ### [Everything you need to know from State of Unreal 2026: Unreal Engine 6](https://www.gamesindustry.biz/everything-you-need-to-know-from-state-of-unreal-2026-unreal-engine-6-unreal-engine-58-and-1bn-paid-to-fortnite-devs)
 - 📅 2026-06-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Create Production-Quality Forest Environments From Scratch In UE5.6](https://80.lv/articles/create-production-quality-forest-environments-from-scratch-in-ue5-6/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Magic: The Gathering Arena 开发者工会成立](https://www.rockpapershotgun.com/magic-the-gathering-arena-devs-union-officially-elected-following-claims-wizards-of-the-coast-were-dragging-their-heels-on-voluntary-recognition)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Krea 2：开源 12B 参数 SOTA 图像模型](https://www.krea.ai/blog/krea-2-technical-report)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48646659)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [John Carmack 早期错误回顾](https://twitter.com/ID_AA_Carmack/status/2069799283369345247)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论](https://news.ycombinator.com/item?id=48661825)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired：The Walt Disney Company](https://www.acquired.fm/episodes/the-walt-disney-company)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [The Vergecast：Why Big Tech can't quit smart glasses](https://www.theverge.com/the-vergecast)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials

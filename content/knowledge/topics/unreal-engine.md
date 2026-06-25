@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-24"
+updated: "2026-06-25"
 ---
 
 # Unreal Engine
@@ -654,4 +654,25 @@ UE 引擎更新与技巧
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
 
 ### [80 Level：律师拆解UE6"AI集成"的合同与版权地雷](https://80.lv/articles/video-game-lawyer-explains-key-issues-with-ue6-s-ai-integration/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Brad Pitt's Fight Club Look Recreated in 3D Using Unreal Engine 5.7](https://80.lv/articles/brad-pitt-s-fight-club-look-recreated-in-3d-using-unreal-engine-5-7/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Folk Emerging：4X 策略游戏前几回合的极致挖掘](https://www.rockpapershotgun.com/folk-emerging-is-a-4x-strategy-sim-entirely-set-inside-the-first-few-turns-of-a-civilization-game-and-i-think-it-has-huge-potential)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [游戏 Jam 作品爆红，攒下 17.5 万 wishlists，但被多次盗版改成 AI Slop](https://www.reddit.com/r/gamedev/comments/1tq3sv6/our_game_jam_entry_blew_up_and_we_turned_it_into/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Steam 描述用 WebM 别用 GIF！](https://www.reddit.com/r/gamedev/comments/1ueaooj/use_webm_on_your_steam_description_dont_use_gifs/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5 Hidden Anomaly 摄像头系统教程](https://www.reddit.com/r/unrealengine/comments/1ueetoq/ue5_hidden_anomaly_camera_system/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5 风格化渲染系统完成](https://www.reddit.com/r/unrealengine/comments/1udtdv8/finally_finished_my_stylized_rendering_system_for/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Bunny DNS 完全免费](https://bunny.net/blog/were-making-bunny-dns-free/)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials

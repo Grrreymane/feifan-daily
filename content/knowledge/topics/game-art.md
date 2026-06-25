@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-24"
+updated: "2026-06-25"
 ---
 
 # 游戏美术
@@ -387,4 +387,10 @@ updated: "2026-06-24"
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
 
 ### [Godot视差贴图实现](https://80.lv/articles/iterative-parallax-mapping-implemented-on-roof-material-in-godot/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Create Production-Quality Forest Environments From Scratch In UE5.6](https://80.lv/articles/create-production-quality-forest-environments-from-scratch-in-ue5-6/)
+- 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Boffin 指 Microsoft "量子飞跃" 因 Python 错误站不住脚](https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
