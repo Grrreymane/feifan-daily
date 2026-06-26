@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-06-24"
+updated: "2026-06-26"
 ---
 
 # 游戏行业裁员
@@ -281,3 +281,12 @@ updated: "2026-06-24"
 
 ### [Obsidian被指控系统性违反加州劳动法](https://www.gamesindustry.biz/obsidian-sued-in-class-action-lawsuit-over-alleged-systematic-pattern-of-wage-and-hour-violations)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Cozy Horror 游戏：4 人裁员团队的"治愈式恐怖"](https://80.lv/articles/this-free-cozy-horror-game-was-made-by-a-team-of-4-developers-during-layoffs/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [130+ Hair Cards 集合：3D 角色头发制作神器](https://80.lv/articles/save-time-on-creating-hair-for-your-3d-characters-with-this-collection-of-130-hair-cards/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 没杀死工程师岗位，反而是最具韧性的职业](https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-25"
+updated: "2026-06-26"
 ---
 
 # 游戏美术
@@ -394,3 +394,18 @@ updated: "2026-06-25"
 
 ### [Boffin 指 Microsoft "量子飞跃" 因 Python 错误站不住脚](https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Wingfeather Saga 动画剧集的 Unreal Engine 实时管线](https://80.lv/articles/creating-the-wingfeather-saga-animated-series-with-unreal-engine/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### ["You can't unit test for taste"](https://dev.karltryggvason.com/you-cant-unit-test-for-taste/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论："You can't unit test for taste"](https://news.ycombinator.com/item?id=48657049)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space（AI 工程师顶级播客）](https://latent.space/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit / 80 Level（游戏美术 / 设计向参考） 频道](https://www.youtube.com/@GMTK)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials

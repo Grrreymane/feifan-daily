@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-06-21"
+updated: "2026-06-26"
 ---
 
 # Simon Willison
@@ -65,3 +65,7 @@ updated: "2026-06-21"
 - 📅 2026-06-11 — [[Simon Willison 系列（深度博客重点推荐）](https://simonwillison.net/2026/Jun/9/llm/)
 
 - 📅 2026-06-21 — [引用：Sean Lynch 论 MCP 的真正价值（Simon Willison 笔记）](https://simonwillison.net/2026/Jun/19/sean-lynch/)
+
+- 📅 2026-06-26 — [Simon Willison：把 MDN 浏览器兼容数据转成 SQLite](https://simonwillison.net/2026/Jun/24/browser-compat-db/)
+
+- 📅 2026-06-26 — [Simon Willison 转载 Tom MacWright：LLM 简历的"虚无感"](https://simonwillison.net/2026/Jun/24/tom-macwright/)

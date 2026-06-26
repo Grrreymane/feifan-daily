@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-06-25"
+updated: "2026-06-26"
 ---
 
 # 游戏行业
@@ -320,3 +320,6 @@ updated: "2026-06-25"
 
 ### [The Vergecast：Why Big Tech can't quit smart glasses](https://www.theverge.com/the-vergecast)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Wingfeather Saga 动画剧集的 Unreal Engine 实时管线](https://80.lv/articles/creating-the-wingfeather-saga-animated-series-with-unreal-engine/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-25"
+updated: "2026-06-26"
 ---
 
 # Blender
@@ -424,3 +424,9 @@ Blender 工具与社区动态
 
 ### [New Free Toolkit Released For Maya Animators](https://80.lv/articles/new-free-toolkit-released-for-maya-animators/)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [黑暗奇幻动画短片：Blender 实现独特绘画风格](https://80.lv/articles/dark-fantasy-inspired-animated-short-in-blender-with-unique-painterly-style/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Stone Shaman 角色制作幕后（Spellcasters Chronicles）](https://80.lv/articles/check-out-how-spellcasters-chronicles-stone-shaman-was-made/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
