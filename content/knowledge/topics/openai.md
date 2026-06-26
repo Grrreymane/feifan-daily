@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-06-25"
+updated: "2026-06-26"
 ---
 
 # OpenAI
@@ -589,3 +589,9 @@ OpenAI 公司动态与产品
 
 ### [Menlo Ventures 押注 Anthropic 后募资 30 亿美元新基金](https://techcrunch.com/2026/06/23/after-betting-the-firm-on-anthropic-menlo-ventures-raises-victorious-3b-fund/)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论：OpenAI 联手博通推出首颗自研芯片](https://news.ycombinator.com/item?id=48663324)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 没杀死工程师岗位，反而是最具韧性的职业](https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials

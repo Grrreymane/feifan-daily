@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-25"
+updated: "2026-06-26"
 ---
 
 # AI 通用
@@ -3255,3 +3255,57 @@ updated: "2026-06-25"
 
 ### [Boffin 指 Microsoft "量子飞跃" 因 Python 错误站不住脚](https://www.theregister.com/research/2026/06/24/boffin-claims-microsofts-supposed-quantum-leap-does-not-compute-due-to-basic-python-errors/5260489)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Wingfeather Saga 动画剧集的 Unreal Engine 实时管线](https://80.lv/articles/creating-the-wingfeather-saga-animated-series-with-unreal-engine/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [黑暗奇幻动画短片：Blender 实现独特绘画风格](https://80.lv/articles/dark-fantasy-inspired-animated-short-in-blender-with-unique-painterly-style/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Stone Shaman 角色制作幕后（Spellcasters Chronicles）](https://80.lv/articles/check-out-how-spellcasters-chronicles-stone-shaman-was-made/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [130+ Hair Cards 集合：3D 角色头发制作神器](https://80.lv/articles/save-time-on-creating-hair-for-your-3d-characters-with-this-collection-of-130-hair-cards/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 指控阿里巴巴非法提取 Claude 模型能力](https://www.reuters.com/world/china/anthropic-says-alibaba-illicitly-extracted-claude-ai-model-capabilities-2026-06-24/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论：Anthropic 指控阿里巴巴非法提取 Claude 模型能力](https://news.ycombinator.com/item?id=48664814)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic Claude 在付费消费者市场反超 ChatGPT](https://techcrunch.com/2026/06/25/anthropics-claude-is-winning-over-paid-consumers-a-market-owned-by-chatgpt/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论：OpenAI 联手博通推出首颗自研芯片](https://news.ycombinator.com/item?id=48663324)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 没杀死工程师岗位，反而是最具韧性的职业](https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：把 MDN 浏览器兼容数据转成 SQLite](https://simonwillison.net/2026/Jun/24/browser-compat-db/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison 转载 Tom MacWright：LLM 简历的"虚无感"](https://simonwillison.net/2026/Jun/24/tom-macwright/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### ["Blogging can just be stating the obvious"](https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论："Blogging can just be stating the obvious"](https://news.ycombinator.com/item?id=48666927)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### ["You can't unit test for taste"](https://dev.karltryggvason.com/you-cant-unit-test-for-taste/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [HN讨论："You can't unit test for taste"](https://news.ycombinator.com/item?id=48657049)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space（AI 工程师顶级播客）](https://latent.space/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [The Cognitive Revolution（Nathan Labenz 主持）](https://www.cognitiverevolution.ai/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit / 80 Level（游戏美术 / 设计向参考） 频道](https://www.youtube.com/@GMTK)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials

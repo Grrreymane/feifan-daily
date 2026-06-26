@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-25"
+updated: "2026-06-26"
 ---
 
 # AI Agent
@@ -622,3 +622,9 @@ AI Agent 架构、实践与踩坑
 
 ### [OpenAI 自研芯片首次亮相，由 Broadcom 制造](https://techcrunch.com/2026/06/24/openai-unveils-its-first-custom-chip-built-by-broadcom/)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [The Cognitive Revolution（Nathan Labenz 主持）](https://www.cognitiverevolution.ai/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit / 80 Level（游戏美术 / 设计向参考） 频道](https://www.youtube.com/@GMTK)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials

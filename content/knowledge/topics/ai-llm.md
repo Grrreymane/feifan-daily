@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-25"
+updated: "2026-06-26"
 ---
 
 # 大语言模型
@@ -367,3 +367,12 @@ LLM 技术进展、应用与讨论
 
 ### [HN 讨论](https://news.ycombinator.com/item?id=48660579)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison 转载 Tom MacWright：LLM 简历的"虚无感"](https://simonwillison.net/2026/Jun/24/tom-macwright/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### ["Blogging can just be stating the obvious"](https://blog.jim-nielsen.com/2026/blogging-stating-the-obvious/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [The Cognitive Revolution（Nathan Labenz 主持）](https://www.cognitiverevolution.ai/)
+- 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
