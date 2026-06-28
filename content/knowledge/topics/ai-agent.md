@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-26"
+updated: "2026-06-28"
 ---
 
 # AI Agent
@@ -628,3 +628,12 @@ AI Agent 架构、实践与踩坑
 
 ### [Game Maker's Toolkit / 80 Level（游戏美术 / 设计向参考） 频道](https://www.youtube.com/@GMTK)
 - 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrew Nesbitt：CVE-2026-LGTM 假想事故复盘](https://simonwillison.net/2026/Jun/26/incident-report/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Vision Pro 高管据报跳槽 OpenAI 硬件团队](https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space Podcast：Anj（AI Engineering 实践）](https://www.latent.space/p/anj)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials

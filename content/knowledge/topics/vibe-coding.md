@@ -3,7 +3,7 @@ title: "Vibe Coding"
 slug: "vibe-coding"
 description: "AI 辅助编程的现象、利弊与讨论"
 created: "2026-04-07"
-updated: "2026-06-10"
+updated: "2026-06-28"
 ---
 
 # Vibe Coding
@@ -44,3 +44,6 @@ AI 辅助编程的现象、利弊与讨论
 
 ### ['Sloppenheimer': Amazon 员工在 Slack 上嘲讽自家 AI](https://www.404media.co/sloppenheimer-amazon-employees-mock-the-companys-ai-on-slack)
 - 📅 2026-06-10 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Vision Pro 高管据报跳槽 OpenAI 硬件团队](https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials

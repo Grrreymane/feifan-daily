@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-06-26"
+updated: "2026-06-28"
 ---
 
 # OpenAI
@@ -595,3 +595,27 @@ OpenAI 公司动态与产品
 
 ### [AI 没杀死工程师岗位，反而是最具韧性的职业](https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/)
 - 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 预览 GPT-5.6 系列：Sol / Terra / Luna](https://openai.com/index/previewing-gpt-5-6-sol/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [美国政府将决定谁能用 GPT-5.6（华盛顿邮报）](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [美国允许 Anthropic 把 Mythos 模型释放给"可信"美国机构](https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Vision Pro 高管据报跳槽 OpenAI 硬件团队](https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple 求美国政府允许从被列入黑名单的中国厂商 CXMT 买内存](https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [为什么大家都在自研 AI 芯片：从 OpenAI 到 SpaceX](https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit：How I Coded the Perks in my Roguelike](https://www.youtube.com/watch?v=n1cd1FhVAWY)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [The Vergecast：Is the Steam Machine worth the wait?](https://feeds.megaphone.fm/vergecast)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
