@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-06-26"
+updated: "2026-06-28"
 ---
 
 # Simon Willison
@@ -69,3 +69,9 @@ updated: "2026-06-26"
 - 📅 2026-06-26 — [Simon Willison：把 MDN 浏览器兼容数据转成 SQLite](https://simonwillison.net/2026/Jun/24/browser-compat-db/)
 
 - 📅 2026-06-26 — [Simon Willison 转载 Tom MacWright：LLM 简历的"虚无感"](https://simonwillison.net/2026/Jun/24/tom-macwright/)
+
+- 📅 2026-06-28 — [Simon Willison：当 2000 人尝试黑掉我的 AI 助手之后](https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/)
+
+- 📅 2026-06-28 — [Simon Willison：Prompt Injection as Role Confusion](https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/)
+
+- 📅 2026-06-28 — [Simon Willison：把 Moebius 0.2B 图像修复模型移植到浏览器（用 Claude Code）](https://simonwillison.net/2026/Jun/22/porting-moebius/)

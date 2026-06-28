@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-26"
+updated: "2026-06-28"
 ---
 
 # 大语言模型
@@ -376,3 +376,12 @@ LLM 技术进展、应用与讨论
 
 ### [The Cognitive Revolution（Nathan Labenz 主持）](https://www.cognitiverevolution.ai/)
 - 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [DSpark：DeepSeek 的"投机解码"加速 LLM 推理](https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Open weights LLM 与闭源 LLM 的差距](https://blog.doubleword.ai/frontier-os-llm)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：当 2000 人尝试黑掉我的 AI 助手之后](https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-26"
+updated: "2026-06-28"
 ---
 
 # Unreal Engine
@@ -679,3 +679,12 @@ UE 引擎更新与技巧
 
 ### [Wingfeather Saga 动画剧集的 Unreal Engine 实时管线](https://80.lv/articles/creating-the-wingfeather-saga-animated-series-with-unreal-engine/)
 - 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev：Godot 引擎正式发布"愿景声明"](https://www.reddit.com/r/gamedev/comments/1uggy3m/vision_for_the_godot_engine/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev：UE 转 Unity 的开发者反思](https://www.reddit.com/r/gamedev/comments/1uh3mqc/leaving_unreal_engine_for_unity/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev：RPG 80% 都是不同形式的菜单](https://www.reddit.com/r/gamedev/comments/1ugk7mp/something_i_didnt_realize_about_rpgs_until_i/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials

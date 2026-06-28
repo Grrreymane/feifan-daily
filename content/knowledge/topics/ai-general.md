@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-26"
+updated: "2026-06-28"
 ---
 
 # AI 通用
@@ -3309,3 +3309,54 @@ updated: "2026-06-26"
 
 ### [Game Maker's Toolkit / 80 Level（游戏美术 / 设计向参考） 频道](https://www.youtube.com/@GMTK)
 - 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Stardew Valley 创作者谈 Haunted Chocolatier 的"食谱书"界面](https://www.rockpapershotgun.com/i-torture-myself-over-every-last-detail-stardew-valleys-creator-is-having-a-real-time-of-it-with-haunted-chocolatiers-recipe-book-interface)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 预览 GPT-5.6 系列：Sol / Terra / Luna](https://openai.com/index/previewing-gpt-5-6-sol/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [美国政府将决定谁能用 GPT-5.6（华盛顿邮报）](https://www.washingtonpost.com/technology/2026/06/26/openai-says-us-government-will-vet-users-its-latest-ai-model/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [美国允许 Anthropic 把 Mythos 模型释放给"可信"美国机构](https://www.semafor.com/article/06/27/2026/us-releases-powerful-anthropic-model-mythos-to-some-us-companies)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [亚洲 AI 创业公司发布 Mythos 等级模型，对冲 Anthropic 出口禁令](https://techcrunch.com/2026/06/27/asian-ai-startups-launch-mythos-like-models-as-anthropics-export-ban-drags-on/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [DSpark：DeepSeek 的"投机解码"加速 LLM 推理](https://github.com/deepseek-ai/DeepSpec/blob/main/DSpark_paper.pdf)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Open weights LLM 与闭源 LLM 的差距](https://blog.doubleword.ai/frontier-os-llm)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：当 2000 人尝试黑掉我的 AI 助手之后](https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：把 Moebius 0.2B 图像修复模型移植到浏览器（用 Claude Code）](https://simonwillison.net/2026/Jun/22/porting-moebius/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrew Nesbitt：CVE-2026-LGTM 假想事故复盘](https://simonwillison.net/2026/Jun/26/incident-report/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Vision Pro 高管据报跳槽 OpenAI 硬件团队](https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple 求美国政府允许从被列入黑名单的中国厂商 CXMT 买内存](https://www.theverge.com/tech/958707/apple-ram-buy-memory-blacklisted-china-cxmt)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [为什么大家都在自研 AI 芯片：从 OpenAI 到 SpaceX](https://techcrunch.com/video/why-everyone-from-openai-to-spacex-is-building-their-own-chips-and-turning-up-the-heat-on-nvidia/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit：How I Coded the Perks in my Roguelike](https://www.youtube.com/watch?v=n1cd1FhVAWY)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [The Vergecast：Is the Steam Machine worth the wait?](https://feeds.megaphone.fm/vergecast)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space Podcast：Databricks（Lakehouse → AI 平台的转型实录）](https://www.latent.space/p/databricks)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space Podcast：Anj（AI Engineering 实践）](https://www.latent.space/p/anj)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials

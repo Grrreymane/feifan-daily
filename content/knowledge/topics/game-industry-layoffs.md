@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-06-26"
+updated: "2026-06-28"
 ---
 
 # 游戏行业裁员
@@ -290,3 +290,9 @@ updated: "2026-06-26"
 
 ### [AI 没杀死工程师岗位，反而是最具韧性的职业](https://techcrunch.com/2026/06/24/ai-was-supposed-to-kill-engineering-jobs-but-new-data-suggests-theyre-the-most-resilient/)
 - 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Star Wars Eclipse 据报因裁员"做不完了"](https://www.rockpapershotgun.com/star-wars-eclipse-literally-cannot-be-finished-if-layoffs-go-through-its-devs-reportedly-say)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Civilization 7 设计访谈：20 世纪领袖与殖民议题](https://www.rockpapershotgun.com/civilization-7-devs-talk-20th-century-leaders-controversial-historical-figures-and-dealing-with-colonialism-in-4x-strategy-games)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials

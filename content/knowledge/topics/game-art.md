@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-26"
+updated: "2026-06-28"
 ---
 
 # 游戏美术
@@ -409,3 +409,9 @@ updated: "2026-06-26"
 
 ### [Game Maker's Toolkit / 80 Level（游戏美术 / 设计向参考） 频道](https://www.youtube.com/@GMTK)
 - 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Setting Up Vegetation for Alien Island in 3D（外星岛屿植被 3D 制作拆解）](https://80.lv/articles/setting-up-vegetation-for-alien-island-in-3d/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrew Nesbitt：CVE-2026-LGTM 假想事故复盘](https://simonwillison.net/2026/Jun/26/incident-report/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials

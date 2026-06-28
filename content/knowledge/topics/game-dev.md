@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-06-25"
+updated: "2026-06-28"
 ---
 
 # 游戏开发
@@ -235,3 +235,12 @@ updated: "2026-06-25"
 
 ### [6 年时间、20k+ 销量、$13.5 万营收，只在主机端发售的独立游戏复盘](https://www.reddit.com/r/gamedev/comments/1tzff7r/6_years_later_20k_copies_sold_135k_revenue_and_i/)
 - 📅 2026-06-25 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev：Godot 引擎正式发布"愿景声明"](https://www.reddit.com/r/gamedev/comments/1uggy3m/vision_for_the_godot_engine/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev：UE 转 Unity 的开发者反思](https://www.reddit.com/r/gamedev/comments/1uh3mqc/leaving_unreal_engine_for_unity/)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit：How I Coded the Perks in my Roguelike](https://www.youtube.com/watch?v=n1cd1FhVAWY)
+- 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
