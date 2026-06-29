@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-28"
+updated: "2026-06-29"
 ---
 
 # AI 通用
@@ -3360,3 +3360,39 @@ updated: "2026-06-28"
 
 ### [Latent Space Podcast：Anj（AI Engineering 实践）](https://www.latent.space/p/anj)
 - 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Coffee Talk Tokyo：贩卖"Cool Japan"刻板印象的视觉小说](https://www.rockpapershotgun.com/visual-novel-coffee-talk-tokyo-serves-up-an-image-of-cool-japan-but-not-much-more)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 学会 RFIC（射频集成电路）设计的"黑魔法"](https://spectrum.ieee.org/ai-radio-chip-design)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Code 让一个工程师顶三个，公司转而招更多产品经理](https://venturebeat.com/infrastructure/claude-code-turned-every-engineer-into-three-now-companies-need-more-product-thinkers)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [提示词注入：企业 AI 的最大设计缺陷正在被攻击者大规模利用](https://venturebeat.com/security/prompt-injection-is-exploiting-enterprise-ais-biggest-design-flaws-by-targeting-agents-rag-pipelines-and-model-routers)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [检察官将 ChatGPT 日志作为纵火案审判证据](https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Margaret Atwood 谈 AI："Garbage in, garbage out"](https://www.theverge.com/ai-artificial-intelligence/958715/margaret-atwood-ai-problem-garbage-in-garbage-out)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [中国重夺全球最快超算桂冠（自 2018 年以来首次）](https://www.theverge.com/tech/958768/china-claims-the-worlds-fastest-supercomputer)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [AMD Strix Halo RDMA 集群搭建指南（开源 vLLM 推理）](https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Wayfinder Router：本地 LLM vs 托管 LLM 的确定性路由](https://github.com/itsthelore/wayfinder-router)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Suspicious Discontinuities（可疑的不连续性）](https://danluu.com/discontinuities/)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space Podcast：Mission Critical Inference（DeepSeek v3 + SGLang）](https://www.latent.space/p/baseten)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level Podcast / 文章频道：AI Game Dev + 环境美术深度访谈](https://cdn.80.lv/)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-06-28"
+updated: "2026-06-29"
 ---
 
 # 游戏行业
@@ -326,3 +326,6 @@ updated: "2026-06-28"
 
 ### [Setting Up Vegetation for Alien Island in 3D（外星岛屿植被 3D 制作拆解）](https://80.lv/articles/setting-up-vegetation-for-alien-island-in-3d/)
 - 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：异形岛屿植被搭建 Breakdown（环境美术深度教程）](https://cdn.80.lv/articles)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
