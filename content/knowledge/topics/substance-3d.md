@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-06-14"
+updated: "2026-06-29"
 ---
 
 # Substance 3D
@@ -133,3 +133,6 @@ Substance 系列工具与材质
 
 ### [80 Level](https://80.lv/articles/this-short-barnacle-animation-was-inspired-by-the-half-life-game/)
 - 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Bloodwoven：建立在冻结神尸之上的生存沉浸式模拟游戏](https://www.rockpapershotgun.com/bloodwoven-is-a-survival-immersive-sim-set-in-a-world-built-on-top-of-the-frozen-corpse-of-a-god)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials

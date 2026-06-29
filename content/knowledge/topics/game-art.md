@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-28"
+updated: "2026-06-29"
 ---
 
 # 游戏美术
@@ -415,3 +415,12 @@ updated: "2026-06-28"
 
 ### [Andrew Nesbitt：CVE-2026-LGTM 假想事故复盘](https://simonwillison.net/2026/Jun/26/incident-report/)
 - 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：异形岛屿植被搭建 Breakdown（环境美术深度教程）](https://cdn.80.lv/articles)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 学会 RFIC（射频集成电路）设计的"黑魔法"](https://spectrum.ieee.org/ai-radio-chip-design)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit (GMTK) YouTube 频道](https://gamemakerstoolkit.com/)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials

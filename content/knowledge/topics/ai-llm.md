@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-28"
+updated: "2026-06-29"
 ---
 
 # 大语言模型
@@ -385,3 +385,21 @@ LLM 技术进展、应用与讨论
 
 ### [Simon Willison：当 2000 人尝试黑掉我的 AI 助手之后](https://simonwillison.net/2026/Jun/26/hack-my-ai-assistant/)
 - 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [检察官将 ChatGPT 日志作为纵火案审判证据](https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [AMD Strix Halo RDMA 集群搭建指南（开源 vLLM 推理）](https://github.com/kyuz0/amd-strix-halo-vllm-toolboxes/blob/main/rdma_cluster/setup_guide.md)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Wayfinder Router：本地 LLM vs 托管 LLM 的确定性路由](https://github.com/itsthelore/wayfinder-router)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [匿名 GitHub 账号大规模释放未公开 0day 漏洞](https://github.com/bikini/exploitarium)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space Podcast：Mission Critical Inference（DeepSeek v3 + SGLang）](https://www.latent.space/p/baseten)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired Podcast：每家公司都有故事（深度商业案例）](https://www.acquired.fm/)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials

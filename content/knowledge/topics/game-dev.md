@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-06-28"
+updated: "2026-06-29"
 ---
 
 # 游戏开发
@@ -244,3 +244,15 @@ updated: "2026-06-28"
 
 ### [Game Maker's Toolkit：How I Coded the Perks in my Roguelike](https://www.youtube.com/watch?v=n1cd1FhVAWY)
 - 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Coffee Talk Tokyo：贩卖"Cool Japan"刻板印象的视觉小说](https://www.rockpapershotgun.com/visual-novel-coffee-talk-tokyo-serves-up-an-image-of-cool-japan-but-not-much-more)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [我用 Claude Code 给我的 MRI 报告做了二次诊断](https://antoine.fi/mri-analysis-using-claude-code-opus)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level Podcast / 文章频道：AI Game Dev + 环境美术深度访谈](https://cdn.80.lv/)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit (GMTK) YouTube 频道](https://gamemakerstoolkit.com/)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials

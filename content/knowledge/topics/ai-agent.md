@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-28"
+updated: "2026-06-29"
 ---
 
 # AI Agent
@@ -637,3 +637,9 @@ AI Agent 架构、实践与踩坑
 
 ### [Latent Space Podcast：Anj（AI Engineering 实践）](https://www.latent.space/p/anj)
 - 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [提示词注入：企业 AI 的最大设计缺陷正在被攻击者大规模利用](https://venturebeat.com/security/prompt-injection-is-exploiting-enterprise-ais-biggest-design-flaws-by-targeting-agents-rag-pipelines-and-model-routers)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [检察官将 ChatGPT 日志作为纵火案审判证据](https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial)
+- 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
