@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-29"
+updated: "2026-06-30"
 ---
 
 # AI Agent
@@ -643,3 +643,21 @@ AI Agent 架构、实践与踩坑
 
 ### [检察官将 ChatGPT 日志作为纵火案审判证据](https://www.theverge.com/ai-artificial-intelligence/958751/prosecutors-chatgpt-palisades-wildfire-arson-mistrial)
 - 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [Cursor 出移动端，远程指挥编码 Agent](https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison 转 Jon Udell：别再说"人在回路里"，是机器加入我们的回路](https://simonwillison.net/2026/Jun/28/jon-udell/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM 5.2 在网络安全 Benchmark 上击败了 Claude](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Tokenmaxxing 已死，Tokenmaxxing 万岁](https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [CD Projekt 改名为 CD Projekt Red](https://www.gamesindustry.biz/cd-projekt-rebrands-to-cd-projekt-red)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [PlayStation 又一次单方面下架已购内容](https://www.gamesindustry.biz/playstation-once-again-pulls-purchased-studio-canal-content-from-user-libraries-because-of-licensing-arrangements)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials

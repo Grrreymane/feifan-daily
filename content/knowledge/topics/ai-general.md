@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-29"
+updated: "2026-06-30"
 ---
 
 # AI 通用
@@ -3396,3 +3396,51 @@ updated: "2026-06-29"
 
 ### [80 Level Podcast / 文章频道：AI Game Dev + 环境美术深度访谈](https://cdn.80.lv/)
 - 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [鼠标贴图也能画出大师级手绘场景](https://80.lv/articles/this-beautiful-hand-painted-scene-was-textured-using-a-mouse/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [用 ZBrush + UE5 把油画《Barking Up the Wrong Turkey》搬进 3D](https://80.lv/articles/recreating-oil-painting-barking-up-the-wrong-turkey-in-3d-with-zbrush-ue5/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [福特把 AI 替掉的"灰胡子"老工程师又请回来了](https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Cursor 出移动端，远程指挥编码 Agent](https://techcrunch.com/2026/06/29/cursor-now-has-a-mobile-app-for-guiding-your-coding-agent-on-the-go/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison 转 Jon Udell：别再说"人在回路里"，是机器加入我们的回路](https://simonwillison.net/2026/Jun/28/jon-udell/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM 5.2 在网络安全 Benchmark 上击败了 Claude](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [HackerRank 开源了它的 ATS，自测简历分数飘忽不定](https://danunparsed.com/p/hackerrank-open-source-ats)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [年龄验证只是言论自动归属化的前奏](https://nonogra.ph/age-verification-is-just-a-precursor-to-attribution-of-speech-06-29-2026)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Tokenmaxxing 已死，Tokenmaxxing 万岁](https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [CD Projekt 改名为 CD Projekt Red](https://www.gamesindustry.biz/cd-projekt-rebrands-to-cd-projekt-red)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [PlayStation 又一次单方面下架已购内容](https://www.gamesindustry.biz/playstation-once-again-pulls-purchased-studio-canal-content-from-user-libraries-because-of-licensing-arrangements)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Cyberpunk: Edgerunners 2 公布新预告](https://80.lv/articles/cyberpunk-edgerunners-2-releases-new-teaser/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Arena AI 排行榜变身 1 亿美元生意](https://techcrunch.com/2026/06/29/arena-the-ai-leaderboard-everyone-uses-is-now-a-100m-business/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Rocket Lab 收购 Iridium，全股票交易作价 80 亿美元](https://techcrunch.com/2026/06/29/rocket-lab-continues-buying-spree-by-acquiring-satellite-company-iridium/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [TIDAL 宣布切断 AI 音乐分成](https://techcrunch.com/2026/06/29/tidal-cracks-down-on-ai-music-by-cutting-off-monetization/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level Podcast — Crema 团队聊 Temtem](https://80.lv/articles/temtem-developing-massively-multiplayer-creature-collection-adventure/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials

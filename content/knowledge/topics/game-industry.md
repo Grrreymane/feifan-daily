@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-06-29"
+updated: "2026-06-30"
 ---
 
 # 游戏行业
@@ -329,3 +329,15 @@ updated: "2026-06-29"
 
 ### [80 Level：异形岛屿植被搭建 Breakdown（环境美术深度教程）](https://cdn.80.lv/articles)
 - 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [鼠标贴图也能画出大师级手绘场景](https://80.lv/articles/this-beautiful-hand-painted-scene-was-textured-using-a-mouse/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [CD Projekt 改名为 CD Projekt Red](https://www.gamesindustry.biz/cd-projekt-rebrands-to-cd-projekt-red)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [PlayStation 又一次单方面下架已购内容](https://www.gamesindustry.biz/playstation-once-again-pulls-purchased-studio-canal-content-from-user-libraries-because-of-licensing-arrangements)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [BladeTiger_Art — 虎科动物，线条与体块清晰](https://x.com/BladeTiger_Art)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials

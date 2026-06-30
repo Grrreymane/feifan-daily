@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-06-29"
+updated: "2026-06-30"
 ---
 
 # 游戏开发
@@ -256,3 +256,6 @@ updated: "2026-06-29"
 
 ### [Game Maker's Toolkit (GMTK) YouTube 频道](https://gamemakerstoolkit.com/)
 - 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level Podcast — Crema 团队聊 Temtem](https://80.lv/articles/temtem-developing-massively-multiplayer-creature-collection-adventure/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
