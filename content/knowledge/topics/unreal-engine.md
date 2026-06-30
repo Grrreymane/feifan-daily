@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-28"
+updated: "2026-06-30"
 ---
 
 # Unreal Engine
@@ -688,3 +688,6 @@ UE 引擎更新与技巧
 
 ### [r/gamedev：RPG 80% 都是不同形式的菜单](https://www.reddit.com/r/gamedev/comments/1ugk7mp/something_i_didnt_realize_about_rpgs_until_i/)
 - 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [用 ZBrush + UE5 把油画《Barking Up the Wrong Turkey》搬进 3D](https://80.lv/articles/recreating-oil-painting-barking-up-the-wrong-turkey-in-3d-with-zbrush-ue5/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-26"
+updated: "2026-06-30"
 ---
 
 # Blender
@@ -430,3 +430,9 @@ Blender 工具与社区动态
 
 ### [Stone Shaman 角色制作幕后（Spellcasters Chronicles）](https://80.lv/articles/check-out-how-spellcasters-chronicles-stone-shaman-was-made/)
 - 📅 2026-06-26 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 5.1 Cycles 实时焦散教程](https://80.lv/articles/tutorial-real-time-caustics-in-blender-5-1-s-cycles/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [福特把 AI 替掉的"灰胡子"老工程师又请回来了](https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-29"
+updated: "2026-06-30"
 ---
 
 # 大语言模型
@@ -403,3 +403,15 @@ LLM 技术进展、应用与讨论
 
 ### [Acquired Podcast：每家公司都有故事（深度商业案例）](https://www.acquired.fm/)
 - 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM 5.2 在网络安全 Benchmark 上击败了 Claude](https://semgrep.dev/blog/2026/we-have-mythos-at-home-glm-52-beats-claude-in-our-cyber-benchmarks/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [HackerRank 开源了它的 ATS，自测简历分数飘忽不定](https://danunparsed.com/p/hackerrank-open-source-ats)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Tokenmaxxing 已死，Tokenmaxxing 万岁](https://12gramsofcarbon.com/p/agentics-tech-things-tokenmaxxing)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [CD Projekt 改名为 CD Projekt Red](https://www.gamesindustry.biz/cd-projekt-rebrands-to-cd-projekt-red)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials

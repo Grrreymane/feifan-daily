@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-06-17"
+updated: "2026-06-30"
 ---
 
 # ZBrush
@@ -142,3 +142,9 @@ ZBrush 雕刻与工作流
 
 ### [波士顿动力 Atlas 学踢足球](https://so.html5.qq.com/page/real/search_news?docid=70000021_4326a18e73612552)
 - 📅 2026-06-17 · 来源: daily-materials · 分类: daily-materials
+
+### [用 ZBrush + UE5 把油画《Barking Up the Wrong Turkey》搬进 3D](https://80.lv/articles/recreating-oil-painting-barking-up-the-wrong-turkey-in-3d-with-zbrush-ue5/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 5.1 Cycles 实时焦散教程](https://80.lv/articles/tutorial-real-time-caustics-in-blender-5-1-s-cycles/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials

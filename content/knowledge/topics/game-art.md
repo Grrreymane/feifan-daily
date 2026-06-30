@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-29"
+updated: "2026-06-30"
 ---
 
 # 游戏美术
@@ -424,3 +424,18 @@ updated: "2026-06-29"
 
 ### [Game Maker's Toolkit (GMTK) YouTube 频道](https://gamemakerstoolkit.com/)
 - 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [鼠标贴图也能画出大师级手绘场景](https://80.lv/articles/this-beautiful-hand-painted-scene-was-textured-using-a-mouse/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [用 ZBrush + UE5 把油画《Barking Up the Wrong Turkey》搬进 3D](https://80.lv/articles/recreating-oil-painting-barking-up-the-wrong-turkey-in-3d-with-zbrush-ue5/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 5.1 Cycles 实时焦散教程](https://80.lv/articles/tutorial-real-time-caustics-in-blender-5-1-s-cycles/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level Podcast — Crema 团队聊 Temtem](https://80.lv/articles/temtem-developing-massively-multiplayer-creature-collection-adventure/)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [BladeTiger_Art — 虎科动物，线条与体块清晰](https://x.com/BladeTiger_Art)
+- 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials

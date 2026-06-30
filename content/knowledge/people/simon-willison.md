@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-06-28"
+updated: "2026-06-30"
 ---
 
 # Simon Willison
@@ -75,3 +75,5 @@ updated: "2026-06-28"
 - 📅 2026-06-28 — [Simon Willison：Prompt Injection as Role Confusion](https://simonwillison.net/2026/Jun/22/prompt-injection-as-role-confusion/)
 
 - 📅 2026-06-28 — [Simon Willison：把 Moebius 0.2B 图像修复模型移植到浏览器（用 Claude Code）](https://simonwillison.net/2026/Jun/22/porting-moebius/)
+
+- 📅 2026-06-30 — [Simon Willison 转 Jon Udell：别再说"人在回路里"，是机器加入我们的回路](https://simonwillison.net/2026/Jun/28/jon-udell/)
