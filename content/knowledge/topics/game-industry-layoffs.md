@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-06-28"
+updated: "2026-07-01"
 ---
 
 # 游戏行业裁员
@@ -296,3 +296,15 @@ updated: "2026-06-28"
 
 ### [Civilization 7 设计访谈：20 世纪领袖与殖民议题](https://www.rockpapershotgun.com/civilization-7-devs-talk-20th-century-leaders-controversial-historical-figures-and-dealing-with-colonialism-in-4x-strategy-games)
 - 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox pauses third-party Game Pass deals amid Undead Labs concerns](https://www.gamedeveloper.com/business/xbox-pauses-third-party-game-pass-deals-undead-labs)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Ubisoft Barcelona staff strike over 51 layoffs](https://www.gamedeveloper.com/business/ubisoft-barcelona-strike-july-layoffs)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GTA 6 Rockstar IWGB union seeks legal recognition](https://www.gamedeveloper.com/business/gta6-rockstar-iwgb-union-legal-recognition)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Cognitive Revolution podcast latest episode on AI agents](https://www.cognitiverevolution.ai/episodes/latest-2026-06-30)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "概念设计"
 slug: "concept-art"
 description: "概念设计行业动态与技法"
 created: "2026-06-14"
-updated: "2026-06-14"
+updated: "2026-07-01"
 ---
 
 # 概念设计
@@ -28,3 +28,15 @@ updated: "2026-06-14"
 
 ### [80 Level](https://80.lv/articles/what-keeps-a-game-running-for-24-years/)
 - 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
+
+### [X launches official MCP Server](https://news.ycombinator.com/item?id=48729844)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [OKX wants AI Agents to hire and pay each other](https://news.ycombinator.com/item?id=48731120)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Viktor Antonov posthumous game Guns of Eschaton revealed](https://80.lv/articles/viktor-antonov-guns-of-eschaton-posthumous-reveal/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Geometry Nodes real-time collision in Blender tutorial](https://80.lv/articles/blender-geometry-nodes-real-time-collision-tutorial/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials

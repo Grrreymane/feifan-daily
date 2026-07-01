@@ -1,6 +1,6 @@
 ---
 title: "知识库索引"
-updated: "2026-06-30"
+updated: "2026-07-01"
 ---
 
 # 📖 非凡像素知识库
@@ -11,26 +11,27 @@ updated: "2026-06-30"
 
 ## 🗂️ 话题索引
 
-### 🤖 AI
-
-- [AI Agent](topics/ai-agent.md) (215 条)
-- [AI 通用](topics/ai-general.md) (1142 条)
-- [大语言模型](topics/ai-llm.md) (133 条)
-- [AI 工具](topics/ai-tools.md) (1 条)
-
 ### 📌 其他
 
-- [Blender](topics/blender.md) (140 条)
-- [概念设计](topics/concept-art.md) (4 条)
+- [3D 建模](topics/3d-modeling.md) (4 条)
+- [Blender](topics/blender.md) (144 条)
+- [概念设计](topics/concept-art.md) (8 条)
 - [批判性思维](topics/critical-thinking.md) (1 条)
 - [数据报告](topics/data-reports.md) (1 条)
 - [GDC 大会](topics/gdc.md) (34 条)
 - [OpenAI](topics/openai.md) (201 条)
 - [编程](topics/programming.md) (2 条)
 - [Substance 3D](topics/substance-3d.md) (40 条)
-- [Unreal Engine](topics/unreal-engine.md) (225 条)
+- [Unreal Engine](topics/unreal-engine.md) (230 条)
 - [Vibe Coding](topics/vibe-coding.md) (10 条)
 - [ZBrush](topics/zbrush.md) (44 条)
+
+### 🤖 AI
+
+- [AI Agent](topics/ai-agent.md) (228 条)
+- [AI 通用](topics/ai-general.md) (1164 条)
+- [大语言模型](topics/ai-llm.md) (138 条)
+- [AI 工具](topics/ai-tools.md) (1 条)
 
 ### 💼 职场
 
@@ -38,10 +39,10 @@ updated: "2026-06-30"
 
 ### 🎮 游戏
 
-- [游戏美术](topics/game-art.md) (141 条)
-- [游戏开发](topics/game-dev.md) (81 条)
-- [游戏行业裁员](topics/game-industry-layoffs.md) (93 条)
-- [游戏行业](topics/game-industry.md) (108 条)
+- [游戏美术](topics/game-art.md) (146 条)
+- [游戏开发](topics/game-dev.md) (85 条)
+- [游戏行业裁员](topics/game-industry-layoffs.md) (97 条)
+- [游戏行业](topics/game-industry.md) (113 条)
 - [游戏工会](topics/game-unions.md) (1 条)
 
 ## 👤 人物索引
@@ -53,6 +54,6 @@ updated: "2026-06-30"
 
 ---
 
-📊 共 21 个话题，4 位人物
+📊 共 22 个话题，4 位人物
 
-*最后更新: 2026-06-30*
+*最后更新: 2026-07-01*
