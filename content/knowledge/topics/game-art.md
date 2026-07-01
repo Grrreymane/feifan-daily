@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-06-30"
+updated: "2026-07-01"
 ---
 
 # 游戏美术
@@ -439,3 +439,18 @@ updated: "2026-06-30"
 
 ### [BladeTiger_Art — 虎科动物，线条与体块清晰](https://x.com/BladeTiger_Art)
 - 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon launches 1B FDE team for AI agents](https://news.ycombinator.com/item?id=48733201)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [X launches official MCP Server](https://news.ycombinator.com/item?id=48729844)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [OKX wants AI Agents to hire and pay each other](https://news.ycombinator.com/item?id=48731120)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Viktor Antonov posthumous game Guns of Eschaton revealed](https://80.lv/articles/viktor-antonov-guns-of-eschaton-posthumous-reveal/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Geometry Nodes real-time collision in Blender tutorial](https://80.lv/articles/blender-geometry-nodes-real-time-collision-tutorial/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials

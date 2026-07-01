@@ -1,14 +1,14 @@
 ---
-title: "概念设计"
-slug: "concept-art"
-description: "概念设计行业动态与技法"
-created: "2026-06-14"
+title: "3D 建模"
+slug: "3d-modeling"
+description: "3D 建模工具与工作流"
+created: "2026-07-01"
 updated: "2026-07-01"
 ---
 
-# 概念设计
+# 3D 建模
 
-概念设计行业动态与技法
+3D 建模工具与工作流
 
 ---
 
@@ -16,18 +16,6 @@ updated: "2026-07-01"
 
 <!-- 以下由知识编译器自动维护，请勿手动编辑 -->
 
-
-### [80 Level](https://80.lv/articles/this-short-barnacle-animation-was-inspired-by-the-half-life-game/)
-- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
-
-### [80 Level](https://80.lv/articles/take-a-look-at-this-reinterpretation-of-mindy-blanchard-from-dishonored-2/)
-- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
-
-### [Concept Art World](http://conceptartworld.com/)
-- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
-
-### [80 Level](https://80.lv/articles/what-keeps-a-game-running-for-24-years/)
-- 📅 2026-06-14 · 来源: daily-materials · 分类: daily-materials
 
 ### [X launches official MCP Server](https://news.ycombinator.com/item?id=48729844)
 - 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials

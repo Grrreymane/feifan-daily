@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-06-30"
+updated: "2026-07-01"
 ---
 
 # Blender
@@ -436,3 +436,15 @@ Blender 工具与社区动态
 
 ### [福特把 AI 替掉的"灰胡子"老工程师又请回来了](https://techcrunch.com/2026/06/28/ford-rehires-gray-beard-engineers-after-ai-falls-short/)
 - 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Viktor Antonov posthumous game Guns of Eschaton revealed](https://80.lv/articles/viktor-antonov-guns-of-eschaton-posthumous-reveal/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Geometry Nodes real-time collision in Blender tutorial](https://80.lv/articles/blender-geometry-nodes-real-time-collision-tutorial/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Kawaii Physics for Unreal Engine 5.8 plugin update](https://80.lv/articles/kawaii-physics-unreal-engine-58-update/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Sakura Rabbit Unity URP mobile water shader breakdown](https://80.lv/articles/sakura-rabbit-unity-urp-mobile-water-breakdown/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials

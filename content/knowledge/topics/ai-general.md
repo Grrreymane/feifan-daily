@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-06-30"
+updated: "2026-07-01"
 ---
 
 # AI 通用
@@ -3444,3 +3444,69 @@ updated: "2026-06-30"
 
 ### [80 Level Podcast — Crema 团队聊 Temtem](https://80.lv/articles/temtem-developing-massively-multiplayer-creature-collection-adventure/)
 - 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Sonnet 5: Anthropic launches a cheaper way to run agents](https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Sonnet 5 official announcement](https://www.anthropic.com/news/claude-sonnet-5)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Qwen 3.6 27B is the local development sweet spot](https://quesma.com/blog/qwen-36-is-awesome/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Code prompt steganography investigation](https://thereallo.dev/blog/claude-code-prompt-steganography)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [The AI jobs debate just got messier](https://techcrunch.com/2026/06/29/the-ai-jobs-debate-just-got-messier/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic Claude Science bets on workflow not a new model](https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon launches 1B FDE team for AI agents](https://news.ycombinator.com/item?id=48733201)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [X launches official MCP Server](https://news.ycombinator.com/item?id=48729844)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [OKX wants AI Agents to hire and pay each other](https://news.ycombinator.com/item?id=48731120)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Viktor Antonov posthumous game Guns of Eschaton revealed](https://80.lv/articles/viktor-antonov-guns-of-eschaton-posthumous-reveal/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Geometry Nodes real-time collision in Blender tutorial](https://80.lv/articles/blender-geometry-nodes-real-time-collision-tutorial/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Kawaii Physics for Unreal Engine 5.8 plugin update](https://80.lv/articles/kawaii-physics-unreal-engine-58-update/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Sakura Rabbit Unity URP mobile water shader breakdown](https://80.lv/articles/sakura-rabbit-unity-urp-mobile-water-breakdown/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Tomb Raider Boss design course on 80 Level](https://80.lv/articles/tomb-raider-boss-design-course/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [David Gaider calls GenAI a malignant plague for game dev](https://www.gamedeveloper.com/business/david-gaider-genai-malignant-plague-game-industry)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox pauses third-party Game Pass deals amid Undead Labs concerns](https://www.gamedeveloper.com/business/xbox-pauses-third-party-game-pass-deals-undead-labs)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Ubisoft Barcelona staff strike over 51 layoffs](https://www.gamedeveloper.com/business/ubisoft-barcelona-strike-july-layoffs)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GTA 6 Rockstar IWGB union seeks legal recognition](https://www.gamedeveloper.com/business/gta6-rockstar-iwgb-union-legal-recognition)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Cognitive Revolution podcast latest episode on AI agents](https://www.cognitiverevolution.ai/episodes/latest-2026-06-30)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison on shot-scraper for AI workflows](https://simonwillison.net/2026/Jun/30/shot-scraper/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level video on Kawaii Physics tutorial](https://80.lv/videos/kawaii-physics-tutorial)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Practical AI podcast on local LLMs and Qwen](https://changelog.com/practicalai/latest-2026-06-30)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials

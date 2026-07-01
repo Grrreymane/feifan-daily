@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-06-30"
+updated: "2026-07-01"
 ---
 
 # 大语言模型
@@ -415,3 +415,18 @@ LLM 技术进展、应用与讨论
 
 ### [CD Projekt 改名为 CD Projekt Red](https://www.gamesindustry.biz/cd-projekt-rebrands-to-cd-projekt-red)
 - 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Sonnet 5: Anthropic launches a cheaper way to run agents](https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Sonnet 5 official announcement](https://www.anthropic.com/news/claude-sonnet-5)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison on shot-scraper for AI workflows](https://simonwillison.net/2026/Jun/30/shot-scraper/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level video on Kawaii Physics tutorial](https://80.lv/videos/kawaii-physics-tutorial)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Practical AI podcast on local LLMs and Qwen](https://changelog.com/practicalai/latest-2026-06-30)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials

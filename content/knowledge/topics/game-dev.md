@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-06-30"
+updated: "2026-07-01"
 ---
 
 # 游戏开发
@@ -259,3 +259,15 @@ updated: "2026-06-30"
 
 ### [80 Level Podcast — Crema 团队聊 Temtem](https://80.lv/articles/temtem-developing-massively-multiplayer-creature-collection-adventure/)
 - 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Sakura Rabbit Unity URP mobile water shader breakdown](https://80.lv/articles/sakura-rabbit-unity-urp-mobile-water-breakdown/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Tomb Raider Boss design course on 80 Level](https://80.lv/articles/tomb-raider-boss-design-course/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [David Gaider calls GenAI a malignant plague for game dev](https://www.gamedeveloper.com/business/david-gaider-genai-malignant-plague-game-industry)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox pauses third-party Game Pass deals amid Undead Labs concerns](https://www.gamedeveloper.com/business/xbox-pauses-third-party-game-pass-deals-undead-labs)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials

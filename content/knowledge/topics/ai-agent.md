@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-06-30"
+updated: "2026-07-01"
 ---
 
 # AI Agent
@@ -661,3 +661,42 @@ AI Agent 架构、实践与踩坑
 
 ### [PlayStation 又一次单方面下架已购内容](https://www.gamesindustry.biz/playstation-once-again-pulls-purchased-studio-canal-content-from-user-libraries-because-of-licensing-arrangements)
 - 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Sonnet 5: Anthropic launches a cheaper way to run agents](https://techcrunch.com/2026/06/30/anthropic-launches-claude-sonnet-5-as-a-cheaper-way-to-run-agents/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Sonnet 5 official announcement](https://www.anthropic.com/news/claude-sonnet-5)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [LongCat-2.0: Meituan opens 1.6T MoE model](https://longcat.chat/blog/longcat-2.0/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Qwen 3.6 27B is the local development sweet spot](https://quesma.com/blog/qwen-36-is-awesome/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic Claude Science bets on workflow not a new model](https://techcrunch.com/2026/06/30/anthropics-claude-science-bets-on-workflow-not-a-new-model-to-win-over-scientists/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon launches 1B FDE team for AI agents](https://news.ycombinator.com/item?id=48733201)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [X launches official MCP Server](https://news.ycombinator.com/item?id=48729844)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [OKX wants AI Agents to hire and pay each other](https://news.ycombinator.com/item?id=48731120)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Viktor Antonov posthumous game Guns of Eschaton revealed](https://80.lv/articles/viktor-antonov-guns-of-eschaton-posthumous-reveal/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GTA 6 Rockstar IWGB union seeks legal recognition](https://www.gamedeveloper.com/business/gta6-rockstar-iwgb-union-legal-recognition)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Cognitive Revolution podcast latest episode on AI agents](https://www.cognitiverevolution.ai/episodes/latest-2026-06-30)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison on shot-scraper for AI workflows](https://simonwillison.net/2026/Jun/30/shot-scraper/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level video on Kawaii Physics tutorial](https://80.lv/videos/kawaii-physics-tutorial)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials

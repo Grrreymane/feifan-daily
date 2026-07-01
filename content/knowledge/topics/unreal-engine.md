@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-06-30"
+updated: "2026-07-01"
 ---
 
 # Unreal Engine
@@ -691,3 +691,18 @@ UE 引擎更新与技巧
 
 ### [用 ZBrush + UE5 把油画《Barking Up the Wrong Turkey》搬进 3D](https://80.lv/articles/recreating-oil-painting-barking-up-the-wrong-turkey-in-3d-with-zbrush-ue5/)
 - 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Viktor Antonov posthumous game Guns of Eschaton revealed](https://80.lv/articles/viktor-antonov-guns-of-eschaton-posthumous-reveal/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Geometry Nodes real-time collision in Blender tutorial](https://80.lv/articles/blender-geometry-nodes-real-time-collision-tutorial/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Kawaii Physics for Unreal Engine 5.8 plugin update](https://80.lv/articles/kawaii-physics-unreal-engine-58-update/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Sakura Rabbit Unity URP mobile water shader breakdown](https://80.lv/articles/sakura-rabbit-unity-urp-mobile-water-breakdown/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Tomb Raider Boss design course on 80 Level](https://80.lv/articles/tomb-raider-boss-design-course/)
+- 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
