@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-07-01"
+updated: "2026-07-02"
 ---
 
 # Unreal Engine
@@ -706,3 +706,9 @@ UE 引擎更新与技巧
 
 ### [Tomb Raider Boss design course on 80 Level](https://80.lv/articles/tomb-raider-boss-design-course/)
 - 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Houdini 手部追踪 + 果冻物理实验](https://80.lv/articles/hand-tracking-experiments-with-jelly-like-physics-in-houdini/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [「Unreal Engine Look」讨论：是艺术指导缺失还是引擎问题？](https://www.reddit.com/r/gamedev/comments/1uk624v/the_nowdreaded_unreal_engine_look_is_it_a_lack_of/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials

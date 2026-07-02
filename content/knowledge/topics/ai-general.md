@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-01"
+updated: "2026-07-02"
 ---
 
 # AI 通用
@@ -3510,3 +3510,39 @@ updated: "2026-07-01"
 
 ### [Practical AI podcast on local LLMs and Qwen](https://changelog.com/practicalai/latest-2026-06-30)
 - 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [EVE Online 的 Carbon 引擎开源，MIT 许可](https://www.gamesindustry.biz/eve-onlines-carbon-engine-is-now-open-source-fenris-creations-explains-why)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 基金会正式禁止 AI 生成代码贡献](https://www.rockpapershotgun.com/low-effort-slop-the-creators-of-the-godot-engine-behind-slay-the-spire-2-are-cracking-down-on-vibe-coding-and-now-require-genai-disclosures)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Substance 3D Painter 头发高光遮罩工具](https://80.lv/articles/this-substance-3d-painter-tool-creates-highlight-masks-for-hair/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Rockstar 员工被曝合同要求「主动 opt-out 才能不加班」](https://www.rockpapershotgun.com/gta-6-devs-have-to-opt-out-of-crunch-claim-rockstar-north-insiders-because-its-baked-into-their-contracts)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender IKEA 想象广告片](https://80.lv/articles/imaginary-ikea-animated-commercial-created-by-blender-artist/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 上线 AI 爬虫付费市场（Pay Per Crawl）](https://techcrunch.com/2026/07/01/cloudflares-new-policy-pushes-ai-companies-to-pay-for-publishers-content/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：AI Compass（AI 使用地图）](https://simonwillison.net/2026/Jun/30/the-ai-compass/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：shot-scraper video 让 Agent 录制工作演示](https://simonwillison.net/2026/Jun/30/shot-scraper-video/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [HN：DeepMind 三人组用扑克 AI 赚钱做量化对冲](https://techcrunch.com/2026/06/30/the-deepmind-trio-who-built-a-poker-ai-are-now-making-money-for-quant-hedge-funds/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison Weblog（近日汇总）](https://simonwillison.net/2026/Jun/30/anthropic/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热帖：ArXiv's Next Chapter](https://blog.arxiv.org/2026/06/30/arxivs-next-chapter/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [HN：First early human eggs from stem cells](https://www.conception.bio/science-and-updates/the-first-early-human-eggs-from-stem-cells)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials

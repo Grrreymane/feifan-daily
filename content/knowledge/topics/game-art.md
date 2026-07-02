@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-01"
+updated: "2026-07-02"
 ---
 
 # 游戏美术
@@ -454,3 +454,6 @@ updated: "2026-07-01"
 
 ### [Geometry Nodes real-time collision in Blender tutorial](https://80.lv/articles/blender-geometry-nodes-real-time-collision-tutorial/)
 - 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [EVE Online 的 Carbon 引擎开源，MIT 许可](https://www.gamesindustry.biz/eve-onlines-carbon-engine-is-now-open-source-fenris-creations-explains-why)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
