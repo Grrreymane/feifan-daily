@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-01"
+updated: "2026-07-02"
 ---
 
 # AI Agent
@@ -700,3 +700,6 @@ AI Agent 架构、实践与踩坑
 
 ### [80 Level video on Kawaii Physics tutorial](https://80.lv/videos/kawaii-physics-tutorial)
 - 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：shot-scraper video 让 Agent 录制工作演示](https://simonwillison.net/2026/Jun/30/shot-scraper-video/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials

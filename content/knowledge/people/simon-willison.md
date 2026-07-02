@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-07-01"
+updated: "2026-07-02"
 ---
 
 # Simon Willison
@@ -79,3 +79,9 @@ updated: "2026-07-01"
 - 📅 2026-06-30 — [Simon Willison 转 Jon Udell：别再说"人在回路里"，是机器加入我们的回路](https://simonwillison.net/2026/Jun/28/jon-udell/)
 
 - 📅 2026-07-01 — [Simon Willison on shot-scraper for AI workflows](https://simonwillison.net/2026/Jun/30/shot-scraper/)
+
+- 📅 2026-07-02 — [Simon Willison：AI Compass（AI 使用地图）](https://simonwillison.net/2026/Jun/30/the-ai-compass/)
+
+- 📅 2026-07-02 — [Simon Willison：shot-scraper video 让 Agent 录制工作演示](https://simonwillison.net/2026/Jun/30/shot-scraper-video/)
+
+- 📅 2026-07-02 — [Simon Willison Weblog（近日汇总）](https://simonwillison.net/2026/Jun/30/anthropic/)

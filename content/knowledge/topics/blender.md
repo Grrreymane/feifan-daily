@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-01"
+updated: "2026-07-02"
 ---
 
 # Blender
@@ -448,3 +448,12 @@ Blender 工具与社区动态
 
 ### [Sakura Rabbit Unity URP mobile water shader breakdown](https://80.lv/articles/sakura-rabbit-unity-urp-mobile-water-breakdown/)
 - 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Blender Grease Pencil 素描风 3D 角色](https://80.lv/articles/have-a-look-at-this-charming-sketch-like-character-brought-to-3d-with-blender-s-grease-pencil/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Rockstar 员工被曝合同要求「主动 opt-out 才能不加班」](https://www.rockpapershotgun.com/gta-6-devs-have-to-opt-out-of-crunch-claim-rockstar-north-insiders-because-its-baked-into-their-contracts)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender IKEA 想象广告片](https://80.lv/articles/imaginary-ikea-animated-commercial-created-by-blender-artist/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials

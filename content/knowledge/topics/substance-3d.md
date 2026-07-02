@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-06-29"
+updated: "2026-07-02"
 ---
 
 # Substance 3D
@@ -136,3 +136,6 @@ Substance 系列工具与材质
 
 ### [Bloodwoven：建立在冻结神尸之上的生存沉浸式模拟游戏](https://www.rockpapershotgun.com/bloodwoven-is-a-survival-immersive-sim-set-in-a-world-built-on-top-of-the-frozen-corpse-of-a-god)
 - 📅 2026-06-29 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Substance 3D Painter 头发高光遮罩工具](https://80.lv/articles/this-substance-3d-painter-tool-creates-highlight-masks-for-hair/)
+- 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
