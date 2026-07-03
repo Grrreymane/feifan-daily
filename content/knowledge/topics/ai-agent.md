@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-02"
+updated: "2026-07-03"
 ---
 
 # AI Agent
@@ -703,3 +703,33 @@ AI Agent 架构、实践与踩坑
 
 ### [Simon Willison：shot-scraper video 让 Agent 录制工作演示](https://simonwillison.net/2026/Jun/30/shot-scraper-video/)
 - 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [创作者分发折扣码为游戏商店带来大量销量提升](https://www.gamesindustry.biz/creator-distributed-discount-codes-drive-massive-uptake-of-game-storefronts-according-to-new-tebex-data)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM-5.2 深度拆解：百万上下文 + 自研架构，国产长程工程模型突围](https://blog.csdn.net/dong123dddd/article/details/162110090)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi K2.7 Code 背后：一个被忽视的 AI Coding 新趋势](https://so.html5.qq.com/page/real/search_news?docid=70000021_7636a3b3d2747652)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Senior SWE-Bench：把 agent 当作资深工程师来评估的开源基准](https://senior-swe-bench.snorkel.ai/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Together AI 融资 8 亿美元，估值 83 亿](https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Understand to Participate（Simon Willison）](https://simonwillison.net/2026/Jul/2/understand-to-participate/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [The Fall of the Theorem Economy（David Bessis）](https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Vite+ Beta 发布](https://voidzero.dev/posts/announcing-vite-plus-beta)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [ZCode（GLM-5.2 harness）](https://zcode.z.ai/en)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Android Developer Verification：伪装成保护的威胁](https://f-droid.org/2026/07/01/adv-malware.html)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-02"
+updated: "2026-07-03"
 ---
 
 # Blender
@@ -457,3 +457,21 @@ Blender 工具与社区动态
 
 ### [Blender IKEA 想象广告片](https://80.lv/articles/imaginary-ikea-animated-commercial-created-by-blender-artist/)
 - 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [ZBrush 教程：如何绘制逼真 3D 雕塑](https://80.lv/articles/zbrush-tutorial-how-to-paint-realistic-3d-sculpts/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 暗黑奇幻 3D 场景（戏剧化打光）](https://80.lv/articles/dark-fantasy-3d-scene-with-dramatic-lighting/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 3D 龙形生物艺术](https://80.lv/articles/artist-shows-beautiful-dragon-like-3d-creature/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [polygoniq humaniq：119 个 Blender 骨骼绑定的人物库](https://80.lv/articles/apply-rigged-3d-people-from-this-useful-blender-library-to-your-scenes/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [《Tarzan》Clayton 角色的 Blender Rig 测试](https://80.lv/articles/amazing-blender-rig-test-for-clayton-from-disney-s-tarzan/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [印度独立开发者的直升机螺旋桨转速视觉技巧](https://80.lv/articles/indie-game-dev-shares-visual-trick-for-making-helicopter-blades-spin-fast/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials

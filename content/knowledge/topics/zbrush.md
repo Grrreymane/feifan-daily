@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-06-30"
+updated: "2026-07-03"
 ---
 
 # ZBrush
@@ -148,3 +148,12 @@ ZBrush 雕刻与工作流
 
 ### [Blender 5.1 Cycles 实时焦散教程](https://80.lv/articles/tutorial-real-time-caustics-in-blender-5-1-s-cycles/)
 - 📅 2026-06-30 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5.8 Niagara Fluids 实时水体模拟测试](https://80.lv/articles/exploring-real-time-water-simulations-in-unreal-engine-5-8/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [ZBrush 教程：如何绘制逼真 3D 雕塑](https://80.lv/articles/zbrush-tutorial-how-to-paint-realistic-3d-sculpts/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 暗黑奇幻 3D 场景（戏剧化打光）](https://80.lv/articles/dark-fantasy-3d-scene-with-dramatic-lighting/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
