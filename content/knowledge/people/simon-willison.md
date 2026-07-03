@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-07-02"
+updated: "2026-07-03"
 ---
 
 # Simon Willison
@@ -85,3 +85,5 @@ updated: "2026-07-02"
 - 📅 2026-07-02 — [Simon Willison：shot-scraper video 让 Agent 录制工作演示](https://simonwillison.net/2026/Jun/30/shot-scraper-video/)
 
 - 📅 2026-07-02 — [Simon Willison Weblog（近日汇总）](https://simonwillison.net/2026/Jun/30/anthropic/)
+
+- 📅 2026-07-03 — [Understand to Participate（Simon Willison）](https://simonwillison.net/2026/Jul/2/understand-to-participate/)

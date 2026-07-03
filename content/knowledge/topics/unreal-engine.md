@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-07-02"
+updated: "2026-07-03"
 ---
 
 # Unreal Engine
@@ -712,3 +712,9 @@ UE 引擎更新与技巧
 
 ### [「Unreal Engine Look」讨论：是艺术指导缺失还是引擎问题？](https://www.reddit.com/r/gamedev/comments/1uk624v/the_nowdreaded_unreal_engine_look_is_it_a_lack_of/)
 - 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5.8 Niagara Fluids 实时水体模拟测试](https://80.lv/articles/exploring-real-time-water-simulations-in-unreal-engine-5-8/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [ZBrush 教程：如何绘制逼真 3D 雕塑](https://80.lv/articles/zbrush-tutorial-how-to-paint-realistic-3d-sculpts/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials

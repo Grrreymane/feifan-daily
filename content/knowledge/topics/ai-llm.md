@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-07-01"
+updated: "2026-07-03"
 ---
 
 # 大语言模型
@@ -430,3 +430,9 @@ LLM 技术进展、应用与讨论
 
 ### [Practical AI podcast on local LLMs and Qwen](https://changelog.com/practicalai/latest-2026-06-30)
 - 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM-5.2 全量开放 Coding Plan](https://blog.csdn.net/ab977a1081268482/article/details/161986311)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi K2.7 Code 现已在 GitHub Copilot 可用](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials

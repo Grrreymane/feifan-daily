@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-06-28"
+updated: "2026-07-03"
 ---
 
 # OpenAI
@@ -619,3 +619,12 @@ OpenAI 公司动态与产品
 
 ### [The Vergecast：Is the Steam Machine worth the wait?](https://feeds.megaphone.fm/vergecast)
 - 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [微软成立 25 亿美元的 AI 部署公司](https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 提议向美国主权财富基金捐赠 5% 股权](https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Understand to Participate（Simon Willison）](https://simonwillison.net/2026/Jul/2/understand-to-participate/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials

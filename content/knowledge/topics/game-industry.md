@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-07-02"
+updated: "2026-07-03"
 ---
 
 # 游戏行业
@@ -359,3 +359,6 @@ updated: "2026-07-02"
 
 ### [EVE Online 的 Carbon 引擎开源，MIT 许可](https://www.gamesindustry.biz/eve-onlines-carbon-engine-is-now-open-source-fenris-creations-explains-why)
 - 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5.8 Niagara Fluids 实时水体模拟测试](https://80.lv/articles/exploring-real-time-water-simulations-in-unreal-engine-5-8/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials

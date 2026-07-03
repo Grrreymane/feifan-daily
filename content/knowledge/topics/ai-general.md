@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-02"
+updated: "2026-07-03"
 ---
 
 # AI 通用
@@ -3546,3 +3546,66 @@ updated: "2026-07-02"
 
 ### [HN：First early human eggs from stem cells](https://www.conception.bio/science-and-updates/the-first-early-human-eggs-from-stem-cells)
 - 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5.8 Niagara Fluids 实时水体模拟测试](https://80.lv/articles/exploring-real-time-water-simulations-in-unreal-engine-5-8/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [ZBrush 教程：如何绘制逼真 3D 雕塑](https://80.lv/articles/zbrush-tutorial-how-to-paint-realistic-3d-sculpts/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 暗黑奇幻 3D 场景（戏剧化打光）](https://80.lv/articles/dark-fantasy-3d-scene-with-dramatic-lighting/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [创作者分发折扣码为游戏商店带来大量销量提升](https://www.gamesindustry.biz/creator-distributed-discount-codes-drive-massive-uptake-of-game-storefronts-according-to-new-tebex-data)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM-5.2 深度拆解：百万上下文 + 自研架构，国产长程工程模型突围](https://blog.csdn.net/dong123dddd/article/details/162110090)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM-5.2 全量开放 Coding Plan](https://blog.csdn.net/ab977a1081268482/article/details/161986311)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi K2.7 Code 现已在 GitHub Copilot 可用](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi K2.7 Code 背后：一个被忽视的 AI Coding 新趋势](https://so.html5.qq.com/page/real/search_news?docid=70000021_7636a3b3d2747652)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Senior SWE-Bench：把 agent 当作资深工程师来评估的开源基准](https://senior-swe-bench.snorkel.ai/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Together AI 融资 8 亿美元，估值 83 亿](https://techcrunch.com/2026/07/01/neocloud-together-ai-raises-800m-leaps-to-8-3b-valuation/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [微软成立 25 亿美元的 AI 部署公司](https://techcrunch.com/2026/07/02/microsoft-launches-its-own-ai-deployment-company-with-2-5-billion-commitment/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 提议向美国主权财富基金捐赠 5% 股权](https://techcrunch.com/2026/07/02/openai-proposed-donating-5-of-its-equity-to-a-us-sovereign-wealth-fund/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Understand to Participate（Simon Willison）](https://simonwillison.net/2026/Jul/2/understand-to-participate/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [The Fall of the Theorem Economy（David Bessis）](https://davidbessis.substack.com/p/the-fall-of-the-theorem-economy)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [The Primary Purpose of Code Review is to Find Code That Will Be Hard to Maintain](https://mathstodon.xyz/@mjd/115096720350507897)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Vite+ Beta 发布](https://voidzero.dev/posts/announcing-vite-plus-beta)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [ZCode（GLM-5.2 harness）](https://zcode.z.ai/en)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Android Developer Verification：伪装成保护的威胁](https://f-droid.org/2026/07/01/adv-malware.html)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [SpaceX 有一台"手机形态"的 AI 硬件原型](https://techcrunch.com/2026/07/01/spacex-has-an-ai-device-prototype-and-it-sure-sounds-phone-ish/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple 计划 2027 年初推出新 iPad Pro / MacBook Pro](https://techcrunch.com/2026/07/01/apple-is-reportedly-planning-new-ipad-pro-and-macbook-pro-releases-early-next-year/)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Bring Back Web Forums / Peer Tube](https://github.com/Chocobozzz/PeerTube)
+- 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
