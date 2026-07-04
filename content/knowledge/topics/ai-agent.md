@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-03"
+updated: "2026-07-04"
 ---
 
 # AI Agent
@@ -733,3 +733,45 @@ AI Agent 架构、实践与踩坑
 
 ### [Android Developer Verification：伪装成保护的威胁](https://f-droid.org/2026/07/01/adv-malware.html)
 - 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [小工作室"停止 100% 全力生产、招营销"后的 Steam 数据变化](https://www.reddit.com/r/gamedev/comments/1umdf1z/we_stopped_prioritizing_100_production_time_and/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [阿里巴巴禁用 Claude Code](https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["Short Leash" AI 编程方法：与 Claude Fable 对抗式工作](https://blog.okturtles.org/2026/07/short-leash-ai-method/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["Claude, please stop trying to memorize random crap"](https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：用 DSPy 优化 Datasette Agent](https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [llm-coding-agent 0.1a0：一个用 Simon 的 llm 库搭起来的极简 coding agent](https://simonwillison.net/2026/Jul/2/llm-coding-agent/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Jamesob 的 SOTA 本地大模型运行指南](https://github.com/jamesob/local-llm)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Gemini Code Assist 将于 7 月 17 日下线](https://docs.cloud.google.com/gemini/docs/code-review/review-repo-code)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [扎克伯格：AI agents 进展不如预期](https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["扎克伯格'承认'Meta 裁员低效"](https://eshumarneedi.com/2026/07/03/zuckerberg-admits-metas-layoffs-were.html)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Safari MCP Server for Web Developers](https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Postgres transactions are a distributed systems superpower](https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：June 2026 Newsletter（付费订阅版）](https://simonwillison.net/2026/Jul/3/june-newsletter/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["Reality Has a Surprising Amount of Detail" (2017)](https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials

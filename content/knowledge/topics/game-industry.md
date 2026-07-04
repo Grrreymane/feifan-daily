@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-07-03"
+updated: "2026-07-04"
 ---
 
 # 游戏行业
@@ -362,3 +362,18 @@ updated: "2026-07-03"
 
 ### [UE5.8 Niagara Fluids 实时水体模拟测试](https://80.lv/articles/exploring-real-time-water-simulations-in-unreal-engine-5-8/)
 - 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 3D Dungeon Crawler 20 小时全流程教程](https://80.lv/articles/godot-tutorial-build-3d-dungeon-crawler-in-20-hours/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [UK 游戏活动为什么消失了？EGX 并入 MCM 后的深度盘点](https://www.gamesindustry.biz/where-did-all-the-uk-game-events-go)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Suicide Squad 主创回忆录："我几乎离开了游戏行业"](https://www.rockpapershotgun.com/i-could-feel-myself-coming-apart-at-the-seams-suicide-squad-leads-on-almost-leaving-the-games-industry-after-its-failure)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Robert Henrysson 卸任 Supermassive Games CEO](https://www.gamesindustry.biz/jobs-roundup-july-2026-robert-henrysson-steps-down-as-supermassive-games-ceo)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [4 人手游工作室能否活下去？真实数据：$100k+/月广告，$30/次美国 iOS 用户获取，4 个月才回本](https://www.reddit.com/r/gamedev/comments/1ulxmis/can_a_4person_studio_survive_mobile_f2p_in_2026/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials

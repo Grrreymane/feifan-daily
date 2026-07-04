@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-03"
+updated: "2026-07-04"
 ---
 
 # 游戏美术
@@ -460,3 +460,6 @@ updated: "2026-07-03"
 
 ### [UE5.8 Niagara Fluids 实时水体模拟测试](https://80.lv/articles/exploring-real-time-water-simulations-in-unreal-engine-5-8/)
 - 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 3D Dungeon Crawler 20 小时全流程教程](https://80.lv/articles/godot-tutorial-build-3d-dungeon-crawler-in-20-hours/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials

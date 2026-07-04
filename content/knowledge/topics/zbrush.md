@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-07-03"
+updated: "2026-07-04"
 ---
 
 # ZBrush
@@ -157,3 +157,12 @@ ZBrush 雕刻与工作流
 
 ### [Blender 暗黑奇幻 3D 场景（戏剧化打光）](https://80.lv/articles/dark-fantasy-3d-scene-with-dramatic-lighting/)
 - 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 3D Dungeon Crawler 20 小时全流程教程](https://80.lv/articles/godot-tutorial-build-3d-dungeon-crawler-in-20-hours/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [3D Character Artist 用 ZBrush + Blender 做的 Jinx Fan Art](https://80.lv/articles/3d-character-artist-shares-a-jinx-fan-art-made-with-zbrush-and-blender/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [电影《Coco》风格的沉浸式致敬场景](https://80.lv/articles/check-out-this-immersive-and-beautiful-tribute-to-the-movie-coco/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials

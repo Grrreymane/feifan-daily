@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-03"
+updated: "2026-07-04"
 ---
 
 # Blender
@@ -475,3 +475,30 @@ Blender 工具与社区动态
 
 ### [印度独立开发者的直升机螺旋桨转速视觉技巧](https://80.lv/articles/indie-game-dev-shares-visual-trick-for-making-helicopter-blades-spin-fast/)
 - 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 3D Dungeon Crawler 20 小时全流程教程](https://80.lv/articles/godot-tutorial-build-3d-dungeon-crawler-in-20-hours/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [3D Character Artist 用 ZBrush + Blender 做的 Jinx Fan Art](https://80.lv/articles/3d-character-artist-shares-a-jinx-fan-art-made-with-zbrush-and-blender/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [电影《Coco》风格的沉浸式致敬场景](https://80.lv/articles/check-out-this-immersive-and-beautiful-tribute-to-the-movie-coco/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Painterly Rowlet：油画质感的宝可梦渲染](https://80.lv/articles/cute-pok-mon-rowlet-relaxing-in-painterly-blender-render/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 深度：肯尼亚 Amboselli 国家公园复刻](https://80.lv/articles/how-to-recreate-a-scene-from-the-amboselli-national-park-in-kenya/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [风格化 3D 秋景环境 breakdown](https://80.lv/articles/sculpting-and-texturing-a-stylized-3d-environment-with-autumn-vibes/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Silent Hill f 风格的障碍闪避系统](https://80.lv/articles/silent-hill-f-inspired-obstacle-avoidance-system-with-a-weapon/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 动画工作流插件 Animates Suite](https://80.lv/articles/check-out-this-toolset-for-a-more-intuitive-animation-workflow-in-blender/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [AMD CACAO 环境光遮蔽在 UE5 的对比测试](https://www.reddit.com/r/unrealengine/comments/1umeoxo/amds_cacao_to_ue5_vs_ssaogtao/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
