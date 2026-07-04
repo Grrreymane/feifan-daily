@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-07-01"
+updated: "2026-07-04"
 ---
 
 # 游戏行业裁员
@@ -308,3 +308,21 @@ updated: "2026-07-01"
 
 ### [Cognitive Revolution podcast latest episode on AI agents](https://www.cognitiverevolution.ai/episodes/latest-2026-06-30)
 - 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [VGHF 呼吁 ESA 就数字独占游戏保存问题给出方案](https://www.rockpapershotgun.com/the-video-game-history-foundation-calls-on-the-esa-to-offer-meaningful-solutions-for-preserving-digital-only-games)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [OtherSide Entertainment 再裁员 18 人](https://www.gamesindustry.biz/thick-as-thieves-dev-otherside-entertainment-impacted-by-further-layoffs)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Robert Henrysson 卸任 Supermassive Games CEO](https://www.gamesindustry.biz/jobs-roundup-july-2026-robert-henrysson-steps-down-as-supermassive-games-ceo)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [扎克伯格：AI agents 进展不如预期](https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["扎克伯格'承认'Meta 裁员低效"](https://eshumarneedi.com/2026/07/03/zuckerberg-admits-metas-layoffs-were.html)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 真实成本警告：Google/Amazon 的净零承诺被 AI 打破](https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials

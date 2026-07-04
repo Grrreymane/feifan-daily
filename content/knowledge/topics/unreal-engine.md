@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-07-03"
+updated: "2026-07-04"
 ---
 
 # Unreal Engine
@@ -718,3 +718,21 @@ UE 引擎更新与技巧
 
 ### [ZBrush 教程：如何绘制逼真 3D 雕塑](https://80.lv/articles/zbrush-tutorial-how-to-paint-realistic-3d-sculpts/)
 - 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 动画工作流插件 Animates Suite](https://80.lv/articles/check-out-this-toolset-for-a-more-intuitive-animation-workflow-in-blender/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [AMD CACAO 环境光遮蔽在 UE5 的对比测试](https://www.reddit.com/r/unrealengine/comments/1umeoxo/amds_cacao_to_ue5_vs_ssaogtao/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Cinder City（首尔背景 MMO 射击）RAM 需求从 64G 砍半到 32G](https://www.rockpapershotgun.com/seoul-set-mmo-shooter-cinder-city-halves-its-ram-requirements-after-initial-specs-listed-64gb-of-memory)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["1.5 年才发现自己游戏没有 hook"](https://www.reddit.com/r/gamedev/comments/1um8gho/i_realized_after_15_years_of_development_that_my/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Unreal vs Unity 一年优化血泪史](https://www.reddit.com/r/gamedev/comments/1umfuq0/unreal_vs_unity_in_real_development_or_how_we/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [花 2k 愿望单来自单条 IndieGameJoe 风格 Instagram 帖子的实操经验](https://www.reddit.com/r/gamedev/comments/1umgt5a/i_got_2k_wishlists_from_a_single_instagram_post/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials

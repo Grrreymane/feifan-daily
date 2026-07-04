@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-07-03"
+updated: "2026-07-04"
 ---
 
 # Simon Willison
@@ -87,3 +87,7 @@ updated: "2026-07-03"
 - 📅 2026-07-02 — [Simon Willison Weblog（近日汇总）](https://simonwillison.net/2026/Jun/30/anthropic/)
 
 - 📅 2026-07-03 — [Understand to Participate（Simon Willison）](https://simonwillison.net/2026/Jul/2/understand-to-participate/)
+
+- 📅 2026-07-04 — [Simon Willison：用 DSPy 优化 Datasette Agent](https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/)
+
+- 📅 2026-07-04 — [Simon Willison：June 2026 Newsletter（付费订阅版）](https://simonwillison.net/2026/Jul/3/june-newsletter/)

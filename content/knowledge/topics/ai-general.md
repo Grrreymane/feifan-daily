@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-03"
+updated: "2026-07-04"
 ---
 
 # AI 通用
@@ -3609,3 +3609,96 @@ updated: "2026-07-03"
 
 ### [Bring Back Web Forums / Peer Tube](https://github.com/Chocobozzz/PeerTube)
 - 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [电影《Coco》风格的沉浸式致敬场景](https://80.lv/articles/check-out-this-immersive-and-beautiful-tribute-to-the-movie-coco/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Painterly Rowlet：油画质感的宝可梦渲染](https://80.lv/articles/cute-pok-mon-rowlet-relaxing-in-painterly-blender-render/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 深度：肯尼亚 Amboselli 国家公园复刻](https://80.lv/articles/how-to-recreate-a-scene-from-the-amboselli-national-park-in-kenya/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [风格化 3D 秋景环境 breakdown](https://80.lv/articles/sculpting-and-texturing-a-stylized-3d-environment-with-autumn-vibes/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Suicide Squad 主创回忆录："我几乎离开了游戏行业"](https://www.rockpapershotgun.com/i-could-feel-myself-coming-apart-at-the-seams-suicide-squad-leads-on-almost-leaving-the-games-industry-after-its-failure)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [前 Infinity Ward 创意策略主管 Robert Bowling 创立 //18.bravo 工作室](https://www.gamesindustry.biz/industry-veteran-robert-bowling-launches-new-developer-18bravo)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [VGHF 呼吁 ESA 就数字独占游戏保存问题给出方案](https://www.rockpapershotgun.com/the-video-game-history-foundation-calls-on-the-esa-to-offer-meaningful-solutions-for-preserving-digital-only-games)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [OtherSide Entertainment 再裁员 18 人](https://www.gamesindustry.biz/thick-as-thieves-dev-otherside-entertainment-impacted-by-further-layoffs)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Robert Henrysson 卸任 Supermassive Games CEO](https://www.gamesindustry.biz/jobs-roundup-july-2026-robert-henrysson-steps-down-as-supermassive-games-ceo)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [小工作室"停止 100% 全力生产、招营销"后的 Steam 数据变化](https://www.reddit.com/r/gamedev/comments/1umdf1z/we_stopped_prioritizing_100_production_time_and/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [阿里巴巴禁用 Claude Code](https://www.reuters.com/world/china/alibaba-ban-claude-code-workplace-over-alleged-backdoor-risks-source-says-2026-07-03/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["Short Leash" AI 编程方法：与 Claude Fable 对抗式工作](https://blog.okturtles.org/2026/07/short-leash-ai-method/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["Claude, please stop trying to memorize random crap"](https://12gramsofcarbon.com/p/agentics-memorizing-session-transcripts)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Jamesob 的 SOTA 本地大模型运行指南](https://github.com/jamesob/local-llm)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Gemini Code Assist 将于 7 月 17 日下线](https://docs.cloud.google.com/gemini/docs/code-review/review-repo-code)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [扎克伯格：AI agents 进展不如预期](https://techcrunch.com/2026/07/02/mark-zuckerberg-tells-staff-that-ai-agents-havent-progressed-as-quickly-as-hed-hoped/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["扎克伯格'承认'Meta 裁员低效"](https://eshumarneedi.com/2026/07/03/zuckerberg-admits-metas-layoffs-were.html)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 真实成本警告：Google/Amazon 的净零承诺被 AI 打破](https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 与三星讨论定制芯片合作](https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta 悄悄推出 vibe-coded 游戏 App "Pocket"](https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["Jersey Mike's IPO 招股书里都提到 AI"](https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["半熟产品"（Half-Baked Product）](https://weli.dev/blog/half-baked-product/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [美国政府再次被黑](https://techcrunch.com/2026/07/02/us-government-says-it-got-hacked-again/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [NSO Pegasus 被用来入侵调查它的政客](https://techcrunch.com/2026/07/02/politician-who-investigated-spyware-abuses-had-his-phone-hacked-with-pegasus-spyware/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Valve 开源 Steam Machine 的 e-ink 屏，鼓励第三方复刻](https://www.gamingonlinux.com/2026/07/valve-open-source-the-steam-machine-e-ink-screen-so-you-can-make-your-own/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Right to Local Intelligence（本地 AI 权利宣言）](https://righttointelligence.org/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["CarPlay Is Additive"（Casey Liss）](https://www.caseyliss.com/2026/7/2/carplay-is-additive-you-dolts)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["Reality Has a Surprising Amount of Detail" (2017 重新翻红)](https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Safari MCP Server for Web Developers](https://webkit.org/blog/18136/introducing-the-safari-mcp-server-for-web-developers/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Postgres transactions are a distributed systems superpower](https://www.dbos.dev/blog/co-locating-workflow-state-with-your-data)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：June 2026 Newsletter（付费订阅版）](https://simonwillison.net/2026/Jul/3/june-newsletter/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials

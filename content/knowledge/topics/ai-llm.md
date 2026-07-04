@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-07-03"
+updated: "2026-07-04"
 ---
 
 # 大语言模型
@@ -436,3 +436,18 @@ LLM 技术进展、应用与讨论
 
 ### [Kimi K2.7 Code 现已在 GitHub Copilot 可用](https://github.blog/changelog/2026-07-01-kimi-k2-7-is-now-available-in-github-copilot/)
 - 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：用 DSPy 优化 Datasette Agent](https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [llm-coding-agent 0.1a0：一个用 Simon 的 llm 库搭起来的极简 coding agent](https://simonwillison.net/2026/Jul/2/llm-coding-agent/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["Understand to Participate"（Geoffrey Litt 观点）](https://simonwillison.net/2026/Jul/2/understand-to-participate/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Jamesob 的 SOTA 本地大模型运行指南](https://github.com/jamesob/local-llm)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Gemini Code Assist 将于 7 月 17 日下线](https://docs.cloud.google.com/gemini/docs/code-review/review-repo-code)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials

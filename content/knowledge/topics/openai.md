@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-03"
+updated: "2026-07-04"
 ---
 
 # OpenAI
@@ -628,3 +628,15 @@ OpenAI 公司动态与产品
 
 ### [Understand to Participate（Simon Willison）](https://simonwillison.net/2026/Jul/2/understand-to-participate/)
 - 📅 2026-07-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 与三星讨论定制芯片合作](https://techcrunch.com/2026/07/02/anthropic-is-discussing-a-new-custom-chip-with-samsung/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta 悄悄推出 vibe-coded 游戏 App "Pocket"](https://techcrunch.com/2026/07/02/meta-quietly-launches-vibe-coded-gaming-app-pocket/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["Jersey Mike's IPO 招股书里都提到 AI"](https://techcrunch.com/2026/07/02/jersey-mikes-ipo-illustrates-how-bad-the-ai-hype-has-become/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### ["半熟产品"（Half-Baked Product）](https://weli.dev/blog/half-baked-product/)
+- 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
