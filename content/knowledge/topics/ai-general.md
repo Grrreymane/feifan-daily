@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-04"
+updated: "2026-07-09"
 ---
 
 # AI 通用
@@ -3702,3 +3702,18 @@ updated: "2026-07-04"
 
 ### [Simon Willison：June 2026 Newsletter（付费订阅版）](https://simonwillison.net/2026/Jul/3/june-newsletter/)
 - 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Decoding the obfuscated bash script on a Uniqlo t-shirt](https://news.ycombinator.com/item?id=48829312)
+- 📅 2026-07-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Chat Control 1.0 and 2.0 Explained](https://news.ycombinator.com/item?id=48818311)
+- 📅 2026-07-09 · 来源: daily-materials · 分类: daily-materials
+
+### [StreetComplete: 修 OSM 的小任务游戏化 App](https://news.ycombinator.com/item?id=48816883)
+- 📅 2026-07-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Local CPU-Friendly TTS with Kokoro](https://news.ycombinator.com/item?id=48821576)
+- 📅 2026-07-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Tenda 路由器固件被曝隐藏后门认证](https://news.ycombinator.com/item?id=48825749)
+- 📅 2026-07-09 · 来源: daily-materials · 分类: daily-materials

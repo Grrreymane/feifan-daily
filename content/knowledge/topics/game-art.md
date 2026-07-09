@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-04"
+updated: "2026-07-09"
 ---
 
 # 游戏美术
@@ -463,3 +463,6 @@ updated: "2026-07-04"
 
 ### [Godot 3D Dungeon Crawler 20 小时全流程教程](https://80.lv/articles/godot-tutorial-build-3d-dungeon-crawler-in-20-hours/)
 - 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Tenda 路由器固件被曝隐藏后门认证](https://news.ycombinator.com/item?id=48825749)
+- 📅 2026-07-09 · 来源: daily-materials · 分类: daily-materials
