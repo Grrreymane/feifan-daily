@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-04"
+updated: "2026-07-09"
 ---
 
 # OpenAI
@@ -640,3 +640,6 @@ OpenAI 公司动态与产品
 
 ### ["半熟产品"（Half-Baked Product）](https://weli.dev/blog/half-baked-product/)
 - 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Tenda 路由器固件被曝隐藏后门认证](https://news.ycombinator.com/item?id=48825749)
+- 📅 2026-07-09 · 来源: daily-materials · 分类: daily-materials

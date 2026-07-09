@@ -1,6 +1,6 @@
 ---
 title: "知识库索引"
-updated: "2026-07-08"
+updated: "2026-07-09"
 ---
 
 # 📖 非凡像素知识库
@@ -19,7 +19,7 @@ updated: "2026-07-08"
 - [批判性思维](topics/critical-thinking.md) (1 条)
 - [数据报告](topics/data-reports.md) (1 条)
 - [GDC 大会](topics/gdc.md) (34 条)
-- [OpenAI](topics/openai.md) (208 条)
+- [OpenAI](topics/openai.md) (209 条)
 - [编程](topics/programming.md) (2 条)
 - [Substance 3D](topics/substance-3d.md) (41 条)
 - [Unreal Engine](topics/unreal-engine.md) (240 条)
@@ -29,7 +29,7 @@ updated: "2026-07-08"
 ### 🤖 AI
 
 - [AI Agent](topics/ai-agent.md) (253 条)
-- [AI 通用](topics/ai-general.md) (1228 条)
+- [AI 通用](topics/ai-general.md) (1233 条)
 - [大语言模型](topics/ai-llm.md) (145 条)
 - [AI 工具](topics/ai-tools.md) (1 条)
 
@@ -39,7 +39,7 @@ updated: "2026-07-08"
 
 ### 🎮 游戏
 
-- [游戏美术](topics/game-art.md) (149 条)
+- [游戏美术](topics/game-art.md) (150 条)
 - [游戏开发](topics/game-dev.md) (85 条)
 - [游戏行业裁员](topics/game-industry-layoffs.md) (103 条)
 - [游戏行业](topics/game-industry.md) (120 条)
@@ -56,4 +56,4 @@ updated: "2026-07-08"
 
 📊 共 22 个话题，4 位人物
 
-*最后更新: 2026-07-08*
+*最后更新: 2026-07-09*
