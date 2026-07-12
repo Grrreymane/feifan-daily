@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-07-04"
+updated: "2026-07-12"
 ---
 
 # 大语言模型
@@ -451,3 +451,30 @@ LLM 技术进展、应用与讨论
 
 ### [Gemini Code Assist 将于 7 月 17 日下线](https://docs.cloud.google.com/gemini/docs/code-review/review-repo-code)
 - 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple sues OpenAI over alleged trade secret theft](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 2040: Plan A](https://ai-2040.com/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison: Quoting Nilay Patel on AR glasses](https://simonwillison.net/2026/Jul/10/nilay-patel/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI bets on families as ChatGPT goes deeper into households](https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Oratomic raises 300M for quantum computer with 20K qubits](https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: Getting GLM 5.2 running on my slow computer](https://github.com/JustVugg/colibri)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [How Poppy Playtime Became One of Gaming Biggest Horror Franchises](https://80.lv/articles/how-poppy-playtime-became-one-of-gaming-s-biggest-horror-franchises/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Assassin's Creed Black Flag Resynced sets franchise Steam player record](https://80.lv/articles/assassin-s-creed-black-flag-resynced-sets-franchise-steam-player-record-sells-2-million-copies/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials

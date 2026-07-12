@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-07-04"
+updated: "2026-07-12"
 ---
 
 # 游戏行业
@@ -377,3 +377,21 @@ updated: "2026-07-04"
 
 ### [4 人手游工作室能否活下去？真实数据：$100k+/月广告，$30/次美国 iOS 用户获取，4 个月才回本](https://www.reddit.com/r/gamedev/comments/1ulxmis/can_a_4person_studio_survive_mobile_f2p_in_2026/)
 - 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Assassin's Creed Black Flag Resynced sets franchise Steam player record](https://80.lv/articles/assassin-s-creed-black-flag-resynced-sets-franchise-steam-player-record-sells-2-million-copies/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Id claims it has the crew to build games and tech after layoffs](https://www.gamesindustry.biz/id-claims-it-has-the-crew-we-need-to-build-the-games-and-tech-were-known-for-following-mass-layoffs)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot Road Generator with better procedural intersections](https://80.lv/articles/godot-road-generator-now-features-better-procedural-intersections/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Cyberpunk Cozy Game with rain-soaked worlds](https://80.lv/articles/this-cyberpunk-cozy-game-allows-you-to-build-your-own-rain-soaked-world/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Soulframe open to all players with dark progression path](https://www.rockpapershotgun.com/fantasy-action-rpg-soulframe-is-open-to-all-players-for-a-limited-time-with-a-new-dark-progression-path-wolf-mounts-and-a-warsongs-origin-quest-on-the-way)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Indie studio Stunt Paradise 2 sequel](https://80.lv/articles/how-an-indie-studio-created-a-sequel-of-a-driving-platformer-game/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials

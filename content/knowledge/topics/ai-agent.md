@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-04"
+updated: "2026-07-12"
 ---
 
 # AI Agent
@@ -775,3 +775,15 @@ AI Agent 架构、实践与踩坑
 
 ### ["Reality Has a Surprising Amount of Detail" (2017)](https://johnsalvatier.org/blog/2017/reality-has-a-surprising-amount-of-detail)
 - 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison: Quoting Nilay Patel on AR glasses](https://simonwillison.net/2026/Jul/10/nilay-patel/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI bets on families as ChatGPT goes deeper into households](https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta AI glasses translation focus](https://techcrunch.com/2026/07/11/meta-ai-glasses-translation/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta removes controversial AI feature on Instagram after backlash](https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials

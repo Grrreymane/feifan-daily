@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-07-04"
+updated: "2026-07-12"
 ---
 
 # 游戏行业裁员
@@ -326,3 +326,15 @@ updated: "2026-07-04"
 
 ### [AI 真实成本警告：Google/Amazon 的净零承诺被 AI 打破](https://techcrunch.com/2026/07/02/a-warning-sign-about-ais-real-cost-courtesy-of-google-and-amazon/)
 - 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Assassin's Creed Black Flag Resynced sets franchise Steam player record](https://80.lv/articles/assassin-s-creed-black-flag-resynced-sets-franchise-steam-player-record-sells-2-million-copies/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Id claims it has the crew to build games and tech after layoffs](https://www.gamesindustry.biz/id-claims-it-has-the-crew-we-need-to-build-the-games-and-tech-were-known-for-following-mass-layoffs)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot Road Generator with better procedural intersections](https://80.lv/articles/godot-road-generator-now-features-better-procedural-intersections/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Cyberpunk Cozy Game with rain-soaked worlds](https://80.lv/articles/this-cyberpunk-cozy-game-allows-you-to-build-your-own-rain-soaked-world/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-07-02"
+updated: "2026-07-12"
 ---
 
 # Substance 3D
@@ -139,3 +139,12 @@ Substance 系列工具与材质
 
 ### [80.lv：Substance 3D Painter 头发高光遮罩工具](https://80.lv/articles/this-substance-3d-painter-tool-creates-highlight-masks-for-hair/)
 - 📅 2026-07-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Elastic Cube Blender Animation Add-On](https://80.lv/articles/this-elastic-and-dynamic-cube-animation-was-made-using-a-blender-add-on/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Behind Nitro Express Skin for Hunt Showdown 1896](https://80.lv/articles/behind-creation-of-nitro-express-checks-and-balances-skin-for-hunt-showdown-1896/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Soulframe open to all players with dark progression path](https://www.rockpapershotgun.com/fantasy-action-rpg-soulframe-is-open-to-all-players-for-a-limited-time-with-a-new-dark-progression-path-wolf-mounts-and-a-warsongs-origin-quest-on-the-way)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
