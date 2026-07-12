@@ -3,7 +3,7 @@ title: "概念设计"
 slug: "concept-art"
 description: "概念设计行业动态与技法"
 created: "2026-06-14"
-updated: "2026-07-01"
+updated: "2026-07-12"
 ---
 
 # 概念设计
@@ -40,3 +40,15 @@ updated: "2026-07-01"
 
 ### [Geometry Nodes real-time collision in Blender tutorial](https://80.lv/articles/blender-geometry-nodes-real-time-collision-tutorial/)
 - 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple sues OpenAI over alleged trade secret theft](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: Getting GLM 5.2 running on my slow computer](https://github.com/JustVugg/colibri)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [How Poppy Playtime Became One of Gaming Biggest Horror Franchises](https://80.lv/articles/how-poppy-playtime-became-one-of-gaming-s-biggest-horror-franchises/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Assassin's Creed Black Flag Resynced sets franchise Steam player record](https://80.lv/articles/assassin-s-creed-black-flag-resynced-sets-franchise-steam-player-record-sells-2-million-copies/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials

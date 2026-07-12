@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-07-01"
+updated: "2026-07-12"
 ---
 
 # 游戏开发
@@ -271,3 +271,48 @@ updated: "2026-07-01"
 
 ### [Xbox pauses third-party Game Pass deals amid Undead Labs concerns](https://www.gamedeveloper.com/business/xbox-pauses-third-party-game-pass-deals-undead-labs)
 - 📅 2026-07-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple sues OpenAI over alleged trade secret theft](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: Getting GLM 5.2 running on my slow computer](https://github.com/JustVugg/colibri)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [How Poppy Playtime Became One of Gaming Biggest Horror Franchises](https://80.lv/articles/how-poppy-playtime-became-one-of-gaming-s-biggest-horror-franchises/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Assassin's Creed Black Flag Resynced sets franchise Steam player record](https://80.lv/articles/assassin-s-creed-black-flag-resynced-sets-franchise-steam-player-record-sells-2-million-copies/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Id claims it has the crew to build games and tech after layoffs](https://www.gamesindustry.biz/id-claims-it-has-the-crew-we-need-to-build-the-games-and-tech-were-known-for-following-mass-layoffs)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot Road Generator with better procedural intersections](https://80.lv/articles/godot-road-generator-now-features-better-procedural-intersections/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Cyberpunk Cozy Game with rain-soaked worlds](https://80.lv/articles/this-cyberpunk-cozy-game-allows-you-to-build-your-own-rain-soaked-world/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Elastic Cube Blender Animation Add-On](https://80.lv/articles/this-elastic-and-dynamic-cube-animation-was-made-using-a-blender-add-on/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Soulframe open to all players with dark progression path](https://www.rockpapershotgun.com/fantasy-action-rpg-soulframe-is-open-to-all-players-for-a-limited-time-with-a-new-dark-progression-path-wolf-mounts-and-a-warsongs-origin-quest-on-the-way)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Indie studio Stunt Paradise 2 sequel](https://80.lv/articles/how-an-indie-studio-created-a-sequel-of-a-driving-platformer-game/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [4-person studio mobile F2P 2026 real numbers](https://www.reddit.com/r/gamedev/comments/1ulxmis/can_a_4person_studio_survive_mobile_f2p_in_2026/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [DEEPWARD Steam page 2000 wishlists in 74 hours via IGN reveal](https://www.reddit.com/r/gamedev/comments/1utpgf9/we_launched_our_steam_page_with_an_ign_reveal_and/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Studio Singularity open movie progress](https://studio.blender.org/welcome/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender.org homepage feature Singularity](https://blender.org/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired Podcast Every Company Has a Story](https://acquired.fm/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials

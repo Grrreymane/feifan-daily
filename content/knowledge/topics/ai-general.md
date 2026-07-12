@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-09"
+updated: "2026-07-12"
 ---
 
 # AI 通用
@@ -3717,3 +3717,57 @@ updated: "2026-07-09"
 
 ### [Tenda 路由器固件被曝隐藏后门认证](https://news.ycombinator.com/item?id=48825749)
 - 📅 2026-07-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple sues OpenAI over alleged trade secret theft](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 2040: Plan A](https://ai-2040.com/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison: Quoting Nilay Patel on AR glasses](https://simonwillison.net/2026/Jul/10/nilay-patel/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI bets on families as ChatGPT goes deeper into households](https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta AI glasses translation focus](https://techcrunch.com/2026/07/11/meta-ai-glasses-translation/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta removes controversial AI feature on Instagram after backlash](https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [EU threatens Meta with fines over addictive features](https://techcrunch.com/2026/07/10/eu-threatens-meta-with-fines-over-addictive-features-on-facebook-and-instagram/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [China is catching up to Elon Musk reusable rockets](https://techcrunch.com/2026/07/10/china-is-catching-up-to-elon-musks-reusable-rockets/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Oratomic raises 300M for quantum computer with 20K qubits](https://techcrunch.com/2026/07/10/oratomic-raises-300m-to-build-a-viable-quantum-computer-that-needs-only-20k-qubits/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: Getting GLM 5.2 running on my slow computer](https://github.com/JustVugg/colibri)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [How Poppy Playtime Became One of Gaming Biggest Horror Franchises](https://80.lv/articles/how-poppy-playtime-became-one-of-gaming-s-biggest-horror-franchises/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Assassin's Creed Black Flag Resynced sets franchise Steam player record](https://80.lv/articles/assassin-s-creed-black-flag-resynced-sets-franchise-steam-player-record-sells-2-million-copies/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Id claims it has the crew to build games and tech after layoffs](https://www.gamesindustry.biz/id-claims-it-has-the-crew-we-need-to-build-the-games-and-tech-were-known-for-following-mass-layoffs)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot Road Generator with better procedural intersections](https://80.lv/articles/godot-road-generator-now-features-better-procedural-intersections/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Cyberpunk Cozy Game with rain-soaked worlds](https://80.lv/articles/this-cyberpunk-cozy-game-allows-you-to-build-your-own-rain-soaked-world/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Elastic Cube Blender Animation Add-On](https://80.lv/articles/this-elastic-and-dynamic-cube-animation-was-made-using-a-blender-add-on/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Behind Nitro Express Skin for Hunt Showdown 1896](https://80.lv/articles/behind-creation-of-nitro-express-checks-and-balances-skin-for-hunt-showdown-1896/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials

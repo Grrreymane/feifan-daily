@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-07-04"
+updated: "2026-07-12"
 ---
 
 # ZBrush
@@ -166,3 +166,9 @@ ZBrush 雕刻与工作流
 
 ### [电影《Coco》风格的沉浸式致敬场景](https://80.lv/articles/check-out-this-immersive-and-beautiful-tribute-to-the-movie-coco/)
 - 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender.org homepage feature Singularity](https://blender.org/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired Podcast Every Company Has a Story](https://acquired.fm/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials

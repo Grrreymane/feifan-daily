@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-09"
+updated: "2026-07-12"
 ---
 
 # OpenAI
@@ -643,3 +643,24 @@ OpenAI 公司动态与产品
 
 ### [Tenda 路由器固件被曝隐藏后门认证](https://news.ycombinator.com/item?id=48825749)
 - 📅 2026-07-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple sues OpenAI over alleged trade secret theft](https://techcrunch.com/2026/07/10/apple-sues-openai-over-alleged-trade-secret-theft/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [GPT-5.6 Sol Ultra produces proof of the Cycle Double Cover Conjecture](https://cdn.openai.com/pdf/04d1d1e4-bc75-476a-97cf-49055cd98d31/cdc_proof.pdf)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 2040: Plan A](https://ai-2040.com/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison: Quoting Nilay Patel on AR glasses](https://simonwillison.net/2026/Jul/10/nilay-patel/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI bets on families as ChatGPT goes deeper into households](https://techcrunch.com/2026/07/11/openai-bets-on-families-as-chatgpt-goes-deeper-into-households/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta AI glasses translation focus](https://techcrunch.com/2026/07/11/meta-ai-glasses-translation/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta removes controversial AI feature on Instagram after backlash](https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/)
+- 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
