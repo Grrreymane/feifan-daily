@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-14"
 ---
 
 # Blender
@@ -529,3 +529,15 @@ Blender 工具与社区动态
 
 ### [Acquired Podcast Every Company Has a Story](https://acquired.fm/)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [3D 角色其实是"扁的"——用 Blender 短片解决广角镜头畸变](https://80.lv/articles/this-3d-character-is-actually-flat-it-s-crazy/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Wolverine 3D 角色 + Toon Shader，还原漫画质感](https://80.lv/articles/3d-take-on-wolverine-with-a-toon-shader-inspired-by-a-comic-book-aesthetic/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 5.2 新版雕刻功能教程](https://80.lv/articles/3d-artist-shares-a-tutorial-on-new-sculpting-features-in-blender-5-2/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Slavic 风格游戏用芭蕾动作做战斗系统](https://80.lv/articles/this-slavic-inspired-game-features-a-combat-system-based-on-ballet-movements/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials

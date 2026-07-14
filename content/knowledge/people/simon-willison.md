@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-14"
 ---
 
 # Simon Willison
@@ -93,3 +93,7 @@ updated: "2026-07-12"
 - 📅 2026-07-04 — [Simon Willison：June 2026 Newsletter（付费订阅版）](https://simonwillison.net/2026/Jul/3/june-newsletter/)
 
 - 📅 2026-07-12 — [Simon Willison: Quoting Nilay Patel on AR glasses](https://simonwillison.net/2026/Jul/10/nilay-patel/)
+
+- 📅 2026-07-14 — [Simon Willison：Directly Responsible Individuals（DRI）](https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/)
+
+- 📅 2026-07-14 — [Simon Willison：sqlite-utils 4.1.1 发布](https://simonwillison.net/2026/Jul/12/sqlite-utils/)

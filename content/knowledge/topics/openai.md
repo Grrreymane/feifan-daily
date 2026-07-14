@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-14"
 ---
 
 # OpenAI
@@ -664,3 +664,15 @@ OpenAI 公司动态与产品
 
 ### [Meta removes controversial AI feature on Instagram after backlash](https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 开始给 Claude 做印度本地化定价](https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple 起诉 OpenAI：6 条最劲爆指控](https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Directly Responsible Individuals（DRI）](https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [【AI 播客】Acquired · Google: The AI Company](https://www.acquired.fm/episodes/google-the-ai-company)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
