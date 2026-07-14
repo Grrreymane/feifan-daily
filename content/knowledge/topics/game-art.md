@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-14"
 ---
 
 # 游戏美术
@@ -502,3 +502,6 @@ updated: "2026-07-12"
 
 ### [Acquired Podcast Every Company Has a Story](https://acquired.fm/)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [3D 角色其实是"扁的"——用 Blender 短片解决广角镜头畸变](https://80.lv/articles/this-3d-character-is-actually-flat-it-s-crazy/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials

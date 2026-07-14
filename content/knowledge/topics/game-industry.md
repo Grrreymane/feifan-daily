@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-14"
 ---
 
 # 游戏行业
@@ -395,3 +395,12 @@ updated: "2026-07-12"
 
 ### [Indie studio Stunt Paradise 2 sequel](https://80.lv/articles/how-an-indie-studio-created-a-sequel-of-a-driving-platformer-game/)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [【游戏设计视频】Game Maker's Toolkit](https://www.youtube.com/@GMTK)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [【游戏行业视频】DLC Podcast · Episode 200](https://www.dlcpodcast.com/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [【AI 播客】Acquired · Google: The AI Company](https://www.acquired.fm/episodes/google-the-ai-company)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials

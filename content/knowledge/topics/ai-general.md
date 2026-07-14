@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-14"
 ---
 
 # AI 通用
@@ -3771,3 +3771,51 @@ updated: "2026-07-12"
 
 ### [Behind Nitro Express Skin for Hunt Showdown 1896](https://80.lv/articles/behind-creation-of-nitro-express-checks-and-balances-skin-for-hunt-showdown-1896/)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [MindsEye 前员工工会抗议 Build A Rocket Boy 内测活动](https://www.rockpapershotgun.com/a-kick-in-the-teeth-for-the-fired-workers-unionised-former-mindseye-devs-protest-alleged-fan-playtest-at-build-a-rocket-boy)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Zig 作者叫板 Anthropic：Claude Code 到底是不是 Agent？](https://raymyers.org/post/zed-creator-calls-spade-a-spade/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Code 在读用户 prompt 之前先发 33k tokens](https://systima.ai/blog/claude-code-vs-opencode-token-overhead)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [生产 AI Agent 从旧模型迁到 GPT-5.6：快 2.2 倍，便宜 27%](https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 开始给 Claude 做印度本地化定价](https://techcrunch.com/2026/07/13/anthropic-starts-localizing-claude-pricing-for-india-its-biggest-market-after-the-us/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple 起诉 OpenAI：6 条最劲爆指控](https://www.theverge.com/tech/964843/apple-openai-lawsuit-wildest-claims)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Directly Responsible Individuals（DRI）](https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Sam Altman 嘴仗 Musk：太空数据中心是"骗散户"](https://techcrunch.com/2026/07/13/sam-altmans-space-data-center-trash-talk-is-what-most-experts-already-believe/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Waze 全线接入 Gemini AI](https://www.theverge.com/transportation/964132/waze-gemini-ai-voice-commands-less-chatty)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [GhostLock：潜伏 Linux 15 年的 stack UAF 漏洞](https://nebusec.ai/research/ionstack-part-2/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Ask HN：给 AI 生成的文章加个显性标签吧](https://news.ycombinator.com/item?id=48886741)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Grok CLI 把用户整个 home 目录上传到 GCS](https://twitter.com/a_green_being/status/2076598897779020159)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：sqlite-utils 4.1.1 发布](https://simonwillison.net/2026/Jul/12/sqlite-utils/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [【AI 播客】Dwarkesh Podcast（长访谈之王）](https://www.dwarkesh.com/podcast)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [【AI 播客】Acquired · Google: The AI Company](https://www.acquired.fm/episodes/google-the-ai-company)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [画师追踪：Furry Weekly / e621 Hot 榜](https://e621.net/posts?tags=order%3Ascore)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials

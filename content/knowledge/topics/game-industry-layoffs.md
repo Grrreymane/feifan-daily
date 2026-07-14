@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-14"
 ---
 
 # 游戏行业裁员
@@ -338,3 +338,12 @@ updated: "2026-07-12"
 
 ### [Cyberpunk Cozy Game with rain-soaked worlds](https://80.lv/articles/this-cyberpunk-cozy-game-allows-you-to-build-your-own-rain-soaked-world/)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [分析师：2026 年主机出货预计下滑 19.5% 至 3390 万台](https://www.gamesindustry.biz/analyst-game-console-shipments-expected-to-decline-195-to-339m-units-in-2026)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Obsidian 被裁员后老将回应"跑出来乱说话的人"](https://www.rockpapershotgun.com/obsidian-still-have-the-same-dna-that-went-into-new-vegas-and-kotor-2-the-outer-worlds-2-director-insists-following-chatter-around-layoffs)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [MindsEye 前员工工会抗议 Build A Rocket Boy 内测活动](https://www.rockpapershotgun.com/a-kick-in-the-teeth-for-the-fired-workers-unionised-former-mindseye-devs-protest-alleged-fan-playtest-at-build-a-rocket-boy)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials

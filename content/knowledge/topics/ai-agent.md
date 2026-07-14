@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-14"
 ---
 
 # AI Agent
@@ -787,3 +787,21 @@ AI Agent 架构、实践与踩坑
 
 ### [Meta removes controversial AI feature on Instagram after backlash](https://techcrunch.com/2026/07/10/meta-removes-controversial-ai-feature-on-instagram-after-backlash/)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [MindsEye 前员工工会抗议 Build A Rocket Boy 内测活动](https://www.rockpapershotgun.com/a-kick-in-the-teeth-for-the-fired-workers-unionised-former-mindseye-devs-protest-alleged-fan-playtest-at-build-a-rocket-boy)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Zig 作者叫板 Anthropic：Claude Code 到底是不是 Agent？](https://raymyers.org/post/zed-creator-calls-spade-a-spade/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Code 在读用户 prompt 之前先发 33k tokens](https://systima.ai/blog/claude-code-vs-opencode-token-overhead)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [生产 AI Agent 从旧模型迁到 GPT-5.6：快 2.2 倍，便宜 27%](https://ploy.ai/blog/migrating-a-production-ai-agent-to-gpt-5-6)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Grok CLI 把用户整个 home 目录上传到 GCS](https://twitter.com/a_green_being/status/2076598897779020159)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：sqlite-utils 4.1.1 发布](https://simonwillison.net/2026/Jul/12/sqlite-utils/)
+- 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
