@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-16"
 ---
 
 # 大语言模型
@@ -478,3 +478,6 @@ LLM 技术进展、应用与讨论
 
 ### [Assassin's Creed Black Flag Resynced sets franchise Steam player record](https://80.lv/articles/assassin-s-creed-black-flag-resynced-sets-franchise-steam-player-record-sells-2-million-copies/)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [3. HN 热帖：Gemma 4 26B 在 13 岁 Xeon 服务器上无 GPU 跑 5 tokens/sec](https://news.ycombinator.com/item?id=（sources.md)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials

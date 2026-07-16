@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-07-04"
+updated: "2026-07-16"
 ---
 
 # Unreal Engine
@@ -736,3 +736,9 @@ UE 引擎更新与技巧
 
 ### [花 2k 愿望单来自单条 IndieGameJoe 风格 Instagram 帖子的实操经验](https://www.reddit.com/r/gamedev/comments/1umgt5a/i_got_2k_wishlists_from_a_single_instagram_post/)
 - 📅 2026-07-04 · 来源: daily-materials · 分类: daily-materials
+
+### [3. GamesIndustry.biz：4J Studios 从零构建新沙盒游戏引擎](https://www.gamesindustry.biz/4j-studios-new-sandbox)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. GDC 2026 Session：LifeAfter — AIGC 范式改变移动游戏美术生产](https://gdcvault.com/browse/gdc-26/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials

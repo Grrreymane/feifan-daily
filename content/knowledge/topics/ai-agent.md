@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-14"
+updated: "2026-07-16"
 ---
 
 # AI Agent
@@ -805,3 +805,45 @@ AI Agent 架构、实践与踩坑
 
 ### [Simon Willison：sqlite-utils 4.1.1 发布](https://simonwillison.net/2026/Jul/12/sqlite-utils/)
 - 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [1. Simon Willison：Judgement（Fable 自主判断使用哪个模型）](https://simonwillison.net/2026/Jul/3/judgement/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [2. Simon Willison：Better Models: Worse Tools](https://simonwillison.net/2026/Jul/4/better-models-worse-tools/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. Simon Willison：sqlite-utils 4.0rc2 mostly written by Claude Fable ($149.25)](https://simonwillison.net/2026/Jul/5/sqlite-utils-4-0rc2/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. AIinASIA：Asia AI Agent 部署深度追踪](https://aiinasia.com/news/kiloclaw-unleashed-ai-agents-in-60-seconds)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [5. Karpathy 加入 Anthropic pretraining team](https://x.com/karpathy)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. HN 热帖：Gemma 4 26B 在 13 岁 Xeon 服务器上无 GPU 跑 5 tokens/sec](https://news.ycombinator.com/item?id=（sources.md)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [1. OpenAI GPT-5.6 面向所有人开放（Sol/Terra/Luna 三档）](https://aisuperthinkers.com/gpt-5-6-launch)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. Aily Labs × AWS 战略合作（Fortune 500 AI 决策智能体）](https://news.futunn.com/post/75476150/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. Nutanix Agent Gateway — 59% 企业因成本失控暂停 agent 部署](https://aisuperthinkers.com/deepfabric-just-shipped-50-ai-agents-for-supply-chain-results-are-in)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [5. 百度"搭子"推出企业版 Agent 平台 + 企业级 Skill 接入标准](https://www.163.com/dy/article/L1GOBAGA0534A4SC.html)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [6. Lyzr Agent Control Plane — 企业 agent 部署与治理统一平面](https://www.newjerseybusinessjournal.com/article/925427523-lyzr-launches-control-plane)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [7. 酷特智能 PMTSoul AI — 企业智能体操作系统](https://www.toutiao.com/article/7660550359475159606/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. 80 Level Podcast：Silvia Raponi 手绘 Blender 植物工作流访谈](https://80.lv/podcast/silvia-raponi)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. 80 Level Podcast：Blender 短片《NOXIOUS》主创访谈](https://80.lv/podcast/noxious-blender)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials

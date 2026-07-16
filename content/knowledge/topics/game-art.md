@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-14"
+updated: "2026-07-16"
 ---
 
 # 游戏美术
@@ -505,3 +505,24 @@ updated: "2026-07-14"
 
 ### [3D 角色其实是"扁的"——用 Blender 短片解决广角镜头畸变](https://80.lv/articles/this-3d-character-is-actually-flat-it-s-crazy/)
 - 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [1. 80 Level：Silvia Raponi 用 Blender 做手绘风植物](https://80.lv/articles/silvia-raponi-hand-painted-blender-plants/（80)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. GamesIndustry.biz：4J Studios 从零构建新沙盒游戏引擎](https://www.gamesindustry.biz/4j-studios-new-sandbox)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. GDC 2026 Session：LifeAfter — AIGC 范式改变移动游戏美术生产](https://gdcvault.com/browse/gdc-26/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [2. Riot：复古 LoL Classic 服务器 7 月上线](https://www.riotgames.com/en/news/lol-classic-2026)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [1. 11 Bit Studios 裁员 20 人](https://www.gamesindustry.biz/11-bit-studios-layoffs-2026)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [2. Q2 2026 游戏行业 M&A 达 23 亿美元（自 2022 以来最高）](https://www.gamesindustry.biz/q2-2026-ma-report)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [7. 酷特智能 PMTSoul AI — 企业智能体操作系统](https://www.toutiao.com/article/7660550359475159606/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-14"
+updated: "2026-07-16"
 ---
 
 # Blender
@@ -541,3 +541,27 @@ Blender 工具与社区动态
 
 ### [Slavic 风格游戏用芭蕾动作做战斗系统](https://80.lv/articles/this-slavic-inspired-game-features-a-combat-system-based-on-ballet-movements/)
 - 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [1. 80 Level：Silvia Raponi 用 Blender 做手绘风植物](https://80.lv/articles/silvia-raponi-hand-painted-blender-plants/（80)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [2. 80 Level：Blender 短片《NOXIOUS》幕后](https://80.lv/articles/noxious-blender-short-film/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. GamesIndustry.biz：4J Studios 从零构建新沙盒游戏引擎](https://www.gamesindustry.biz/4j-studios-new-sandbox)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [2. Riot：复古 LoL Classic 服务器 7 月上线](https://www.riotgames.com/en/news/lol-classic-2026)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. B4D Tools：面向动效的 Blender 工具包](https://80.lv/articles/b4d-tools-blender/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [1. HN 热帖：Jurassic Park computers — 侏罗纪公园电脑系统深度剖析（814 分）](https://news.ycombinator.com/item?id=（sources.md)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. 80 Level Podcast：Silvia Raponi 手绘 Blender 植物工作流访谈](https://80.lv/podcast/silvia-raponi)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. 80 Level Podcast：Blender 短片《NOXIOUS》主创访谈](https://80.lv/podcast/noxious-blender)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials

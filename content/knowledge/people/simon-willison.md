@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-07-14"
+updated: "2026-07-16"
 ---
 
 # Simon Willison
@@ -97,3 +97,9 @@ updated: "2026-07-14"
 - 📅 2026-07-14 — [Simon Willison：Directly Responsible Individuals（DRI）](https://simonwillison.net/2026/Jul/12/directly-responsible-individuals/)
 
 - 📅 2026-07-14 — [Simon Willison：sqlite-utils 4.1.1 发布](https://simonwillison.net/2026/Jul/12/sqlite-utils/)
+
+- 📅 2026-07-16 — [1. Simon Willison：Judgement（Fable 自主判断使用哪个模型）](https://simonwillison.net/2026/Jul/3/judgement/)
+
+- 📅 2026-07-16 — [2. Simon Willison：Better Models: Worse Tools](https://simonwillison.net/2026/Jul/4/better-models-worse-tools/)
+
+- 📅 2026-07-16 — [3. Simon Willison：sqlite-utils 4.0rc2 mostly written by Claude Fable ($149.25)](https://simonwillison.net/2026/Jul/5/sqlite-utils-4-0rc2/)
