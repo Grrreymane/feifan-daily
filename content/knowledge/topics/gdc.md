@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-05-24"
+updated: "2026-07-16"
 ---
 
 # GDC 大会
@@ -119,3 +119,21 @@ GDC 演讲、报告与行业洞察
 
 ### [80.lv/podcast](https://80.lv/podcast/)
 - 📅 2026-05-24 · 来源: daily-materials · 分类: daily-materials
+
+### [3. GamesIndustry.biz：4J Studios 从零构建新沙盒游戏引擎](https://www.gamesindustry.biz/4j-studios-new-sandbox)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. GDC 2026 Session：LifeAfter — AIGC 范式改变移动游戏美术生产](https://gdcvault.com/browse/gdc-26/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [1. Simon Willison：Judgement（Fable 自主判断使用哪个模型）](https://simonwillison.net/2026/Jul/3/judgement/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. Glen Schofield 退休（Dead Space 之父，35 年生涯）](https://80.lv/articles/glen-schofield-retirement)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. GDC 2026 转型"Festival of Gaming"（40 周年）](https://igda.org/event/gdc/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [1. OpenAI GPT-5.6 面向所有人开放（Sol/Terra/Luna 三档）](https://aisuperthinkers.com/gpt-5-6-launch)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials

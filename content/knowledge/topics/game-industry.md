@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-07-14"
+updated: "2026-07-16"
 ---
 
 # 游戏行业
@@ -404,3 +404,15 @@ updated: "2026-07-14"
 
 ### [【AI 播客】Acquired · Google: The AI Company](https://www.acquired.fm/episodes/google-the-ai-company)
 - 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [1. 11 Bit Studios 裁员 20 人](https://www.gamesindustry.biz/11-bit-studios-layoffs-2026)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [2. Q2 2026 游戏行业 M&A 达 23 亿美元（自 2022 以来最高）](https://www.gamesindustry.biz/q2-2026-ma-report)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. Glen Schofield 退休（Dead Space 之父，35 年生涯）](https://80.lv/articles/glen-schofield-retirement)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. GDC 2026 转型"Festival of Gaming"（40 周年）](https://igda.org/event/gdc/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials

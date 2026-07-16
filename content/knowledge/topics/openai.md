@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-14"
+updated: "2026-07-16"
 ---
 
 # OpenAI
@@ -676,3 +676,12 @@ OpenAI 公司动态与产品
 
 ### [【AI 播客】Acquired · Google: The AI Company](https://www.acquired.fm/episodes/google-the-ai-company)
 - 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [4. GDC 2026 转型"Festival of Gaming"（40 周年）](https://igda.org/event/gdc/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [1. OpenAI GPT-5.6 面向所有人开放（Sol/Terra/Luna 三档）](https://aisuperthinkers.com/gpt-5-6-launch)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. Aily Labs × AWS 战略合作（Fortune 500 AI 决策智能体）](https://news.futunn.com/post/75476150/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials

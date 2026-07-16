@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-14"
+updated: "2026-07-16"
 ---
 
 # AI 通用
@@ -3819,3 +3819,63 @@ updated: "2026-07-14"
 
 ### [画师追踪：Furry Weekly / e621 Hot 榜](https://e621.net/posts?tags=order%3Ascore)
 - 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [1. 80 Level：Silvia Raponi 用 Blender 做手绘风植物](https://80.lv/articles/silvia-raponi-hand-painted-blender-plants/（80)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [2. 80 Level：Blender 短片《NOXIOUS》幕后](https://80.lv/articles/noxious-blender-short-film/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. GamesIndustry.biz：4J Studios 从零构建新沙盒游戏引擎](https://www.gamesindustry.biz/4j-studios-new-sandbox)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. GDC 2026 Session：LifeAfter — AIGC 范式改变移动游戏美术生产](https://gdcvault.com/browse/gdc-26/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [1. Simon Willison：Judgement（Fable 自主判断使用哪个模型）](https://simonwillison.net/2026/Jul/3/judgement/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. Simon Willison：sqlite-utils 4.0rc2 mostly written by Claude Fable ($149.25)](https://simonwillison.net/2026/Jul/5/sqlite-utils-4-0rc2/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. AIinASIA：Asia AI Agent 部署深度追踪](https://aiinasia.com/news/kiloclaw-unleashed-ai-agents-in-60-seconds)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [5. Karpathy 加入 Anthropic pretraining team](https://x.com/karpathy)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. B4D Tools：面向动效的 Blender 工具包](https://80.lv/articles/b4d-tools-blender/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [1. HN 热帖：Jurassic Park computers — 侏罗纪公园电脑系统深度剖析（814 分）](https://news.ycombinator.com/item?id=（sources.md)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [1. 11 Bit Studios 裁员 20 人](https://www.gamesindustry.biz/11-bit-studios-layoffs-2026)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. GDC 2026 转型"Festival of Gaming"（40 周年）](https://igda.org/event/gdc/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [1. OpenAI GPT-5.6 面向所有人开放（Sol/Terra/Luna 三档）](https://aisuperthinkers.com/gpt-5-6-launch)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [3. Aily Labs × AWS 战略合作（Fortune 500 AI 决策智能体）](https://news.futunn.com/post/75476150/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. Nutanix Agent Gateway — 59% 企业因成本失控暂停 agent 部署](https://aisuperthinkers.com/deepfabric-just-shipped-50-ai-agents-for-supply-chain-results-are-in)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [5. 百度"搭子"推出企业版 Agent 平台 + 企业级 Skill 接入标准](https://www.163.com/dy/article/L1GOBAGA0534A4SC.html)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [6. Lyzr Agent Control Plane — 企业 agent 部署与治理统一平面](https://www.newjerseybusinessjournal.com/article/925427523-lyzr-launches-control-plane)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [7. 酷特智能 PMTSoul AI — 企业智能体操作系统](https://www.toutiao.com/article/7660550359475159606/)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. 80 Level Podcast：Silvia Raponi 手绘 Blender 植物工作流访谈](https://80.lv/podcast/silvia-raponi)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [4. 80 Level Podcast：Blender 短片《NOXIOUS》主创访谈](https://80.lv/podcast/noxious-blender)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials

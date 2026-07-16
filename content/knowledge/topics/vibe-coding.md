@@ -3,7 +3,7 @@ title: "Vibe Coding"
 slug: "vibe-coding"
 description: "AI 辅助编程的现象、利弊与讨论"
 created: "2026-04-07"
-updated: "2026-06-28"
+updated: "2026-07-16"
 ---
 
 # Vibe Coding
@@ -47,3 +47,6 @@ AI 辅助编程的现象、利弊与讨论
 
 ### [Apple Vision Pro 高管据报跳槽 OpenAI 硬件团队](https://techcrunch.com/2026/06/27/apple-vision-pro-exec-is-reportedly-leaving-for-openai/)
 - 📅 2026-06-28 · 来源: daily-materials · 分类: daily-materials
+
+### [5. Karpathy 加入 Anthropic pretraining team](https://x.com/karpathy)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials

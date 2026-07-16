@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-07-14"
+updated: "2026-07-16"
 ---
 
 # 游戏行业裁员
@@ -347,3 +347,9 @@ updated: "2026-07-14"
 
 ### [MindsEye 前员工工会抗议 Build A Rocket Boy 内测活动](https://www.rockpapershotgun.com/a-kick-in-the-teeth-for-the-fired-workers-unionised-former-mindseye-devs-protest-alleged-fan-playtest-at-build-a-rocket-boy)
 - 📅 2026-07-14 · 来源: daily-materials · 分类: daily-materials
+
+### [1. 11 Bit Studios 裁员 20 人](https://www.gamesindustry.biz/11-bit-studios-layoffs-2026)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [2. Q2 2026 游戏行业 M&A 达 23 亿美元（自 2022 以来最高）](https://www.gamesindustry.biz/q2-2026-ma-report)
+- 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
