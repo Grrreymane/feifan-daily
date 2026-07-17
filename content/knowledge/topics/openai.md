@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-16"
+updated: "2026-07-17"
 ---
 
 # OpenAI
@@ -685,3 +685,15 @@ OpenAI 公司动态与产品
 
 ### [3. Aily Labs × AWS 战略合作（Fortune 500 AI 决策智能体）](https://news.futunn.com/post/75476150/)
 - 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space × Matthew Berman 跨界：AIE、AGI、前沿实验室策略](https://finance.biggo.com.tw/podcast/2caceb6e2555f183)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #250：Mythos Mess、GPT 5.6-Sol、GLM 5.2](https://www.lastweekin.ai/podcast/250)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [No Priors：Andrej Karpathy 从 12 月起没写过一行代码](https://www.no-priors.com/karpathy-agentic-engineering)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine：模块化科幻机库场景](https://www.reddit.com/r/unrealengine/comments/...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials

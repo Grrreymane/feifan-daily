@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-16"
+updated: "2026-07-17"
 ---
 
 # 游戏美术
@@ -526,3 +526,12 @@ updated: "2026-07-16"
 
 ### [7. 酷特智能 PMTSoul AI — 企业智能体操作系统](https://www.toutiao.com/article/7660550359475159606/)
 - 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [《我的孤单星球》作者花一个月用 UE5 手搓乡下小镇](https://80.lv/articles/goodnight-punpun-creator-spent-month-building-rural-town-in-ue5/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Clair Obscur: Expedition 33 拿下 Develop:Star Awards 2026 年度最佳游戏](https://www.gamesindustry.biz/clair-obscur-expedition-33-wins-best-game-at-developstar-awards-2026)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Roblox 宣布"AI 一键生成基础游戏"计划](https://www.rockpapershotgun.com/roblox-announce-plans-to-let-people-ai-generate-basic-games)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials

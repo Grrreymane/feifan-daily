@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-16"
+updated: "2026-07-17"
 ---
 
 # AI Agent
@@ -847,3 +847,45 @@ AI Agent 架构、实践与踩坑
 
 ### [4. 80 Level Podcast：Blender 短片《NOXIOUS》主创访谈](https://80.lv/podcast/noxious-blender)
 - 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy 的 Software 3.0 框架：Vibe Coding 抬地板，Agentic Engineering 抬天花板](https://karpathy.bearblog.dev/sequoia-ascent/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：让 Fable 自己判断任务难度，反而更省钱](https://simonwillison.net/2026/Jul/5/let-fable-delegate/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [sqlite-utils 4.0 发布：37 个 prompt + 34 次提交 + Claude Fable 完成](https://simonwillison.net/2026/Jul/5/sqlite-utils-40rc2/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Uber 用 148 亿美金收购 Delivery Hero](https://techcrunch.com/2026/07/17/ubers-14-8b-delivery-hero-deal/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Google AI Mode 现在能连接并交互第三方 App](https://techcrunch.com/2026/07/17/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Intelligence 获批在中国上线](https://techcrunch.com/2026/07/17/apple-intelligence-approved-for-launch-in-china/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space #620：Modal CTO 讲 Agent 时代的云该长什么样](https://www.latent.space/p/modal-agent-experience)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space × Matthew Berman 跨界：AIE、AGI、前沿实验室策略](https://finance.biggo.com.tw/podcast/2caceb6e2555f183)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #250：Mythos Mess、GPT 5.6-Sol、GLM 5.2](https://www.lastweekin.ai/podcast/250)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [No Priors：Andrej Karpathy 从 12 月起没写过一行代码](https://www.no-priors.com/karpathy-agentic-engineering)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit：我如何在自制 Roguelike 里做 Perks 系统](https://www.youtube.com/watch?v=...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [AI Answers #223：AI Washing、扁平化组织、Agent 安全（Marketing AI Podcast）](https://botflo.com/top_ten_ai_podcasts/posts/2026-06-26-2026-07-03/223-ai-answers-ai-washing-flatter-org-charts-advice-for-students-agent-security.html)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Darknet Diaries #176：NSL](https://darknetdiaries.com/episode/176/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [HN #3：Kimi K3 上线](https://news.ycombinator.com/item?id=...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials

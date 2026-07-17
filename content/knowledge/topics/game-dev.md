@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-17"
 ---
 
 # 游戏开发
@@ -316,3 +316,6 @@ updated: "2026-07-12"
 
 ### [Acquired Podcast Every Company Has a Story](https://acquired.fm/)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals：Master Figure Sculpting with Logan Wiesen](https://www.youtube.com/watch?v=...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials

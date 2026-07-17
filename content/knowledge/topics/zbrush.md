@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-17"
 ---
 
 # ZBrush
@@ -172,3 +172,9 @@ ZBrush 雕刻与工作流
 
 ### [Acquired Podcast Every Company Has a Story](https://acquired.fm/)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals：Master Figure Sculpting with Logan Wiesen](https://www.youtube.com/watch?v=...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired：The Walt Disney Company（Spring 2026 Season Finale）](https://www.acquired.fm/episodes/the-walt-disney-company)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
