@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-16"
+updated: "2026-07-17"
 ---
 
 # Blender
@@ -565,3 +565,15 @@ Blender 工具与社区动态
 
 ### [4. 80 Level Podcast：Blender 短片《NOXIOUS》主创访谈](https://80.lv/podcast/noxious-blender)
 - 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Hurricane：Blender 多解算器物理引擎](https://80.lv/articles/hurricane-multi-solver-physics-engine-blender/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity 一键切换场景大气氛围](https://80.lv/articles/change-your-scenes-atmosphere-in-unity-with-single-click/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/conceptart：DND 灵感动画短片，用了自定义"胶状立方体"材质](https://www.reddit.com/r/conceptart/comments/...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine：模块化科幻机库场景](https://www.reddit.com/r/unrealengine/comments/...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials

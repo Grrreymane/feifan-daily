@@ -2,7 +2,7 @@
 title: "Andrej Karpathy"
 slug: "andrej-karpathy"
 created: "2026-05-23"
-updated: "2026-06-20"
+updated: "2026-07-17"
 ---
 
 # Andrej Karpathy
@@ -19,3 +19,5 @@ updated: "2026-06-20"
 - 📅 2026-06-10 — [Andrej Karpathy microGPT](http://karpathy.github.io)
 
 - 📅 2026-06-20 — [Andrej Karpathy blog（含 microgpt）](http://karpathy.github.io/)
+
+- 📅 2026-07-17 — [No Priors：Andrej Karpathy 从 12 月起没写过一行代码](https://www.no-priors.com/karpathy-agentic-engineering)

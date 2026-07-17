@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-16"
+updated: "2026-07-17"
 ---
 
 # AI 通用
@@ -3879,3 +3879,72 @@ updated: "2026-07-16"
 
 ### [4. 80 Level Podcast：Blender 短片《NOXIOUS》主创访谈](https://80.lv/podcast/noxious-blender)
 - 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [《我的孤单星球》作者花一个月用 UE5 手搓乡下小镇](https://80.lv/articles/goodnight-punpun-creator-spent-month-building-rural-town-in-ue5/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity 一键切换场景大气氛围](https://80.lv/articles/change-your-scenes-atmosphere-in-unity-with-single-click/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Clair Obscur: Expedition 33 拿下 Develop:Star Awards 2026 年度最佳游戏](https://www.gamesindustry.biz/clair-obscur-expedition-33-wins-best-game-at-developstar-awards-2026)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Roblox 宣布"AI 一键生成基础游戏"计划](https://www.rockpapershotgun.com/roblox-announce-plans-to-let-people-ai-generate-basic-games)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Denshattack 评测：像素风格能不能再挖出新意](https://www.rockpapershotgun.com/denshattack-review)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5 Modular Sci-Fi Hangar Environment 分享](https://www.reddit.com/r/unrealengine/comments/...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy 的 Software 3.0 框架：Vibe Coding 抬地板，Agentic Engineering 抬天花板](https://karpathy.bearblog.dev/sequoia-ascent/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic J-Space 论文：给模型"做脑外科"能干预推理，模型还能自我察觉](https://www.anthropic.com/research/global-workspace)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi K3 发布：2.5 万亿参数，冲击国产模型最大规模](https://news.aibase.com/zh/news/29318)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：让 Fable 自己判断任务难度，反而更省钱](https://simonwillison.net/2026/Jul/5/let-fable-delegate/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [sqlite-utils 4.0 发布：37 个 prompt + 34 次提交 + Claude Fable 完成](https://simonwillison.net/2026/Jul/5/sqlite-utils-40rc2/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Uber 用 148 亿美金收购 Delivery Hero](https://techcrunch.com/2026/07/17/ubers-14-8b-delivery-hero-deal/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Google AI Mode 现在能连接并交互第三方 App](https://techcrunch.com/2026/07/17/googles-ai-mode-now-lets-you-link-and-interact-with-select-apps/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple Intelligence 获批在中国上线](https://techcrunch.com/2026/07/17/apple-intelligence-approved-for-launch-in-china/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Moonshot Kimi 3 传闻性能接近 Anthropic Opus 4.8](https://techcrunch.com/2026/07/17/moonshots-upcoming-kimi-3-is-expected-to-close-the-gap-with-anthropics-opus-4-8/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space #620：Modal CTO 讲 Agent 时代的云该长什么样](https://www.latent.space/p/modal-agent-experience)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space × Matthew Berman 跨界：AIE、AGI、前沿实验室策略](https://finance.biggo.com.tw/podcast/2caceb6e2555f183)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #250：Mythos Mess、GPT 5.6-Sol、GLM 5.2](https://www.lastweekin.ai/podcast/250)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [No Priors：Andrej Karpathy 从 12 月起没写过一行代码](https://www.no-priors.com/karpathy-agentic-engineering)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit：我如何在自制 Roguelike 里做 Perks 系统](https://www.youtube.com/watch?v=...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [AI Answers #223：AI Washing、扁平化组织、Agent 安全（Marketing AI Podcast）](https://botflo.com/top_ten_ai_podcasts/posts/2026-06-26-2026-07-03/223-ai-answers-ai-washing-flatter-org-charts-advice-for-students-agent-security.html)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Darknet Diaries #176：NSL](https://darknetdiaries.com/episode/176/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [HN Top #1：Inkling 开源权重模型](https://news.ycombinator.com/item?id=...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials

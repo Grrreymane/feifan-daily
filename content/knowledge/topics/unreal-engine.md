@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-07-16"
+updated: "2026-07-17"
 ---
 
 # Unreal Engine
@@ -742,3 +742,12 @@ UE 引擎更新与技巧
 
 ### [4. GDC 2026 Session：LifeAfter — AIGC 范式改变移动游戏美术生产](https://gdcvault.com/browse/gdc-26/)
 - 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5 Modular Sci-Fi Hangar Environment 分享](https://www.reddit.com/r/unrealengine/comments/...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy 的 Software 3.0 框架：Vibe Coding 抬地板，Agentic Engineering 抬天花板](https://karpathy.bearblog.dev/sequoia-ascent/)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/conceptart：DND 灵感动画短片，用了自定义"胶状立方体"材质](https://www.reddit.com/r/conceptart/comments/...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials

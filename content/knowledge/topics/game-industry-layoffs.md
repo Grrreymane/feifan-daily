@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-07-16"
+updated: "2026-07-17"
 ---
 
 # 游戏行业裁员
@@ -353,3 +353,12 @@ updated: "2026-07-16"
 
 ### [2. Q2 2026 游戏行业 M&A 达 23 亿美元（自 2022 以来最高）](https://www.gamesindustry.biz/q2-2026-ma-report)
 - 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Denshattack 评测：像素风格能不能再挖出新意](https://www.rockpapershotgun.com/denshattack-review)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [ZeniMax Online（TES Online 工作室）领导层受微软最新一轮裁员冲击](https://www.gamesindustry.biz/zenimax-online-studios-leadership-impacted-by-latest-xbox-layoffs)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5 Modular Sci-Fi Hangar Environment 分享](https://www.reddit.com/r/unrealengine/comments/...)
+- 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
