@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-07-12"
+updated: "2026-07-18"
 ---
 
 # Substance 3D
@@ -148,3 +148,6 @@ Substance 系列工具与材质
 
 ### [Soulframe open to all players with dark progression path](https://www.rockpapershotgun.com/fantasy-action-rpg-soulframe-is-open-to-all-players-for-a-limited-time-with-a-new-dark-progression-path-wolf-mounts-and-a-warsongs-origin-quest-on-the-way)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi K3: Open Frontier Intelligence](https://news.ycombinator.com/item?id=48935342)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials

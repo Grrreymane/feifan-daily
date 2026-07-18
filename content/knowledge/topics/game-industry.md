@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-07-16"
+updated: "2026-07-18"
 ---
 
 # 游戏行业
@@ -416,3 +416,12 @@ updated: "2026-07-16"
 
 ### [4. GDC 2026 转型"Festival of Gaming"（40 周年）](https://igda.org/event/gdc/)
 - 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Expanse 工作流教程：在 Unreal Engine 中可视化体积效果](https://80.lv/articles/check-out-this-tutorial-on-expanse-workflow-in-unreal-engine/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Newzoo：GTA 6 首周预售全球收入约 2.6 亿美元](https://www.gamesindustry.biz/newzoo-gta-6-pre-orders-generate-260m-globally-during-first-week-of-campaign)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [UKIE：三年内 22% 英国游戏行业员工遭遇过失业](https://www.gamesindustry.biz/ukie-22-of-uk-games-industry-workforce-affected-by-job-losses-in-last-three-years)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials

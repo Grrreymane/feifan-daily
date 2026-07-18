@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-07-16"
+updated: "2026-07-18"
 ---
 
 # 大语言模型
@@ -481,3 +481,15 @@ LLM 技术进展、应用与讨论
 
 ### [3. HN 热帖：Gemma 4 26B 在 13 岁 Xeon 服务器上无 GPU 跑 5 tokens/sec](https://news.ycombinator.com/item?id=（sources.md)
 - 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [LLM 批评者是对的，但我依然在用](https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [引用 Thibault Sottiaux：GPT-5.6 删文件事件](https://simonwillison.net/2026/Jul/16/bad-codex-bug/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [用"经典"机器学习检测 LLM 生成文本](https://blog.lyc8503.net/en/post/llm-classifier/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Mozilla：《开源 AI 现状报告》](https://stateofopensource.ai/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
