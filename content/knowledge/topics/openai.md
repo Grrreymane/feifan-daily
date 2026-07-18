@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-17"
+updated: "2026-07-18"
 ---
 
 # OpenAI
@@ -697,3 +697,12 @@ OpenAI 公司动态与产品
 
 ### [Reddit r/unrealengine：模块化科幻机库场景](https://www.reddit.com/r/unrealengine/comments/...)
 - 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Thinking Machines Lab 推出首个开源模型 Inkling](https://simonwillison.net/2026/Jul/16/inkling/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple 起诉 OpenAI 前雇员：涉数十名员工的法律信](https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [NotebookLM 正式并入 Gemini，改名 Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials

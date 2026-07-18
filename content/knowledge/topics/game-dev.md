@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-07-17"
+updated: "2026-07-18"
 ---
 
 # 游戏开发
@@ -319,3 +319,6 @@ updated: "2026-07-17"
 
 ### [FlippedNormals：Master Figure Sculpting with Logan Wiesen](https://www.youtube.com/watch?v=...)
 - 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi K3: Open Frontier Intelligence](https://news.ycombinator.com/item?id=48935342)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials

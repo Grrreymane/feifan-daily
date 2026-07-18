@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-17"
+updated: "2026-07-18"
 ---
 
 # 游戏美术
@@ -535,3 +535,12 @@ updated: "2026-07-17"
 
 ### [Roblox 宣布"AI 一键生成基础游戏"计划](https://www.rockpapershotgun.com/roblox-announce-plans-to-let-people-ai-generate-basic-games)
 - 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Expanse 工作流教程：在 Unreal Engine 中可视化体积效果](https://80.lv/articles/check-out-this-tutorial-on-expanse-workflow-in-unreal-engine/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Roblox 上线 AI 生成游戏功能](https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Patreon 停止"礼貌请求"，直接封锁 AI 爬虫](https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials

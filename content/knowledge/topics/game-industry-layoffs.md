@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-07-17"
+updated: "2026-07-18"
 ---
 
 # 游戏行业裁员
@@ -362,3 +362,9 @@ updated: "2026-07-17"
 
 ### [UE5 Modular Sci-Fi Hangar Environment 分享](https://www.reddit.com/r/unrealengine/comments/...)
 - 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [UKIE：三年内 22% 英国游戏行业员工遭遇过失业](https://www.gamesindustry.biz/ukie-22-of-uk-games-industry-workforce-affected-by-job-losses-in-last-three-years)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [沙盘控制台游戏《Remote Control》：靠打字操控远端人体](https://www.rockpapershotgun.com/control-a-human-proxy-on-an-abandoned-spaceship-by-typing-in-every-command-or-risk-losing-your-job-in-remote-control)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials

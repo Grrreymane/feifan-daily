@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-17"
+updated: "2026-07-18"
 ---
 
 # AI 通用
@@ -3948,3 +3948,87 @@ updated: "2026-07-17"
 
 ### [HN Top #1：Inkling 开源权重模型](https://news.ycombinator.com/item?id=...)
 - 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Expanse 工作流教程：在 Unreal Engine 中可视化体积效果](https://80.lv/articles/check-out-this-tutorial-on-expanse-workflow-in-unreal-engine/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Geometry Nodes 让 Suzanne 头像上下起雨](https://80.lv/articles/geometry-nodes-powered-rain-falling-on-suzanne/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [15 年游戏合作教会我的事：ZiMAD 高管访谈](https://80.lv/articles/what-15-years-of-game-partnerships-taught-me/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Newzoo：GTA 6 首周预售全球收入约 2.6 亿美元](https://www.gamesindustry.biz/newzoo-gta-6-pre-orders-generate-260m-globally-during-first-week-of-campaign)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [UKIE：三年内 22% 英国游戏行业员工遭遇过失业](https://www.gamesindustry.biz/ukie-22-of-uk-games-industry-workforce-affected-by-job-losses-in-last-three-years)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [控制台价格高涨的背后：市场增长困境](https://www.gamesindustry.biz/sky-high-prices-risk-disaster-for-a-console-market-struggling-to-grow-opinion)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi K3：Moonshot AI 首个"开放 3T 类"模型](https://www.kimi.com/blog/kimi-k3)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Thinking Machines Lab 推出首个开源模型 Inkling](https://simonwillison.net/2026/Jul/16/inkling/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple 起诉 OpenAI 前雇员：涉数十名员工的法律信](https://www.ft.com/content/1b8c9d52-88a9-426b-ba47-f1811f859166)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [NotebookLM 正式并入 Gemini，改名 Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [LM Studio Bionic：面向开源模型的 AI Agent](https://lmstudio.ai/blog/introducing-lm-studio-bionic)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Roblox 上线 AI 生成游戏功能](https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Patreon 停止"礼貌请求"，直接封锁 AI 爬虫](https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Vids 让你出演自己的 AI 视频](https://techcrunch.com/2026/07/16/google-vids-now-lets-you-star-in-your-own-ai-videos/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [FBI 逮捕靠 Steam 游戏偷加密货币的嫌犯](https://techcrunch.com/2026/07/17/fbi-arrests-man-accused-of-using-steam-games-to-drain-victims-crypto-wallets/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [AWS 计费 Bug 让部分客户看到 17 亿美元账单](https://news.ycombinator.com/item?id=48945241)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi K3 与 Pelican 基准测试的启示](https://simonwillison.net/2026/Jul/16/kimi-k3/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Firefox in WebAssembly：一个荒诞的成就](https://simonwillison.net/2026/Jul/16/firefox-in-webassembly/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [LLM 批评者是对的，但我依然在用](https://www.theocharis.dev/blog/llm-critics-are-right-i-use-llms-anyway/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [引用 Thibault Sottiaux：GPT-5.6 删文件事件](https://simonwillison.net/2026/Jul/16/bad-codex-bug/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [用"经典"机器学习检测 LLM 生成文本](https://blog.lyc8503.net/en/post/llm-classifier/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Mozilla：《开源 AI 现状报告》](https://stateofopensource.ai/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi K3: Open Frontier Intelligence](https://news.ycombinator.com/item?id=48935342)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [$100 AI Music Video: Claude Fable 5 vs. GPT-5.6 Sol](https://news.ycombinator.com/item?id=48939524)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft Comic Chat is now open source](https://news.ycombinator.com/item?id=48936426)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Decoy Font](https://news.ycombinator.com/item?id=48936584)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Immersive Linear Algebra Book with Interactive Figures](https://news.ycombinator.com/item?id=48935951)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Kaggle "Measuring AGI" 竞赛评奖疑云](https://news.ycombinator.com/item?id=48946010)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials

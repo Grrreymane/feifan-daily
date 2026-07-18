@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-17"
+updated: "2026-07-18"
 ---
 
 # Blender
@@ -577,3 +577,9 @@ Blender 工具与社区动态
 
 ### [Reddit r/unrealengine：模块化科幻机库场景](https://www.reddit.com/r/unrealengine/comments/...)
 - 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Geometry Nodes 让 Suzanne 头像上下起雨](https://80.lv/articles/geometry-nodes-powered-rain-falling-on-suzanne/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [15 年游戏合作教会我的事：ZiMAD 高管访谈](https://80.lv/articles/what-15-years-of-game-partnerships-taught-me/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials

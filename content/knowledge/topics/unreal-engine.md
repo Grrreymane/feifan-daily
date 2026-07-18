@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-07-17"
+updated: "2026-07-18"
 ---
 
 # Unreal Engine
@@ -751,3 +751,9 @@ UE 引擎更新与技巧
 
 ### [Reddit r/conceptart：DND 灵感动画短片，用了自定义"胶状立方体"材质](https://www.reddit.com/r/conceptart/comments/...)
 - 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Expanse 工作流教程：在 Unreal Engine 中可视化体积效果](https://80.lv/articles/check-out-this-tutorial-on-expanse-workflow-in-unreal-engine/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 制作的极地生存游戏《Frost Kin》超现实动画](https://80.lv/articles/surreal-animations-from-an-arctic-survival-game-made-in-godot/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-17"
+updated: "2026-07-18"
 ---
 
 # AI Agent
@@ -889,3 +889,18 @@ AI Agent 架构、实践与踩坑
 
 ### [HN #3：Kimi K3 上线](https://news.ycombinator.com/item?id=...)
 - 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [NotebookLM 正式并入 Gemini，改名 Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [LM Studio Bionic：面向开源模型的 AI Agent](https://lmstudio.ai/blog/introducing-lm-studio-bionic)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Roblox 上线 AI 生成游戏功能](https://techcrunch.com/2026/07/16/roblox-launches-an-ai-powered-game-creation-feature-in-its-mobile-app/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [引用 Thibault Sottiaux：GPT-5.6 删文件事件](https://simonwillison.net/2026/Jul/16/bad-codex-bug/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [用"经典"机器学习检测 LLM 生成文本](https://blog.lyc8503.net/en/post/llm-classifier/)
+- 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
