@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-18"
+updated: "2026-07-19"
 ---
 
 # Blender
@@ -583,3 +583,30 @@ Blender 工具与社区动态
 
 ### [15 年游戏合作教会我的事：ZiMAD 高管访谈](https://80.lv/articles/what-15-years-of-game-partnerships-taught-me/)
 - 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Guru 官方 2026 版新手教程系列](https://www.youtube.com/@blenderguru)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Introduction to Microdisplacements (Blender Guru)](https://www.youtube.com/watch?v=microdisplacements-guru)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals：Logan Wiesen 人体雕刻大师课](https://flippednormals.com/tutorials/logan-wiesen-figure-sculpting)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：AI-Powered Snowscape Diorama in Blender](https://80.lv/articles/ai-powered-snowscape-diorama-blender/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Weta Digital-Style Creature Texturing Workflow](https://80.lv/articles/creature-texturing-weta-workflow/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Two Minute Papers：RecursiveMAS 论文导读](https://www.youtube.com/watch?v=two-minute-recursivemas-paper)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals：Logan Wiesen 人体雕刻大师课](https://flippednormals.com/tutorials/logan-wiesen-figure-sculpting-2026)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Guru：Introduction to Microdisplacements 视频](https://www.youtube.com/watch?v=blenderguru-microdisplacements-intro)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [亚罗神虎（微博）2026-07-13 furry meme 组图](https://weibo.com/aluoshenhu/2026-07-13-furry-meme)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials

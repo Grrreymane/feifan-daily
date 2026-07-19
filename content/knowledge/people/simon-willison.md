@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-07-17"
+updated: "2026-07-19"
 ---
 
 # Simon Willison
@@ -105,3 +105,13 @@ updated: "2026-07-17"
 - 📅 2026-07-16 — [3. Simon Willison：sqlite-utils 4.0rc2 mostly written by Claude Fable ($149.25)](https://simonwillison.net/2026/Jul/5/sqlite-utils-4-0rc2/)
 
 - 📅 2026-07-17 — [Simon Willison：让 Fable 自己判断任务难度，反而更省钱](https://simonwillison.net/2026/Jul/5/let-fable-delegate/)
+
+- 📅 2026-07-19 — [Simon Willison：llm-coding-agent from scratch](https://simonwillison.net/2026/Jul/llm-coding-agent/)
+
+- 📅 2026-07-19 — [Simon Willison：Bun to Rust Migration Notes](https://simonwillison.net/2026/Jul/bun-to-rust/)
+
+- 📅 2026-07-19 — [Simon Willison：Building llm-coding-agent from scratch](https://simonwillison.net/2026/Jul/llm-coding-agent-build/)
+
+- 📅 2026-07-19 — [Simon Willison：Puter WASM Exploration](https://simonwillison.net/2026/Jul/puter-wasm/)
+
+- 📅 2026-07-19 — [Simon Willison：Fable and DRI](https://simonwillison.net/2026/Jul/fable-dri/)

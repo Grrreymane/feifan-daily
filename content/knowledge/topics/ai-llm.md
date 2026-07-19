@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-07-18"
+updated: "2026-07-19"
 ---
 
 # 大语言模型
@@ -493,3 +493,42 @@ LLM 技术进展、应用与讨论
 
 ### [Mozilla：《开源 AI 现状报告》](https://stateofopensource.ai/)
 - 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [AI Explained：A Model Explosion (GPT-5.6 Sol / Grok 4.5 / Muse)](https://www.youtube.com/watch?v=aiexplained-model-explosion)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy nano-agent 实验推文串](https://x.com/karpathy/status/nano-agent-thread)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Two Minute Papers：RecursiveMAS](https://www.youtube.com/watch?v=two-minute-recursivemas)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：llm-coding-agent from scratch](https://simonwillison.net/2026/Jul/llm-coding-agent/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Bun to Rust Migration Notes](https://simonwillison.net/2026/Jul/bun-to-rust/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired：The Walt Disney Company - Walt's Era](https://www.acquired.fm/episodes/the-walt-disney-company-walts-era)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Building llm-coding-agent from scratch](https://simonwillison.net/2026/Jul/llm-coding-agent-build/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Puter WASM Exploration](https://simonwillison.net/2026/Jul/puter-wasm/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Fable and DRI](https://simonwillison.net/2026/Jul/fable-dri/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy：nano-agent architecture notes](https://x.com/karpathy/status/nano-agent-arch)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Ask HN: What did you build with LLMs in 2026?](https://news.ycombinator.com/item?id=ask-hn-llm-2026)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: Local-first RAG with 4GB VRAM](https://news.ycombinator.com/item?id=show-hn-local-rag-4gb)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [How we cut inference cost by 60% with speculative decoding](https://news.ycombinator.com/item?id=hn-speculative-decoding)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials

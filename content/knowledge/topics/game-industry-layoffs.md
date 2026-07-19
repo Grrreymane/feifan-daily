@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-07-18"
+updated: "2026-07-19"
 ---
 
 # 游戏行业裁员
@@ -368,3 +368,15 @@ updated: "2026-07-18"
 
 ### [沙盘控制台游戏《Remote Control》：靠打字操控远端人体](https://www.rockpapershotgun.com/control-a-human-proxy-on-an-abandoned-spaceship-by-typing-in-every-command-or-risk-losing-your-job-in-remote-control)
 - 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Godot 4.4 in Production - Studio Case Study](https://80.lv/articles/godot-44-production-case-study/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz：Q2 2026 Indie Studio Layoff Report](https://www.gamesindustry.biz/q2-2026-indie-layoff-report)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer：Nintendo Switch 3 Rumor Roundup](https://www.eurogamer.net/nintendo-switch-3-rumor-roundup)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic：Claude 4.7 Opus Update Notes](https://www.anthropic.com/news/claude-4-7-opus-update)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials

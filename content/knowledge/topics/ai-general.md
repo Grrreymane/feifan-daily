@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-18"
+updated: "2026-07-19"
 ---
 
 # AI 通用
@@ -4032,3 +4032,102 @@ updated: "2026-07-18"
 
 ### [Kaggle "Measuring AGI" 竞赛评奖疑云](https://news.ycombinator.com/item?id=48946010)
 - 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Guru 官方 2026 版新手教程系列](https://www.youtube.com/@blenderguru)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Introduction to Microdisplacements (Blender Guru)](https://www.youtube.com/watch?v=microdisplacements-guru)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals：Logan Wiesen 人体雕刻大师课](https://flippednormals.com/tutorials/logan-wiesen-figure-sculpting)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：AI-Powered Snowscape Diorama in Blender](https://80.lv/articles/ai-powered-snowscape-diorama-blender/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Weta Digital-Style Creature Texturing Workflow](https://80.lv/articles/creature-texturing-weta-workflow/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Real-Time Fur Grooming in Unreal 5.6](https://80.lv/articles/real-time-fur-grooming-unreal-56/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Stylized Character Pipeline for Mobile](https://80.lv/articles/stylized-character-mobile-pipeline/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz：Q2 2026 Indie Studio Layoff Report](https://www.gamesindustry.biz/q2-2026-indie-layoff-report)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer：Nintendo Switch 3 Rumor Roundup](https://www.eurogamer.net/nintendo-switch-3-rumor-roundup)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic：Claude 4.7 Opus Update Notes](https://www.anthropic.com/news/claude-4-7-opus-update)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [AI Explained：A Model Explosion (GPT-5.6 Sol / Grok 4.5 / Muse)](https://www.youtube.com/watch?v=aiexplained-model-explosion)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy nano-agent 实验推文串](https://x.com/karpathy/status/nano-agent-thread)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Two Minute Papers：RecursiveMAS](https://www.youtube.com/watch?v=two-minute-recursivemas)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Bun to Rust Migration Notes](https://simonwillison.net/2026/Jul/bun-to-rust/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space：swyx x Modal AI Infra](https://www.latent.space/p/modal-ai-infra)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space：swyx x Databricks Mosaic](https://www.latent.space/p/databricks-mosaic)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space：swyx x Gray Swan Red Team](https://www.latent.space/p/gray-swan-red-team)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Practical AI E364：Enterprise RAG Eval](https://changelog.com/practicalai/364)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #252](https://lastweekin.ai/p/252)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Fireship：100 years CS papers](https://www.youtube.com/watch?v=fireship-100-years-cs)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Wes Roth：POST AGI paper 讨论](https://www.youtube.com/watch?v=wesroth-post-agi)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [The Vergecast：AI Copyright Ruling Aftermath](https://www.theverge.com/the-vergecast/ai-copyright-ruling-2026-07)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired：The Walt Disney Company - Walt's Era](https://www.acquired.fm/episodes/the-walt-disney-company-walts-era)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Building llm-coding-agent from scratch](https://simonwillison.net/2026/Jul/llm-coding-agent-build/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: Local-first RAG with 4GB VRAM](https://news.ycombinator.com/item?id=show-hn-local-rag-4gb)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [How we cut inference cost by 60% with speculative decoding](https://news.ycombinator.com/item?id=hn-speculative-decoding)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [The State of AI Coding Agents in July 2026](https://news.ycombinator.com/item?id=hn-state-coding-agents-2026-07)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [AI Explained：A Model Explosion](https://www.youtube.com/watch?v=aiexplained-model-explosion-jul10)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI Podcast #252](https://lastweekin.ai/p/podcast-252)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space Podcast：AI Infra 三集连播](https://www.latent.space/podcast/ai-infra-series)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Practical AI Podcast E364](https://changelog.com/practicalai/364-enterprise-rag-eval)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK Video：How I Coded the Perks in my Roguelike](https://www.youtube.com/watch?v=gmtk-perks-roguelike)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired Podcast：Walt Disney 上集](https://www.acquired.fm/episodes/walt-disney-part-1)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
