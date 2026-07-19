@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-18"
+updated: "2026-07-19"
 ---
 
 # 游戏美术
@@ -544,3 +544,9 @@ updated: "2026-07-18"
 
 ### [Patreon 停止"礼貌请求"，直接封锁 AI 爬虫](https://techcrunch.com/2026/07/17/patreon-stops-asking-ai-bots-not-to-scrape-and-starts-blocking-them/)
 - 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Guru 官方 2026 版新手教程系列](https://www.youtube.com/@blenderguru)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Introduction to Microdisplacements (Blender Guru)](https://www.youtube.com/watch?v=microdisplacements-guru)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials

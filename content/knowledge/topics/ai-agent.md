@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-18"
+updated: "2026-07-19"
 ---
 
 # AI Agent
@@ -904,3 +904,54 @@ AI Agent 架构、实践与踩坑
 
 ### [用"经典"机器学习检测 LLM 生成文本](https://blog.lyc8503.net/en/post/llm-classifier/)
 - 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [AI Explained：A Model Explosion (GPT-5.6 Sol / Grok 4.5 / Muse)](https://www.youtube.com/watch?v=aiexplained-model-explosion)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy nano-agent 实验推文串](https://x.com/karpathy/status/nano-agent-thread)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Two Minute Papers：RecursiveMAS](https://www.youtube.com/watch?v=two-minute-recursivemas)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：llm-coding-agent from scratch](https://simonwillison.net/2026/Jul/llm-coding-agent/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Bun to Rust Migration Notes](https://simonwillison.net/2026/Jul/bun-to-rust/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space：swyx x Modal AI Infra](https://www.latent.space/p/modal-ai-infra)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired：The Walt Disney Company - Walt's Era](https://www.acquired.fm/episodes/the-walt-disney-company-walts-era)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Building llm-coding-agent from scratch](https://simonwillison.net/2026/Jul/llm-coding-agent-build/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Puter WASM Exploration](https://simonwillison.net/2026/Jul/puter-wasm/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Fable and DRI](https://simonwillison.net/2026/Jul/fable-dri/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy：nano-agent architecture notes](https://x.com/karpathy/status/nano-agent-arch)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Ask HN: What did you build with LLMs in 2026?](https://news.ycombinator.com/item?id=ask-hn-llm-2026)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: Local-first RAG with 4GB VRAM](https://news.ycombinator.com/item?id=show-hn-local-rag-4gb)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [How we cut inference cost by 60% with speculative decoding](https://news.ycombinator.com/item?id=hn-speculative-decoding)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [The State of AI Coding Agents in July 2026](https://news.ycombinator.com/item?id=hn-state-coding-agents-2026-07)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [AI Explained：A Model Explosion](https://www.youtube.com/watch?v=aiexplained-model-explosion-jul10)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI Podcast #252](https://lastweekin.ai/p/podcast-252)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials

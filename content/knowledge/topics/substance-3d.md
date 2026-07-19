@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-07-18"
+updated: "2026-07-19"
 ---
 
 # Substance 3D
@@ -151,3 +151,15 @@ Substance 系列工具与材质
 
 ### [Kimi K3: Open Frontier Intelligence](https://news.ycombinator.com/item?id=48935342)
 - 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：AI-Powered Snowscape Diorama in Blender](https://80.lv/articles/ai-powered-snowscape-diorama-blender/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Weta Digital-Style Creature Texturing Workflow](https://80.lv/articles/creature-texturing-weta-workflow/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Real-Time Fur Grooming in Unreal 5.6](https://80.lv/articles/real-time-fur-grooming-unreal-56/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Stylized Character Pipeline for Mobile](https://80.lv/articles/stylized-character-mobile-pipeline/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials

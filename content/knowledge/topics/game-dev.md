@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-07-18"
+updated: "2026-07-19"
 ---
 
 # 游戏开发
@@ -322,3 +322,12 @@ updated: "2026-07-18"
 
 ### [Kimi K3: Open Frontier Intelligence](https://news.ycombinator.com/item?id=48935342)
 - 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK：How I Coded the Perks in my Roguelike](https://www.youtube.com/watch?v=gmtk-roguelike-perks)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Developer：Environmental Storytelling Techniques](https://www.gamedeveloper.com/design/environmental-storytelling-techniques-2026)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Godot 4.4 in Production - Studio Case Study](https://80.lv/articles/godot-44-production-case-study/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials

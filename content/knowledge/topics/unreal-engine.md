@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-07-18"
+updated: "2026-07-19"
 ---
 
 # Unreal Engine
@@ -757,3 +757,15 @@ UE 引擎更新与技巧
 
 ### [Godot 制作的极地生存游戏《Frost Kin》超现实动画](https://80.lv/articles/surreal-animations-from-an-arctic-survival-game-made-in-godot/)
 - 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Weta Digital-Style Creature Texturing Workflow](https://80.lv/articles/creature-texturing-weta-workflow/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Real-Time Fur Grooming in Unreal 5.6](https://80.lv/articles/real-time-fur-grooming-unreal-56/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Stylized Character Pipeline for Mobile](https://80.lv/articles/stylized-character-mobile-pipeline/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [ArtStation Magazine：Environment Art Breakdowns 精选合集](https://magazine.artstation.com/category/environment-art/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials

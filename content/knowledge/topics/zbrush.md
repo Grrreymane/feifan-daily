@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-07-17"
+updated: "2026-07-19"
 ---
 
 # ZBrush
@@ -178,3 +178,24 @@ ZBrush 雕刻与工作流
 
 ### [Acquired：The Walt Disney Company（Spring 2026 Season Finale）](https://www.acquired.fm/episodes/the-walt-disney-company)
 - 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Introduction to Microdisplacements (Blender Guru)](https://www.youtube.com/watch?v=microdisplacements-guru)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals：Logan Wiesen 人体雕刻大师课](https://flippednormals.com/tutorials/logan-wiesen-figure-sculpting)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：AI-Powered Snowscape Diorama in Blender](https://80.lv/articles/ai-powered-snowscape-diorama-blender/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv：Weta Digital-Style Creature Texturing Workflow](https://80.lv/articles/creature-texturing-weta-workflow/)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Two Minute Papers：RecursiveMAS 论文导读](https://www.youtube.com/watch?v=two-minute-recursivemas-paper)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals：Logan Wiesen 人体雕刻大师课](https://flippednormals.com/tutorials/logan-wiesen-figure-sculpting-2026)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Guru：Introduction to Microdisplacements 视频](https://www.youtube.com/watch?v=blenderguru-microdisplacements-intro)
+- 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
