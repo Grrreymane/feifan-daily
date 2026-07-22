@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-07-19"
+updated: "2026-07-22"
 ---
 
 # 大语言模型
@@ -532,3 +532,6 @@ LLM 技术进展、应用与讨论
 
 ### [How we cut inference cost by 60% with speculative decoding](https://news.ycombinator.com/item?id=hn-speculative-decoding)
 - 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit · Mark Brown 主频道](https://www.youtube.com/@GMTK)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials

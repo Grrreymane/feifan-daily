@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-07-18"
+updated: "2026-07-22"
 ---
 
 # 游戏行业
@@ -425,3 +425,6 @@ updated: "2026-07-18"
 
 ### [UKIE：三年内 22% 英国游戏行业员工遭遇过失业](https://www.gamesindustry.biz/ukie-22-of-uk-games-industry-workforce-affected-by-job-losses-in-last-three-years)
 - 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity 7 官宣 2027 Q1 发布，Beta 2026-12](https://www.rockpapershotgun.com/unity-7-arrives-in-early-2027-with-beta-in-december)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials

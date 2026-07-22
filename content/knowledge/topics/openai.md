@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-18"
+updated: "2026-07-22"
 ---
 
 # OpenAI
@@ -706,3 +706,9 @@ OpenAI 公司动态与产品
 
 ### [NotebookLM 正式并入 Gemini，改名 Gemini Notebook](https://blog.google/innovation-and-ai/products/gemini-notebook/notebooklm-gemini-notebook/)
 - 📅 2026-07-18 · 来源: daily-materials · 分类: daily-materials
+
+### [American AI is locked down and proprietary. It's losing](https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Who's Afraid of Chinese Models（Stratechery / Simon Willison 转载）](https://simonwillison.net/2026/Jul/20/whos-afraid-of-chinese-models/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials

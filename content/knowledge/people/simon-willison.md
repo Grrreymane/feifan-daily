@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-07-19"
+updated: "2026-07-22"
 ---
 
 # Simon Willison
@@ -115,3 +115,5 @@ updated: "2026-07-19"
 - 📅 2026-07-19 — [Simon Willison：Puter WASM Exploration](https://simonwillison.net/2026/Jul/puter-wasm/)
 
 - 📅 2026-07-19 — [Simon Willison：Fable and DRI](https://simonwillison.net/2026/Jul/fable-dri/)
+
+- 📅 2026-07-22 — [Who's Afraid of Chinese Models（Stratechery / Simon Willison 转载）](https://simonwillison.net/2026/Jul/20/whos-afraid-of-chinese-models/)

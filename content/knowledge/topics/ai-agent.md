@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-19"
+updated: "2026-07-22"
 ---
 
 # AI Agent
@@ -955,3 +955,27 @@ AI Agent 架构、实践与踩坑
 
 ### [Last Week in AI Podcast #252](https://lastweekin.ai/p/podcast-252)
 - 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Meshy 3D Agent — 用对话创建和编辑 3D 资产](https://80.lv/articles/meshy-3d-agent-lets-you-create-and-edit-3d-assets-with-just-conversations/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Jensn Trevino 的 UE5 大气环境幕后](https://80.lv/articles/jensn-trevino-atmospheric-environment-ue5/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [A Fireside Chat with Cat and Thariq from the Claude Code team](https://simonwillison.net/2026/Jul/21/claude-code-team/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Reverse-engineering is cheap now](https://simonwillison.net/2026/Jul/20/reverse-engineering/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space · Why AI Infrastructure must evolve for Agent Experience](https://www.latent.space/p/akshat-bubna)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space · The Lab of the Future Should Feel Like a Data Center](https://www.latent.space/p/lila-sciences)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space · Thinking Machines' Inkling 剧集](https://www.latent.space/p/thinking-machines-inkling)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy · From Vibe Coding to Agentic Engineering (Sequoia AI Ascent 2026)](https://www.youtube.com/watch?v=96jN2OCOfLs)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
