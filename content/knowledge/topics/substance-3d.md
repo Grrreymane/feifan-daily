@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-07-19"
+updated: "2026-07-22"
 ---
 
 # Substance 3D
@@ -163,3 +163,12 @@ Substance 系列工具与材质
 
 ### [80.lv：Stylized Character Pipeline for Mobile](https://80.lv/articles/stylized-character-mobile-pipeline/)
 - 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Jensn Trevino 的 UE5 大气环境幕后](https://80.lv/articles/jensn-trevino-atmospheric-environment-ue5/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [VRChat 卡通渲染 · Substance Painter Shader](https://80.lv/articles/vrchat-toon-shader-for-substance-painter/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Modern Water Ripple Modifier For 3ds Max](https://80.lv/articles/modern-water-ripple-modifier-for-3ds-max/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials

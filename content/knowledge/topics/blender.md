@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-19"
+updated: "2026-07-22"
 ---
 
 # Blender
@@ -610,3 +610,9 @@ Blender 工具与社区动态
 
 ### [亚罗神虎（微博）2026-07-13 furry meme 组图](https://weibo.com/aluoshenhu/2026-07-13-furry-meme)
 - 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Open Source Creative · Kenny Phases 访谈](https://opensourcecreative.com/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Miles DF](https://www.furaffinity.net/user/miles-df/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials

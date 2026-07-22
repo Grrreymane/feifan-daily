@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-19"
+updated: "2026-07-22"
 ---
 
 # AI 通用
@@ -4131,3 +4131,63 @@ updated: "2026-07-19"
 
 ### [Acquired Podcast：Walt Disney 上集](https://www.acquired.fm/episodes/walt-disney-part-1)
 - 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity 7 官宣 2027 Q1 发布，Beta 2026-12](https://www.rockpapershotgun.com/unity-7-arrives-in-early-2027-with-beta-in-december)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Meshy 3D Agent — 用对话创建和编辑 3D 资产](https://80.lv/articles/meshy-3d-agent-lets-you-create-and-edit-3d-assets-with-just-conversations/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Jensn Trevino 的 UE5 大气环境幕后](https://80.lv/articles/jensn-trevino-atmospheric-environment-ue5/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [VRChat 卡通渲染 · Substance Painter Shader](https://80.lv/articles/vrchat-toon-shader-for-substance-painter/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Modern Water Ripple Modifier For 3ds Max](https://80.lv/articles/modern-water-ripple-modifier-for-3ds-max/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Cliff Bleszinski 反思职业生涯](https://80.lv/articles/cliff-bleszinski-reflects-on-his-career/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Valve 承认"内存危机在恶化"，Steam Machine 供货受限](https://www.gamesindustry.biz/valve-admits-memory-crisis-is-still-getting-worse-and-may-limit-steam-machine-supply)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [American AI is locked down and proprietary. It's losing](https://werd.io/american-ai-is-locked-down-and-proprietary-its-losing/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Who's Afraid of Chinese Models（Stratechery / Simon Willison 转载）](https://simonwillison.net/2026/Jul/20/whos-afraid-of-chinese-models/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Nativ · 在 Mac 上原生运行 AI 模型](https://simonwillison.net/2026/Jul/20/nativ/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [A Fireside Chat with Cat and Thariq from the Claude Code team](https://simonwillison.net/2026/Jul/21/claude-code-team/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Reverse-engineering is cheap now](https://simonwillison.net/2026/Jul/20/reverse-engineering/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space · Why AI Infrastructure must evolve for Agent Experience](https://www.latent.space/p/akshat-bubna)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space · The Lab of the Future Should Feel Like a Data Center](https://www.latent.space/p/lila-sciences)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space · Thinking Machines' Inkling 剧集](https://www.latent.space/p/thinking-machines-inkling)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy · From Vibe Coding to Agentic Engineering (Sequoia AI Ascent 2026)](https://www.youtube.com/watch?v=96jN2OCOfLs)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Blotch (Tess Garman & Teagan Gavet)](https://www.furaffinity.net/user/blotch/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Caraid](https://twitter.com/caraidart)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [乌卡五仁儿（微博）](https://weibo.com/u/wukawurener)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [锰锰喝奶睡不着（微博）](https://weibo.com/u/mengmengfurry)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials

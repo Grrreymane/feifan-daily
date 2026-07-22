@@ -3,7 +3,7 @@ title: "Vibe Coding"
 slug: "vibe-coding"
 description: "AI 辅助编程的现象、利弊与讨论"
 created: "2026-04-07"
-updated: "2026-07-17"
+updated: "2026-07-22"
 ---
 
 # Vibe Coding
@@ -53,3 +53,6 @@ AI 辅助编程的现象、利弊与讨论
 
 ### [Karpathy 的 Software 3.0 框架：Vibe Coding 抬地板，Agentic Engineering 抬天花板](https://karpathy.bearblog.dev/sequoia-ascent/)
 - 📅 2026-07-17 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy · From Vibe Coding to Agentic Engineering (Sequoia AI Ascent 2026)](https://www.youtube.com/watch?v=96jN2OCOfLs)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-19"
+updated: "2026-07-22"
 ---
 
 # 游戏美术
@@ -550,3 +550,12 @@ updated: "2026-07-19"
 
 ### [Introduction to Microdisplacements (Blender Guru)](https://www.youtube.com/watch?v=microdisplacements-guru)
 - 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity 7 官宣 2027 Q1 发布，Beta 2026-12](https://www.rockpapershotgun.com/unity-7-arrives-in-early-2027-with-beta-in-december)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Meshy 3D Agent — 用对话创建和编辑 3D 资产](https://80.lv/articles/meshy-3d-agent-lets-you-create-and-edit-3d-assets-with-just-conversations/)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [锰锰喝奶睡不着（微博）](https://weibo.com/u/mengmengfurry)
+- 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
