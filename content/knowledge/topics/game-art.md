@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-22"
+updated: "2026-07-23"
 ---
 
 # 游戏美术
@@ -559,3 +559,9 @@ updated: "2026-07-22"
 
 ### [锰锰喝奶睡不着（微博）](https://weibo.com/u/mengmengfurry)
 - 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry 每月市场报告：美国主机销量同比腰斩 62%，游戏销售整体缩水 20%](https://www.gamesindustry.biz/despite-xbox-console-sales-doubling-yoy-hardware-sales-across-the-us-are-down-62-us-monthly-charts)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🎥 Game Maker's Toolkit：《侠盗猎车手》如何把整座城市塞进 PS2 内存](https://www.youtube.com/watch?v=z5AoBAoxpNU)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials

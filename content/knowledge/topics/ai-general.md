@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-22"
+updated: "2026-07-23"
 ---
 
 # AI 通用
@@ -4191,3 +4191,99 @@ updated: "2026-07-22"
 
 ### [锰锰喝奶睡不着（微博）](https://weibo.com/u/mengmengfurry)
 - 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry 每月市场报告：美国主机销量同比腰斩 62%，游戏销售整体缩水 20%](https://www.gamesindustry.biz/despite-xbox-console-sales-doubling-yoy-hardware-sales-across-the-us-are-down-62-us-monthly-charts)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Hasbro 一次性计提 5600 万美元，砍掉 2028 及以后"数款"游戏项目](https://www.gamesindustry.biz/hasbro-records-56m-write-down-and-cancels-several-games-scheduled-for-2028-and-beyond)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Prism Works 发布 Unity URP 动态雨系统：地形自适应涟漪 + 建筑遮挡](https://80.lv/articles/this-dynamic-rain-system-brings-terrain-adaptive-real-time-rain-effects-to-unity/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [100% 骨骼、0 融合变形：RBF 肌肉绑定实现躯干变形](https://80.lv/articles/realistic-torso-deformation-with-rbf-muscle-rig/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Nodes Interactive 更新 Tear Painter：Blender 内直接从贴图取色画布片撕裂](https://80.lv/articles/new-tear-painter-update-lets-you-pick-colors-directly-from-textures/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 5 月营收年化跑到 470 亿美元：Menlo Ventures 合伙人"25 年从未见过这种增长速度"](https://techcrunch.com/video/menlo-ventures-matt-murphy-explains-why-anthropic-is-winning-and-its-not-the-model/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 未来 5 年 AI 基础设施支出膨胀到 7500 亿美元（≈瑞典 GDP）](https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 与作者版权纠纷以 15 亿美元和解 —— 美国历史上最大版权赔偿](https://80.lv/articles/anthropic-s-ai-copyright-dispute-with-authors-ends-in-usd1-5-billion-settlement/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 承认：Hugging Face 上的"入侵事件"其实是 OpenAI 自己的红队测试](https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Nativ —— 在 Mac 本地跑视觉大模型的桌面 App](https://simonwillison.net/2026/Jul/21/nativ/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev：4 人小工作室能撑住 2026 年移动 F2P 吗？血淋淋的真实数字](https://www.reddit.com/r/gamedev/comments/1ulxmis/can_a_4person_studio_survive_mobile_f2p_in_2026/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热帖 #1（1495↑ 1053💬）：OpenAI × Hugging Face 事件官方说明](https://openai.com/index/hugging-face-model-evaluation-security-incident/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热帖：Kimi K3 与 Fable 并驾齐驱，SOTA 之争进入下一轮](https://fireworks.ai/blog/kimik3-fable)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热帖：Terrence Tao 和 ChatGPT 探讨 Jacobian 猜想的反例](https://chatgpt.com/share/6a5fdc7a-d6f8-83e8-bbea-8deb42cfed56)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 讨论：78% 美国人对 AI 数据中心"不要建在我家后院"](https://www.redfin.com/news/ai-data-centers-opposition-education-benefit/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Bethesda Montreal 裁员员工被告知"拿法定最低遣散" —— 就在 Fallout 5 官宣当天](https://www.rockpapershotgun.com/laid-off-bethesda-montreal-staff-allegedly-told-theyd-get-smallest-severance-legally-possible-the-same-day-as-those-fallout-announcements)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [《Cyberpunk: Edgerunners 2》确认 2026 秋登陆 Netflix](https://www.animenewsnetwork.com/news/2026-07-14/cyberpunk-edgerunners-2-anime-teaser-video-reveals-fall-2026-premiere/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Substack 上线 AI 内容比例检测：告诉你哪些 Newsletter 是 AI 写的](https://techcrunch.com/2026/07/22/substacks-new-tool-tells-you-whos-been-writing-their-newsletters-with-ai/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Monday.com 裁员 630 人（20% 员工），All-in AI Work Platform](https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Jack Dorsey 用 Buzz 挑战 Slack：让人和 AI Agent 同一个聊天室](https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta 测试 AI 睡前故事 App —— "献给毫无想象力的家长"](https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Glow 隐匿两年后现身：12 亿美元估值挑战 AI 时代的终端安全](https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 简化 iPhone→Android 迁移：无需 App 即可无线转移多种数据](https://techcrunch.com/2026/07/22/google-is-making-it-easier-to-switch-from-iphone-to-android/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Arcee AI 实验室：中国开源模型并不"本质上危险"](https://techcrunch.com/2026/07/22/arcee-a-us-open-source-ai-lab-says-chinese-models-are-not-inherently-dangerous/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🎥 Game Maker's Toolkit：《侠盗猎车手》如何把整座城市塞进 PS2 内存](https://www.youtube.com/watch?v=z5AoBAoxpNU)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🎙️ The Neuron: AI Explained（2026-07-14）](https://www.theneuron.ai/podcast)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🎥 AI Explained：A Model Explosion（GPT-5.6 Sol / Grok 4.5 / Meta Muse 首波实测）](https://www.youtube.com/@aiexplained-official)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🎥 Fireship：OpenAI GPT-5.6 Sol 快速上手](https://www.youtube.com/@Fireship)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🎙️ The AI Show Episode 225（Marketing AI Institute，2026-07-14）](https://www.marketingaiinstitute.com/podcast-showcase)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🎨 Goldenwolf（Cami Woodruff）](https://www.furaffinity.net/user/goldenwolf/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🎨 Falvie（Melissa Bailey）](https://www.furaffinity.net/user/falvie/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🎨 Koul](https://www.furaffinity.net/user/koul/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials

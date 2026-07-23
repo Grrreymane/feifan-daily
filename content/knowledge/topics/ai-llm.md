@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-07-22"
+updated: "2026-07-23"
 ---
 
 # 大语言模型
@@ -535,3 +535,6 @@ LLM 技术进展、应用与讨论
 
 ### [Game Maker's Toolkit · Mark Brown 主频道](https://www.youtube.com/@GMTK)
 - 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Nativ —— 在 Mac 本地跑视觉大模型的桌面 App](https://simonwillison.net/2026/Jul/21/nativ/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials

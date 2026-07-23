@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-07-22"
+updated: "2026-07-23"
 ---
 
 # Simon Willison
@@ -117,3 +117,7 @@ updated: "2026-07-22"
 - 📅 2026-07-19 — [Simon Willison：Fable and DRI](https://simonwillison.net/2026/Jul/fable-dri/)
 
 - 📅 2026-07-22 — [Who's Afraid of Chinese Models（Stratechery / Simon Willison 转载）](https://simonwillison.net/2026/Jul/20/whos-afraid-of-chinese-models/)
+
+- 📅 2026-07-23 — [Simon Willison：Nativ —— 在 Mac 本地跑视觉大模型的桌面 App](https://simonwillison.net/2026/Jul/21/nativ/)
+
+- 📅 2026-07-23 — [Simon Willison：sqlite-utils 4.0 正式发布](https://simonwillison.net/2026/Jul/18/sqlite-utils-4/)
