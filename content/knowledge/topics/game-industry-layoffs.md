@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-07-19"
+updated: "2026-07-23"
 ---
 
 # 游戏行业裁员
@@ -380,3 +380,24 @@ updated: "2026-07-19"
 
 ### [Anthropic：Claude 4.7 Opus Update Notes](https://www.anthropic.com/news/claude-4-7-opus-update)
 - 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [S.T.A.L.K.E.R. 2 Xbox 独占协议金额甚至超过游戏自身开发预算](https://80.lv/articles/s-t-a-l-k-e-r-2-s-xbox-exclusivity-deal-surpassed-the-game-s-own-development-budget/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Bethesda Montreal 裁员员工被告知"拿法定最低遣散" —— 就在 Fallout 5 官宣当天](https://www.rockpapershotgun.com/laid-off-bethesda-montreal-staff-allegedly-told-theyd-get-smallest-severance-legally-possible-the-same-day-as-those-fallout-announcements)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox 把 Game Pass Starter 版塞进 Meta Horizon+ VR 会员](https://www.gamesindustry.biz/xbox-brings-starter-edition-of-game-pass-to-meta-horizon)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Splitgate 开发商 1047 Games 又一轮裁员 —— 一年内第三次](https://www.rockpapershotgun.com/less-than-a-month-after-launching-empulse-it-looks-like-splitgate-dev-1047-games-are-laying-off-more-staff)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Darkest Dungeon 时隔 6 年首个 DLC —— 借用续作职业](https://www.rockpapershotgun.com/darkest-dungeon-is-getting-its-first-new-bit-of-dlc-in-six-years-borrowing-a-couple-of-classes-from-its-sequel)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Monday.com 裁员 630 人（20% 员工），All-in AI Work Platform](https://techcrunch.com/2026/07/22/monday-com-lays-off-hundreds-to-focuses-on-ai/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Jack Dorsey 用 Buzz 挑战 Slack：让人和 AI Agent 同一个聊天室](https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials

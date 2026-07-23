@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-22"
+updated: "2026-07-23"
 ---
 
 # OpenAI
@@ -712,3 +712,24 @@ OpenAI 公司动态与产品
 
 ### [Who's Afraid of Chinese Models（Stratechery / Simon Willison 转载）](https://simonwillison.net/2026/Jul/20/whos-afraid-of-chinese-models/)
 - 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 未来 5 年 AI 基础设施支出膨胀到 7500 亿美元（≈瑞典 GDP）](https://techcrunch.com/2026/07/22/openais-ai-spending-spree-has-ballooned-to-750b/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 与作者版权纠纷以 15 亿美元和解 —— 美国历史上最大版权赔偿](https://80.lv/articles/anthropic-s-ai-copyright-dispute-with-authors-ends-in-usd1-5-billion-settlement/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 承认：Hugging Face 上的"入侵事件"其实是 OpenAI 自己的红队测试](https://techcrunch.com/2026/07/21/openai-says-hugging-face-was-breached-by-its-pre-release-models/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Nativ —— 在 Mac 本地跑视觉大模型的桌面 App](https://simonwillison.net/2026/Jul/21/nativ/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热帖 #1（1495↑ 1053💬）：OpenAI × Hugging Face 事件官方说明](https://openai.com/index/hugging-face-model-evaluation-security-incident/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热帖：Kimi K3 与 Fable 并驾齐驱，SOTA 之争进入下一轮](https://fireworks.ai/blog/kimik3-fable)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🎥 Fireship：OpenAI GPT-5.6 Sol 快速上手](https://www.youtube.com/@Fireship)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials

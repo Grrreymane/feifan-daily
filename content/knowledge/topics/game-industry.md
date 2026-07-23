@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-07-22"
+updated: "2026-07-23"
 ---
 
 # 游戏行业
@@ -428,3 +428,6 @@ updated: "2026-07-22"
 
 ### [Unity 7 官宣 2027 Q1 发布，Beta 2026-12](https://www.rockpapershotgun.com/unity-7-arrives-in-early-2027-with-beta-in-december)
 - 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Bethesda Montreal 裁员员工被告知"拿法定最低遣散" —— 就在 Fallout 5 官宣当天](https://www.rockpapershotgun.com/laid-off-bethesda-montreal-staff-allegedly-told-theyd-get-smallest-severance-legally-possible-the-same-day-as-those-fallout-announcements)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials

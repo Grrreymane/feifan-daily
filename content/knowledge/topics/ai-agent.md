@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-22"
+updated: "2026-07-23"
 ---
 
 # AI Agent
@@ -979,3 +979,24 @@ AI Agent 架构、实践与踩坑
 
 ### [Andrej Karpathy · From Vibe Coding to Agentic Engineering (Sequoia AI Ascent 2026)](https://www.youtube.com/watch?v=96jN2OCOfLs)
 - 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Nativ —— 在 Mac 本地跑视觉大模型的桌面 App](https://simonwillison.net/2026/Jul/21/nativ/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热帖 #1（1495↑ 1053💬）：OpenAI × Hugging Face 事件官方说明](https://openai.com/index/hugging-face-model-evaluation-security-incident/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热帖：Kimi K3 与 Fable 并驾齐驱，SOTA 之争进入下一轮](https://fireworks.ai/blog/kimik3-fable)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Jack Dorsey 用 Buzz 挑战 Slack：让人和 AI Agent 同一个聊天室](https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta 测试 AI 睡前故事 App —— "献给毫无想象力的家长"](https://techcrunch.com/2026/07/21/meta-is-testing-an-ai-bedtime-story-app-for-people-with-no-imagination/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Glow 隐匿两年后现身：12 亿美元估值挑战 AI 时代的终端安全](https://techcrunch.com/2026/07/22/glow-emerges-from-stealth-at-1-2b-valuation-to-challenge-endpoint-security-in-the-ai-era/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 简化 iPhone→Android 迁移：无需 App 即可无线转移多种数据](https://techcrunch.com/2026/07/22/google-is-making-it-easier-to-switch-from-iphone-to-android/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-22"
+updated: "2026-07-23"
 ---
 
 # Blender
@@ -616,3 +616,12 @@ Blender 工具与社区动态
 
 ### [Miles DF](https://www.furaffinity.net/user/miles-df/)
 - 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Nodes Interactive 更新 Tear Painter：Blender 内直接从贴图取色画布片撕裂](https://80.lv/articles/new-tear-painter-update-lets-you-pick-colors-directly-from-textures/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 5 月营收年化跑到 470 亿美元：Menlo Ventures 合伙人"25 年从未见过这种增长速度"](https://techcrunch.com/video/menlo-ventures-matt-murphy-explains-why-anthropic-is-winning-and-its-not-the-model/)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [🎥《Hollow Knight: Silksong》世界设计深度解析（1 小时 6 分钟）](https://www.youtube.com/results?search_query=Hollow+Knight+Silksong+world+design)
+- 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
