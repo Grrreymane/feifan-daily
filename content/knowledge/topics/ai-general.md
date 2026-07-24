@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-23"
+updated: "2026-07-24"
 ---
 
 # AI 通用
@@ -4287,3 +4287,129 @@ updated: "2026-07-23"
 
 ### [🎨 Koul](https://www.furaffinity.net/user/koul/)
 - 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [ArcBrush 1.5 升级到 32-bit Float 色彩管理管线](https://80.lv/articles/arcbrush-1-5-upgrades-to-color-managed-32-bit-float-image-pipeline/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 头发引导笔刷（免费）](https://80.lv/articles/this-blender-tool-lets-you-draw-hair-strands-along-guides/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 每对象独立 Undo History 工具](https://80.lv/articles/this-tool-gives-every-blender-object-its-own-undo-history/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity CLI 正式发布](https://unity.com/blog/meet-the-unity-cli)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Mirza Beig 用自定义 Unity URP 渲染器做的暴雨场景](https://80.lv/articles/check-out-this-heavy-rain-scene-built-with-a-custom-unity-urp-renderer/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [纯数学建模的脉动红色生物](https://80.lv/articles/this-pulsating-red-creature-is-made-entirely-with-math/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [500 行 C++ 从零写软件渲染器](https://haqr.eu/tinyrenderer/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [LearnOpenGL 教程集](https://learnopengl.com/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [沙特 550 亿美元收购 EA 获欧盟委员会批准](https://www.rockpapershotgun.com/saudi-arabias-55-billion-ea-buyout-approved-by-the-european-commission-who-say-it-doesnt-raise-competition-concerns)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox 宣布 PC 与掌机向下兼容](https://www.gamesindustry.biz/xbox-announces-backwards-compatibility-for-pc-and-handheld-devices)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Rockstar Games 工会与管理层首次会面](https://www.rockpapershotgun.com/rockstar-games-workers-union-say-their-first-meeting-with-the-gta-6-studios-management-was-a-step-in-the-right-direction)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Dinoblade 正式发售](https://www.rockpapershotgun.com/dinoblade-out-now-is-equal-parts-janky-genuinely-sick-and-silly-as-hell)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Cataclismo 出六边形桌游 DLC](https://www.rockpapershotgun.com/terrific-castle-building-sim-cataclismo-is-being-transformed-into-a-chunky-strategy-boardgame-care-of-a-paid-old-kingdom-expansion)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Star Wars Zero Company](https://www.rockpapershotgun.com/you-only-get-one-permakillable-jedi-padawan-in-star-wars-zero-company-but-thats-fine-because-im-going-to-roll-an-r2-d2-deathsquad-anyway)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [看陌生人玩自己 Steam Demo 比预期更有价值](https://www.reddit.com/r/gamedev/comments/1v4c6ve/watching_strangers_play_my_steam_demo_has_been/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [过度合理化效应：拿钱做爱好，反而不再热爱](https://www.reddit.com/r/gamedev/comments/1v47r6w/getting_paid_can_make_you_enjoy_hobby_less/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [UE 5.4-5.8 MCP Bridge 插件招募测试](https://www.reddit.com/r/unrealengine/comments/1v4liwv/looking_for_ue_devs_to_use_my_mcp_bridge_ai/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Fab 提交跨引擎版本工具链](https://www.reddit.com/r/unrealengine/comments/1v4jyv2/fab_submission_killed_my_friday_night_so_i_built/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5 二次元风格世界 Demo](https://www.reddit.com/r/unrealengine/comments/1v4ldsq/i_built_an_animeinspired_world_in_unreal_engine_5/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 意外网络攻击 Hugging Face 事件（Simon Willison 深度）](https://simonwillison.net/2026/Jul/22/openai-cyberattack/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 公司在藏起惊人规模的表外债务](https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [创业者上书特朗普：别切断中国开源权重 AI](https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [白宫指控 Moonshot 蒸馏 Anthropic Fable，财政部威胁制裁](https://techcrunch.com/2026/07/22/treasury-threatens-sanctions-after-white-house-claims-moonshot-distilled-anthropics-fable/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [专家反驳：Kimi K3 这么强不是靠"偷"Fable](https://techcrunch.com/2026/07/23/experts-say-exploiting-anthropics-fable-isnt-how-kimi-k3-got-so-good/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 芯片新贵 Etched 融资至 103 亿美元估值](https://techcrunch.com/2026/07/23/ai-chip-startup-etched-defies-skeptics-hits-10-3b-valuation-from-big-name-investors/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Gemini 逼近 10 亿月活](https://techcrunch.com/2026/07/23/google-closes-in-on-another-billion-user-product-with-gemini/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 用飞涨的云业务为其 AI 巨额投入辩护](https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Runway 发布 Media Router：做生成媒体的路由层](https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 向所有美国用户开放 ChatGPT Health](https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 编程教育平台 Imagi 融 450 万美元](https://techcrunch.com/2026/07/23/edtech-platform-raises-4-5m-to-help-teach-students-how-to-vibe-code/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Tesla Robotaxi 里程 Q2 下滑 36%](https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Tesla 支出激增，Cybercab / Semi / Megapack 交付时间线滑动](https://techcrunch.com/2026/07/22/tesla-spending-skyrockets-as-cybercab-semi-megapack-production-timeline-slips/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Nvidia 把 GPU 送上月球](https://techcrunch.com/2026/07/23/nvidia-is-sending-gpus-to-the-moon/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [福特赌 Apple：下一代 EV 车机深度集成 Apple Maps](https://techcrunch.com/2026/07/23/ford-bets-on-apple-for-its-next-generation-of-evs/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [IBM：AI 没在杀死大型机](https://techcrunch.com/2026/07/22/after-shocking-quarter-ibm-insists-that-ai-isnt-killing-the-mainframe/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [美国政府警告伊朗黑客正干扰美国水/能源供应商](https://techcrunch.com/2026/07/23/us-government-says-iran-linked-hackers-are-disrupting-american-water-and-energy-providers/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 允许用自拍视频登录账号](https://techcrunch.com/2026/07/23/google-will-now-let-you-sign-in-to-your-account-with-a-selfie-video/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Meta 发布 AI 乐观主义广告，BGM 却是唱人类灭绝的歌](https://techcrunch.com/2026/07/23/meta-launched-a-new-ai-optimism-ad-set-to-a-song-about-human-extinction/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [MeBeMe：反 doomscrolling 的"打断者"App](https://techcrunch.com/2026/07/23/mebemes-new-interrupter-app-helps-you-become-your-best-self-instead-of-doomscrolling/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Are AI labs pelicanmaxxing?（Dylan Castillo）](https://simonwillison.net/2026/Jul/22/are-ai-labs-pelicanmaxxing/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [手写对大脑有益（Neal Stephenson Substack）](https://nealstephenson.substack.com/p/writing-by-hand-is-good-for-your)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：PyPI 拒绝对超 14 天旧版本的新文件上传](https://simonwillison.net/2026/Jul/23/seth-larson/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
