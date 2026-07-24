@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-07-23"
+updated: "2026-07-24"
 ---
 
 # 游戏行业裁员
@@ -401,3 +401,12 @@ updated: "2026-07-23"
 
 ### [Jack Dorsey 用 Buzz 挑战 Slack：让人和 AI Agent 同一个聊天室](https://techcrunch.com/2026/07/21/jack-dorsey-is-taking-on-slack-with-buzz-a-group-chat-platform-for-teams-and-their-ai-agents/)
 - 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Rockstar Games 工会与管理层首次会面](https://www.rockpapershotgun.com/rockstar-games-workers-union-say-their-first-meeting-with-the-gta-6-studios-management-was-a-step-in-the-right-direction)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Bethesda 蒙特利尔工会指控其违反加拿大劳工法](https://www.gamesindustry.biz/union-accuses-bethesda-of-violating-labour-laws-in-canada-following-layoffs-at-montreal-studio)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon Luna 云游戏并入 Prime Video](https://www.gamesindustry.biz/now-luna-is-integrated-into-prime-video-amazon-sees-potential-for-gaming-to-expand-beyond-pc-and-console-that-pie-isnt-really-growing)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials

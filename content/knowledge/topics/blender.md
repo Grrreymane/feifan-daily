@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-23"
+updated: "2026-07-24"
 ---
 
 # Blender
@@ -625,3 +625,21 @@ Blender 工具与社区动态
 
 ### [🎥《Hollow Knight: Silksong》世界设计深度解析（1 小时 6 分钟）](https://www.youtube.com/results?search_query=Hollow+Knight+Silksong+world+design)
 - 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [3ds Max 2027.2 原生支持 Gaussian Splat](https://80.lv/articles/3ds-max-2027-2-released-with-native-gaussian-splat-support/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [ArcBrush 1.5 升级到 32-bit Float 色彩管理管线](https://80.lv/articles/arcbrush-1-5-upgrades-to-color-managed-32-bit-float-image-pipeline/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 头发引导笔刷（免费）](https://80.lv/articles/this-blender-tool-lets-you-draw-hair-strands-along-guides/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 每对象独立 Undo History 工具](https://80.lv/articles/this-tool-gives-every-blender-object-its-own-undo-history/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity CLI 正式发布](https://unity.com/blog/meet-the-unity-cli)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Mirza Beig 用自定义 Unity URP 渲染器做的暴雨场景](https://80.lv/articles/check-out-this-heavy-rain-scene-built-with-a-custom-unity-urp-renderer/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials

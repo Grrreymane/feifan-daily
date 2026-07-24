@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-07-23"
+updated: "2026-07-24"
 ---
 
 # Unreal Engine
@@ -772,3 +772,24 @@ UE 引擎更新与技巧
 
 ### [r/unrealengine：一份问卷回收 —— 桦树 Biome 免费 UE5 样品包](https://www.reddit.com/r/unrealengine/comments/1v3ltwu/free_ue5_birch_biome_sample_environment_survey/)
 - 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [看陌生人玩自己 Steam Demo 比预期更有价值](https://www.reddit.com/r/gamedev/comments/1v4c6ve/watching_strangers_play_my_steam_demo_has_been/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [过度合理化效应：拿钱做爱好，反而不再热爱](https://www.reddit.com/r/gamedev/comments/1v47r6w/getting_paid_can_make_you_enjoy_hobby_less/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [UE 5.4-5.8 MCP Bridge 插件招募测试](https://www.reddit.com/r/unrealengine/comments/1v4liwv/looking_for_ue_devs_to_use_my_mcp_bridge_ai/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Fab 提交跨引擎版本工具链](https://www.reddit.com/r/unrealengine/comments/1v4jyv2/fab_submission_killed_my_friday_night_so_i_built/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5 二次元风格世界 Demo](https://www.reddit.com/r/unrealengine/comments/1v4ldsq/i_built_an_animeinspired_world_in_unreal_engine_5/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 意外网络攻击 Hugging Face 事件（Simon Willison 深度）](https://simonwillison.net/2026/Jul/22/openai-cyberattack/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 公司在藏起惊人规模的表外债务](https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials

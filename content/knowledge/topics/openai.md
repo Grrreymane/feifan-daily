@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-23"
+updated: "2026-07-24"
 ---
 
 # OpenAI
@@ -733,3 +733,33 @@ OpenAI 公司动态与产品
 
 ### [🎥 Fireship：OpenAI GPT-5.6 Sol 快速上手](https://www.youtube.com/@Fireship)
 - 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Fab 提交跨引擎版本工具链](https://www.reddit.com/r/unrealengine/comments/1v4jyv2/fab_submission_killed_my_friday_night_so_i_built/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5 二次元风格世界 Demo](https://www.reddit.com/r/unrealengine/comments/1v4ldsq/i_built_an_animeinspired_world_in_unreal_engine_5/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 意外网络攻击 Hugging Face 事件（Simon Willison 深度）](https://simonwillison.net/2026/Jul/22/openai-cyberattack/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 公司在藏起惊人规模的表外债务](https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [创业者上书特朗普：别切断中国开源权重 AI](https://www.politico.com/news/2026/07/22/startup-founders-urge-trump-not-to-shut-off-chinese-open-weight-ai-01008992)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 用飞涨的云业务为其 AI 巨额投入辩护](https://techcrunch.com/2026/07/22/google-justifies-its-massive-ai-spending-with-a-booming-cloud-business/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Runway 发布 Media Router：做生成媒体的路由层](https://techcrunch.com/2026/07/23/runway-bets-on-ai-model-routing-as-generative-media-gets-crowded/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 向所有美国用户开放 ChatGPT Health](https://techcrunch.com/2026/07/23/openai-makes-chatgpt-health-available-to-all-u-s-users/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 编程教育平台 Imagi 融 450 万美元](https://techcrunch.com/2026/07/23/edtech-platform-raises-4-5m-to-help-teach-students-how-to-vibe-code/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Tesla Robotaxi 里程 Q2 下滑 36%](https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/)
+- 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials

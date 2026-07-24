@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-07-23"
+updated: "2026-07-24"
 ---
 
 # Simon Willison
@@ -121,3 +121,7 @@ updated: "2026-07-23"
 - 📅 2026-07-23 — [Simon Willison：Nativ —— 在 Mac 本地跑视觉大模型的桌面 App](https://simonwillison.net/2026/Jul/21/nativ/)
 
 - 📅 2026-07-23 — [Simon Willison：sqlite-utils 4.0 正式发布](https://simonwillison.net/2026/Jul/18/sqlite-utils-4/)
+
+- 📅 2026-07-24 — [OpenAI 意外网络攻击 Hugging Face 事件（Simon Willison 深度）](https://simonwillison.net/2026/Jul/22/openai-cyberattack/)
+
+- 📅 2026-07-24 — [Simon Willison：PyPI 拒绝对超 14 天旧版本的新文件上传](https://simonwillison.net/2026/Jul/23/seth-larson/)
