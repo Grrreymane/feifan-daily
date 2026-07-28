@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-07-23"
+updated: "2026-07-28"
 ---
 
 # 大语言模型
@@ -538,3 +538,9 @@ LLM 技术进展、应用与讨论
 
 ### [Simon Willison：Nativ —— 在 Mac 本地跑视觉大模型的桌面 App](https://simonwillison.net/2026/Jul/21/nativ/)
 - 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [An Inside Look at the Relay Market Powering Token Resellers and Fraud](https://simonwillison.net/2026/Jul/26/relay-market/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy · Sequoia Ascent 2026 · "From Vibe Coding to Agentic Engineering"](https://www.youtube.com/results?search_query=Andrej+Karpathy+Sequoia+Ascent+2026)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials

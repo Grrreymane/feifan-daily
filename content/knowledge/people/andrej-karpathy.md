@@ -2,7 +2,7 @@
 title: "Andrej Karpathy"
 slug: "andrej-karpathy"
 created: "2026-05-23"
-updated: "2026-07-22"
+updated: "2026-07-28"
 ---
 
 # Andrej Karpathy
@@ -23,3 +23,7 @@ updated: "2026-07-22"
 - 📅 2026-07-17 — [No Priors：Andrej Karpathy 从 12 月起没写过一行代码](https://www.no-priors.com/karpathy-agentic-engineering)
 
 - 📅 2026-07-22 — [Andrej Karpathy · From Vibe Coding to Agentic Engineering (Sequoia AI Ascent 2026)](https://www.youtube.com/watch?v=96jN2OCOfLs)
+
+- 📅 2026-07-28 — [Andrej Karpathy · Sequoia Ascent 2026 · "From Vibe Coding to Agentic Engineering"](https://www.youtube.com/results?search_query=Andrej+Karpathy+Sequoia+Ascent+2026)
+
+- 📅 2026-07-28 — [Andrej Karpathy · No Priors 访谈 (3/21)](https://www.youtube.com/results?search_query=Andrej+Karpathy+No+Priors)

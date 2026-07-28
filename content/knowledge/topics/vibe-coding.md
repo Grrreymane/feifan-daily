@@ -3,7 +3,7 @@ title: "Vibe Coding"
 slug: "vibe-coding"
 description: "AI 辅助编程的现象、利弊与讨论"
 created: "2026-04-07"
-updated: "2026-07-22"
+updated: "2026-07-28"
 ---
 
 # Vibe Coding
@@ -56,3 +56,15 @@ AI 辅助编程的现象、利弊与讨论
 
 ### [Andrej Karpathy · From Vibe Coding to Agentic Engineering (Sequoia AI Ascent 2026)](https://www.youtube.com/watch?v=96jN2OCOfLs)
 - 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [An Inside Look at the Relay Market Powering Token Resellers and Fraud](https://simonwillison.net/2026/Jul/26/relay-market/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy · Sequoia Ascent 2026 · "From Vibe Coding to Agentic Engineering"](https://www.youtube.com/results?search_query=Andrej+Karpathy+Sequoia+Ascent+2026)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Antares 融资 4.7 亿美元 · 为美军基地建小型核反应堆](https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy · No Priors 访谈 (3/21)](https://www.youtube.com/results?search_query=Andrej+Karpathy+No+Priors)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
