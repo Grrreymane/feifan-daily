@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-24"
+updated: "2026-07-28"
 ---
 
 # AI 通用
@@ -4413,3 +4413,114 @@ updated: "2026-07-24"
 
 ### [Simon Willison：PyPI 拒绝对超 14 天旧版本的新文件上传](https://simonwillison.net/2026/Jul/23/seth-larson/)
 - 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Fake Tube Interior Using Classic Parallax Windows Trick](https://80.lv/articles/fake-tube-interior-using-classic-parallax-windows-trick/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Procedural Monster Generator Tool Made for Pixel-Style Game](https://80.lv/articles/check-out-this-procedural-monster-generator-tool-made-for-pixel-style-game/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Kratos Will Return In Next Mainline God Of War Game](https://80.lv/articles/kratos-will-return-in-next-mainline-god-of-war-game-continuing-laufey-s-story/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Silent Hill f's Writers Reportedly Read 100 to 200 Books Annually](https://80.lv/articles/silent-hill-f-s-writers-reportedly-read-100-to-200-books-annually/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Medieval-Inspired Platformer with Real-Life Embroidery Launched on Steam](https://80.lv/articles/this-medieval-inspired-platformer-with-real-life-embroidery-has-launched-on-steam/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [John Romero 担任 Gamescom Asia x Thailand Game Show 主题演讲](https://www.gamesindustry.biz/john-romero-announced-as-keynote-speaker-for-gamescom-asia-x-thailand-game-show)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [EU 反 Deepfake 立法对游戏行业影响](https://www.gamesindustry.biz/why-new-eu-deepfake-legislation-means-games-need-to-be-careful-when-featuring-real-world-people-and-locations)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [CodeDev launches optimisation division "The Performance Guys"](https://www.gamesindustry.biz/codedev-launches-optimisation-division-the-performance-guys)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Red Echoes: Berlin](https://www.rockpapershotgun.com/overthrow-the-kaiser-in-red-echoes-berlin-a-weimar-era-turn-based-strategy-game-in-the-style-of-suzerain)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [STALKER 2: Cost of Hope 资料片 + 2.0 免费大更](https://www.rockpapershotgun.com/stalker-2s-cost-of-hope-expansion-and-its-free-but-still-hopeful-20-update-get-an-august-release-date)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine · PSA: Your Dynamic Nav Mesh is killing your frame rate](https://www.reddit.com/r/unrealengine/comments/1v7rwsa/psa_your_dynamic_nav_mesh_is_killing_your_frame/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine · Last Week in Unreal: 960 on ue6-main](https://www.reddit.com/r/unrealengine/comments/1v7w0oj/last_week_in_unreal_960_on_ue6main_217_on_ue5main/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev · 15k wishlists in 72 hours 独立游戏发布 postmortem](https://www.reddit.com/r/gamedev/comments/1v7dsys/15k_wishlists_in_72_hours_postmortem_for_our/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 的 Hugging Face 数据泄露事件重启 AI 对齐/控制大辩论](https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Hugging Face CEO 呼吁 radical transparency](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Google AI 搜索已占 43%](https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Ilya Sutskever 的 SSI 与 Nvidia 达成长期战略合作](https://techcrunch.com/2026/07/27/ilya-sutskevers-safe-superintelligence-partners-with-nvidia-to-scale-its-ai-research/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Moonshot Kimi K3 发布 · 挑战顶尖 AI 系统](https://huggingface.co/moonshotai/Kimi-K3)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Kimi-K3 Tech Report (PDF)](https://github.com/MoonshotAI/Kimi-K3/blob/main/k3_tech_report.pdf)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Why China is giving away its best AI models](https://www.theverge.com/ai-artificial-intelligence/971444/how-chinese-open-weight-ai-models-impact-us-companies)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Nvidia $750B 交易再次点燃 AI 循环融资担忧](https://www.bloomberg.com/news/articles/2026-07-27/nvidia-s-750-billion-deals-revive-fear-of-ai-circular-financing)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [An Inside Look at the Relay Market Powering Token Resellers and Fraud](https://simonwillison.net/2026/Jul/26/relay-market/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy · Sequoia Ascent 2026 · "From Vibe Coding to Agentic Engineering"](https://www.youtube.com/results?search_query=Andrej+Karpathy+Sequoia+Ascent+2026)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Antares 融资 4.7 亿美元 · 为美军基地建小型核反应堆](https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon FCC 申请 · 2028 年推全球卫星手机网络](https://www.theverge.com/tech/971437/amazon-leo-direct-to-device-satellite-network)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Making sense of the panic over Chinese AI](https://techcrunch.com/2026/07/26/making-sense-of-the-panic-over-chinese-ai/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Are brain waves the next unlock for physical AI?](https://techcrunch.com/2026/07/26/are-brain-waves-the-next-unlock-for-physical-ai/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Can Apple make smart glasses that aren't a constant privacy threat?](https://techcrunch.com/2026/07/26/can-apple-make-smart-glasses-that-arent-a-constant-privacy-threat/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [AI companies are shredding rare books](https://twitter.com/HedgieMarkets/status/2081534588485296565)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple 会"看着 AI 泡沫破裂"](https://www.macrumors.com/2026/07/27/ed-zitron-apple-watch-it-burn-ai-bubble-bursts/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 公司创纪录游说华盛顿](https://www.ft.com/content/d8a5f95e-3b6d-463a-a848-c9ef8e2394db)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft MAI-Cyber 1 网络安全模型](https://microsoft.ai/news/introducing-mai-cyber-1-flash-inside-mdash/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Claude Opus 5 错误率升高事故](https://status.claude.com/incidents/mfdtrknpxghq)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy · No Priors 访谈 (3/21)](https://www.youtube.com/results?search_query=Andrej+Karpathy+No+Priors)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals Podcast · "Studios are Choosing AI Over Artists" (#6)](https://creators.spotify.com/pod/profile/flippednormals)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [幻嵐 Genran（@huanlan_wolf）](https://x.com/huanlan_wolf)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Kacey Golden](https://kaceygolden.com/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials

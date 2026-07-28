@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-07-24"
+updated: "2026-07-28"
 ---
 
 # Unreal Engine
@@ -793,3 +793,15 @@ UE 引擎更新与技巧
 
 ### [AI 公司在藏起惊人规模的表外债务](https://futurism.com/artificial-intelligence/ai-companies-hide-debt-off-balance-sheet)
 - 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [HN #49066928 · VLC for Unity now supported on Linux](https://code.videolan.org/videolan/vlc-unity)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine · PSA: Your Dynamic Nav Mesh is killing your frame rate](https://www.reddit.com/r/unrealengine/comments/1v7rwsa/psa_your_dynamic_nav_mesh_is_killing_your_frame/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/unrealengine · Last Week in Unreal: 960 on ue6-main](https://www.reddit.com/r/unrealengine/comments/1v7w0oj/last_week_in_unreal_960_on_ue6main_217_on_ue5main/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev · 15k wishlists in 72 hours 独立游戏发布 postmortem](https://www.reddit.com/r/gamedev/comments/1v7dsys/15k_wishlists_in_72_hours_postmortem_for_our/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials

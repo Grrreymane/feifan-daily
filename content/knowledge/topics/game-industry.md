@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-07-23"
+updated: "2026-07-28"
 ---
 
 # 游戏行业
@@ -431,3 +431,15 @@ updated: "2026-07-23"
 
 ### [Bethesda Montreal 裁员员工被告知"拿法定最低遣散" —— 就在 Fallout 5 官宣当天](https://www.rockpapershotgun.com/laid-off-bethesda-montreal-staff-allegedly-told-theyd-get-smallest-severance-legally-possible-the-same-day-as-those-fallout-announcements)
 - 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Fake Tube Interior Using Classic Parallax Windows Trick](https://80.lv/articles/fake-tube-interior-using-classic-parallax-windows-trick/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [John Romero 担任 Gamescom Asia x Thailand Game Show 主题演讲](https://www.gamesindustry.biz/john-romero-announced-as-keynote-speaker-for-gamescom-asia-x-thailand-game-show)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [EU 反 Deepfake 立法对游戏行业影响](https://www.gamesindustry.biz/why-new-eu-deepfake-legislation-means-games-need-to-be-careful-when-featuring-real-world-people-and-locations)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Guru · Donut Tutorial 2026 系列（8 集完整教程）](https://www.youtube.com/@blenderguru)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials

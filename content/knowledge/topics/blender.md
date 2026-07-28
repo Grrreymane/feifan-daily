@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-24"
+updated: "2026-07-28"
 ---
 
 # Blender
@@ -643,3 +643,21 @@ Blender 工具与社区动态
 
 ### [Mirza Beig 用自定义 Unity URP 渲染器做的暴雨场景](https://80.lv/articles/check-out-this-heavy-rain-scene-built-with-a-custom-unity-urp-renderer/)
 - 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Fake Tube Interior Using Classic Parallax Windows Trick](https://80.lv/articles/fake-tube-interior-using-classic-parallax-windows-trick/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Full-Body, Hand & Facial Motion Capture From Any Video In Blender](https://80.lv/articles/full-body-hand-facial-motion-capture-from-any-video-in-blender/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Breakdown: Game-Ready Bloodborne's Old Hunter Fan Art](https://80.lv/articles/breakdown-game-ready-bloodborne-s-old-hunter-fan-art/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired · The Walt Disney Company · 4:31:28 长版 (2026-06-21)](https://www.acquired.fm/episodes/the-walt-disney-company)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK · "The World Design of Hollow Knight: Silksong"（3 周前）](https://www.youtube.com/@GMTK)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals Podcast · "Studios are Choosing AI Over Artists" (#6)](https://creators.spotify.com/pod/profile/flippednormals)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials

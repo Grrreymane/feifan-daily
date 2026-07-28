@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-23"
+updated: "2026-07-28"
 ---
 
 # 游戏美术
@@ -565,3 +565,15 @@ updated: "2026-07-23"
 
 ### [🎥 Game Maker's Toolkit：《侠盗猎车手》如何把整座城市塞进 PS2 内存](https://www.youtube.com/watch?v=z5AoBAoxpNU)
 - 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Fake Tube Interior Using Classic Parallax Windows Trick](https://80.lv/articles/fake-tube-interior-using-classic-parallax-windows-trick/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Medieval-Inspired Platformer with Real-Life Embroidery Launched on Steam](https://80.lv/articles/this-medieval-inspired-platformer-with-real-life-embroidery-has-launched-on-steam/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [John Romero 担任 Gamescom Asia x Thailand Game Show 主题演讲](https://www.gamesindustry.biz/john-romero-announced-as-keynote-speaker-for-gamescom-asia-x-thailand-game-show)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Kacey Golden](https://kaceygolden.com/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials

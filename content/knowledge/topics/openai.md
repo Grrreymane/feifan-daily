@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-24"
+updated: "2026-07-28"
 ---
 
 # OpenAI
@@ -763,3 +763,18 @@ OpenAI 公司动态与产品
 
 ### [Tesla Robotaxi 里程 Q2 下滑 36%](https://techcrunch.com/2026/07/23/teslas-robotaxis-are-moving-in-reverse/)
 - 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit r/gamedev · 15k wishlists in 72 hours 独立游戏发布 postmortem](https://www.reddit.com/r/gamedev/comments/1v7dsys/15k_wishlists_in_72_hours_postmortem_for_our/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 的 Hugging Face 数据泄露事件重启 AI 对齐/控制大辩论](https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Hugging Face CEO 呼吁 radical transparency](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Google AI 搜索已占 43%](https://techcrunch.com/2026/07/27/googles-ai-search-is-rapidly-becoming-the-default-new-data-shows/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #246 (5/25/2026) · Gemini 3.5 + Omni、Musk 败诉、OpenAI vs Erdős](https://lastweekin.ai/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials

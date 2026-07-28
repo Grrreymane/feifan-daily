@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-23"
+updated: "2026-07-28"
 ---
 
 # AI Agent
@@ -1000,3 +1000,21 @@ AI Agent 架构、实践与踩坑
 
 ### [Google 简化 iPhone→Android 迁移：无需 App 即可无线转移多种数据](https://techcrunch.com/2026/07/22/google-is-making-it-easier-to-switch-from-iphone-to-android/)
 - 📅 2026-07-23 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 的 Hugging Face 数据泄露事件重启 AI 对齐/控制大辩论](https://techcrunch.com/2026/07/27/openais-hugging-face-breach-has-reignited-the-debate-over-alignment-and-control/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Hugging Face CEO 呼吁 radical transparency](https://techcrunch.com/2026/07/26/hugging-face-ceo-calls-for-radical-transparency-after-unprecedented-openai-hack/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [An Inside Look at the Relay Market Powering Token Resellers and Fraud](https://simonwillison.net/2026/Jul/26/relay-market/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy · Sequoia Ascent 2026 · "From Vibe Coding to Agentic Engineering"](https://www.youtube.com/results?search_query=Andrej+Karpathy+Sequoia+Ascent+2026)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Antares 融资 4.7 亿美元 · 为美军基地建小型核反应堆](https://techcrunch.com/2026/07/27/antares-raises-470m-to-build-nuclear-reactors-for-the-u-s-military/)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy · No Priors 访谈 (3/21)](https://www.youtube.com/results?search_query=Andrej+Karpathy+No+Priors)
+- 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
