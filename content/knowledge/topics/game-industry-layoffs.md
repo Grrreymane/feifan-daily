@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-07-24"
+updated: "2026-07-30"
 ---
 
 # 游戏行业裁员
@@ -410,3 +410,9 @@ updated: "2026-07-24"
 
 ### [Amazon Luna 云游戏并入 Prime Video](https://www.gamesindustry.biz/now-luna-is-integrated-into-prime-video-amazon-sees-potential-for-gaming-to-expand-beyond-pc-and-console-that-pie-isnt-really-growing)
 - 📅 2026-07-24 · 来源: daily-materials · 分类: daily-materials
+
+### ["People want to play arcade racers again" – Wreckreation developer from redundancy notice to sequel](https://www.gamesindustry.biz/people-want-to-play-arcade-racers-again-how-the-developer-of-wreckreation-went-from-a-company-wide-redundancy-notice-to-working-on-a-sequel)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Capcom：Resident Evil重制版为新游戏开发提供财务支持](https://www.gamesindustry.biz/capcom-producer-says-resident-evil-remakes-are-providing-financial-support-to-develop-new-games-and-ip)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-07-28"
+updated: "2026-07-30"
 ---
 
 # 大语言模型
@@ -544,3 +544,6 @@ LLM 技术进展、应用与讨论
 
 ### [Andrej Karpathy · Sequoia Ascent 2026 · "From Vibe Coding to Agentic Engineering"](https://www.youtube.com/results?search_query=Andrej+Karpathy+Sequoia+Ascent+2026)
 - 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Discovering cryptographic weaknesses with Claude](https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials

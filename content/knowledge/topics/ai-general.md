@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-28"
+updated: "2026-07-30"
 ---
 
 # AI 通用
@@ -4524,3 +4524,30 @@ updated: "2026-07-28"
 
 ### [Kacey Golden](https://kaceygolden.com/)
 - 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Game AI Expert Explains Where AI Actually Belongs in Game Development—And The Risks](https://80.lv/articles/game-ai-expert-explains-where-ai-actually-belongs-in-game-development-and-the-risks/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Toph's Introduction Location From Avatar Aang Movie Was Fully Modeled In Blender](https://80.lv/articles/toph-s-introduction-location-from-avatar-aang-movie-was-fully-modeled-in-blender/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### ["People want to play arcade racers again" – Wreckreation developer from redundancy notice to sequel](https://www.gamesindustry.biz/people-want-to-play-arcade-racers-again-how-the-developer-of-wreckreation-went-from-a-company-wide-redundancy-notice-to-working-on-a-sequel)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Capcom：Resident Evil重制版为新游戏开发提供财务支持](https://www.gamesindustry.biz/capcom-producer-says-resident-evil-remakes-are-providing-financial-support-to-develop-new-games-and-ip)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Krafton Q2营收暴涨94.9%至8.89亿美元，Subnautica和PUBG是主力](https://www.gamesindustry.biz/subnautica-and-pubg-franchises-drive-krafton-q2-revenue-up-949-to-8891m)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Sam Altman is ready to decelerate](https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident](https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [US government bans new foreign-made humanoids, robot dogs, and solar inverters](https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Handbook.md shows that long policy documents do not reliably govern agents](https://arxiv.org/abs/2607.25398)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-28"
+updated: "2026-07-30"
 ---
 
 # OpenAI
@@ -778,3 +778,12 @@ OpenAI 公司动态与产品
 
 ### [Last Week in AI #246 (5/25/2026) · Gemini 3.5 + Omni、Musk 败诉、OpenAI vs Erdős](https://lastweekin.ai/)
 - 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Sam Altman is ready to decelerate](https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident](https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [US government bans new foreign-made humanoids, robot dogs, and solar inverters](https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials

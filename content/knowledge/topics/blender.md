@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-28"
+updated: "2026-07-30"
 ---
 
 # Blender
@@ -661,3 +661,9 @@ Blender 工具与社区动态
 
 ### [FlippedNormals Podcast · "Studios are Choosing AI Over Artists" (#6)](https://creators.spotify.com/pod/profile/flippednormals)
 - 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Toph's Introduction Location From Avatar Aang Movie Was Fully Modeled In Blender](https://80.lv/articles/toph-s-introduction-location-from-avatar-aang-movie-was-fully-modeled-in-blender/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### ["People want to play arcade racers again" – Wreckreation developer from redundancy notice to sequel](https://www.gamesindustry.biz/people-want-to-play-arcade-racers-again-how-the-developer-of-wreckreation-went-from-a-company-wide-redundancy-notice-to-working-on-a-sequel)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
