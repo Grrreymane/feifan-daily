@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-07-28"
+updated: "2026-07-30"
 ---
 
 # Unreal Engine
@@ -805,3 +805,6 @@ UE 引擎更新与技巧
 
 ### [Reddit r/gamedev · 15k wishlists in 72 hours 独立游戏发布 postmortem](https://www.reddit.com/r/gamedev/comments/1v7dsys/15k_wishlists_in_72_hours_postmortem_for_our/)
 - 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Can a 4-person studio survive mobile f2p in 2026? Real numbers](https://www.reddit.com/r/gamedev/comments/1ulxmis/can_a_4person_studio_survive_mobile_f2p_in_2026/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials

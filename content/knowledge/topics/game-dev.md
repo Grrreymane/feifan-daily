@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-07-19"
+updated: "2026-07-30"
 ---
 
 # 游戏开发
@@ -331,3 +331,9 @@ updated: "2026-07-19"
 
 ### [80.lv：Godot 4.4 in Production - Studio Case Study](https://80.lv/articles/godot-44-production-case-study/)
 - 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Game AI Expert Explains Where AI Actually Belongs in Game Development—And The Risks](https://80.lv/articles/game-ai-expert-explains-where-ai-actually-belongs-in-game-development-and-the-risks/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Capcom：Resident Evil重制版为新游戏开发提供财务支持](https://www.gamesindustry.biz/capcom-producer-says-resident-evil-remakes-are-providing-financial-support-to-develop-new-games-and-ip)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials

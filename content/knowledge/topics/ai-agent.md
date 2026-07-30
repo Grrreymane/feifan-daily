@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-28"
+updated: "2026-07-30"
 ---
 
 # AI Agent
@@ -1018,3 +1018,18 @@ AI Agent 架构、实践与踩坑
 
 ### [Andrej Karpathy · No Priors 访谈 (3/21)](https://www.youtube.com/results?search_query=Andrej+Karpathy+No+Priors)
 - 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Sam Altman is ready to decelerate](https://techcrunch.com/2026/07/28/sam-altman-is-ready-to-decelerate/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident](https://simonwillison.net/2026/Jul/28/anatomy-of-a-frontier-lab-agent-intrusion/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [US government bans new foreign-made humanoids, robot dogs, and solar inverters](https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [We made $361,657 gross revenue in the first 24 hours - 4-month game](https://www.reddit.com/r/gamedev/comments/1v9z4vi/we_made_361657_gross_revenue_in_the_first_24/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Handbook.md shows that long policy documents do not reliably govern agents](https://arxiv.org/abs/2607.25398)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-07-28"
+updated: "2026-07-30"
 ---
 
 # 游戏美术
@@ -577,3 +577,6 @@ updated: "2026-07-28"
 
 ### [Kacey Golden](https://kaceygolden.com/)
 - 📅 2026-07-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Game AI Expert Explains Where AI Actually Belongs in Game Development—And The Risks](https://80.lv/articles/game-ai-expert-explains-where-ai-actually-belongs-in-game-development-and-the-risks/)
+- 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
