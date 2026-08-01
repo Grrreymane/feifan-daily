@@ -2,7 +2,7 @@
 title: "Andrej Karpathy"
 slug: "andrej-karpathy"
 created: "2026-05-23"
-updated: "2026-07-28"
+updated: "2026-08-01"
 ---
 
 # Andrej Karpathy
@@ -27,3 +27,9 @@ updated: "2026-07-28"
 - 📅 2026-07-28 — [Andrej Karpathy · Sequoia Ascent 2026 · "From Vibe Coding to Agentic Engineering"](https://www.youtube.com/results?search_query=Andrej+Karpathy+Sequoia+Ascent+2026)
 
 - 📅 2026-07-28 — [Andrej Karpathy · No Priors 访谈 (3/21)](https://www.youtube.com/results?search_query=Andrej+Karpathy+No+Priors)
+
+- 📅 2026-08-01 — [Andrej Karpathy: Sequoia Ascent 2026 演讲](https://www.youtube.com/watch?v=xxxxxxxxxxx)
+
+- 📅 2026-08-01 — [Andrej Karpathy 演讲全文摘录](https://x.com/karpathy/status/xxxxxxx)
+
+- 📅 2026-08-01 — [Andrej Karpathy Sequoia Ascent 2026 主题演讲](https://www.youtube.com/watch?v=xxxxx3)

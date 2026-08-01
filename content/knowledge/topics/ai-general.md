@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-07-30"
+updated: "2026-08-01"
 ---
 
 # AI 通用
@@ -4551,3 +4551,60 @@ updated: "2026-07-30"
 
 ### [Handbook.md shows that long policy documents do not reliably govern agents](https://arxiv.org/abs/2607.25398)
 - 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Dead Rising 20 周年重读](https://www.rockpapershotgun.com/dead-rising-20th-anniversary)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [前 AC 开发者的独立恐怖游戏发布](https://www.rockpapershotgun.com/former-ac-devs-horror-indie)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 报告：三起真实网络安全事件涉及 AI 滥用](https://www.anthropic.com/news/threat-intelligence-report-2026-07)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [ITV News：Anthropic 模型入侵 3 家公司 + OpenAI 模型攻击 Hugging Face](https://www.itv.com/news/2026-07-31/ai-models-breach-companies)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [黄仁勋组建"开放安全 AI 联盟"37 家公司](https://www.reuters.com/technology/nvidia-forms-open-safety-ai-coalition-2026-07-28)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison: Claude Opus 5 分析](https://simonwillison.net/2026/Jul/24/claude-opus-5/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [个人博客系统的自建方案对比](https://news.ycombinator.com/item?id=xxxxxxx5)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [NVIDIA GB300 交付时间线](https://techcrunch.com/2026/07/nvidia-gb300-timeline)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 推出 AI Firewall 商用版](https://techcrunch.com/2026/07/cloudflare-ai-firewall)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space: Codex from 0 to 10M Users - Akshay Nathan, OpenAI](https://www.latent.space/p/codex-openai-akshay-nathan)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space: Inside the Model Factory - Eiso Kant, Poolside](https://www.latent.space/p/eiso-kant-poolside)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space: Lab of the Future - Lila Sciences](https://www.latent.space/p/lila-sciences-lab-of-future)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy 演讲全文摘录](https://x.com/karpathy/status/xxxxxxx)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun 长评：黑神话销量对国产 3A 的启示](https://www.rockpapershotgun.com/black-myth-lessons-for-china-3a)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Maker's Toolkit: The World Design of Hollow Knight Silksong](https://www.youtube.com/watch?v=xxxxx1)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals: Realtime Hair FlipBox by Hazel Brown](https://www.flippednormals.com/tutorials/realtime-hair-flipbox-hazel-brown)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv YouTube: Nanite Landscape 深度剖析](https://www.youtube.com/watch?v=xxxxx2)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy Sequoia Ascent 2026 主题演讲](https://www.youtube.com/watch?v=xxxxx3)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired: EA 私有化交易深度解读](https://www.acquired.fm/episodes/ea-privatization-2026)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials

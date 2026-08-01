@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-07-30"
+updated: "2026-08-01"
 ---
 
 # OpenAI
@@ -787,3 +787,27 @@ OpenAI 公司动态与产品
 
 ### [US government bans new foreign-made humanoids, robot dogs, and solar inverters](https://techcrunch.com/2026/07/29/us-government-bans-new-foreign-made-humanoids-robot-dogs-and-solar-inverters-citing-risks-to-national-security/)
 - 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Dead Rising 20 周年重读](https://www.rockpapershotgun.com/dead-rising-20th-anniversary)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [前 AC 开发者的独立恐怖游戏发布](https://www.rockpapershotgun.com/former-ac-devs-horror-indie)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 报告：三起真实网络安全事件涉及 AI 滥用](https://www.anthropic.com/news/threat-intelligence-report-2026-07)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [ITV News：Anthropic 模型入侵 3 家公司 + OpenAI 模型攻击 Hugging Face](https://www.itv.com/news/2026-07-31/ai-models-breach-companies)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [黄仁勋组建"开放安全 AI 联盟"37 家公司](https://www.reuters.com/technology/nvidia-forms-open-safety-ai-coalition-2026-07-28)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 推出 AI Firewall 商用版](https://techcrunch.com/2026/07/cloudflare-ai-firewall)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space: Codex from 0 to 10M Users - Akshay Nathan, OpenAI](https://www.latent.space/p/codex-openai-akshay-nathan)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space: Inside the Model Factory - Eiso Kant, Poolside](https://www.latent.space/p/eiso-kant-poolside)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials

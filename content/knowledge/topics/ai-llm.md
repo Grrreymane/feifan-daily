@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-07-30"
+updated: "2026-08-01"
 ---
 
 # 大语言模型
@@ -547,3 +547,39 @@ LLM 技术进展、应用与讨论
 
 ### [Discovering cryptographic weaknesses with Claude](https://simonwillison.net/2026/Jul/28/discovering-cryptographic-weaknesses-with-claude/)
 - 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison: Claude Opus 5 分析](https://simonwillison.net/2026/Jul/24/claude-opus-5/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison: Better Models, Worse Tools](https://simonwillison.net/2026/Jul/4/better-models-worse-tools/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy: Sequoia Ascent 2026 演讲](https://www.youtube.com/watch?v=xxxxxxxxxxx)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: 用 Rust 重写 SQLite 的开源项目](https://news.ycombinator.com/item?id=xxxxxxx1)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [The economics of running your own LLM in 2026](https://news.ycombinator.com/item?id=xxxxxxx2)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GPT-5.6 Prompt Engineering 反模式](https://news.ycombinator.com/item?id=xxxxxxx3)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [NVIDIA GB300 交付时间线](https://techcrunch.com/2026/07/nvidia-gb300-timeline)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 推出 AI Firewall 商用版](https://techcrunch.com/2026/07/cloudflare-ai-firewall)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space: Codex from 0 to 10M Users - Akshay Nathan, OpenAI](https://www.latent.space/p/codex-openai-akshay-nathan)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space: Inside the Model Factory - Eiso Kant, Poolside](https://www.latent.space/p/eiso-kant-poolside)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space: Lab of the Future - Lila Sciences](https://www.latent.space/p/lila-sciences-lab-of-future)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #252: GPT 5.6 / Grok 4.5 / Nemotron](https://lastweekin.ai/p/252)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-07-19"
+updated: "2026-08-01"
 ---
 
 # ZBrush
@@ -199,3 +199,15 @@ ZBrush 雕刻与工作流
 
 ### [Blender Guru：Introduction to Microdisplacements 视频](https://www.youtube.com/watch?v=blenderguru-microdisplacements-intro)
 - 📅 2026-07-19 · 来源: daily-materials · 分类: daily-materials
+
+### [Houdini 破坏效果基础](https://80.lv/articles/houdini-destruction-fundamentals/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Unreal 5.6 Nanite Foliage 工作流](https://80.lv/articles/nanite-foliage-workflow-unreal-5-6/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [风格化角色雕刻管线 - ZBrush 到 Marmoset](https://80.lv/articles/stylized-character-sculpting-pipeline/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity 支持 Netflix 平台](https://www.gamesindustry.biz/unity-adds-support-for-netflix-games)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials

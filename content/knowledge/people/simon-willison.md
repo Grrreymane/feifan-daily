@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-07-24"
+updated: "2026-08-01"
 ---
 
 # Simon Willison
@@ -125,3 +125,5 @@ updated: "2026-07-24"
 - 📅 2026-07-24 — [OpenAI 意外网络攻击 Hugging Face 事件（Simon Willison 深度）](https://simonwillison.net/2026/Jul/22/openai-cyberattack/)
 
 - 📅 2026-07-24 — [Simon Willison：PyPI 拒绝对超 14 天旧版本的新文件上传](https://simonwillison.net/2026/Jul/23/seth-larson/)
+
+- 📅 2026-08-01 — [Simon Willison: Claude Opus 5 分析](https://simonwillison.net/2026/Jul/24/claude-opus-5/)
