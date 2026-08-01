@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-07-30"
+updated: "2026-08-01"
 ---
 
 # 游戏开发
@@ -337,3 +337,15 @@ updated: "2026-07-30"
 
 ### [Capcom：Resident Evil重制版为新游戏开发提供财务支持](https://www.gamesindustry.biz/capcom-producer-says-resident-evil-remakes-are-providing-financial-support-to-develop-new-games-and-ip)
 - 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Unreal 5.6 Nanite Foliage 工作流](https://80.lv/articles/nanite-foliage-workflow-unreal-5-6/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [风格化角色雕刻管线 - ZBrush 到 Marmoset](https://80.lv/articles/stylized-character-sculpting-pipeline/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity 支持 Netflix 平台](https://www.gamesindustry.biz/unity-adds-support-for-netflix-games)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Roblox Q2 2026 财报：营收 +36%](https://www.gamesindustry.biz/roblox-q2-2026-earnings)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials

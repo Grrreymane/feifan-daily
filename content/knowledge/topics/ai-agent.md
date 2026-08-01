@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-07-30"
+updated: "2026-08-01"
 ---
 
 # AI Agent
@@ -1033,3 +1033,33 @@ AI Agent 架构、实践与踩坑
 
 ### [Handbook.md shows that long policy documents do not reliably govern agents](https://arxiv.org/abs/2607.25398)
 - 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy: Sequoia Ascent 2026 演讲](https://www.youtube.com/watch?v=xxxxxxxxxxx)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: 用 Rust 重写 SQLite 的开源项目](https://news.ycombinator.com/item?id=xxxxxxx1)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [The economics of running your own LLM in 2026](https://news.ycombinator.com/item?id=xxxxxxx2)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #252: GPT 5.6 / Grok 4.5 / Nemotron](https://lastweekin.ai/p/252)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy 演讲全文摘录](https://x.com/karpathy/status/xxxxxxx)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun 长评：黑神话销量对国产 3A 的启示](https://www.rockpapershotgun.com/black-myth-lessons-for-china-3a)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80.lv YouTube: Nanite Landscape 深度剖析](https://www.youtube.com/watch?v=xxxxx2)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy Sequoia Ascent 2026 主题演讲](https://www.youtube.com/watch?v=xxxxx3)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space #Codex 播客版](https://www.latent.space/p/codex-podcast)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space #Eiso Kant Poolside 播客版](https://www.latent.space/p/eiso-kant)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-07-30"
+updated: "2026-08-01"
 ---
 
 # Unreal Engine
@@ -808,3 +808,18 @@ UE 引擎更新与技巧
 
 ### [Can a 4-person studio survive mobile f2p in 2026? Real numbers](https://www.reddit.com/r/gamedev/comments/1ulxmis/can_a_4person_studio_survive_mobile_f2p_in_2026/)
 - 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity 6 中的植物模拟](https://80.lv/articles/vegetation-simulation-in-unity-6/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Houdini 破坏效果基础](https://80.lv/articles/houdini-destruction-fundamentals/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Unreal 5.6 Nanite Foliage 工作流](https://80.lv/articles/nanite-foliage-workflow-unreal-5-6/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [风格化角色雕刻管线 - ZBrush 到 Marmoset](https://80.lv/articles/stylized-character-sculpting-pipeline/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity 支持 Netflix 平台](https://www.gamesindustry.biz/unity-adds-support-for-netflix-games)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials

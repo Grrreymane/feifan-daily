@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-07-30"
+updated: "2026-08-01"
 ---
 
 # Blender
@@ -667,3 +667,27 @@ Blender 工具与社区动态
 
 ### ["People want to play arcade racers again" – Wreckreation developer from redundancy notice to sequel](https://www.gamesindustry.biz/people-want-to-play-arcade-racers-again-how-the-developer-of-wreckreation-went-from-a-company-wide-redundancy-notice-to-working-on-a-sequel)
 - 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 中的体积雾创建教程](https://80.lv/articles/create-volumetric-fog-effects-in-blender/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 4 卡通渲染海洋着色器实战](https://80.lv/articles/cel-shaded-ocean-shader-in-godot-4/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Substance 3D Designer 金属花纹程序化材质](https://80.lv/articles/procedural-metallic-ornament-material-in-substance-3d-designer/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [VHS 老旧录像带效果全流程](https://80.lv/articles/complete-vhs-effect-tutorial-in-blender/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Evangelion 风格 HUD 界面设计](https://80.lv/articles/evangelion-inspired-hud-design/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 4.5 中的照片写实汽车渲染](https://80.lv/articles/photorealistic-car-rendering-in-blender-4-5/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity 6 中的植物模拟](https://80.lv/articles/vegetation-simulation-in-unity-6/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Houdini 破坏效果基础](https://80.lv/articles/houdini-destruction-fundamentals/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials

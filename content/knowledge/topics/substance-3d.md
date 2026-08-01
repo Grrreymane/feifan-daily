@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-07-22"
+updated: "2026-08-01"
 ---
 
 # Substance 3D
@@ -172,3 +172,15 @@ Substance 系列工具与材质
 
 ### [Modern Water Ripple Modifier For 3ds Max](https://80.lv/articles/modern-water-ripple-modifier-for-3ds-max/)
 - 📅 2026-07-22 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 4 卡通渲染海洋着色器实战](https://80.lv/articles/cel-shaded-ocean-shader-in-godot-4/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Substance 3D Designer 金属花纹程序化材质](https://80.lv/articles/procedural-metallic-ornament-material-in-substance-3d-designer/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [VHS 老旧录像带效果全流程](https://80.lv/articles/complete-vhs-effect-tutorial-in-blender/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Evangelion 风格 HUD 界面设计](https://80.lv/articles/evangelion-inspired-hud-design/)
+- 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
