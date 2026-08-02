@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-02"
 ---
 
 # 游戏开发
@@ -349,3 +349,12 @@ updated: "2026-08-01"
 
 ### [Roblox Q2 2026 财报：营收 +36%](https://www.gamesindustry.biz/roblox-q2-2026-earnings)
 - 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz：Xbox 与 PC 主机的 2026 策略分析](https://www.gamesindustry.biz/xbox-pc-2026)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Developer：GameMaker 2.0 Beta 发布](https://www.gamedeveloper.com/gamemaker-2-0)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Polygon：Silksong 世界设计深度解析](https://www.polygon.com/silksong-world-design)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials

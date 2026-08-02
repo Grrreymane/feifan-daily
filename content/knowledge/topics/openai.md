@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-02"
 ---
 
 # OpenAI
@@ -811,3 +811,36 @@ OpenAI 公司动态与产品
 
 ### [Latent Space: Inside the Model Factory - Eiso Kant, Poolside](https://www.latent.space/p/eiso-kant-poolside)
 - 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch：Anthropic 发布 Claude 4.7 Opus 长文本 benchmark](https://techcrunch.com/anthropic-claude-4-7-opus)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge：OpenAI o3 mini pricing 调整](https://www.theverge.com/openai-o3-pricing)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat：Google Gemini 3 Ultra 编码 benchmark 泄漏](https://venturebeat.com/gemini-3-ultra-code)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space "Inside the Model Factory — Eiso Kant, Poolside AI"](https://www.latent.space/p/poolside-model-factory)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space "ChatGPT Work — Akshay Nathan, OpenAI"](https://www.latent.space/p/chatgpt-work-openai)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison "Directly Responsible Individuals (DRI)"](https://simonwillison.net/2026/Jul/12/dri)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic "Investigating three real-world incidents in cybersecurity evals"](https://www.anthropic.com/research/cybersecurity-eval-incidents)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI "Ten advances in mathematics"](https://openai.com/blog/ten-advances-in-mathematics)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy 关于 "AI psychosis" 的播客](https://karpathy.ai/posts/ai-psychosis)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [MIT Technology Review：AI 应用能耗 2026 数据报告](https://www.technologyreview.com/ai-energy-2026)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch：Nvidia 财报再破纪录](https://techcrunch.com/nvidia-q2-2026)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials

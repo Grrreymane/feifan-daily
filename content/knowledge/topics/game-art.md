@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-02"
 ---
 
 # 游戏美术
@@ -583,3 +583,9 @@ updated: "2026-08-01"
 
 ### [Blender 中的体积雾创建教程](https://80.lv/articles/create-volumetric-fog-effects-in-blender/)
 - 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：Ghost of Yotei 环境艺术流程解析](https://80.lv/articles/ghost-of-yotei-environment-art)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz：Xbox 与 PC 主机的 2026 策略分析](https://www.gamesindustry.biz/xbox-pc-2026)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials

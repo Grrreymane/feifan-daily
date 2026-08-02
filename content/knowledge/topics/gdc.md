@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-07-16"
+updated: "2026-08-02"
 ---
 
 # GDC 大会
@@ -137,3 +137,12 @@ GDC 演讲、报告与行业洞察
 
 ### [1. OpenAI GPT-5.6 面向所有人开放（Sol/Terra/Luna 三档）](https://aisuperthinkers.com/gpt-5-6-launch)
 - 📅 2026-07-16 · 来源: daily-materials · 分类: daily-materials
+
+### [Concept Art World：本周概念图集萃](https://conceptartworld.com/inspiration/weekly-roundup)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：Substance 3D Designer 材质流程新技巧](https://80.lv/articles/substance-designer-tips)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz：Xbox 与 PC 主机的 2026 策略分析](https://www.gamesindustry.biz/xbox-pc-2026)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials

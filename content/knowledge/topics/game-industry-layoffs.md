@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-07-30"
+updated: "2026-08-02"
 ---
 
 # 游戏行业裁员
@@ -416,3 +416,12 @@ updated: "2026-07-30"
 
 ### [Capcom：Resident Evil重制版为新游戏开发提供财务支持](https://www.gamesindustry.biz/capcom-producer-says-resident-evil-remakes-are-providing-financial-support-to-develop-new-games-and-ip)
 - 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Polygon：Silksong 世界设计深度解析](https://www.polygon.com/silksong-world-design)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer：AAA 3D 建模师工作岗位缩减调查](https://www.eurogamer.net/3d-modeling-layoffs-2026)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK "The World Design of Hollow Knight: Silksong"](https://youtube.com/watch?v=silksong-world-design)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials

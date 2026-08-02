@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-02"
 ---
 
 # AI 通用
@@ -4608,3 +4608,78 @@ updated: "2026-08-01"
 
 ### [Acquired: EA 私有化交易深度解读](https://www.acquired.fm/episodes/ea-privatization-2026)
 - 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GamesIndustry.biz：Xbox 与 PC 主机的 2026 策略分析](https://www.gamesindustry.biz/xbox-pc-2026)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Developer：GameMaker 2.0 Beta 发布](https://www.gamedeveloper.com/gamemaker-2-0)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Polygon：Silksong 世界设计深度解析](https://www.polygon.com/silksong-world-design)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Eurogamer：AAA 3D 建模师工作岗位缩减调查](https://www.eurogamer.net/3d-modeling-layoffs-2026)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Rockstar "How Rockstar fit an entire city into PlayStation 2 memory"](https://youtube.com/watch?v=rockstar-ps2-memory)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison "DeepSeek-V4-Flash-0731"](https://simonwillison.net/2026/Jul/31/deepseek-v4-flash)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch：Anthropic 发布 Claude 4.7 Opus 长文本 benchmark](https://techcrunch.com/anthropic-claude-4-7-opus)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [The Verge：OpenAI o3 mini pricing 调整](https://www.theverge.com/openai-o3-pricing)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat：Google Gemini 3 Ultra 编码 benchmark 泄漏](https://venturebeat.com/gemini-3-ultra-code)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Ars Technica：Meta Llama 4.5 405B 开源发布](https://arstechnica.com/meta-llama-4-5)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space "Inside the Model Factory — Eiso Kant, Poolside AI"](https://www.latent.space/p/poolside-model-factory)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space "ChatGPT Work — Akshay Nathan, OpenAI"](https://www.latent.space/p/chatgpt-work-openai)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison "Directly Responsible Individuals (DRI)"](https://simonwillison.net/2026/Jul/12/dri)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [swyx "AI Startups Should Own the Problem, Not the Model"](https://www.latent.space/p/own-the-problem)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [swyx "Software Factories 需要重建基础设施"](https://www.swyx.io/software-factories)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Charlie Stross "On the non-use of AI in my writing process"](https://www.antipope.org/charlie/blog-static/2026/07/on-the-non-use-of-ai.html)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Quanta Magazine "Is AI reasoning right for the wrong reasons?"](https://www.quantamagazine.org/is-ai-reasoning-right-for-the-wrong-reasons)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic "Investigating three real-world incidents in cybersecurity evals"](https://www.anthropic.com/research/cybersecurity-eval-incidents)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI "Ten advances in mathematics"](https://openai.com/blog/ten-advances-in-mathematics)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy 关于 "AI psychosis" 的播客](https://karpathy.ai/posts/ai-psychosis)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [MIT Technology Review：AI 应用能耗 2026 数据报告](https://www.technologyreview.com/ai-energy-2026)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch：Nvidia 财报再破纪录](https://techcrunch.com/nvidia-q2-2026)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### ["Quanta - Is AI reasoning right for the wrong reasons"](https://www.quantamagazine.org/ai-reasoning-wrong-reasons)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### ["Show HN: A new procedural terrain generator in Rust"](https://news.ycombinator.com/procedural-terrain-rust)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [r/gamedev "How I got my indie game to 100k wishlists"](https://www.reddit.com/r/gamedev/comments/100k-wishlists)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials

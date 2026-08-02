@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-02"
 ---
 
 # AI Agent
@@ -1063,3 +1063,33 @@ AI Agent 架构、实践与踩坑
 
 ### [Latent Space #Eiso Kant Poolside 播客版](https://www.latent.space/p/eiso-kant)
 - 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison "Stateless MCP has recaptured my interest"](https://simonwillison.net/2026/Jul/31/stateless-mcp)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [TechCrunch：Anthropic 发布 Claude 4.7 Opus 长文本 benchmark](https://techcrunch.com/anthropic-claude-4-7-opus)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [VentureBeat：Google Gemini 3 Ultra 编码 benchmark 泄漏](https://venturebeat.com/gemini-3-ultra-code)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Ars Technica：Meta Llama 4.5 405B 开源发布](https://arstechnica.com/meta-llama-4-5)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space "Inside the Model Factory — Eiso Kant, Poolside AI"](https://www.latent.space/p/poolside-model-factory)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison "Directly Responsible Individuals (DRI)"](https://simonwillison.net/2026/Jul/12/dri)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [swyx "AI Startups Should Own the Problem, Not the Model"](https://www.latent.space/p/own-the-problem)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI "Ten advances in mathematics"](https://openai.com/blog/ten-advances-in-mathematics)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy 关于 "AI psychosis" 的播客](https://karpathy.ai/posts/ai-psychosis)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [MIT Technology Review：AI 应用能耗 2026 数据报告](https://www.technologyreview.com/ai-energy-2026)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
