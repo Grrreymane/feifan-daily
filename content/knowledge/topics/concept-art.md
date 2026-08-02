@@ -3,7 +3,7 @@ title: "概念设计"
 slug: "concept-art"
 description: "概念设计行业动态与技法"
 created: "2026-06-14"
-updated: "2026-07-12"
+updated: "2026-08-02"
 ---
 
 # 概念设计
@@ -52,3 +52,12 @@ updated: "2026-07-12"
 
 ### [Assassin's Creed Black Flag Resynced sets franchise Steam player record](https://80.lv/articles/assassin-s-creed-black-flag-resynced-sets-franchise-steam-player-record-sells-2-million-copies/)
 - 📅 2026-07-12 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：Ghost of Yotei 环境艺术流程解析](https://80.lv/articles/ghost-of-yotei-environment-art)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Concept Art World：本周概念图集萃](https://conceptartworld.com/inspiration/weekly-roundup)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：Substance 3D Designer 材质流程新技巧](https://80.lv/articles/substance-designer-tips)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials

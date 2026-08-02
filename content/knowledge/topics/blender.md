@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-02"
 ---
 
 # Blender
@@ -691,3 +691,12 @@ Blender 工具与社区动态
 
 ### [Houdini 破坏效果基础](https://80.lv/articles/houdini-destruction-fundamentals/)
 - 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK "What's the Point of Prototyping?"](https://youtube.com/watch?v=prototyping-point)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Guru "Introduction to Microdisplacements"](https://youtube.com/watch?v=blender-microdisplacements)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals "Creating Creatures for Games - The Complete Masterclass"](https://flippednormals.com/creatures-masterclass)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials

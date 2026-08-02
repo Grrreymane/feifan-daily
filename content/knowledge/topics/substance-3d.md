@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-02"
 ---
 
 # Substance 3D
@@ -184,3 +184,12 @@ Substance 系列工具与材质
 
 ### [Evangelion 风格 HUD 界面设计](https://80.lv/articles/evangelion-inspired-hud-design/)
 - 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：Ghost of Yotei 环境艺术流程解析](https://80.lv/articles/ghost-of-yotei-environment-art)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Concept Art World：本周概念图集萃](https://conceptartworld.com/inspiration/weekly-roundup)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：Substance 3D Designer 材质流程新技巧](https://80.lv/articles/substance-designer-tips)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials

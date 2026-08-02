@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-07-30"
+updated: "2026-08-02"
 ---
 
 # 游戏行业
@@ -446,3 +446,6 @@ updated: "2026-07-30"
 
 ### [Game AI Expert Explains Where AI Actually Belongs in Game Development—And The Risks](https://80.lv/articles/game-ai-expert-explains-where-ai-actually-belongs-in-game-development-and-the-risks/)
 - 📅 2026-07-30 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：Ghost of Yotei 环境艺术流程解析](https://80.lv/articles/ghost-of-yotei-environment-art)
+- 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials

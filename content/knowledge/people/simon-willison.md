@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-02"
 ---
 
 # Simon Willison
@@ -127,3 +127,9 @@ updated: "2026-08-01"
 - 📅 2026-07-24 — [Simon Willison：PyPI 拒绝对超 14 天旧版本的新文件上传](https://simonwillison.net/2026/Jul/23/seth-larson/)
 
 - 📅 2026-08-01 — [Simon Willison: Claude Opus 5 分析](https://simonwillison.net/2026/Jul/24/claude-opus-5/)
+
+- 📅 2026-08-02 — [Simon Willison "DeepSeek-V4-Flash-0731"](https://simonwillison.net/2026/Jul/31/deepseek-v4-flash)
+
+- 📅 2026-08-02 — [Simon Willison "Stateless MCP has recaptured my interest"](https://simonwillison.net/2026/Jul/31/stateless-mcp)
+
+- 📅 2026-08-02 — [Simon Willison "Directly Responsible Individuals (DRI)"](https://simonwillison.net/2026/Jul/12/dri)
