@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-08-02"
+updated: "2026-08-03"
 ---
 
 # 游戏行业裁员
@@ -425,3 +425,9 @@ updated: "2026-08-02"
 
 ### [GMTK "The World Design of Hollow Knight: Silksong"](https://youtube.com/watch?v=silksong-world-design)
 - 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Industry Hardship Fund Bundle](https://www.rockpapershotgun.com/got-a-spare-10-net-yourself-almost-150-games-and-help-support-laid-off-game-devs-with-the-game-industry-hardship-fund-bundle)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox 欧洲最高涨价 200 欧 / 170 镑](https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
