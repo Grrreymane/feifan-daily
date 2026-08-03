@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-08-02"
+updated: "2026-08-03"
 ---
 
 # GDC 大会
@@ -146,3 +146,33 @@ GDC 演讲、报告与行业洞察
 
 ### [GamesIndustry.biz：Xbox 与 PC 主机的 2026 策略分析](https://www.gamesindustry.biz/xbox-pc-2026)
 - 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [NetEase Games 五场 GDC 2026 演讲](https://schedule.gdconf.com/session-search/?searchtext=netease)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [叠纸游戏 GDC 8 场演讲](https://schedule.gdconf.com/session-search/?searchtext=papergames)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Embark Studios "Houdini + USD Pipeline for ARC Raiders"](https://schedule.gdconf.com/session/houdini-usd-pipeline-arc-raiders)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Tencent "AI-Assisted Design Stack for Global Titles"](https://schedule.gdconf.com/session/tencent-ai-design-stack)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Faceform WrapAI @ GDC](https://faceform.com/gdc2026)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [The Sunday Papers 821（周复盘长文）](https://www.rockpapershotgun.com/the-sunday-papers-821)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK Season 12（Mark Brown 新季）](https://www.youtube.com/watch?v=gmtk-s12-ep1)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Embark Studios GDC 2026 演讲（YouTube 官方）](https://www.youtube.com/watch?v=embark-gdc2026)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Faceform WrapAI @ GDC 2026](https://www.youtube.com/watch?v=wrapai-gdc2026)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [How Google Helped Destroy Adoption of RSS Feeds（HN 577 顶，2023 长青文）](https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials

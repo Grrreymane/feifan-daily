@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-08-02"
+updated: "2026-08-03"
 ---
 
 # 游戏行业
@@ -449,3 +449,24 @@ updated: "2026-08-02"
 
 ### [80 Level：Ghost of Yotei 环境艺术流程解析](https://80.lv/articles/ghost-of-yotei-environment-art)
 - 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [NetEase Games 五场 GDC 2026 演讲](https://schedule.gdconf.com/session-search/?searchtext=netease)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [叠纸游戏 GDC 8 场演讲](https://schedule.gdconf.com/session-search/?searchtext=papergames)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Faceform WrapAI @ GDC](https://faceform.com/gdc2026)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [The Sunday Papers 821（周复盘长文）](https://www.rockpapershotgun.com/the-sunday-papers-821)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Silent Hill: Townfall 开发者访谈](https://www.rockpapershotgun.com/silent-hill-townfalls-devs-say-theyre-purposefully-playing-against-your-nostalgic-tech-feelings-but-im-not-sure-itll-work-on-me)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [FF7 Revelation 导演访谈](https://www.rockpapershotgun.com/i-sense-immense-expectations-final-fantasy-7-revelations-director-on-ending-the-remake-trilogy-and-dlc)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Industry Hardship Fund Bundle](https://www.rockpapershotgun.com/got-a-spare-10-net-yourself-almost-150-games-and-help-support-laid-off-game-devs-with-the-game-industry-hardship-fund-bundle)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials

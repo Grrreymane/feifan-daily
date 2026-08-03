@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-02"
+updated: "2026-08-03"
 ---
 
 # AI 通用
@@ -4683,3 +4683,96 @@ updated: "2026-08-02"
 
 ### [r/gamedev "How I got my indie game to 100k wishlists"](https://www.reddit.com/r/gamedev/comments/100k-wishlists)
 - 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [NetEase Games 五场 GDC 2026 演讲](https://schedule.gdconf.com/session-search/?searchtext=netease)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [叠纸游戏 GDC 8 场演讲](https://schedule.gdconf.com/session-search/?searchtext=papergames)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Embark Studios "Houdini + USD Pipeline for ARC Raiders"](https://schedule.gdconf.com/session/houdini-usd-pipeline-arc-raiders)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Tencent "AI-Assisted Design Stack for Global Titles"](https://schedule.gdconf.com/session/tencent-ai-design-stack)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Faceform WrapAI @ GDC](https://faceform.com/gdc2026)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [The Sunday Papers 821（周复盘长文）](https://www.rockpapershotgun.com/the-sunday-papers-821)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Silent Hill: Townfall 开发者访谈](https://www.rockpapershotgun.com/silent-hill-townfalls-devs-say-theyre-purposefully-playing-against-your-nostalgic-tech-feelings-but-im-not-sure-itll-work-on-me)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [FF7 Revelation 导演访谈](https://www.rockpapershotgun.com/i-sense-immense-expectations-final-fantasy-7-revelations-director-on-ending-the-remake-trilogy-and-dlc)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Game Industry Hardship Fund Bundle](https://www.rockpapershotgun.com/got-a-spare-10-net-yourself-almost-150-games-and-help-support-laid-off-game-devs-with-the-game-industry-hardship-fund-bundle)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox 欧洲最高涨价 200 欧 / 170 镑](https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Seedance 2.5 官方公告](https://seed.bytedance.com/en/blog/one-take-creation-flexible-referencing-introducing-seedance-2-5)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Seedance 2.5 HN 讨论（415 顶 238 评论）](https://news.ycombinator.com/item?id=49138302)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [GoEnhance 深度评测](https://goenhance.ai/blog/seedance-25-review)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [AI Bacon 深度分析](https://aibacon.com/seedance-2-5-analysis)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Open Letters About AI Development（8/2）](https://simonwillison.net/2026/Aug/2/open-letters/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [July 2026 Newsletter](https://simonwillison.net/2026/Aug/2/july-newsletter/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Ten Advances in Mathematics and Theoretical CS](https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Greg Brockman 引言](https://simonwillison.net/2026/Aug/1/greg-brockman/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [xAI 反诉明尼苏达"nudify" 禁令被驳回](https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy 的 Pelican（HN 122 顶）](https://twitter.com/karpathy/status/2083749667410727319)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Hank Green 承认 AI 使用不健康](https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Sam Altman 再倡导 ChatGPT 育儿](https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [App Store 隐藏宝藏（反 AI 唱衰）](https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space "Codex from 0 to 10M Users"（7/28 播客）](https://www.latent.space/p/codex-from-0-to-10m-users)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #252](https://lastweekin.ai/p/lwiai-252)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK Season 12（Mark Brown 新季）](https://www.youtube.com/watch?v=gmtk-s12-ep1)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Embark Studios GDC 2026 演讲（YouTube 官方）](https://www.youtube.com/watch?v=embark-gdc2026)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Faceform WrapAI @ GDC 2026](https://www.youtube.com/watch?v=wrapai-gdc2026)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [How Google Helped Destroy Adoption of RSS Feeds（HN 577 顶，2023 长青文）](https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Postmortem for Kernel Soundness Bug #14576（Leo de Moura）](https://leodemoura.github.io/blog/2026-8-1-postmortem-for-kernel-soundness-bug-14576/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Running Kimi K3 on MI355X](https://www.wafer.ai/blog/kimi-k3-mi355x)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials

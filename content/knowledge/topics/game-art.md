@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-08-02"
+updated: "2026-08-03"
 ---
 
 # 游戏美术
@@ -589,3 +589,9 @@ updated: "2026-08-02"
 
 ### [GamesIndustry.biz：Xbox 与 PC 主机的 2026 策略分析](https://www.gamesindustry.biz/xbox-pc-2026)
 - 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [NetEase Games 五场 GDC 2026 演讲](https://schedule.gdconf.com/session-search/?searchtext=netease)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [叠纸游戏 GDC 8 场演讲](https://schedule.gdconf.com/session-search/?searchtext=papergames)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials

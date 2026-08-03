@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-08-02"
+updated: "2026-08-03"
 ---
 
 # AI Agent
@@ -1093,3 +1093,15 @@ AI Agent 架构、实践与踩坑
 
 ### [MIT Technology Review：AI 应用能耗 2026 数据报告](https://www.technologyreview.com/ai-energy-2026)
 - 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [App Store 隐藏宝藏（反 AI 唱衰）](https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space "Codex from 0 to 10M Users"（7/28 播客）](https://www.latent.space/p/codex-from-0-to-10m-users)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #252](https://lastweekin.ai/p/lwiai-252)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK Season 12（Mark Brown 新季）](https://www.youtube.com/watch?v=gmtk-s12-ep1)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials

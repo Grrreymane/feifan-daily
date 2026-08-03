@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-08-02"
+updated: "2026-08-03"
 ---
 
 # OpenAI
@@ -844,3 +844,30 @@ OpenAI 公司动态与产品
 
 ### [TechCrunch：Nvidia 财报再破纪录](https://techcrunch.com/nvidia-q2-2026)
 - 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Ten Advances in Mathematics and Theoretical CS](https://simonwillison.net/2026/Aug/1/ten-advances-in-mathematics/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Greg Brockman 引言](https://simonwillison.net/2026/Aug/1/greg-brockman/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [xAI 反诉明尼苏达"nudify" 禁令被驳回](https://techcrunch.com/2026/08/01/judge-denies-xais-request-to-block-minnesota-ban-on-nudify-apps/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Hank Green 承认 AI 使用不健康](https://techcrunch.com/2026/08/01/youtuber-hank-green-says-his-ai-usage-is-not-healthy/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Sam Altman 再倡导 ChatGPT 育儿](https://techcrunch.com/2026/08/01/sam-altman-is-still-making-the-case-for-parenting-via-chatgpt/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [App Store 隐藏宝藏（反 AI 唱衰）](https://techcrunch.com/2026/08/02/these-app-store-hidden-gems-prove-theres-still-room-for-great-software-in-the-ai-era/)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space "Codex from 0 to 10M Users"（7/28 播客）](https://www.latent.space/p/codex-from-0-to-10m-users)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #252](https://lastweekin.ai/p/lwiai-252)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK Season 12（Mark Brown 新季）](https://www.youtube.com/watch?v=gmtk-s12-ep1)
+- 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
