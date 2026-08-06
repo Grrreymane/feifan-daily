@@ -2,7 +2,7 @@
 title: "Andrej Karpathy"
 slug: "andrej-karpathy"
 created: "2026-05-23"
-updated: "2026-08-02"
+updated: "2026-08-06"
 ---
 
 # Andrej Karpathy
@@ -35,3 +35,5 @@ updated: "2026-08-02"
 - 📅 2026-08-01 — [Andrej Karpathy Sequoia Ascent 2026 主题演讲](https://www.youtube.com/watch?v=xxxxx3)
 
 - 📅 2026-08-02 — [Andrej Karpathy 关于 "AI psychosis" 的播客](https://karpathy.ai/posts/ai-psychosis)
+
+- 📅 2026-08-06 — [Andrej Karpathy 新推特长贴 & YouTube 短片](https://twitter.com/karpathy/status/xxx（原推）；YouTube)

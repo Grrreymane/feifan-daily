@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-08-03"
+updated: "2026-08-06"
 ---
 
 # 游戏美术
@@ -595,3 +595,6 @@ updated: "2026-08-03"
 
 ### [叠纸游戏 GDC 8 场演讲](https://schedule.gdconf.com/session-search/?searchtext=papergames)
 - 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [头条：EA 私有化交易正式完成（$550 亿）](https://www.gamesindustry.biz/electronic-arts-55b-acquisition-completes)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials

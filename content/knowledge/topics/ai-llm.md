@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-06"
 ---
 
 # 大语言模型
@@ -583,3 +583,21 @@ LLM 技术进展、应用与讨论
 
 ### [Last Week in AI #252: GPT 5.6 / Grok 4.5 / Nemotron](https://lastweekin.ai/p/252)
 - 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare OS 发布](https://blog.cloudflare.com/cloudflare-os/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit 大规模上线 AI moderation](https://techcrunch.com/reddit-ai-moderation-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [LLM 0.32 发布](https://simonwillison.net/2026/Aug/03/llm-0-32/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [llm-anthropic 0.26](https://simonwillison.net/2026/Aug/04/llm-anthropic-0-26/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [MiniMax-H3 MLX port](https://simonwillison.net/2026/Aug/05/minimax-h3-mlx/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [swyx 关于 AI Engineer Summit 2026 的复盘长文](https://www.swyx.io/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-08-02"
+updated: "2026-08-06"
 ---
 
 # Substance 3D
@@ -193,3 +193,9 @@ Substance 系列工具与材质
 
 ### [80 Level：Substance 3D Designer 材质流程新技巧](https://80.lv/articles/substance-designer-tips)
 - 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [角色艺术拆解](https://80.lv/articles/character-art-breakdown-aug-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [环境艺术：Substance + UE5 组合技巧](https://80.lv/articles/substance-ue5-workflow-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials

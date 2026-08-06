@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-08-02"
+updated: "2026-08-06"
 ---
 
 # Blender
@@ -700,3 +700,18 @@ Blender 工具与社区动态
 
 ### [FlippedNormals "Creating Creatures for Games - The Complete Masterclass"](https://flippednormals.com/creatures-masterclass)
 - 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun 深度分析](https://www.rockpapershotgun.com/ea-private-acquisition-analysis)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 新插件专稿](https://80.lv/articles/blender-hair-grooming-plugin-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [角色艺术拆解](https://80.lv/articles/character-art-breakdown-aug-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy 新推特长贴 & YouTube 短片](https://twitter.com/karpathy/status/xxx（原推）；YouTube)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK · "Best of GMTK Game Jam 2026](https://www.youtube.com/@GameMakersToolkit)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials

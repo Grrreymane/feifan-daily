@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-08-03"
+updated: "2026-08-06"
 ---
 
 # AI Agent
@@ -1105,3 +1105,12 @@ AI Agent 架构、实践与踩坑
 
 ### [GMTK Season 12（Mark Brown 新季）](https://www.youtube.com/watch?v=gmtk-s12-ep1)
 - 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare OS 发布](https://blog.cloudflare.com/cloudflare-os/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space Podcast · "Codex from 0 to 10M Users](https://www.latent.space/p/codex-scale-2026)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [swyx 关于 AI Engineer Summit 2026 的复盘长文](https://www.swyx.io/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
