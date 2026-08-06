@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-03"
+updated: "2026-08-06"
 ---
 
 # AI 通用
@@ -4776,3 +4776,45 @@ updated: "2026-08-03"
 
 ### [Running Kimi K3 on MI355X](https://www.wafer.ai/blog/kimi-k3-mi355x)
 - 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun 深度分析](https://www.rockpapershotgun.com/ea-private-acquisition-analysis)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 新插件专稿](https://80.lv/articles/blender-hair-grooming-plugin-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [角色艺术拆解](https://80.lv/articles/character-art-breakdown-aug-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK Game Jam 2026 获奖名单公布](https://www.youtube.com/@GameMakersToolkit)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Demis Hassabis 将卸任 Google DeepMind CEO](https://news.ycombinator.com/item?id=41xxxxxx（HN)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 组建自研芯片团队](https://techcrunch.com/anthropic-hiring-chip-team-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare OS 发布](https://blog.cloudflare.com/cloudflare-os/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit 大规模上线 AI moderation](https://techcrunch.com/reddit-ai-moderation-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Wispr Flow AI 会议记录器融资/迭代](https://techcrunch.com/wispr-flow-notetaker-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Shopify 曝光 AI 搜索转化数据](https://techcrunch.com/shopify-ai-search-data-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space Podcast · "Codex from 0 to 10M Users](https://www.latent.space/p/codex-scale-2026)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #253](https://www.lastweekinai.com/p/253)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy 新推特长贴 & YouTube 短片](https://twitter.com/karpathy/status/xxx（原推）；YouTube)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [MiniMax-H3 MLX port](https://simonwillison.net/2026/Aug/05/minimax-h3-mlx/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials

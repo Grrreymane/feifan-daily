@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-08-03"
+updated: "2026-08-06"
 ---
 
 # 游戏行业
@@ -470,3 +470,12 @@ updated: "2026-08-03"
 
 ### [Game Industry Hardship Fund Bundle](https://www.rockpapershotgun.com/got-a-spare-10-net-yourself-almost-150-games-and-help-support-laid-off-game-devs-with-the-game-industry-hardship-fund-bundle)
 - 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [头条：EA 私有化交易正式完成（$550 亿）](https://www.gamesindustry.biz/electronic-arts-55b-acquisition-completes)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Rock Paper Shotgun 深度分析](https://www.rockpapershotgun.com/ea-private-acquisition-analysis)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 新插件专稿](https://80.lv/articles/blender-hair-grooming-plugin-2026/)
+- 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
