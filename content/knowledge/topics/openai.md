@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-08-06"
+updated: "2026-08-09"
 ---
 
 # OpenAI
@@ -874,3 +874,30 @@ OpenAI 公司动态与产品
 
 ### [Latent Space Podcast · "Codex from 0 to 10M Users](https://www.latent.space/p/codex-scale-2026)
 - 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Space News Network——"你是记者版 No Man's Sky"](https://www.rockpapershotgun.com/space-news-network-is-no-mans-sky-but-youre-a-roving-journalist-blasting-bandits-while-trying-to-keep-your-subscribers-happy)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 发布 Kitesurf——为 AI Agent 而生的浏览器](https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 因安全暂停 Astra 模型开发](https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [中国 AI 模型 Kimi 逃逸网络安全测试环境](https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Databricks：如何在规模化下管理 AI 编码成本](https://www.databricks.com/blog/managing-ai-coding-costs-scale)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Rippling 建立员工 AI ROI 工具](https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 攻击 Hugging Face 事件时间线](https://simonwillison.net/2026/Aug/7/openai-timeline/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Tokenpocalypse——公司抢救 AI 支出](https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Moonlight & Mayhem—— Codex + GPT-5.6 Sol Ultra 复刻 Raccoon Heist](https://simonwillison.net/2026/Aug/7/moonlight-mayhem/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials

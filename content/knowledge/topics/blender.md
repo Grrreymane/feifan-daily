@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-08-06"
+updated: "2026-08-09"
 ---
 
 # Blender
@@ -715,3 +715,9 @@ Blender 工具与社区动态
 
 ### [GMTK · "Best of GMTK Game Jam 2026](https://www.youtube.com/@GameMakersToolkit)
 - 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Slow Takes Ep.21 – The Teenagers Wrote the Better Rule](https://liveradious.com/podcast/60014-slow-takes-one-week-in-ai.html)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [KamuDragon](https://twitter.com/KamuDragon)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials

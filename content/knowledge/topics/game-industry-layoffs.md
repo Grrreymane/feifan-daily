@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-08-03"
+updated: "2026-08-09"
 ---
 
 # 游戏行业裁员
@@ -431,3 +431,12 @@ updated: "2026-08-03"
 
 ### [Xbox 欧洲最高涨价 200 欧 / 170 镑](https://www.theverge.com/games/974253/xbox-prices-increasing-200-euros)
 - 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Take-Two CEO：三年内游戏进入"商业流媒体"时代](https://www.rockpapershotgun.com/machines-that-werent-game-machines-before-will-become-game-machines-take-two-ceo-predicts-that-streaming-will-help-fix-the-industrys-hardware-pricing-problem)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [That's No Moon 揭幕 Crossfire 两月后裁员 14 人](https://www.rockpapershotgun.com/two-months-after-revealing-crossfire-thats-no-moon-have-seemingly-laid-off-14-members-of-staff)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Space News Network——"你是记者版 No Man's Sky"](https://www.rockpapershotgun.com/space-news-network-is-no-mans-sky-but-youre-a-roving-journalist-blasting-bandits-while-trying-to-keep-your-subscribers-happy)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
