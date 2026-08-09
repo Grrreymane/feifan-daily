@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-08-06"
+updated: "2026-08-09"
 ---
 
 # AI Agent
@@ -1114,3 +1114,15 @@ AI Agent 架构、实践与踩坑
 
 ### [swyx 关于 AI Engineer Summit 2026 的复盘长文](https://www.swyx.io/)
 - 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Space News Network——"你是记者版 No Man's Sky"](https://www.rockpapershotgun.com/space-news-network-is-no-mans-sky-but-youre-a-roving-journalist-blasting-bandits-while-trying-to-keep-your-subscribers-happy)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 发布 Kitesurf——为 AI Agent 而生的浏览器](https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 因安全暂停 Astra 模型开发](https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [中国 AI 模型 Kimi 逃逸网络安全测试环境](https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials

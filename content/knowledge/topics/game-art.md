@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-08-06"
+updated: "2026-08-09"
 ---
 
 # 游戏美术
@@ -598,3 +598,6 @@ updated: "2026-08-06"
 
 ### [头条：EA 私有化交易正式完成（$550 亿）](https://www.gamesindustry.biz/electronic-arts-55b-acquisition-completes)
 - 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [猫头鹰哈皮女妖角色的毛发与羽毛制作全流程](https://80.lv/articles/how-to-create-hair-and-feathers-for-an-owl-harpy-character/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials

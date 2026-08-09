@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-06"
+updated: "2026-08-09"
 ---
 
 # AI 通用
@@ -4818,3 +4818,81 @@ updated: "2026-08-06"
 
 ### [MiniMax-H3 MLX port](https://simonwillison.net/2026/Aug/05/minimax-h3-mlx/)
 - 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [猫头鹰哈皮女妖角色的毛发与羽毛制作全流程](https://80.lv/articles/how-to-create-hair-and-feathers-for-an-owl-harpy-character/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [《Sky: Children of the Light》环境艺术—— MUD1 之父 Richard Bartle 的虚拟世界反思](https://80.lv/articles/richard-bartle-mmo-monetization-virtual-worlds-players-express-themselves/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [GTA6 Netflix 首秀只是"开胃菜"，预购数据"史无前例"](https://www.gamesindustry.biz/strauss-zelnick-netflix-debut-is-merely-one-of-the-hors-doeuvres-for-full-gta-6-launch-pre-order-numbers-are-unprecedented-and-astonishing)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Roblox 新方向遭投资人反对但已无回头路](https://www.gamesindustry.biz/investors-hate-roblox-new-direction-but-a-reversal-may-be-impossible-opinion)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 主导的并购正在"削弱"游戏投资环境](https://www.gamesindustry.biz/analyst-ai-focused-ma-deals-are-weakening-the-games-investment-landscape)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Take-Two CEO：三年内游戏进入"商业流媒体"时代](https://www.rockpapershotgun.com/machines-that-werent-game-machines-before-will-become-game-machines-take-two-ceo-predicts-that-streaming-will-help-fix-the-industrys-hardware-pricing-problem)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [That's No Moon 揭幕 Crossfire 两月后裁员 14 人](https://www.rockpapershotgun.com/two-months-after-revealing-crossfire-thats-no-moon-have-seemingly-laid-off-14-members-of-staff)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Space News Network——"你是记者版 No Man's Sky"](https://www.rockpapershotgun.com/space-news-network-is-no-mans-sky-but-youre-a-roving-journalist-blasting-bandits-while-trying-to-keep-your-subscribers-happy)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Cloudflare 发布 Kitesurf——为 AI Agent 而生的浏览器](https://techcrunch.com/2026/08/07/cloudflare-launches-kitesurf-a-browser-built-for-ai-agents/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 因安全暂停 Astra 模型开发](https://techcrunch.com/2026/08/07/openai-says-it-slowed-astra-model-development-over-security-concerns/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [中国 AI 模型 Kimi 逃逸网络安全测试环境](https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepSeek V4 Flash 0731 上榜 ARC Prize](https://arcprize.org/results/deepseek-v4-flash-0731)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepMind WeatherNext 突破——飓风预测](https://deepmind.google/blog/weathernext-ai-model-achieves-breakthrough-in-forecasting-cyclones/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Oracle 禁止 AI 生成代码进入 OpenJDK](https://app.dealroom.co/news/feed/oracle-bans-ai-generated-code-from-openjdk-despite-ellison-s-claim-oracle-isn-t-writing-its-own-code)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Databricks：如何在规模化下管理 AI 编码成本](https://www.databricks.com/blog/managing-ai-coding-costs-scale)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Rippling 建立员工 AI ROI 工具](https://techcrunch.com/2026/08/07/after-rippling-blew-millions-on-ai-in-months-it-built-an-employee-roi-tool/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 攻击 Hugging Face 事件时间线](https://simonwillison.net/2026/Aug/7/openai-timeline/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Tokenpocalypse——公司抢救 AI 支出](https://simonwillison.net/2026/Aug/7/pdfs-are-terrible/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Moonlight & Mayhem—— Codex + GPT-5.6 Sol Ultra 复刻 Raccoon Heist](https://simonwillison.net/2026/Aug/7/moonlight-mayhem/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [引用 John Gruber：日更心态——"表演现场演唱会而非录制专辑"](https://simonwillison.net/2026/Aug/8/john-gruber/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [物理学家给宠物仓鼠跑轮接入 Strava](https://www.runnersworld.com/news/a73355106/hamster-wheel-strava-running/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space – The Inference Engineering Masterclass](https://www.latent.space/podcasts（Latent)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Slow Takes Ep.21 – The Teenagers Wrote the Better Rule](https://liveradious.com/podcast/60014-slow-takes-one-week-in-ai.html)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [KamuDragon](https://twitter.com/KamuDragon)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Skaifox](https://skaifox.com/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Dangpa](https://furaffinity.net/user/dangpa/)
+- 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
