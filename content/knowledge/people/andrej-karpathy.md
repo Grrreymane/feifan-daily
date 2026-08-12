@@ -2,7 +2,7 @@
 title: "Andrej Karpathy"
 slug: "andrej-karpathy"
 created: "2026-05-23"
-updated: "2026-08-06"
+updated: "2026-08-12"
 ---
 
 # Andrej Karpathy
@@ -37,3 +37,5 @@ updated: "2026-08-06"
 - 📅 2026-08-02 — [Andrej Karpathy 关于 "AI psychosis" 的播客](https://karpathy.ai/posts/ai-psychosis)
 
 - 📅 2026-08-06 — [Andrej Karpathy 新推特长贴 & YouTube 短片](https://twitter.com/karpathy/status/xxx（原推）；YouTube)
+
+- 📅 2026-08-12 — [Andrej Karpathy - Opus 5 三.js LOTR 交互实验](https://x.com/karpathy/status/1953547758156431564)

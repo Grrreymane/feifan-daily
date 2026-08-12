@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-08-09"
+updated: "2026-08-12"
 ---
 
 # Blender
@@ -721,3 +721,24 @@ Blender 工具与社区动态
 
 ### [KamuDragon](https://twitter.com/KamuDragon)
 - 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Autodesk 停售 Mudbox：雕刻软件时代终结](https://80.lv/articles/autodesk-mudbox-officially-discontinued/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Geometry Nodes 复刻蜘蛛侠卡通渲染特效](https://www.reddit.com/r/blender/comments/1eop3xa/i_recreated_the_spiderman_across_the_spiderverse/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 引擎复刻《Sea of Thieves》水面效果](https://www.reddit.com/r/godot/comments/1eopnza/i_recreated_sea_of_thieves_water_in_godot/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Supermassive Games（Until Dawn 开发商）裁员 75 人](https://www.gamesindustry.biz/supermassive-games-lays-off-75-staff-2026)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space Podcast - The Inference Engineering Masterclass](https://www.latent.space/p/inference-engineering)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals：Master Figure Sculpting with Logan Wiesen](https://flippednormals.com/product/master-figure-sculpting-logan-wiesen/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [竹本嵐 (Takemoto Arashi) Bluesky 主页](https://bsky.app/profile/takemoto.bsky.social)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials

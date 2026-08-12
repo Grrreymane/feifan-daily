@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-08-09"
+updated: "2026-08-12"
 ---
 
 # 游戏美术
@@ -601,3 +601,18 @@ updated: "2026-08-09"
 
 ### [猫头鹰哈皮女妖角色的毛发与羽毛制作全流程](https://80.lv/articles/how-to-create-hair-and-feathers-for-an-owl-harpy-character/)
 - 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy - Opus 5 三.js LOTR 交互实验](https://x.com/karpathy/status/1953547758156431564)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [4J Studios 揭秘 Rixels 技术：Minecraft 内存节省 98%](https://80.lv/articles/4j-studios-explains-rixels-the-tech-that-brought-minecraft-to-old-consoles/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Autodesk 停售 Mudbox：雕刻软件时代终结](https://80.lv/articles/autodesk-mudbox-officially-discontinued/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Geometry Nodes 复刻蜘蛛侠卡通渲染特效](https://www.reddit.com/r/blender/comments/1eop3xa/i_recreated_the_spiderman_across_the_spiderverse/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 引擎复刻《Sea of Thieves》水面效果](https://www.reddit.com/r/godot/comments/1eopnza/i_recreated_sea_of_thieves_water_in_godot/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials

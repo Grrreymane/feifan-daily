@@ -3,7 +3,7 @@ title: "ZBrush"
 slug: "zbrush"
 description: "ZBrush 雕刻与工作流"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-12"
 ---
 
 # ZBrush
@@ -211,3 +211,9 @@ ZBrush 雕刻与工作流
 
 ### [Unity 支持 Netflix 平台](https://www.gamesindustry.biz/unity-adds-support-for-netflix-games)
 - 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Autodesk 停售 Mudbox：雕刻软件时代终结](https://80.lv/articles/autodesk-mudbox-officially-discontinued/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Geometry Nodes 复刻蜘蛛侠卡通渲染特效](https://www.reddit.com/r/blender/comments/1eop3xa/i_recreated_the_spiderman_across_the_spiderverse/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
