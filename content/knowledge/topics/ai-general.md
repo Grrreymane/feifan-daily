@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-09"
+updated: "2026-08-12"
 ---
 
 # AI 通用
@@ -4896,3 +4896,51 @@ updated: "2026-08-09"
 
 ### [Dangpa](https://furaffinity.net/user/dangpa/)
 - 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy - Opus 5 三.js LOTR 交互实验](https://x.com/karpathy/status/1953547758156431564)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic - Claude Opus 5 尝试黎曼假设的推理链](https://www.anthropic.com/research/opus-5-riemann)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [4J Studios 揭秘 Rixels 技术：Minecraft 内存节省 98%](https://80.lv/articles/4j-studios-explains-rixels-the-tech-that-brought-minecraft-to-old-consoles/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Autodesk 停售 Mudbox：雕刻软件时代终结](https://80.lv/articles/autodesk-mudbox-officially-discontinued/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Geometry Nodes 复刻蜘蛛侠卡通渲染特效](https://www.reddit.com/r/blender/comments/1eop3xa/i_recreated_the_spiderman_across_the_spiderverse/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 引擎复刻《Sea of Thieves》水面效果](https://www.reddit.com/r/godot/comments/1eopnza/i_recreated_sea_of_thieves_water_in_godot/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Supermassive Games（Until Dawn 开发商）裁员 75 人](https://www.gamesindustry.biz/supermassive-games-lays-off-75-staff-2026)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热议：Muse Glimmer - Meta 开源 30B Apache 2.0 模型](https://news.ycombinator.com/item?id=44823450)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Brad Lightcap 离开 OpenAI 加入创业公司](https://www.theinformation.com/articles/openais-brad-lightcap-departs)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [River AI 融资 1.1B 美元，估值破 10B](https://news.ycombinator.com/item?id=44821022)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Spotify 加入 AI Persona 标签，播客/音乐生成透明化](https://techcrunch.com/2026/08/11/spotify-ai-persona-labels/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI 播客 #253](https://lastweekin.ai/p/253)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired 播客 - Disney: The Renaissance and the Empire](https://www.acquired.fm/episodes/disney-renaissance-empire)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK - How Rockstar fit an entire city into PlayStation 2 memory](https://www.youtube.com/watch?v=cQ2SsCQlmxs)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals：Master Figure Sculpting with Logan Wiesen](https://flippednormals.com/product/master-figure-sculpting-logan-wiesen/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [T.Y/Arashi Bluesky 主页](https://bsky.app/profile/tyarashi.bsky.social)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-08-06"
+updated: "2026-08-12"
 ---
 
 # 大语言模型
@@ -601,3 +601,15 @@ LLM 技术进展、应用与讨论
 
 ### [swyx 关于 AI Engineer Summit 2026 的复盘长文](https://www.swyx.io/)
 - 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic - Claude Opus 5 尝试黎曼假设的推理链](https://www.anthropic.com/research/opus-5-riemann)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [4J Studios 揭秘 Rixels 技术：Minecraft 内存节省 98%](https://80.lv/articles/4j-studios-explains-rixels-the-tech-that-brought-minecraft-to-old-consoles/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space Podcast - The Inference Engineering Masterclass](https://www.latent.space/p/inference-engineering)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI 播客 #253](https://lastweekin.ai/p/253)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials

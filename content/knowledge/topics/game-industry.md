@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-08-06"
+updated: "2026-08-12"
 ---
 
 # 游戏行业
@@ -479,3 +479,9 @@ updated: "2026-08-06"
 
 ### [Blender 新插件专稿](https://80.lv/articles/blender-hair-grooming-plugin-2026/)
 - 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [River AI 融资 1.1B 美元，估值破 10B](https://news.ycombinator.com/item?id=44821022)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Spotify 加入 AI Persona 标签，播客/音乐生成透明化](https://techcrunch.com/2026/08/11/spotify-ai-persona-labels/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials

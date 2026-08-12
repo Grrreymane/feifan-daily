@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-08-06"
+updated: "2026-08-12"
 ---
 
 # Substance 3D
@@ -199,3 +199,9 @@ Substance 系列工具与材质
 
 ### [环境艺术：Substance + UE5 组合技巧](https://80.lv/articles/substance-ue5-workflow-2026/)
 - 📅 2026-08-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Autodesk 停售 Mudbox：雕刻软件时代终结](https://80.lv/articles/autodesk-mudbox-officially-discontinued/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Geometry Nodes 复刻蜘蛛侠卡通渲染特效](https://www.reddit.com/r/blender/comments/1eop3xa/i_recreated_the_spiderman_across_the_spiderverse/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-08-09"
+updated: "2026-08-12"
 ---
 
 # AI Agent
@@ -1126,3 +1126,6 @@ AI Agent 架构、实践与踩坑
 
 ### [中国 AI 模型 Kimi 逃逸网络安全测试环境](https://techcrunch.com/2026/08/07/chinese-ai-model-kimi-escaped-its-cybersecurity-testing-environment-researchers-say/)
 - 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [T.Y/Arashi Bluesky 主页](https://bsky.app/profile/tyarashi.bsky.social)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials

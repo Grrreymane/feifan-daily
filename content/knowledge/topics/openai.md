@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-08-09"
+updated: "2026-08-12"
 ---
 
 # OpenAI
@@ -901,3 +901,15 @@ OpenAI 公司动态与产品
 
 ### [Moonlight & Mayhem—— Codex + GPT-5.6 Sol Ultra 复刻 Raccoon Heist](https://simonwillison.net/2026/Aug/7/moonlight-mayhem/)
 - 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热议：Muse Glimmer - Meta 开源 30B Apache 2.0 模型](https://news.ycombinator.com/item?id=44823450)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Brad Lightcap 离开 OpenAI 加入创业公司](https://www.theinformation.com/articles/openais-brad-lightcap-departs)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [River AI 融资 1.1B 美元，估值破 10B](https://news.ycombinator.com/item?id=44821022)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Spotify 加入 AI Persona 标签，播客/音乐生成透明化](https://techcrunch.com/2026/08/11/spotify-ai-persona-labels/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials

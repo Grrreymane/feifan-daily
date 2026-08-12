@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-08-09"
+updated: "2026-08-12"
 ---
 
 # 游戏行业裁员
@@ -440,3 +440,18 @@ updated: "2026-08-09"
 
 ### [Space News Network——"你是记者版 No Man's Sky"](https://www.rockpapershotgun.com/space-news-network-is-no-mans-sky-but-youre-a-roving-journalist-blasting-bandits-while-trying-to-keep-your-subscribers-happy)
 - 📅 2026-08-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Geometry Nodes 复刻蜘蛛侠卡通渲染特效](https://www.reddit.com/r/blender/comments/1eop3xa/i_recreated_the_spiderman_across_the_spiderverse/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 引擎复刻《Sea of Thieves》水面效果](https://www.reddit.com/r/godot/comments/1eopnza/i_recreated_sea_of_thieves_water_in_godot/)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Supermassive Games（Until Dawn 开发商）裁员 75 人](https://www.gamesindustry.biz/supermassive-games-lays-off-75-staff-2026)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [HN 热议：Muse Glimmer - Meta 开源 30B Apache 2.0 模型](https://news.ycombinator.com/item?id=44823450)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space Podcast - The Inference Engineering Masterclass](https://www.latent.space/p/inference-engineering)
+- 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
