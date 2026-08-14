@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-08-12"
+updated: "2026-08-14"
 ---
 
 # OpenAI
@@ -913,3 +913,21 @@ OpenAI 公司动态与产品
 
 ### [Spotify 加入 AI Persona 标签，播客/音乐生成透明化](https://techcrunch.com/2026/08/11/spotify-ai-persona-labels/)
 - 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [美国首次允许部分私营公司实施"反击式"网络攻击](https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 新任 CRO：Dali Rajic](https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 编程创业公司 Cognition 传估值 400 亿美元融资](https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 水印引用户抗议：会暴露自己在班上/工作中用 Claude](https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 系 Thrive Holdings 融资 20 亿美元，估值 120 亿](https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepSeek API 降价](https://twitter.com/deepseek_ai/status/2087864589895798968)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials

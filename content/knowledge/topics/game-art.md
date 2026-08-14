@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-08-12"
+updated: "2026-08-14"
 ---
 
 # 游戏美术
@@ -616,3 +616,9 @@ updated: "2026-08-12"
 
 ### [Godot 引擎复刻《Sea of Thieves》水面效果](https://www.reddit.com/r/godot/comments/1eopnza/i_recreated_sea_of_thieves_water_in_godot/)
 - 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Meccha Chameleon 卖了 2000 万份](https://www.reddit.com/r/gamedev/comments/1vmezng/meccha_chameleon_has_sold_20_million_units/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Spline Architect 新版加入 GPU 实例化，可沿样条布 100 万物体](https://80.lv/articles/spline-architect-s-new-version-adds-gpu-instancing-for-1-000-000-objects-along-splines/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
