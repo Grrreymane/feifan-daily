@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-08-12"
+updated: "2026-08-14"
 ---
 
 # AI Agent
@@ -1129,3 +1129,18 @@ AI Agent 架构、实践与踩坑
 
 ### [T.Y/Arashi Bluesky 主页](https://bsky.app/profile/tyarashi.bsky.social)
 - 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepSeek V4 Pro 0813 上线 OpenRouter](https://openrouter.ai/deepseek/deepseek-v4-pro-0813)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepSeek Harness 开发者预览](https://deepseek.com/harness/en/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [一次 prompt 打 11 个模型，结果差异惊人](https://www.netlify.com/blog/one-prompt-11-models-very-different-results/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Discovered Materials (YC P26)：AI agent 发现新材料](https://discoveredmaterials.com/research/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Twitch 默认抓取直播用于 AI 训练，连自家高管都不知道抓了什么](https://www.rockpapershotgun.com/twitch-are-scraping-streams-for-ai-training-by-default-and-even-their-own-execs-dont-know-what-user-data-may-have-been-swept-up)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials

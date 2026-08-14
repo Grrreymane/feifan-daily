@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-08-12"
+updated: "2026-08-14"
 ---
 
 # 游戏行业
@@ -485,3 +485,9 @@ updated: "2026-08-12"
 
 ### [Spotify 加入 AI Persona 标签，播客/音乐生成透明化](https://techcrunch.com/2026/08/11/spotify-ai-persona-labels/)
 - 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Meccha Chameleon 卖了 2000 万份](https://www.reddit.com/r/gamedev/comments/1vmezng/meccha_chameleon_has_sold_20_million_units/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Spline Architect 新版加入 GPU 实例化，可沿样条布 100 万物体](https://80.lv/articles/spline-architect-s-new-version-adds-gpu-instancing-for-1-000-000-objects-along-splines/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials

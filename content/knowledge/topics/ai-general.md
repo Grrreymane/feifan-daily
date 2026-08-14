@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-12"
+updated: "2026-08-14"
 ---
 
 # AI 通用
@@ -4944,3 +4944,57 @@ updated: "2026-08-12"
 
 ### [T.Y/Arashi Bluesky 主页](https://bsky.app/profile/tyarashi.bsky.social)
 - 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [追踪 SQLite 隐藏了 16 年的 WAL-reset bug](https://tailscale.com/blog/sqlite-wal-reset-bug)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepSeek V4 Pro 0813 上线 OpenRouter](https://openrouter.ai/deepseek/deepseek-v4-pro-0813)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepSeek Harness 开发者预览](https://deepseek.com/harness/en/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [一次 prompt 打 11 个模型，结果差异惊人](https://www.netlify.com/blog/one-prompt-11-models-very-different-results/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Discovered Materials (YC P26)：AI agent 发现新材料](https://discoveredmaterials.com/research/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Twitch 默认抓取直播用于 AI 训练，连自家高管都不知道抓了什么](https://www.rockpapershotgun.com/twitch-are-scraping-streams-for-ai-training-by-default-and-even-their-own-execs-dont-know-what-user-data-may-have-been-swept-up)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [GTA6 预购 89% 是 $100 终极版](https://www.gamesindustry.biz/sensor-tower-89-of-gta6-preorders-are-for-the-100-ultimate-edition)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit · 独立开发者花 10 年做完 MMORPG 成功上架 Steam · AMA](https://www.reddit.com/r/gamedev/comments/1vngy2g/after_10_years_of_work_i_just_successfully/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Microsoft 砍掉 Copilot 的失败功能，合并消费者与企业应用](https://techcrunch.com/2026/08/13/microsoft-kills-off-unsuccessful-ai-features-while-merging-its-separate-copilot-apps/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Nvidia 的 5000 亿美元新计划：为老 GPU 保值](https://techcrunch.com/2026/08/13/nvidias-new-500b-plan-is-risky-but-brilliant-especially-for-aging-gpus/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [X 开源排名算法，用户可自查是否被 shadowban](https://techcrunch.com/2026/08/13/x-open-sources-its-ranking-algorithm-letting-users-see-if-theyve-been-shadowbanned/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple 谈判付费给出版商，为 Siri 提供实时新闻，预算九位数](https://techcrunch.com/2026/08/13/apple-in-talks-to-pay-publishers-to-provide-siri-with-current-news-report/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [美国首次允许部分私营公司实施"反击式"网络攻击](https://techcrunch.com/2026/08/13/in-a-first-us-will-allow-some-private-firms-to-carry-out-cyberattacks/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 新任 CRO：Dali Rajic](https://techcrunch.com/2026/08/13/openai-hires-new-cro-as-executive-shake-up-continues/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 编程创业公司 Cognition 传估值 400 亿美元融资](https://techcrunch.com/2026/08/12/ai-coding-startup-cognition-reportedly-already-in-talks-to-raise-at-40b-valuation/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic 水印引用户抗议：会暴露自己在班上/工作中用 Claude](https://techcrunch.com/2026/08/12/some-claude-users-are-mad-that-anthropics-new-watermarks-will-catch-them-cheating-at-their-jobs-classes/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 系 Thrive Holdings 融资 20 亿美元，估值 120 亿](https://techcrunch.com/2026/08/12/openai-backed-thrive-holdings-raises-2b-to-bring-ai-to-the-enterprise/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [DeepSeek API 降价](https://twitter.com/deepseek_ai/status/2087864589895798968)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials

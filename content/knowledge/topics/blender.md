@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-08-12"
+updated: "2026-08-14"
 ---
 
 # Blender
@@ -742,3 +742,18 @@ Blender 工具与社区动态
 
 ### [竹本嵐 (Takemoto Arashi) Bluesky 主页](https://bsky.app/profile/takemoto.bsky.social)
 - 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [追踪 SQLite 隐藏了 16 年的 WAL-reset bug](https://tailscale.com/blog/sqlite-wal-reset-bug)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Houdini HDA + UE5 打造程序化石头通道](https://80.lv/articles/procedural-stone-passage-built-with-a-custom-houdini-hda-in-unreal-engine-5/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 制作、灵感来自桌游的 CG 短片](https://80.lv/articles/check-out-cg-short-film-made-with-blender-inspired-by-tabletop-game/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [像素风科幻 JRPG《Stillsun Ark》美术极佳](https://80.lv/articles/this-pixel-art-sci-fi-jrpg-has-absolutely-phenomenal-art-style/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit · 用 Gaea 2 做逼真悬崖岩石结构的程序化流程](https://www.reddit.com/r/unrealengine/comments/1vn6992/how_i_approach_realistic_cliff_and_getting_actual/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-14"
 ---
 
 # Unreal Engine
@@ -823,3 +823,24 @@ UE 引擎更新与技巧
 
 ### [Unity 支持 Netflix 平台](https://www.gamesindustry.biz/unity-adds-support-for-netflix-games)
 - 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Spline Architect 新版加入 GPU 实例化，可沿样条布 100 万物体](https://80.lv/articles/spline-architect-s-new-version-adds-gpu-instancing-for-1-000-000-objects-along-splines/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Houdini HDA + UE5 打造程序化石头通道](https://80.lv/articles/procedural-stone-passage-built-with-a-custom-houdini-hda-in-unreal-engine-5/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 制作、灵感来自桌游的 CG 短片](https://80.lv/articles/check-out-cg-short-film-made-with-blender-inspired-by-tabletop-game/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [像素风科幻 JRPG《Stillsun Ark》美术极佳](https://80.lv/articles/this-pixel-art-sci-fi-jrpg-has-absolutely-phenomenal-art-style/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Reddit · 用 Gaea 2 做逼真悬崖岩石结构的程序化流程](https://www.reddit.com/r/unrealengine/comments/1vn6992/how_i_approach_realistic_cliff_and_getting_actual/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [UE5.8 · Game Animation Sample Project 已更新](https://www.reddit.com/r/unrealengine/comments/1vmskle/the_game_animation_sample_project_has_been/)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Sam Barlow 与 Brandon Cronenberg 合作科幻恐怖新作 Precognition](https://www.rockpapershotgun.com/immortality-developer-sam-barlow-reveals-precognition-a-sci-fi-horror-collaboration-with-brandon-cronenberg-about-really-terrible-things-that-are-just-around-the-corner)
+- 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
