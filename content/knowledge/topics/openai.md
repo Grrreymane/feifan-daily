@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-08-14"
+updated: "2026-08-15"
 ---
 
 # OpenAI
@@ -931,3 +931,15 @@ OpenAI 公司动态与产品
 
 ### [DeepSeek API 降价](https://twitter.com/deepseek_ai/status/2087864589895798968)
 - 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Databricks 融资 50 亿美元，估值 1900 亿](https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 推出 Ultrafast 模式：GPT-5.6 Sol 提速 14 倍](https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [IBM 联手 OpenAI 扩大企业 AI 布局](https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Writer 发布新模型，专攻降低 token 成本](https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials

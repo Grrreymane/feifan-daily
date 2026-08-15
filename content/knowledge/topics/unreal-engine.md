@@ -3,7 +3,7 @@ title: "Unreal Engine"
 slug: "unreal-engine"
 description: "UE 引擎更新与技巧"
 created: "2026-04-07"
-updated: "2026-08-14"
+updated: "2026-08-15"
 ---
 
 # Unreal Engine
@@ -844,3 +844,12 @@ UE 引擎更新与技巧
 
 ### [Sam Barlow 与 Brandon Cronenberg 合作科幻恐怖新作 Precognition](https://www.rockpapershotgun.com/immortality-developer-sam-barlow-reveals-precognition-a-sci-fi-horror-collaboration-with-brandon-cronenberg-about-really-terrible-things-that-are-just-around-the-corner)
 - 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 中的简易风格化线稿技术](https://80.lv/articles/easy-stylized-line-art-technique-for-blender/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [3D 艺术家用 UE5 Substrate 重塑《半衰期2》头蟹](https://80.lv/articles/3d-artist-reimagined-half-life-2-s-headcrab-with-unreal-engine-5-s-substrate/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Phantom Blade Zero 用真实咏春动捕](https://80.lv/articles/phantom-blade-zero-uses-authentic-kung-fu-motion-capture/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials

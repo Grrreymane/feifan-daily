@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-14"
+updated: "2026-08-15"
 ---
 
 # AI 通用
@@ -4998,3 +4998,66 @@ updated: "2026-08-14"
 
 ### [DeepSeek API 降价](https://twitter.com/deepseek_ai/status/2087864589895798968)
 - 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Gemini 3.7 Flash 发布](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM-5.3：前沿代码能力 + 涌现出的网络安全能力](https://z.ai/blog/glm-5.3)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Qwen 3.8 27B（FP8）](https://huggingface.co/Qwen/Qwen3.8-27B-FP8)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Differential Heuristics（差分启发式寻路）](https://www.redblobgames.com/blog/2026-08-08-differential-heuristics/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN · C# 游戏引擎 ArcadeMaker，自带脚本语言和 IDE](https://github.com/ArcadeMakerSources/ArcadeMaker)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Sandustry 早期访问上架：每个像素都是可用资源](https://www.rockpapershotgun.com/sandustry-the-factory-game-where-every-single-pixel-is-a-resource-you-can-build-with-is-out-in-early-access)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Shattered World 签名合集：15 种黑暗幻想材质，Substance 3D 打造](https://80.lv/articles/build-eerie-worlds-with-this-dark-fantasy-signature-collection/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 用的程序化美国市中心生成器](https://80.lv/articles/procedural-american-downtown-generator-for-blender/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Embracer 集团：下一部 Kingdom Come 比预期更快](https://80.lv/articles/embracer-group-expects-next-kingdom-come-sooner-than-you-might-think/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [2K 成立 3A 体育游戏开发商 Small Axe Studios（温哥华）](https://www.gamesindustry.biz/2k-establishes-aaa-sports-developer-small-axe-studios)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Arc Raiders 又卖 80 万份，Nexon Q2 大超预期](https://www.gamesindustry.biz/arc-raiders-generates-1149m-during-nexons-q2-sells-an-additional-800000-units)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [印度游戏市场首次突破 10 亿美元，2026 年底预计 12 亿](https://www.gamesindustry.biz/niko-partners-india-games-market-exceeds-1bn-forecast-to-reach-12bn-by-end-of-2026)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [CDPR《Witcher》多人衍生 Project Sirius 再裁 18 人](https://www.rockpapershotgun.com/troubled-witcher-multiplayer-spinoff-project-sirius-struck-with-new-round-of-layoffs)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 允许用户去除 AI 生成图片的可见水印](https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Kog 深耕 GPU 推理压榨：Agentic workflow 上跑得比想象快](https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [天然气价格可能三倍暴涨，超大规模厂商将后悔](https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Databricks 融资 50 亿美元，估值 1900 亿](https://techcrunch.com/2026/08/13/databricks-wanted-to-raise-1b-investors-wanted-15b-it-settled-on-5b-at-a-190b-valuation/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 推出 Ultrafast 模式：GPT-5.6 Sol 提速 14 倍](https://techcrunch.com/2026/08/13/openai-introduces-ultrafast-a-new-mode-that-makes-gpt-5-6-sol-work-at-14x-the-speed/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [IBM 联手 OpenAI 扩大企业 AI 布局](https://techcrunch.com/2026/08/13/ibm-partners-with-openai-to-bolster-enterprise-ai-push/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Writer 发布新模型，专攻降低 token 成本](https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Apple 提议 App Store 外链购买抽 15%](https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials

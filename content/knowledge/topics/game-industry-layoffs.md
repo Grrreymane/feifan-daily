@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-08-12"
+updated: "2026-08-15"
 ---
 
 # 游戏行业裁员
@@ -455,3 +455,9 @@ updated: "2026-08-12"
 
 ### [Latent Space Podcast - The Inference Engineering Masterclass](https://www.latent.space/p/inference-engineering)
 - 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [CDPR《Witcher》多人衍生 Project Sirius 再裁 18 人](https://www.rockpapershotgun.com/troubled-witcher-multiplayer-spinoff-project-sirius-struck-with-new-round-of-layoffs)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 允许用户去除 AI 生成图片的可见水印](https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
