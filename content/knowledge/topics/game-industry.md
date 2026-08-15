@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-08-14"
+updated: "2026-08-15"
 ---
 
 # 游戏行业
@@ -491,3 +491,9 @@ updated: "2026-08-14"
 
 ### [Spline Architect 新版加入 GPU 实例化，可沿样条布 100 万物体](https://80.lv/articles/spline-architect-s-new-version-adds-gpu-instancing-for-1-000-000-objects-along-splines/)
 - 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Netflix 关闭 Night School Studio 和 Moonloot Games](https://www.gamesindustry.biz/netflix-shutters-night-school-studio-and-moonloot-games)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Shattered World 签名合集：15 种黑暗幻想材质，Substance 3D 打造](https://80.lv/articles/build-eerie-worlds-with-this-dark-fantasy-signature-collection/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials

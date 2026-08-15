@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-08-02"
+updated: "2026-08-15"
 ---
 
 # 游戏开发
@@ -358,3 +358,12 @@ updated: "2026-08-02"
 
 ### [Polygon：Silksong 世界设计深度解析](https://www.polygon.com/silksong-world-design)
 - 📅 2026-08-02 · 来源: daily-materials · 分类: daily-materials
+
+### [Embracer 集团：下一部 Kingdom Come 比预期更快](https://80.lv/articles/embracer-group-expects-next-kingdom-come-sooner-than-you-might-think/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [2K 成立 3A 体育游戏开发商 Small Axe Studios（温哥华）](https://www.gamesindustry.biz/2k-establishes-aaa-sports-developer-small-axe-studios)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Arc Raiders 又卖 80 万份，Nexon Q2 大超预期](https://www.gamesindustry.biz/arc-raiders-generates-1149m-during-nexons-q2-sells-an-additional-800000-units)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials

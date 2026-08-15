@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-08-12"
+updated: "2026-08-15"
 ---
 
 # Substance 3D
@@ -205,3 +205,12 @@ Substance 系列工具与材质
 
 ### [Blender Geometry Nodes 复刻蜘蛛侠卡通渲染特效](https://www.reddit.com/r/blender/comments/1eop3xa/i_recreated_the_spiderman_across_the_spiderverse/)
 - 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Netflix 关闭 Night School Studio 和 Moonloot Games](https://www.gamesindustry.biz/netflix-shutters-night-school-studio-and-moonloot-games)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Shattered World 签名合集：15 种黑暗幻想材质，Substance 3D 打造](https://80.lv/articles/build-eerie-worlds-with-this-dark-fantasy-signature-collection/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 用的程序化美国市中心生成器](https://80.lv/articles/procedural-american-downtown-generator-for-blender/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials

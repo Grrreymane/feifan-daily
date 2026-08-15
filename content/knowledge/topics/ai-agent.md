@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-08-14"
+updated: "2026-08-15"
 ---
 
 # AI Agent
@@ -1144,3 +1144,12 @@ AI Agent 架构、实践与踩坑
 
 ### [Twitch 默认抓取直播用于 AI 训练，连自家高管都不知道抓了什么](https://www.rockpapershotgun.com/twitch-are-scraping-streams-for-ai-training-by-default-and-even-their-own-execs-dont-know-what-user-data-may-have-been-swept-up)
 - 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 允许用户去除 AI 生成图片的可见水印](https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Kog 深耕 GPU 推理压榨：Agentic workflow 上跑得比想象快](https://techcrunch.com/2026/08/14/kog-is-going-deeper-to-squeeze-more-inference-out-of-gpus/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [天然气价格可能三倍暴涨，超大规模厂商将后悔](https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials

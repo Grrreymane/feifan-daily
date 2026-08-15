@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-08-14"
+updated: "2026-08-15"
 ---
 
 # Blender
@@ -757,3 +757,24 @@ Blender 工具与社区动态
 
 ### [Reddit · 用 Gaea 2 做逼真悬崖岩石结构的程序化流程](https://www.reddit.com/r/unrealengine/comments/1vn6992/how_i_approach_realistic_cliff_and_getting_actual/)
 - 📅 2026-08-14 · 来源: daily-materials · 分类: daily-materials
+
+### [Gemini 3.7 Flash 发布](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-3-7-flash/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Shattered World 签名合集：15 种黑暗幻想材质，Substance 3D 打造](https://80.lv/articles/build-eerie-worlds-with-this-dark-fantasy-signature-collection/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 用的程序化美国市中心生成器](https://80.lv/articles/procedural-american-downtown-generator-for-blender/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender 中的简易风格化线稿技术](https://80.lv/articles/easy-stylized-line-art-technique-for-blender/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [3D 艺术家用 UE5 Substrate 重塑《半衰期2》头蟹](https://80.lv/articles/3d-artist-reimagined-half-life-2-s-headcrab-with-unreal-engine-5-s-substrate/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Phantom Blade Zero 用真实咏春动捕](https://80.lv/articles/phantom-blade-zero-uses-authentic-kung-fu-motion-capture/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Embracer 集团：下一部 Kingdom Come 比预期更快](https://80.lv/articles/embracer-group-expects-next-kingdom-come-sooner-than-you-might-think/)
+- 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
