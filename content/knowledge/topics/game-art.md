@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-08-15"
+updated: "2026-08-21"
 ---
 
 # 游戏美术
@@ -628,3 +628,18 @@ updated: "2026-08-15"
 
 ### [Shattered World 签名合集：15 种黑暗幻想材质，Substance 3D 打造](https://80.lv/articles/build-eerie-worlds-with-this-dark-fantasy-signature-collection/)
 - 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Dark and Darker 团队用 Aura 让非技术设计师半时长上手核心系统](https://80.lv/articles/how-dark-and-darker-s-devs-used-aura-to-build-a-major-feature-in-half-the-time/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### ["别再把 AI 生成的内容直接粘过来了"（HN 榜首 947 票）](https://news.ycombinator.com/item?id=49371857)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Manabu Kosaka 的手工纸雕（HN 179 票，游戏美术相关）](https://coca11272000.wixsite.com/manabukosaka)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Manabu Kosaka 的手工纸雕（HN 179 票，游戏美术相关）](https://news.ycombinator.com/item?id=49362001)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [有人训练了一个 125M 参数的钢琴自动补全模型（端上跑）](https://simedw.com/2026/08/20/midi-autocomplete/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials

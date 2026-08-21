@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-08-15"
+updated: "2026-08-21"
 ---
 
 # Blender
@@ -778,3 +778,9 @@ Blender 工具与社区动态
 
 ### [Embracer 集团：下一部 Kingdom Come 比预期更快](https://80.lv/articles/embracer-group-expects-next-kingdom-come-sooner-than-you-might-think/)
 - 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Talking Postgres × Simon Willison：AI 如何改变软件开发](https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：Blender + 3DGS 制作梦境公交视频](https://80.lv/articles/bus-ride-straight-out-of-dream-made-with-blender-3dgs/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
