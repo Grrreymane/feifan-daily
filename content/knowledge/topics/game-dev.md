@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-08-15"
+updated: "2026-08-21"
 ---
 
 # 游戏开发
@@ -367,3 +367,6 @@ updated: "2026-08-15"
 
 ### [Arc Raiders 又卖 80 万份，Nexon Q2 大超预期](https://www.gamesindustry.biz/arc-raiders-generates-1149m-during-nexons-q2-sells-an-additional-800000-units)
 - 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK Game Jam 2026 圆满结束](https://www.youtube.com/@GMTK)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials

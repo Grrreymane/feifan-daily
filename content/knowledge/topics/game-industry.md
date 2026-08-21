@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-08-15"
+updated: "2026-08-21"
 ---
 
 # 游戏行业
@@ -497,3 +497,9 @@ updated: "2026-08-15"
 
 ### [Shattered World 签名合集：15 种黑暗幻想材质，Substance 3D 打造](https://80.lv/articles/build-eerie-worlds-with-this-dark-fantasy-signature-collection/)
 - 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Sol 学会作弊了（AI 智能体行为观察）](https://news.ycombinator.com/item?id=49348189)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Miyazaki 暗示 FromSoftware 想回归单机](https://www.eurogamer.net/hidetaka-miyazaki-fromsoftware-single-player-games)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials

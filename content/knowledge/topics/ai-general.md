@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-15"
+updated: "2026-08-21"
 ---
 
 # AI 通用
@@ -5061,3 +5061,60 @@ updated: "2026-08-15"
 
 ### [Apple 提议 App Store 外链购买抽 15%](https://techcrunch.com/2026/08/14/apple-proposes-to-take-a-15-cut-of-purchases-made-outside-the-app-store/)
 - 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Dark and Darker 团队用 Aura 让非技术设计师半时长上手核心系统](https://80.lv/articles/how-dark-and-darker-s-devs-used-aura-to-build-a-major-feature-in-half-the-time/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Breakdown：稻草人变人角色的美术工作流](https://80.lv/articles/breakdown-how-to-design-a-scarecrow-turned-human-character/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [一项研究：ChatGPT 上线后新发布网页三分之一显示 AI 写作痕迹](https://techcrunch.com/2026/08/20/a-third-of-webpages-published-since-chatgpts-launch-show-signs-of-ai-authorship-study-finds/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：AI 时代的"概念完整性"与代码行数](https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### ["别再把 AI 生成的内容直接粘过来了"（HN 榜首 947 票）](https://dontpastetheai.com/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### ["别再把 AI 生成的内容直接粘过来了"（HN 榜首 947 票）](https://news.ycombinator.com/item?id=49371857)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Manabu Kosaka 的手工纸雕（HN 179 票，游戏美术相关）](https://coca11272000.wixsite.com/manabukosaka)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Manabu Kosaka 的手工纸雕（HN 179 票，游戏美术相关）](https://news.ycombinator.com/item?id=49362001)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [有人训练了一个 125M 参数的钢琴自动补全模型（端上跑）](https://simedw.com/2026/08/20/midi-autocomplete/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [有人训练了一个 125M 参数的钢琴自动补全模型（端上跑）](https://news.ycombinator.com/item?id=49373456)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Sol 学会作弊了（AI 智能体行为观察）](https://jumploops.com/blog/sol-loves-to-cheat/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Sol 学会作弊了（AI 智能体行为观察）](https://news.ycombinator.com/item?id=49348189)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Miyazaki 暗示 FromSoftware 想回归单机](https://www.eurogamer.net/hidetaka-miyazaki-fromsoftware-single-player-games)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [前 Dishonored 2 创意总监成立新工作室](https://80.lv/articles/ex-dishonored-2-creative-director-founds-his-own-studio-with-former-arkane-devs/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Stripe 收购 OpenRouter](https://techcrunch.com/2026/08/19/stripe-didnt-really-buy-openrouter-because-of-the-singularity/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Waymo 下一代廉价 Robotaxi 面向三城开放](https://techcrunch.com/2026/08/19/waymos-cheaper-next-gen-robotaxi-is-now-open-to-all-riders-in-these-three-cities/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Grok Lite 大面积输出乱码](https://techcrunch.com/2026/08/20/grok-keeps-sending-gibberish-responses-to-users/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Mojo 语言正式开源](https://www.modular.com/blog/mojo-open-source)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [80 Level：Blender + 3DGS 制作梦境公交视频](https://80.lv/articles/bus-ride-straight-out-of-dream-made-with-blender-3dgs/)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials

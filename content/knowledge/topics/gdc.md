@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-08-03"
+updated: "2026-08-21"
 ---
 
 # GDC 大会
@@ -176,3 +176,6 @@ GDC 演讲、报告与行业洞察
 
 ### [How Google Helped Destroy Adoption of RSS Feeds（HN 577 顶，2023 长青文）](https://openrss.org/blog/how-google-helped-destroy-adoption-of-rss-feeds)
 - 📅 2026-08-03 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Guru：中级 UV 展开教程 + 5.0 Donut Tutorial 系列更新](https://www.youtube.com/@blenderguru)
+- 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials

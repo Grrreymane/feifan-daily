@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-08-02"
+updated: "2026-08-21"
 ---
 
 # Simon Willison
@@ -133,3 +133,5 @@ updated: "2026-08-02"
 - 📅 2026-08-02 — [Simon Willison "Stateless MCP has recaptured my interest"](https://simonwillison.net/2026/Jul/31/stateless-mcp)
 
 - 📅 2026-08-02 — [Simon Willison "Directly Responsible Individuals (DRI)"](https://simonwillison.net/2026/Jul/12/dri)
+
+- 📅 2026-08-21 — [Simon Willison：AI 时代的"概念完整性"与代码行数](https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/)
