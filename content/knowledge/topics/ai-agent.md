@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-08-15"
+updated: "2026-08-22"
 ---
 
 # AI Agent
@@ -1153,3 +1153,12 @@ AI Agent 架构、实践与踩坑
 
 ### [天然气价格可能三倍暴涨，超大规模厂商将后悔](https://techcrunch.com/2026/08/14/hyperscalers-might-regret-embracing-natural-gas-if-new-forecast-proves-correct/)
 - 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Ryan Greenblatt on Dwarkesh Podcast：What happens once AI can automate AI research?](https://www.dwarkesh.com/p/ryan-greenblatt-2)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy Sequoia AI Ascent 2026 talk：From Vibe Coding to Agentic Engineering](https://www.youtube.com/results?search_query=Karpathy+Sequoia+AI+Ascent+2026)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [GTA 6 泄露事件持续发酵：Take-Two 向 Microsoft 和 Discord 发出传票](https://www.rockpapershotgun.com/gta-6-leaker-hunt-is-on-as-rockstar-owners-take-two-file-subpoenas-asking-microsoft-and-discord-for-records)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials

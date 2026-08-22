@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-08-21"
+updated: "2026-08-22"
 ---
 
 # Blender
@@ -784,3 +784,12 @@ Blender 工具与社区动态
 
 ### [80 Level：Blender + 3DGS 制作梦境公交视频](https://80.lv/articles/bus-ride-straight-out-of-dream-made-with-blender-3dgs/)
 - 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity Stylized Water 3 新增 Spline-Based River Modeler](https://80.lv/articles/unity-s-stylized-water-3-is-getting-spline-based-river-modeler-tool/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Free Blender Tool For Procedural Spider Walks（免费程序化蜘蛛步态插件）](https://80.lv/articles/free-blender-tool-for-procedural-spider-walks/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Why Now Might Be the Right Time to Start a Career in Game Art（Vertex School 观点）](https://80.lv/articles/why-now-might-be-the-right-time-to-start-a-career-in-game-art/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
