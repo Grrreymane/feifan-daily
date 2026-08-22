@@ -3,7 +3,7 @@ title: "Vibe Coding"
 slug: "vibe-coding"
 description: "AI 辅助编程的现象、利弊与讨论"
 created: "2026-04-07"
-updated: "2026-08-01"
+updated: "2026-08-22"
 ---
 
 # Vibe Coding
@@ -101,3 +101,12 @@ AI 辅助编程的现象、利弊与讨论
 
 ### [Latent Space #Eiso Kant Poolside 播客版](https://www.latent.space/p/eiso-kant)
 - 📅 2026-08-01 · 来源: daily-materials · 分类: daily-materials
+
+### [Ryan Greenblatt on Dwarkesh Podcast：What happens once AI can automate AI research?](https://www.dwarkesh.com/p/ryan-greenblatt-2)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy Sequoia AI Ascent 2026 talk：From Vibe Coding to Agentic Engineering](https://www.youtube.com/results?search_query=Karpathy+Sequoia+AI+Ascent+2026)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [GTA 6 泄露事件持续发酵：Take-Two 向 Microsoft 和 Discord 发出传票](https://www.rockpapershotgun.com/gta-6-leaker-hunt-is-on-as-rockstar-owners-take-two-file-subpoenas-asking-microsoft-and-discord-for-records)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials

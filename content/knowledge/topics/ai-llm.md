@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-08-12"
+updated: "2026-08-22"
 ---
 
 # 大语言模型
@@ -613,3 +613,15 @@ LLM 技术进展、应用与讨论
 
 ### [Last Week in AI 播客 #253](https://lastweekin.ai/p/253)
 - 📅 2026-08-12 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Don't classify. Hallucinate!](https://simonwillison.net/2026/Aug/15/dont-classify-hallucinate/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Ryan Greenblatt on Dwarkesh Podcast：What happens once AI can automate AI research?](https://www.dwarkesh.com/p/ryan-greenblatt-2)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space：Inference Engineering Masterclass](https://www.latent.space/p/inference-engineering-masterclass)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #254：Rogue AI hacking, bio-weapons, Dean & Hassabis out](https://www.lastweekin.ai/p/254)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials

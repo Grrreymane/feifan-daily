@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-21"
+updated: "2026-08-22"
 ---
 
 # AI 通用
@@ -5118,3 +5118,75 @@ updated: "2026-08-21"
 
 ### [80 Level：Blender + 3DGS 制作梦境公交视频](https://80.lv/articles/bus-ride-straight-out-of-dream-made-with-blender-3dgs/)
 - 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Unity Stylized Water 3 新增 Spline-Based River Modeler](https://80.lv/articles/unity-s-stylized-water-3-is-getting-spline-based-river-modeler-tool/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Why Now Might Be the Right Time to Start a Career in Game Art（Vertex School 观点）](https://80.lv/articles/why-now-might-be-the-right-time-to-start-a-career-in-game-art/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Dishonored 导演 Harvey Smith 反思：讨论"沉浸式模拟是否已死"本身会不会成为自我实现的预言](https://www.rockpapershotgun.com/do-questions-like-that-create-a-self-fulfilling-prophecy-dishonored-director-harvey-smith-on-the-fear-of-asking-if-immersive-sims-are-dead)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：There are no lossless transformations of natural-language text](https://simonwillison.net/2026/Aug/19/lossless-transformations/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Don't classify. Hallucinate!](https://simonwillison.net/2026/Aug/15/dont-classify-hallucinate/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Ryan Greenblatt on Dwarkesh Podcast：What happens once AI can automate AI research?](https://www.dwarkesh.com/p/ryan-greenblatt-2)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy Sequoia AI Ascent 2026 talk：From Vibe Coding to Agentic Engineering](https://www.youtube.com/results?search_query=Karpathy+Sequoia+AI+Ascent+2026)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [GTA 6 泄露事件持续发酵：Take-Two 向 Microsoft 和 Discord 发出传票](https://www.rockpapershotgun.com/gta-6-leaker-hunt-is-on-as-rockstar-owners-take-two-file-subpoenas-asking-microsoft-and-discord-for-records)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Kumi Tanioka（最终幻想水晶编年史作曲家）声明：Spotify 页面出现的新专辑不是自己做的，疑似 AI 生成](https://www.rockpapershotgun.com/final-fantasy-crystal-chronicles-composer-kumi-tanioka-says-that-she-didnt-make-the-new-very-likely-ai-generated-album-on-her-spotify-page)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [2XKO 停止主动开发](https://www.rockpapershotgun.com/active-development-on-league-of-legends-fighting-game-spinoff-2xko-will-be-coming-to-an-end-at-the-end-of-the-year)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Cyberpunk: Edgerunners 2 定档 10 月 20 日](https://www.rockpapershotgun.com/the-lines-between-redemption-and-revenge-will-blur-promises-cyberpunk-edgerunners-2s-latest-trailer-as-the-series-locks-in-a-late-october-release)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [South of Midnight 开发商 Compulsion Games 完成 MBO，拿回所有原创 IP 版权，正开发新作](https://www.rockpapershotgun.com/were-going-to-take-things-slow-south-of-midnight-devs-now-own-the-rights-to-all-their-games-again-after-quitting-xbox-and-are-working-on-a-new-game)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Mortal Shell 2 首个平衡补丁：经济更宽松，敌人/Boss 削弱](https://www.rockpapershotgun.com/mortal-shell-2s-first-balance-patch-makes-its-in-game-economy-a-lot-more-lenient-and-nerfs-some-enemies-and-bosses-for-a-smoother-ride)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Tesla, Uber, Waymo 均获批在内华达州部署 Robotaxi（共约 8000 辆）](https://techcrunch.com/2026/08/20/tesla-uber-and-waymo-all-get-the-ok-to-operate-thousands-of-robotaxis-in-nevada/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [AI 数据标注创业公司 Micro1 达到 5 亿美元 gross run rate](https://techcrunch.com/2026/08/20/ai-data-startup-micro1-reaches-500m-gross-run-rate-amid-ai-training-boom/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Starcloud 融资 2.5 亿美元，投入轨道数据中心](https://techcrunch.com/2026/08/21/starcloud-raises-200-million-for-orbital-data-centers-as-launch-options-dry-up/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Tesla 因门把手隐藏问题在中国召回 300 万辆车](https://techcrunch.com/2026/08/21/tesla-recalls-3-million-cars-as-part-of-china-wide-push-to-stop-hidden-door-handles/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Apollo（PE 巨头）确认数据泄露事件](https://techcrunch.com/2026/08/21/private-equity-firm-apollo-confirms-data-breach-amid-hacking-wave-targeting-financial-giants/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Waymo 向 NHTSA 提交儿童碰撞调查材料（大量涉密项被涂黑）](https://techcrunch.com/2026/08/21/waymo-hands-over-documents-in-nhtsas-child-collision-probe/)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space：BioAI Phase Shift](https://www.latent.space/p/bioai-phase-shift)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space：Inference Engineering Masterclass](https://www.latent.space/p/inference-engineering-masterclass)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #254：Rogue AI hacking, bio-weapons, Dean & Hassabis out](https://www.lastweekin.ai/p/254)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [FlippedNormals：Difficulty VS Punishment in Games](https://www.youtube.com/@FlippedNormals)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Zeed Bullwolf（HeyLink 集合页）](https://heylink.me/ZeedBullwolf)
+- 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials

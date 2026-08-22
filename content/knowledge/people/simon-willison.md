@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-08-21"
+updated: "2026-08-22"
 ---
 
 # Simon Willison
@@ -135,3 +135,7 @@ updated: "2026-08-21"
 - 📅 2026-08-02 — [Simon Willison "Directly Responsible Individuals (DRI)"](https://simonwillison.net/2026/Jul/12/dri)
 
 - 📅 2026-08-21 — [Simon Willison：AI 时代的"概念完整性"与代码行数](https://simonwillison.net/2026/Aug/19/conceptual-integrity-and-counting-lines-of-code/)
+
+- 📅 2026-08-23 — [Simon Willison：There are no lossless transformations of natural-language text](https://simonwillison.net/2026/Aug/19/lossless-transformations/)
+
+- 📅 2026-08-23 — [Simon Willison：Don't classify. Hallucinate!](https://simonwillison.net/2026/Aug/15/dont-classify-hallucinate/)
