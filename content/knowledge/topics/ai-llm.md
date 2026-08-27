@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-08-22"
+updated: "2026-08-27"
 ---
 
 # 大语言模型
@@ -625,3 +625,12 @@ LLM 技术进展、应用与讨论
 
 ### [Last Week in AI #254：Rogue AI hacking, bio-weapons, Dean & Hassabis out](https://www.lastweekin.ai/p/254)
 - 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [AWS Acquires DuckLabs](https://duckdb.org/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Bill Gates: The turbulent AI era is here](https://www.gatesnotes.com/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy: AGI is still a decade away](https://www.dwarkesh.com/p/andrej-karpathy)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials

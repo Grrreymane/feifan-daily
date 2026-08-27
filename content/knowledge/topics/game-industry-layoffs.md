@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-08-15"
+updated: "2026-08-27"
 ---
 
 # 游戏行业裁员
@@ -461,3 +461,15 @@ updated: "2026-08-15"
 
 ### [Google 允许用户去除 AI 生成图片的可见水印](https://techcrunch.com/2026/08/14/google-will-now-allow-users-to-remove-visible-watermark-from-its-ai-generations/)
 - 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox 允许 Insider 将实体游戏碟转为数字版](https://www.gamesindustry.biz/xbox-to-let-insiders-convert-physical-game-discs-into-digital-entitlements-later-this-month)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Ubisoft 推出 The Player Council 玩家测试平台](https://www.gamesindustry.biz/ubisoft-announces-playstest-platform-the-player-council)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Schell Games 裁员](https://www.gamesindustry.biz/schell-games-reportedly-lays-off-staff)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Entity 获 580 万美元种子轮：浏览器主机级游戏平台](https://www.gamesindustry.biz/entity-raises-58-million-to-build-browser-based-console-quality-gaming-platform)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials

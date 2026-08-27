@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-08-22"
+updated: "2026-08-27"
 ---
 
 # AI Agent
@@ -1162,3 +1162,9 @@ AI Agent 架构、实践与踩坑
 
 ### [GTA 6 泄露事件持续发酵：Take-Two 向 Microsoft 和 Discord 发出传票](https://www.rockpapershotgun.com/gta-6-leaker-hunt-is-on-as-rockstar-owners-take-two-file-subpoenas-asking-microsoft-and-discord-for-records)
 - 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [AWS Acquires DuckLabs](https://duckdb.org/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Dwarkesh × Andrej Karpathy](https://www.dwarkesh.com/p/andrej-karpathy)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials

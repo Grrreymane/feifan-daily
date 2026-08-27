@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-08-22"
+updated: "2026-08-27"
 ---
 
 # 游戏美术
@@ -655,3 +655,15 @@ updated: "2026-08-22"
 
 ### [Zeed Bullwolf（HeyLink 集合页）](https://heylink.me/ZeedBullwolf)
 - 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Entity 获 580 万美元种子轮：浏览器主机级游戏平台](https://www.gamesindustry.biz/entity-raises-58-million-to-build-browser-based-console-quality-gaming-platform)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [印度游戏开发者协会首批 Supernova 孵化 15 家工作室](https://www.gamesindustry.biz/game-developer-association-of-india-picks-15-studios-for-first-supernova-cohort)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Ziva VFX 启发的物理肌肉模拟系统开源尝试](https://80.lv/articles/ziva-vfx-inspired-physics-based-muscle-simulation-system/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Kensyouen_Y 的动漫风 3D 少女 Blender 建模流程](https://80.lv/articles/kensyouen_y-s-anime-3d-girl-takes-up-blender-modeling/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
