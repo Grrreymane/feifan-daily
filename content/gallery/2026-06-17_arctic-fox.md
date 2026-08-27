@@ -4,7 +4,7 @@ date: "2026-06-17"
 tags: ["北极狐", "赛璐珞", "AI生成", "动态构图"]
 description: "雪白毛色 + 浅蓝纹路的拟人北极狐战士，手持水晶冰矛，立于晨曦冰崖之上，背景是流转的北极光。冷色调 + 平涂赛璐珞 + 锐利线条，干净不油腻。"
 image: "2026-06-17_arctic-fox.jpg"
-artist: "AI Generated (备用引擎)"
+artist: "AI Generated"
 twitter_url: ""
 ---
 

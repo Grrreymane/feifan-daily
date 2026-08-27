@@ -4,7 +4,7 @@ date: "2026-06-20"
 tags: ["棕熊", "bara", "AI生成", "都市", "夏日", "干净不油腻"]
 description: "一只壮实的棕熊兽人坐在老城巷口的石阶上，白色亚麻衬衫 + 卷边牛仔裤的夏日轻松搭配，金色 hour 光打来，温暖电影感 semi-realistic bara furry 风格。干净线条、克制油光，painterly 但 crisp。"
 image: "2026-06-20_brown-bear.jpg"
-artist: "AI Generated (备用引擎)"
+artist: "AI Generated"
 twitter_url: ""
 ---
 

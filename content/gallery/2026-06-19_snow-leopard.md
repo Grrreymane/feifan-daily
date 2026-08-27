@@ -4,7 +4,7 @@ date: "2026-06-19"
 tags: ["雪豹", "赛璐珞", "AI生成", "都市", "干净不油腻"]
 description: "一只灰白雪豹站在冷调蓝色城市背景前，身着深灰连帽衫（前胸爪印 logo）+ 卡其色慢跑裤 + 黑色无指手套，带斑点的长尾自然垂落。日系 cel-shaded 干净线条，平涂赛璐珞着色，整体冷蓝氛围，与周二 bara 写实路线形成对比。"
 image: "2026-06-19_snow-leopard.jpg"
-artist: "AI Generated (备用引擎)"
+artist: "AI Generated"
 twitter_url: ""
 ---
 
