@@ -4,7 +4,7 @@ date: "2026-06-18"
 tags: ["雪狼", "赛璐珞", "AI生成", "日常风", "干净不油腻"]
 description: "一只白色雪狼站在木质瞭望台上，身穿海军蓝 EXPLORE 卫衣 + 卡其工装裤，望向夕阳中的山脉与河谷。日系 cel-shaded 干净线条，平涂赛璐珞 + 暖夕阳氛围，与近期 bara 写实风形成对比。"
 image: "2026-06-18_arctic-wolf.jpg"
-artist: "AI Generated (备用引擎)"
+artist: "AI Generated"
 twitter_url: ""
 ---
 

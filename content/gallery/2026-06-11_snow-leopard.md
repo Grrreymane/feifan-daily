@@ -4,7 +4,7 @@ date: "2026-06-11"
 tags: ["雪豹", "赛璐珞", "武者", "AI生成"]
 description: "拂晓山崖之上，深蓝武装、银线绣纹、长剑出鞘。Cel-shaded 清线条风格，干净不油腻。"
 image: "2026-06-11_snow-leopard.jpg"
-artist: "AI Generated (nano-banana pro / generate_picture)"
+artist: "AI Generated (nano-banana pro /)"
 twitter_url: ""
 ---
 
