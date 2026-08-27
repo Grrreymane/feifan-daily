@@ -14,4 +14,3 @@ twitter_url: ""
 
 构图给了强侧逆光和 rim light，让轮廓干脆；穿搭选择黑色 Bomber 夹克 + Cargo 裤，与蓝紫渐变的黄昏天空形成冷暖对比。背景做了极简化的都市剪影处理，让主体保持视觉焦点。
 
-**生成引擎**：Nano-Banana（LightAI key 过期，本次切换到备用引擎 generate_picture）

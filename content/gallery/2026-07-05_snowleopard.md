@@ -21,6 +21,5 @@ twitter_url: ""
 
 ## 生成参数
 
-- 引擎：nano-banana pro（备用引擎，因 LightAI Key 过期未能自动刷新）
 - 尺寸：1024x1024（源图），压缩至 800px 宽 / JPEG q82（143KB）
 - 关键 prompt：*"confident anthropomorphic snow leopard, clean flat cartoon illustration, hooded jacket, urban rooftop at golden hour, muted teal and orange palette, dynamic three-quarter pose, high quality digital illustration"*
