@@ -2,7 +2,7 @@
 title: "Andrej Karpathy"
 slug: "andrej-karpathy"
 created: "2026-05-23"
-updated: "2026-08-22"
+updated: "2026-08-27"
 ---
 
 # Andrej Karpathy
@@ -41,3 +41,5 @@ updated: "2026-08-22"
 - 📅 2026-08-12 — [Andrej Karpathy - Opus 5 三.js LOTR 交互实验](https://x.com/karpathy/status/1953547758156431564)
 
 - 📅 2026-08-23 — [Andrej Karpathy Sequoia AI Ascent 2026 talk：From Vibe Coding to Agentic Engineering](https://www.youtube.com/results?search_query=Karpathy+Sequoia+AI+Ascent+2026)
+
+- 📅 2026-08-27 — [Andrej Karpathy — AGI is still a decade away](https://www.dwarkesh.com/p/andrej-karpathy)

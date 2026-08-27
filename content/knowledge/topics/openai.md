@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-08-15"
+updated: "2026-08-27"
 ---
 
 # OpenAI
@@ -943,3 +943,6 @@ OpenAI 公司动态与产品
 
 ### [Writer 发布新模型，专攻降低 token 成本](https://techcrunch.com/2026/08/13/writer-introduces-new-ai-model-and-upgraded-harness-to-contain-token-costs/)
 - 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [Dwarkesh × Andrej Karpathy](https://www.dwarkesh.com/p/andrej-karpathy)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials

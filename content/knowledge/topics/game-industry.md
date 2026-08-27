@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-08-21"
+updated: "2026-08-27"
 ---
 
 # 游戏行业
@@ -503,3 +503,18 @@ updated: "2026-08-21"
 
 ### [Miyazaki 暗示 FromSoftware 想回归单机](https://www.eurogamer.net/hidetaka-miyazaki-fromsoftware-single-player-games)
 - 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Rockstar 回应 GTA 6 泄漏事件](https://www.gamesindustry.biz/rockstar-responds-to-gta-6-leaks-this-is-obviously-not-how-we-intended-for-you-to-see-the-game-after-all-this-time)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Gamescom 2026 Opening Night Live 亮点回顾](https://www.gamesindustry.biz/the-highlights-of-gamescom-opening-night-live-2026)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [NVIDIA 在 Gamescom 宣布 Ray-Traced Nanite + DLSS 4.5](https://www.gamesindustry.biz/nvidia-brings-ray-traced-nanite-native-anti-cheat-and-dlss-45-to-gamescom-2026-lineup)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Paradox 新策略游戏：文明+冰汽时代混合体](https://80.lv/articles/paradox-s-next-strategy-is-mix-of-civilization-frostpunk/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [HoYoverse 新作 Nodusfall：神话题材 UE5 合作游戏](https://80.lv/articles/check-out-nodusfall-mythological-co-op-game-from-genshin-impact-maker-hoyoverse/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials

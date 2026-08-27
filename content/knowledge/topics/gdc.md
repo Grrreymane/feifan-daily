@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-08-21"
+updated: "2026-08-27"
 ---
 
 # GDC 大会
@@ -179,3 +179,6 @@ GDC 演讲、报告与行业洞察
 
 ### [Blender Guru：中级 UV 展开教程 + 5.0 Donut Tutorial 系列更新](https://www.youtube.com/@blenderguru)
 - 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [GDC 2026 Keynote Session](https://gdconf.com/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials

@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-08-21"
+updated: "2026-08-27"
 ---
 
 # 游戏开发
@@ -370,3 +370,15 @@ updated: "2026-08-21"
 
 ### [GMTK Game Jam 2026 圆满结束](https://www.youtube.com/@GMTK)
 - 📅 2026-08-21 · 来源: daily-materials · 分类: daily-materials
+
+### [Schell Games 裁员](https://www.gamesindustry.biz/schell-games-reportedly-lays-off-staff)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Entity 获 580 万美元种子轮：浏览器主机级游戏平台](https://www.gamesindustry.biz/entity-raises-58-million-to-build-browser-based-console-quality-gaming-platform)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [印度游戏开发者协会首批 Supernova 孵化 15 家工作室](https://www.gamesindustry.biz/game-developer-association-of-india-picks-15-studios-for-first-supernova-cohort)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Ziva VFX 启发的物理肌肉模拟系统开源尝试](https://80.lv/articles/ziva-vfx-inspired-physics-based-muscle-simulation-system/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials

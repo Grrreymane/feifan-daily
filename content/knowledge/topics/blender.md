@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-08-22"
+updated: "2026-08-27"
 ---
 
 # Blender
@@ -793,3 +793,18 @@ Blender 工具与社区动态
 
 ### [Why Now Might Be the Right Time to Start a Career in Game Art（Vertex School 观点）](https://80.lv/articles/why-now-might-be-the-right-time-to-start-a-career-in-game-art/)
 - 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [印度游戏开发者协会首批 Supernova 孵化 15 家工作室](https://www.gamesindustry.biz/game-developer-association-of-india-picks-15-studios-for-first-supernova-cohort)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Ziva VFX 启发的物理肌肉模拟系统开源尝试](https://80.lv/articles/ziva-vfx-inspired-physics-based-muscle-simulation-system/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Kensyouen_Y 的动漫风 3D 少女 Blender 建模流程](https://80.lv/articles/kensyouen_y-s-anime-3d-girl-takes-up-blender-modeling/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Poker Deckbuilder：实拍效果替代通用 VFX 的美术选择](https://80.lv/articles/poker-deckbuilder-with-practical-effects-instead-of-generic-vfx/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [水彩风 3D：Digital Circus 角色 Pomni 的 Blender 重制](https://80.lv/articles/watercolor-style-3d-take-on-pomni-from-the-amazing-digital-circus/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials

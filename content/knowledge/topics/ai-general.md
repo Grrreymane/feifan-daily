@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-22"
+updated: "2026-08-27"
 ---
 
 # AI 通用
@@ -5190,3 +5190,51 @@ updated: "2026-08-22"
 
 ### [Zeed Bullwolf（HeyLink 集合页）](https://heylink.me/ZeedBullwolf)
 - 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Andrej Karpathy — AGI is still a decade away](https://www.dwarkesh.com/p/andrej-karpathy)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Bill Gates: The turbulent AI era is here](https://www.gatesnotes.com/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Rockstar 回应 GTA 6 泄漏事件](https://www.gamesindustry.biz/rockstar-responds-to-gta-6-leaks-this-is-obviously-not-how-we-intended-for-you-to-see-the-game-after-all-this-time)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Gamescom 2026 Opening Night Live 亮点回顾](https://www.gamesindustry.biz/the-highlights-of-gamescom-opening-night-live-2026)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [NVIDIA 在 Gamescom 宣布 Ray-Traced Nanite + DLSS 4.5](https://www.gamesindustry.biz/nvidia-brings-ray-traced-nanite-native-anti-cheat-and-dlss-45-to-gamescom-2026-lineup)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Paradox 新策略游戏：文明+冰汽时代混合体](https://80.lv/articles/paradox-s-next-strategy-is-mix-of-civilization-frostpunk/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [HoYoverse 新作 Nodusfall：神话题材 UE5 合作游戏](https://80.lv/articles/check-out-nodusfall-mythological-co-op-game-from-genshin-impact-maker-hoyoverse/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Silent Hill: Townfall 公开角色阵容与 18 分钟实机](https://80.lv/articles/silent-hill-townfall-reveals-its-cast-in-new-trailer/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Amnesia 团队新科幻游戏，SOMA 精神续作](https://80.lv/articles/amnesia-developers-revealed-new-sci-fi-game-that-will-make-you-want-to-replay-soma/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Capcom Mega Man: Dual Override 实机预告](https://80.lv/articles/catch-a-glimpse-of-capcom-s-mega-man-dual-override-with-a-new-gameplay-trailer/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox 允许 Insider 将实体游戏碟转为数字版](https://www.gamesindustry.biz/xbox-to-let-insiders-convert-physical-game-discs-into-digital-entitlements-later-this-month)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Ubisoft 推出 The Player Council 玩家测试平台](https://www.gamesindustry.biz/ubisoft-announces-playstest-platform-the-player-council)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Schell Games 裁员](https://www.gamesindustry.biz/schell-games-reportedly-lays-off-staff)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Entity 获 580 万美元种子轮：浏览器主机级游戏平台](https://www.gamesindustry.biz/entity-raises-58-million-to-build-browser-based-console-quality-gaming-platform)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [印度游戏开发者协会首批 Supernova 孵化 15 家工作室](https://www.gamesindustry.biz/game-developer-association-of-india-picks-15-studios-for-first-supernova-cohort)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [水彩风 3D：Digital Circus 角色 Pomni 的 Blender 重制](https://80.lv/articles/watercolor-style-3d-take-on-pomni-from-the-amazing-digital-circus/)
+- 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
