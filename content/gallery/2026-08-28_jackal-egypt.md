@@ -52,3 +52,31 @@ Standing at Karnak Temple ruins at dusk with giant columns and flickering
 brazier fires. Same weathered look on gold and stone, same visible brush
 strokes on fur.
 ```
+
+---
+
+## 旧版 · 文生图 v1（对比参考）
+
+这是最初的文生图版本。AI 味较重（勾线均匀、姿态平视、装备略新），后来才改用图生图重出。
+
+![埃及胡狼 v1](/images/gallery/2026-08-28_jackal-egypt-v1.png)
+
+文生图 prompt：
+
+```
+Blizzard Warcraft splash art style, painterly stylized realism with strong
+dark outlines, cinematic tribal fantasy character illustration.
+Anthropomorphic Anubis jackal warrior in heroic proportions, muscular bara
+body with black short fur, glowing amber eyes, long pointed ears.
+Historically-inspired Ancient Egyptian New Kingdom royal guard gear (18th-19th
+Dynasty, Tutankhamun era): pleated white linen shendyt kilt with gold-thread
+hem, bronze scale armor vest with turquoise inlay, large chest pectoral of
+golden scarab beetle with lapis lazuli wings, striped nemes headdress style
+shoulder-hood in blue and gold, cobra uraeus circlet on brow, khopesh
+sickle-sword with hieroglyphic engravings, wooden shield painted with the Eye
+of Horus, papyrus-motif embossed leather bracers, wide beaded broad collar
+necklace of gold and carnelian. Standing on stone terrace of Karnak Temple at
+night, giant columns behind, brazier fires flickering, warm firelight against
+cool moonlit blue stone. Clean lines, no oiliness, restrained brushwork.
+Full body, three-quarter heroic pose.
+```

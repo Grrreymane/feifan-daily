@@ -50,3 +50,30 @@ Standing on a rocky steppe cliff at dusk with distant Altai mountains and
 wind-blown grass. Same weathered, worn look on all leather and metal,
 same visible brush strokes on fur.
 ```
+
+---
+
+## 旧版 · 文生图 v1（对比参考）
+
+这是最初的文生图版本。AI 味较重（勾线均匀、姿态平视、装备略新），后来才改用图生图重出。
+
+![斯基泰黑豹 v1](/images/gallery/2026-08-28_panther-scythian-v1.png)
+
+文生图 prompt：
+
+```
+Blizzard Warcraft splash art style, painterly stylized realism with strong
+dark outlines, cinematic tribal fantasy character illustration.
+Anthropomorphic black panther warrior in heroic proportions (wide shoulders,
+thick limbs, low stance), muscular bara body, jet-black glossy fur, piercing
+amber eyes. Historically-inspired Scythian and Sarmatian nomad armor:
+overlapping bronze lamellar scale cuirass with animal-style gold plaques
+(stag, griffin, coiled feline motifs), pointed felt hood with fur trim,
+layered leather bracers with embossed griffin heads, curved akinakes short
+sword at hip, gorytos bow-and-arrow case with intricate gold repousse work,
+chunky twisted torc necklace, decorated leather boots. Standing on rocky
+steppe cliff at dusk, distant snowy Altai mountains, warm orange sunset rim
+light against cool blue-grey environmental haze, wind-blown grass. Clean
+lines, no oiliness, restrained brushwork, painterly highlights on fur and
+metal. Character splash art composition, full body, three-quarter view.
+```
