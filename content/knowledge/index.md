@@ -1,6 +1,6 @@
 ---
 title: "知识库索引"
-updated: "2026-08-27"
+updated: "2026-08-28"
 ---
 
 # 📖 非凡像素知识库
@@ -28,9 +28,9 @@ updated: "2026-08-27"
 
 ### 🤖 AI
 
-- [AI Agent](topics/ai-agent.md) (384 条)
-- [AI 通用](topics/ai-general.md) (1740 条)
-- [大语言模型](topics/ai-llm.md) (206 条)
+- [AI Agent](topics/ai-agent.md) (385 条)
+- [AI 通用](topics/ai-general.md) (1750 条)
+- [大语言模型](topics/ai-llm.md) (209 条)
 - [AI 工具](topics/ai-tools.md) (1 条)
 
 ### 💼 职场
@@ -42,7 +42,7 @@ updated: "2026-08-27"
 - [游戏美术](topics/game-art.md) (217 条)
 - [游戏开发](topics/game-dev.md) (122 条)
 - [游戏行业裁员](topics/game-industry-layoffs.md) (152 条)
-- [游戏行业](topics/game-industry.md) (167 条)
+- [游戏行业](topics/game-industry.md) (170 条)
 - [游戏工会](topics/game-unions.md) (1 条)
 
 ## 👤 人物索引
@@ -56,4 +56,4 @@ updated: "2026-08-27"
 
 📊 共 22 个话题，4 位人物
 
-*最后更新: 2026-08-27*
+*最后更新: 2026-08-28*

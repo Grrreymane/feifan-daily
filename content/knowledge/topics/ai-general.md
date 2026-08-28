@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-27"
+updated: "2026-08-28"
 ---
 
 # AI 通用
@@ -5238,3 +5238,33 @@ updated: "2026-08-27"
 
 ### [水彩风 3D：Digital Circus 角色 Pomni 的 Blender 重制](https://80.lv/articles/watercolor-style-3d-take-on-pomni-from-the-amazing-digital-circus/)
 - 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Nvidia agrees to acquire Hugging Face for $13B](https://news.ycombinator.com/item?id=49458161)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Small Models Have Arrived](https://news.ycombinator.com/item?id=49466917)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: The load-bearing vocabulary of Claude](https://news.ycombinator.com/item?id=49461817)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Microduck 开源鸭子机器人](https://news.ycombinator.com/item?id=49462763)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [European games industry revenue reached €30bn in 2025](https://www.gamesindustry.biz/european-games-industry-revenue-reached-30bn-in-2025)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox 下一代主机重点转向"效率与可负担性"](https://www.gamesindustry.biz/xbox-to-focus-on-efficiency-and-affordability-alongside-performance-for-next-gen-console-amid-rising-hardware-costs-and-innovations-in-ai)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Godot 4.8 开发全速推进](https://80.lv/articles/godot-4-8-development-is-in-full-swing/)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Dwarf Fortress 迎来"宇宙级"魔法系统更新](https://www.rockpapershotgun.com/dwarf-fortress-is-getting-the-mother-of-all-magic-updates-extending-to-the-fundamental-cosmological-makeup-of-the-universe)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Nvidia 敲定收购 Hugging Face 129 亿美元](https://techcrunch.com/2026/08/26/nvidia-closes-in-on-hugging-face-acquisition/)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Amazon 三倍下单英伟达芯片](https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
