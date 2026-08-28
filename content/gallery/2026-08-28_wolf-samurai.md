@@ -51,3 +51,31 @@ Standing on stone bridge at Kyoto shrine at dusk with cherry blossoms falling
 and floating blue ghost fires. Same weathered patina on lacquer, same visible
 brush strokes on fur.
 ```
+
+---
+
+## 旧版 · 文生图 v1（对比参考）
+
+这是最初的文生图版本。AI 味较重（勾线均匀、姿态平视、装备略新），后来才改用图生图重出。
+
+![武者白狼 v1](/images/gallery/2026-08-28_wolf-samurai-v1.png)
+
+文生图 prompt：
+
+```
+Blizzard Warcraft splash art style, painterly stylized realism with strong
+dark outlines, cinematic tribal fantasy character illustration.
+Anthropomorphic white wolf onmyoji samurai warrior in heroic proportions,
+muscular bara body with pure white fur, ice-blue eyes, sharp fangs.
+Historically-inspired Japanese Heian-Sengoku era warrior gear: Ō-yoroi great
+armor with laminated lacquered plates in deep indigo and gold lacing, large
+kabuto helmet with crescent maedate, hanging shoulder plates o-sode, snarling
+menpō half-face mask hung at belt, tachi long curved sword with silk-wrapped
+tsuka, forearm kote sleeves with embroidered pentagram onmyoji sigils,
+shimenawa sacred rice-straw rope wrapped as arm band with paper shide
+streamers, magatama comma-shaped jade pendants necklace, waraji straw sandals
+over tabi. Standing on stone bridge in a Kyoto shrine at night, cherry
+blossoms falling, floating ghost fire orbs (hitodama), warm lantern light
+against cool moonlit blue. Clean lines, no oiliness, restrained brushwork.
+Full body, three-quarter heroic pose.
+```

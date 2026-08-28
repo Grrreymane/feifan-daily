@@ -50,3 +50,30 @@ pendant, fur-lined boots with cross-garters.
 Standing on frost-cliff at twilight with distant burning longships in a fjord.
 Same weathered patina on iron and leather, same visible brush strokes on fur.
 ```
+
+---
+
+## 旧版 · 文生图 v1（对比参考）
+
+这是最初的文生图版本。AI 味较重（勾线均匀、姿态平视、装备略新），后来才改用图生图重出。
+
+![维京棕熊 v1](/images/gallery/2026-08-28_bear-viking-v1.png)
+
+文生图 prompt：
+
+```
+Blizzard Warcraft splash art style, painterly stylized realism with strong
+dark outlines, cinematic tribal fantasy character illustration.
+Anthropomorphic brown bear berserker in heroic proportions, massive shoulders,
+thick torso, low center of gravity, muscular bara body with matted dark brown
+fur, fierce red-brown eyes and battle scars. Historically-inspired Viking
+Norse warrior gear: riveted iron chainmail hauberk over quilted gambeson,
+wolf-pelt hood cloak with actual wolf skull crown, wide leather belt with
+brass ring buckles, Dane axe with hand-forged pattern-welded steel head and
+rune-carved oak haft, small round wooden shield on back with painted Norse
+knotwork, forearm bracers etched with Elder Futhark runes, Mjolnir-style
+hammer pendant, fur-lined boots with cross-garters. Standing on frost-covered
+fjord cliff at twilight, distant longships burning below, warm ember light
+against cold blue snowstorm haze. Clean lines, no oiliness, restrained
+brushwork, painterly weight on fur and iron. Full body, three-quarter heroic pose.
+```

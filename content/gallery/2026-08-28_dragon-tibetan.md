@@ -51,3 +51,30 @@ Standing on stone terrace of Himalayan monastery with prayer flags whipping
 in wind, distant snow peaks at sunset, cold mountain haze.
 Same weathered look on brass and cloth, same visible brush strokes on scales.
 ```
+
+---
+
+## 旧版 · 文生图 v1（对比参考）
+
+这是最初的文生图版本。AI 味较重（勾线均匀、姿态平视、装备略新），后来才改用图生图重出。
+
+![藏地红龙 v1](/images/gallery/2026-08-28_dragon-tibetan-v1.png)
+
+文生图 prompt：
+
+```
+Blizzard Warcraft splash art style, painterly stylized realism with strong
+dark outlines, cinematic tribal fantasy character illustration.
+Anthropomorphic red dragon warrior monk in heroic proportions, thick muscular
+bara body with deep crimson scales, gold-yellow eyes, small curved horns.
+Historically-inspired Tibetan Vajrayana warrior monk gear: crimson and saffron
+pleated Tibetan chuba robe half-open across chest, thick leather belt with
+hammered silver conch clasp, ghau amulet box hung on chest containing sacred
+relic, vajra dorje ritual scepter in one hand and phurba ritual dagger tucked
+in belt, prayer beads mala of bodhi seeds wrapped around wrist, sky-iron
+thokcha meteoric pendant, cham dance style shoulder guards with skull motifs,
+felt boots with turned-up toes. Standing on stone terrace of a high Himalayan
+monastery, prayer flags snapping in wind, distant snow peaks lit by sunset,
+cold blue mountain haze against warm golden lamp light. Clean lines, no
+oiliness, restrained brushwork. Full body, three-quarter heroic pose.
+```
