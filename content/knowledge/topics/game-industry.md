@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-08-27"
+updated: "2026-08-28"
 ---
 
 # 游戏行业
@@ -518,3 +518,12 @@ updated: "2026-08-27"
 
 ### [HoYoverse 新作 Nodusfall：神话题材 UE5 合作游戏](https://80.lv/articles/check-out-nodusfall-mythological-co-op-game-from-genshin-impact-maker-hoyoverse/)
 - 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Microduck 开源鸭子机器人](https://news.ycombinator.com/item?id=49462763)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [European games industry revenue reached €30bn in 2025](https://www.gamesindustry.biz/european-games-industry-revenue-reached-30bn-in-2025)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox 下一代主机重点转向"效率与可负担性"](https://www.gamesindustry.biz/xbox-to-focus-on-efficiency-and-affordability-alongside-performance-for-next-gen-console-amid-rising-hardware-costs-and-innovations-in-ai)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials

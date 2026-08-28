@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-08-27"
+updated: "2026-08-28"
 ---
 
 # 大语言模型
@@ -634,3 +634,12 @@ LLM 技术进展、应用与讨论
 
 ### [Karpathy: AGI is still a decade away](https://www.dwarkesh.com/p/andrej-karpathy)
 - 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Nvidia agrees to acquire Hugging Face for $13B](https://news.ycombinator.com/item?id=49458161)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Show HN: The load-bearing vocabulary of Claude](https://news.ycombinator.com/item?id=49461817)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Tell HN: PayPal blocks GrapheneOS](https://news.ycombinator.com/item?id=49462253)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials

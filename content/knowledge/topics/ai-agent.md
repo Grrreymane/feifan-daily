@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-08-27"
+updated: "2026-08-28"
 ---
 
 # AI Agent
@@ -1168,3 +1168,6 @@ AI Agent 架构、实践与踩坑
 
 ### [Dwarkesh × Andrej Karpathy](https://www.dwarkesh.com/p/andrej-karpathy)
 - 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Nvidia agrees to acquire Hugging Face for $13B](https://news.ycombinator.com/item?id=49458161)
+- 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
