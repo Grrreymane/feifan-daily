@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-08-27"
+updated: "2026-08-30"
 ---
 
 # OpenAI
@@ -946,3 +946,12 @@ OpenAI 公司动态与产品
 
 ### [Dwarkesh × Andrej Karpathy](https://www.dwarkesh.com/p/andrej-karpathy)
 - 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM-5.3 is now open-weight](https://huggingface.co/zai-org/GLM-5.3)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Our decision on Cursor following its acquisition by SpaceX](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Judge rules Trump administration's blacklisting of Anthropic was illegal](https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials

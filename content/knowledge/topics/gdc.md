@@ -3,7 +3,7 @@ title: "GDC 大会"
 slug: "gdc"
 description: "GDC 演讲、报告与行业洞察"
 created: "2026-04-07"
-updated: "2026-08-27"
+updated: "2026-08-30"
 ---
 
 # GDC 大会
@@ -182,3 +182,6 @@ GDC 演讲、报告与行业洞察
 
 ### [GDC 2026 Keynote Session](https://gdconf.com/)
 - 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 更进一步埋葬搜索结果：AI 概览默认自动展开](https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials

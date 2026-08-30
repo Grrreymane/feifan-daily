@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-08-27"
+updated: "2026-08-30"
 ---
 
 # 游戏美术
@@ -667,3 +667,15 @@ updated: "2026-08-27"
 
 ### [Kensyouen_Y 的动漫风 3D 少女 Blender 建模流程](https://80.lv/articles/kensyouen_y-s-anime-3d-girl-takes-up-blender-modeling/)
 - 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Judge rules Trump administration's blacklisting of Anthropic was illegal](https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [《燕云十六声》累计玩家破 1 亿](https://80.lv/articles/where-winds-meet-reached-over-100-million-players/)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Mistfall Hunter 采访：魂系战斗 + 暗黑幻想 RPG 的撤离机制融合](https://80.lv/articles/interview-how-mistfall-hunter-blends-soulslike-combat-with-dark-fantasy-rpg-extraction-mechanics/)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 更进一步埋葬搜索结果：AI 概览默认自动展开](https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials

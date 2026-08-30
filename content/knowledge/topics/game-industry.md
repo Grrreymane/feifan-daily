@@ -3,7 +3,7 @@ title: "游戏行业"
 slug: "game-industry"
 description: "游戏行业整体动态与趋势"
 created: "2026-04-07"
-updated: "2026-08-28"
+updated: "2026-08-30"
 ---
 
 # 游戏行业
@@ -527,3 +527,12 @@ updated: "2026-08-28"
 
 ### [Xbox 下一代主机重点转向"效率与可负担性"](https://www.gamesindustry.biz/xbox-to-focus-on-efficiency-and-affordability-alongside-performance-for-next-gen-console-amid-rising-hardware-costs-and-innovations-in-ai)
 - 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Judge rules Trump administration's blacklisting of Anthropic was illegal](https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [《燕云十六声》累计玩家破 1 亿](https://80.lv/articles/where-winds-meet-reached-over-100-million-players/)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Mistfall Hunter 采访：魂系战斗 + 暗黑幻想 RPG 的撤离机制融合](https://80.lv/articles/interview-how-mistfall-hunter-blends-soulslike-combat-with-dark-fantasy-rpg-extraction-mechanics/)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials

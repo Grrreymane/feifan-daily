@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-28"
+updated: "2026-08-30"
 ---
 
 # AI 通用
@@ -5268,3 +5268,39 @@ updated: "2026-08-28"
 
 ### [Amazon 三倍下单英伟达芯片](https://techcrunch.com/2026/08/26/amazon-just-tripled-its-order-of-nvidia-chips-over-surging-demand/)
 - 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [GUIs should be fully keyboard-driven](https://ckardaris.com/blog/2026/08/28/keyboard-driven-guis.html)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [GLM-5.3 is now open-weight](https://huggingface.co/zai-org/GLM-5.3)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Our decision on Cursor following its acquisition by SpaceX](https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex/)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Judge rules Trump administration's blacklisting of Anthropic was illegal](https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [《燕云十六声》累计玩家破 1 亿](https://80.lv/articles/where-winds-meet-reached-over-100-million-players/)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Mistfall Hunter 采访：魂系战斗 + 暗黑幻想 RPG 的撤离机制融合](https://80.lv/articles/interview-how-mistfall-hunter-blends-soulslike-combat-with-dark-fantasy-rpg-extraction-mechanics/)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Xbox CEO 首度松口：Project Helix 是"设备家族"，不是一台次世代主机](https://www.theverge.com/games/986337/xbox-ceo-asha-sharma-project-helix-family-of-devices)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [《刺客信条》之父 Desilets 就 AI 争议回应：《1666: Amsterdam》"以后不再使用 AI"](https://www.reddit.com/r/gamedev/comments/1w13jr8/after_ai_backlash_assassins_creed_creator_says/)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Nvidia 的 AI 优势正在从 GPU 向"更聪明的流量调度"迁移](https://techcrunch.com/2026/08/29/nvidias-ai-advantage-is-moving-beyond-the-gpu/)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Neocloud Lambda 拿到 10 亿美元债务融资，专门买卡租给微软](https://techcrunch.com/2026/08/28/neocloud-lambda-secures-1b-in-debt-to-buy-more-chips/)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Debian 投票通过"负责任地使用生成式 AI"](https://news.ycombinator.com/item?id=49489982)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Google 更进一步埋葬搜索结果：AI 概览默认自动展开](https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand)
+- 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
