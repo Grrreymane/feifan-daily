@@ -262,6 +262,15 @@ function galleryDetailPageHtml(post) {
   const tags = (post.tags || []).map(t => `<span class="post-tag">${t}</span>`).join('');
   const imgSrc = post.image ? `${BASE_PATH}/images/gallery/${post.image}` : '';
   const twitterSection = post.twitter_url ? twitterEmbedHtml(post.twitter_url) : '';
+  // Render markdown body (strip the first h1 since title is already shown in header)
+  let contentHtml = '';
+  if (post.content) {
+    const contentWithoutTitle = post.content.replace(/^#\s+.+\n*/m, '');
+    contentHtml = renderMarkdown(contentWithoutTitle);
+    if (BASE_PATH) {
+      contentHtml = contentHtml.replace(/(<img[^>]+src=")\/(?!\/)/g, `$1${BASE_PATH}/`);
+    }
+  }
   const body = `
     <a class="back-link" href="${BASE_PATH}/gallery/">← ${catInfo.name}</a>
     <article class="gallery-detail">
@@ -275,6 +284,7 @@ function galleryDetailPageHtml(post) {
         ${post.description ? `<p class="article-desc">${post.description}</p>` : ''}
         ${post.artist ? `<p class="gallery-artist-detail">🎨 ${post.artist}</p>` : ''}
       </div>
+      ${contentHtml ? `<div class="gallery-body article-content">${contentHtml}</div>` : ''}
       ${twitterSection}
     </article>`;
   return htmlShell(post.title || '无标题', body, 'gallery');
