@@ -3,7 +3,7 @@ title: "游戏美术"
 slug: "game-art"
 description: "游戏美术设计趋势与技术"
 created: "2026-04-07"
-updated: "2026-08-30"
+updated: "2026-09-06"
 ---
 
 # 游戏美术
@@ -679,3 +679,6 @@ updated: "2026-08-30"
 
 ### [Google 更进一步埋葬搜索结果：AI 概览默认自动展开](https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand)
 - 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Understanding ChatGPT Work](https://simonwillison.net/2026/Sep/5/understanding-chatgpt-work/)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
