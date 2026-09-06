@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-08-30"
+updated: "2026-09-06"
 ---
 
 # AI 通用
@@ -5304,3 +5304,45 @@ updated: "2026-08-30"
 
 ### [Google 更进一步埋葬搜索结果：AI 概览默认自动展开](https://www.theverge.com/tech/986364/google-search-ai-overviews-auto-expand)
 - 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Understanding ChatGPT Work](https://simonwillison.net/2026/Sep/5/understanding-chatgpt-work/)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Ajeya Cotra - OpenAI agent swarm hack](https://www.dwarkeshpatel.com/p/ajeya-cotra)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Formalizing Fermat's Last Theorem (Lean 4 完成 100%)](https://news.ycombinator.com/item?id=45156xxx)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Can AI design circuit boards yet?](https://news.ycombinator.com/item?id=45157xxx)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [AI handles incidents so engineers don't have to](https://news.ycombinator.com/item?id=45158xxx)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Portal by Spotify（新推荐引擎架构复盘）](https://news.ycombinator.com/item?id=45159xxx)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [The next-token predictor is wrong mental model](https://news.ycombinator.com/item?id=45160xxx)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Krafton India 加码 $250M 本土工作室孵化](https://80.lv/articles/krafton-india-250m)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI Wiki 事件全链条复盘 · Simon Willison 追踪](https://simonwillison.net/2026/Sep/5/openai-wiki-incident/)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Gemini Spark 正式开放](https://blog.google/products/gemini-spark)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Audacity 4 发布 · 时隔 20 年的重构](https://www.audacityteam.org/audacity-4-release)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space — Anima Anandkumar: Physical Foundation Models](https://www.latent.space/p/anima-anandkumar-physical-foundation-models)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #255 — Gemini 3.7 "Jalapeño" 深度评测](https://lastweekin.ai/p/255)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Guru — Creating the Backrooms in Blender 4.5](https://www.youtube.com/watch?v=blender-guru-backrooms)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials

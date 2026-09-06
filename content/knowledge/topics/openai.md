@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-08-30"
+updated: "2026-09-06"
 ---
 
 # OpenAI
@@ -955,3 +955,15 @@ OpenAI 公司动态与产品
 
 ### [Judge rules Trump administration's blacklisting of Anthropic was illegal](https://www.nytimes.com/2026/08/27/technology/anthropic-government-blacklisting-ruling.html)
 - 📅 2026-08-30 · 来源: daily-materials · 分类: daily-materials
+
+### [Ajeya Cotra - OpenAI agent swarm hack](https://www.dwarkeshpatel.com/p/ajeya-cotra)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Krafton India 加码 $250M 本土工作室孵化](https://80.lv/articles/krafton-india-250m)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI Wiki 事件全链条复盘 · Simon Willison 追踪](https://simonwillison.net/2026/Sep/5/openai-wiki-incident/)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Gemini Spark 正式开放](https://blog.google/products/gemini-spark)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials

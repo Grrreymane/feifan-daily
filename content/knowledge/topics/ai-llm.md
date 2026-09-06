@@ -3,7 +3,7 @@ title: "大语言模型"
 slug: "ai-llm"
 description: "LLM 技术进展、应用与讨论"
 created: "2026-04-07"
-updated: "2026-08-28"
+updated: "2026-09-06"
 ---
 
 # 大语言模型
@@ -643,3 +643,12 @@ LLM 技术进展、应用与讨论
 
 ### [Tell HN: PayPal blocks GrapheneOS](https://news.ycombinator.com/item?id=49462253)
 - 📅 2026-08-28 · 来源: daily-materials · 分类: daily-materials
+
+### [Metro 2039 正式公布 · 4A Games 新作](https://80.lv/articles/metro-2039-announcement)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space — Anima Anandkumar: Physical Foundation Models](https://www.latent.space/p/anima-anandkumar-physical-foundation-models)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Last Week in AI #255 — Gemini 3.7 "Jalapeño" 深度评测](https://lastweekin.ai/p/255)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials

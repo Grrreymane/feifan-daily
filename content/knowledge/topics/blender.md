@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-08-27"
+updated: "2026-09-06"
 ---
 
 # Blender
@@ -808,3 +808,18 @@ Blender 工具与社区动态
 
 ### [水彩风 3D：Digital Circus 角色 Pomni 的 Blender 重制](https://80.lv/articles/watercolor-style-3d-take-on-pomni-from-the-amazing-digital-circus/)
 - 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Metro 2039 正式公布 · 4A Games 新作](https://80.lv/articles/metro-2039-announcement)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Studio 公布新短片 OVERGROWN](https://studio.blender.org/blog/overgrown-announcement)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Naughty Dog 官宣 TLoU Season 3 制作参与](https://www.gamesindustry.biz/naughty-dog-tlou-s3)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [GMTK — How Hollow Knight: Silksong Designed Its World](https://www.youtube.com/watch?v=gmtk-silksong-world)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Blender Guru — Creating the Backrooms in Blender 4.5](https://www.youtube.com/watch?v=blender-guru-backrooms)
+- 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
