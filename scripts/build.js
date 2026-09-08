@@ -7,7 +7,7 @@
  * 用法：node scripts/build.js
  * 
  * content 目录结构：
- *   content/briefings/  - 每日简报
+ *   content/briefings/  - 每周简报
  *   content/articles/   - 公众号文章
  *   content/summaries/  - 视频总结
  * 
@@ -36,11 +36,11 @@ const BASE_PATH = (process.env.BASE_PATH || '').replace(/\/+$/, '');
 
 // ===== Category config =====
 const CATEGORIES = {
-  briefings:  { name: '每日简报', emoji: '📡', slug: 'briefings',  description: '科技 · 游戏 · AI 每日精选' },
+  briefings:  { name: '每周简报', emoji: '📡', slug: 'briefings',  description: '科技 · 游戏 · AI 每周精选' },
   articles:   { name: '深度文章', emoji: '📝', slug: 'articles',   description: '原创观察与编译精选' },
   summaries:  { name: '笔记', emoji: '📒', slug: 'summaries',  description: '视频 · 播客 · 文章 · 学习笔记' },
   'ta-notes': { name: 'TA学习笔记', emoji: '🎨', slug: 'ta-notes', description: '技术美术 · 图形学 · 渲染 · 管线工具' },
-  gallery:    { name: '福瑞画廊', emoji: '🐾', slug: 'gallery',    description: '每日精选兽人艺术' },
+  gallery:    { name: '福瑞画廊', emoji: '🐾', slug: 'gallery',    description: '每期精选兽人艺术' },
 };
 
 // ===== Helpers =====
@@ -146,7 +146,7 @@ function htmlShell(title, body, activeNav = '') {
     <div class="site-subtitle">科技 · 游戏 · 美术 · 世界在变，人更需要思考</div>
     <nav class="site-nav">
       <a href="${B}/"${activeNav === 'home' ? ' class="active"' : ''}>首页</a>
-      <a href="${B}/briefings/"${activeNav === 'briefings' ? ' class="active"' : ''}>每日简报</a>
+      <a href="${B}/briefings/"${activeNav === 'briefings' ? ' class="active"' : ''}>每周简报</a>
       <a href="${B}/articles/"${activeNav === 'articles' ? ' class="active"' : ''}>深度文章</a>
       <a href="${B}/summaries/"${activeNav === 'summaries' ? ' class="active"' : ''}>笔记</a>
       <a href="${B}/ta-notes/"${activeNav === 'ta-notes' ? ' class="active"' : ''}>TA学习笔记</a>
@@ -338,7 +338,7 @@ function homePageHtml(allPosts) {
     <div class="section-divider"></div>
     <div class="page-header">
       <h1>🐾 福瑞画廊</h1>
-      <p>每日精选兽人艺术 · <a href="${BASE_PATH}/gallery/" style="color:var(--accent)">查看全部 →</a></p>
+      <p>每期精选兽人艺术 · <a href="${BASE_PATH}/gallery/" style="color:var(--accent)">查看全部 →</a></p>
     </div>
     <div class="gallery-grid">
       ${galleryCards}
