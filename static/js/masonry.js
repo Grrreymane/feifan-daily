@@ -64,4 +64,11 @@
     init();
   }
   window.addEventListener('load', relayoutAll);
+
+  // 兜底：不支持 :has() 的浏览器，给画廊页容器加宽屏 class
+  var grid0 = document.querySelector('.gallery-grid');
+  if (grid0) {
+    var box = grid0.closest('.container');
+    if (box) box.classList.add('gallery-wide');
+  }
 })();
