@@ -1,65 +1,61 @@
-/* Pinterest 式瀑布流：按 DOM 顺序（时间倒序）横向分配到最短列 */
+/* 行优先瀑布流：保持 grid 的横向时间顺序（1-4 在第一排，5-8 在第二排），
+   由脚本按每张实际高度决定跨多少行，图片不裁切、比例保留 */
 (function () {
-  function colCount() {
+  var ROW = 8;   // 行高单位，需与 CSS .gallery-grid.masonry 的 grid-auto-rows 一致
+  var GAP = 12;  // 卡片垂直间距
+
+  function gapOf(grid) {
     var w = window.innerWidth;
-    if (w <= 420) return 1;
-    if (w <= 700) return 2;
-    if (w <= 1000) return 3;
-    if (w <= 1400) return 3;
-    return 4;
+    return w <= 700 ? 8 : 12;
   }
 
   function layout(grid) {
+    var gap = gapOf(grid);
     var cards = grid.querySelectorAll('.gallery-card');
-    var n = colCount();
-    var cols = [];
-    var i;
-    for (i = 0; i < n; i++) {
-      var c = document.createElement('div');
-      c.className = 'masonry-col';
-      cols.push(c);
+    for (var i = 0; i < cards.length; i++) {
+      var c = cards[i];
+      c.style.gridRowEnd = '';
+      var h = c.getBoundingClientRect().height;
+      if (!h) continue;
+      var span = Math.ceil((h + gap) / ROW);
+      c.style.gridRowEnd = 'span ' + span;
     }
-    // 按顺序投放：第 k 张进入前 n 张的对应列，之后每次进最短列
-    for (i = 0; i < cards.length; i++) {
-      var target;
-      if (i < n) {
-        target = cols[i];
-      } else {
-        target = cols[0];
-        for (var j = 1; j < cols.length; j++) {
-          if (cols[j].offsetHeight < target.offsetHeight) target = cols[j];
-        }
-      }
-      target.appendChild(cards[i]);
-    }
-    grid.innerHTML = '';
-    for (i = 0; i < cols.length; i++) grid.appendChild(cols[i]);
+  }
+
+  function relayoutAll() {
+    var grids = document.querySelectorAll('.gallery-grid');
+    for (var i = 0; i < grids.length; i++) layout(grids[i]);
   }
 
   function init() {
     var grids = document.querySelectorAll('.gallery-grid');
     if (!grids.length) return;
-    grids.forEach(function (grid) {
-      if (grid.dataset.masonry === 'ready') return;
-      grid.classList.add('masonry');
-      layout(grid);
-      grid.dataset.masonry = 'ready';
-    });
+    for (var i = 0; i < grids.length; i++) {
+      grids[i].classList.add('masonry');
+      layout(grids[i]);
+    }
+    // 图片懒加载完成后高度才确定，需重算
+    var imgs = document.querySelectorAll('.gallery-card img');
+    var pending = imgs.length;
+    function done() {
+      pending--;
+      if (pending <= 0) relayoutAll();
+    }
+    for (var j = 0; j < imgs.length; j++) {
+      if (imgs[j].complete) {
+        pending--;
+      } else {
+        imgs[j].addEventListener('load', done, { once: true });
+        imgs[j].addEventListener('error', done, { once: true });
+      }
+    }
+    if (pending <= 0) relayoutAll();
   }
 
   var timer = null;
   window.addEventListener('resize', function () {
     clearTimeout(timer);
-    timer = setTimeout(function () {
-      document.querySelectorAll('.gallery-grid').forEach(function (grid) {
-        var cards = Array.prototype.slice.call(grid.querySelectorAll('.gallery-card'));
-        grid.innerHTML = '';
-        cards.forEach(function (c) { grid.appendChild(c); });
-        grid.dataset.masonry = '';
-        layout(grid);
-        grid.dataset.masonry = 'ready';
-      });
-    }, 150);
+    timer = setTimeout(relayoutAll, 150);
   });
 
   if (document.readyState === 'loading') {
@@ -67,15 +63,5 @@
   } else {
     init();
   }
-  // 图片懒加载完成后重排，避免高度算错
-  window.addEventListener('load', function () {
-    document.querySelectorAll('.gallery-grid').forEach(function (grid) {
-      var cards = Array.prototype.slice.call(grid.querySelectorAll('.gallery-card'));
-      grid.innerHTML = '';
-      cards.forEach(function (c) { grid.appendChild(c); });
-      grid.dataset.masonry = '';
-      layout(grid);
-      grid.dataset.masonry = 'ready';
-    });
-  });
+  window.addEventListener('load', relayoutAll);
 })();
