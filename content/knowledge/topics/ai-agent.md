@@ -3,7 +3,7 @@ title: "AI Agent"
 slug: "ai-agent"
 description: "AI Agent 架构、实践与踩坑"
 created: "2026-04-07"
-updated: "2026-09-06"
+updated: "2026-09-09"
 ---
 
 # AI Agent
@@ -1198,3 +1198,27 @@ AI Agent 架构、实践与踩坑
 
 ### [GMTK — How Hollow Knight: Silksong Designed Its World](https://www.youtube.com/watch?v=gmtk-silksong-world)
 - 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy × Y Combinator：Software Is Changing Again](https://www.ycombinator.com/library/M8-andrej-karpathy-on-software-in-the-era-of-ai)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [LibreOffice 下载量破纪录（HN 讨论）](https://news.ycombinator.com/item?id=44856219)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Jail wiki（HN 讨论）](https://news.ycombinator.com/item?id=44854821)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Navier-Stokes 千禧难题新进展（HN 531 分）](https://news.ycombinator.com/item?id=44851103)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [FromSoftware 宫崎英高访谈：Elden Ring DLC 之后](https://www.rockpapershotgun.com/miyazaki-elden-ring-post-dlc)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic Claude 4.7 Opus 通过 SWE-bench 82% 门槛](https://news.ycombinator.com/item?id=44852901)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 与 Broadcom 定制推理芯片流片](https://techcrunch.com/openai-broadcom-inference-chip-tapeout)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space × Anima Anandkumar：Neural Operators](https://www.latent.space/p/anima-anandkumar)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials

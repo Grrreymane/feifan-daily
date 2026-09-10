@@ -3,7 +3,7 @@ title: "OpenAI"
 slug: "openai"
 description: "OpenAI 公司动态与产品"
 created: "2026-04-07"
-updated: "2026-09-06"
+updated: "2026-09-09"
 ---
 
 # OpenAI
@@ -967,3 +967,21 @@ OpenAI 公司动态与产品
 
 ### [Google Gemini Spark 正式开放](https://blog.google/products/gemini-spark)
 - 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [FromSoftware 宫崎英高访谈：Elden Ring DLC 之后](https://www.rockpapershotgun.com/miyazaki-elden-ring-post-dlc)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic Claude 4.7 Opus 通过 SWE-bench 82% 门槛](https://news.ycombinator.com/item?id=44852901)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 与 Broadcom 定制推理芯片流片](https://techcrunch.com/openai-broadcom-inference-chip-tapeout)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Latent Space × Anima Anandkumar：Neural Operators](https://www.latent.space/p/anima-anandkumar)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired：Disney: The Renaissance and the Empire Part II](https://www.acquired.fm/episodes/disney-part-ii)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI fought dirty on career-making math problem, says NYU mathematician | TechCrunch](https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/)
+- 📅 2026-09-08 · 来源: verified-source-metadata · 分类: daily-materials

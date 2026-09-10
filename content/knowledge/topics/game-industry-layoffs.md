@@ -3,7 +3,7 @@ title: "游戏行业裁员"
 slug: "game-industry-layoffs"
 description: "游戏行业裁员潮追踪"
 created: "2026-04-07"
-updated: "2026-08-27"
+updated: "2026-09-09"
 ---
 
 # 游戏行业裁员
@@ -473,3 +473,18 @@ updated: "2026-08-27"
 
 ### [Entity 获 580 万美元种子轮：浏览器主机级游戏平台](https://www.gamesindustry.biz/entity-raises-58-million-to-build-browser-based-console-quality-gaming-platform)
 - 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Blizzard 官方暗示 StarCraft 系列回归](https://www.gamesindustry.biz/blizzard-starcraft-return-hints)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Don't Nod 陷入财务危机](https://www.rockpapershotgun.com/dont-nod-financial-difficulty)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Capcom 宣布重启多个休眠 IP](https://www.gamesindustry.biz/capcom-dormant-ip-revival)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Arm 发布 G2-Ultra GPU：移动端神经渲染](https://arstechnica.com/arm-g2-ultra-nx-mobile-ai-rendering)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [FromSoftware 宫崎英高访谈：Elden Ring DLC 之后](https://www.rockpapershotgun.com/miyazaki-elden-ring-post-dlc)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials

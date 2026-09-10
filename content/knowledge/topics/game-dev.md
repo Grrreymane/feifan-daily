@@ -3,7 +3,7 @@ title: "游戏开发"
 slug: "game-dev"
 description: "游戏开发技术、方法论与经验"
 created: "2026-04-07"
-updated: "2026-08-27"
+updated: "2026-09-09"
 ---
 
 # 游戏开发
@@ -382,3 +382,36 @@ updated: "2026-08-27"
 
 ### [Ziva VFX 启发的物理肌肉模拟系统开源尝试](https://80.lv/articles/ziva-vfx-inspired-physics-based-muscle-simulation-system/)
 - 📅 2026-08-27 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Creepy crawlies AI 爬虫滥用](https://simonwillison.net/2026/Sep/8/creepy-crawlies/)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Blizzard 官方暗示 StarCraft 系列回归](https://www.gamesindustry.biz/blizzard-starcraft-return-hints)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Don't Nod 陷入财务危机](https://www.rockpapershotgun.com/dont-nod-financial-difficulty)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Capcom 宣布重启多个休眠 IP](https://www.gamesindustry.biz/capcom-dormant-ip-revival)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Arm 发布 G2-Ultra GPU：移动端神经渲染](https://arstechnica.com/arm-g2-ultra-nx-mobile-ai-rendering)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [FromSoftware 宫崎英高访谈：Elden Ring DLC 之后](https://www.rockpapershotgun.com/miyazaki-elden-ring-post-dlc)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic Claude 4.7 Opus 通过 SWE-bench 82% 门槛](https://news.ycombinator.com/item?id=44852901)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 与 Broadcom 定制推理芯片流片](https://techcrunch.com/openai-broadcom-inference-chip-tapeout)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired：Disney: The Renaissance and the Empire Part II](https://www.acquired.fm/episodes/disney-part-ii)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Papa Sasha 福瑞美术参考 Bluesky](https://bsky.app/profile/furbrush.bsky.social)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [European game developers are more concerned that AI will pressure them to work faster rather than take their job](https://www.gamesindustry.biz/european-game-developers-are-more-concerned-that-ai-will-pressure-them-to-work-faster-rather-than-take-their-job)
+- 📅 2026-09-08 · 来源: verified-source-metadata · 分类: daily-materials

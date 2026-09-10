@@ -3,7 +3,7 @@ title: "Blender"
 slug: "blender"
 description: "Blender 工具与社区动态"
 created: "2026-04-07"
-updated: "2026-09-06"
+updated: "2026-09-09"
 ---
 
 # Blender
@@ -823,3 +823,9 @@ Blender 工具与社区动态
 
 ### [Blender Guru — Creating the Backrooms in Blender 4.5](https://www.youtube.com/watch?v=blender-guru-backrooms)
 - 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Fully Procedural Stylized Sky Generator For Blender Released](https://80.lv/articles/fully-procedural-stylized-sky-generator-for-blender-released/)
+- 📅 2026-09-07 · 来源: verified-source-metadata · 分类: daily-materials
+
+### [Blender Studio Opens OVERGROWN’s Free Behind-the-Scenes Archive](https://80.lv/articles/blender-studio-opens-overgrown-s-free-behind-the-scenes-archive/)
+- 📅 2026-09-04 · 来源: verified-source-metadata · 分类: daily-materials

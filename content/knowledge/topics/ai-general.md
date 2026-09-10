@@ -3,7 +3,7 @@ title: "AI 通用"
 slug: "ai-general"
 description: "人工智能行业动态、观点与趋势"
 created: "2026-04-07"
-updated: "2026-09-06"
+updated: "2026-09-09"
 ---
 
 # AI 通用
@@ -5346,3 +5346,75 @@ updated: "2026-09-06"
 
 ### [Blender Guru — Creating the Backrooms in Blender 4.5](https://www.youtube.com/watch?v=blender-guru-backrooms)
 - 📅 2026-09-06 · 来源: daily-materials · 分类: daily-materials
+
+### [Mistral 完成 30 亿美元融资，估值 140 亿](https://mistral.ai/news/announcing-our-series-c)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy Stanford CS25 讲座：Software 3.0](https://www.youtube.com/watch?v=X3jK6oBxYzo)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy × Y Combinator：Software Is Changing Again](https://www.ycombinator.com/library/M8-andrej-karpathy-on-software-in-the-era-of-ai)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [LibreOffice 下载量破纪录（HN 讨论）](https://news.ycombinator.com/item?id=44856219)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Jail wiki（HN 讨论）](https://news.ycombinator.com/item?id=44854821)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Navier-Stokes 千禧难题新进展（HN 531 分）](https://news.ycombinator.com/item?id=44851103)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Simon Willison：Creepy crawlies AI 爬虫滥用](https://simonwillison.net/2026/Sep/8/creepy-crawlies/)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Blizzard 官方暗示 StarCraft 系列回归](https://www.gamesindustry.biz/blizzard-starcraft-return-hints)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Don't Nod 陷入财务危机](https://www.rockpapershotgun.com/dont-nod-financial-difficulty)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Capcom 宣布重启多个休眠 IP](https://www.gamesindustry.biz/capcom-dormant-ip-revival)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Arm 发布 G2-Ultra GPU：移动端神经渲染](https://arstechnica.com/arm-g2-ultra-nx-mobile-ai-rendering)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [FromSoftware 宫崎英高访谈：Elden Ring DLC 之后](https://www.rockpapershotgun.com/miyazaki-elden-ring-post-dlc)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Anthropic Claude 4.7 Opus 通过 SWE-bench 82% 门槛](https://news.ycombinator.com/item?id=44852901)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [OpenAI 与 Broadcom 定制推理芯片流片](https://techcrunch.com/openai-broadcom-inference-chip-tapeout)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Acquired：Disney: The Renaissance and the Empire Part II](https://www.acquired.fm/episodes/disney-part-ii)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Papa Sasha 福瑞美术参考 Bluesky](https://bsky.app/profile/furbrush.bsky.social)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [ Open-Source Substance 3D Painter Alternative ArmorPaint 1.0 Released](https://80.lv/articles/open-source-substance-3d-painter-alternative-armorpaint-1-0-released/)
+- 📅 2026-09-07 · 来源: verified-source-metadata · 分类: daily-materials
+
+### [NBA 2K27 gives DLSS 5 a more faithful-looking game debut than feared, provided it’s running on the LeBron of GPUs](https://www.rockpapershotgun.com/nba-2k27-gives-dlss-5-a-more-faithful-looking-game-debut-than-feared-provided-its-running-on-the-lebron-of-gpus)
+- 📅 2026-09-08 · 来源: verified-source-metadata · 分类: daily-materials
+
+### [Arm explains its mobile-first AI-reconstruction technology, which takes a different tack from the "black box" approach of DLSS 5](https://www.gamesindustry.biz/arm-explains-its-mobile-first-ai-reconstruction-technology-which-takes-a-different-tack-from-the-black-box-approach-of-dlss-5)
+- 📅 2026-09-08 · 来源: verified-source-metadata · 分类: daily-materials
+
+### [It's still very much possible to make good Skyrim mods "without any use of AI" in 2026, declares the maker of a new DLC-sized Black Marsh expansion](https://www.rockpapershotgun.com/its-still-very-much-possible-to-make-good-skyrim-mods-without-any-use-of-ai-in-2026-declares-the-maker-of-a-new-dlc-sized-black-marsh-expansion)
+- 📅 2026-09-08 · 来源: verified-source-metadata · 分类: daily-materials
+
+### [European game developers are more concerned that AI will pressure them to work faster rather than take their job](https://www.gamesindustry.biz/european-game-developers-are-more-concerned-that-ai-will-pressure-them-to-work-faster-rather-than-take-their-job)
+- 📅 2026-09-08 · 来源: verified-source-metadata · 分类: daily-materials
+
+### [Inside Tencent's long-term strategy: live service, AI tools, and evergreen titles](https://www.gamesindustry.biz/inside-tencents-long-term-strategy-live-service-ai-tools-and-evergreen-titles)
+- 📅 2026-09-04 · 来源: verified-source-metadata · 分类: daily-materials
+
+### [Mistral raises €3B as sovereign AI becomes big business | TechCrunch](https://techcrunch.com/2026/09/08/mistral-raises-e3b-as-sovereign-ai-becomes-big-business/)
+- 📅 2026-09-08 · 来源: verified-source-metadata · 分类: daily-materials
+
+### [OpenAI fought dirty on career-making math problem, says NYU mathematician | TechCrunch](https://techcrunch.com/2026/09/08/openai-fought-dirty-on-career-making-math-problem-says-nyu-mathematician/)
+- 📅 2026-09-08 · 来源: verified-source-metadata · 分类: daily-materials

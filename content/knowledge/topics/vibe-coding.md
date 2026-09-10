@@ -3,7 +3,7 @@ title: "Vibe Coding"
 slug: "vibe-coding"
 description: "AI 辅助编程的现象、利弊与讨论"
 created: "2026-04-07"
-updated: "2026-08-22"
+updated: "2026-09-09"
 ---
 
 # Vibe Coding
@@ -110,3 +110,21 @@ AI 辅助编程的现象、利弊与讨论
 
 ### [GTA 6 泄露事件持续发酵：Take-Two 向 Microsoft 和 Discord 发出传票](https://www.rockpapershotgun.com/gta-6-leaker-hunt-is-on-as-rockstar-owners-take-two-file-subpoenas-asking-microsoft-and-discord-for-records)
 - 📅 2026-08-23 · 来源: daily-materials · 分类: daily-materials
+
+### [Mistral 完成 30 亿美元融资，估值 140 亿](https://mistral.ai/news/announcing-our-series-c)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy Stanford CS25 讲座：Software 3.0](https://www.youtube.com/watch?v=X3jK6oBxYzo)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy × Y Combinator：Software Is Changing Again](https://www.ycombinator.com/library/M8-andrej-karpathy-on-software-in-the-era-of-ai)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Karpathy × Dwarkesh Podcast：AI 时代的软件与教育](https://www.dwarkesh.com/p/andrej-karpathy)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [LibreOffice 下载量破纪录（HN 讨论）](https://news.ycombinator.com/item?id=44856219)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
+
+### [Google Jail wiki（HN 讨论）](https://news.ycombinator.com/item?id=44854821)
+- 📅 2026-09-09 · 来源: daily-materials · 分类: daily-materials
