@@ -2,7 +2,7 @@
 title: "Simon Willison"
 slug: "simon-willison"
 created: "2026-04-07"
-updated: "2026-09-06"
+updated: "2026-09-09"
 ---
 
 # Simon Willison
@@ -141,3 +141,5 @@ updated: "2026-09-06"
 - 📅 2026-08-23 — [Simon Willison：Don't classify. Hallucinate!](https://simonwillison.net/2026/Aug/15/dont-classify-hallucinate/)
 
 - 📅 2026-09-06 — [OpenAI Wiki 事件全链条复盘 · Simon Willison 追踪](https://simonwillison.net/2026/Sep/5/openai-wiki-incident/)
+
+- 📅 2026-09-09 — [Simon Willison：Creepy crawlies AI 爬虫滥用](https://simonwillison.net/2026/Sep/8/creepy-crawlies/)

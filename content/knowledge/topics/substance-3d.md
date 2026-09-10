@@ -3,7 +3,7 @@ title: "Substance 3D"
 slug: "substance-3d"
 description: "Substance 系列工具与材质"
 created: "2026-04-07"
-updated: "2026-08-15"
+updated: "2026-09-09"
 ---
 
 # Substance 3D
@@ -214,3 +214,6 @@ Substance 系列工具与材质
 
 ### [Blender 用的程序化美国市中心生成器](https://80.lv/articles/procedural-american-downtown-generator-for-blender/)
 - 📅 2026-08-15 · 来源: daily-materials · 分类: daily-materials
+
+### [ Open-Source Substance 3D Painter Alternative ArmorPaint 1.0 Released](https://80.lv/articles/open-source-substance-3d-painter-alternative-armorpaint-1-0-released/)
+- 📅 2026-09-07 · 来源: verified-source-metadata · 分类: daily-materials
