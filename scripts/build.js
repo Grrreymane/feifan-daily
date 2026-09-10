@@ -160,6 +160,7 @@ function htmlShell(title, body, activeNav = '') {
   <footer class="site-footer">
     非凡像素 © ${new Date().getFullYear()} · 用理解代替恐惧
   </footer>
+  <script defer src="${B}/js/masonry.js"></script>
   <script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js" crossorigin="anonymous"
     onload="hljs.highlightAll();"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" crossorigin="anonymous"></script>
@@ -196,7 +197,11 @@ function postListPageHtml(cat, posts) {
 }
 
 function galleryCardHtml(post) {
-  const tags = (post.tags || []).map(t => `<span class="post-tag">${t}</span>`).join('');
+  const allTags = post.tags || [];
+  const shown = allTags.slice(0, 2);
+  const rest = allTags.length - shown.length;
+  const tags = shown.map(t => `<span class="post-tag">${t}</span>`).join('') +
+    (rest > 0 ? `<span class="post-tag post-tag-more">+${rest}</span>` : '');
   const imgSrc = post.image ? `${BASE_PATH}/images/gallery/${post.image}` : '';
   const twitterBadge = post.twitter_url ? '<span class="twitter-badge">𝕏</span>' : '';
   let imgBlock = '';
