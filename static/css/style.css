@@ -146,6 +146,20 @@ body {
   padding: 2.5rem 1.5rem;
 }
 
+/* 画廊是图库，宽屏时放开阅读宽度限制，让图片更大 */
+.container.gallery-wide,
+body:has(.gallery-grid) .container {
+  max-width: min(2400px, 96vw);
+}
+
+@media (min-width: 1600px) {
+  body:has(.gallery-grid) .container {
+    max-width: min(2600px, 97vw);
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+  }
+}
+
 /* ===== Page Header ===== */
 .page-header {
   margin-bottom: 2rem;
@@ -476,6 +490,19 @@ body {
 
 @media (max-width: 1400px) {
   .gallery-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+/* 宽屏：继续加列，图片随浏览器拉宽而变大 */
+@media (min-width: 1600px) {
+  .gallery-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+}
+
+@media (min-width: 2000px) {
+  .gallery-grid { grid-template-columns: repeat(6, minmax(0, 1fr)); }
+}
+
+@media (min-width: 2400px) {
+  .gallery-grid { grid-template-columns: repeat(7, minmax(0, 1fr)); }
 }
 
 @media (max-width: 1000px) {
