@@ -196,10 +196,27 @@ function postListPageHtml(cat, posts) {
   return htmlShell(catInfo.name, body, cat);
 }
 
+// 画廊卡片 tag 展示：风格优先，最多 4 个
+// 优先级：画风/画师 > 服装风格/系列 > 通用属性 > 物种
+const STYLE_ART = /Leyendecker|Rockwell|Cornwell|Wyeth|Pyle|黄金时代|Blizzard|吉卜力|宫崎骏|赛璐珞|水墨|工笔|油画|赛博朋克|绘本|木刻|浮世绘|复古海报|像素|剪纸|故障|glitch|Moebius|Bilal|剪影|印象派/i;
+const STYLE_WEAR = /Ivy|amekaji|军事风|OG-107|A-2|G-1|B-3|MA-1|M-65|N-1|bomber|tweed|sport coat|飞行夹克|皮夹克|工装|牛仔|selvedge|preppy|常春藤/i;
+const STYLE_SPECIES = /豹|狐|狼|鹿|熊|獭|鹰|鸮|鲸|虎|马|牛|羊|兔|鼠|猫|犬|狗|獾|浣熊|乌鸦|雀|驼鹿|雪豹|黑豹|赤狐|灰狼|马鹿|水獭|金雕|北极狼/i;
+
+function orderTags(tags) {
+  const art = [], wear = [], other = [], species = [];
+  (tags || []).forEach(t => {
+    if (STYLE_SPECIES.test(t)) species.push(t);
+    else if (STYLE_ART.test(t)) art.push(t);
+    else if (STYLE_WEAR.test(t)) wear.push(t);
+    else other.push(t);
+  });
+  return [].concat(wear, art, other, species);
+}
+
 function galleryCardHtml(post) {
-  const allTags = post.tags || [];
-  const shown = allTags.slice(0, 2);
-  const rest = allTags.length - shown.length;
+  const ordered = orderTags(post.tags);
+  const shown = ordered.slice(0, 4);
+  const rest = ordered.length - shown.length;
   const tags = shown.map(t => `<span class="post-tag">${t}</span>`).join('') +
     (rest > 0 ? `<span class="post-tag post-tag-more">+${rest}</span>` : '');
   const imgSrc = post.image ? `${BASE_PATH}/images/gallery/${post.image}` : '';
