@@ -380,7 +380,17 @@ function homePageHtml(allPosts) {
 
 // ===== Security Check =====
 function securityScan() {
-  const BLOCKED = [/the primary image engine/i, /internal.example.com/i, /internal-wiki/i, /internal-tracker/i];
+  // 敏感词黑名单从仓库外读取（环境变量 BLOCKED_PATTERNS，逗号分隔的正则）。
+  // 未设置时跳过这项检查，避免内部工具名出现在公开仓库中。
+  const patterns = (process.env.BLOCKED_PATTERNS || '')
+    .split(',')
+    .map((s) => s.trim())
+    .filter(Boolean);
+  if (patterns.length === 0) {
+    console.log('  ⏭️  未配置 BLOCKED_PATTERNS，跳过敏感词扫描');
+    return;
+  }
+  const BLOCKED = patterns.map((p) => new RegExp(p, 'i'));
   const violations = [];
   for (const [cat] of Object.entries(CATEGORIES)) {
     const dir = path.join(CONTENT_DIR, cat);
